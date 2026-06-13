@@ -85,6 +85,7 @@
       <button data-days="90">90d</button><button data-days="0">All</button>
     </span>
     <div class="pubfilter" id="pubfilter"></div>
+    <label class="opt"><input type="checkbox" id="pvonly"> Perovskite only</label>
     <label class="opt"><input type="checkbox" id="grouped"> Group by journal</label>
   </div>
   <div class="hint">Tip: search several terms at once with commas or <b>AND</b> &mdash; e.g. <code>perovskite, tandem, water splitting</code> finds papers containing all three. Quotes aren't needed; phrases like <code>water splitting</code> stay together.</div>
@@ -146,7 +147,7 @@ function init(){
 
   buildFilters();
 
-  ["q","journal","sort","from","to","grouped"].forEach(id=>
+  ["q","journal","sort","from","to","grouped","pvonly"].forEach(id=>
     el(id).addEventListener(id==="q"?"input":"change",()=>{shown=PAGE;render();}));
   el("quick").querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>{
     const days=+b.dataset.days; el("to").value=""; el("from").value=days?isoDaysAgo(days):""; shown=PAGE; render();}));
@@ -183,6 +184,9 @@ function filtered(){
     if(activePubs.size && !activePubs.has(p.publisher)) return false;
     if(from && (p.date||"")<from) return false;
     if(to && (p.date||"")>to) return false;
+    if(el("pvonly").checked &&
+       !(p.title+" "+p.abstract+" "+(p.keywords||[]).join(" ")).toLowerCase().includes("perovskite"))
+      return false;   // keep only papers that mention perovskite somewhere
     if(terms.length){
       const hay=(p.title+" "+p.abstract+" "+p.journal+" "+(p.authors||[]).join(" ")+" "+(p.keywords||[]).join(" ")).toLowerCase();
       if(!terms.every(t=>hay.includes(t))) return false;   // every term must appear (AND)
