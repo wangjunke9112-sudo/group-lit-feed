@@ -1,0 +1,44 @@
+name: Refresh literature feed
+
+# Runs every day and whenever you click "Run workflow" in the Actions tab.
+on:
+  schedule:
+    - cron: "0 6 * * *"      # 06:00 UTC daily (change to suit your timezone)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write            # allow the action to commit the updated papers.json
+
+concurrency:
+  group: feed-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Harvest feeds
+        run: python aggregate.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/papers.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update feed: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
