@@ -1,44 +1,45 @@
-name: Refresh literature feed
+name: Historical backfill (one-time)
 
-# Runs every day and whenever you click "Run workflow" in the Actions tab.
+# Manual only: go to the Actions tab, pick this workflow, click "Run workflow".
+# It pulls the back-catalogue from Crossref (since start_date in feeds.py) and
+# commits the data files. Re-running is safe; results merge and de-duplicate.
 on:
-  schedule:
-    - cron: "0 6 * * *"      # 06:00 UTC daily (change to suit your timezone)
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (fetch + count only, write nothing)"
+        type: boolean
+        default: false
 
 permissions:
-  contents: write            # allow the action to commit the updated papers.json
-
-concurrency:
-  group: feed-refresh
-  cancel-in-progress: false
+  contents: write
 
 jobs:
-  refresh:
+  backfill:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      - name: Harvest feeds
-        run: python aggregate.py
-
-      - name: Commit updated data
+      - run: pip install -r requirements.txt
+      - name: Run backfill
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python backfill.py --dry-run
+          else
+            python backfill.py
+          fi
+      - name: Commit data
+        if: ${{ inputs.dry_run != true }}
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/papers.json
+          git add data/
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Update feed: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git commit -m "Historical backfill: $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
