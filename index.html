@@ -22,6 +22,8 @@
   h1{margin:0;font-size:21px;letter-spacing:-.01em}
   .sub{color:var(--ink-soft);font-size:13px;font-family:var(--mono);margin-top:6px}
   .sub b{color:var(--ink)}
+  .attrib{margin-top:4px;font-size:12px;color:var(--ink-soft)}
+  .attrib a{color:var(--accent);font-weight:600}
 
   .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:14px}
   .controls input[type=search]{flex:1 1 240px;min-width:180px;padding:8px 11px;border:1px solid var(--line);border-radius:7px;font-size:14px;background:#fff}
@@ -71,6 +73,7 @@
 <body>
 <header><div class="wrap">
   <h1>Group Literature Feed</h1>
+  <div class="attrib">&copy; <span id="yr">2026</span> Junke Wang &middot; <a href="https://lens-laboratory.com" target="_blank" rel="noopener">LENS Laboratory</a> &middot; All rights reserved</div>
   <div class="sub" id="sub">Loading&hellip;</div>
   <div class="controls">
     <input type="search" id="q" placeholder="Search &mdash; combine with commas: perovskite, tandem, water splitting" autocomplete="off" title="Separate terms with a comma or the word AND. A paper must contain every term. Phrases like &quot;water splitting&quot; stay intact.">
@@ -103,6 +106,7 @@ const PAGE=60;
 let ALL=[], MANIFEST={}, shown=PAGE, activePubs=new Set();
 const el=id=>document.getElementById(id);
 const esc=s=>(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+el("yr").textContent=new Date().getFullYear();
 const isoDaysAgo=n=>{const d=new Date();d.setDate(d.getDate()-n);return d.toISOString().slice(0,10);};
 
 function load(){
