@@ -1,27 +1,183 @@
 {
- "generated": "2026-06-13 18:13 UTC",
- "count": 7,
+ "generated": "2026-06-13 19:34 UTC",
+ "count": 13,
  "feeds": [
   {
-   "journal": "Nature Energy",
-   "found": 30,
-   "kept": 2,
-   "error": null
-  },
-  {
-   "journal": "Advanced Materials",
-   "found": 60,
+   "journal": "Nature",
+   "found": 75,
    "kept": 1,
    "error": null
   },
   {
-   "journal": "Science",
-   "found": 25,
+   "journal": "Nature Energy",
+   "found": 8,
+   "kept": 1,
+   "error": null
+  },
+  {
+   "journal": "Nature Materials",
+   "found": 8,
+   "kept": 1,
+   "error": null
+  },
+  {
+   "journal": "Nature Chemistry",
+   "found": 8,
    "kept": 0,
-   "error": "HTTPError: 403 Client Error"
+   "error": null
+  },
+  {
+   "journal": "Nature Synthesis",
+   "found": 8,
+   "kept": 1,
+   "error": null
+  },
+  {
+   "journal": "Nature Sustainability",
+   "found": 8,
+   "kept": 0,
+   "error": null
+  },
+  {
+   "journal": "Nature Photonics",
+   "found": 8,
+   "kept": 1,
+   "error": null
+  },
+  {
+   "journal": "Nature Nanotechnology",
+   "found": 8,
+   "kept": 0,
+   "error": null
+  },
+  {
+   "journal": "Nature Communications",
+   "found": 8,
+   "kept": 0,
+   "error": null
+  },
+  {
+   "journal": "Nature Electronics",
+   "found": 8,
+   "kept": 0,
+   "error": null
+  },
+  {
+   "journal": "Nature Methods",
+   "found": 8,
+   "kept": 0,
+   "error": null
+  },
+  {
+   "journal": "Nature Reviews Materials",
+   "found": 8,
+   "kept": 1,
+   "error": null
+  },
+  {
+   "journal": "Nature Reviews Methods Primers",
+   "found": 8,
+   "kept": 0,
+   "error": null
+  },
+  {
+   "journal": "Journal of the American Chemical Society",
+   "found": 0,
+   "kept": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=jacsat"
+  },
+  {
+   "journal": "Chemical Reviews",
+   "found": 0,
+   "kept": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=chreay"
+  },
+  {
+   "journal": "Accounts of Chemical Research",
+   "found": 0,
+   "kept": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=achre4"
+  },
+  {
+   "journal": "ACS Energy Letters",
+   "found": 0,
+   "kept": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=aelccp"
+  },
+  {
+   "journal": "Chemical Society Reviews",
+   "found": 0,
+   "kept": 0,
+   "error": "SSLError: HTTPSConnectionPool(host='feeds.rsc.org', port=443): Max retries exceeded with url: /rss/CS (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+   "journal": "Energy & Environmental Science",
+   "found": 0,
+   "kept": 0,
+   "error": "SSLError: HTTPSConnectionPool(host='feeds.rsc.org', port=443): Max retries exceeded with url: /rss/EE (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+   "journal": "Advanced Materials",
+   "found": 0,
+   "kept": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/feed/15214095/most-recent"
+  },
+  {
+   "journal": "Advanced Energy Materials",
+   "found": 0,
+   "kept": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/feed/16146840/most-recent"
+  },
+  {
+   "journal": "Advanced Functional Materials",
+   "found": 0,
+   "kept": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/feed/16163028/most-recent"
+  },
+  {
+   "journal": "Angewandte Chemie Int. Ed.",
+   "found": 0,
+   "kept": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/feed/15213773/most-recent"
+  },
+  {
+   "journal": "Science",
+   "found": 0,
+   "kept": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science"
+  },
+  {
+   "journal": "Science Advances",
+   "found": 0,
+   "kept": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv"
+  },
+  {
+   "journal": "Joule",
+   "found": 0,
+   "kept": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.cell.com/joule/inpress.rss"
   }
  ],
  "papers": [
+  {
+   "title": "Bonding-favourable facets reduce trap density in wide-bandgap perovskite films",
+   "link": "https://www.nature.com/articles/s41563-000-0002",
+   "journal": "Nature Materials",
+   "publisher": "Nature",
+   "date": "2026-06-13",
+   "abstract": "Preferential exposure of (100)-oriented surfaces lowers deep-level trap formation and strengthens ligand-based passivation, supporting high-voltage wide-bandgap devices and efficient all-perovskite tandems.",
+   "authors": [
+    "J. Wang",
+    "C. Coworker"
+   ],
+   "doi": "10.1038/s41563-000-0002",
+   "keywords": [
+    "perovskite",
+    "wide-bandgap",
+    "tandem"
+   ]
+  },
   {
    "title": "Halide homogenization suppresses non-radiative recombination in 2-eV bromide-rich perovskites",
    "link": "https://www.nature.com/articles/s41560-000-0001",
@@ -41,24 +197,6 @@
     "non-radiative recombination",
     "multijunction",
     "open-circuit voltage"
-   ]
-  },
-  {
-   "title": "Bonding-favourable facets reduce trap density in wide-bandgap perovskite films",
-   "link": "https://www.nature.com/articles/s41563-000-0002",
-   "journal": "Nature Materials",
-   "publisher": "Nature",
-   "date": "2026-06-13",
-   "abstract": "Preferential exposure of (100)-oriented surfaces lowers deep-level trap formation and strengthens ligand-based passivation, supporting high-voltage wide-bandgap devices and efficient all-perovskite tandems.",
-   "authors": [
-    "J. Wang",
-    "C. Coworker"
-   ],
-   "doi": "10.1038/s41563-000-0002",
-   "keywords": [
-    "perovskite",
-    "wide-bandgap",
-    "tandem"
    ]
   },
   {
@@ -98,6 +236,60 @@
    ]
   },
   {
+   "title": "Trustworthy benchmarks for halide perovskite transistors",
+   "link": "https://www.nature.com/articles/s41578-026-00935-1",
+   "journal": "Nature Reviews Materials",
+   "publisher": "Nature",
+   "date": "2026-06-10",
+   "abstract": "Nature Reviews Materials, Published online: 10 June 2026; doi:10.1038/s41578-026-00935-1 Halide perovskite transistors are advancing rapidly, yet reported mobility values remain highly sensitive to material properties, device physics and measurement protocols. Establishing reliable, reproducible and application-specific mobility metrics is essential for translating laboratory performance into credible device technologies.",
+   "authors": [
+    "Feng Li"
+   ],
+   "doi": "10.1038/s41578-026-00935-1",
+   "keywords": [
+    "halide perovskite",
+    "perovskite"
+   ]
+  },
+  {
+   "title": "In situ nanocrystal confinement for efficient blue perovskite LEDs",
+   "link": "https://www.nature.com/articles/s41586-026-10596-3",
+   "journal": "Nature",
+   "publisher": "Nature",
+   "date": "2026-06-10",
+   "abstract": "Nature, Published online: 10 June 2026; doi:10.1038/s41586-026-10596-3 Efficient blue perovskite light-emitting diodes with an external quantum efficiency of 21.8% are achieved through in situ polymerization-driven nanocrystal confinement.",
+   "authors": [
+    "Shaocheng Liu",
+    "Mike Pols",
+    "Zhongyang Zhang",
+    "Xudan Huang",
+    "Zijian Huang",
+    "Ying Han",
+    "Zhenyu Guo",
+    "Liang Li",
+    "Rundong Fan",
+    "De-Yi Zhang",
+    "Du Ping",
+    "Wenjin Yu",
+    "Jiazhen Gu",
+    "Luxuan Men",
+    "Hao Dong",
+    "Shuxia Tao",
+    "Lifen Wang",
+    "Qi Chen",
+    "Huan Wang",
+    "Huaiyu Xu",
+    "Ling-Dong Sun",
+    "Chun-Hua Yan",
+    "Huanping Zhou"
+   ],
+   "doi": "10.1038/s41586-026-10596-3",
+   "keywords": [
+    "light-emitting",
+    "perovskite"
+   ]
+  },
+  {
    "title": "Perovskite-driven photoelectrochemical water splitting at 17% solar-to-hydrogen",
    "link": "https://www.cell.com/joule/fulltext/000005",
    "journal": "Joule",
@@ -113,6 +305,94 @@
     "tandem",
     "water splitting",
     "water-splitting"
+   ]
+  },
+  {
+   "title": "Crystallinity-guided hybrid conversion for efficient ultrawide-bandgap perovskites in triple-junction solar cells",
+   "link": "https://www.nature.com/articles/s41566-026-01922-2",
+   "journal": "Nature Photonics",
+   "publisher": "Nature",
+   "date": "2026-06-09",
+   "abstract": "Nature Photonics, Published online: 09 June 2026; doi:10.1038/s41566-026-01922-2 Tuning the bromine/iodine ratio in evaporated inorganic framework enables the fabrication of hybrid-deposited ultrawide-bandgap perovskites and their use in perovskite/perovskite/silicon tandem solar cells with a certified power conversion efficiency of 27.53%.",
+   "authors": [
+    "Yu-Duan Wang",
+    "Jingcong Hu",
+    "Ran Luo",
+    "Qilin Zhou",
+    "Shunchang Liu",
+    "Julian A. Steele",
+    "Rui Zhang",
+    "Guiseppe Portale",
+    "Eduardo Solano",
+    "Ming Lin",
+    "Tao Wang",
+    "Yi-Hsun Chen",
+    "Gordon Ochsner",
+    "Wan-Jian Yin",
+    "Xiuxiu Niu",
+    "Yuxin Yao",
+    "Ling Kai Lee",
+    "Zhenrong Jia",
+    "Xinyu Zhang",
+    "Ezra Alvianto",
+    "Xiao Guo",
+    "Zijing Dong",
+    "Xi Wang",
+    "Jinxi Chen",
+    "Yuhui Jiang",
+    "Chao Luo",
+    "Zihao Zhu",
+    "Nengxu Li",
+    "Xinyi Du",
+    "Xueling Zhang",
+    "Yifeng Chen",
+    "Jifan Gao",
+    "Yi Hou"
+   ],
+   "doi": "10.1038/s41566-026-01922-2",
+   "keywords": [
+    "perovskite",
+    "perovskites",
+    "solar cells",
+    "tandem",
+    "triple-junction"
+   ]
+  },
+  {
+   "title": "Author Correction: Stable tin–lead perovskite inks for efficient all-perovskite tandems",
+   "link": "https://www.nature.com/articles/s41560-026-02097-4",
+   "journal": "Nature Energy",
+   "publisher": "Nature",
+   "date": "2026-06-09",
+   "abstract": "Nature Energy, Published online: 09 June 2026; doi:10.1038/s41560-026-02097-4 Author Correction: Stable tin–lead perovskite inks for efficient all-perovskite tandems",
+   "authors": [
+    "Tianshu Ma",
+    "Yue Zhao",
+    "Jingwei Zhu",
+    "Xinxing Yin",
+    "Yidan An",
+    "Cong Chen",
+    "Minghui Shang",
+    "Huayang Wang",
+    "Zhanghao Wu",
+    "Yuhui Liu",
+    "Chen Chen",
+    "Yuxiang Guan",
+    "Jincheng Luo",
+    "Jing Zhang",
+    "Minghui Li",
+    "Chuanxiao Xiao",
+    "Fang Yao",
+    "Qianqian Lin",
+    "Zhenhai Yang",
+    "Guoyang Cao",
+    "Changlei Wang",
+    "Dewei Zhao",
+    "Xiaofeng Li"
+   ],
+   "doi": "10.1038/s41560-026-02097-4",
+   "keywords": [
+    "perovskite"
    ]
   },
   {
@@ -147,6 +427,69 @@
     "perovskite",
     "indoor pv",
     "photovoltaic"
+   ]
+  },
+  {
+   "title": "Ultralow-voltage electrochemical organic light-emitting transistors with pinned and wide lateral recombination",
+   "link": "https://www.nature.com/articles/s41563-026-02613-7",
+   "journal": "Nature Materials",
+   "publisher": "Nature",
+   "date": "2026-06-08",
+   "abstract": "Nature Materials, Published online: 08 June 2026; doi:10.1038/s41563-026-02613-7 Organic light-emitting transistors require a large operating voltage and exhibit a narrow recombination zone, owing to inefficient charge injection. By incorporating an ion transport enhancer into light-emitting polymers, organic light-emitting transistors achieving <3.5-V voltage operation and a maximum recombination zone width of ~267 µm are realized.",
+   "authors": [
+    "Kwan-Nyeong Kim",
+    "Huanyu Zhou",
+    "Dong-Yoon Kim",
+    "Min-Jun Sung",
+    "Woo Jin Jeong",
+    "Dae-Gyo Seo",
+    "Jinwoo Park",
+    "Seungbeom Lee",
+    "Yilei Wu",
+    "Yeongjun Lee",
+    "Kyun Kyu Kim",
+    "Jaeho Park",
+    "Yanxiang Cheng",
+    "Hea-Lim Park",
+    "Zhenan Bao",
+    "Tae-Woo Lee"
+   ],
+   "doi": "10.1038/s41563-026-02613-7",
+   "keywords": [
+    "light-emitting"
+   ]
+  },
+  {
+   "title": "A self-assembled monolayer via rapid and scalable soak coating for perovskite solar cells",
+   "link": "https://www.nature.com/articles/s44160-026-01089-2",
+   "journal": "Nature Synthesis",
+   "publisher": "Nature",
+   "date": "2026-06-04",
+   "abstract": "Nature Synthesis, Published online: 04 June 2026; doi:10.1038/s44160-026-01089-2 The use of self-assembled monolayers (SAMs) as interfacial hole-selective layers is a key technological enabler for perovskite solar cells (PSCs), but scalable fabrication remains challenging. Here a 5-min soak-coating protocol is developed through SAM molecular design and hydrogen-bond-mediated solvent engineering. High-density monolayers are produced, enabling scalable production of high-efficiency, large-area PSCs.",
+   "authors": [
+    "Geping Qu",
+    "Siyuan Cai",
+    "Yuli Tao",
+    "Letian Zhang",
+    "Ying Qiao",
+    "Jie Yang",
+    "Yuanjia Ding",
+    "Jun Fang",
+    "Zicheng Zhang",
+    "Xiaofeng Huang",
+    "Longbin Qiu",
+    "Shi Chen",
+    "Niansheng Xu",
+    "Xu Pan",
+    "Feng Gao",
+    "Alex K.-Y. Jen",
+    "Zong-Xiang Xu"
+   ],
+   "doi": "10.1038/s44160-026-01089-2",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "solar cells"
    ]
   }
  ]
