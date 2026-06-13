@@ -29,7 +29,7 @@ import time
 
 from feeds import FEEDS, KEYWORDS, SETTINGS
 
-DATA_PATH = os.path.join(os.path.dirname(__file__), "data", "papers.json")
+DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 
 
 # ---------------------------------------------------------------------------
@@ -213,48 +213,74 @@ def harvest():
 
 # ---------------------------------------------------------------------------
 # Archive merge / prune
+#
+# Data is stored as one file per year (data/papers-YYYY.json) plus a small
+# data/manifest.json. Splitting by year keeps each file small, keeps the git
+# history clean (past years never change again), and lets the page load fast.
 # ---------------------------------------------------------------------------
-def load_archive(path=DATA_PATH):
-    if not os.path.exists(path):
+def _year_files(data_dir=DATA_DIR):
+    if not os.path.isdir(data_dir):
         return []
-    try:
-        with open(path, "r", encoding="utf-8") as fh:
-            return json.load(fh).get("papers", [])
-    except Exception:
-        return []
+    return [os.path.join(data_dir, f) for f in os.listdir(data_dir)
+            if re.fullmatch(r"papers-\d{4}\.json", f)]
+
+
+def load_archive(data_dir=DATA_DIR):
+    """Load and concatenate papers from every per-year file."""
+    papers = []
+    for path in _year_files(data_dir):
+        try:
+            with open(path, "r", encoding="utf-8") as fh:
+                papers.extend(json.load(fh).get("papers", []))
+        except Exception:
+            pass
+    return papers
 
 
 def _key(rec):
     return (rec.get("doi") or rec.get("link") or rec.get("title", "")).lower()
 
 
-def merge(existing, fresh, days_to_keep):
-    """Merge fresh records into existing, de-dupe, prune old, sort newest first."""
+def merge(existing, fresh, start_date):
+    """Merge fresh into existing, de-dupe, drop pre-start_date, sort newest first."""
     by_key = {}
     for rec in existing + fresh:          # fresh wins on conflict (better metadata)
         by_key[_key(rec)] = rec
-
-    cutoff = (dt.date.today() - dt.timedelta(days=days_to_keep)).isoformat()
-    merged = [r for r in by_key.values() if r.get("date", "") >= cutoff]
+    merged = [r for r in by_key.values() if r.get("date", "") >= start_date]
     merged.sort(key=lambda r: (r.get("date", ""), r.get("journal", "")), reverse=True)
     return merged
 
 
-def write_archive(papers, report, path=DATA_PATH):
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    payload = {
-        "generated": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+def write_archive(papers, report, data_dir=DATA_DIR):
+    """Write one file per year + a manifest. Returns the manifest dict."""
+    os.makedirs(data_dir, exist_ok=True)
+    generated = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+
+    # bucket by calendar year
+    by_year = {}
+    for p in papers:
+        year = (p.get("date") or "")[:4] or "unknown"
+        by_year.setdefault(year, []).append(p)
+
+    for year, items in by_year.items():
+        with open(os.path.join(data_dir, f"papers-{year}.json"), "w", encoding="utf-8") as fh:
+            json.dump({"year": year, "count": len(items), "generated": generated,
+                       "papers": items}, fh, ensure_ascii=False, indent=1)
+
+    manifest = {
+        "generated": generated,
         "count": len(papers),
+        "years": sorted(by_year.keys(), reverse=True),
+        "year_counts": {y: len(v) for y, v in sorted(by_year.items(), reverse=True)},
         "feeds": [
             {"journal": r["journal"], "found": r["found"],
              "kept": r["kept"], "error": r["error"]}
             for r in report
         ],
-        "papers": papers,
     }
-    with open(path, "w", encoding="utf-8") as fh:
-        json.dump(payload, fh, ensure_ascii=False, indent=1)
-    return payload
+    with open(os.path.join(data_dir, "manifest.json"), "w", encoding="utf-8") as fh:
+        json.dump(manifest, fh, ensure_ascii=False, indent=1)
+    return manifest
 
 
 # ---------------------------------------------------------------------------
@@ -264,15 +290,17 @@ def run():
     print(f"Harvesting {len(FEEDS)} feeds ...")
     fresh, report = harvest()
     existing = load_archive()
-    papers = merge(existing, fresh, SETTINGS["days_to_keep"])
-    payload = write_archive(papers, report)
+    start = SETTINGS["start_date"]
+    papers = merge(existing, fresh, start)
+    manifest = write_archive(papers, report)
 
     new_count = len({_key(r) for r in fresh} - {_key(r) for r in existing})
     ok = sum(1 for r in report if r["error"] is None)
     print("-" * 60)
     print(f"Feeds OK: {ok}/{len(report)} | new this run: {new_count} "
-          f"| archive total: {payload['count']}")
-    print(f"Wrote {DATA_PATH}")
+          f"| archive total: {manifest['count']} (since {start})")
+    print("By year: " + ", ".join(f"{y}:{c}" for y, c in manifest["year_counts"].items()))
+    print(f"Wrote {DATA_DIR}/papers-YYYY.json + manifest.json")
 
 
 def selftest():
@@ -298,7 +326,7 @@ def selftest():
 
     # 3. merge / prune / dedupe
     today = dt.date.today().isoformat()
-    old = (dt.date.today() - dt.timedelta(days=999)).isoformat()
+    old = "2025-12-31"   # before the 2026-01-01 start date -> should be pruned
     existing = [
         {"title": "A", "doi": "10.1/a", "link": "x", "date": old, "journal": "J"},
         {"title": "B", "doi": "10.1/b", "link": "y", "date": today, "journal": "J"},
@@ -307,7 +335,7 @@ def selftest():
         {"title": "B-updated", "doi": "10.1/b", "link": "y", "date": today, "journal": "J"},
         {"title": "C", "doi": "10.1/c", "link": "z", "date": today, "journal": "J"},
     ]
-    merged = merge(existing, fresh, days_to_keep=60)
+    merged = merge(existing, fresh, start_date="2026-01-01")
     titles = sorted(r["title"] for r in merged)
     assert titles == ["B-updated", "C"], titles  # A pruned, B replaced, C added
 

@@ -7,227 +7,246 @@
 <style>
   :root{
     --ink:#15181d; --ink-soft:#5a626e; --line:#e3e6ea; --bg:#f7f8fa;
-    --card:#ffffff; --accent:#1f5fbf; --accent-soft:#eaf1fb;
-    --tag-bg:#eef0f3; --tag-ink:#3a4250; --warn:#b4451d; --warn-bg:#fbeee7;
+    --card:#ffffff; --accent:#1f5fbf; --tag-bg:#eef0f3; --tag-ink:#3a4250;
+    --warn:#b4451d; --warn-bg:#fbeee7;
     --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
     --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    /* publisher accents */
     --p-Nature:#0a7d54; --p-ACS:#9b2335; --p-RSC:#1a4d8f;
     --p-Wiley:#5b3a8c; --p-Science:#b8581f; --p-Cell:#0f6e87;
   }
   *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
-       font-size:15px;line-height:1.5}
-  a{color:var(--accent);text-decoration:none}
-  a:hover{text-decoration:underline}
-
-  header{background:var(--card);border-bottom:1px solid var(--line);
-         padding:20px 24px}
-  .wrap{max-width:1040px;margin:0 auto}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.5}
+  a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+  .wrap{max-width:1060px;margin:0 auto}
+  header{background:var(--card);border-bottom:1px solid var(--line);padding:18px 24px}
   h1{margin:0;font-size:21px;letter-spacing:-.01em}
   .sub{color:var(--ink-soft);font-size:13px;font-family:var(--mono);margin-top:6px}
   .sub b{color:var(--ink)}
 
-  .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:16px}
-  .controls input[type=search]{flex:1 1 240px;min-width:200px;padding:8px 11px;
-       border:1px solid var(--line);border-radius:7px;font-size:14px;background:#fff}
-  .controls select{padding:8px 10px;border:1px solid var(--line);border-radius:7px;
-       font-size:13px;background:#fff;font-family:var(--mono)}
+  .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:14px}
+  .controls input[type=search]{flex:1 1 240px;min-width:180px;padding:8px 11px;border:1px solid var(--line);border-radius:7px;font-size:14px;background:#fff}
+  .controls select,.controls input[type=date]{padding:7px 9px;border:1px solid var(--line);border-radius:7px;font-size:13px;background:#fff;font-family:var(--mono);color:var(--ink)}
+  .row2{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin-top:9px;font-size:13px;color:var(--ink-soft)}
   .pubfilter{display:flex;flex-wrap:wrap;gap:6px}
-  .chip{font-family:var(--mono);font-size:11px;padding:5px 9px;border:1px solid var(--line);
-       border-radius:20px;background:#fff;cursor:pointer;user-select:none;color:var(--ink-soft)}
+  .chip{font-family:var(--mono);font-size:11px;padding:5px 9px;border:1px solid var(--line);border-radius:20px;background:#fff;cursor:pointer;user-select:none;color:var(--ink-soft)}
   .chip[aria-pressed=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .quick button{font-family:var(--mono);font-size:11px;padding:5px 8px;border:1px solid var(--line);border-radius:6px;background:#fff;cursor:pointer;color:var(--ink-soft)}
+  .quick button:hover{border-color:var(--accent);color:var(--accent)}
+  label.opt{display:inline-flex;gap:6px;align-items:center;cursor:pointer;font-family:var(--mono);font-size:12px}
 
-  main{max-width:1040px;margin:18px auto 60px;padding:0 24px}
-
-  .status{font-family:var(--mono);font-size:12px;color:var(--ink-soft);
-       background:var(--warn-bg);border:1px solid #f0d9cd;border-radius:8px;
-       padding:9px 12px;margin-bottom:16px;display:none}
+  main{max-width:1060px;margin:16px auto 60px;padding:0 24px}
+  .count{font-family:var(--mono);font-size:12px;color:var(--ink-soft);margin:4px 0 14px}
+  .status{font-family:var(--mono);font-size:12px;color:var(--ink-soft);background:var(--warn-bg);border:1px solid #f0d9cd;border-radius:8px;padding:9px 12px;margin-bottom:14px;display:none}
   .status b{color:var(--warn)}
 
-  .jgroup{margin-bottom:26px}
-  .jhead{display:flex;align-items:center;gap:10px;cursor:pointer;padding:8px 0;
-       border-bottom:2px solid var(--jcolor,var(--line))}
+  .jgroup{margin-bottom:18px}
+  .jhead{display:flex;align-items:center;gap:10px;cursor:pointer;padding:8px 0;border-bottom:2px solid var(--jcolor,var(--line))}
   .jhead h2{margin:0;font-size:16px;font-weight:650}
-  .jhead .cnt{font-family:var(--mono);font-size:12px;color:var(--ink-soft);
-       background:var(--tag-bg);border-radius:12px;padding:2px 9px}
+  .jhead .cnt{font-family:var(--mono);font-size:12px;color:var(--ink-soft);background:var(--tag-bg);border-radius:12px;padding:2px 9px}
   .jhead .caret{margin-left:auto;color:var(--ink-soft);transition:transform .15s}
-  .jgroup.collapsed .caret{transform:rotate(-90deg)}
-  .jgroup.collapsed .jlist{display:none}
+  .jgroup.collapsed .caret{transform:rotate(-90deg)} .jgroup.collapsed .jlist{display:none}
 
-  .paper{background:var(--card);border:1px solid var(--line);
-       border-left:3px solid var(--jcolor,var(--accent));border-radius:8px;
-       padding:13px 15px;margin-top:10px}
+  .paper{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--jcolor,var(--accent));border-radius:8px;padding:12px 15px;margin-top:10px}
   .paper .t{font-size:15px;font-weight:600;line-height:1.35;margin:0}
-  .meta{font-family:var(--mono);font-size:12px;color:var(--ink-soft);margin-top:6px;
-       display:flex;flex-wrap:wrap;gap:4px 12px}
+  .meta{font-family:var(--mono);font-size:12px;color:var(--ink-soft);margin-top:6px;display:flex;flex-wrap:wrap;gap:4px 12px}
   .auth{margin-top:5px;font-size:13px;color:var(--ink-soft)}
   .tags{margin-top:8px;display:flex;flex-wrap:wrap;gap:5px}
-  .tag{font-family:var(--mono);font-size:10.5px;background:var(--tag-bg);
-       color:var(--tag-ink);padding:2px 7px;border-radius:4px}
+  .tag{font-family:var(--mono);font-size:10.5px;background:var(--tag-bg);color:var(--tag-ink);padding:2px 7px;border-radius:4px}
   .actions{margin-top:9px;display:flex;gap:14px;align-items:center;font-size:13px}
-  .more{background:none;border:none;color:var(--accent);cursor:pointer;padding:0;
-       font-size:13px;font-family:var(--sans)}
-  .abs{margin-top:9px;padding-top:9px;border-top:1px dashed var(--line);
-       font-size:13.5px;color:#2b313b;line-height:1.55;display:none}
+  .more{background:none;border:none;color:var(--accent);cursor:pointer;padding:0;font-size:13px;font-family:var(--sans)}
+  .abs{margin-top:9px;padding-top:9px;border-top:1px dashed var(--line);font-size:13.5px;color:#2b313b;line-height:1.55;display:none}
   .abs.open{display:block}
   .abs .doi{font-family:var(--mono);font-size:11.5px;color:var(--ink-soft);margin-top:8px}
 
+  .loadmore{display:block;margin:18px auto 0;padding:10px 20px;border:1px solid var(--line);border-radius:8px;background:#fff;font-size:14px;cursor:pointer;color:var(--accent)}
+  .loadmore:hover{border-color:var(--accent)}
   .empty{text-align:center;color:var(--ink-soft);padding:50px 0;font-size:14px}
   @media (prefers-reduced-motion:reduce){*{transition:none!important}}
   @media (max-width:560px){header,main{padding-left:16px;padding-right:16px}}
 </style>
 </head>
 <body>
-<header>
-  <div class="wrap">
-    <h1>Group Literature Feed</h1>
-    <div class="sub" id="sub">Loading\u2026</div>
-    <div class="controls">
-      <input type="search" id="q" placeholder="Filter by word, author, journal\u2026" autocomplete="off">
-      <select id="window">
-        <option value="0">All dates</option>
-        <option value="7">Last 7 days</option>
-        <option value="14">Last 14 days</option>
-        <option value="30" selected>Last 30 days</option>
-      </select>
-      <div class="pubfilter" id="pubfilter"></div>
-    </div>
+<header><div class="wrap">
+  <h1>Group Literature Feed</h1>
+  <div class="sub" id="sub">Loading&hellip;</div>
+  <div class="controls">
+    <input type="search" id="q" placeholder="Search title, abstract, author, keyword&hellip;" autocomplete="off">
+    <select id="journal"><option value="">All journals</option></select>
+    <select id="sort"><option value="new">Newest first</option><option value="old">Oldest first</option></select>
   </div>
-</header>
+  <div class="row2">
+    <span>Date</span>
+    <input type="date" id="from"> <span>to</span> <input type="date" id="to">
+    <span class="quick" id="quick">
+      <button data-days="7">7d</button><button data-days="30">30d</button>
+      <button data-days="90">90d</button><button data-days="0">All</button>
+    </span>
+    <div class="pubfilter" id="pubfilter"></div>
+    <label class="opt"><input type="checkbox" id="grouped"> Group by journal</label>
+  </div>
+</div></header>
 
-<main>
+<main class="wrap">
   <div class="status" id="status"></div>
-  <div id="feed"><div class="empty">Loading\u2026</div></div>
+  <div class="count" id="count"></div>
+  <div id="feed"><div class="empty">Loading&hellip;</div></div>
 </main>
 
 <script>
-const PUB_ORDER = ["Nature","ACS","RSC","Wiley","Science","Cell"];
-let DATA = {papers:[], feeds:[], generated:""};
-let activePubs = new Set();   // empty = all
-
-const el = id => document.getElementById(id);
-const esc = s => (s||"").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-
-function daysAgo(n){ const d=new Date(); d.setDate(d.getDate()-n); return d.toISOString().slice(0,10); }
+const PUB_ORDER=["Nature","ACS","RSC","Wiley","Science","Cell"];
+const PAGE=60;
+let ALL=[], MANIFEST={}, shown=PAGE, activePubs=new Set();
+const el=id=>document.getElementById(id);
+const esc=s=>(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const isoDaysAgo=n=>{const d=new Date();d.setDate(d.getDate()-n);return d.toISOString().slice(0,10);};
 
 function load(){
-  fetch("data/papers.json?_="+Date.now())
-    .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
-    .then(d => { DATA=d; init(); })
-    .catch(err => {
-      el("feed").innerHTML =
-        '<div class="empty">Could not load <code>data/papers.json</code> ('+esc(String(err))+
-        ').<br>If you are opening this file directly, run <code>python3 -m http.server</code> '+
-        'in this folder and open the localhost address instead.</div>';
-      el("sub").textContent = "No data loaded";
+  fetch("data/manifest.json?_="+Date.now())
+    .then(r=>{if(!r.ok)throw new Error("manifest "+r.status);return r.json();})
+    .then(m=>{
+      MANIFEST=m;
+      const years=(m.years||[]).slice().sort().reverse(); // newest first
+      if(!years.length){init();return;}
+      el("feed").innerHTML='<div class="empty">Loading '+years.length+' year(s) of papers&hellip;</div>';
+      let done=0, started=false;
+      years.forEach(y=>{
+        fetch("data/papers-"+y+".json?_="+Date.now())
+          .then(r=>r.ok?r.json():{papers:[]})
+          .then(f=>{
+            ALL=ALL.concat(f.papers||[]);
+            done++;
+            if(!started){started=true;init();el("sub").insertAdjacentHTML("beforeend",
+                ' <span id="loadnote">\u00b7 loading older years\u2026</span>');}
+            else {buildFilters();render();}           // refresh as later years arrive
+            if(done===years.length){                  // all loaded
+              const note=el("loadnote"); if(note) note.remove();
+            }
+          });
+      });
+    })
+    .catch(err=>{
+      el("feed").innerHTML='<div class="empty">Could not load data ('+esc(String(err))+
+        ').<br>If you opened this file directly, run <code>python3 -m http.server</code> in this folder and open the localhost address.</div>';
+      el("sub").textContent="No data loaded";
     });
 }
 
 function init(){
-  el("sub").innerHTML = "Updated <b>"+esc(DATA.generated||"\u2014")+"</b> &nbsp;\u00b7&nbsp; <b>"+
-                        DATA.papers.length+"</b> papers across "+(DATA.feeds||[]).length+" feeds";
+  el("sub").innerHTML="Updated <b>"+esc(MANIFEST.generated||"\u2014")+"</b> &nbsp;\u00b7&nbsp; <b>"+
+    (MANIFEST.count||ALL.length)+"</b> papers &nbsp;\u00b7&nbsp; "+(MANIFEST.years||[]).join(", ");
 
-  // feed-error notice
-  const errs = (DATA.feeds||[]).filter(f => f.error);
-  if(errs.length){
-    el("status").style.display="block";
-    el("status").innerHTML = "<b>"+errs.length+" feed(s) did not update this run:</b> " +
-      errs.map(f => esc(f.journal)).join(", ") +
-      ". They will be retried at the next refresh.";
-  }
+  const errs=(MANIFEST.feeds||[]).filter(f=>f.error);
+  if(errs.length){el("status").style.display="block";
+    el("status").innerHTML="<b>"+errs.length+" feed(s) did not update this run:</b> "+
+      errs.map(f=>esc(f.journal)).join(", ")+". They are retried at the next refresh.";}
 
-  // publisher filter chips
-  const pubs = PUB_ORDER.filter(p => DATA.papers.some(x => x.publisher===p));
-  el("pubfilter").innerHTML = pubs.map(p =>
-    '<span class="chip" role="button" aria-pressed="false" data-pub="'+p+'">'+esc(p)+'</span>').join("");
-  el("pubfilter").querySelectorAll(".chip").forEach(c =>
-    c.addEventListener("click", () => {
-      const p=c.dataset.pub, on=c.getAttribute("aria-pressed")==="true";
-      c.setAttribute("aria-pressed", String(!on));
-      on ? activePubs.delete(p) : activePubs.add(p);
-      render();
-    }));
+  buildFilters();
 
-  el("q").addEventListener("input", render);
-  el("window").addEventListener("change", render);
+  ["q","journal","sort","from","to","grouped"].forEach(id=>
+    el(id).addEventListener(id==="q"?"input":"change",()=>{shown=PAGE;render();}));
+  el("quick").querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>{
+    const days=+b.dataset.days; el("to").value=""; el("from").value=days?isoDaysAgo(days):""; shown=PAGE; render();}));
+
   render();
 }
 
-function render(){
-  const q = el("q").value.trim().toLowerCase();
-  const win = parseInt(el("window").value,10);
-  const cutoff = win>0 ? daysAgo(win) : "";
+function buildFilters(){
+  // journal dropdown (preserve current choice)
+  const cur=el("journal").value;
+  const journals=[...new Set(ALL.map(p=>p.journal))].sort();
+  el("journal").innerHTML='<option value="">All journals</option>'+
+    journals.map(j=>'<option value="'+esc(j)+'"'+(j===cur?" selected":"")+'>'+esc(j)+'</option>').join("");
+  // publisher chips (preserve pressed state)
+  const pubs=PUB_ORDER.filter(p=>ALL.some(x=>x.publisher===p));
+  el("pubfilter").innerHTML=pubs.map(p=>'<span class="chip" role="button" aria-pressed="'+
+    (activePubs.has(p)?"true":"false")+'" data-pub="'+p+'">'+esc(p)+'</span>').join("");
+  el("pubfilter").querySelectorAll(".chip").forEach(c=>c.addEventListener("click",()=>{
+    const p=c.dataset.pub,on=c.getAttribute("aria-pressed")==="true";
+    c.setAttribute("aria-pressed",String(!on));on?activePubs.delete(p):activePubs.add(p);render();}));
+}
 
-  let rows = DATA.papers.filter(p => {
-    if(cutoff && (p.date||"") < cutoff) return false;
+function filtered(){
+  const q=el("q").value.trim().toLowerCase();
+  const j=el("journal").value, from=el("from").value, to=el("to").value;
+  let rows=ALL.filter(p=>{
+    if(j && p.journal!==j) return false;
     if(activePubs.size && !activePubs.has(p.publisher)) return false;
-    if(q){
-      const hay = (p.title+" "+p.abstract+" "+p.journal+" "+(p.authors||[]).join(" ")+" "+
-                   (p.keywords||[]).join(" ")).toLowerCase();
-      if(!hay.includes(q)) return false;
-    }
-    return true;
-  });
+    if(from && (p.date||"")<from) return false;
+    if(to && (p.date||"")>to) return false;
+    if(q){const hay=(p.title+" "+p.abstract+" "+p.journal+" "+(p.authors||[]).join(" ")+" "+(p.keywords||[]).join(" ")).toLowerCase();
+      if(!hay.includes(q)) return false;}
+    return true;});
+  const dir=el("sort").value==="old"?1:-1;
+  rows.sort((a,b)=>dir*((a.date||"").localeCompare(b.date||"")));
+  return rows;
+}
 
-  if(!rows.length){
-    el("feed").innerHTML = '<div class="empty">No papers match the current filters.</div>';
-    return;
-  }
+function render(){
+  const rows=filtered();
+  const grouped=el("grouped").checked;
+  el("count").textContent = rows.length
+    ? "Showing "+(grouped?rows.length:Math.min(shown,rows.length))+" of "+rows.length+" matching papers"
+    : "";
+  if(!rows.length){el("feed").innerHTML='<div class="empty">No papers match the current filters.</div>';return;}
+  grouped?renderGrouped(rows):renderFlat(rows);
+}
 
-  // group by journal, journals ordered by most recent paper
-  const groups = {};
-  rows.forEach(p => (groups[p.journal] ||= []).push(p));
-  const journals = Object.keys(groups).sort((a,b) =>
-    (groups[b][0].date||"").localeCompare(groups[a][0].date||""));
+function renderFlat(rows){
+  const page=rows.slice(0,shown);
+  el("feed").innerHTML=page.map(card).join("")+
+    (rows.length>shown?'<button class="loadmore" id="loadmore">Load more ('+(rows.length-shown)+' remaining)</button>':"");
+  wireCards();
+  const lm=el("loadmore"); if(lm) lm.addEventListener("click",()=>{shown+=PAGE;render();});
+}
 
-  el("feed").innerHTML = journals.map(j => {
-    const items = groups[j].sort((a,b)=>(b.date||"").localeCompare(a.date||""));
-    const color = "var(--p-"+items[0].publisher+")";
-    return '<section class="jgroup" style="--jcolor:'+color+'">'+
-      '<div class="jhead" role="button" tabindex="0">'+
-        '<h2>'+esc(j)+'</h2><span class="cnt">'+items.length+'</span>'+
-        '<span class="caret">\u25be</span></div>'+
-      '<div class="jlist">'+ items.map(card).join("") +'</div>'+
-    '</section>';
+function renderGrouped(rows){
+  const groups={};
+  rows.forEach(p=>(groups[p.journal]||=[]).push(p));
+  const journals=Object.keys(groups).sort((a,b)=>(groups[b][0].date||"").localeCompare(groups[a][0].date||""));
+  el("feed").innerHTML=journals.map((j,idx)=>{
+    const items=groups[j], color="var(--p-"+items[0].publisher+")";
+    // collapsed by default except the first 2 sections, so the DOM stays light
+    const collapsed=idx>=2?" collapsed":"";
+    return '<section class="jgroup'+collapsed+'" style="--jcolor:'+color+'" data-journal="'+esc(j)+'">'+
+      '<div class="jhead" role="button" tabindex="0"><h2>'+esc(j)+'</h2>'+
+        '<span class="cnt">'+items.length+'</span><span class="caret">\u25be</span></div>'+
+      '<div class="jlist">'+(collapsed?"":items.map(card).join(""))+'</div></section>';
   }).join("");
-
-  // collapse toggles
-  el("feed").querySelectorAll(".jhead").forEach(h => {
-    const toggle = () => h.parentElement.classList.toggle("collapsed");
-    h.addEventListener("click", toggle);
-    h.addEventListener("keydown", e => { if(e.key==="Enter"||e.key===" "){e.preventDefault();toggle();} });
+  // lazy render on expand
+  el("feed").querySelectorAll(".jhead").forEach(h=>{
+    const sec=h.parentElement;
+    const toggle=()=>{
+      const wasCollapsed=sec.classList.contains("collapsed");
+      sec.classList.toggle("collapsed");
+      if(wasCollapsed){const list=sec.querySelector(".jlist");
+        if(!list.dataset.rendered){list.innerHTML=groups[sec.dataset.journal].map(card).join("");list.dataset.rendered="1";wireCards(list);}}
+    };
+    h.addEventListener("click",toggle);
+    h.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();toggle();}});
   });
-  // read-more toggles
-  el("feed").querySelectorAll(".more").forEach(b =>
-    b.addEventListener("click", () => {
-      const abs = b.closest(".paper").querySelector(".abs");
-      const open = abs.classList.toggle("open");
-      b.textContent = open ? "Hide abstract" : "Read more";
-    }));
+  wireCards();
+}
+
+function wireCards(root){
+  (root||el("feed")).querySelectorAll(".more").forEach(b=>{
+    if(b.dataset.wired)return; b.dataset.wired="1";
+    b.addEventListener("click",()=>{const abs=b.closest(".paper").querySelector(".abs");
+      const open=abs.classList.toggle("open"); b.textContent=open?"Hide abstract":"Read more";});});
 }
 
 function card(p){
-  const tags = (p.keywords||[]).map(k => '<span class="tag">'+esc(k)+'</span>').join("");
-  const authors = (p.authors||[]).length
-    ? '<div class="auth">'+esc(p.authors.slice(0,8).join(", ")+(p.authors.length>8?" et al.":""))+'</div>' : "";
-  const abstract = p.abstract
-    ? '<button class="more">Read more</button>' : "";
-  const absBlock = p.abstract
-    ? '<div class="abs">'+esc(p.abstract)+
-        (p.doi && p.doi.startsWith("10.") ? '<div class="doi">DOI: '+esc(p.doi)+'</div>' : '')+
-      '</div>' : "";
+  const tags=(p.keywords||[]).map(k=>'<span class="tag">'+esc(k)+'</span>').join("");
+  const authors=(p.authors||[]).length?'<div class="auth">'+esc(p.authors.slice(0,8).join(", ")+(p.authors.length>8?" et al.":""))+'</div>':"";
+  const more=p.abstract?'<button class="more">Read more</button>':"";
+  const absBlock=p.abstract?'<div class="abs">'+esc(p.abstract)+
+    (p.doi&&p.doi.startsWith("10.")?'<div class="doi">DOI: '+esc(p.doi)+'</div>':'')+'</div>':"";
   return '<article class="paper">'+
     '<p class="t"><a href="'+esc(p.link)+'" target="_blank" rel="noopener">'+esc(p.title)+'</a></p>'+
-    '<div class="meta"><span>'+esc(p.date||"")+'</span><span>'+esc(p.publisher)+'</span></div>'+
-    authors +
-    (tags ? '<div class="tags">'+tags+'</div>' : '') +
-    '<div class="actions">'+abstract+
-       '<a href="'+esc(p.link)+'" target="_blank" rel="noopener">Open paper \u2197</a></div>'+
-    absBlock +
-  '</article>';
+    '<div class="meta"><span>'+esc(p.date||"")+'</span><span>'+esc(p.journal)+'</span><span>'+esc(p.publisher)+'</span></div>'+
+    authors+(tags?'<div class="tags">'+tags+'</div>':'')+
+    '<div class="actions">'+more+'<a href="'+esc(p.link)+'" target="_blank" rel="noopener">Open paper \u2197</a></div>'+
+    absBlock+'</article>';
 }
-
 load();
 </script>
 </body>

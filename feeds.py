@@ -58,6 +58,7 @@ FEEDS = [
 
     # ---- Cell Press -------------------------------------------------------
     ("Joule",                           "Cell",    "https://www.cell.com/joule/inpress.rss"),
+    ("Matter",                          "Cell",    "https://www.cell.com/matter/inpress.rss"),
 ]
 
 # ---------------------------------------------------------------------------
@@ -103,10 +104,15 @@ SETTINGS = {
     # Terms that count as "perovskite-family" for the option above.
     "perovskite_terms": ["perovskite", "perovskites"],
 
-    # Drop papers older than this many days from the archive.
-    "days_to_keep": 60,
+    # Keep every paper published on/after this date. Nothing is auto-deleted.
+    # This is also the date the historical backfill (backfill.py) reaches back to.
+    "start_date": "2020-01-01",
 
-    # Max characters of abstract to store per paper (keeps papers.json small).
+    # Crossref is used for the one-time historical backfill. Putting a real email
+    # here joins Crossref's faster "polite pool" and is good etiquette. Optional.
+    "crossref_mailto": "your-email@example.com",
+
+    # Max characters of abstract to store per paper (keeps the data files small).
     "abstract_max_chars": 1600,
 
     # Network politeness.
@@ -117,3 +123,50 @@ SETTINGS = {
         "GroupLitFeed/1.0 (research group RSS aggregator)"
     ),
 }
+
+
+# ---------------------------------------------------------------------------
+# 4. ISSNs  (used ONLY by the historical backfill, backfill.py)
+# Each journal maps to its ISSN(s). Crossref matches any of them. Both print
+# and electronic ISSNs are listed where known, for maximum coverage.
+# Run `python backfill.py --verify-issns` to confirm each one resolves to the
+# right journal before doing the full backfill.
+# ---------------------------------------------------------------------------
+ISSNS = {
+    "Nature":                                   ["0028-0836", "1476-4687"],
+    "Nature Energy":                            ["2058-7546"],
+    "Nature Materials":                         ["1476-1122", "1476-4660"],
+    "Nature Chemistry":                         ["1755-4330", "1755-4349"],
+    "Nature Synthesis":                         ["2731-0582"],
+    "Nature Sustainability":                    ["2398-9629"],
+    "Nature Photonics":                         ["1749-4885", "1749-4893"],
+    "Nature Nanotechnology":                    ["1748-3387", "1748-3395"],
+    "Nature Communications":                    ["2041-1723"],
+    "Nature Electronics":                       ["2520-1131"],
+    "Nature Methods":                           ["1548-7091", "1548-7105"],
+    "Nature Reviews Materials":                 ["2058-8437"],
+    "Nature Reviews Methods Primers":           ["2662-8449"],
+    "Journal of the American Chemical Society": ["0002-7863", "1520-5126"],
+    "Chemical Reviews":                         ["0009-2665", "1520-6890"],
+    "Accounts of Chemical Research":            ["0001-4842", "1520-4898"],
+    "ACS Energy Letters":                       ["2380-8195"],
+    "Chemical Society Reviews":                 ["0306-0012", "1460-4744"],
+    "Energy & Environmental Science":           ["1754-5692", "1754-5706"],
+    "Advanced Materials":                       ["0935-9648", "1521-4095"],
+    "Advanced Energy Materials":                ["1614-6832", "1614-6840"],
+    "Advanced Functional Materials":            ["1616-301X", "1616-3028"],
+    "Angewandte Chemie Int. Ed.":               ["1433-7851", "1521-3773"],
+    "Science":                                  ["0036-8075", "1095-9203"],
+    "Science Advances":                         ["2375-2548"],
+    "Joule":                                    ["2542-4351", "2542-4785"],
+    "Matter":                                   ["2590-2385", "2590-2393"],
+}
+
+# Seed terms the backfill sends to Crossref to surface candidate papers. Each
+# result is then re-checked against the full KEYWORDS list above, so these only
+# need to cast a wide net over the field (not match every keyword variant).
+CORE_QUERIES = [
+    "perovskite", "photovoltaic", "solar cell", "tandem",
+    "photodetector", "water splitting", "CO2 reduction",
+    "ion migration", "scintillator", "indoor photovoltaic",
+]
