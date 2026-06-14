@@ -115,7 +115,7 @@
     <label class="opt"><input type="checkbox" id="pvonly" checked> Perovskite only</label>
     <label class="opt"><input type="checkbox" id="grouped" checked> Group by journal</label>
   </div>
-  <div class="hint">Tip: combine terms with commas or <b>AND</b> (all must match); use <b>OR</b> for alternatives within a slot. e.g. <code>perovskite, tandem OR multijunction</code> finds papers with perovskite <b>and</b> (tandem <b>or</b> multijunction). Phrases like <code>water splitting</code> stay together.</div>
+  <div class="hint">Tip: combine terms with commas or <b>AND</b> (all must match); use <b>OR</b> for alternatives within a slot. e.g. <code>perovskite, tandem OR multijunction</code>. Minor variants match automatically &mdash; <code>perovskite</code> also finds <i>perovskites</i>, and <code>wide-bandgap</code> finds <i>wide bandgap</i> &mdash; so you rarely need to list them.</div>
 </div></header>
 
 <main class="wrap">
@@ -244,6 +244,27 @@ function parseQuery(raw){
     .filter(g=>g.length);
 }
 
+// Variant-tolerant matching: ignore case, treat dashes/spaces as interchangeable,
+// and tolerate a trailing plural "s" -- so "perovskite" finds "perovskites",
+// "wide-bandgap" finds "wide bandgap", "multijunction" finds "multi-junction".
+function normSpace(s){ return s.toLowerCase().replace(/[\u2010-\u2015\-]/g," ").replace(/\s+/g," ").trim(); }
+function compact(s){ return s.toLowerCase().replace(/[\u2010-\u2015\-\s]/g,""); }
+function ensureHay(p){
+  if(p._hn===undefined){
+    const raw=p.title+" "+p.abstract+" "+p.journal+" "+(p.authors||[]).join(" ")+" "+(p.keywords||[]).join(" ");
+    p._hn=normSpace(raw); p._hc=compact(raw);
+  }
+  return p;
+}
+function termHit(p,term){
+  const tn=normSpace(term), tc=compact(term);
+  if(!tn) return false;
+  if(p._hn.includes(tn) || p._hc.includes(tc)) return true;
+  if(tn.endsWith("s") && tn.length>3 &&            // tolerate a typed plural
+     (p._hn.includes(tn.slice(0,-1)) || p._hc.includes(tc.slice(0,-1)))) return true;
+  return false;
+}
+
 function filtered(){
   const groups=parseQuery(el("q").value);
   const j=el("journal").value, from=el("from").value, to=el("to").value;
@@ -260,9 +281,9 @@ function filtered(){
        !(p.title+" "+p.abstract+" "+(p.keywords||[]).join(" ")).toLowerCase().includes("perovskite"))
       return false;   // keep only papers that mention perovskite somewhere
     if(groups.length){
-      const hay=(p.title+" "+p.abstract+" "+p.journal+" "+(p.authors||[]).join(" ")+" "+(p.keywords||[]).join(" ")).toLowerCase();
+      ensureHay(p);
       // every group must match (AND); within a group any alternative matches (OR)
-      if(!groups.every(alts=>alts.some(t=>hay.includes(t)))) return false;
+      if(!groups.every(alts=>alts.some(t=>termHit(p,t)))) return false;
     }
     return true;});
   const dir=el("sort").value==="old"?1:-1;
