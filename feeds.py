@@ -35,6 +35,8 @@ FEEDS = [
     ("Nature Methods",                  "Nature",  "https://www.nature.com/nmeth.rss"),
     ("Nature Reviews Materials",        "Nature",  "https://www.nature.com/natrevmats.rss"),
     ("Nature Reviews Methods Primers",  "Nature",  "https://www.nature.com/nrmp.rss"),
+    ("Nature Physics",                  "Nature",  "https://www.nature.com/nphys.rss"),
+    ("Nature Reviews Chemistry",        "Nature",  "https://www.nature.com/natrevchem.rss"),
 
     # ---- ACS --------------------------------------------------------------
     ("Journal of the American Chemical Society", "ACS", "https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=jacsat"),
@@ -146,6 +148,8 @@ ISSNS = {
     "Nature Methods":                           ["1548-7091", "1548-7105"],
     "Nature Reviews Materials":                 ["2058-8437"],
     "Nature Reviews Methods Primers":           ["2662-8449"],
+    "Nature Physics":                           ["1745-2473", "1745-2481"],
+    "Nature Reviews Chemistry":                 ["2397-3358"],
     "Journal of the American Chemical Society": ["0002-7863", "1520-5126"],
     "Chemical Reviews":                         ["0009-2665", "1520-6890"],
     "Accounts of Chemical Research":            ["0001-4842", "1520-4898"],

@@ -86,6 +86,7 @@
     <span>Date</span>
     <input type="date" id="from"> <span>to</span> <input type="date" id="to">
     <span class="quick" id="quick">
+      <button data-days="7">7d</button>
       <button data-days="30">30d</button>
       <button data-days="90">90d</button>
       <button data-days="365">1y</button>
@@ -95,8 +96,8 @@
     </span>
     <select id="yearjump"><option value="">Jump to year&hellip;</option></select>
     <div class="pubfilter" id="pubfilter"></div>
-    <label class="opt"><input type="checkbox" id="pvonly"> Perovskite only</label>
-    <label class="opt"><input type="checkbox" id="grouped"> Group by journal</label>
+    <label class="opt"><input type="checkbox" id="pvonly" checked> Perovskite only</label>
+    <label class="opt"><input type="checkbox" id="grouped" checked> Group by journal</label>
   </div>
   <div class="hint">Tip: search several terms at once with commas or <b>AND</b> &mdash; e.g. <code>perovskite, tandem, water splitting</code> finds papers containing all three. Quotes aren't needed; phrases like <code>water splitting</code> stay together.</div>
 </div></header>
@@ -245,8 +246,8 @@ function renderGrouped(rows){
   const journals=Object.keys(groups).sort((a,b)=>(groups[b][0].date||"").localeCompare(groups[a][0].date||""));
   el("feed").innerHTML=journals.map((j,idx)=>{
     const items=groups[j], color="var(--p-"+items[0].publisher+")";
-    // collapsed by default except the first 2 sections, so the DOM stays light
-    const collapsed=idx>=2?" collapsed":"";
+    // all sections folded on load; cards render lazily when a section is opened
+    const collapsed=" collapsed";
     return '<section class="jgroup'+collapsed+'" style="--jcolor:'+color+'" data-journal="'+esc(j)+'">'+
       '<div class="jhead" role="button" tabindex="0"><h2>'+esc(j)+'</h2>'+
         '<span class="cnt">'+items.length+'</span><span class="caret">\u25be</span></div>'+
