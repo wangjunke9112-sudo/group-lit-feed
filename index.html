@@ -87,7 +87,7 @@
   <div class="attrib">&copy; <span id="yr">2026</span> Junke Wang &middot; <a href="https://lens-laboratory.com" target="_blank" rel="noopener">LENS Laboratory</a> &middot; All rights reserved</div>
   <div class="sub" id="sub">Loading&hellip;</div>
   <div class="controls">
-    <input type="search" id="q" placeholder="Search &mdash; combine with commas: perovskite, tandem, water splitting" autocomplete="off" title="Separate terms with a comma or the word AND. A paper must contain every term. Phrases like &quot;water splitting&quot; stay intact.">
+    <input type="search" id="q" placeholder="Search &mdash; e.g. perovskite, tandem OR multijunction, water splitting" autocomplete="off" title="Comma or AND = all must match. OR = alternatives within one slot. Phrases stay intact. Example: perovskite, tandem OR multijunction = perovskite AND (tandem OR multijunction).">
     <select id="journal"><option value="">All journals</option></select>
     <select id="sort"><option value="new">Newest first</option><option value="old">Oldest first</option></select>
   </div>
@@ -115,7 +115,7 @@
     <label class="opt"><input type="checkbox" id="pvonly" checked> Perovskite only</label>
     <label class="opt"><input type="checkbox" id="grouped" checked> Group by journal</label>
   </div>
-  <div class="hint">Tip: search several terms at once with commas or <b>AND</b> &mdash; e.g. <code>perovskite, tandem, water splitting</code> finds papers containing all three. Quotes aren't needed; phrases like <code>water splitting</code> stay together.</div>
+  <div class="hint">Tip: combine terms with commas or <b>AND</b> (all must match); use <b>OR</b> for alternatives within a slot. e.g. <code>perovskite, tandem OR multijunction</code> finds papers with perovskite <b>and</b> (tandem <b>or</b> multijunction). Phrases like <code>water splitting</code> stay together.</div>
 </div></header>
 
 <main class="wrap">
@@ -234,14 +234,18 @@ function buildFilters(){
     c.setAttribute("aria-pressed",String(!on));on?activePubs.delete(p):activePubs.add(p);render();}));
 }
 
-function parseTerms(raw){
-  // split on commas or a standalone "AND" (any case); keep phrases like
-  // "water splitting" intact (we do NOT split on spaces)
-  return raw.split(/\s*,\s*|\s+AND\s+/i).map(s=>s.trim().toLowerCase()).filter(Boolean);
+function parseQuery(raw){
+  // Top level: AND-groups separated by comma or a standalone "AND".
+  // Within a group: OR-alternatives separated by a standalone "OR".
+  // Phrases (e.g. "water splitting") stay intact -- we never split on spaces.
+  return raw.split(/\s*,\s*|\s+AND\s+/i)
+    .map(g=>g.trim()).filter(Boolean)
+    .map(g=>g.split(/\s+OR\s+/i).map(s=>s.trim().toLowerCase()).filter(Boolean))
+    .filter(g=>g.length);
 }
 
 function filtered(){
-  const terms=parseTerms(el("q").value);
+  const groups=parseQuery(el("q").value);
   const j=el("journal").value, from=el("from").value, to=el("to").value;
   let rows=ALL.filter(p=>{
     if(j && p.journal!==j) return false;
@@ -255,9 +259,10 @@ function filtered(){
     if(el("pvonly").checked &&
        !(p.title+" "+p.abstract+" "+(p.keywords||[]).join(" ")).toLowerCase().includes("perovskite"))
       return false;   // keep only papers that mention perovskite somewhere
-    if(terms.length){
+    if(groups.length){
       const hay=(p.title+" "+p.abstract+" "+p.journal+" "+(p.authors||[]).join(" ")+" "+(p.keywords||[]).join(" ")).toLowerCase();
-      if(!terms.every(t=>hay.includes(t))) return false;   // every term must appear (AND)
+      // every group must match (AND); within a group any alternative matches (OR)
+      if(!groups.every(alts=>alts.some(t=>hay.includes(t)))) return false;
     }
     return true;});
   const dir=el("sort").value==="old"?1:-1;
