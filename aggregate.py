@@ -85,8 +85,50 @@ def is_relevant(text):
 # ---------------------------------------------------------------------------
 # Entry normalisation
 # ---------------------------------------------------------------------------
+def pick_crossref_date(item):
+    """Most precise ISO date from a Crossref work item (shared with backfill.py).
+
+    Prefers the online publication date, then the most granular field available,
+    and falls back to Crossref's 'created' timestamp (always a full date) rather
+    than padding a bare year to January 1st. This is what keeps just-accepted /
+    early-access papers from being dated to YYYY-01-01.
+    """
+    order = ("published-online", "published", "issued", "published-print", "created")
+    rank = {k: i for i, k in enumerate(order)}
+    best = None  # (granularity, -priority, parts)
+    for key in order:
+        parts = (item.get(key) or {}).get("date-parts") or []
+        if parts and parts[0] and parts[0][0]:
+            cand = (len(parts[0]), -rank[key], parts[0])
+            if best is None or cand[:2] > best[:2]:
+                best = cand
+    if best is None:
+        return ""
+    p = best[2]
+    y, m, d = p[0], (p[1] if len(p) > 1 else 1), (p[2] if len(p) > 2 else 1)
+    return f"{y:04d}-{m:02d}-{d:02d}"
+
+
+def crossref_date_for_doi(doi):
+    """Look up one DOI in Crossref and return its best date, or '' on any failure."""
+    if not doi or not doi.startswith("10."):
+        return ""
+    try:
+        import requests
+        mail = SETTINGS.get("crossref_mailto", "")
+        params = {"mailto": mail} if mail and "example.com" not in mail else {}
+        r = requests.get("https://api.crossref.org/works/" + doi,
+                         params=params, headers={"User-Agent": SETTINGS["user_agent"]},
+                         timeout=15)
+        if r.status_code == 200:
+            return pick_crossref_date(r.json().get("message", {}))
+    except Exception:
+        pass
+    return ""
+
+
 def _entry_date(entry):
-    """Best-effort ISO date (YYYY-MM-DD) for an entry."""
+    """ISO date from the RSS entry itself, or '' if the feed gave no usable date."""
     for key in ("published_parsed", "updated_parsed", "created_parsed"):
         value = entry.get(key)
         if value:
@@ -94,7 +136,7 @@ def _entry_date(entry):
                 return time.strftime("%Y-%m-%d", value)
             except Exception:
                 pass
-    return dt.date.today().isoformat()
+    return ""
 
 
 def _entry_doi(entry, link):
@@ -154,15 +196,21 @@ def normalise_entry(entry, journal, publisher):
     if not keep:
         return None
 
+    doi = _entry_doi(entry, link)
+    # Prefer the feed's own date (the real online date for early-access papers).
+    # If the feed gave none, ask Crossref before falling back to today, so a new
+    # accepted/early-access paper still gets an accurate, stable date.
+    date = _entry_date(entry) or crossref_date_for_doi(doi) or dt.date.today().isoformat()
+
     return {
         "title": title,
         "link": link,
         "journal": journal,
         "publisher": publisher,
-        "date": _entry_date(entry),
+        "date": date,
         "abstract": abstract,
         "authors": _entry_authors(entry),
-        "doi": _entry_doi(entry, link),
+        "doi": doi,
         "keywords": hits,
     }
 

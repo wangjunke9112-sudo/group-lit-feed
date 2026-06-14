@@ -27,7 +27,8 @@ import requests
 
 from feeds import ISSNS, CORE_QUERIES, SETTINGS
 # reuse the daily job's helpers so filtering/merging behave identically
-from aggregate import clean_text, is_relevant, merge, load_archive, write_archive, _key
+from aggregate import (clean_text, is_relevant, merge, load_archive,
+                       write_archive, _key, pick_crossref_date)
 
 CROSSREF = "https://api.crossref.org/works"
 JOURNALS = "https://api.crossref.org/journals/{}"
@@ -62,30 +63,8 @@ def _mailto_param():
 # Crossref record -> our flat schema
 # ---------------------------------------------------------------------------
 def _date(item):
-    """Best ISO date for a Crossref item.
-
-    Advance/accepted articles often report 'issued'/'published' as a bare YEAR,
-    which previously padded to YYYY-01-01. We instead pick the most *granular*
-    date available (full Y-M-D beats Y-M beats Y), preferring the online date,
-    and fall back to Crossref's 'created' timestamp (always a full date, set at
-    DOI registration ~ online publication) so we never invent January 1st.
-    """
-    order = ("published-online", "published", "issued", "published-print", "created")
-    rank = {k: i for i, k in enumerate(order)}
-    best = None  # (granularity, -priority, [y,m,d])
-    for key in order:
-        parts = (item.get(key) or {}).get("date-parts") or []
-        if parts and parts[0] and parts[0][0]:
-            cand = (len(parts[0]), -rank[key], parts[0])
-            if best is None or cand[:2] > best[:2]:
-                best = cand
-    if best is None:
-        return ""
-    p = best[2]
-    y = p[0]
-    m = p[1] if len(p) > 1 else 1
-    d = p[2] if len(p) > 2 else 1
-    return f"{y:04d}-{m:02d}-{d:02d}"
+    """Most precise ISO date for a Crossref item (shared logic, see aggregate.py)."""
+    return pick_crossref_date(item)
 
 
 def _journal_and_pub(item):
