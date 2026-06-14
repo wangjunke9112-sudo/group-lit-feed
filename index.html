@@ -27,7 +27,7 @@
 
   .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:14px}
   .controls input[type=search]{flex:1 1 240px;min-width:180px;padding:8px 11px;border:1px solid var(--line);border-radius:7px;font-size:14px;background:#fff}
-  .controls select,.controls input[type=date]{padding:7px 9px;border:1px solid var(--line);border-radius:7px;font-size:13px;background:#fff;font-family:var(--mono);color:var(--ink)}
+  .controls select,.controls input[type=date],.row2 select,.row2 input[type=date]{padding:7px 9px;border:1px solid var(--line);border-radius:7px;font-size:13px;background:#fff;font-family:var(--mono);color:var(--ink)}
   .row2{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin-top:9px;font-size:13px;color:var(--ink-soft)}
   .pubfilter{display:flex;flex-wrap:wrap;gap:6px}
   .chip{font-family:var(--mono);font-size:11px;padding:5px 9px;border:1px solid var(--line);border-radius:20px;background:#fff;cursor:pointer;user-select:none;color:var(--ink-soft)}
@@ -86,9 +86,14 @@
     <span>Date</span>
     <input type="date" id="from"> <span>to</span> <input type="date" id="to">
     <span class="quick" id="quick">
-      <button data-days="7">7d</button><button data-days="30">30d</button>
-      <button data-days="90">90d</button><button data-days="0">All</button>
+      <button data-days="30">30d</button>
+      <button data-days="90">90d</button>
+      <button data-days="365">1y</button>
+      <button data-days="1095">3y</button>
+      <button data-days="1825">5y</button>
+      <button data-days="0">All</button>
     </span>
+    <select id="yearjump"><option value="">Jump to year&hellip;</option></select>
     <div class="pubfilter" id="pubfilter"></div>
     <label class="opt"><input type="checkbox" id="pvonly"> Perovskite only</label>
     <label class="opt"><input type="checkbox" id="grouped"> Group by journal</label>
@@ -119,9 +124,12 @@ function load(){
       const years=(m.years||[]).slice().sort().reverse(); // newest first
       if(!years.length){init();return;}
       el("feed").innerHTML='<div class="empty">Loading '+years.length+' year(s) of papers&hellip;</div>';
+      const curYear=String(new Date().getFullYear());
       let done=0, started=false;
       years.forEach(y=>{
-        fetch("data/papers-"+y+".json?_="+Date.now())
+        // only the current year changes daily; let the browser cache older years
+        const bust=(y===curYear)?"?_="+Date.now():"";
+        fetch("data/papers-"+y+".json"+bust)
           .then(r=>r.ok?r.json():{papers:[]})
           .then(f=>{
             ALL=ALL.concat(f.papers||[]);
@@ -143,20 +151,30 @@ function load(){
 }
 
 function init(){
+  const ys=(MANIFEST.years||[]).map(Number).filter(Boolean).sort((a,b)=>b-a);
+  const range=ys.length?(ys[ys.length-1]===ys[0]?ys[0]:ys[ys.length-1]+"\u2013"+ys[0]):"";
   el("sub").innerHTML="Updated <b>"+esc(MANIFEST.generated||"\u2014")+"</b> &nbsp;\u00b7&nbsp; <b>"+
-    (MANIFEST.count||ALL.length)+"</b> papers &nbsp;\u00b7&nbsp; "+(MANIFEST.years||[]).join(", ");
+    (MANIFEST.count||ALL.length)+"</b> papers &nbsp;\u00b7&nbsp; "+range;
 
   const errs=(MANIFEST.feeds||[]).filter(f=>f.error);
   if(errs.length){el("status").style.display="block";
     el("status").innerHTML="<b>"+errs.length+" feed(s) did not update this run:</b> "+
       errs.map(f=>esc(f.journal)).join(", ")+". They are retried at the next refresh.";}
 
+  // jump-to-year dropdown (one calendar year at a time)
+  el("yearjump").innerHTML='<option value="">Jump to year\u2026</option>'+
+    ys.map(y=>'<option value="'+y+'">'+y+'</option>').join("");
+  el("yearjump").addEventListener("change",()=>{
+    const y=el("yearjump").value;
+    el("from").value=y?y+"-01-01":""; el("to").value=y?y+"-12-31":""; shown=PAGE; render();});
+
   buildFilters();
 
   ["q","journal","sort","from","to","grouped","pvonly"].forEach(id=>
     el(id).addEventListener(id==="q"?"input":"change",()=>{shown=PAGE;render();}));
   el("quick").querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>{
-    const days=+b.dataset.days; el("to").value=""; el("from").value=days?isoDaysAgo(days):""; shown=PAGE; render();}));
+    const days=+b.dataset.days; el("to").value=""; el("yearjump").value="";
+    el("from").value=days?isoDaysAgo(days):""; shown=PAGE; render();}));
 
   render();
 }

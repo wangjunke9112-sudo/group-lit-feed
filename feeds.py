@@ -106,7 +106,7 @@ SETTINGS = {
 
     # Keep every paper published on/after this date. Nothing is auto-deleted.
     # This is also the date the historical backfill (backfill.py) reaches back to.
-    "start_date": "2020-01-01",
+    "start_date": "2009-01-01",
 
     # Crossref is used for the one-time historical backfill. Putting a real email
     # here joins Crossref's faster "polite pool" and is good etiquette. Optional.

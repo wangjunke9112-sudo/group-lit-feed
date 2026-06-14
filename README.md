@@ -8,7 +8,7 @@ GitHub (no server to maintain).
 ```
 feeds.py            ← the journals, keywords, ISSNs (edit this)
 aggregate.py        ← daily job: fetches RSS feeds, filters, updates the data files
-backfill.py         ← one-time job: pulls 2020→now history from Crossref
+backfill.py         ← one-time job: pulls 2009→now history from Crossref
 index.html          ← the webpage (reads the data files in the browser)
 data/manifest.json  ← list of years + feed status (auto-generated)
 data/papers-YYYY.json ← one file per year of papers (auto-generated)
@@ -23,12 +23,12 @@ requirements.txt    ← Python dependencies
    incl. Joule and Matter).
 2. Reads each entry's title and abstract and keeps it only if it matches a keyword.
 3. Merges new hits into the archive, removes duplicates (by DOI/link), and keeps
-   everything published on or after the start date (default 2020-01-01 — nothing is
+   everything published on or after the start date (default 2009-01-01 — nothing is
    auto-deleted).
 4. Commits the updated data files; GitHub Pages re-publishes the page.
 
 The daily job only sees *recent* papers (that's all RSS carries). To populate the
-**history back to 2020**, run the one-time backfill described below — it and the daily
+**history back to 2009**, run the one-time backfill described below — it and the daily
 job write to the same files.
 
 ## The archive: size, retention, and search
@@ -36,9 +36,9 @@ job write to the same files.
 The feed keeps **every** matching paper from the start date onward, split into one file
 per year (`data/papers-YYYY.json`). This matters for three reasons:
 
-- **Size is not a concern.** A matching paper is roughly 1 KB of JSON. Filling 2020→now
-  in this field gives an estimated low tens of thousands of papers — on the order of
-  20–50 MB total, split across the per-year files. GitHub Pages allows a published site up
+- **Size is not a concern.** A matching paper is roughly 1 KB of JSON. Filling 2009→now
+  in this field gives an estimated several tens of thousands of papers — on the order of
+  30–80 MB total, split across the per-year files. GitHub Pages allows a published site up
   to 1 GB and 100 GB of traffic per month, so you are far inside the limits with many years
   of headroom.
 - **Splitting by year keeps the repository healthy.** Because the daily job only rewrites
@@ -54,11 +54,10 @@ keywords across the *entire* archive), a journal dropdown, publisher filter chip
 range with quick 7/30/90-day/All buttons, a newest/oldest sort, and the *Group by journal*
 toggle. Every filter works over all years at once.
 
-### Filling in the history (2020 → today) — the one-time backfill
+### Filling in the history (2009 → today) — the one-time backfill
 
 RSS only carries recent papers, so the history comes from **Crossref** (a free index of
-nearly all journal articles). `backfill.py` pulls every paper from these journals since
-`start_date`, filters it with the *same* keyword rules as the daily job, and merges the
+nearly all journal articles). `backfill.py` pulls every paper from these journals since `start_date` (2009), filters it with the *same* keyword rules as the daily job, and merges the
 hits into the same per-year files. Run it once.
 
 Two ways to run it:
