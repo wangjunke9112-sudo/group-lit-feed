@@ -29,10 +29,15 @@
   .controls input[type=search]{flex:1 1 240px;min-width:180px;padding:8px 11px;border:1px solid var(--line);border-radius:7px;font-size:14px;background:#fff}
   .controls select,.controls input[type=date],.row2 select,.row2 input[type=date]{padding:7px 9px;border:1px solid var(--line);border-radius:7px;font-size:13px;background:#fff;font-family:var(--mono);color:var(--ink)}
   .row2{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin-top:9px;font-size:13px;color:var(--ink-soft)}
-  .row3{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;margin-top:9px;font-size:13px;color:var(--ink-soft)}
-  .years{display:flex;flex-wrap:wrap;gap:4px 12px}
+  .yeardrop{position:relative;display:inline-block}
+  .ybtn{padding:7px 10px;border:1px solid var(--line);border-radius:7px;background:#fff;font-family:var(--mono);font-size:12px;color:var(--ink);cursor:pointer}
+  .ybtn:hover,.ybtn[aria-expanded=true]{border-color:var(--accent)}
+  .ypanel{position:absolute;top:calc(100% + 5px);left:0;z-index:60;background:#fff;border:1px solid var(--line);border-radius:8px;box-shadow:0 8px 24px rgba(0,0,0,.12);padding:10px;width:215px}
+  .ypanel .years{display:grid;grid-template-columns:repeat(3,auto);gap:5px 10px}
   .years label{display:inline-flex;gap:4px;align-items:center;font-family:var(--mono);font-size:12px;cursor:pointer;color:var(--ink)}
-  .yearhint{font-size:11.5px;color:var(--ink-soft)}
+  .ynote{margin-top:8px;font-size:11px;color:var(--ink-soft);line-height:1.4}
+  .yactions{margin-top:8px;border-top:1px solid var(--line);padding-top:8px;text-align:right}
+  .yactions button{background:none;border:none;color:var(--accent);font-size:12px;cursor:pointer;padding:0}
   .pubfilter{display:flex;flex-wrap:wrap;gap:6px}
   .chip{font-family:var(--mono);font-size:11px;padding:5px 9px;border:1px solid var(--line);border-radius:20px;background:#fff;cursor:pointer;user-select:none;color:var(--ink-soft)}
   .chip[aria-pressed=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
@@ -98,12 +103,18 @@
       <button data-days="1825">5y</button>
       <button data-days="0">All</button>
     </span>
+    <div class="yeardrop" id="yeardrop">
+      <button type="button" class="ybtn" id="ybtn" aria-expanded="false">Years &#9662;</button>
+      <div class="ypanel" id="ypanel" hidden>
+        <div class="years" id="years"></div>
+        <div class="ynote">Ticking years overrides the date range.</div>
+        <div class="yactions"><button type="button" id="yclear">Clear years</button></div>
+      </div>
+    </div>
     <div class="pubfilter" id="pubfilter"></div>
     <label class="opt"><input type="checkbox" id="pvonly" checked> Perovskite only</label>
     <label class="opt"><input type="checkbox" id="grouped" checked> Group by journal</label>
   </div>
-  <div class="row3"><span>Years</span><span class="years" id="years"></span>
-    <span class="yearhint" id="yearhint">(tick one or more years; overrides the range above)</span></div>
   <div class="hint">Tip: search several terms at once with commas or <b>AND</b> &mdash; e.g. <code>perovskite, tandem, water splitting</code> finds papers containing all three. Quotes aren't needed; phrases like <code>water splitting</code> stay together.</div>
 </div></header>
 
@@ -167,13 +178,20 @@ function init(){
     el("status").innerHTML="<b>"+errs.length+" feed(s) did not update this run:</b> "+
       errs.map(f=>esc(f.journal)).join(", ")+". They are retried at the next refresh.";}
 
-  // year checkboxes (multi-select, non-sequential)
+  // year checkboxes inside a dropdown (multi-select, non-sequential)
   el("years").innerHTML=ys.map(y=>
     '<label><input type="checkbox" class="yearbox" value="'+y+'">'+y+'</label>').join("");
   el("years").querySelectorAll(".yearbox").forEach(cb=>cb.addEventListener("change",()=>{
     cb.checked?selectedYears.add(cb.value):selectedYears.delete(cb.value);
-    clearRange();                 // ticking years overrides the date range above
-    shown=PAGE; render();}));
+    clearRange(); updateYearLabel(); shown=PAGE; render();}));   // ticking years overrides range
+  el("ybtn").addEventListener("click",e=>{
+    e.stopPropagation();
+    const opening=el("ypanel").hasAttribute("hidden");
+    el("ypanel").toggleAttribute("hidden",!opening);
+    el("ybtn").setAttribute("aria-expanded",String(opening));});
+  document.addEventListener("click",e=>{ if(!el("yeardrop").contains(e.target)){
+    el("ypanel").setAttribute("hidden","");el("ybtn").setAttribute("aria-expanded","false");}});
+  el("yclear").addEventListener("click",()=>{clearYears();shown=PAGE;render();});
 
   buildFilters();
 
@@ -193,6 +211,11 @@ function init(){
 function clearYears(){
   selectedYears.clear();
   document.querySelectorAll(".yearbox").forEach(cb=>cb.checked=false);
+  updateYearLabel();
+}
+function updateYearLabel(){
+  const n=selectedYears.size;
+  if(el("ybtn")) el("ybtn").innerHTML = (n ? "Years ("+n+")" : "Years") + " \u25be";
 }
 function clearRange(){ el("from").value=""; el("to").value=""; }
 
