@@ -184,6 +184,33 @@ def _entry_authors(entry):
     return names
 
 
+REVIEW_JOURNALS = {
+    "Chemical Reviews", "Chemical Society Reviews", "Nature Reviews Materials",
+    "Nature Reviews Chemistry", "Nature Reviews Methods Primers",
+    "Accounts of Chemical Research",
+}
+_COMMENT_RE = re.compile(r"\b(comment on|reply to|matters arising|correspondence|rejoinder|editorial)\b", re.I)
+_REVIEW_RE = re.compile(r"\b(review|perspective|roadmap|primer)\b", re.I)
+
+
+def classify_type(title, journal, hint=""):
+    """Bucket a paper as 'review', 'comment', or 'article'.
+
+    review  <- review, perspective (and dedicated review journals)
+    comment <- comment, correspondence, reply, matters arising, editorial
+    article <- everything else (articles, letters, reports, ...)
+    `hint` is any extra type string (RSS category / Crossref type) to consider.
+    """
+    text = (title or "") + " " + (hint or "")
+    if _COMMENT_RE.search(text):
+        return "comment"
+    if journal in REVIEW_JOURNALS:
+        return "review"
+    if _REVIEW_RE.search(text):
+        return "review"
+    return "article"
+
+
 def normalise_entry(entry, journal, publisher):
     """feedparser entry -> our flat record, or None if it should be skipped."""
     title = clean_text(entry.get("title", ""))
@@ -202,6 +229,9 @@ def normalise_entry(entry, journal, publisher):
     # accepted/early-access paper still gets an accurate, stable date.
     date = _entry_date(entry) or crossref_date_for_doi(doi) or dt.date.today().isoformat()
 
+    hint = " ".join(t.get("term", "") for t in (entry.get("tags") or []) if isinstance(t, dict))
+    hint += " " + str(entry.get("dc_type", "") or "")
+
     return {
         "title": title,
         "link": link,
@@ -212,6 +242,7 @@ def normalise_entry(entry, journal, publisher):
         "authors": _entry_authors(entry),
         "doi": doi,
         "keywords": hits,
+        "type": classify_type(title, journal, hint),
     }
 
 

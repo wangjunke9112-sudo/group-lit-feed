@@ -66,6 +66,10 @@
   .auth{margin-top:5px;font-size:13px;color:var(--ink-soft)}
   .tags{margin-top:8px;display:flex;flex-wrap:wrap;gap:5px}
   .tag{font-family:var(--mono);font-size:10.5px;background:var(--tag-bg);color:var(--tag-ink);padding:2px 7px;border-radius:4px}
+  .ptype{font-family:var(--mono);font-size:10px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;padding:1px 6px;border-radius:4px}
+  .ptype-review{background:#e6f3ec;color:#0a7d54}
+  .ptype-comment{background:#fbeee7;color:#b4451d}
+  .ptype-article{background:var(--tag-bg);color:var(--ink-soft)}
   .actions{margin-top:9px;display:flex;gap:14px;align-items:center;font-size:13px}
   .more{background:none;border:none;color:var(--accent);cursor:pointer;padding:0;font-size:13px;font-family:var(--sans)}
   .abs{margin-top:9px;padding-top:9px;border-top:1px dashed var(--line);font-size:13.5px;color:#2b313b;line-height:1.55;display:none}
@@ -89,6 +93,12 @@
   <div class="controls">
     <input type="search" id="q" placeholder="Search &mdash; e.g. perovskite, tandem OR multijunction, water splitting" autocomplete="off" title="Comma or AND = all must match. OR = alternatives within one slot. Phrases stay intact. Example: perovskite, tandem OR multijunction = perovskite AND (tandem OR multijunction).">
     <select id="journal"><option value="">All journals</option></select>
+    <select id="ptype">
+      <option value="">All types</option>
+      <option value="review">Reviews</option>
+      <option value="article">Articles</option>
+      <option value="comment">Comments</option>
+    </select>
     <select id="sort"><option value="new">Newest first</option><option value="old">Oldest first</option></select>
   </div>
   <div class="row2">
@@ -195,7 +205,7 @@ function init(){
 
   buildFilters();
 
-  ["q","journal","sort","grouped","pvonly"].forEach(id=>
+  ["q","journal","ptype","sort","grouped","pvonly"].forEach(id=>
     el(id).addEventListener(id==="q"?"input":"change",()=>{shown=PAGE;render();}));
   ["from","to"].forEach(id=>el(id).addEventListener("change",()=>{
     clearYears(); shown=PAGE; render();}));   // using the range clears year ticks
@@ -234,6 +244,20 @@ function buildFilters(){
     c.setAttribute("aria-pressed",String(!on));on?activePubs.delete(p):activePubs.add(p);render();}));
 }
 
+// Paper-type classifier: mirrors the backend so it works on papers that already
+// have a stored `type`, AND on older papers that don't (classified on the fly).
+const REVIEW_JOURNALS=new Set(["Chemical Reviews","Chemical Society Reviews",
+  "Nature Reviews Materials","Nature Reviews Chemistry","Nature Reviews Methods Primers",
+  "Accounts of Chemical Research"]);
+function classifyType(p){
+  if(p.type) return p.type;                       // use stored type when present
+  const text=p.title||"";
+  if(/\b(comment on|reply to|matters arising|correspondence|rejoinder|editorial)\b/i.test(text)) return "comment";
+  if(REVIEW_JOURNALS.has(p.journal)) return "review";
+  if(/\b(review|perspective|roadmap|primer)\b/i.test(text)) return "review";
+  return "article";
+}
+
 function parseQuery(raw){
   // Top level: AND-groups separated by comma or a standalone "AND".
   // Within a group: OR-alternatives separated by a standalone "OR".
@@ -267,9 +291,10 @@ function termHit(p,term){
 
 function filtered(){
   const groups=parseQuery(el("q").value);
-  const j=el("journal").value, from=el("from").value, to=el("to").value;
+  const j=el("journal").value, from=el("from").value, to=el("to").value, pt=el("ptype").value;
   let rows=ALL.filter(p=>{
     if(j && p.journal!==j) return false;
+    if(pt && classifyType(p)!==pt) return false;
     if(activePubs.size && !activePubs.has(p.publisher)) return false;
     if(selectedYears.size){
       if(!selectedYears.has((p.date||"").slice(0,4))) return false;   // ticked years only
@@ -345,6 +370,7 @@ function wireCards(root){
 }
 
 function card(p){
+  const ty=classifyType(p), tyLabel={review:"Review",comment:"Comment",article:"Article"}[ty];
   const tags=(p.keywords||[]).map(k=>'<span class="tag">'+esc(k)+'</span>').join("");
   const authors=(p.authors||[]).length?'<div class="auth">'+esc(p.authors.slice(0,8).join(", ")+(p.authors.length>8?" et al.":""))+'</div>':"";
   const more=p.abstract?'<button class="more">Read more</button>':"";
@@ -352,7 +378,7 @@ function card(p){
     (p.doi&&p.doi.startsWith("10.")?'<div class="doi">DOI: '+esc(p.doi)+'</div>':'')+'</div>':"";
   return '<article class="paper">'+
     '<p class="t"><a href="'+esc(p.link)+'" target="_blank" rel="noopener">'+esc(p.title)+'</a></p>'+
-    '<div class="meta"><span>'+esc(p.date||"")+'</span><span>'+esc(p.journal)+'</span><span>'+esc(p.publisher)+'</span></div>'+
+    '<div class="meta"><span class="ptype ptype-'+ty+'">'+tyLabel+'</span><span>'+esc(p.date||"")+'</span><span>'+esc(p.journal)+'</span><span>'+esc(p.publisher)+'</span></div>'+
     authors+(tags?'<div class="tags">'+tags+'</div>':'')+
     '<div class="actions">'+more+'<a href="'+esc(p.link)+'" target="_blank" rel="noopener">Open paper \u2197</a></div>'+
     absBlock+'</article>';

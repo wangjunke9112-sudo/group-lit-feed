@@ -28,7 +28,7 @@ import requests
 from feeds import ISSNS, CORE_QUERIES, SETTINGS
 # reuse the daily job's helpers so filtering/merging behave identically
 from aggregate import (clean_text, is_relevant, merge, load_archive,
-                       write_archive, _key, pick_crossref_date)
+                       write_archive, _key, pick_crossref_date, classify_type)
 
 CROSSREF = "https://api.crossref.org/works"
 JOURNALS = "https://api.crossref.org/journals/{}"
@@ -98,6 +98,9 @@ def normalise(item):
         if name:
             authors.append(name)
 
+    sub = item.get("subtype")
+    hint = (item.get("type", "") or "") + " " + (sub if isinstance(sub, str) else " ".join(sub or []))
+
     return {
         "title": title,
         "link": item.get("URL") or f"https://doi.org/{doi}",
@@ -108,13 +111,14 @@ def normalise(item):
         "authors": authors,
         "doi": doi,
         "keywords": hits,
+        "type": classify_type(title, journal, hint),
     }
 
 
 # ---------------------------------------------------------------------------
 # Crossref querying (cursor pagination)
 # ---------------------------------------------------------------------------
-SELECT = "DOI,title,author,issued,published,published-online,published-print,created,container-title,ISSN,URL,abstract"
+SELECT = "DOI,title,author,issued,published,published-online,published-print,created,container-title,ISSN,URL,abstract,type,subtype"
 
 
 def query_term(term, start_date, dry_run=False):
