@@ -62,14 +62,30 @@ def _mailto_param():
 # Crossref record -> our flat schema
 # ---------------------------------------------------------------------------
 def _date(item):
-    for key in ("published", "issued", "published-online", "published-print"):
+    """Best ISO date for a Crossref item.
+
+    Advance/accepted articles often report 'issued'/'published' as a bare YEAR,
+    which previously padded to YYYY-01-01. We instead pick the most *granular*
+    date available (full Y-M-D beats Y-M beats Y), preferring the online date,
+    and fall back to Crossref's 'created' timestamp (always a full date, set at
+    DOI registration ~ online publication) so we never invent January 1st.
+    """
+    order = ("published-online", "published", "issued", "published-print", "created")
+    rank = {k: i for i, k in enumerate(order)}
+    best = None  # (granularity, -priority, [y,m,d])
+    for key in order:
         parts = (item.get(key) or {}).get("date-parts") or []
         if parts and parts[0] and parts[0][0]:
-            y = parts[0][0]
-            m = parts[0][1] if len(parts[0]) > 1 else 1
-            d = parts[0][2] if len(parts[0]) > 2 else 1
-            return f"{y:04d}-{m:02d}-{d:02d}"
-    return ""
+            cand = (len(parts[0]), -rank[key], parts[0])
+            if best is None or cand[:2] > best[:2]:
+                best = cand
+    if best is None:
+        return ""
+    p = best[2]
+    y = p[0]
+    m = p[1] if len(p) > 1 else 1
+    d = p[2] if len(p) > 2 else 1
+    return f"{y:04d}-{m:02d}-{d:02d}"
 
 
 def _journal_and_pub(item):
@@ -119,7 +135,7 @@ def normalise(item):
 # ---------------------------------------------------------------------------
 # Crossref querying (cursor pagination)
 # ---------------------------------------------------------------------------
-SELECT = "DOI,title,author,issued,published,published-online,published-print,container-title,ISSN,URL,abstract"
+SELECT = "DOI,title,author,issued,published,published-online,published-print,created,container-title,ISSN,URL,abstract"
 
 
 def query_term(term, start_date, dry_run=False):
