@@ -139,11 +139,13 @@
 <script>
 const PUB_ORDER=["Nature","ACS","RSC","Wiley","Science","Cell"];
 const PAGE=60;
-let ALL=[], MANIFEST={}, shown=PAGE, activePubs=new Set(), selectedYears=new Set();
+let ALL=[], MANIFEST={}, shown=PAGE, activePubs=new Set(), selectedYears=new Set(), expandedJournals=new Set();
 const el=id=>document.getElementById(id);
 const esc=s=>(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 el("yr").textContent=new Date().getFullYear();
 const isoDaysAgo=n=>{const d=new Date();d.setDate(d.getDate()-n);return d.toISOString().slice(0,10);};
+let loadRenderTimer=null;
+function scheduleLoadRender(){ clearTimeout(loadRenderTimer); loadRenderTimer=setTimeout(()=>{buildFilters();render();},250); }
 
 function load(){
   fetch("data/manifest.json?_="+Date.now())
@@ -165,8 +167,9 @@ function load(){
             done++;
             if(!started){started=true;init();el("sub").insertAdjacentHTML("beforeend",
                 ' <span id="loadnote">\u00b7 loading older years\u2026</span>');}
-            else {buildFilters();render();}           // refresh as later years arrive
-            if(done===years.length){                  // all loaded
+            else scheduleLoadRender();                 // coalesce later-year refreshes
+            if(done===years.length){                   // all loaded
+              clearTimeout(loadRenderTimer); buildFilters(); render();
               const note=el("loadnote"); if(note) note.remove();
             }
           });
@@ -269,6 +272,8 @@ const VIP_PIS=[
   "Aldo Di Carlo",         // Rome Tor Vergata
   "Maria Antonietta Loi",  // Groningen
   "René Janssen",          // Eindhoven (TU/e)
+  "Dieter Neher",          // Potsdam
+  "Christian Wolff",       // EPFL
   // -- Switzerland --
   "Michael Grätzel",       // EPFL
   "Anders Hagfeldt",       // Uppsala
@@ -282,6 +287,7 @@ const VIP_PIS=[
   // -- China / Hong Kong --
   "Hairen Tan",            // Nanjing University (tandems)
   "Alex Jen",              // City University of Hong Kong
+  "Martin Stolterfoht",    // CUHK
   // -- US / Canada --
   "Jinsong Huang",         // UNC Chapel Hill
   "Yang Yang",             // UCLA
@@ -315,13 +321,17 @@ function nameTokens(s){
     .match(/[a-z]+/g))||[];
 }
 function isVip(name){
-  // Tight rule: EVERY part of a VIP name must equal a WHOLE word in the author
-  // name. So "Jinsong Huang" flags "Jinsong J. Huang" but not "J. Huang" or
-  // "Wei Huang"; near-misses are simply not flagged.
-  const have=new Set(nameTokens(name));
+  // Tight rule: every part of a VIP name must be a WHOLE word in the author name,
+  // and a repeated part (e.g. "Yang Yang") must appear that many times. So
+  // "Yang Yang" needs two "yang"s and won't flag "Aifeng Yang"; "Jinsong Huang"
+  // won't flag "J. Huang" or "Wei Huang". Near-misses are simply not flagged.
+  const have={};
+  nameTokens(name).forEach(t=>have[t]=(have[t]||0)+1);
   return VIP_PIS.some(v=>{
-    const need=nameTokens(v);
-    return need.length && need.every(t=>have.has(t));
+    const need=nameTokens(v); if(!need.length) return false;
+    const want={};
+    need.forEach(t=>want[t]=(want[t]||0)+1);
+    return Object.keys(want).every(t=>(have[t]||0)>=want[t]);
   });
 }
 function paperVip(p){ return (p.authors||[]).some(isVip); }
@@ -418,23 +428,28 @@ function renderGrouped(rows){
   const groups={};
   rows.forEach(p=>(groups[p.journal]||=[]).push(p));
   const journals=Object.keys(groups).sort((a,b)=>(groups[b][0].date||"").localeCompare(groups[a][0].date||""));
-  el("feed").innerHTML=journals.map((j,idx)=>{
+  el("feed").innerHTML=journals.map(j=>{
     const items=groups[j], color="var(--p-"+items[0].publisher+")";
-    // all sections folded on load; cards render lazily when a section is opened
-    const collapsed=" collapsed";
-    return '<section class="jgroup'+collapsed+'" style="--jcolor:'+color+'" data-journal="'+esc(j)+'">'+
+    // sections start folded, but keep open any the user already expanded
+    const open=expandedJournals.has(j);
+    return '<section class="jgroup'+(open?"":" collapsed")+'" style="--jcolor:'+color+'" data-journal="'+esc(j)+'">'+
       '<div class="jhead" role="button" tabindex="0"><h2>'+esc(j)+'</h2>'+
         '<span class="cnt">'+items.length+'</span><span class="caret">\u25be</span></div>'+
-      '<div class="jlist">'+(collapsed?"":items.map(card).join(""))+'</div></section>';
+      '<div class="jlist"'+(open?' data-rendered="1"':'')+'>'+(open?items.map(card).join(""):"")+'</div></section>';
   }).join("");
-  // lazy render on expand
+  // toggle + lazy render, remembering which sections are open
   el("feed").querySelectorAll(".jhead").forEach(h=>{
-    const sec=h.parentElement;
+    const sec=h.parentElement, j=sec.dataset.journal;
     const toggle=()=>{
       const wasCollapsed=sec.classList.contains("collapsed");
       sec.classList.toggle("collapsed");
-      if(wasCollapsed){const list=sec.querySelector(".jlist");
-        if(!list.dataset.rendered){list.innerHTML=groups[sec.dataset.journal].map(card).join("");list.dataset.rendered="1";wireCards(list);}}
+      if(wasCollapsed){
+        expandedJournals.add(j);
+        const list=sec.querySelector(".jlist");
+        if(!list.dataset.rendered){list.innerHTML=groups[j].map(card).join("");list.dataset.rendered="1";wireCards(list);}
+      } else {
+        expandedJournals.delete(j);
+      }
     };
     h.addEventListener("click",toggle);
     h.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();toggle();}});
