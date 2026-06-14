@@ -70,6 +70,8 @@
   .ptype-review{background:#e6f3ec;color:#0a7d54}
   .ptype-comment{background:#fbeee7;color:#b4451d}
   .ptype-article{background:var(--tag-bg);color:var(--ink-soft)}
+  .vip{font-family:var(--mono);font-size:10px;font-weight:700;color:#8a5a00;background:#fdf3d6;border:1px solid #f0dca0;padding:1px 6px;border-radius:4px;letter-spacing:.03em}
+  .vipname{color:#8a5a00}
   .actions{margin-top:9px;display:flex;gap:14px;align-items:center;font-size:13px}
   .more{background:none;border:none;color:var(--accent);cursor:pointer;padding:0;font-size:13px;font-family:var(--sans)}
   .abs{margin-top:9px;padding-top:9px;border-top:1px dashed var(--line);font-size:13.5px;color:#2b313b;line-height:1.55;display:none}
@@ -246,6 +248,15 @@ function buildFilters(){
 
 // Paper-type classifier: mirrors the backend so it works on papers that already
 // have a stored `type`, AND on older papers that don't (classified on the fly).
+// ---- VIP principal investigators ------------------------------------------
+// Add surnames or full names here. Any paper with a matching author anywhere in
+// its list gets a gold "VIP" badge and that name shown in bold. Matching is
+// case-insensitive and substring-based, so "Sargent" matches "Edward H. Sargent".
+// Example: const VIP_PIS=["Sargent","Snaith","Huang","Jen"];
+const VIP_PIS=[];
+function isVip(name){ const n=(name||"").toLowerCase(); return VIP_PIS.some(v=>v&&n.includes(v.toLowerCase())); }
+function paperVip(p){ return (p.authors||[]).some(isVip); }
+
 const REVIEW_JOURNALS=new Set(["Chemical Reviews","Chemical Society Reviews",
   "Nature Reviews Materials","Nature Reviews Chemistry","Nature Reviews Methods Primers",
   "Accounts of Chemical Research"]);
@@ -371,14 +382,17 @@ function wireCards(root){
 
 function card(p){
   const ty=classifyType(p), tyLabel={review:"Review",comment:"Comment",article:"Article"}[ty];
+  const vipBadge=paperVip(p)?'<span class="vip">\u2605 VIP</span>':"";
   const tags=(p.keywords||[]).map(k=>'<span class="tag">'+esc(k)+'</span>').join("");
-  const authors=(p.authors||[]).length?'<div class="auth">'+esc(p.authors.slice(0,8).join(", ")+(p.authors.length>8?" et al.":""))+'</div>':"";
+  const authors=(p.authors||[]).length
+    ? '<div class="auth">'+p.authors.map(a=>isVip(a)?'<b class="vipname">'+esc(a)+'</b>':esc(a)).join(", ")+'</div>'
+    : "";
   const more=p.abstract?'<button class="more">Read more</button>':"";
   const absBlock=p.abstract?'<div class="abs">'+esc(p.abstract)+
     (p.doi&&p.doi.startsWith("10.")?'<div class="doi">DOI: '+esc(p.doi)+'</div>':'')+'</div>':"";
   return '<article class="paper">'+
     '<p class="t"><a href="'+esc(p.link)+'" target="_blank" rel="noopener">'+esc(p.title)+'</a></p>'+
-    '<div class="meta"><span class="ptype ptype-'+ty+'">'+tyLabel+'</span><span>'+esc(p.date||"")+'</span><span>'+esc(p.journal)+'</span><span>'+esc(p.publisher)+'</span></div>'+
+    '<div class="meta">'+vipBadge+'<span class="ptype ptype-'+ty+'">'+tyLabel+'</span><span>'+esc(p.date||"")+'</span><span>'+esc(p.journal)+'</span><span>'+esc(p.publisher)+'</span></div>'+
     authors+(tags?'<div class="tags">'+tags+'</div>':'')+
     '<div class="actions">'+more+'<a href="'+esc(p.link)+'" target="_blank" rel="noopener">Open paper \u2197</a></div>'+
     absBlock+'</article>';
