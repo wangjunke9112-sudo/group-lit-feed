@@ -253,8 +253,77 @@ function buildFilters(){
 // its list gets a gold "VIP" badge and that name shown in bold. Matching is
 // case-insensitive and substring-based, so "Sargent" matches "Edward H. Sargent".
 // Example: const VIP_PIS=["Sargent","Snaith","Huang","Jen"];
-const VIP_PIS=[];
-function isVip(name){ const n=(name||"").toLowerCase(); return VIP_PIS.some(v=>v&&n.includes(v.toLowerCase())); }
+// Starting list of leading perovskite teams worldwide (edit freely - add/remove
+// names; full "First Last" is safest so common surnames don't over-match).
+const VIP_PIS=[
+  // -- UK / Europe --
+  "Henry Snaith",          // Oxford
+  "Samuel Stranks",        // Cambridge
+  "Laura Herz",            // Oxford
+  "Michael Saliba",        // Stuttgart
+  "Antonio Abate",         // HZB Berlin
+  "Steve Albrecht",        // HZB Berlin (tandems)
+  "Yana Vaynzof",          // Dresden
+  "Christoph Brabec",      // Erlangen
+  "Annamaria Petrozza",    // IIT Milan
+  "Aldo Di Carlo",         // Rome Tor Vergata
+  "Maria Antonietta Loi",  // Groningen
+  "René Janssen",          // Eindhoven (TU/e)
+  // -- Switzerland --
+  "Michael Grätzel",       // EPFL
+  "Anders Hagfeldt",       // Uppsala
+  "Mohammad Nazeeruddin",  // EPFL
+  // -- South Korea --
+  "Sang Il Seok",          // UNIST
+  "Nam-Gyu Park",          // SKKU
+  "Jin Young Kim",         // UNIST
+  "Tae-Woo Lee",           // Seoul National (LEDs)
+  "Hyun Suk Jung",         // SKKU
+  // -- China / Hong Kong --
+  "Hairen Tan",            // Nanjing University (tandems)
+  "Alex Jen",              // City University of Hong Kong
+  // -- US / Canada --
+  "Jinsong Huang",         // UNC Chapel Hill
+  "Yang Yang",             // UCLA
+  "Edward Sargent",        // Northwestern / Toronto
+  "Mercouri Kanatzidis",   // Northwestern
+  "Aditya Mohite",         // Rice
+  "Nitin Padture",         // Brown
+  "David Mitzi",           // Duke
+  "Letian Dou",            // Purdue
+  "Michael McGehee",       // Colorado Boulder (tandems)
+  "Joseph Berry",          // NREL
+  "Kai Zhu",               // NREL
+  "Tonio Buonassisi",      // MIT
+  // -- Japan --
+  "Tsutomu Miyasaka",      // Toin Univ. Yokohama (pioneer)
+  "Atsushi Wakamiya",      // Kyoto
+  // -- Australia --
+  "Anita Ho-Baillie",      // Sydney
+  "Udo Bach",              // Monash
+  // -- Singapore --
+  "Nripan Mathews",        // NTU
+  "Tze Chien Sum",         // NTU
+  "Yi Hou",                // NUS (tandems)
+];
+function nameTokens(s){
+  // word tokens only; accents stripped and hyphens treated as separators, dots
+  // dropped -> "René A. J. Janssen" => [rene, a, j, janssen]
+  return ((s||"").toLowerCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g,"")     // fold accents (é->e, ä->a)
+    .replace(/[-\u2010-\u2015]/g," ")
+    .match(/[a-z]+/g))||[];
+}
+function isVip(name){
+  // Tight rule: EVERY part of a VIP name must equal a WHOLE word in the author
+  // name. So "Jinsong Huang" flags "Jinsong J. Huang" but not "J. Huang" or
+  // "Wei Huang"; near-misses are simply not flagged.
+  const have=new Set(nameTokens(name));
+  return VIP_PIS.some(v=>{
+    const need=nameTokens(v);
+    return need.length && need.every(t=>have.has(t));
+  });
+}
 function paperVip(p){ return (p.authors||[]).some(isVip); }
 
 const REVIEW_JOURNALS=new Set(["Chemical Reviews","Chemical Society Reviews",
