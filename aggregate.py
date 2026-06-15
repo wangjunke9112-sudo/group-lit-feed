@@ -110,6 +110,35 @@ def pick_crossref_date(item):
 
 
 def crossref_date_for_doi(doi):
+   def crossref_abstract_for_doi(doi):
+    """Look up one DOI in Crossref and return a cleaned abstract, or '' on failure.
+
+    Some publisher RSS feeds provide no abstract, or only a very short teaser.
+    Crossref often has the publisher abstract, especially for older papers, so
+    use it as a fallback when the feed abstract is missing.
+    """
+    if not doi or not doi.startswith("10."):
+        return ""
+    try:
+        import requests
+        mail = SETTINGS.get("crossref_mailto", "")
+        params = {"mailto": mail} if mail and "example.com" not in mail else {}
+        r = requests.get(
+            "https://api.crossref.org/works/" + doi,
+            params=params,
+            headers={"User-Agent": SETTINGS["user_agent"]},
+            timeout=15,
+        )
+        if r.status_code == 200:
+            abstract = clean_text(r.json().get("message", {}).get("abstract", ""))
+            cap = SETTINGS.get("abstract_max_chars", 1600)
+            if len(abstract) > cap:
+                abstract = abstract[:cap].rsplit(" ", 1)[0] + "\u2026"
+            return abstract
+    except Exception:
+        pass
+    return ""
+      
     """Look up one DOI in Crossref and return its best date, or '' on any failure."""
     if not doi or not doi.startswith("10."):
         return ""
@@ -218,12 +247,19 @@ def normalise_entry(entry, journal, publisher):
     if not title or not link:
         return None
 
+    doi = _entry_doi(entry, link)
     abstract = _entry_abstract(entry)
+
+    # If the RSS feed did not provide an abstract, try Crossref by DOI.
+    # This is deliberately only a fallback, so we do not slow down every feed
+    # item or replace a good publisher-provided abstract unnecessarily.
+    if not abstract:
+        abstract = crossref_abstract_for_doi(doi)
+
     keep, hits = is_relevant(title + " \n " + abstract)
     if not keep:
         return None
 
-    doi = _entry_doi(entry, link)
     # Prefer the feed's own date (the real online date for early-access papers).
     # If the feed gave none, ask Crossref before falling back to today, so a new
     # accepted/early-access paper still gets an accurate, stable date.
@@ -320,11 +356,53 @@ def _key(rec):
     return (rec.get("doi") or rec.get("link") or rec.get("title", "")).lower()
 
 
+def _better_record(old, new):
+    """Merge two records for the same DOI/link without losing useful metadata.
+
+    Fresh RSS records can have better dates or links, but they can also have
+    empty abstracts. Keep the longest available abstract and avoid replacing
+    richer stored metadata with sparse fresh metadata.
+    """
+    if not old:
+        return new
+    if not new:
+        return old
+
+    merged = dict(old)
+    merged.update(new)
+
+    old_abs = old.get("abstract") or ""
+    new_abs = new.get("abstract") or ""
+
+    # Preserve the richer abstract. This prevents a fresh RSS item with an empty
+    # abstract from overwriting an older archive record that already had one.
+    if len(old_abs) > len(new_abs):
+        merged["abstract"] = old_abs
+    else:
+        merged["abstract"] = new_abs
+
+    # Preserve richer author and keyword lists when the new record is sparse.
+    if len(old.get("authors") or []) > len(new.get("authors") or []):
+        merged["authors"] = old.get("authors") or []
+
+    if len(old.get("keywords") or []) > len(new.get("keywords") or []):
+        merged["keywords"] = old.get("keywords") or []
+
+    # Prefer a real DOI over a non-DOI fallback identifier.
+    old_doi = old.get("doi") or ""
+    new_doi = new.get("doi") or ""
+    if old_doi.startswith("10.") and not new_doi.startswith("10."):
+        merged["doi"] = old_doi
+
+    return merged
+
+
 def merge(existing, fresh, start_date):
     """Merge fresh into existing, de-dupe, drop pre-start_date, sort newest first."""
     by_key = {}
-    for rec in existing + fresh:          # fresh wins on conflict (better metadata)
-        by_key[_key(rec)] = rec
+    for rec in existing + fresh:
+        by_key[_key(rec)] = _better_record(by_key.get(_key(rec)), rec)
+
     merged = [r for r in by_key.values() if r.get("date", "") >= start_date]
     merged.sort(key=lambda r: (r.get("date", ""), r.get("journal", "")), reverse=True)
     return merged
@@ -411,12 +489,17 @@ def selftest():
         {"title": "B", "doi": "10.1/b", "link": "y", "date": today, "journal": "J"},
     ]
     fresh = [
-        {"title": "B-updated", "doi": "10.1/b", "link": "y", "date": today, "journal": "J"},
-        {"title": "C", "doi": "10.1/c", "link": "z", "date": today, "journal": "J"},
-    ]
-    merged = merge(existing, fresh, start_date="2026-01-01")
-    titles = sorted(r["title"] for r in merged)
-    assert titles == ["B-updated", "C"], titles  # A pruned, B replaced, C added
+    {"title": "B-updated", "doi": "10.1/b", "link": "y", "date": today,
+     "journal": "J", "abstract": ""},
+    {"title": "C", "doi": "10.1/c", "link": "z", "date": today,
+     "journal": "J", "abstract": "new abstract"},
+   ]
+   existing[1]["abstract"] = "this useful old abstract should survive"
+   merged = merge(existing, fresh, start_date="2026-01-01")
+   titles = sorted(r["title"] for r in merged)
+   assert titles == ["B-updated", "C"], titles  # A pruned, B replaced, C added
+   b = next(r for r in merged if r["doi"] == "10.1/b")
+   assert b["abstract"] == "this useful old abstract should survive", b
 
     # 4. abstract HTML cleaning
     assert clean_text("<p>Hello&nbsp;<b>world</b></p>") == "Hello world"
