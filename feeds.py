@@ -115,7 +115,7 @@ SETTINGS = {
 
     # Crossref is used for the one-time historical backfill. Putting a real email
     # here joins Crossref's faster "polite pool" and is good etiquette. Optional.
-    "crossref_mailto": "your-email@example.com",
+    "crossref_mailto": "wangjunke9112@gmail.com",
 
     # Max characters of abstract to store per paper (keeps the data files small).
     "abstract_max_chars": 1600,

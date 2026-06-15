@@ -118,7 +118,30 @@ def normalise(item):
 # ---------------------------------------------------------------------------
 # Crossref querying (cursor pagination)
 # ---------------------------------------------------------------------------
-SELECT = "DOI,title,author,issued,published,published-online,published-print,created,container-title,ISSN,URL,abstract,type,subtype"
+# Crossref `select` only accepts specific field names; `type`/`subtype` are NOT
+# selectable and 400 the whole request. Keep to the known-good list. (Paper type
+# is still derived from title + journal in classify_type.)
+SELECT = "DOI,title,author,issued,published,published-online,published-print,created,container-title,ISSN,URL,abstract"
+
+
+def _get_with_retry(params, label, tries=5):
+    """GET Crossref, backing off on 429 (Too Many Requests) and transient errors."""
+    delay = 5
+    for attempt in range(tries):
+        try:
+            r = requests.get(CROSSREF, params=params, headers=_headers(), timeout=60)
+            if r.status_code == 429:
+                wait = int(r.headers.get("Retry-After", delay) or delay)
+                print(f"      .. 429 on {label}; waiting {wait}s (try {attempt+1}/{tries})")
+                time.sleep(wait); delay = min(delay * 2, 60); continue
+            r.raise_for_status()
+            return r
+        except requests.HTTPError:
+            raise
+        except Exception as exc:  # transient network error -> brief backoff
+            print(f"      .. {type(exc).__name__} on {label}; retry in {delay}s")
+            time.sleep(delay); delay = min(delay * 2, 60)
+    return None
 
 
 def _query_one(term, issn, start_date):
@@ -134,8 +157,9 @@ def _query_one(term, issn, start_date):
     kept = []
     while True:
         try:
-            r = requests.get(CROSSREF, params=params, headers=_headers(), timeout=60)
-            r.raise_for_status()
+            r = _get_with_retry(params, f"'{term}'/{issn}")
+            if r is None:
+                break
             msg = r.json().get("message", {})
         except Exception as exc:  # noqa: BLE001
             print(f"      !! '{term}' / {issn}: {type(exc).__name__}: {exc}")
@@ -152,6 +176,7 @@ def _query_one(term, issn, start_date):
             break
         params["cursor"] = cursor
         time.sleep(1)  # polite
+    time.sleep(0.3)    # small gap between queries to ease rate limits
     return kept
 
 
