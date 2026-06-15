@@ -484,22 +484,34 @@ def selftest():
     # 3. merge / prune / dedupe
     today = dt.date.today().isoformat()
     old = "2025-12-31"   # before the 2026-01-01 start date -> should be pruned
-    existing = [
-        {"title": "A", "doi": "10.1/a", "link": "x", "date": old, "journal": "J"},
+        existing = [
+        {"title": "A", "doi": "10.1/a", "link": "x", "date": "2025-01-01", "journal": "J"},
         {"title": "B", "doi": "10.1/b", "link": "y", "date": today, "journal": "J"},
     ]
     fresh = [
-    {"title": "B-updated", "doi": "10.1/b", "link": "y", "date": today,
-     "journal": "J", "abstract": ""},
-    {"title": "C", "doi": "10.1/c", "link": "z", "date": today,
-     "journal": "J", "abstract": "new abstract"},
-   ]
-   existing[1]["abstract"] = "this useful old abstract should survive"
-   merged = merge(existing, fresh, start_date="2026-01-01")
-   titles = sorted(r["title"] for r in merged)
-   assert titles == ["B-updated", "C"], titles  # A pruned, B replaced, C added
-   b = next(r for r in merged if r["doi"] == "10.1/b")
-   assert b["abstract"] == "this useful old abstract should survive", b
+        {
+            "title": "B-updated",
+            "doi": "10.1/b",
+            "link": "y",
+            "date": today,
+            "journal": "J",
+            "abstract": "",
+        },
+        {
+            "title": "C",
+            "doi": "10.1/c",
+            "link": "z",
+            "date": today,
+            "journal": "J",
+            "abstract": "new abstract",
+        },
+    ]
+    existing[1]["abstract"] = "this useful old abstract should survive"
+    merged = merge(existing, fresh, start_date="2026-01-01")
+    titles = sorted(r["title"] for r in merged)
+    assert titles == ["B-updated", "C"], titles  # A pruned, B replaced, C added
+    b = next(r for r in merged if r["doi"] == "10.1/b")
+    assert b["abstract"] == "this useful old abstract should survive", b
 
     # 4. abstract HTML cleaning
     assert clean_text("<p>Hello&nbsp;<b>world</b></p>") == "Hello world"
