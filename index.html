@@ -148,6 +148,7 @@
       <input type="search" id="dq" placeholder="Search ALL literature &mdash; e.g. passivation ammonium wide-bandgap" autocomplete="off">
       <span class="dsince">since&nbsp;<input type="number" id="dyear" min="1990" max="2026" placeholder="year"></span>
       <button type="button" id="dsearch" class="dbtn">Search</button>
+      <label class="opt"><input type="checkbox" id="dgrouped" checked> Group by journal</label>
     </div>
     <div class="hint">Searches the whole literature <b>live</b> (not limited to your stored journals) &mdash; good for &ldquo;has anyone done X?&rdquo;. Concepts, materials and methods search well; exact procedures often live in paywalled full text, so open the paper for those. Nothing here is stored.</div>
   </div>
@@ -518,7 +519,7 @@ function card(p){
 }
 // ---- Discover: live whole-literature search (stores nothing) ----------------
 const DISCOVER_MAILTO="wangjunke9112@gmail.com";   // Crossref polite-pool contact
-let dseq=0;
+let dseq=0, lastDiscover=[], discoverExpanded=new Set();
 
 function setMode(mode){
   const arch = mode!=="discover";
@@ -532,20 +533,24 @@ function stripTags(s){ return (s||"").replace(/<[^>]+>/g," ").replace(/\s+/g," "
 
 async function searchSemanticScholar(q, yr){
   let url="https://api.semanticscholar.org/graph/v1/paper/search?limit=25"+
-    "&fields=title,abstract,year,authors,venue,externalIds,openAccessPdf,tldr,url&query="+encodeURIComponent(q);
+    "&fields=title,abstract,year,authors,venue,journal,publicationVenue,externalIds,isOpenAccess,tldr&query="+encodeURIComponent(q);
   if(yr) url+="&year="+yr+"-";
   const r=await fetch(url,{headers:{Accept:"application/json"}});
   if(!r.ok) throw new Error("ss "+r.status);
   const j=await r.json();
-  return (j.data||[]).map(p=>({
-    title:p.title||"(untitled)",
-    authors:(p.authors||[]).map(a=>a.name),
-    year:p.year||"", venue:p.venue||"",
-    abstract:(p.tldr&&p.tldr.text)?("TL;DR \u2014 "+p.tldr.text):(p.abstract||""),
-    doi:(p.externalIds&&p.externalIds.DOI)||"",
-    url:p.url||((p.externalIds&&p.externalIds.DOI)?"https://doi.org/"+p.externalIds.DOI:""),
-    oa:(p.openAccessPdf&&p.openAccessPdf.url)||""
-  }));
+  return (j.data||[]).map(p=>{
+    const doi=(p.externalIds&&p.externalIds.DOI)||"";
+    const venue=(p.journal&&p.journal.name)||(p.publicationVenue&&p.publicationVenue.name)||p.venue||"";
+    return {
+      title:p.title||"(untitled)",
+      authors:(p.authors||[]).map(a=>a.name),
+      year:p.year||"", venue:venue,
+      abstract:(p.tldr&&p.tldr.text)?("TL;DR \u2014 "+p.tldr.text):(p.abstract||""),
+      doi:doi,
+      link:doi?"https://doi.org/"+doi:"",          // publisher landing page, not the PDF/SI
+      oa:!!p.isOpenAccess
+    };
+  });
 }
 
 async function searchCrossref(q, yr){
@@ -562,7 +567,7 @@ async function searchCrossref(q, yr){
     year:(((p.issued||{})["date-parts"]||[[]])[0]||[])[0]||"",
     venue:(p["container-title"]&&p["container-title"][0])||"",
     abstract:stripTags(p.abstract||""),
-    doi:p.DOI||"", url:p.URL||(p.DOI?"https://doi.org/"+p.DOI:""), oa:""
+    doi:p.DOI||"", link:p.DOI?"https://doi.org/"+p.DOI:(p.URL||""), oa:false
   }));
 }
 
@@ -575,11 +580,12 @@ function dcard(p){
   const more=p.abstract?'<button class="more">Read more</button>':"";
   const absBlock=p.abstract?'<div class="abs">'+esc(p.abstract)+
     (p.doi&&p.doi.startsWith("10.")?'<div class="doi">DOI: '+esc(p.doi)+'</div>':'')+'</div>':"";
-  const links='<a href="'+esc(p.url)+'" target="_blank" rel="noopener">Open paper \u2197</a>'+
-    (p.oa?' <a href="'+esc(p.oa)+'" target="_blank" rel="noopener">Free PDF \u2197</a>':'');
+  const link=p.link||"";
+  const title=link?'<a href="'+esc(link)+'" target="_blank" rel="noopener">'+esc(p.title)+'</a>':esc(p.title);
+  const open=link?'<a href="'+esc(link)+'" target="_blank" rel="noopener">Open paper \u2197</a>':'';
   return '<article class="paper">'+
-    '<p class="t"><a href="'+esc(p.url)+'" target="_blank" rel="noopener">'+esc(p.title)+'</a></p>'+
-    meta+authors+'<div class="actions">'+more+links+'</div>'+absBlock+'</article>';
+    '<p class="t">'+title+'</p>'+
+    meta+authors+'<div class="actions">'+more+open+'</div>'+absBlock+'</article>';
 }
 
 async function discoverSearch(){
@@ -598,15 +604,49 @@ async function discoverSearch(){
     }
   }
   if(myseq!==dseq) return;                       // a newer search replaced this one
-  if(!items.length){ el("dstatus").textContent="No results for \u201c"+q+"\u201d."; return; }
+  if(!items.length){ el("dstatus").textContent="No results for \u201c"+q+"\u201d."; lastDiscover=[]; el("dresults").innerHTML=""; return; }
   el("dstatus").innerHTML="Showing "+items.length+" result(s) for \u201c"+esc(q)+"\u201d \u00b7 source: "+source+" \u00b7 live, not stored";
-  el("dresults").innerHTML=items.map(dcard).join("");
-  wireCards(el("dresults"));
+  lastDiscover=items; discoverExpanded=new Set();   // new results start folded
+  renderDiscover(items);
+}
+
+function renderDiscover(items){
+  if(!el("dgrouped").checked){                       // flat list (relevance order)
+    el("dresults").innerHTML=items.map(dcard).join("");
+    wireCards(el("dresults"));
+    return;
+  }
+  // group by journal/venue, preserving relevance; best-ranked venue first, folded
+  const groups={}, order=[];
+  items.forEach(p=>{const v=p.venue||"Other / unknown venue";
+    if(!groups[v]){groups[v]=[];order.push(v);} groups[v].push(p);});
+  order.sort((a,b)=>items.indexOf(groups[a][0])-items.indexOf(groups[b][0]));
+  el("dresults").innerHTML=order.map(v=>{
+    const its=groups[v], open=discoverExpanded.has(v);
+    return '<section class="jgroup'+(open?"":" collapsed")+'" style="--jcolor:#c9c4bb" data-venue="'+esc(v)+'">'+
+      '<div class="jhead" role="button" tabindex="0"><h2>'+esc(v)+'</h2>'+
+      '<span class="cnt">'+its.length+'</span><span class="caret">\u25be</span></div>'+
+      '<div class="jlist"'+(open?' data-rendered="1"':'')+'>'+(open?its.map(dcard).join(""):"")+'</div></section>';
+  }).join("");
+  el("dresults").querySelectorAll(".jhead").forEach(h=>{
+    const sec=h.parentElement, v=sec.dataset.venue;
+    const toggle=()=>{
+      const was=sec.classList.contains("collapsed");
+      sec.classList.toggle("collapsed");
+      if(was){discoverExpanded.add(v);
+        const list=sec.querySelector(".jlist");
+        if(!list.dataset.rendered){list.innerHTML=groups[v].map(dcard).join("");list.dataset.rendered="1";wireCards(list);}
+      } else discoverExpanded.delete(v);
+    };
+    h.addEventListener("click",toggle);
+    h.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();toggle();}});
+  });
 }
 
 document.querySelectorAll("#tabs .tab").forEach(t=>t.addEventListener("click",()=>setMode(t.dataset.mode)));
 el("dsearch").addEventListener("click",discoverSearch);
 el("dq").addEventListener("keydown",e=>{if(e.key==="Enter")discoverSearch();});
+el("dgrouped").addEventListener("change",()=>{ if(lastDiscover.length) renderDiscover(lastDiscover); });
 
 load();
 
