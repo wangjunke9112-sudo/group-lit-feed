@@ -121,46 +121,53 @@ def normalise(item):
 SELECT = "DOI,title,author,issued,published,published-online,published-print,created,container-title,ISSN,URL,abstract,type,subtype"
 
 
-def query_term(term, start_date, dry_run=False):
-    """Page through all Crossref results for one seed term across all ISSNs."""
-    issn_filter = ",".join(f"issn:{i}" for i in ALL_ISSNS)
+def _query_one(term, issn, start_date):
+    """Page through Crossref for one seed term within ONE ISSN. Small request."""
     params = {
         "query.bibliographic": term,
-        "filter": f"from-pub-date:{start_date},{issn_filter}",
+        "filter": f"from-pub-date:{start_date},issn:{issn}",
         "rows": 1000,
         "cursor": "*",
         "select": SELECT,
     }
     params.update(_mailto_param())
-
-    kept, scanned, pages = [], 0, 0
+    kept = []
     while True:
         try:
             r = requests.get(CROSSREF, params=params, headers=_headers(), timeout=60)
             r.raise_for_status()
             msg = r.json().get("message", {})
         except Exception as exc:  # noqa: BLE001
-            print(f"    !! '{term}' page {pages}: {type(exc).__name__}: {exc}")
+            print(f"      !! '{term}' / {issn}: {type(exc).__name__}: {exc}")
             break
-
         items = msg.get("items", [])
         if not items:
             break
-        scanned += len(items)
         for it in items:
             rec = normalise(it)
             if rec:
                 kept.append(rec)
-
-        pages += 1
         cursor = msg.get("next-cursor")
         if not cursor or len(items) < params["rows"]:
             break
         params["cursor"] = cursor
         time.sleep(1)  # polite
-
-    print(f"  query '{term:<20}' scanned {scanned:>6}  kept {len(kept):>5}  ({pages} pages)")
     return kept
+
+
+def backfill_all(start_date):
+    """Per-journal querying: each request carries a single ISSN, so the Crossref
+    filter stays short (the all-ISSNs-in-one-filter approach hit HTTP 400)."""
+    by_key, per_journal = {}, {}
+    for name, issns in ISSNS.items():
+        before = len(by_key)
+        for issn in issns:
+            for term in CORE_QUERIES:
+                for rec in _query_one(term, issn, start_date):
+                    by_key[_key(rec)] = rec        # de-dupe across terms/ISSNs/journals
+        per_journal[name] = len(by_key) - before
+        print(f"  {name:<42} +{per_journal[name]:>5} new  (running total {len(by_key)})")
+    return list(by_key.values()), per_journal
 
 
 def verify_issns():
@@ -188,14 +195,10 @@ def verify_issns():
 
 def run(dry_run=False):
     start = SETTINGS["start_date"]
-    print(f"Backfilling {len(ISSNS)} journals from {start} via Crossref")
+    print(f"Backfilling {len(ISSNS)} journals from {start} via Crossref (per-journal)")
     print(f"Seed queries: {', '.join(CORE_QUERIES)}\n")
 
-    by_key = {}
-    for term in CORE_QUERIES:
-        for rec in query_term(term, start, dry_run):
-            by_key[_key(rec)] = rec  # de-dupe across seed queries
-    fresh = list(by_key.values())
+    fresh, per_journal = backfill_all(start)
     print(f"\nUnique matching papers from backfill: {len(fresh)}")
 
     if dry_run:
