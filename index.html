@@ -531,33 +531,36 @@ function setMode(mode){
 
 function stripTags(s){ return (s||"").replace(/<[^>]+>/g," ").replace(/\s+/g," ").trim(); }
 
-async function searchSemanticScholar(q, yr){
-  let url="https://api.semanticscholar.org/graph/v1/paper/search?limit=25"+
-    "&fields=title,abstract,year,authors,venue,journal,publicationVenue,externalIds,isOpenAccess,tldr&query="+encodeURIComponent(q);
-  if(yr) url+="&year="+yr+"-";
-  const r=await fetch(url,{headers:{Accept:"application/json"}});
-  if(!r.ok) throw new Error("ss "+r.status);
-  const j=await r.json();
-  return (j.data||[]).map(p=>{
-    const doi=(p.externalIds&&p.externalIds.DOI)||"";
-    const venue=(p.journal&&p.journal.name)||(p.publicationVenue&&p.publicationVenue.name)||p.venue||"";
-    return {
-      title:p.title||"(untitled)",
-      authors:(p.authors||[]).map(a=>a.name),
-      year:p.year||"", venue:venue,
-      abstract:(p.tldr&&p.tldr.text)?("TL;DR \u2014 "+p.tldr.text):(p.abstract||""),
-      doi:doi,
-      link:doi?"https://doi.org/"+doi:"",          // publisher landing page, not the PDF/SI
-      oa:!!p.isOpenAccess
-    };
-  });
+// Top journals in the field, highest priority first. Discover ranks hits from
+// these above everything else (and drops conference/preprint venues entirely).
+const PREFERRED=[
+  "nature energy","nature materials","joule","science advances",
+  "energy & environmental science","energy and environmental science",
+  "nature photonics","nature nanotechnology","nature communications",
+  "nature chemistry","nature synthesis","nature reviews","nature electronics","nature physics",
+  "journal of the american chemical society","angewandte chemie",
+  "advanced materials","advanced energy materials","advanced functional materials",
+  "matter","chemical society reviews","chemical reviews","accounts of chemical research",
+  "acs energy letters","acs nano","nano letters","nano energy",
+  "chemistry of materials","acs applied materials","acs applied energy",
+  "small methods","small"
+];
+function venueRank(v){
+  const lv=(v||"").trim().toLowerCase();
+  if(lv==="nature") return 0;          // flagship Nature
+  if(lv==="science") return 1;         // flagship Science
+  for(let i=0;i<PREFERRED.length;i++) if(lv.includes(PREFERRED[i])) return 2+i;
+  return 999;                          // any other journal
 }
 
 async function searchCrossref(q, yr){
-  let url="https://api.crossref.org/works?rows=25"+
-    "&select=DOI,title,author,issued,container-title,abstract,URL&query="+encodeURIComponent(q);
-  if(yr) url+="&filter=from-pub-date:"+yr+"-01-01";
-  url+="&mailto="+encodeURIComponent(DISCOVER_MAILTO);
+  // journal-articles only -> excludes conference papers, preprints, and the
+  // SI-component DOIs that were resolving to Supplementary-Information PDFs
+  let filter="type:journal-article";
+  if(yr) filter+=",from-pub-date:"+yr+"-01-01";
+  const url="https://api.crossref.org/works?rows=40&filter="+filter+
+    "&select=DOI,title,author,issued,container-title,abstract,URL&query="+encodeURIComponent(q)+
+    "&mailto="+encodeURIComponent(DISCOVER_MAILTO);
   const r=await fetch(url);
   if(!r.ok) throw new Error("cr "+r.status);
   const j=await r.json();
@@ -567,7 +570,7 @@ async function searchCrossref(q, yr){
     year:(((p.issued||{})["date-parts"]||[[]])[0]||[])[0]||"",
     venue:(p["container-title"]&&p["container-title"][0])||"",
     abstract:stripTags(p.abstract||""),
-    doi:p.DOI||"", link:p.DOI?"https://doi.org/"+p.DOI:(p.URL||""), oa:false
+    doi:p.DOI||"", link:p.DOI?"https://doi.org/"+p.DOI:"", oa:false   // publisher article page
   }));
 }
 
@@ -594,18 +597,17 @@ async function discoverSearch(){
   const yr=parseInt(el("dyear").value,10)||0;
   const myseq=++dseq;
   el("dstatus").textContent="Searching\u2026"; el("dresults").innerHTML="";
-  let items=null, source="";
-  try{ items=await searchSemanticScholar(q,yr); source="Semantic Scholar"; }
+  let items;
+  try{ items=await searchCrossref(q,yr); }
   catch(e){
-    try{ items=await searchCrossref(q,yr); source="Crossref"; }
-    catch(e2){
-      if(myseq===dseq) el("dstatus").textContent="Couldn\u2019t reach the literature services from your browser. Try again in a moment \u2014 if it keeps failing it\u2019s likely a cross-origin (CORS) block, which needs a small proxy.";
-      return;
-    }
+    if(myseq===dseq) el("dstatus").textContent="Couldn\u2019t reach the literature service from your browser. Try again in a moment \u2014 if it keeps failing it\u2019s likely a cross-origin (CORS) block.";
+    return;
   }
-  if(myseq!==dseq) return;                       // a newer search replaced this one
-  if(!items.length){ el("dstatus").textContent="No results for \u201c"+q+"\u201d."; lastDiscover=[]; el("dresults").innerHTML=""; return; }
-  el("dstatus").innerHTML="Showing "+items.length+" result(s) for \u201c"+esc(q)+"\u201d \u00b7 source: "+source+" \u00b7 live, not stored";
+  if(myseq!==dseq) return;                          // a newer search replaced this one
+  items=items.filter(p=>p.venue);                   // real journals only (drops venue-less items)
+  items.sort((a,b)=>venueRank(a.venue)-venueRank(b.venue));  // top journals first (stable within tier)
+  if(!items.length){ el("dstatus").textContent="No journal results for \u201c"+q+"\u201d."; lastDiscover=[]; el("dresults").innerHTML=""; return; }
+  el("dstatus").innerHTML="Showing "+items.length+" journal article(s) for \u201c"+esc(q)+"\u201d \u00b7 top journals first \u00b7 live, not stored";
   lastDiscover=items; discoverExpanded=new Set();   // new results start folded
   renderDiscover(items);
 }
