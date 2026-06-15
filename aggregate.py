@@ -467,10 +467,10 @@ def selftest():
     # 1. keyword matcher
     keep, hits = is_relevant("Halide segregation in wide-bandgap perovskite solar cells")
     assert keep and "perovskite" in [h.lower() for h in hits], hits
-    keep, _ = is_relevant("A study of champion swimmers and onion farming")  # no false hit on 'ion'/'champion'
+    keep, _ = is_relevant("A study of champion swimmers and onion farming")
     assert not keep
     keep, _ = is_relevant("Photocatalytic CO2 reduction over a new catalyst")
-    assert keep  # matches 'co2 reduction'
+    assert keep
 
     # 2. require_perovskite gate
     saved = SETTINGS["require_perovskite"]
@@ -481,13 +481,29 @@ def selftest():
     assert keep
     SETTINGS["require_perovskite"] = saved
 
-    # 3. merge / prune / dedupe
+    # 3. merge / prune / dedupe, while preserving useful old abstracts
     today = dt.date.today().isoformat()
-    old = "2025-12-31"   # before the 2026-01-01 start date -> should be pruned
-        existing = [
-        {"title": "A", "doi": "10.1/a", "link": "x", "date": "2025-01-01", "journal": "J"},
-        {"title": "B", "doi": "10.1/b", "link": "y", "date": today, "journal": "J"},
+    old = "2025-12-31"
+
+    existing = [
+        {
+            "title": "A",
+            "doi": "10.1/a",
+            "link": "x",
+            "date": old,
+            "journal": "J",
+            "abstract": "old pruned abstract",
+        },
+        {
+            "title": "B",
+            "doi": "10.1/b",
+            "link": "y",
+            "date": today,
+            "journal": "J",
+            "abstract": "this useful old abstract should survive",
+        },
     ]
+
     fresh = [
         {
             "title": "B-updated",
@@ -506,10 +522,11 @@ def selftest():
             "abstract": "new abstract",
         },
     ]
-    existing[1]["abstract"] = "this useful old abstract should survive"
+
     merged = merge(existing, fresh, start_date="2026-01-01")
     titles = sorted(r["title"] for r in merged)
-    assert titles == ["B-updated", "C"], titles  # A pruned, B replaced, C added
+    assert titles == ["B-updated", "C"], titles
+
     b = next(r for r in merged if r["doi"] == "10.1/b")
     assert b["abstract"] == "this useful old abstract should survive", b
 
@@ -517,7 +534,6 @@ def selftest():
     assert clean_text("<p>Hello&nbsp;<b>world</b></p>") == "Hello world"
 
     print("All self-tests passed.")
-
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Build the group literature feed.")
