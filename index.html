@@ -72,6 +72,15 @@
   .ptype-article{background:var(--tag-bg);color:var(--ink-soft)}
   .vip{font-family:var(--mono);font-size:10px;font-weight:700;color:#8a5a00;background:#fdf3d6;border:1px solid #f0dca0;padding:1px 6px;border-radius:4px;letter-spacing:.03em}
   .vipname{color:#8a5a00}
+  .tabs{display:flex;gap:6px;margin:12px 0 4px}
+  .tab{font-family:var(--mono);font-size:12.5px;padding:7px 14px;border:1px solid var(--line);border-bottom:none;border-radius:8px 8px 0 0;background:#f5f4f1;color:var(--ink-soft);cursor:pointer}
+  .tab.active{background:#fff;color:var(--ink);font-weight:600;box-shadow:0 -2px 0 var(--accent) inset}
+  .dbtn{font-family:var(--mono);font-size:13px;padding:8px 16px;border:1px solid var(--accent);border-radius:8px;background:var(--accent);color:#fff;cursor:pointer}
+  .dbtn:hover{opacity:.9}
+  .dsince{font-size:13px;color:var(--ink-soft);display:inline-flex;align-items:center}
+  #dyear{width:5.5em;font-family:var(--mono)}
+  .dstatus{font-size:13px;color:var(--ink-soft);margin:6px 0 14px}
+  .oa{background:#e6f3ec;color:#0a7d54;font-family:var(--mono);font-size:10px;font-weight:700;padding:1px 6px;border-radius:4px;letter-spacing:.03em}
   .actions{margin-top:9px;display:flex;gap:14px;align-items:center;font-size:13px}
   .more{background:none;border:none;color:var(--accent);cursor:pointer;padding:0;font-size:13px;font-family:var(--sans)}
   .abs{margin-top:9px;padding-top:9px;border-top:1px dashed var(--line);font-size:13.5px;color:#2b313b;line-height:1.55;display:none}
@@ -92,6 +101,11 @@
   <h1>Group Literature Feed</h1>
   <div class="attrib">&copy; <span id="yr">2026</span> Junke Wang &middot; <a href="https://lens-laboratory.com" target="_blank" rel="noopener">LENS Laboratory</a> &middot; All rights reserved</div>
   <div class="sub" id="sub">Loading&hellip;</div>
+  <div class="tabs" id="tabs">
+    <button type="button" class="tab active" data-mode="archive">Our archive</button>
+    <button type="button" class="tab" data-mode="discover">Discover &middot; all literature</button>
+  </div>
+  <div id="archiveControls">
   <div class="controls">
     <input type="search" id="q" placeholder="Search &mdash; e.g. perovskite, tandem OR multijunction, water splitting" autocomplete="off" title="Comma or AND = all must match. OR = alternatives within one slot. Phrases stay intact. Example: perovskite, tandem OR multijunction = perovskite AND (tandem OR multijunction).">
     <select id="journal"><option value="">All journals</option></select>
@@ -128,12 +142,27 @@
     <label class="opt"><input type="checkbox" id="grouped" checked> Group by journal</label>
   </div>
   <div class="hint">Tip: combine terms with commas or <b>AND</b> (all must match); use <b>OR</b> for alternatives within a slot. e.g. <code>perovskite, tandem OR multijunction</code>. Minor variants match automatically &mdash; <code>perovskite</code> also finds <i>perovskites</i>, and <code>wide-bandgap</code> finds <i>wide bandgap</i> &mdash; so you rarely need to list them.</div>
+  </div><!-- /archiveControls -->
+  <div id="discoverControls" hidden>
+    <div class="controls">
+      <input type="search" id="dq" placeholder="Search ALL literature &mdash; e.g. passivation ammonium wide-bandgap" autocomplete="off">
+      <span class="dsince">since&nbsp;<input type="number" id="dyear" min="1990" max="2026" placeholder="year"></span>
+      <button type="button" id="dsearch" class="dbtn">Search</button>
+    </div>
+    <div class="hint">Searches the whole literature <b>live</b> (not limited to your stored journals) &mdash; good for &ldquo;has anyone done X?&rdquo;. Concepts, materials and methods search well; exact procedures often live in paywalled full text, so open the paper for those. Nothing here is stored.</div>
+  </div>
 </div></header>
 
 <main class="wrap">
-  <div class="status" id="status"></div>
-  <div class="count" id="count"></div>
-  <div id="feed"><div class="empty">Loading&hellip;</div></div>
+  <div id="archiveView">
+    <div class="status" id="status"></div>
+    <div class="count" id="count"></div>
+    <div id="feed"><div class="empty">Loading&hellip;</div></div>
+  </div>
+  <div id="discoverView" hidden>
+    <div class="dstatus" id="dstatus">Type a query above to search the whole literature.</div>
+    <div id="dresults"></div>
+  </div>
 </main>
 
 <script>
@@ -339,6 +368,8 @@ function paperVip(p){ return (p.authors||[]).some(isVip); }
 const REVIEW_JOURNALS=new Set(["Chemical Reviews","Chemical Society Reviews",
   "Nature Reviews Materials","Nature Reviews Chemistry","Nature Reviews Methods Primers",
   "Accounts of Chemical Research"]);
+// smaller/secondary journals: always shown at the very end of the grouped list
+const MINOR_JOURNALS=new Set(["ACS Applied Materials & Interfaces","Small","Small Methods"]);
 function classifyType(p){
   if(p.type) return p.type;                       // use stored type when present
   const text=p.title||"";
@@ -427,7 +458,11 @@ function renderFlat(rows){
 function renderGrouped(rows){
   const groups={};
   rows.forEach(p=>(groups[p.journal]||=[]).push(p));
-  const journals=Object.keys(groups).sort((a,b)=>(groups[b][0].date||"").localeCompare(groups[a][0].date||""));
+  const journals=Object.keys(groups).sort((a,b)=>{
+    const am=MINOR_JOURNALS.has(a), bm=MINOR_JOURNALS.has(b);
+    if(am!==bm) return am?1:-1;                                   // minor journals last
+    return (groups[b][0].date||"").localeCompare(groups[a][0].date||"");  // else by recency
+  });
   el("feed").innerHTML=journals.map(j=>{
     const items=groups[j], color="var(--p-"+items[0].publisher+")";
     // sections start folded, but keep open any the user already expanded
@@ -481,6 +516,98 @@ function card(p){
     '<div class="actions">'+more+'<a href="'+esc(p.link)+'" target="_blank" rel="noopener">Open paper \u2197</a></div>'+
     absBlock+'</article>';
 }
+// ---- Discover: live whole-literature search (stores nothing) ----------------
+const DISCOVER_MAILTO="wangjunke9112@gmail.com";   // Crossref polite-pool contact
+let dseq=0;
+
+function setMode(mode){
+  const arch = mode!=="discover";
+  el("archiveControls").hidden=!arch; el("archiveView").hidden=!arch;
+  el("discoverControls").hidden=arch; el("discoverView").hidden=arch;
+  document.querySelectorAll("#tabs .tab").forEach(t=>t.classList.toggle("active",t.dataset.mode===mode));
+  if(!arch) el("dq").focus();
+}
+
+function stripTags(s){ return (s||"").replace(/<[^>]+>/g," ").replace(/\s+/g," ").trim(); }
+
+async function searchSemanticScholar(q, yr){
+  let url="https://api.semanticscholar.org/graph/v1/paper/search?limit=25"+
+    "&fields=title,abstract,year,authors,venue,externalIds,openAccessPdf,tldr,url&query="+encodeURIComponent(q);
+  if(yr) url+="&year="+yr+"-";
+  const r=await fetch(url,{headers:{Accept:"application/json"}});
+  if(!r.ok) throw new Error("ss "+r.status);
+  const j=await r.json();
+  return (j.data||[]).map(p=>({
+    title:p.title||"(untitled)",
+    authors:(p.authors||[]).map(a=>a.name),
+    year:p.year||"", venue:p.venue||"",
+    abstract:(p.tldr&&p.tldr.text)?("TL;DR \u2014 "+p.tldr.text):(p.abstract||""),
+    doi:(p.externalIds&&p.externalIds.DOI)||"",
+    url:p.url||((p.externalIds&&p.externalIds.DOI)?"https://doi.org/"+p.externalIds.DOI:""),
+    oa:(p.openAccessPdf&&p.openAccessPdf.url)||""
+  }));
+}
+
+async function searchCrossref(q, yr){
+  let url="https://api.crossref.org/works?rows=25"+
+    "&select=DOI,title,author,issued,container-title,abstract,URL&query="+encodeURIComponent(q);
+  if(yr) url+="&filter=from-pub-date:"+yr+"-01-01";
+  url+="&mailto="+encodeURIComponent(DISCOVER_MAILTO);
+  const r=await fetch(url);
+  if(!r.ok) throw new Error("cr "+r.status);
+  const j=await r.json();
+  return (((j.message||{}).items)||[]).map(p=>({
+    title:(p.title&&p.title[0])||"(untitled)",
+    authors:(p.author||[]).map(a=>[a.given,a.family].filter(Boolean).join(" ")),
+    year:(((p.issued||{})["date-parts"]||[[]])[0]||[])[0]||"",
+    venue:(p["container-title"]&&p["container-title"][0])||"",
+    abstract:stripTags(p.abstract||""),
+    doi:p.DOI||"", url:p.URL||(p.DOI?"https://doi.org/"+p.DOI:""), oa:""
+  }));
+}
+
+function dcard(p){
+  const meta='<div class="meta">'+
+    (p.year?'<span>'+esc(String(p.year))+'</span>':'')+
+    (p.venue?'<span>'+esc(p.venue)+'</span>':'')+
+    (p.oa?'<span class="oa">Open access</span>':'')+'</div>';
+  const authors=(p.authors&&p.authors.length)?'<div class="auth">'+p.authors.map(esc).join(", ")+'</div>':"";
+  const more=p.abstract?'<button class="more">Read more</button>':"";
+  const absBlock=p.abstract?'<div class="abs">'+esc(p.abstract)+
+    (p.doi&&p.doi.startsWith("10.")?'<div class="doi">DOI: '+esc(p.doi)+'</div>':'')+'</div>':"";
+  const links='<a href="'+esc(p.url)+'" target="_blank" rel="noopener">Open paper \u2197</a>'+
+    (p.oa?' <a href="'+esc(p.oa)+'" target="_blank" rel="noopener">Free PDF \u2197</a>':'');
+  return '<article class="paper">'+
+    '<p class="t"><a href="'+esc(p.url)+'" target="_blank" rel="noopener">'+esc(p.title)+'</a></p>'+
+    meta+authors+'<div class="actions">'+more+links+'</div>'+absBlock+'</article>';
+}
+
+async function discoverSearch(){
+  const q=el("dq").value.trim();
+  if(!q){ el("dresults").innerHTML=""; el("dstatus").textContent="Type a query above to search the whole literature."; return; }
+  const yr=parseInt(el("dyear").value,10)||0;
+  const myseq=++dseq;
+  el("dstatus").textContent="Searching\u2026"; el("dresults").innerHTML="";
+  let items=null, source="";
+  try{ items=await searchSemanticScholar(q,yr); source="Semantic Scholar"; }
+  catch(e){
+    try{ items=await searchCrossref(q,yr); source="Crossref"; }
+    catch(e2){
+      if(myseq===dseq) el("dstatus").textContent="Couldn\u2019t reach the literature services from your browser. Try again in a moment \u2014 if it keeps failing it\u2019s likely a cross-origin (CORS) block, which needs a small proxy.";
+      return;
+    }
+  }
+  if(myseq!==dseq) return;                       // a newer search replaced this one
+  if(!items.length){ el("dstatus").textContent="No results for \u201c"+q+"\u201d."; return; }
+  el("dstatus").innerHTML="Showing "+items.length+" result(s) for \u201c"+esc(q)+"\u201d \u00b7 source: "+source+" \u00b7 live, not stored";
+  el("dresults").innerHTML=items.map(dcard).join("");
+  wireCards(el("dresults"));
+}
+
+document.querySelectorAll("#tabs .tab").forEach(t=>t.addEventListener("click",()=>setMode(t.dataset.mode)));
+el("dsearch").addEventListener("click",discoverSearch);
+el("dq").addEventListener("keydown",e=>{if(e.key==="Enter")discoverSearch();});
+
 load();
 
 </script>

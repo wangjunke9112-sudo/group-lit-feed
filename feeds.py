@@ -43,6 +43,7 @@ FEEDS = [
     ("Chemical Reviews",                "ACS",     "https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=chreay"),
     ("Accounts of Chemical Research",   "ACS",     "https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=achre4"),
     ("ACS Energy Letters",              "ACS",     "https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=aelccp"),
+    ("ACS Applied Materials & Interfaces","ACS",   "https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=aamick"),
 
     # ---- RSC --------------------------------------------------------------
     ("Chemical Society Reviews",        "RSC",     "https://feeds.rsc.org/rss/CS"),
@@ -53,6 +54,8 @@ FEEDS = [
     ("Advanced Energy Materials",       "Wiley",   "https://onlinelibrary.wiley.com/feed/16146840/most-recent"),
     ("Advanced Functional Materials",   "Wiley",   "https://onlinelibrary.wiley.com/feed/16163028/most-recent"),
     ("Angewandte Chemie Int. Ed.",      "Wiley",   "https://onlinelibrary.wiley.com/feed/15213773/most-recent"),
+    ("Small",                           "Wiley",   "https://onlinelibrary.wiley.com/feed/16136829/most-recent"),
+    ("Small Methods",                   "Wiley",   "https://onlinelibrary.wiley.com/feed/23669608/most-recent"),
 
     # ---- Science (AAAS) ---------------------------------------------------
     ("Science",                         "Science", "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science"),
@@ -154,12 +157,15 @@ ISSNS = {
     "Chemical Reviews":                         ["0009-2665", "1520-6890"],
     "Accounts of Chemical Research":            ["0001-4842", "1520-4898"],
     "ACS Energy Letters":                       ["2380-8195"],
+    "ACS Applied Materials & Interfaces":       ["1944-8244", "1944-8252"],
     "Chemical Society Reviews":                 ["0306-0012", "1460-4744"],
     "Energy & Environmental Science":           ["1754-5692", "1754-5706"],
     "Advanced Materials":                       ["0935-9648", "1521-4095"],
     "Advanced Energy Materials":                ["1614-6832", "1614-6840"],
     "Advanced Functional Materials":            ["1616-301X", "1616-3028"],
     "Angewandte Chemie Int. Ed.":               ["1433-7851", "1521-3773"],
+    "Small":                                    ["1613-6810", "1613-6829"],
+    "Small Methods":                            ["2366-9608"],
     "Science":                                  ["0036-8075", "1095-9203"],
     "Science Advances":                         ["2375-2548"],
     "Joule":                                    ["2542-4351", "2542-4785"],
