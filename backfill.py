@@ -22,6 +22,7 @@ It is safe to re-run: results merge and de-duplicate against what's already ther
 import argparse
 import sys
 import time
+import urllib.parse
 
 import requests
 
@@ -31,6 +32,7 @@ from aggregate import (clean_text, is_relevant, merge, load_archive,
                        write_archive, _key, pick_crossref_date, classify_type)
 
 CROSSREF = "https://api.crossref.org/works"
+WORK = "https://api.crossref.org/works/{}"   # single-DOI lookup (no `select`, full record)
 JOURNALS = "https://api.crossref.org/journals/{}"
 
 # reverse map: every ISSN -> (journal name, publisher)
@@ -218,6 +220,66 @@ def verify_issns():
     print("\nAll ISSNs resolved." if ok else "\nSome ISSNs did not resolve - edit ISSNS in feeds.py.")
 
 
+def _fetch_abstract(doi):
+    """Fetch one paper by DOI and return its cleaned abstract ('' if none)."""
+    url = WORK.format(urllib.parse.quote(doi, safe=""))
+    delay = 5
+    for _ in range(5):
+        try:
+            r = requests.get(url, params=_mailto_param(), headers=_headers(), timeout=45)
+            if r.status_code == 429:
+                wait = int(r.headers.get("Retry-After", delay) or delay)
+                time.sleep(wait); delay = min(delay * 2, 60); continue
+            if r.status_code == 404:
+                return ""
+            r.raise_for_status()
+            return clean_text(r.json().get("message", {}).get("abstract", ""))
+        except requests.HTTPError:
+            return ""
+        except Exception:
+            time.sleep(delay); delay = min(delay * 2, 60)
+    return ""
+
+
+def repair_abstracts(limit=0, dry_run=False):
+    """Re-fetch EVERY paper's abstract from Crossref by DOI and update in place.
+
+    Damaged records from the broken-`select` period kept empty/short abstracts;
+    this rebuilds them. Checkpoints periodically and is resumable (a longer
+    fetched abstract overwrites a shorter stored one; re-running continues)."""
+    papers = load_archive()
+    cap = SETTINGS.get("abstract_max_chars", 1600)
+    targets = [p for p in papers if p.get("doi")]
+    if limit:
+        # do the shortest-abstract papers first so partial runs fix the worst
+        targets.sort(key=lambda p: len(p.get("abstract") or ""))
+        targets = targets[:limit]
+    print(f"Repairing abstracts for {len(targets)} papers "
+          f"({'dry run' if dry_run else 'will write'})\n")
+
+    fixed = checked = 0
+    for p in targets:
+        checked += 1
+        ab = _fetch_abstract(p["doi"])
+        if len(ab) > len(p.get("abstract") or ""):
+            if len(ab) > cap:
+                ab = ab[:cap].rsplit(" ", 1)[0] + "\u2026"
+            p["abstract"] = ab
+            fixed += 1
+        if checked % 100 == 0:
+            print(f"  {checked}/{len(targets)} checked, {fixed} repaired")
+            if not dry_run:
+                write_archive(papers, report=[])          # checkpoint
+        time.sleep(0.25)                                   # polite pacing
+
+    print(f"\nDone: {fixed} abstracts updated out of {checked} checked.")
+    if dry_run:
+        print("(dry run - nothing written)")
+    else:
+        manifest = write_archive(papers, report=[])
+        print(f"Archive holds {manifest['count']} papers.")
+
+
 def run(dry_run=False):
     start = SETTINGS["start_date"]
     print(f"Backfilling {len(ISSNS)} journals from {start} via Crossref (per-journal)")
@@ -247,8 +309,14 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Historical backfill from Crossref.")
     ap.add_argument("--verify-issns", action="store_true", help="check ISSNs resolve, then exit")
     ap.add_argument("--dry-run", action="store_true", help="fetch + filter but write nothing")
+    ap.add_argument("--repair-abstracts", action="store_true",
+                    help="re-fetch every paper's abstract by DOI and update in place")
+    ap.add_argument("--repair-limit", type=int, default=0,
+                    help="cap how many papers to repair this run (shortest abstracts first; resumable)")
     args = ap.parse_args()
     if args.verify_issns:
         verify_issns()
+    elif args.repair_abstracts:
+        repair_abstracts(limit=args.repair_limit, dry_run=args.dry_run)
     else:
         run(dry_run=args.dry_run)
