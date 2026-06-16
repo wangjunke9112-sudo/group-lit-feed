@@ -26,6 +26,7 @@ import os
 import re
 import sys
 import time
+import urllib.parse
 
 from feeds import FEEDS, KEYWORDS, SETTINGS
 
@@ -110,49 +111,140 @@ def pick_crossref_date(item):
 
 
 def crossref_date_for_doi(doi):
-   def crossref_abstract_for_doi(doi):
-    """Look up one DOI in Crossref and return a cleaned abstract, or '' on failure.
-
-    Some publisher RSS feeds provide no abstract, or only a very short teaser.
-    Crossref often has the publisher abstract, especially for older papers, so
-    use it as a fallback when the feed abstract is missing.
-    """
-    if not doi or not doi.startswith("10."):
-        return ""
-    try:
-        import requests
-        mail = SETTINGS.get("crossref_mailto", "")
-        params = {"mailto": mail} if mail and "example.com" not in mail else {}
-        r = requests.get(
-            "https://api.crossref.org/works/" + doi,
-            params=params,
-            headers={"User-Agent": SETTINGS["user_agent"]},
-            timeout=15,
-        )
-        if r.status_code == 200:
-            abstract = clean_text(r.json().get("message", {}).get("abstract", ""))
-            cap = SETTINGS.get("abstract_max_chars", 1600)
-            if len(abstract) > cap:
-                abstract = abstract[:cap].rsplit(" ", 1)[0] + "\u2026"
-            return abstract
-    except Exception:
-        pass
-    return ""
-      
     """Look up one DOI in Crossref and return its best date, or '' on any failure."""
     if not doi or not doi.startswith("10."):
         return ""
     try:
         import requests
-        mail = SETTINGS.get("crossref_mailto", "")
-        params = {"mailto": mail} if mail and "example.com" not in mail else {}
         r = requests.get("https://api.crossref.org/works/" + doi,
-                         params=params, headers={"User-Agent": SETTINGS["user_agent"]},
-                         timeout=15)
+                         params=_ab_params(), headers=_ab_headers(), timeout=15)
         if r.status_code == 200:
             return pick_crossref_date(r.json().get("message", {}))
     except Exception:
         pass
+    return ""
+
+
+# ---------------------------------------------------------------------------
+# Multi-source abstract lookup (shared by the daily job and the backfill).
+# Order: Crossref -> Semantic Scholar -> OpenAlex (only if OPENALEX_KEY set).
+# Crossref lacks abstracts for many Wiley/ACS papers; Semantic Scholar fills a
+# lot of those gaps. Server-side only, so there are no CORS concerns.
+# ---------------------------------------------------------------------------
+def _ab_headers():
+    mail = SETTINGS.get("crossref_mailto", "")
+    ua = SETTINGS["user_agent"]
+    if mail and "example.com" not in mail:
+        ua += f" (mailto:{mail})"
+    return {"User-Agent": ua}
+
+
+def _ab_params():
+    mail = SETTINGS.get("crossref_mailto", "")
+    return {"mailto": mail} if mail and "example.com" not in mail else {}
+
+
+def _cap_abstract(text):
+    cap = SETTINGS.get("abstract_max_chars", 1600)
+    if len(text) > cap:
+        text = text[:cap].rsplit(" ", 1)[0] + "\u2026"
+    return text
+
+
+def _clean_abstract_candidate(text):
+    text = clean_text(html.unescape(text or ""))
+    if not text:
+        return ""
+    low = text.lower()
+    bad = ["read the latest articles", "browse articles", "nature portfolio",
+           "springer nature", "official journal", "science family of journals",
+           "this journal publishes", "submit your article"]
+    if any(b in low for b in bad):
+        return ""
+    if len(text) < 80:
+        return ""
+    return text
+
+
+def _reconstruct_inverted_index(inv):
+    if not inv:
+        return ""
+    pos = []
+    for word, idxs in inv.items():
+        for i in idxs:
+            pos.append((i, word))
+    pos.sort()
+    return " ".join(w for _, w in pos)
+
+
+def fetch_crossref_abstract(doi):
+    try:
+        import requests
+        r = requests.get("https://api.crossref.org/works/" + urllib.parse.quote(doi, safe=""),
+                         params=_ab_params(), headers=_ab_headers(), timeout=30)
+        if r.status_code == 200:
+            return _clean_abstract_candidate(r.json().get("message", {}).get("abstract", ""))
+    except Exception:
+        pass
+    return ""
+
+
+def fetch_semanticscholar_abstract(doi):
+    """Semantic Scholar by DOI. Free; good coverage where Crossref is empty.
+    Optional S2_API_KEY env raises the rate limit (server-side secret)."""
+    try:
+        import requests
+        url = ("https://api.semanticscholar.org/graph/v1/paper/DOI:"
+               + urllib.parse.quote(doi, safe="/") + "?fields=abstract")
+        headers = {}
+        key = os.environ.get("S2_API_KEY", "")
+        if key:
+            headers["x-api-key"] = key
+        delay = 5
+        for _ in range(4):
+            r = requests.get(url, headers=headers, timeout=30)
+            if r.status_code == 429:
+                time.sleep(int(r.headers.get("Retry-After", delay) or delay))
+                delay = min(delay * 2, 60)
+                continue
+            if r.status_code == 200:
+                return _clean_abstract_candidate(r.json().get("abstract", "") or "")
+            return ""
+    except Exception:
+        pass
+    return ""
+
+
+def fetch_openalex_abstract(doi):
+    key = os.environ.get("OPENALEX_KEY", "")
+    if not key:
+        return ""
+    try:
+        import requests
+        params = {"select": "abstract_inverted_index", "api_key": key}
+        mail = SETTINGS.get("crossref_mailto", "")
+        if mail and "example.com" not in mail:
+            params["mailto"] = mail
+        r = requests.get("https://api.openalex.org/works/doi:" + doi,
+                         params=params, headers=_ab_headers(), timeout=30)
+        if r.status_code == 200:
+            return _clean_abstract_candidate(
+                _reconstruct_inverted_index(r.json().get("abstract_inverted_index")))
+    except Exception:
+        pass
+    return ""
+
+
+def fetch_abstract(doi):
+    """First usable abstract across sources, or '' if none has one."""
+    doi = (doi or "").strip()
+    if not doi or not doi.startswith("10."):
+        return ""
+    for src in (fetch_crossref_abstract, fetch_semanticscholar_abstract,
+                fetch_openalex_abstract):
+        ab = src(doi)
+        if ab:
+            return _cap_abstract(ab)
     return ""
 
 
@@ -250,11 +342,12 @@ def normalise_entry(entry, journal, publisher):
     doi = _entry_doi(entry, link)
     abstract = _entry_abstract(entry)
 
-    # If the RSS feed did not provide an abstract, try Crossref by DOI.
-    # This is deliberately only a fallback, so we do not slow down every feed
-    # item or replace a good publisher-provided abstract unnecessarily.
-    if not abstract:
-        abstract = crossref_abstract_for_doi(doi)
+    # If the feed gave no abstract (or only a short teaser), try the multi-source
+    # lookup by DOI. Only the day's handful of papers hit this, so it's cheap.
+    if len(abstract) < 200:
+        better = fetch_abstract(doi)
+        if len(better) > len(abstract):
+            abstract = better
 
     keep, hits = is_relevant(title + " \n " + abstract)
     if not keep:
@@ -394,6 +487,14 @@ def _better_record(old, new):
     if old_doi.startswith("10.") and not new_doi.startswith("10."):
         merged["doi"] = old_doi
 
+    # Keep the "already tried, found nothing" counter so a re-harvested paper
+    # isn't re-checked from scratch. If the kept abstract is now long, drop it.
+    tried = old.get("ab_tried", new.get("ab_tried"))
+    if tried is not None and len(merged.get("abstract") or "") < 200:
+        merged["ab_tried"] = tried
+    else:
+        merged.pop("ab_tried", None)
+
     return merged
 
 
@@ -443,19 +544,51 @@ def write_archive(papers, report, data_dir=DATA_DIR):
 # ---------------------------------------------------------------------------
 # Entry points
 # ---------------------------------------------------------------------------
+def topup_abstracts(papers, limit, min_len=200, max_tries=2):
+    """Fill a bounded number of still-missing abstracts in `papers` (in place).
+
+    Tries the emptiest first. Records an attempt counter ('ab_tried') on each
+    paper so dead ends (no abstract in any source) are skipped after `max_tries`
+    rather than being re-checked forever. Returns the number filled."""
+    targets = [p for p in papers
+               if p.get("doi", "").startswith("10.")
+               and len(p.get("abstract") or "") < min_len
+               and int(p.get("ab_tried", 0)) < max_tries]
+    targets.sort(key=lambda p: len(p.get("abstract") or ""))
+    filled = 0
+    for p in targets[:limit]:
+        ab = fetch_abstract(p["doi"])
+        if len(ab) > len(p.get("abstract") or ""):
+            p["abstract"] = _cap_abstract(ab)
+            p.pop("ab_tried", None)            # success -> clear the counter
+            filled += 1
+        else:
+            p["ab_tried"] = int(p.get("ab_tried", 0)) + 1
+        time.sleep(0.2)
+    return filled
+
+
 def run():
     print(f"Harvesting {len(FEEDS)} feeds ...")
     fresh, report = harvest()
     existing = load_archive()
     start = SETTINGS["start_date"]
     papers = merge(existing, fresh, start)
+
+    # Daily self-healing: top up a small batch of still-missing abstracts so the
+    # backlog shrinks on its own over time, without a manual repair run.
+    daily_cap = SETTINGS.get("daily_abstract_topup", 300)
+    filled = topup_abstracts(papers, limit=daily_cap) if daily_cap else 0
+
     manifest = write_archive(papers, report)
 
     new_count = len({_key(r) for r in fresh} - {_key(r) for r in existing})
     ok = sum(1 for r in report if r["error"] is None)
+    missing = sum(1 for p in papers if len(p.get("abstract") or "") < 200)
     print("-" * 60)
     print(f"Feeds OK: {ok}/{len(report)} | new this run: {new_count} "
           f"| archive total: {manifest['count']} (since {start})")
+    print(f"Abstracts topped up this run: {filled} | still missing/short: {missing}")
     print("By year: " + ", ".join(f"{y}:{c}" for y, c in manifest["year_counts"].items()))
     print(f"Wrote {DATA_DIR}/papers-YYYY.json + manifest.json")
 
