@@ -28,7 +28,7 @@ jobs:
           if [ "${{ inputs.dry_run }}" = "true" ]; then
             python backfill.py --dry-run
           else
-            python backfill.py --repair-abstracts --count-only
+            python backfill.py --repair-abstracts --repair-limit 2000
           fi
       - name: Commit data
         if: ${{ inputs.dry_run != true }}
