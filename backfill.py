@@ -20,6 +20,8 @@ It is safe to re-run: results merge and de-duplicate against what's already ther
 """
 
 import argparse
+import html
+import re
 import sys
 import time
 import urllib.parse
@@ -220,8 +222,156 @@ def verify_issns():
     print("\nAll ISSNs resolved." if ok else "\nSome ISSNs did not resolve - edit ISSNS in feeds.py.")
 
 
+def _clean_abstract_candidate(text):
+    """Clean and reject obvious non-abstract snippets."""
+    text = clean_text(html.unescape(text or ""))
+    if not text:
+        return ""
+
+    # Reject very generic landing-page descriptions.
+    low = text.lower()
+    bad_bits = [
+        "read the latest articles",
+        "browse articles",
+        "nature portfolio",
+        "springer nature",
+        "official journal",
+        "science family of journals",
+        "this journal publishes",
+        "learn about",
+        "submit your article",
+    ]
+    if any(b in low for b in bad_bits):
+        return ""
+
+    # Very short snippets are usually teasers, not useful abstracts.
+    if len(text) < 80:
+        return ""
+
+    return text
+
+
+def _abstract_from_html(page_html):
+    """Extract an abstract from publisher article HTML using common metadata.
+
+    This intentionally avoids BeautifulSoup so no new dependency is needed.
+    It first tries high-quality abstract metadata, then JSON-LD description,
+    then a conservative Abstract section fallback.
+    """
+    if not page_html:
+        return ""
+
+    # 1. Common publisher metadata fields.
+    # Nature/Springer, Wiley, ACS, RSC, Science, Elsevier/Cell often expose one
+    # or more of these, though coverage varies by publisher and article type.
+    meta_names = [
+        "citation_abstract",
+        "dc.description",
+        "dcterms.description",
+        "description",
+        "og:description",
+        "twitter:description",
+    ]
+
+    for name in meta_names:
+        pattern = (
+            r'<meta[^>]+(?:name|property)=["\']'
+            + re.escape(name)
+            + r'["\'][^>]+content=["\'](.*?)["\'][^>]*>'
+        )
+        m = re.search(pattern, page_html, flags=re.I | re.S)
+        if not m:
+            pattern = (
+                r'<meta[^>]+content=["\'](.*?)["\'][^>]+(?:name|property)=["\']'
+                + re.escape(name)
+                + r'["\'][^>]*>'
+            )
+            m = re.search(pattern, page_html, flags=re.I | re.S)
+        if m:
+            candidate = _clean_abstract_candidate(m.group(1))
+            if candidate:
+                return candidate
+
+    # 2. JSON-LD description fallback.
+    # Many publishers include {"description": "..."} in article schema.
+    m = re.search(
+        r'"description"\s*:\s*"((?:\\.|[^"\\])*)"',
+        page_html,
+        flags=re.I | re.S,
+    )
+    if m:
+        try:
+            candidate = m.group(1)
+            candidate = bytes(candidate, "utf-8").decode("unicode_escape")
+            candidate = _clean_abstract_candidate(candidate)
+            if candidate:
+                return candidate
+        except Exception:
+            pass
+
+    # 3. Conservative visible Abstract section fallback.
+    # Strip scripts/styles first, then look near the word Abstract.
+    stripped = re.sub(r"<script\b.*?</script>", " ", page_html, flags=re.I | re.S)
+    stripped = re.sub(r"<style\b.*?</style>", " ", stripped, flags=re.I | re.S)
+
+    m = re.search(
+        r'(?:<h2[^>]*>|<h3[^>]*>|<div[^>]*>|<section[^>]*>)[^<]*abstract[^<]*'
+        r'(.*?)(?:<h2\b|<h3\b|<section\b|</section>|references|acknowledg)',
+        stripped,
+        flags=re.I | re.S,
+    )
+    if m:
+        text = re.sub(r"<[^>]+>", " ", m.group(1))
+        text = re.sub(r"\s+", " ", text).strip()
+        candidate = _clean_abstract_candidate(text)
+        if candidate:
+            return candidate
+
+    return ""
+
+
+def _fetch_publisher_abstract(doi):
+    """Resolve DOI to the publisher page and try to extract an abstract."""
+    if not doi:
+        return ""
+
+    url = "https://doi.org/" + urllib.parse.quote(doi, safe="/")
+    headers = _headers()
+    headers.update({
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    })
+
+    delay = 5
+    for _ in range(3):
+        try:
+            r = requests.get(url, headers=headers, timeout=45, allow_redirects=True)
+            if r.status_code == 429:
+                wait = int(r.headers.get("Retry-After", delay) or delay)
+                time.sleep(wait)
+                delay = min(delay * 2, 60)
+                continue
+            if r.status_code >= 400:
+                return ""
+            return _abstract_from_html(r.text)
+        except Exception:
+            time.sleep(delay)
+            delay = min(delay * 2, 60)
+
+    return ""
+
+
 def _fetch_abstract(doi):
-    """Fetch one paper by DOI and return its cleaned abstract ('' if none)."""
+    """Fetch one paper's abstract.
+
+    Try Crossref first. If Crossref has no useful abstract, resolve the DOI and
+    try publisher-page metadata. This makes --repair-abstracts much more useful
+    for journals where Crossref abstracts are sparse.
+    """
+    doi = (doi or "").strip()
+    if not doi:
+        return ""
+
+    # 1. Crossref single-work lookup.
     url = WORK.format(urllib.parse.quote(doi, safe=""))
     delay = 5
     for _ in range(5):
@@ -229,16 +379,26 @@ def _fetch_abstract(doi):
             r = requests.get(url, params=_mailto_param(), headers=_headers(), timeout=45)
             if r.status_code == 429:
                 wait = int(r.headers.get("Retry-After", delay) or delay)
-                time.sleep(wait); delay = min(delay * 2, 60); continue
+                time.sleep(wait)
+                delay = min(delay * 2, 60)
+                continue
             if r.status_code == 404:
-                return ""
+                break
             r.raise_for_status()
-            return clean_text(r.json().get("message", {}).get("abstract", ""))
+            ab = _clean_abstract_candidate(
+                r.json().get("message", {}).get("abstract", "")
+            )
+            if ab:
+                return ab
+            break
         except requests.HTTPError:
-            return ""
+            break
         except Exception:
-            time.sleep(delay); delay = min(delay * 2, 60)
-    return ""
+            time.sleep(delay)
+            delay = min(delay * 2, 60)
+
+    # 2. Publisher page fallback.
+    return _fetch_publisher_abstract(doi)
 
 
 def repair_abstracts(limit=0, dry_run=False):
