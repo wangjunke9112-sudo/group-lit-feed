@@ -24,6 +24,7 @@ import html
 import re
 import sys
 import time
+import os
 import urllib.parse
 
 import requests
@@ -360,18 +361,20 @@ def _fetch_publisher_abstract(doi):
     return ""
 
 
-def _fetch_abstract(doi):
-    """Fetch one paper's abstract.
-
-    Try Crossref first. If Crossref has no useful abstract, resolve the DOI and
-    try publisher-page metadata. This makes --repair-abstracts much more useful
-    for journals where Crossref abstracts are sparse.
-    """
-    doi = (doi or "").strip()
-    if not doi:
+def _reconstruct_inverted_index(inv):
+    """OpenAlex returns abstracts as {word: [positions]}; rebuild the text."""
+    if not inv:
         return ""
+    pos = []
+    for word, idxs in inv.items():
+        for i in idxs:
+            pos.append((i, word))
+    pos.sort()
+    return " ".join(w for _, w in pos)
 
-    # 1. Crossref single-work lookup.
+
+def _fetch_crossref_abstract(doi):
+    """Crossref single-work lookup -> abstract ('' if none/blocked)."""
     url = WORK.format(urllib.parse.quote(doi, safe=""))
     delay = 5
     for _ in range(5):
@@ -379,43 +382,106 @@ def _fetch_abstract(doi):
             r = requests.get(url, params=_mailto_param(), headers=_headers(), timeout=45)
             if r.status_code == 429:
                 wait = int(r.headers.get("Retry-After", delay) or delay)
-                time.sleep(wait)
-                delay = min(delay * 2, 60)
-                continue
+                time.sleep(wait); delay = min(delay * 2, 60); continue
             if r.status_code == 404:
-                break
+                return ""
             r.raise_for_status()
-            ab = _clean_abstract_candidate(
-                r.json().get("message", {}).get("abstract", "")
-            )
-            if ab:
-                return ab
-            break
+            return _clean_abstract_candidate(r.json().get("message", {}).get("abstract", ""))
         except requests.HTTPError:
-            break
+            return ""
         except Exception:
-            time.sleep(delay)
-            delay = min(delay * 2, 60)
-
-    # 2. Publisher page fallback.
-    return _fetch_publisher_abstract(doi)
+            time.sleep(delay); delay = min(delay * 2, 60)
+    return ""
 
 
-def repair_abstracts(limit=0, dry_run=False):
-    """Re-fetch EVERY paper's abstract from Crossref by DOI and update in place.
+def _fetch_semanticscholar_abstract(doi):
+    """Semantic Scholar by DOI. Free; good coverage where Crossref is empty
+    (e.g. Wiley/ACS). Optional S2_API_KEY env raises the rate limit."""
+    url = ("https://api.semanticscholar.org/graph/v1/paper/DOI:"
+           + urllib.parse.quote(doi, safe="/") + "?fields=abstract")
+    headers = {}
+    key = os.environ.get("S2_API_KEY", "")
+    if key:
+        headers["x-api-key"] = key
+    delay = 5
+    for _ in range(5):
+        try:
+            r = requests.get(url, headers=headers, timeout=45)
+            if r.status_code == 429:
+                wait = int(r.headers.get("Retry-After", delay) or delay)
+                time.sleep(wait); delay = min(delay * 2, 60); continue
+            if r.status_code in (400, 404):
+                return ""
+            r.raise_for_status()
+            return _clean_abstract_candidate(r.json().get("abstract", "") or "")
+        except requests.HTTPError:
+            return ""
+        except Exception:
+            time.sleep(delay); delay = min(delay * 2, 60)
+    return ""
 
-    Damaged records from the broken-`select` period kept empty/short abstracts;
-    this rebuilds them. Checkpoints periodically and is resumable (a longer
-    fetched abstract overwrites a shorter stored one; re-running continues)."""
+
+def _fetch_openalex_abstract(doi):
+    """OpenAlex by DOI. Since Feb 2026 it needs a key for sustained use, so this
+    only runs when OPENALEX_KEY is set; otherwise it's skipped."""
+    key = os.environ.get("OPENALEX_KEY", "")
+    if not key:
+        return ""
+    url = "https://api.openalex.org/works/doi:" + doi
+    params = {"select": "abstract_inverted_index", "api_key": key}
+    mail = SETTINGS.get("crossref_mailto", "")
+    if mail and "example.com" not in mail:
+        params["mailto"] = mail
+    delay = 5
+    for _ in range(4):
+        try:
+            r = requests.get(url, params=params, headers=_headers(), timeout=45)
+            if r.status_code == 429:
+                wait = int(r.headers.get("Retry-After", delay) or delay)
+                time.sleep(wait); delay = min(delay * 2, 60); continue
+            if r.status_code >= 400:
+                return ""
+            inv = r.json().get("abstract_inverted_index")
+            return _clean_abstract_candidate(_reconstruct_inverted_index(inv))
+        except Exception:
+            time.sleep(delay); delay = min(delay * 2, 60)
+    return ""
+
+
+def _fetch_abstract(doi):
+    """Best-effort abstract from multiple sources, in order of reliability:
+    Crossref -> Semantic Scholar -> OpenAlex (if keyed) -> publisher page.
+    Returns the first usable abstract, or '' if none has one."""
+    doi = (doi or "").strip()
+    if not doi:
+        return ""
+    for source in (_fetch_crossref_abstract,
+                   _fetch_semanticscholar_abstract,
+                   _fetch_openalex_abstract,
+                   _fetch_publisher_abstract):
+        ab = source(doi)
+        if ab:
+            return ab
+    return ""
+
+
+def repair_abstracts(limit=0, dry_run=False, repair_all=False, min_len=200):
+    """Fill in missing/short abstracts from multiple sources (Crossref ->
+    Semantic Scholar -> OpenAlex if keyed -> publisher page).
+
+    By default only papers whose stored abstract is shorter than `min_len`
+    are re-fetched (that's the damaged set) -- much faster. Use repair_all=True
+    to re-check every paper. Checkpoints every 100 and is resumable."""
     papers = load_archive()
     cap = SETTINGS.get("abstract_max_chars", 1600)
-    targets = [p for p in papers if p.get("doi")]
+    targets = [p for p in papers
+               if p.get("doi") and (repair_all or len(p.get("abstract") or "") < min_len)]
+    # shortest/empty first, so partial runs fix the worst cases first
+    targets.sort(key=lambda p: len(p.get("abstract") or ""))
     if limit:
-        # do the shortest-abstract papers first so partial runs fix the worst
-        targets.sort(key=lambda p: len(p.get("abstract") or ""))
         targets = targets[:limit]
-    print(f"Repairing abstracts for {len(targets)} papers "
-          f"({'dry run' if dry_run else 'will write'})\n")
+    print(f"{'ALL papers' if repair_all else f'papers with abstract < {min_len} chars'}: "
+          f"{len(targets)} to check ({'dry run' if dry_run else 'will write'})\n")
 
     fixed = checked = 0
     for p in targets:
@@ -427,12 +493,12 @@ def repair_abstracts(limit=0, dry_run=False):
             p["abstract"] = ab
             fixed += 1
         if checked % 100 == 0:
-            print(f"  {checked}/{len(targets)} checked, {fixed} repaired")
+            print(f"  {checked}/{len(targets)} checked, {fixed} filled")
             if not dry_run:
                 write_archive(papers, report=[])          # checkpoint
         time.sleep(0.25)                                   # polite pacing
 
-    print(f"\nDone: {fixed} abstracts updated out of {checked} checked.")
+    print(f"\nDone: {fixed} abstracts filled out of {checked} checked.")
     if dry_run:
         print("(dry run - nothing written)")
     else:
@@ -470,13 +536,18 @@ if __name__ == "__main__":
     ap.add_argument("--verify-issns", action="store_true", help="check ISSNs resolve, then exit")
     ap.add_argument("--dry-run", action="store_true", help="fetch + filter but write nothing")
     ap.add_argument("--repair-abstracts", action="store_true",
-                    help="re-fetch every paper's abstract by DOI and update in place")
+                    help="fill missing/short abstracts from multiple sources (resumable)")
     ap.add_argument("--repair-limit", type=int, default=0,
-                    help="cap how many papers to repair this run (shortest abstracts first; resumable)")
+                    help="cap how many papers to repair this run (shortest first; resumable)")
+    ap.add_argument("--repair-all", action="store_true",
+                    help="re-check EVERY paper, not just short/missing ones (slow)")
+    ap.add_argument("--repair-min-len", type=int, default=200,
+                    help="treat abstracts shorter than this many chars as needing repair")
     args = ap.parse_args()
     if args.verify_issns:
         verify_issns()
     elif args.repair_abstracts:
-        repair_abstracts(limit=args.repair_limit, dry_run=args.dry_run)
+        repair_abstracts(limit=args.repair_limit, dry_run=args.dry_run,
+                         repair_all=args.repair_all, min_len=args.repair_min_len)
     else:
         run(dry_run=args.dry_run)
