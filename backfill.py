@@ -465,7 +465,7 @@ def _fetch_abstract(doi):
     return ""
 
 
-def repair_abstracts(limit=0, dry_run=False, repair_all=False, min_len=200):
+def repair_abstracts(limit=0, dry_run=False, repair_all=False, min_len=200, count_only=False):
     """Fill in missing/short abstracts from multiple sources (Crossref ->
     Semantic Scholar -> OpenAlex if keyed -> publisher page).
 
@@ -474,12 +474,14 @@ def repair_abstracts(limit=0, dry_run=False, repair_all=False, min_len=200):
     to re-check every paper. Checkpoints every 100 and is resumable."""
     papers = load_archive()
     cap = SETTINGS.get("abstract_max_chars", 1600)
-    targets = [p for p in papers
+    pending = [p for p in papers
                if p.get("doi") and (repair_all or len(p.get("abstract") or "") < min_len)]
-    # shortest/empty first, so partial runs fix the worst cases first
-    targets.sort(key=lambda p: len(p.get("abstract") or ""))
-    if limit:
-        targets = targets[:limit]
+    no_doi = sum(1 for p in papers if not p.get("doi"))
+    print(f"Total papers: {len(papers)} | still missing/short: {len(pending)} | no DOI: {no_doi}")
+    if count_only:
+        return
+    pending.sort(key=lambda p: len(p.get("abstract") or ""))
+    targets = pending[:limit] if limit else pending
     print(f"{'ALL papers' if repair_all else f'papers with abstract < {min_len} chars'}: "
           f"{len(targets)} to check ({'dry run' if dry_run else 'will write'})\n")
 
@@ -543,11 +545,13 @@ if __name__ == "__main__":
                     help="re-check EVERY paper, not just short/missing ones (slow)")
     ap.add_argument("--repair-min-len", type=int, default=200,
                     help="treat abstracts shorter than this many chars as needing repair")
+    ap.add_argument("--count-only", action="store_true",
+                    help="just report how many abstracts are still missing, then exit")
     args = ap.parse_args()
     if args.verify_issns:
         verify_issns()
     elif args.repair_abstracts:
         repair_abstracts(limit=args.repair_limit, dry_run=args.dry_run,
-                         repair_all=args.repair_all, min_len=args.repair_min_len)
+                         repair_all=args.repair_all, min_len=args.repair_min_len, count_only=args.count_only)
     else:
         run(dry_run=args.dry_run)
