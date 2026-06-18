@@ -190,16 +190,16 @@ def fetch_crossref_abstract(doi):
 
 
 def fetch_semanticscholar_abstract(doi):
-    """Semantic Scholar by DOI. Free; good coverage where Crossref is empty.
-    Optional S2_API_KEY env raises the rate limit (server-side secret)."""
+    """Semantic Scholar by DOI. Only used when S2_API_KEY is set -- keyless calls
+    are heavily throttled and slow, so without a key this source is skipped."""
+    key = os.environ.get("S2_API_KEY", "")
+    if not key:
+        return ""
     try:
         import requests
         url = ("https://api.semanticscholar.org/graph/v1/paper/DOI:"
                + urllib.parse.quote(doi, safe="/") + "?fields=abstract")
-        headers = {}
-        key = os.environ.get("S2_API_KEY", "")
-        if key:
-            headers["x-api-key"] = key
+        headers = {"x-api-key": key}
         delay = 5
         for _ in range(4):
             r = requests.get(url, headers=headers, timeout=30)
@@ -236,12 +236,16 @@ def fetch_openalex_abstract(doi):
 
 
 def fetch_abstract(doi):
-    """First usable abstract across sources, or '' if none has one."""
+    """First usable abstract across sources, or '' if none has one.
+
+    Order is chosen for speed: Crossref (free) -> OpenAlex (keyed, fast) ->
+    Semantic Scholar (only if S2_API_KEY is set). OpenAlex is the main filler
+    for the Wiley/ACS papers Crossref lacks."""
     doi = (doi or "").strip()
     if not doi or not doi.startswith("10."):
         return ""
-    for src in (fetch_crossref_abstract, fetch_semanticscholar_abstract,
-                fetch_openalex_abstract):
+    for src in (fetch_crossref_abstract, fetch_openalex_abstract,
+                fetch_semanticscholar_abstract):
         ab = src(doi)
         if ab:
             return _cap_abstract(ab)
