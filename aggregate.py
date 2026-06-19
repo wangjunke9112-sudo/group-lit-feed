@@ -235,17 +235,82 @@ def fetch_openalex_abstract(doi):
     return ""
 
 
+def _abstract_from_html(page_html):
+    """Extract an abstract from publisher article HTML via common metadata.
+    No BeautifulSoup dependency: try high-quality abstract meta tags, then a
+    JSON-LD description, then a conservative visible 'Abstract' section."""
+    if not page_html:
+        return ""
+    meta_names = ["citation_abstract", "dc.description", "dcterms.description",
+                  "description", "og:description", "twitter:description"]
+    for name in meta_names:
+        pat = (r'<meta[^>]+(?:name|property)=["\']' + re.escape(name)
+               + r'["\'][^>]+content=["\'](.*?)["\'][^>]*>')
+        m = re.search(pat, page_html, flags=re.I | re.S)
+        if not m:
+            pat = (r'<meta[^>]+content=["\'](.*?)["\'][^>]+(?:name|property)=["\']'
+                   + re.escape(name) + r'["\'][^>]*>')
+            m = re.search(pat, page_html, flags=re.I | re.S)
+        if m:
+            cand = _clean_abstract_candidate(m.group(1))
+            if cand:
+                return cand
+    m = re.search(r'"description"\s*:\s*"((?:\\.|[^"\\])*)"', page_html, flags=re.I | re.S)
+    if m:
+        try:
+            cand = bytes(m.group(1), "utf-8").decode("unicode_escape")
+            cand = _clean_abstract_candidate(cand)
+            if cand:
+                return cand
+        except Exception:
+            pass
+    stripped = re.sub(r"<script\b.*?</script>", " ", page_html, flags=re.I | re.S)
+    stripped = re.sub(r"<style\b.*?</style>", " ", stripped, flags=re.I | re.S)
+    m = re.search(r'(?:<h2[^>]*>|<h3[^>]*>|<div[^>]*>|<section[^>]*>)[^<]*abstract[^<]*'
+                  r'(.*?)(?:<h2\b|<h3\b|<section\b|</section>|references|acknowledg)',
+                  stripped, flags=re.I | re.S)
+    if m:
+        text = re.sub(r"<[^>]+>", " ", m.group(1))
+        text = re.sub(r"\s+", " ", text).strip()
+        cand = _clean_abstract_candidate(text)
+        if cand:
+            return cand
+    return ""
+
+
+def fetch_publisher_abstract(doi):
+    """Resolve the DOI to the publisher page and try to extract the abstract.
+    Last resort: many publishers (Wiley, ACS) block bots or render via JS, so
+    this often fails -- but it recovers some papers the APIs don't have. Tight
+    timeout so the daily job never hangs on a slow/blocking page."""
+    if not doi:
+        return ""
+    try:
+        import requests
+        url = "https://doi.org/" + urllib.parse.quote(doi, safe="/")
+        headers = _ab_headers()
+        headers["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+        r = requests.get(url, headers=headers, timeout=20, allow_redirects=True)
+        if r.status_code >= 400:
+            return ""
+        return _abstract_from_html(r.text)
+    except Exception:
+        return ""
+
+
 def fetch_abstract(doi):
     """First usable abstract across sources, or '' if none has one.
 
-    Order is chosen for speed: Crossref (free) -> OpenAlex (keyed, fast) ->
-    Semantic Scholar (only if S2_API_KEY is set). OpenAlex is the main filler
-    for the Wiley/ACS papers Crossref lacks."""
+    Order is chosen for speed and reliability: Crossref (free) -> OpenAlex
+    (keyed, fast) -> Semantic Scholar (only if S2_API_KEY set) -> publisher page
+    (last resort: visible-but-often-bot-blocked). OpenAlex is the main filler for
+    the Wiley/ACS papers Crossref lacks; the publisher scrape catches a few more
+    that no API has."""
     doi = (doi or "").strip()
     if not doi or not doi.startswith("10."):
         return ""
     for src in (fetch_crossref_abstract, fetch_openalex_abstract,
-                fetch_semanticscholar_abstract):
+                fetch_semanticscholar_abstract, fetch_publisher_abstract):
         ab = src(doi)
         if ab:
             return _cap_abstract(ab)
