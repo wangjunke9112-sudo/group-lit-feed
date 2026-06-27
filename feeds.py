@@ -62,8 +62,8 @@ FEEDS = [
     ("Science Advances",                "Science", "https://feeds.science.org/rss/science-advances.xml"),
 
     # ---- Cell Press -------------------------------------------------------
-    ("Joule",                           "Cell",    "https://www.cell.com/joule/inpress.rss?code=cell-site"),
-    ("Matter",                          "Cell",    "https://www.cell.com/matter/inpress.rss?code=cell-site"),
+    ("Joule",                           "Cell",    "https://www.cell.com/joule/rss"),
+    ("Matter",                          "Cell",    "https://www.cell.com/matter/rss"),
 ]
 
 # ---------------------------------------------------------------------------
