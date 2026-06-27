@@ -1,5 +1,5 @@
 {
- "generated": "2026-06-27 17:18 UTC",
+ "generated": "2026-06-27 17:41 UTC",
  "count": 29513,
  "years": [
   "2026",
@@ -226,13 +226,13 @@
    "journal": "Joule",
    "found": 0,
    "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.cell.com/joule/inpress.rss?code=cell-site"
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.cell.com/joule/rss"
   },
   {
    "journal": "Matter",
    "found": 0,
    "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.cell.com/matter/inpress.rss?code=cell-site"
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.cell.com/matter/rss"
   }
  ]
 }
