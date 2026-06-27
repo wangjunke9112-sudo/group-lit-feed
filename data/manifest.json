@@ -1,6 +1,6 @@
 {
- "generated": "2026-06-27 16:28 UTC",
- "count": 29497,
+ "generated": "2026-06-27 17:00 UTC",
+ "count": 29512,
  "years": [
   "2026",
   "2025",
@@ -22,7 +22,7 @@
   "2009"
  ],
  "year_counts": {
-  "2026": 1855,
+  "2026": 1870,
   "2025": 3653,
   "2024": 3450,
   "2023": 2736,
@@ -142,37 +142,37 @@
    "journal": "Chemical Reviews",
    "found": 0,
    "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=chreay"
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?feed=rss&jc=chreay&type=axatoc"
   },
   {
    "journal": "Accounts of Chemical Research",
    "found": 0,
    "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=achre4"
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?feed=rss&jc=achre4&type=axatoc"
   },
   {
    "journal": "ACS Energy Letters",
    "found": 0,
    "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=aelccp"
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?feed=rss&jc=aelccp&type=axatoc"
   },
   {
    "journal": "ACS Applied Materials & Interfaces",
    "found": 0,
    "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=aamick"
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?feed=rss&jc=aamick&type=axatoc"
   },
   {
    "journal": "Chemical Society Reviews",
-   "found": 0,
-   "kept": 0,
-   "error": "SSLError: HTTPSConnectionPool(host='feeds.rsc.org', port=443): Max retries exceeded with url: /rss/CS (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+   "found": 47,
+   "kept": 2,
+   "error": null
   },
   {
    "journal": "Energy & Environmental Science",
-   "found": 0,
-   "kept": 0,
-   "error": "SSLError: HTTPSConnectionPool(host='feeds.rsc.org', port=443): Max retries exceeded with url: /rss/EE (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+   "found": 89,
+   "kept": 13,
+   "error": null
   },
   {
    "journal": "Advanced Materials",
@@ -212,27 +212,27 @@
   },
   {
    "journal": "Science",
-   "found": 0,
+   "found": 30,
    "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science"
+   "error": null
   },
   {
    "journal": "Science Advances",
    "found": 0,
    "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv"
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.science.org/action/showFeed?feed=rss&jc=sciadv&type=etoc"
   },
   {
    "journal": "Joule",
    "found": 0,
    "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.cell.com/joule/inpress.rss"
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.cell.com/joule/inpress.rss?code=cell-site"
   },
   {
    "journal": "Matter",
    "found": 0,
    "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.cell.com/matter/inpress.rss"
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.cell.com/matter/inpress.rss?code=cell-site"
   }
  ]
 }
