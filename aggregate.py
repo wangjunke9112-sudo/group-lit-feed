@@ -11,9 +11,11 @@ What it does
 2. Extracts title, link, journal, date, abstract, authors, DOI from each entry.
 3. Keeps entries whose title/abstract match feeds.KEYWORDS.
 4. If an important RSS feed fails, falls back to Crossref by journal ISSN.
-5. Merges with the existing archive, de-duplicates by DOI/link, and keeps papers
+5. Repairs missing, short, or boilerplate-like abstracts using Crossref,
+   OpenAlex, Semantic Scholar, and publisher pages.
+6. Merges with the existing archive, de-duplicates by DOI/link, and keeps papers
    on/after SETTINGS["start_date"].
-6. Writes data/papers-YYYY.json plus data/manifest.json.
+7. Writes data/papers-YYYY.json plus data/manifest.json.
 
 The script is deliberately fault-tolerant: a single broken or rate-limited feed
 is logged and skipped, never fatal.
@@ -179,6 +181,38 @@ def _clean_abstract_candidate(text):
         return ""
 
     return text
+
+
+def abstract_needs_topping_up(text):
+    """True if an abstract is missing, too short, or looks like feed boilerplate."""
+    text = clean_text(text or "")
+    if len(text) < 200:
+        return True
+
+    low = text.lower()
+
+    bad_fragments = [
+        "published online:",
+        "doi:",
+        "nature portfolio",
+        "springer nature",
+        "read the latest article",
+        "read the latest articles",
+        "browse articles",
+        "this journal publishes",
+        "official journal",
+    ]
+
+    if any(fragment in low for fragment in bad_fragments):
+        return True
+
+    # Many RSS summaries are one sentence plus DOI metadata.
+    # Real abstracts normally have richer sentence structure.
+    sentence_count = len(re.findall(r"[.!?]\s+", text))
+    if len(text) < 350 and sentence_count <= 1:
+        return True
+
+    return False
 
 
 def _reconstruct_inverted_index(inv):
@@ -512,7 +546,7 @@ def normalise_entry(entry, journal, publisher):
     doi = _entry_doi(entry, link)
     abstract = _entry_abstract(entry)
 
-    if len(abstract) < 200:
+    if abstract_needs_topping_up(abstract):
         better = fetch_abstract(doi)
         if len(better) > len(abstract):
             abstract = better
@@ -585,7 +619,7 @@ def normalise_crossref_work(item, journal, publisher):
 
     abstract = _clean_abstract_candidate(item.get("abstract", "") or "")
 
-    if len(abstract) < 200 and doi:
+    if abstract_needs_topping_up(abstract) and doi:
         better = fetch_abstract(doi)
         if len(better) > len(abstract):
             abstract = better
@@ -619,11 +653,12 @@ def normalise_crossref_work(item, journal, publisher):
     }
 
 
-def crossref_recent_for_journal(journal, publisher, days=45, rows=100):
+def crossref_recent_for_journal(journal, publisher, days=90, rows=150):
     """Fallback for important journals whose RSS feeds are blocked.
 
     Queries Crossref by ISSN for recent papers, then applies the same relevance
-    filter used for RSS entries.
+    filter used for RSS entries. The 90-day window protects against temporary
+    RSS failures without being too expensive.
     """
     import requests
 
@@ -665,7 +700,6 @@ def crossref_recent_for_journal(journal, publisher, days=45, rows=100):
 
         time.sleep(0.2)
 
-    # De-duplicate across print/electronic ISSNs.
     by_key = {}
     for rec in records:
         by_key[_key(rec)] = _better_record(by_key.get(_key(rec)), rec)
@@ -800,7 +834,7 @@ def _better_record(old, new):
 
     tried = old.get("ab_tried", new.get("ab_tried"))
 
-    if tried is not None and len(merged.get("abstract") or "") < 200:
+    if tried is not None and abstract_needs_topping_up(merged.get("abstract") or ""):
         merged["ab_tried"] = tried
     else:
         merged.pop("ab_tried", None)
@@ -878,12 +912,12 @@ def write_archive(papers, report, data_dir=DATA_DIR):
 # Entry points
 # ---------------------------------------------------------------------------
 def topup_abstracts(papers, limit, min_len=200, max_tries=2):
-    """Fill a bounded number of still-missing abstracts in `papers` in place."""
+    """Fill a bounded number of still-missing or boilerplate abstracts in place."""
     targets = [
         p
         for p in papers
         if p.get("doi", "").startswith("10.")
-        and len(p.get("abstract") or "") < min_len
+        and abstract_needs_topping_up(p.get("abstract") or "")
         and int(p.get("ab_tried", 0)) < max_tries
     ]
 
@@ -920,7 +954,9 @@ def run():
 
     new_count = len({_key(r) for r in fresh} - {_key(r) for r in existing})
     ok = sum(1 for r in report if r["error"] is None)
-    missing = sum(1 for p in papers if len(p.get("abstract") or "") < 200)
+    missing = sum(
+        1 for p in papers if abstract_needs_topping_up(p.get("abstract") or "")
+    )
 
     print("-" * 60)
     print(
@@ -949,6 +985,11 @@ def selftest():
 
     keep, _ = is_relevant("Photocatalytic CO2 reduction over a new catalyst")
     assert keep
+
+    assert abstract_needs_topping_up("")
+    assert abstract_needs_topping_up(
+        "Nature Energy, Published online: 25 June 2026; doi:10.1038/s41560-026-00000-0"
+    )
 
     saved = SETTINGS["require_perovskite"]
 
