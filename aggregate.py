@@ -342,6 +342,21 @@ def _entry_doi(entry, link):
     return (link or "").strip()
 
 
+# Nature RSS prepends a boilerplate line to every abstract, e.g.
+#   "Nature Energy, Published online: 25 June 2026; doi:10.1038/s41560-026-..."
+# and for some items that line is the ENTIRE summary (no real abstract). Strip
+# it so we keep only the genuine abstract; if nothing real remains, the caller's
+# length check triggers the multi-source DOI fetch to fill it instead.
+_NATURE_PREFIX_RE = re.compile(
+    r"^.{0,80}?,\s*Published online:\s*.*?;\s*doi:\s*10\.\d{4,9}/\S+\s*",
+    re.IGNORECASE,
+)
+
+
+def _strip_nature_boilerplate(text):
+    return _NATURE_PREFIX_RE.sub("", text).strip()
+
+
 def _entry_abstract(entry):
     """Pull the longest available description / abstract field."""
     candidates = []
@@ -357,6 +372,7 @@ def _entry_abstract(entry):
     if not cleaned:
         return ""
     text = max(cleaned, key=len)
+    text = _strip_nature_boilerplate(text)
     cap = SETTINGS.get("abstract_max_chars", 1600)
     if len(text) > cap:
         text = text[:cap].rsplit(" ", 1)[0] + "\u2026"
