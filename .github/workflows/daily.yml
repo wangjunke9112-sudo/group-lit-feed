@@ -1,6 +1,8 @@
 name: Daily update
-# Runs aggregate.py every morning to fetch new papers, then commits the data.
-# Also runnable manually anytime from the Actions tab via "Run workflow".
+# Fetches new papers every morning (06:00 China time) and commits the data.
+# New papers still get best-effort abstracts (Crossref -> OpenAlex -> publisher);
+# the larger backlog top-up is OFF here -- run the backfill manually for that.
+# Also runnable anytime via the "Run workflow" button.
 on:
   schedule:
     - cron: "0 22 * * *"     # 22:00 UTC = 06:00 China time (UTC+8)
@@ -10,17 +12,17 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - name: Run daily aggregate
+      - name: Run daily aggregate (new papers only)
         env:
           OPENALEX_KEY: ${{ secrets.OPENALEX_KEY }}
-        run: python aggregate.py
+        run: python -c "import aggregate; aggregate.SETTINGS['daily_abstract_topup']=0; aggregate.run()"
       - name: Commit data
         run: |
           git config user.name  "github-actions[bot]"
