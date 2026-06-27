@@ -10,9 +10,10 @@ What it does
 1. Fetches every RSS feed in feeds.FEEDS.
 2. Extracts title, link, journal, date, abstract, authors, DOI from each entry.
 3. Keeps entries whose title/abstract match feeds.KEYWORDS.
-4. Merges with the existing archive (data/papers.json), de-duplicates by DOI/link,
-   and drops anything older than SETTINGS["days_to_keep"].
-5. Writes data/papers.json, which index.html reads in the browser.
+4. If an important RSS feed fails, falls back to Crossref by journal ISSN.
+5. Merges with the existing archive, de-duplicates by DOI/link, and keeps papers
+   on/after SETTINGS["start_date"].
+6. Writes data/papers-YYYY.json plus data/manifest.json.
 
 The script is deliberately fault-tolerant: a single broken or rate-limited feed
 is logged and skipped, never fatal.
@@ -24,11 +25,10 @@ import html
 import json
 import os
 import re
-import sys
 import time
 import urllib.parse
 
-from feeds import FEEDS, KEYWORDS, SETTINGS
+from feeds import FEEDS, KEYWORDS, SETTINGS, ISSNS
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 
@@ -54,10 +54,9 @@ def _kw_pattern(keyword):
     """Whole-word / phrase regex for a keyword.
 
     Word boundaries are enforced on alphabetic edges only, so 'CO2' and
-    'x-ray' behave, and 'ion migration' won't match inside 'champion'.
+    'x-ray' behave, and 'ion migration' will not match inside 'champion'.
     """
     kw = re.escape(keyword.lower().strip())
-    # internal whitespace in a phrase may be 1+ spaces in the source text
     kw = kw.replace(r"\ ", r"\s+")
     return re.compile(r"(?<![a-z])" + kw + r"(?![a-z])", re.IGNORECASE)
 
@@ -87,37 +86,46 @@ def is_relevant(text):
 # Entry normalisation
 # ---------------------------------------------------------------------------
 def pick_crossref_date(item):
-    """Most precise ISO date from a Crossref work item (shared with backfill.py).
+    """Most precise ISO date from a Crossref work item.
 
     Prefers the online publication date, then the most granular field available,
-    and falls back to Crossref's 'created' timestamp (always a full date) rather
-    than padding a bare year to January 1st. This is what keeps just-accepted /
-    early-access papers from being dated to YYYY-01-01.
+    and falls back to Crossref's 'created' timestamp rather than padding a bare
+    year to January 1st.
     """
     order = ("published-online", "published", "issued", "published-print", "created")
     rank = {k: i for i, k in enumerate(order)}
-    best = None  # (granularity, -priority, parts)
+    best = None
+
     for key in order:
         parts = (item.get(key) or {}).get("date-parts") or []
         if parts and parts[0] and parts[0][0]:
             cand = (len(parts[0]), -rank[key], parts[0])
             if best is None or cand[:2] > best[:2]:
                 best = cand
+
     if best is None:
         return ""
+
     p = best[2]
-    y, m, d = p[0], (p[1] if len(p) > 1 else 1), (p[2] if len(p) > 2 else 1)
+    y = p[0]
+    m = p[1] if len(p) > 1 else 1
+    d = p[2] if len(p) > 2 else 1
     return f"{y:04d}-{m:02d}-{d:02d}"
 
 
 def crossref_date_for_doi(doi):
-    """Look up one DOI in Crossref and return its best date, or '' on any failure."""
+    """Look up one DOI in Crossref and return its best date, or '' on failure."""
     if not doi or not doi.startswith("10."):
         return ""
     try:
         import requests
-        r = requests.get("https://api.crossref.org/works/" + doi,
-                         params=_ab_params(), headers=_ab_headers(), timeout=15)
+
+        r = requests.get(
+            "https://api.crossref.org/works/" + urllib.parse.quote(doi, safe=""),
+            params=_ab_params(),
+            headers=_ab_headers(),
+            timeout=15,
+        )
         if r.status_code == 200:
             return pick_crossref_date(r.json().get("message", {}))
     except Exception:
@@ -126,10 +134,7 @@ def crossref_date_for_doi(doi):
 
 
 # ---------------------------------------------------------------------------
-# Multi-source abstract lookup (shared by the daily job and the backfill).
-# Order: Crossref -> Semantic Scholar -> OpenAlex (only if OPENALEX_KEY set).
-# Crossref lacks abstracts for many Wiley/ACS papers; Semantic Scholar fills a
-# lot of those gaps. Server-side only, so there are no CORS concerns.
+# Multi-source abstract lookup
 # ---------------------------------------------------------------------------
 def _ab_headers():
     mail = SETTINGS.get("crossref_mailto", "")
@@ -155,14 +160,24 @@ def _clean_abstract_candidate(text):
     text = clean_text(html.unescape(text or ""))
     if not text:
         return ""
+
     low = text.lower()
-    bad = ["read the latest articles", "browse articles", "nature portfolio",
-           "springer nature", "official journal", "science family of journals",
-           "this journal publishes", "submit your article"]
+    bad = [
+        "read the latest articles",
+        "browse articles",
+        "nature portfolio",
+        "springer nature",
+        "official journal",
+        "science family of journals",
+        "this journal publishes",
+        "submit your article",
+    ]
     if any(b in low for b in bad):
         return ""
+
     if len(text) < 80:
         return ""
+
     return text
 
 
@@ -180,27 +195,73 @@ def _reconstruct_inverted_index(inv):
 def fetch_crossref_abstract(doi):
     try:
         import requests
-        r = requests.get("https://api.crossref.org/works/" + urllib.parse.quote(doi, safe=""),
-                         params=_ab_params(), headers=_ab_headers(), timeout=30)
+
+        r = requests.get(
+            "https://api.crossref.org/works/" + urllib.parse.quote(doi, safe=""),
+            params=_ab_params(),
+            headers=_ab_headers(),
+            timeout=30,
+        )
         if r.status_code == 200:
-            return _clean_abstract_candidate(r.json().get("message", {}).get("abstract", ""))
+            return _clean_abstract_candidate(
+                r.json().get("message", {}).get("abstract", "")
+            )
+    except Exception:
+        pass
+    return ""
+
+
+def fetch_openalex_abstract(doi):
+    key = os.environ.get("OPENALEX_KEY", "")
+    if not key:
+        return ""
+
+    try:
+        import requests
+
+        params = {"select": "abstract_inverted_index", "api_key": key}
+        mail = SETTINGS.get("crossref_mailto", "")
+        if mail and "example.com" not in mail:
+            params["mailto"] = mail
+
+        r = requests.get(
+            "https://api.openalex.org/works/doi:" + doi,
+            params=params,
+            headers=_ab_headers(),
+            timeout=30,
+        )
+        if r.status_code == 200:
+            return _clean_abstract_candidate(
+                _reconstruct_inverted_index(
+                    r.json().get("abstract_inverted_index")
+                )
+            )
     except Exception:
         pass
     return ""
 
 
 def fetch_semanticscholar_abstract(doi):
-    """Semantic Scholar by DOI. Only used when S2_API_KEY is set -- keyless calls
-    are heavily throttled and slow, so without a key this source is skipped."""
+    """Semantic Scholar by DOI.
+
+    Only used when S2_API_KEY is set. Keyless calls are heavily throttled and
+    slow, so without a key this source is skipped.
+    """
     key = os.environ.get("S2_API_KEY", "")
     if not key:
         return ""
+
     try:
         import requests
-        url = ("https://api.semanticscholar.org/graph/v1/paper/DOI:"
-               + urllib.parse.quote(doi, safe="/") + "?fields=abstract")
+
+        url = (
+            "https://api.semanticscholar.org/graph/v1/paper/DOI:"
+            + urllib.parse.quote(doi, safe="/")
+            + "?fields=abstract"
+        )
         headers = {"x-api-key": key}
         delay = 5
+
         for _ in range(4):
             r = requests.get(url, headers=headers, timeout=30)
             if r.status_code == 429:
@@ -212,50 +273,50 @@ def fetch_semanticscholar_abstract(doi):
             return ""
     except Exception:
         pass
-    return ""
 
-
-def fetch_openalex_abstract(doi):
-    key = os.environ.get("OPENALEX_KEY", "")
-    if not key:
-        return ""
-    try:
-        import requests
-        params = {"select": "abstract_inverted_index", "api_key": key}
-        mail = SETTINGS.get("crossref_mailto", "")
-        if mail and "example.com" not in mail:
-            params["mailto"] = mail
-        r = requests.get("https://api.openalex.org/works/doi:" + doi,
-                         params=params, headers=_ab_headers(), timeout=30)
-        if r.status_code == 200:
-            return _clean_abstract_candidate(
-                _reconstruct_inverted_index(r.json().get("abstract_inverted_index")))
-    except Exception:
-        pass
     return ""
 
 
 def _abstract_from_html(page_html):
-    """Extract an abstract from publisher article HTML via common metadata.
-    No BeautifulSoup dependency: try high-quality abstract meta tags, then a
-    JSON-LD description, then a conservative visible 'Abstract' section."""
+    """Extract an abstract from publisher article HTML via common metadata."""
     if not page_html:
         return ""
-    meta_names = ["citation_abstract", "dc.description", "dcterms.description",
-                  "description", "og:description", "twitter:description"]
+
+    meta_names = [
+        "citation_abstract",
+        "dc.description",
+        "dcterms.description",
+        "description",
+        "og:description",
+        "twitter:description",
+    ]
+
     for name in meta_names:
-        pat = (r'<meta[^>]+(?:name|property)=["\']' + re.escape(name)
-               + r'["\'][^>]+content=["\'](.*?)["\'][^>]*>')
+        pat = (
+            r'<meta[^>]+(?:name|property)=["\']'
+            + re.escape(name)
+            + r'["\'][^>]+content=["\'](.*?)["\'][^>]*>'
+        )
         m = re.search(pat, page_html, flags=re.I | re.S)
+
         if not m:
-            pat = (r'<meta[^>]+content=["\'](.*?)["\'][^>]+(?:name|property)=["\']'
-                   + re.escape(name) + r'["\'][^>]*>')
+            pat = (
+                r'<meta[^>]+content=["\'](.*?)["\'][^>]+(?:name|property)=["\']'
+                + re.escape(name)
+                + r'["\'][^>]*>'
+            )
             m = re.search(pat, page_html, flags=re.I | re.S)
+
         if m:
             cand = _clean_abstract_candidate(m.group(1))
             if cand:
                 return cand
-    m = re.search(r'"description"\s*:\s*"((?:\\.|[^"\\])*)"', page_html, flags=re.I | re.S)
+
+    m = re.search(
+        r'"description"\s*:\s*"((?:\\.|[^"\\])*)"',
+        page_html,
+        flags=re.I | re.S,
+    )
     if m:
         try:
             cand = bytes(m.group(1), "utf-8").decode("unicode_escape")
@@ -264,61 +325,71 @@ def _abstract_from_html(page_html):
                 return cand
         except Exception:
             pass
+
     stripped = re.sub(r"<script\b.*?</script>", " ", page_html, flags=re.I | re.S)
     stripped = re.sub(r"<style\b.*?</style>", " ", stripped, flags=re.I | re.S)
-    m = re.search(r'(?:<h2[^>]*>|<h3[^>]*>|<div[^>]*>|<section[^>]*>)[^<]*abstract[^<]*'
-                  r'(.*?)(?:<h2\b|<h3\b|<section\b|</section>|references|acknowledg)',
-                  stripped, flags=re.I | re.S)
+
+    m = re.search(
+        r"(?:<h2[^>]*>|<h3[^>]*>|<div[^>]*>|<section[^>]*>)"
+        r"[^<]*abstract[^<]*(.*?)"
+        r"(?:<h2\b|<h3\b|<section\b|</section>|references|acknowledg)",
+        stripped,
+        flags=re.I | re.S,
+    )
     if m:
         text = re.sub(r"<[^>]+>", " ", m.group(1))
         text = re.sub(r"\s+", " ", text).strip()
         cand = _clean_abstract_candidate(text)
         if cand:
             return cand
+
     return ""
 
 
 def fetch_publisher_abstract(doi):
-    """Resolve the DOI to the publisher page and try to extract the abstract.
-    Last resort: many publishers (Wiley, ACS) block bots or render via JS, so
-    this often fails -- but it recovers some papers the APIs don't have. Tight
-    timeout so the daily job never hangs on a slow/blocking page."""
+    """Resolve DOI to publisher page and try to extract the abstract."""
     if not doi:
         return ""
+
     try:
         import requests
+
         url = "https://doi.org/" + urllib.parse.quote(doi, safe="/")
         headers = _ab_headers()
-        headers["Accept"] = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+        headers["Accept"] = (
+            "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+        )
+
         r = requests.get(url, headers=headers, timeout=20, allow_redirects=True)
         if r.status_code >= 400:
             return ""
+
         return _abstract_from_html(r.text)
     except Exception:
         return ""
 
 
 def fetch_abstract(doi):
-    """First usable abstract across sources, or '' if none has one.
-
-    Order is chosen for speed and reliability: Crossref (free) -> OpenAlex
-    (keyed, fast) -> Semantic Scholar (only if S2_API_KEY set) -> publisher page
-    (last resort: visible-but-often-bot-blocked). OpenAlex is the main filler for
-    the Wiley/ACS papers Crossref lacks; the publisher scrape catches a few more
-    that no API has."""
+    """First usable abstract across sources, or '' if none has one."""
     doi = (doi or "").strip()
     if not doi or not doi.startswith("10."):
         return ""
-    for src in (fetch_crossref_abstract, fetch_openalex_abstract,
-                fetch_semanticscholar_abstract, fetch_publisher_abstract):
+
+    for src in (
+        fetch_crossref_abstract,
+        fetch_openalex_abstract,
+        fetch_semanticscholar_abstract,
+        fetch_publisher_abstract,
+    ):
         ab = src(doi)
         if ab:
             return _cap_abstract(ab)
+
     return ""
 
 
 def _entry_date(entry):
-    """ISO date from the RSS entry itself, or '' if the feed gave no usable date."""
+    """ISO date from the RSS entry itself, or '' if no usable date."""
     for key in ("published_parsed", "updated_parsed", "created_parsed"):
         value = entry.get(key)
         if value:
@@ -336,17 +407,14 @@ def _entry_doi(entry, link):
         m = re.search(r"10\.\d{4,9}/\S+", str(raw))
         if m:
             return m.group(0).rstrip(").,;")
+
     m = re.search(r"10\.\d{4,9}/[^\s?#]+", link or "")
     if m:
         return m.group(0).rstrip(").,;")
+
     return (link or "").strip()
 
 
-# Nature RSS prepends a boilerplate line to every abstract, e.g.
-#   "Nature Energy, Published online: 25 June 2026; doi:10.1038/s41560-026-..."
-# and for some items that line is the ENTIRE summary (no real abstract). Strip
-# it so we keep only the genuine abstract; if nothing real remains, the caller's
-# length check triggers the multi-source DOI fetch to fill it instead.
 _NATURE_PREFIX_RE = re.compile(
     r"^.{0,80}?,\s*Published online:\s*.*?;\s*doi:\s*10\.\d{4,9}/\S+\s*",
     re.IGNORECASE,
@@ -360,60 +428,76 @@ def _strip_nature_boilerplate(text):
 def _entry_abstract(entry):
     """Pull the longest available description / abstract field."""
     candidates = []
+
     if entry.get("summary"):
         candidates.append(entry["summary"])
+
     for c in entry.get("content", []) or []:
         if isinstance(c, dict) and c.get("value"):
             candidates.append(c["value"])
+
     if entry.get("description"):
         candidates.append(entry["description"])
+
     cleaned = [clean_text(c) for c in candidates]
     cleaned = [c for c in cleaned if c]
+
     if not cleaned:
         return ""
+
     text = max(cleaned, key=len)
     text = _strip_nature_boilerplate(text)
+
     cap = SETTINGS.get("abstract_max_chars", 1600)
     if len(text) > cap:
         text = text[:cap].rsplit(" ", 1)[0] + "\u2026"
+
     return text
 
 
 def _entry_authors(entry):
     names = []
+
     for a in entry.get("authors", []) or []:
         name = a.get("name") if isinstance(a, dict) else str(a)
         if name:
             names.append(clean_text(name))
+
     if not names and entry.get("author"):
         names = [clean_text(entry["author"])]
+
     return names
 
 
 REVIEW_JOURNALS = {
-    "Chemical Reviews", "Chemical Society Reviews", "Nature Reviews Materials",
-    "Nature Reviews Chemistry", "Nature Reviews Methods Primers",
+    "Chemical Reviews",
+    "Chemical Society Reviews",
+    "Nature Reviews Materials",
+    "Nature Reviews Chemistry",
+    "Nature Reviews Methods Primers",
     "Accounts of Chemical Research",
 }
-_COMMENT_RE = re.compile(r"\b(comment on|reply to|matters arising|correspondence|rejoinder|editorial)\b", re.I)
+
+_COMMENT_RE = re.compile(
+    r"\b(comment on|reply to|matters arising|correspondence|rejoinder|editorial)\b",
+    re.I,
+)
 _REVIEW_RE = re.compile(r"\b(review|perspective|roadmap|primer)\b", re.I)
 
 
 def classify_type(title, journal, hint=""):
-    """Bucket a paper as 'review', 'comment', or 'article'.
-
-    review  <- review, perspective (and dedicated review journals)
-    comment <- comment, correspondence, reply, matters arising, editorial
-    article <- everything else (articles, letters, reports, ...)
-    `hint` is any extra type string (RSS category / Crossref type) to consider.
-    """
+    """Bucket a paper as 'review', 'comment', or 'article'."""
     text = (title or "") + " " + (hint or "")
+
     if _COMMENT_RE.search(text):
         return "comment"
+
     if journal in REVIEW_JOURNALS:
         return "review"
+
     if _REVIEW_RE.search(text):
         return "review"
+
     return "article"
 
 
@@ -421,14 +505,13 @@ def normalise_entry(entry, journal, publisher):
     """feedparser entry -> our flat record, or None if it should be skipped."""
     title = clean_text(entry.get("title", ""))
     link = (entry.get("link") or "").strip()
+
     if not title or not link:
         return None
 
     doi = _entry_doi(entry, link)
     abstract = _entry_abstract(entry)
 
-    # If the feed gave no abstract (or only a short teaser), try the multi-source
-    # lookup by DOI. Only the day's handful of papers hit this, so it's cheap.
     if len(abstract) < 200:
         better = fetch_abstract(doi)
         if len(better) > len(abstract):
@@ -438,12 +521,15 @@ def normalise_entry(entry, journal, publisher):
     if not keep:
         return None
 
-    # Prefer the feed's own date (the real online date for early-access papers).
-    # If the feed gave none, ask Crossref before falling back to today, so a new
-    # accepted/early-access paper still gets an accurate, stable date.
-    date = _entry_date(entry) or crossref_date_for_doi(doi) or dt.date.today().isoformat()
+    date = (
+        _entry_date(entry)
+        or crossref_date_for_doi(doi)
+        or dt.date.today().isoformat()
+    )
 
-    hint = " ".join(t.get("term", "") for t in (entry.get("tags") or []) if isinstance(t, dict))
+    hint = " ".join(
+        t.get("term", "") for t in (entry.get("tags") or []) if isinstance(t, dict)
+    )
     hint += " " + str(entry.get("dc_type", "") or "")
 
     return {
@@ -465,15 +551,128 @@ def normalise_entry(entry, journal, publisher):
 # ---------------------------------------------------------------------------
 def fetch_feed(url):
     """Return raw feed bytes for a URL, using a browser-like User-Agent."""
-    import requests  # imported here so --selftest works without it
+    import requests
 
     headers = {
         "User-Agent": SETTINGS["user_agent"],
         "Accept": "application/rss+xml, application/xml, text/xml, */*",
     }
+
     resp = requests.get(url, headers=headers, timeout=SETTINGS["request_timeout"])
     resp.raise_for_status()
     return resp.content
+
+
+IMPORTANT_FALLBACK_JOURNALS = {
+    "Journal of the American Chemical Society",
+    "Chemical Reviews",
+    "Accounts of Chemical Research",
+    "ACS Energy Letters",
+    "ACS Applied Materials & Interfaces",
+    "Joule",
+    "Matter",
+}
+
+
+def normalise_crossref_work(item, journal, publisher):
+    """Crossref work item -> our flat record, or None if irrelevant."""
+    title = clean_text(" ".join(item.get("title") or []))
+    if not title:
+        return None
+
+    doi = clean_text(item.get("DOI", ""))
+    link = item.get("URL") or ("https://doi.org/" + doi if doi else "")
+
+    abstract = _clean_abstract_candidate(item.get("abstract", "") or "")
+
+    if len(abstract) < 200 and doi:
+        better = fetch_abstract(doi)
+        if len(better) > len(abstract):
+            abstract = better
+
+    keep, hits = is_relevant(title + " \n " + abstract)
+    if not keep:
+        return None
+
+    authors = []
+    for a in item.get("author", []) or []:
+        name = " ".join(
+            x for x in [a.get("given", ""), a.get("family", "")] if x
+        )
+        if name:
+            authors.append(clean_text(name))
+
+    hint = item.get("type", "") or ""
+    date = pick_crossref_date(item) or dt.date.today().isoformat()
+
+    return {
+        "title": title,
+        "link": link,
+        "journal": journal,
+        "publisher": publisher,
+        "date": date,
+        "abstract": _cap_abstract(abstract),
+        "authors": authors,
+        "doi": doi,
+        "keywords": hits,
+        "type": classify_type(title, journal, hint),
+    }
+
+
+def crossref_recent_for_journal(journal, publisher, days=45, rows=100):
+    """Fallback for important journals whose RSS feeds are blocked.
+
+    Queries Crossref by ISSN for recent papers, then applies the same relevance
+    filter used for RSS entries.
+    """
+    import requests
+
+    issns = ISSNS.get(journal, [])
+    if not issns:
+        return []
+
+    from_date = (dt.date.today() - dt.timedelta(days=days)).isoformat()
+    records = []
+
+    for issn in issns:
+        try:
+            params = {
+                **_ab_params(),
+                "filter": f"issn:{issn},from-pub-date:{from_date}",
+                "sort": "published",
+                "order": "desc",
+                "rows": rows,
+            }
+
+            r = requests.get(
+                "https://api.crossref.org/works",
+                params=params,
+                headers=_ab_headers(),
+                timeout=30,
+            )
+
+            if r.status_code != 200:
+                continue
+
+            items = r.json().get("message", {}).get("items", [])
+            for item in items:
+                rec = normalise_crossref_work(item, journal, publisher)
+                if rec:
+                    records.append(rec)
+
+        except Exception:
+            continue
+
+        time.sleep(0.2)
+
+    # De-duplicate across print/electronic ISSNs.
+    by_key = {}
+    for rec in records:
+        by_key[_key(rec)] = _better_record(by_key.get(_key(rec)), rec)
+
+    merged = list(by_key.values())
+    merged.sort(key=lambda r: (r.get("date", ""), r.get("journal", "")), reverse=True)
+    return merged
 
 
 def harvest():
@@ -482,51 +681,85 @@ def harvest():
 
     records = []
     report = []
+
     for journal, publisher, url in FEEDS:
-        status = {"journal": journal, "url": url, "found": 0, "kept": 0, "error": None}
+        status = {
+            "journal": journal,
+            "url": url,
+            "found": 0,
+            "kept": 0,
+            "error": None,
+            "note": None,
+        }
+
         try:
             raw = fetch_feed(url)
             parsed = feedparser.parse(raw)
             status["found"] = len(parsed.entries)
+
             for entry in parsed.entries:
                 rec = normalise_entry(entry, journal, publisher)
                 if rec:
                     records.append(rec)
                     status["kept"] += 1
-        except Exception as exc:  # noqa: BLE001 - never let one feed kill the run
+
+        except Exception as exc:
             status["error"] = f"{type(exc).__name__}: {exc}"
-        report.append(status)
-        print(
-            f"  {journal:<42} found {status['found']:>3}  kept {status['kept']:>3}"
-            + (f"  !! {status['error']}" if status["error"] else "")
+
+            if journal in IMPORTANT_FALLBACK_JOURNALS:
+                fallback = crossref_recent_for_journal(journal, publisher)
+                if fallback:
+                    records.extend(fallback)
+                    status["found"] = len(fallback)
+                    status["kept"] = len(fallback)
+                    status["note"] = (
+                        f"RSS failed; Crossref fallback recovered "
+                        f"{len(fallback)} relevant paper(s)"
+                    )
+                    status["error"] = None
+
+        line = (
+            f"  {journal:<42} found {status['found']:>3}  "
+            f"kept {status['kept']:>3}"
         )
-        time.sleep(1)  # be polite between publishers
+        if status["error"]:
+            line += f"  !! {status['error']}"
+        elif status["note"]:
+            line += f"  -- {status['note']}"
+
+        print(line)
+
+        report.append(status)
+        time.sleep(1)
+
     return records, report
 
 
 # ---------------------------------------------------------------------------
 # Archive merge / prune
-#
-# Data is stored as one file per year (data/papers-YYYY.json) plus a small
-# data/manifest.json. Splitting by year keeps each file small, keeps the git
-# history clean (past years never change again), and lets the page load fast.
 # ---------------------------------------------------------------------------
 def _year_files(data_dir=DATA_DIR):
     if not os.path.isdir(data_dir):
         return []
-    return [os.path.join(data_dir, f) for f in os.listdir(data_dir)
-            if re.fullmatch(r"papers-\d{4}\.json", f)]
+
+    return [
+        os.path.join(data_dir, f)
+        for f in os.listdir(data_dir)
+        if re.fullmatch(r"papers-\d{4}\.json", f)
+    ]
 
 
 def load_archive(data_dir=DATA_DIR):
     """Load and concatenate papers from every per-year file."""
     papers = []
+
     for path in _year_files(data_dir):
         try:
             with open(path, "r", encoding="utf-8") as fh:
                 papers.extend(json.load(fh).get("papers", []))
         except Exception:
             pass
+
     return papers
 
 
@@ -535,14 +768,10 @@ def _key(rec):
 
 
 def _better_record(old, new):
-    """Merge two records for the same DOI/link without losing useful metadata.
-
-    Fresh RSS records can have better dates or links, but they can also have
-    empty abstracts. Keep the longest available abstract and avoid replacing
-    richer stored metadata with sparse fresh metadata.
-    """
+    """Merge two records for the same DOI/link without losing useful metadata."""
     if not old:
         return new
+
     if not new:
         return old
 
@@ -552,29 +781,25 @@ def _better_record(old, new):
     old_abs = old.get("abstract") or ""
     new_abs = new.get("abstract") or ""
 
-    # Preserve the richer abstract. This prevents a fresh RSS item with an empty
-    # abstract from overwriting an older archive record that already had one.
     if len(old_abs) > len(new_abs):
         merged["abstract"] = old_abs
     else:
         merged["abstract"] = new_abs
 
-    # Preserve richer author and keyword lists when the new record is sparse.
     if len(old.get("authors") or []) > len(new.get("authors") or []):
         merged["authors"] = old.get("authors") or []
 
     if len(old.get("keywords") or []) > len(new.get("keywords") or []):
         merged["keywords"] = old.get("keywords") or []
 
-    # Prefer a real DOI over a non-DOI fallback identifier.
     old_doi = old.get("doi") or ""
     new_doi = new.get("doi") or ""
+
     if old_doi.startswith("10.") and not new_doi.startswith("10."):
         merged["doi"] = old_doi
 
-    # Keep the "already tried, found nothing" counter so a re-harvested paper
-    # isn't re-checked from scratch. If the kept abstract is now long, drop it.
     tried = old.get("ab_tried", new.get("ab_tried"))
+
     if tried is not None and len(merged.get("abstract") or "") < 200:
         merged["ab_tried"] = tried
     else:
@@ -586,6 +811,7 @@ def _better_record(old, new):
 def merge(existing, fresh, start_date):
     """Merge fresh into existing, de-dupe, drop pre-start_date, sort newest first."""
     by_key = {}
+
     for rec in existing + fresh:
         by_key[_key(rec)] = _better_record(by_key.get(_key(rec)), rec)
 
@@ -595,34 +821,56 @@ def merge(existing, fresh, start_date):
 
 
 def write_archive(papers, report, data_dir=DATA_DIR):
-    """Write one file per year + a manifest. Returns the manifest dict."""
+    """Write one file per year plus a manifest. Returns the manifest dict."""
     os.makedirs(data_dir, exist_ok=True)
+
     generated = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
-    # bucket by calendar year
     by_year = {}
     for p in papers:
         year = (p.get("date") or "")[:4] or "unknown"
         by_year.setdefault(year, []).append(p)
 
     for year, items in by_year.items():
-        with open(os.path.join(data_dir, f"papers-{year}.json"), "w", encoding="utf-8") as fh:
-            json.dump({"year": year, "count": len(items), "generated": generated,
-                       "papers": items}, fh, ensure_ascii=False, indent=1)
+        with open(
+            os.path.join(data_dir, f"papers-{year}.json"),
+            "w",
+            encoding="utf-8",
+        ) as fh:
+            json.dump(
+                {
+                    "year": year,
+                    "count": len(items),
+                    "generated": generated,
+                    "papers": items,
+                },
+                fh,
+                ensure_ascii=False,
+                indent=1,
+            )
 
     manifest = {
         "generated": generated,
         "count": len(papers),
         "years": sorted(by_year.keys(), reverse=True),
-        "year_counts": {y: len(v) for y, v in sorted(by_year.items(), reverse=True)},
+        "year_counts": {
+            y: len(v) for y, v in sorted(by_year.items(), reverse=True)
+        },
         "feeds": [
-            {"journal": r["journal"], "found": r["found"],
-             "kept": r["kept"], "error": r["error"]}
+            {
+                "journal": r["journal"],
+                "found": r["found"],
+                "kept": r["kept"],
+                "error": r["error"],
+                "note": r.get("note"),
+            }
             for r in report
         ],
     }
+
     with open(os.path.join(data_dir, "manifest.json"), "w", encoding="utf-8") as fh:
         json.dump(manifest, fh, ensure_ascii=False, indent=1)
+
     return manifest
 
 
@@ -630,38 +878,41 @@ def write_archive(papers, report, data_dir=DATA_DIR):
 # Entry points
 # ---------------------------------------------------------------------------
 def topup_abstracts(papers, limit, min_len=200, max_tries=2):
-    """Fill a bounded number of still-missing abstracts in `papers` (in place).
+    """Fill a bounded number of still-missing abstracts in `papers` in place."""
+    targets = [
+        p
+        for p in papers
+        if p.get("doi", "").startswith("10.")
+        and len(p.get("abstract") or "") < min_len
+        and int(p.get("ab_tried", 0)) < max_tries
+    ]
 
-    Tries the emptiest first. Records an attempt counter ('ab_tried') on each
-    paper so dead ends (no abstract in any source) are skipped after `max_tries`
-    rather than being re-checked forever. Returns the number filled."""
-    targets = [p for p in papers
-               if p.get("doi", "").startswith("10.")
-               and len(p.get("abstract") or "") < min_len
-               and int(p.get("ab_tried", 0)) < max_tries]
     targets.sort(key=lambda p: len(p.get("abstract") or ""))
+
     filled = 0
+
     for p in targets[:limit]:
         ab = fetch_abstract(p["doi"])
         if len(ab) > len(p.get("abstract") or ""):
             p["abstract"] = _cap_abstract(ab)
-            p.pop("ab_tried", None)            # success -> clear the counter
+            p.pop("ab_tried", None)
             filled += 1
         else:
             p["ab_tried"] = int(p.get("ab_tried", 0)) + 1
+
         time.sleep(0.2)
+
     return filled
 
 
 def run():
     print(f"Harvesting {len(FEEDS)} feeds ...")
+
     fresh, report = harvest()
     existing = load_archive()
     start = SETTINGS["start_date"]
     papers = merge(existing, fresh, start)
 
-    # Daily self-healing: top up a small batch of still-missing abstracts so the
-    # backlog shrinks on its own over time, without a manual repair run.
     daily_cap = SETTINGS.get("daily_abstract_topup", 300)
     filled = topup_abstracts(papers, limit=daily_cap) if daily_cap else 0
 
@@ -670,36 +921,46 @@ def run():
     new_count = len({_key(r) for r in fresh} - {_key(r) for r in existing})
     ok = sum(1 for r in report if r["error"] is None)
     missing = sum(1 for p in papers if len(p.get("abstract") or "") < 200)
+
     print("-" * 60)
-    print(f"Feeds OK: {ok}/{len(report)} | new this run: {new_count} "
-          f"| archive total: {manifest['count']} (since {start})")
+    print(
+        f"Feeds OK: {ok}/{len(report)} | new this run: {new_count} "
+        f"| archive total: {manifest['count']} (since {start})"
+    )
     print(f"Abstracts topped up this run: {filled} | still missing/short: {missing}")
-    print("By year: " + ", ".join(f"{y}:{c}" for y, c in manifest["year_counts"].items()))
+    print(
+        "By year: "
+        + ", ".join(f"{y}:{c}" for y, c in manifest["year_counts"].items())
+    )
     print(f"Wrote {DATA_DIR}/papers-YYYY.json + manifest.json")
 
 
 def selftest():
-    """Offline test of matching + merge logic (no feedparser/requests needed)."""
+    """Offline test of matching + merge logic."""
     print("Running self-test (offline)...")
 
-    # 1. keyword matcher
-    keep, hits = is_relevant("Halide segregation in wide-bandgap perovskite solar cells")
+    keep, hits = is_relevant(
+        "Halide segregation in wide-bandgap perovskite solar cells"
+    )
     assert keep and "perovskite" in [h.lower() for h in hits], hits
+
     keep, _ = is_relevant("A study of champion swimmers and onion farming")
     assert not keep
+
     keep, _ = is_relevant("Photocatalytic CO2 reduction over a new catalyst")
     assert keep
 
-    # 2. require_perovskite gate
     saved = SETTINGS["require_perovskite"]
+
     SETTINGS["require_perovskite"] = True
     keep, _ = is_relevant("Silicon tandem photovoltaics reach new efficiency")
     assert not keep, "non-perovskite tandem should be filtered when gate is on"
+
     keep, _ = is_relevant("Perovskite-silicon tandem photovoltaics")
     assert keep
+
     SETTINGS["require_perovskite"] = saved
 
-    # 3. merge / prune / dedupe, while preserving useful old abstracts
     today = dt.date.today().isoformat()
     old = "2025-12-31"
 
@@ -748,15 +1009,16 @@ def selftest():
     b = next(r for r in merged if r["doi"] == "10.1/b")
     assert b["abstract"] == "this useful old abstract should survive", b
 
-    # 4. abstract HTML cleaning
     assert clean_text("<p>Hello&nbsp;<b>world</b></p>") == "Hello world"
 
     print("All self-tests passed.")
+
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Build the group literature feed.")
     ap.add_argument("--selftest", action="store_true", help="run offline logic tests")
     args = ap.parse_args()
+
     if args.selftest:
         selftest()
     else:
