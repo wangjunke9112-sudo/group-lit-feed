@@ -1,6 +1,6 @@
 {
- "generated": "2026-06-27 17:41 UTC",
- "count": 29513,
+ "generated": "2026-06-27 18:04 UTC",
+ "count": 29514,
  "years": [
   "2026",
   "2025",
@@ -22,7 +22,7 @@
   "2009"
  ],
  "year_counts": {
-  "2026": 1871,
+  "2026": 1872,
   "2025": 3653,
   "2024": 3450,
   "2023": 2736,
@@ -129,38 +129,38 @@
   {
    "journal": "Nature Reviews Chemistry",
    "found": 8,
-   "kept": 0,
+   "kept": 1,
    "error": null
   },
   {
    "journal": "Journal of the American Chemical Society",
    "found": 0,
    "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?feed=rss&jc=jacsat&type=axatoc"
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=jacsat"
   },
   {
    "journal": "Chemical Reviews",
    "found": 0,
    "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?feed=rss&jc=chreay&type=axatoc"
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=chreay"
   },
   {
    "journal": "Accounts of Chemical Research",
    "found": 0,
    "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?feed=rss&jc=achre4&type=axatoc"
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=achre4"
   },
   {
    "journal": "ACS Energy Letters",
    "found": 0,
    "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?feed=rss&jc=aelccp&type=axatoc"
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=aelccp"
   },
   {
    "journal": "ACS Applied Materials & Interfaces",
    "found": 0,
    "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?feed=rss&jc=aamick&type=axatoc"
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=aamick"
   },
   {
    "journal": "Chemical Society Reviews",
@@ -226,13 +226,13 @@
    "journal": "Joule",
    "found": 0,
    "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.cell.com/joule/rss"
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.cell.com/joule/current.rss"
   },
   {
    "journal": "Matter",
    "found": 0,
    "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.cell.com/matter/rss"
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.cell.com/matter/current.rss"
   }
  ]
 }
