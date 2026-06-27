@@ -40,14 +40,14 @@ FEEDS = [
 
     # ---- ACS --------------------------------------------------------------
     ("Journal of the American Chemical Society", "ACS", "https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=jacsat"),
-    ("Chemical Reviews",                "ACS",     "https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=chreay"),
-    ("Accounts of Chemical Research",   "ACS",     "https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=achre4"),
-    ("ACS Energy Letters",              "ACS",     "https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=aelccp"),
-    ("ACS Applied Materials & Interfaces","ACS",   "https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=aamick"),
+    ("Chemical Reviews",                "ACS",     "https://pubs.acs.org/action/showFeed?feed=rss&jc=chreay&type=axatoc"),
+    ("Accounts of Chemical Research",   "ACS",     "https://pubs.acs.org/action/showFeed?feed=rss&jc=achre4&type=axatoc"),
+    ("ACS Energy Letters",              "ACS",     "https://pubs.acs.org/action/showFeed?feed=rss&jc=aelccp&type=axatoc"),
+    ("ACS Applied Materials & Interfaces","ACS",   "https://pubs.acs.org/action/showFeed?feed=rss&jc=aamick&type=axatoc"),
 
     # ---- RSC --------------------------------------------------------------
-    ("Chemical Society Reviews",        "RSC",     "https://feeds.rsc.org/rss/CS"),
-    ("Energy & Environmental Science",  "RSC",     "https://feeds.rsc.org/rss/EE"),
+    ("Chemical Society Reviews",        "RSC",     "http://feeds.rsc.org/rss/cs"),
+    ("Energy & Environmental Science",  "RSC",     "http://feeds.rsc.org/rss/ee"),
 
     # ---- Wiley ------------------------------------------------------------
     ("Advanced Materials",              "Wiley",   "https://onlinelibrary.wiley.com/feed/15214095/most-recent"),
@@ -58,12 +58,12 @@ FEEDS = [
     ("Small Methods",                   "Wiley",   "https://onlinelibrary.wiley.com/feed/23669608/most-recent"),
 
     # ---- Science (AAAS) ---------------------------------------------------
-    ("Science",                         "Science", "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science"),
-    ("Science Advances",                "Science", "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv"),
+    ("Science",                         "Science", "https://feeds.science.org/rss/science.xml"),
+    ("Science Advances",                "Science", "https://www.science.org/action/showFeed?feed=rss&jc=sciadv&type=etoc"),
 
     # ---- Cell Press -------------------------------------------------------
-    ("Joule",                           "Cell",    "https://www.cell.com/joule/inpress.rss"),
-    ("Matter",                          "Cell",    "https://www.cell.com/matter/inpress.rss"),
+    ("Joule",                           "Cell",    "https://www.cell.com/joule/inpress.rss?code=cell-site"),
+    ("Matter",                          "Cell",    "https://www.cell.com/matter/inpress.rss?code=cell-site"),
 ]
 
 # ---------------------------------------------------------------------------
