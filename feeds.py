@@ -39,11 +39,11 @@ FEEDS = [
     ("Nature Reviews Chemistry",        "Nature",  "https://www.nature.com/natrevchem.rss"),
 
     # ---- ACS --------------------------------------------------------------
-    ("Journal of the American Chemical Society", "ACS", "https://pubs.acs.org/action/showFeed?feed=rss&jc=jacsat&type=axatoc"),
-    ("Chemical Reviews",                "ACS",     "https://pubs.acs.org/action/showFeed?feed=rss&jc=chreay&type=axatoc"),
-    ("Accounts of Chemical Research",   "ACS",     "https://pubs.acs.org/action/showFeed?feed=rss&jc=achre4&type=axatoc"),
-    ("ACS Energy Letters",              "ACS",     "https://pubs.acs.org/action/showFeed?feed=rss&jc=aelccp&type=axatoc"),
-    ("ACS Applied Materials & Interfaces","ACS",   "https://pubs.acs.org/action/showFeed?feed=rss&jc=aamick&type=axatoc"),
+    ("Journal of the American Chemical Society", "ACS", "https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=jacsat"),
+    ("Chemical Reviews",                "ACS",     "https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=chreay"),
+    ("Accounts of Chemical Research",   "ACS",     "https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=achre4"),
+    ("ACS Energy Letters",              "ACS",     "https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=aelccp"),
+    ("ACS Applied Materials & Interfaces","ACS",   "https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=aamick"),
 
     # ---- RSC --------------------------------------------------------------
     ("Chemical Society Reviews",        "RSC",     "http://feeds.rsc.org/rss/cs"),
@@ -62,8 +62,8 @@ FEEDS = [
     ("Science Advances",                "Science", "https://feeds.science.org/rss/science-advances.xml"),
 
     # ---- Cell Press -------------------------------------------------------
-    ("Joule",                           "Cell",    "https://www.cell.com/joule/rss"),
-    ("Matter",                          "Cell",    "https://www.cell.com/matter/rss"),
+    ("Joule",                           "Cell",    "https://www.cell.com/joule/current.rss"),
+    ("Matter",                          "Cell",    "https://www.cell.com/matter/current.rss"),
 ]
 
 # ---------------------------------------------------------------------------
