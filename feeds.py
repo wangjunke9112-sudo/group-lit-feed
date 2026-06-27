@@ -59,7 +59,7 @@ FEEDS = [
 
     # ---- Science (AAAS) ---------------------------------------------------
     ("Science",                         "Science", "https://feeds.science.org/rss/science.xml"),
-    ("Science Advances",                "Science", "https://www.science.org/action/showFeed?feed=rss&jc=sciadv&type=etoc"),
+    ("Science Advances",                "Science", "https://feeds.science.org/rss/science-advances.xml"),
 
     # ---- Cell Press -------------------------------------------------------
     ("Joule",                           "Cell",    "https://www.cell.com/joule/inpress.rss?code=cell-site"),
