@@ -118,7 +118,7 @@ SETTINGS = {
     "crossref_mailto": "wangjunke9112@gmail.com",
 
     # Max characters of abstract to store per paper (keeps the data files small).
-    "abstract_max_chars": 1600,
+    "abstract_max_chars": 2400,
 
     # Network politeness.
     "request_timeout": 30,       # seconds per feed
