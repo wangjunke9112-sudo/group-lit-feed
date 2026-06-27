@@ -1,6 +1,6 @@
 {
- "generated": "2026-06-27 18:04 UTC",
- "count": 29514,
+ "generated": "2026-06-27 18:25 UTC",
+ "count": 29556,
  "years": [
   "2026",
   "2025",
@@ -22,7 +22,7 @@
   "2009"
  ],
  "year_counts": {
-  "2026": 1872,
+  "2026": 1914,
   "2025": 3653,
   "2024": 3450,
   "2023": 2736,
@@ -46,193 +46,225 @@
    "journal": "Nature",
    "found": 75,
    "kept": 1,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Nature Energy",
    "found": 8,
    "kept": 2,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Nature Materials",
    "found": 8,
    "kept": 0,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Nature Chemistry",
    "found": 8,
    "kept": 0,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Nature Synthesis",
    "found": 8,
    "kept": 1,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Nature Sustainability",
    "found": 8,
    "kept": 0,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Nature Photonics",
    "found": 8,
    "kept": 3,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Nature Nanotechnology",
    "found": 8,
    "kept": 2,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Nature Communications",
    "found": 8,
    "kept": 0,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Nature Electronics",
    "found": 8,
    "kept": 1,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Nature Methods",
    "found": 8,
    "kept": 0,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Nature Reviews Materials",
    "found": 8,
    "kept": 1,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Nature Reviews Methods Primers",
    "found": 8,
    "kept": 0,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Nature Physics",
    "found": 8,
    "kept": 0,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Nature Reviews Chemistry",
    "found": 8,
    "kept": 1,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Journal of the American Chemical Society",
-   "found": 0,
-   "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=jacsat"
+   "found": 6,
+   "kept": 6,
+   "error": null,
+   "note": "RSS failed; Crossref fallback recovered 6 relevant paper(s)"
   },
   {
    "journal": "Chemical Reviews",
-   "found": 0,
-   "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=chreay"
+   "found": 5,
+   "kept": 5,
+   "error": null,
+   "note": "RSS failed; Crossref fallback recovered 5 relevant paper(s)"
   },
   {
    "journal": "Accounts of Chemical Research",
-   "found": 0,
-   "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=achre4"
+   "found": 1,
+   "kept": 1,
+   "error": null,
+   "note": "RSS failed; Crossref fallback recovered 1 relevant paper(s)"
   },
   {
    "journal": "ACS Energy Letters",
-   "found": 0,
-   "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=aelccp"
+   "found": 23,
+   "kept": 23,
+   "error": null,
+   "note": "RSS failed; Crossref fallback recovered 23 relevant paper(s)"
   },
   {
    "journal": "ACS Applied Materials & Interfaces",
-   "found": 0,
-   "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=aamick"
+   "found": 16,
+   "kept": 16,
+   "error": null,
+   "note": "RSS failed; Crossref fallback recovered 16 relevant paper(s)"
   },
   {
    "journal": "Chemical Society Reviews",
    "found": 47,
    "kept": 2,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Energy & Environmental Science",
    "found": 89,
    "kept": 13,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Advanced Materials",
    "found": 301,
    "kept": 57,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Advanced Energy Materials",
    "found": 150,
    "kept": 33,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Advanced Functional Materials",
    "found": 930,
    "kept": 175,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Angewandte Chemie Int. Ed.",
    "found": 147,
    "kept": 12,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Small",
    "found": 422,
    "kept": 75,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Small Methods",
    "found": 129,
    "kept": 13,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Science",
    "found": 30,
    "kept": 0,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Science Advances",
    "found": 30,
    "kept": 1,
-   "error": null
+   "error": null,
+   "note": null
   },
   {
    "journal": "Joule",
-   "found": 0,
-   "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.cell.com/joule/current.rss"
+   "found": 11,
+   "kept": 11,
+   "error": null,
+   "note": "RSS failed; Crossref fallback recovered 11 relevant paper(s)"
   },
   {
    "journal": "Matter",
-   "found": 0,
-   "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.cell.com/matter/current.rss"
+   "found": 4,
+   "kept": 4,
+   "error": null,
+   "note": "RSS failed; Crossref fallback recovered 4 relevant paper(s)"
   }
  ]
 }
