@@ -653,7 +653,7 @@ def normalise_crossref_work(item, journal, publisher):
     }
 
 
-def crossref_recent_for_journal(journal, publisher, days=90, rows=150):
+def crossref_recent_for_journal(journal, publisher, days=180, rows=1000):
     """Fallback for important journals whose RSS feeds are blocked.
 
     Queries Crossref by ISSN for recent papers, then applies the same relevance
