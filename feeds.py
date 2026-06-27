@@ -39,7 +39,7 @@ FEEDS = [
     ("Nature Reviews Chemistry",        "Nature",  "https://www.nature.com/natrevchem.rss"),
 
     # ---- ACS --------------------------------------------------------------
-    ("Journal of the American Chemical Society", "ACS", "https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=jacsat"),
+    ("Journal of the American Chemical Society", "ACS", "https://pubs.acs.org/action/showFeed?feed=rss&jc=jacsat&type=axatoc"),
     ("Chemical Reviews",                "ACS",     "https://pubs.acs.org/action/showFeed?feed=rss&jc=chreay&type=axatoc"),
     ("Accounts of Chemical Research",   "ACS",     "https://pubs.acs.org/action/showFeed?feed=rss&jc=achre4&type=axatoc"),
     ("ACS Energy Letters",              "ACS",     "https://pubs.acs.org/action/showFeed?feed=rss&jc=aelccp&type=axatoc"),
