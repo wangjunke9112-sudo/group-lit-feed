@@ -1,6 +1,6 @@
 {
- "generated": "2026-06-19 05:01 UTC",
- "count": 29324,
+ "generated": "2026-06-27 16:06 UTC",
+ "count": 29497,
  "years": [
   "2026",
   "2025",
@@ -22,8 +22,8 @@
   "2009"
  ],
  "year_counts": {
-  "2026": 1681,
-  "2025": 3654,
+  "2026": 1855,
+  "2025": 3653,
   "2024": 3450,
   "2023": 2736,
   "2022": 2231,
@@ -41,5 +41,198 @@
   "2010": 346,
   "2009": 255
  },
- "feeds": []
+ "feeds": [
+  {
+   "journal": "Nature",
+   "found": 75,
+   "kept": 1,
+   "error": null
+  },
+  {
+   "journal": "Nature Energy",
+   "found": 8,
+   "kept": 2,
+   "error": null
+  },
+  {
+   "journal": "Nature Materials",
+   "found": 8,
+   "kept": 0,
+   "error": null
+  },
+  {
+   "journal": "Nature Chemistry",
+   "found": 8,
+   "kept": 0,
+   "error": null
+  },
+  {
+   "journal": "Nature Synthesis",
+   "found": 8,
+   "kept": 1,
+   "error": null
+  },
+  {
+   "journal": "Nature Sustainability",
+   "found": 8,
+   "kept": 0,
+   "error": null
+  },
+  {
+   "journal": "Nature Photonics",
+   "found": 8,
+   "kept": 3,
+   "error": null
+  },
+  {
+   "journal": "Nature Nanotechnology",
+   "found": 8,
+   "kept": 2,
+   "error": null
+  },
+  {
+   "journal": "Nature Communications",
+   "found": 8,
+   "kept": 0,
+   "error": null
+  },
+  {
+   "journal": "Nature Electronics",
+   "found": 8,
+   "kept": 1,
+   "error": null
+  },
+  {
+   "journal": "Nature Methods",
+   "found": 8,
+   "kept": 0,
+   "error": null
+  },
+  {
+   "journal": "Nature Reviews Materials",
+   "found": 8,
+   "kept": 1,
+   "error": null
+  },
+  {
+   "journal": "Nature Reviews Methods Primers",
+   "found": 8,
+   "kept": 0,
+   "error": null
+  },
+  {
+   "journal": "Nature Physics",
+   "found": 8,
+   "kept": 0,
+   "error": null
+  },
+  {
+   "journal": "Nature Reviews Chemistry",
+   "found": 8,
+   "kept": 0,
+   "error": null
+  },
+  {
+   "journal": "Journal of the American Chemical Society",
+   "found": 0,
+   "kept": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=jacsat"
+  },
+  {
+   "journal": "Chemical Reviews",
+   "found": 0,
+   "kept": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=chreay"
+  },
+  {
+   "journal": "Accounts of Chemical Research",
+   "found": 0,
+   "kept": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=achre4"
+  },
+  {
+   "journal": "ACS Energy Letters",
+   "found": 0,
+   "kept": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=aelccp"
+  },
+  {
+   "journal": "ACS Applied Materials & Interfaces",
+   "found": 0,
+   "kept": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=aamick"
+  },
+  {
+   "journal": "Chemical Society Reviews",
+   "found": 0,
+   "kept": 0,
+   "error": "SSLError: HTTPSConnectionPool(host='feeds.rsc.org', port=443): Max retries exceeded with url: /rss/CS (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+   "journal": "Energy & Environmental Science",
+   "found": 0,
+   "kept": 0,
+   "error": "SSLError: HTTPSConnectionPool(host='feeds.rsc.org', port=443): Max retries exceeded with url: /rss/EE (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))"
+  },
+  {
+   "journal": "Advanced Materials",
+   "found": 301,
+   "kept": 57,
+   "error": null
+  },
+  {
+   "journal": "Advanced Energy Materials",
+   "found": 150,
+   "kept": 33,
+   "error": null
+  },
+  {
+   "journal": "Advanced Functional Materials",
+   "found": 930,
+   "kept": 175,
+   "error": null
+  },
+  {
+   "journal": "Angewandte Chemie Int. Ed.",
+   "found": 147,
+   "kept": 12,
+   "error": null
+  },
+  {
+   "journal": "Small",
+   "found": 422,
+   "kept": 75,
+   "error": null
+  },
+  {
+   "journal": "Small Methods",
+   "found": 129,
+   "kept": 13,
+   "error": null
+  },
+  {
+   "journal": "Science",
+   "found": 0,
+   "kept": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science"
+  },
+  {
+   "journal": "Science Advances",
+   "found": 0,
+   "kept": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv"
+  },
+  {
+   "journal": "Joule",
+   "found": 0,
+   "kept": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.cell.com/joule/inpress.rss"
+  },
+  {
+   "journal": "Matter",
+   "found": 0,
+   "kept": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.cell.com/matter/inpress.rss"
+  }
+ ]
 }
