@@ -1,6 +1,6 @@
 {
- "generated": "2026-06-27 17:00 UTC",
- "count": 29512,
+ "generated": "2026-06-27 17:18 UTC",
+ "count": 29513,
  "years": [
   "2026",
   "2025",
@@ -22,7 +22,7 @@
   "2009"
  ],
  "year_counts": {
-  "2026": 1870,
+  "2026": 1871,
   "2025": 3653,
   "2024": 3450,
   "2023": 2736,
@@ -136,7 +136,7 @@
    "journal": "Journal of the American Chemical Society",
    "found": 0,
    "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=etoc&feed=rss&jc=jacsat"
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?feed=rss&jc=jacsat&type=axatoc"
   },
   {
    "journal": "Chemical Reviews",
@@ -218,9 +218,9 @@
   },
   {
    "journal": "Science Advances",
-   "found": 0,
-   "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.science.org/action/showFeed?feed=rss&jc=sciadv&type=etoc"
+   "found": 30,
+   "kept": 1,
+   "error": null
   },
   {
    "journal": "Joule",
