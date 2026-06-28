@@ -947,7 +947,7 @@ def run():
     start = SETTINGS["start_date"]
     papers = merge(existing, fresh, start)
 
-    daily_cap = SETTINGS.get("daily_abstract_topup", 300)
+    daily_cap = SETTINGS.get("daily_abstract_topup", 25)
     filled = topup_abstracts(papers, limit=daily_cap) if daily_cap else 0
 
     manifest = write_archive(papers, report)
