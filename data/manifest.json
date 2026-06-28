@@ -1,6 +1,6 @@
 {
- "generated": "2026-06-27 18:25 UTC",
- "count": 29556,
+ "generated": "2026-06-28 13:13 UTC",
+ "count": 29573,
  "years": [
   "2026",
   "2025",
@@ -22,7 +22,7 @@
   "2009"
  ],
  "year_counts": {
-  "2026": 1914,
+  "2026": 1931,
   "2025": 3653,
   "2024": 3450,
   "2023": 2736,
@@ -143,44 +143,44 @@
   {
    "journal": "Nature Reviews Chemistry",
    "found": 8,
-   "kept": 1,
+   "kept": 0,
    "error": null,
    "note": null
   },
   {
    "journal": "Journal of the American Chemical Society",
-   "found": 6,
-   "kept": 6,
+   "found": 2,
+   "kept": 2,
    "error": null,
-   "note": "RSS failed; Crossref fallback recovered 6 relevant paper(s)"
+   "note": "RSS failed; Crossref fallback recovered 2 relevant paper(s)"
   },
   {
    "journal": "Chemical Reviews",
-   "found": 5,
-   "kept": 5,
-   "error": null,
-   "note": "RSS failed; Crossref fallback recovered 5 relevant paper(s)"
+   "found": 0,
+   "kept": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=chreay",
+   "note": null
   },
   {
    "journal": "Accounts of Chemical Research",
-   "found": 1,
-   "kept": 1,
-   "error": null,
-   "note": "RSS failed; Crossref fallback recovered 1 relevant paper(s)"
+   "found": 0,
+   "kept": 0,
+   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=achre4",
+   "note": null
   },
   {
    "journal": "ACS Energy Letters",
-   "found": 23,
-   "kept": 23,
-   "error": null,
-   "note": "RSS failed; Crossref fallback recovered 23 relevant paper(s)"
-  },
-  {
-   "journal": "ACS Applied Materials & Interfaces",
    "found": 16,
    "kept": 16,
    "error": null,
    "note": "RSS failed; Crossref fallback recovered 16 relevant paper(s)"
+  },
+  {
+   "journal": "ACS Applied Materials & Interfaces",
+   "found": 11,
+   "kept": 11,
+   "error": null,
+   "note": "RSS failed; Crossref fallback recovered 11 relevant paper(s)"
   },
   {
    "journal": "Chemical Society Reviews",
@@ -198,8 +198,8 @@
   },
   {
    "journal": "Advanced Materials",
-   "found": 301,
-   "kept": 57,
+   "found": 355,
+   "kept": 71,
    "error": null,
    "note": null
   },
@@ -213,14 +213,14 @@
   {
    "journal": "Advanced Functional Materials",
    "found": 930,
-   "kept": 175,
+   "kept": 182,
    "error": null,
    "note": null
   },
   {
    "journal": "Angewandte Chemie Int. Ed.",
    "found": 147,
-   "kept": 12,
+   "kept": 14,
    "error": null,
    "note": null
   },
@@ -234,7 +234,7 @@
   {
    "journal": "Small Methods",
    "found": 129,
-   "kept": 13,
+   "kept": 15,
    "error": null,
    "note": null
   },
