@@ -505,7 +505,7 @@ function card(p){
   const vipBadge=paperVip(p)?'<span class="vip">\u2605 VIP</span>':"";
   const tags=(p.keywords||[]).map(k=>'<span class="tag">'+esc(k)+'</span>').join("");
   const authors=(p.authors||[]).length
-    ? '<div class="auth">'+p.authors.map(a=>isVip(a)?'<b class="vipname">'+esc(a)+'</b>':esc(a)).join(", ")+'</div>'
+    ? '<div class="auth">'+p.authors.map(esc).join(", ")+'</div>'
     : "";
   const more=p.abstract?'<button class="more">Read more</button>':"";
   const absBlock=p.abstract?'<div class="abs">'+esc(p.abstract)+
