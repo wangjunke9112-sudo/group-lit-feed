@@ -123,7 +123,7 @@ def _clean_abstract_candidate(text):
 
 def abstract_needs_topping_up(text):
     text = clean_text(text or "")
-    if len(text) < 200:
+    if len(text) < 300:
         return True
     low = text.lower()
     bad_fragments = ["published online:", "doi:", "nature portfolio", "springer nature",
@@ -301,7 +301,27 @@ def _entry_date(entry):
     return ""
 
 
-_DOI_RE = re.compile(r"10\.\d{4,9}/[^\s?#\"<>]+")
+_DOI_RE = re.compile(r"10\.\d{4,9}/[^\s<>\"]+", re.I)
+
+
+def normalise_doi(value):
+    """Return a clean lowercase DOI, or '' if no DOI is present."""
+    if not value:
+        return ""
+    m = _DOI_RE.search(str(value))
+    if not m:
+        return ""
+    doi = m.group(0)
+    doi = doi.rstrip(").,;:]}\"'")
+    doi = doi.replace("&nbsp;", "")
+    return doi.lower()
+
+
+def compact_title(value):
+    """Compact title for fallback de-duplication when DOI is missing."""
+    text = clean_text(value or "").lower()
+    text = re.sub(r"[^a-z0-9]+", " ", text)
+    return text.strip()
 
 
 def _entry_doi(entry, link):
@@ -423,7 +443,7 @@ def normalise_crossref_work(item, journal, publisher):
     title = clean_text(" ".join(item.get("title") or []))
     if not title:
         return None
-    doi = clean_text(item.get("DOI", ""))
+    doi = normalise_doi(item.get("DOI", ""))
     link = item.get("URL") or ("https://doi.org/" + doi if doi else "")
     # Use only the abstract Crossref already returned here -- do NOT fetch per
     # paper inline (that was the >30 min slowdown). The bounded daily top-up
@@ -536,8 +556,49 @@ def load_archive(data_dir=DATA_DIR):
     return papers
 
 
+def _repair_record_identifier(rec):
+    """Repair DOI for old archive records where DOI was previously missed."""
+    if not rec:
+        return rec
+
+    doi = normalise_doi(rec.get("doi", ""))
+
+    if not doi:
+        for field in ("link", "abstract", "title"):
+            doi = normalise_doi(rec.get(field, ""))
+            if doi:
+                break
+
+    if doi:
+        rec["doi"] = doi
+
+    return rec
+
+
 def _key(rec):
-    return (rec.get("doi") or rec.get("link") or rec.get("title", "")).lower()
+    """Stable de-duplication key.
+
+    DOI is preferred. If DOI is missing, fall back to journal + compact title.
+    """
+    rec = _repair_record_identifier(rec)
+
+    doi = normalise_doi(rec.get("doi", ""))
+    if doi:
+        return "doi:" + doi
+
+    title_key = compact_title(rec.get("title", ""))
+    journal_key = compact_title(rec.get("journal", ""))
+
+    if title_key and journal_key:
+        return "title:" + journal_key + ":" + title_key
+
+    return "link:" + (rec.get("link") or rec.get("title", "")).lower()
+
+
+def _doi_of(rec):
+    """Normalised DOI for second-pass de-duplication."""
+    rec = _repair_record_identifier(rec)
+    return normalise_doi(rec.get("doi", ""))
 
 
 def _doi_of(rec):
@@ -626,7 +687,7 @@ def write_archive(papers, report, data_dir=DATA_DIR):
     return manifest
 
 
-def topup_abstracts(papers, limit, min_len=200, max_tries=2):
+def topup_abstracts(papers, limit, min_len=300, max_tries=2):
     """Fill a bounded number of missing/boilerplate abstracts in place, using the
     FAST chain (Crossref+OpenAlex) so the daily run stays quick. ab_tried skips
     dead ends after max_tries."""
