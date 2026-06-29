@@ -121,15 +121,52 @@ def _clean_abstract_candidate(text):
     return text
 
 
+# ---- RSS-boilerplate markers --------------------------------------------------
+# Publisher RSS feeds wrap or pad the abstract with non-abstract text:
+#  - Wiley glues a one-sentence "significance" blurb + a literal "ABSTRACT"
+#    heading in front of the real abstract.
+#  - RSC wraps the abstract in licensing/citation boilerplate.
+# We strip what we safely can, and flag the rest so an API abstract replaces it.
+_RSC_TRAILER_RE = re.compile(
+    r"\b(To cite this article before page numbers|The content of this RSS Feed)\b.*$",
+    re.IGNORECASE | re.DOTALL,
+)
+_WILEY_ABSTRACT_MARKER_RE = re.compile(r"\bABSTRACT\b")  # all-caps heading marker
+_BOILERPLATE_MARKERS = [
+    "this article is licensed under", "creative commons", "advance article",
+    "the content of this rss feed", "to cite this article",
+    "published online:", "nature portfolio", "springer nature",
+    "read the latest article", "browse articles", "this journal publishes",
+    "official journal",
+]
+
+
+def _clean_rss_abstract(text):
+    """Strip known RSS boilerplate from a feed abstract.
+    Nature date/doi prefix, Wiley significance-blurb + 'ABSTRACT' heading, and
+    RSC trailing citation/feed notices. The RSC *leading* licence preamble is
+    not surgically removed (too fragile); it is flagged for API replacement."""
+    if not text:
+        return ""
+    # Nature: "<Journal>, Published online: <date>; doi:<doi> <abstract>"
+    text = _NATURE_PREFIX_RE.sub("", text).strip()
+    # Wiley: keep only the real abstract after the all-caps "ABSTRACT" heading.
+    m = _WILEY_ABSTRACT_MARKER_RE.search(text)
+    if m:
+        after = text[m.end():].strip(" :\u2013-")
+        if len(after) > 120:
+            text = after
+    # RSC: drop the trailing "To cite..."/"The content of this RSS Feed..." notice.
+    text = _RSC_TRAILER_RE.sub("", text).strip()
+    return text.strip()
+
+
 def abstract_needs_topping_up(text):
     text = clean_text(text or "")
     if len(text) < 300:
         return True
     low = text.lower()
-    bad_fragments = ["published online:", "doi:", "nature portfolio", "springer nature",
-                     "read the latest article", "read the latest articles", "browse articles",
-                     "this journal publishes", "official journal"]
-    if any(fragment in low for fragment in bad_fragments):
+    if any(fragment in low for fragment in _BOILERPLATE_MARKERS):
         return True
     sentence_count = len(re.findall(r"[.!?]\s+", text))
     if len(text) < 350 and sentence_count <= 1:
@@ -265,7 +302,7 @@ def fetch_publisher_abstract(doi):
 def fetch_abstract_fast(doi):
     """Fast chain: Crossref -> OpenAlex only. No publisher-page scrape, so it
     never hangs 20s on a blocked page. Used inline by the daily job, the
-    Crossref fallback, and the daily top-up so they stay quick."""
+    Crossref fallback, the pending re-check, and the daily top-up."""
     doi = (doi or "").strip()
     if not doi or not doi.startswith("10."):
         return ""
@@ -342,10 +379,6 @@ _NATURE_PREFIX_RE = re.compile(
 )
 
 
-def _strip_nature_boilerplate(text):
-    return _NATURE_PREFIX_RE.sub("", text).strip()
-
-
 def _entry_abstract(entry):
     candidates = []
     if entry.get("summary"):
@@ -360,7 +393,7 @@ def _entry_abstract(entry):
     if not cleaned:
         return ""
     text = max(cleaned, key=len)
-    text = _strip_nature_boilerplate(text)
+    text = _clean_rss_abstract(text)
     cap = SETTINGS.get("abstract_max_chars", 1600)
     if len(text) > cap:
         text = text[:cap].rsplit(" ", 1)[0] + "\u2026"
@@ -399,11 +432,34 @@ def classify_type(title, journal, hint=""):
     return "article"
 
 
-def normalise_entry(entry, journal, publisher):
+# ---- Relevance evaluation + pending re-check pool -----------------------------
+# A paper that fails the keyword gate is normally dropped. But a BRAND-NEW paper
+# whose abstract is not yet in any API can be dropped only because we could not
+# read its abstract yet -- and it would never be reconsidered. To avoid losing
+# such papers, ones that (a) fail only because the abstract is still missing and
+# (b) have a loose field hint in the title are parked in data/pending.json and
+# re-checked on later runs once the abstract becomes available.
+_LOOSE_HINT_RE = re.compile(
+    r"(perovskite|photovolt|solar|tandem|optoelectron|semiconduct|bandgap|band gap|"
+    r"halide|light[- ]emitting|\bled\b|photodetector|photodiode|scintillat|"
+    r"photocatal|photoelectro|water[- ]splitting|\bco2\b|quantum dot|"
+    r"thin[- ]film|charge transport|passivat|ion migration)", re.I)
+
+
+def _build_record(title, link, journal, publisher, date, abstract, authors, doi, hits, hint=""):
+    return {
+        "title": title, "link": link, "journal": journal, "publisher": publisher,
+        "date": date, "abstract": abstract, "authors": authors, "doi": doi,
+        "keywords": hits, "type": classify_type(title, journal, hint),
+    }
+
+
+def evaluate_entry(entry, journal, publisher):
+    """Return ('keep', record) | ('pending', candidate) | ('drop', None)."""
     title = clean_text(entry.get("title", ""))
     link = (entry.get("link") or "").strip()
     if not title or not link:
-        return None
+        return ("drop", None)
     doi = _entry_doi(entry, link)
     abstract = _entry_abstract(entry)
     if abstract_needs_topping_up(abstract):
@@ -411,16 +467,83 @@ def normalise_entry(entry, journal, publisher):
         if len(better) > len(abstract):
             abstract = better
     keep, hits = is_relevant(title + " \n " + abstract)
-    if not keep:
-        return None
-    date = _entry_date(entry) or crossref_date_for_doi(doi) or dt.date.today().isoformat()
-    hint = " ".join(t.get("term", "") for t in (entry.get("tags") or []) if isinstance(t, dict))
-    hint += " " + str(entry.get("dc_type", "") or "")
-    return {
-        "title": title, "link": link, "journal": journal, "publisher": publisher,
-        "date": date, "abstract": abstract, "authors": _entry_authors(entry),
-        "doi": doi, "keywords": hits, "type": classify_type(title, journal, hint),
-    }
+    if keep:
+        date = _entry_date(entry) or crossref_date_for_doi(doi) or dt.date.today().isoformat()
+        hint = " ".join(t.get("term", "") for t in (entry.get("tags") or []) if isinstance(t, dict))
+        hint += " " + str(entry.get("dc_type", "") or "")
+        return ("keep", _build_record(title, link, journal, publisher, date,
+                                       abstract, _entry_authors(entry), doi, hits, hint))
+    # Not relevant on current info. Only park it if we could NOT judge fairly
+    # (abstract still missing/short) AND it is plausibly in our field AND has a
+    # DOI we can re-query later.
+    if (abstract_needs_topping_up(abstract) and _LOOSE_HINT_RE.search(title)
+            and doi.startswith("10.")):
+        return ("pending", {
+            "doi": doi, "title": title, "link": link, "journal": journal,
+            "publisher": publisher,
+            "date": _entry_date(entry) or dt.date.today().isoformat(),
+            "authors": _entry_authors(entry), "tries": 0,
+        })
+    return ("drop", None)
+
+
+def normalise_entry(entry, journal, publisher):
+    """Backward-compatible wrapper: returns a record or None."""
+    kind, payload = evaluate_entry(entry, journal, publisher)
+    return payload if kind == "keep" else None
+
+
+PENDING_FILE = os.path.join(DATA_DIR, "pending.json")
+
+
+def load_pending():
+    try:
+        with open(PENDING_FILE, "r", encoding="utf-8") as fh:
+            return json.load(fh).get("pending", [])
+    except Exception:
+        return []
+
+
+def save_pending(items):
+    os.makedirs(DATA_DIR, exist_ok=True)
+    generated = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    with open(PENDING_FILE, "w", encoding="utf-8") as fh:
+        json.dump({"generated": generated, "count": len(items), "pending": items},
+                  fh, ensure_ascii=False, indent=1)
+
+
+def process_pending(pending, limit=200, max_tries=6, max_age_days=21):
+    """Re-check parked papers. Returns (promoted_records, surviving_pending).
+    A paper is promoted if its abstract is now available and relevant; dropped
+    if it now has a real abstract but is irrelevant, or if it has expired."""
+    today = dt.date.today()
+    promoted, survivors = [], []
+    checked = 0
+    for item in pending:
+        try:
+            age = (today - dt.date.fromisoformat((item.get("date", "") or "")[:10])).days
+        except Exception:
+            age = 0
+        if int(item.get("tries", 0)) >= max_tries or age > max_age_days:
+            continue  # expired -> drop
+        if checked >= limit:
+            survivors.append(item)  # defer to a later run
+            continue
+        checked += 1
+        doi = item.get("doi", "")
+        abstract = fetch_abstract_fast(doi)
+        if abstract and not abstract_needs_topping_up(abstract):
+            keep, hits = is_relevant((item.get("title", "") or "") + " \n " + abstract)
+            if keep:
+                promoted.append(_build_record(
+                    item.get("title", ""), item.get("link", ""), item.get("journal", ""),
+                    item.get("publisher", ""), item.get("date", "") or today.isoformat(),
+                    _cap_abstract(abstract), item.get("authors", []), doi, hits))
+            # relevant -> promoted (drop from pool); irrelevant -> drop from pool
+            continue
+        item["tries"] = int(item.get("tries", 0)) + 1
+        survivors.append(item)
+    return promoted, survivors
 
 
 def fetch_feed(url):
@@ -445,9 +568,6 @@ def normalise_crossref_work(item, journal, publisher):
         return None
     doi = normalise_doi(item.get("DOI", ""))
     link = item.get("URL") or ("https://doi.org/" + doi if doi else "")
-    # Use only the abstract Crossref already returned here -- do NOT fetch per
-    # paper inline (that was the >30 min slowdown). The bounded daily top-up
-    # fills the rest afterwards using the fast chain.
     abstract = _clean_abstract_candidate(item.get("abstract", "") or "")
     keep, hits = is_relevant(title + " \n " + abstract)
     if not keep:
@@ -459,17 +579,11 @@ def normalise_crossref_work(item, journal, publisher):
             authors.append(clean_text(name))
     hint = item.get("type", "") or ""
     date = pick_crossref_date(item) or dt.date.today().isoformat()
-    return {
-        "title": title, "link": link, "journal": journal, "publisher": publisher,
-        "date": date, "abstract": _cap_abstract(abstract), "authors": authors,
-        "doi": doi, "keywords": hits, "type": classify_type(title, journal, hint),
-    }
+    return _build_record(title, link, journal, publisher, date,
+                         _cap_abstract(abstract), authors, doi, hits, hint)
 
 
 def crossref_recent_for_journal(journal, publisher, days=35, rows=120):
-    """Fallback for important journals whose RSS feeds are blocked. Queries
-    Crossref by ISSN for recent papers. Recovers the papers fast; abstracts are
-    filled later by the bounded top-up (no slow per-paper scraping here)."""
     import requests
     issns = ISSNS.get(journal, [])
     if not issns:
@@ -501,9 +615,11 @@ def crossref_recent_for_journal(journal, publisher, days=35, rows=120):
 
 
 def harvest():
+    """Fetch and parse all feeds. Returns (records, report, new_pending)."""
     import feedparser
     records = []
     report = []
+    new_pending = []
     for journal, publisher, url in FEEDS:
         status = {"journal": journal, "url": url, "found": 0, "kept": 0,
                   "error": None, "note": None}
@@ -512,10 +628,12 @@ def harvest():
             parsed = feedparser.parse(raw)
             status["found"] = len(parsed.entries)
             for entry in parsed.entries:
-                rec = normalise_entry(entry, journal, publisher)
-                if rec:
-                    records.append(rec)
+                kind, payload = evaluate_entry(entry, journal, publisher)
+                if kind == "keep":
+                    records.append(payload)
                     status["kept"] += 1
+                elif kind == "pending":
+                    new_pending.append(payload)
         except Exception as exc:
             status["error"] = f"{type(exc).__name__}: {exc}"
             if journal in IMPORTANT_FALLBACK_JOURNALS:
@@ -535,7 +653,7 @@ def harvest():
         print(line)
         report.append(status)
         time.sleep(1)
-    return records, report
+    return records, report, new_pending
 
 
 def _year_files(data_dir=DATA_DIR):
@@ -560,55 +678,34 @@ def _repair_record_identifier(rec):
     """Repair DOI for old archive records where DOI was previously missed."""
     if not rec:
         return rec
-
     doi = normalise_doi(rec.get("doi", ""))
-
     if not doi:
         for field in ("link", "abstract", "title"):
             doi = normalise_doi(rec.get(field, ""))
             if doi:
                 break
-
     if doi:
         rec["doi"] = doi
-
     return rec
 
 
 def _key(rec):
-    """Stable de-duplication key.
-
-    DOI is preferred. If DOI is missing, fall back to journal + compact title.
-    """
+    """Stable de-duplication key. DOI preferred; else journal + compact title."""
     rec = _repair_record_identifier(rec)
-
     doi = normalise_doi(rec.get("doi", ""))
     if doi:
         return "doi:" + doi
-
     title_key = compact_title(rec.get("title", ""))
     journal_key = compact_title(rec.get("journal", ""))
-
     if title_key and journal_key:
         return "title:" + journal_key + ":" + title_key
-
     return "link:" + (rec.get("link") or rec.get("title", "")).lower()
 
 
 def _doi_of(rec):
-    """Normalised DOI for second-pass de-duplication."""
+    """Normalised DOI for the second-pass dedup, from the doi field or the link."""
     rec = _repair_record_identifier(rec)
     return normalise_doi(rec.get("doi", ""))
-
-
-def _doi_of(rec):
-    """Normalised DOI for a record, pulled from the doi field OR the link.
-    This lets a link-keyed copy and a doi-keyed copy of the same paper collapse."""
-    d = (rec.get("doi") or "").strip()
-    if not d.startswith("10."):
-        m = _DOI_RE.search(rec.get("link") or "")
-        d = m.group(0) if m else ""
-    return d.lower().rstrip("/").rstrip(").,;")
 
 
 def _better_record(old, new):
@@ -642,13 +739,10 @@ def _better_record(old, new):
 
 def merge(existing, fresh, start_date):
     """Merge fresh into existing, de-dupe, drop pre-start_date, sort newest first.
-    De-dupe is two-pass: first by primary key, then by DOI so that a paper stored
-    under its link and the same paper recovered under its DOI collapse into one."""
+    Two-pass de-dupe: by primary key, then by DOI (collapses link-vs-DOI dupes)."""
     by_key = {}
     for rec in existing + fresh:
         by_key[_key(rec)] = _better_record(by_key.get(_key(rec)), rec)
-
-    # Second pass: collapse anything sharing a DOI (kills link-vs-DOI duplicates).
     by_doi = {}
     no_doi = []
     for rec in by_key.values():
@@ -658,7 +752,6 @@ def merge(existing, fresh, start_date):
         else:
             no_doi.append(rec)
     deduped = list(by_doi.values()) + no_doi
-
     merged = [r for r in deduped if r.get("date", "") >= start_date]
     merged.sort(key=lambda r: (r.get("date", ""), r.get("journal", "")), reverse=True)
     return merged
@@ -688,9 +781,6 @@ def write_archive(papers, report, data_dir=DATA_DIR):
 
 
 def topup_abstracts(papers, limit, min_len=300, max_tries=2):
-    """Fill a bounded number of missing/boilerplate abstracts in place, using the
-    FAST chain (Crossref+OpenAlex) so the daily run stays quick. ab_tried skips
-    dead ends after max_tries."""
     targets = [p for p in papers
                if p.get("doi", "").startswith("10.")
                and abstract_needs_topping_up(p.get("abstract") or "")
@@ -709,22 +799,48 @@ def topup_abstracts(papers, limit, min_len=300, max_tries=2):
     return filled
 
 
+def _dedupe_pending(items, known_dois):
+    """Keep one entry per DOI; drop any whose DOI is already in the archive."""
+    out, seen = [], set()
+    for it in items:
+        d = normalise_doi(it.get("doi", ""))
+        if not d or d in known_dois or d in seen:
+            continue
+        seen.add(d)
+        out.append(it)
+    return out
+
+
 def run():
     print(f"Harvesting {len(FEEDS)} feeds ...")
-    fresh, report = harvest()
+    fresh, report, new_pending = harvest()
     existing = load_archive()
     start = SETTINGS["start_date"]
-    papers = merge(existing, fresh, start)
+
+    # Re-check the parked pool: promote now-relevant papers, drop the rest.
+    pending = load_pending()
+    promoted, pending_left = process_pending(pending)
+
+    papers = merge(existing, fresh + promoted, start)
+
+    # Park newly-seen borderline papers, minus anything now in the archive.
+    archive_dois = {normalise_doi(p.get("doi", "")) for p in papers}
+    archive_dois.discard("")
+    pending_final = _dedupe_pending(pending_left + new_pending, archive_dois)
+    save_pending(pending_final)
+
     daily_cap = SETTINGS.get("daily_abstract_topup", 300)
     filled = topup_abstracts(papers, limit=daily_cap) if daily_cap else 0
     manifest = write_archive(papers, report)
+
     new_count = len({_key(r) for r in fresh} - {_key(r) for r in existing})
     ok = sum(1 for r in report if r["error"] is None)
     missing = sum(1 for p in papers if abstract_needs_topping_up(p.get("abstract") or ""))
     print("-" * 60)
     print(f"Feeds OK: {ok}/{len(report)} | new this run: {new_count} "
           f"| archive total: {manifest['count']} (since {start})")
-    print(f"Abstracts topped up this run: {filled} | still missing/short: {missing}")
+    print(f"Abstracts topped up: {filled} | still missing/short: {missing} "
+          f"| promoted from pending: {len(promoted)} | pending pool: {len(pending_final)}")
     print("By year: " + ", ".join(f"{y}:{c}" for y, c in manifest["year_counts"].items()))
     print(f"Wrote {DATA_DIR}/papers-YYYY.json + manifest.json")
 
@@ -740,6 +856,25 @@ def selftest():
     assert abstract_needs_topping_up("")
     assert abstract_needs_topping_up(
         "Nature Energy, Published online: 25 June 2026; doi:10.1038/s41560-026-00000-0")
+
+    # --- abstract cleaning ---
+    wiley = ("A barrier-free cathode contact is established by increasing the carrier "
+             "density of SnO x with a record efficiency of 22.79% ABSTRACT Compared to "
+             "vacuum-deposited electrodes of metal or metal oxides, printable carbon "
+             "electrodes offer a more sustainable approach toward commercialization of "
+             "perovskite solar cells, and this work demonstrates a clean route to them.")
+    cw = _clean_rss_abstract(wiley)
+    assert cw.startswith("Compared to vacuum-deposited"), cw
+    assert "ABSTRACT" not in cw and "22.79%" not in cw, cw
+    rsc = ("Energy Environ. Sci. , 2026, Advance Article DOI : 10.1039/D6EE00100A, "
+           "Communication Open Access This article is licensed under a Creative Commons "
+           "Attribution 3.0 Unported Licence. A new hydrogen-free exsolution route works. "
+           "To cite this article before page numbers are assigned, use the DOI form of "
+           "citation above. The content of this RSS Feed (c) The Royal Society of Chemistry")
+    cr = _clean_rss_abstract(rsc)
+    assert "To cite this article" not in cr and "content of this RSS Feed" not in cr, cr
+    assert abstract_needs_topping_up(rsc), "RSC boilerplate should be flagged for API replacement"
+
     saved = SETTINGS["require_perovskite"]
     SETTINGS["require_perovskite"] = True
     keep, _ = is_relevant("Silicon tandem photovoltaics reach new efficiency")
@@ -751,24 +886,23 @@ def selftest():
     today = dt.date.today().isoformat()
     old = "2025-12-31"
     existing = [
-        {"title": "A", "doi": "10.1/a", "link": "x", "date": old, "journal": "J",
+        {"title": "A", "doi": "10.1000/a", "link": "x", "date": old, "journal": "J",
          "abstract": "old pruned abstract"},
-        {"title": "B", "doi": "10.1/b", "link": "y", "date": today, "journal": "J",
+        {"title": "B", "doi": "10.1000/b", "link": "y", "date": today, "journal": "J",
          "abstract": "this useful old abstract should survive"},
     ]
     fresh = [
-        {"title": "B-updated", "doi": "10.1/b", "link": "y", "date": today, "journal": "J",
+        {"title": "B-updated", "doi": "10.1000/b", "link": "y", "date": today, "journal": "J",
          "abstract": ""},
-        {"title": "C", "doi": "10.1/c", "link": "z", "date": today, "journal": "J",
+        {"title": "C", "doi": "10.1000/c", "link": "z", "date": today, "journal": "J",
          "abstract": "new abstract"},
     ]
     merged = merge(existing, fresh, start_date="2026-01-01")
     titles = sorted(r["title"] for r in merged)
     assert titles == ["B-updated", "C"], titles
-    b = next(r for r in merged if r["doi"] == "10.1/b")
+    b = next(r for r in merged if r["doi"] == "10.1000/b")
     assert b["abstract"] == "this useful old abstract should survive", b
 
-    # DOI-robust dedup: link-keyed copy + doi-keyed copy collapse to one.
     dup_existing = [{"title": "Z", "doi": "", "link": "https://pubs.acs.org/doi/10.1021/z.1",
                      "date": today, "journal": "J", "abstract": "short"}]
     dup_fresh = [{"title": "Z", "doi": "10.1021/z.1", "link": "https://doi.org/10.1021/z.1",
@@ -777,6 +911,41 @@ def selftest():
     dmerged = merge(dup_existing, dup_fresh, start_date="2026-01-01")
     assert len(dmerged) == 1, f"duplicate not collapsed: {dmerged}"
     assert dmerged[0]["abstract"].startswith("a much longer"), dmerged[0]
+
+    # --- pending pool logic (with a stubbed fast fetch) ---
+    # Patch via globals() so it works whether this runs as __main__ or aggregate.
+    g = globals()
+    real = g["fetch_abstract_fast"]
+    long_relevant = (
+        "This work reports a wide-bandgap perovskite solar cell in which halide "
+        "segregation is suppressed, reducing non-radiative recombination at the "
+        "absorber/transport-layer interface and raising the open-circuit voltage. "
+        "Quasi-Fermi-level splitting measurements indicate the loss is interfacial, "
+        "and the improved sub-cell is integrated into an all-perovskite tandem "
+        "photovoltaic device, demonstrating a clear advance for multijunction "
+        "solar cells with a stable, reproducible fabrication route overall.")
+    # promote case
+    g["fetch_abstract_fast"] = lambda doi: long_relevant if doi == "10.x/rel" else ""
+    pend = [{"doi": "10.x/rel", "title": "A clever ligand for efficient devices",
+             "link": "l", "journal": "J", "publisher": "P", "date": today,
+             "authors": ["X"], "tries": 0}]
+    promoted, survivors = process_pending(pend)
+    assert len(promoted) == 1 and not survivors, (promoted, survivors)
+    assert promoted[0]["keywords"], "promoted paper should carry matched keywords"
+    # still-missing case -> stays, tries incremented
+    g["fetch_abstract_fast"] = lambda doi: ""
+    pend2 = [{"doi": "10.x/none", "title": "A clever ligand for efficient devices",
+              "link": "l", "journal": "J", "publisher": "P", "date": today,
+              "authors": [], "tries": 0}]
+    promoted2, survivors2 = process_pending(pend2)
+    assert not promoted2 and survivors2 and survivors2[0]["tries"] == 1, (promoted2, survivors2)
+    # expired -> dropped
+    oldd = (dt.date.today() - dt.timedelta(days=40)).isoformat()
+    pend3 = [{"doi": "10.x/old", "title": "x", "date": oldd, "tries": 0}]
+    promoted3, survivors3 = process_pending(pend3)
+    assert not promoted3 and not survivors3, (promoted3, survivors3)
+    g["fetch_abstract_fast"] = real
+
     assert clean_text("<p>Hello&nbsp;<b>world</b></p>") == "Hello world"
     print("All self-tests passed.")
 
