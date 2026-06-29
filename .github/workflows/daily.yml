@@ -22,7 +22,7 @@ jobs:
       - name: Run daily aggregate (new papers only)
         env:
           OPENALEX_KEY: ${{ secrets.OPENALEX_KEY }}
-        run: python -c "import aggregate; aggregate.SETTINGS['daily_abstract_topup']=0; aggregate.run()"
+        run: python aggregate.py
       - name: Commit data
         run: |
           git config user.name  "github-actions[bot]"
