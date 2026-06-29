@@ -367,7 +367,20 @@ function isVip(name){
     return Object.keys(want).every(t=>(have[t]||0)>=want[t]);
   });
 }
-function paperVip(p){ return (p.authors||[]).some(isVip); }
+function splitAuthors(list){
+  // Accept either a proper array of names OR a single combined string, and split
+  // each entry on commas / semicolons / " and " so we always match and bold
+  // INDIVIDUAL names -- never a whole combined author line (which would contain
+  // a VIP name and wrongly gold the entire list).
+  const out=[];
+  (list||[]).forEach(a=>{
+    String(a).split(/\s*[,;]\s*|\s+and\s+/i).forEach(n=>{
+      const name=n.trim(); if(name) out.push(name);
+    });
+  });
+  return out;
+}
+function paperVip(p){ return splitAuthors(p.authors).some(isVip); }
 
 const REVIEW_JOURNALS=new Set(["Chemical Reviews","Chemical Society Reviews",
   "Nature Reviews Materials","Nature Reviews Chemistry","Nature Reviews Methods Primers",
@@ -507,8 +520,9 @@ function card(p){
   const ty=classifyType(p), tyLabel={review:"Review",comment:"Comment",article:"Article"}[ty];
   const vipBadge=paperVip(p)?'<span class="vip">\u2605 VIP</span>':"";
   const tags=(p.keywords||[]).map(k=>'<span class="tag">'+esc(k)+'</span>').join("");
-  const authors=(p.authors||[]).length
-    ? '<div class="auth">'+p.authors.map(a=>isVip(a)?'<b class="vipname">'+esc(a)+'</b>':esc(a)).join(", ")+'</div>'
+  const authorList=splitAuthors(p.authors);
+  const authors=authorList.length
+    ? '<div class="auth">'+authorList.map(a=>isVip(a)?'<b class="vipname">'+esc(a)+'</b>':esc(a)).join(", ")+'</div>'
     : "";
   const more=p.abstract?'<button class="more">Read more</button>':"";
   const absBlock=p.abstract?'<div class="abs">'+esc(p.abstract)+
