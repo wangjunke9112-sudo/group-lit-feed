@@ -1,8 +1,57 @@
 {
  "year": "2026",
- "count": 1922,
- "generated": "2026-06-29 01:39 UTC",
+ "count": 1924,
+ "generated": "2026-06-29 15:27 UTC",
  "papers": [
+  {
+   "title": "Development of efficient genetic toolkits and heterologous chassis for bioprospecting of myxobacteria",
+   "link": "https://www.nature.com/articles/s41467-026-74908-x",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-06-29",
+   "abstract": "Abstract Myxobacteria are renowned producers of structurally diverse bioactive natural products. Motivated by a comprehensive inventory of myxobacterial biosynthetic gene clusters (BGCs), we develop efficient genetic toolkits and construct a robust heterologous expression chassis. We identify a pair of Myxococcus -derived recombinases, designated MxRecET, that enables efficient genome editing in the model strain Myxococcus xanthus DK1622. The synergistic combination of MxRecET recombineering with the transposon-associated nuclease TnpB (ISDra2) enables versatile genetic manipulations, including seamless deletion of large DNA fragments (up to 200 kb), tandem editing of dual loci, and flexible single-nucleotide substitutions within a streamlined two-week workflow. This integrated technology, termed MxDIRECT, facilitates the rational engineering of DK1622 into a plug-and-play chassis designated MxPKS, featuring enhanced growth properties, elimination of competing pathways, an improved precursor supply, and increased robustness. The effectiveness of MxPKS is demonstrated through heterologous expression of four polyketide synthase BGCs, leading to the discovery of multiple unknown polyketides. This work establishes a foundation for accelerated bioprospecting of myxobacteria.",
+   "authors": [
+    "Wen-Juan Zhang",
+    "Jia-Qi Hu",
+    "Rui-Juan Li",
+    "Duo-Hong Sheng",
+    "Xin-Jing Yue",
+    "Qunxin She",
+    "Youming Zhang",
+    "Yue-Zhong Li",
+    "Li Zhuo",
+    "Changsheng Wu"
+   ],
+   "doi": "10.1038/s41467-026-74908-x",
+   "keywords": [
+    "tandem"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "Chlorinated Polypropylene Enables Stress-Dissipative Networks and High Efficiency in Intrinsically Stretchable Organic Photovoltaics",
+   "link": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02777F",
+   "journal": "Energy & Environmental Science",
+   "publisher": "RSC",
+   "date": "2026-06-28",
+   "abstract": "Energy Environ. Sci. , 2026, Accepted Manuscript DOI : 10.1039/D6EE02777F, Paper Shuiwang Lv, Huizhen Ke, Yuting Wang, Dexia Han, Bei Li, Vakhobjon Kuvondikov, Wenchao Zhao, Menglan Lv, Long Ye Intrinsically stretchable organic photovoltaics (IS-OPVs) demand both high power conversion efficiency (PCE) and robust mechanical deformability, yet these requirements are often difficult to reconcile in state-of-the-art donor:acceptor blends. Existing toughening...",
+   "authors": [
+    "Shuiwang Lv",
+    "Huizhen Ke",
+    "Yuting Wang",
+    "Dexia Han",
+    "Bei Li",
+    "Vakhobjon Kuvondikov",
+    "Wenchao Zhao",
+    "Menglan Lv",
+    "Long Ye"
+   ],
+   "doi": "10.1039/d6ee02777f",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "article"
+  },
   {
    "title": "Gradient Mo Engineering in [100]‐Oriented CuWO4 Films for Boosted Photoelectrochemical Water Splitting",
    "link": "https://onlinelibrary.wiley.com/doi/10.1002/smll.74370?af=R",
@@ -404,7 +453,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2026-06-27",
-   "abstract": "",
+   "abstract": "Yb 3+ -doped lead halide perovskites are promising near-infrared (NIR) emitters, but their practical implementation is often limited by poor environmental stability, defect-induced nonradiative loss, and difficulties in achieving reproducible doping and device integration. Herein, we report a mesoporous silica nanoreactor (MSN) strategy for the controlled synthesis of CsPbCl 3:Yb-MSN nanocomposites with efficient 980 nm emission. The confined growth environment provided by the mesoporous silica matrix enables regulated crystallization of Yb 3+ -doped perovskite nanocrystals while reducing surface exposure and improving resistance to environmental degradation. As a result, the obtained CsPbCl 3:Yb-MSN nanocomposites exhibit enhanced structural robustness, superior optical stability, and an absolute photoluminescence quantum yield of 146%, indicating efficient Yb 3+ -activated near-infrared emission. To demonstrate practical applicability, the as-prepared nanocomposite was integrated into a single-chip NIR LED using a UV excitation chip. The resulting device shows stable down-converted NIR output, and after optical filtering, the emission is centered at 980 nm with a relatively narrow full width at half-maximum (fwhm) of 35 nm. Imaging experiments further confirmed the practical utility of the device. The packaged NIR LED enables clear object visualization, while leaf transillumination demonstrates its capability for active NIR transmission imaging with improved visualization of internal tissue structures. This work establishes a practical route from stable Yb-doped perovskite nanomaterials to compact NIR devices and highlights their potential in portable sensing and related optical applications.",
    "authors": [
     "Siyue Wang",
     "Yixuan Chen",
@@ -1837,7 +1886,8 @@
     "perovskite solar cells",
     "solar cells"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Oxygen‐Rich Molecular Bridging Interface Enable High‐Performance Perovskite Solar Cells",
@@ -4343,7 +4393,8 @@
     "perovskite",
     "photovoltaics"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Two-Dimensional Chiral Perovskites for Integrated High-Performance Ultraviolet Full-Stokes Polarization Detection",
@@ -4351,7 +4402,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2026-06-22",
-   "abstract": "",
+   "abstract": "= 4.9%), providing a generalizable molecular-engineering strategy for next-generation integrated chiroptoelectronic applications.",
    "authors": [
     "Zhirong Liu",
     "Tianyu Sun",
@@ -4389,7 +4440,8 @@
    "keywords": [
     "solar cells"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Inside Back Cover: Differential Adsorption of Functional Groups by Ru/Co Driving Tandem Catalysis: Converting Furanic Molecules into Linear Alcohols (Angew. Chem. Int. Ed. 26/2026)",
@@ -5223,7 +5275,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2026-06-21",
-   "abstract": "",
+   "abstract": "Defect passivation is one feasible and effective approach to minimize the charge recombination of perovskite solar cells (PSCs). However, the efficacy of conventional defect passivation using Lewis base-functionalized molecules is limited due to weak bonding and large space steric hindrance. Herein, we propose a molecular engineering approach employing ultrasmall-sized potassium diformate and potassium phosphate to synergistically passivate defects at the SnO 2 /perovskite buried interface. It is found that the C═O and P═O groups effectively passivate interfacial traps, reducing trap density by ∼50% relative to the control sample. The co-modification also lowers the surface energy of SnO 2 layers, promoting the growth of perovskite grains with an average grain size increased from 780 to 1370 nm. Moreover, thermally diffused K + ions can inhibit ion migration in the perovskite lattice, thereby suppressing the hysteresis effect. According to these advantages, the optimized devices achieve a champion power conversion efficiency of 24.42% (vs 22.64% for the pristine SnO 2 -based counterpart). The unencapsulated co-passivated PSCs retain 92% of their initial efficiency after 2100 h under ambient conditions, substantially outperforming the control devices (74% retention).",
    "authors": [
     "Rui Wu",
     "Jinliang Zhao",
@@ -5282,7 +5334,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2026-06-20",
-   "abstract": "",
+   "abstract": "), long-term environmental stability (≥8 months), and excellent mechanical bending performance (600 bending cycles). The synaptic plasticity in the device is also verified, including paired pulse facilitation (PPF) and spike-timing-dependent plasticity (STDP). By applying resistance memory characteristics, the memristor achieves fear emulation, enabling the realization of key characteristics including \"self-extinction\", \"generalization\", and \"avoidance\". Finally, sound perception is simulated via imposing different signals controlled by different voltage parameters (frequency and amplitude) and light illuminance. Sound characteristics including \"pitch\", \"loudness\" and \"timbre\" are successfully determined. Our work proposes a new application avenue for lead-free flexible perovskite memristors in multimodal intelligent perception and biological simulation.",
    "authors": [
     "Haohan Qu",
     "Jinxia Duan",
@@ -5886,7 +5938,8 @@
     "perovskite",
     "photovoltaics"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Why more junctions do not yet deliver: interconnection challenges in perovskite multijunction solar cells",
@@ -6777,7 +6830,8 @@
    "keywords": [
     "photovoltaics"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Dual‐Grain‐Size Microcrystal Architectures for Stress‐Regulated Lead‐Free Perovskite Thick‐Film X‐Ray Detectors",
@@ -27943,7 +27997,8 @@
     "perovskites",
     "photovoltaics"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "3D imaging-informed electrode engineering for water splitting",
@@ -29184,7 +29239,8 @@
    "keywords": [
     "photovoltaics"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Impact of Nano‐Scale Defects on the Macroscopic Amplified Spontaneous Emission in Polycrystalline Perovskite Thin‐Films",
