@@ -1,6 +1,6 @@
 {
- "generated": "2026-06-29 23:07 UTC",
- "count": 29567,
+ "generated": "2026-06-30 23:23 UTC",
+ "count": 29587,
  "years": [
   "2026",
   "2025",
@@ -22,7 +22,7 @@
   "2009"
  ],
  "year_counts": {
-  "2026": 1925,
+  "2026": 1945,
   "2025": 3653,
   "2024": 3450,
   "2023": 2736,
@@ -87,7 +87,7 @@
   {
    "journal": "Nature Photonics",
    "found": 8,
-   "kept": 2,
+   "kept": 3,
    "error": null,
    "note": null
   },
@@ -149,17 +149,17 @@
   },
   {
    "journal": "Journal of the American Chemical Society",
+   "found": 2,
+   "kept": 2,
+   "error": null,
+   "note": "RSS failed; Crossref fallback recovered 2 relevant paper(s)"
+  },
+  {
+   "journal": "Chemical Reviews",
    "found": 1,
    "kept": 1,
    "error": null,
    "note": "RSS failed; Crossref fallback recovered 1 relevant paper(s)"
-  },
-  {
-   "journal": "Chemical Reviews",
-   "found": 0,
-   "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=chreay",
-   "note": null
   },
   {
    "journal": "Accounts of Chemical Research",
@@ -170,17 +170,17 @@
   },
   {
    "journal": "ACS Energy Letters",
-   "found": 17,
-   "kept": 17,
+   "found": 18,
+   "kept": 18,
    "error": null,
-   "note": "RSS failed; Crossref fallback recovered 17 relevant paper(s)"
+   "note": "RSS failed; Crossref fallback recovered 18 relevant paper(s)"
   },
   {
    "journal": "ACS Applied Materials & Interfaces",
-   "found": 9,
-   "kept": 9,
+   "found": 8,
+   "kept": 8,
    "error": null,
-   "note": "RSS failed; Crossref fallback recovered 9 relevant paper(s)"
+   "note": "RSS failed; Crossref fallback recovered 8 relevant paper(s)"
   },
   {
    "journal": "Chemical Society Reviews",
@@ -191,7 +191,7 @@
   },
   {
    "journal": "Energy & Environmental Science",
-   "found": 91,
+   "found": 94,
    "kept": 14,
    "error": null,
    "note": null
@@ -199,7 +199,7 @@
   {
    "journal": "Advanced Materials",
    "found": 355,
-   "kept": 70,
+   "kept": 67,
    "error": null,
    "note": null
   },
@@ -213,21 +213,21 @@
   {
    "journal": "Advanced Functional Materials",
    "found": 930,
-   "kept": 177,
+   "kept": 179,
    "error": null,
    "note": null
   },
   {
    "journal": "Angewandte Chemie Int. Ed.",
    "found": 147,
-   "kept": 13,
+   "kept": 15,
    "error": null,
    "note": null
   },
   {
    "journal": "Small",
    "found": 422,
-   "kept": 73,
+   "kept": 74,
    "error": null,
    "note": null
   },
@@ -254,17 +254,17 @@
   },
   {
    "journal": "Joule",
-   "found": 11,
-   "kept": 11,
+   "found": 23,
+   "kept": 7,
    "error": null,
-   "note": "RSS failed; Crossref fallback recovered 11 relevant paper(s)"
+   "note": null
   },
   {
    "journal": "Matter",
-   "found": 4,
+   "found": 27,
    "kept": 4,
    "error": null,
-   "note": "RSS failed; Crossref fallback recovered 4 relevant paper(s)"
+   "note": null
   }
  ]
 }
