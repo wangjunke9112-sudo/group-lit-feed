@@ -1,6 +1,6 @@
 {
- "generated": "2026-07-04 23:08 UTC",
- "count": 29694,
+ "generated": "2026-07-05 23:11 UTC",
+ "count": 29695,
  "years": [
   "2026",
   "2025",
@@ -22,7 +22,7 @@
   "2009"
  ],
  "year_counts": {
-  "2026": 2052,
+  "2026": 2053,
   "2025": 3653,
   "2024": 3450,
   "2023": 2736,
@@ -163,10 +163,10 @@
   },
   {
    "journal": "Accounts of Chemical Research",
-   "found": 0,
-   "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=achre4",
-   "note": null
+   "found": 1,
+   "kept": 1,
+   "error": null,
+   "note": "RSS failed; Crossref fallback recovered 1 relevant paper(s)"
   },
   {
    "journal": "ACS Energy Letters",

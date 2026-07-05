@@ -1,7 +1,7 @@
 {
  "year": "2009",
  "count": 255,
- "generated": "2026-07-04 23:08 UTC",
+ "generated": "2026-07-05 23:11 UTC",
  "papers": [
   {
    "title": "Observation of Positive Effects of Freestanding Scattering Film in Dye-Sensitized Solar Cells",
@@ -168,7 +168,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Solution-Processed Inorganic Solar Cell Based on in Situ Synthesis and Film Deposition of CuInS 2 Nanocrystals",
@@ -469,7 +469,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Electrochemical and Structural Characterization of Polymer Gel Electrolytes Based on a PEO Copolymer and an Imidazolium-Based Ionic Liquid for Dye-Sensitized Solar Cells",
@@ -801,7 +801,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Increased light harvesting in dye-sensitized solar cells with energy relay dyes",
@@ -827,7 +827,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Perfluorinated Subphthalocyanine as a New Acceptor Material in a Small‐Molecule Bilayer Organic Solar Cell",
@@ -1161,7 +1161,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Columnar Structure in Bulk Heterojunction in Solution-Processable Three-Layered p-i-n Organic Photovoltaic Devices Using Tetrabenzoporphyrin Precursor and Silylmethyl[60]fullerene",
@@ -1353,7 +1353,7 @@
     "photodetector"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "On the origin of the open-circuit voltage of polymer–fullerene solar cells",
@@ -1375,7 +1375,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Zn−Zn Porphyrin Dimer-Sensitized Solar Cells: Toward 3-D Light Harvesting",
@@ -1918,7 +1918,7 @@
    "journal": "Accounts of Chemical Research",
    "publisher": "ACS",
    "date": "2009-09-14",
-   "abstract": "",
+   "abstract": "Thin-film blends or bilayers of donor- and acceptor-type organic semiconductors form the core of heterojunction organic photovoltaic cells. Researchers measure the quality of photovoltaic cells based on their power conversion efficiency, the ratio of the electrical power that can be generated versus the power of incident solar radiation. The efficiency of organic solar cells has increased steadily in the last decade, currently reaching up to 6%. Understanding and combating the various loss mechanisms that occur in processes from optical excitation to charge collection should lead to efficiencies on the order of 10% in the near future. In organic heterojunction solar cells, the generation of photocurrent is a cascade of four steps: generation of excitons (electrically neutral bound electron-hole pairs) by photon absorption, diffusion of excitons to the heterojunction, dissociation of the excitons into free charge carriers, and transport of these carriers to the contacts. In this Account, we review our recent contributions to the understanding of the mechanisms that govern these steps. Starting from archetype donor-acceptor systems of planar small-molecule heterojunctions and solution-processed bulk heterojunctions, we outline our search for alternative materials and device architectures. We show that non-planar phthalocynanines have appealing absorption characteristics but also have reduced charge carrier transport. As a result, the donor layer needs to be ultrathin, and all layers of the device have to be tuned to account for optical interference effects. Using these optimization techniques, we illustrate cells with 3.1% efficiency for the non-planar chloroboron subphthalocyanine donor. Molecules offering a better compromise between absorption and carrier mobility should allow for further improvements. We also propose a method for increasing the exciton diffusion length by converting singlet excitons into long-lived triplets. By doping a polymer with a phosphorescent molecule, we demonstrate an increase in the exciton diffusion length of a polymer from 4 to 9 nm. If researchers can identify suitable phosphorescent dopants, this method could be employed with other materials. The carrier transport from the junction to the contacts is markedly different for a bulk heterojunction cell than for planar junction cells. Unlike for bulk heterojunction cells, the…",
    "authors": [
     "Paul Heremans",
     "David Cheyns",
@@ -1936,7 +1936,7 @@
    "journal": "Accounts of Chemical Research",
    "publisher": "ACS",
    "date": "2009-09-14",
-   "abstract": "",
+   "abstract": "Dye-sensitized solar cells (DSSCs) are photoelectrochemical solar cells. Their function is based on photoinduced charge separation at a dye-sensitized interface between a nanocrystalline, mesoporous metal oxide electrode and a redox electrolyte. They have been the subject of substantial academic and commercial research over the last 20 years, motivated by their potential as a low-cost solar energy conversion technology. Substantial progress has been made in enhancing the efficiency, stability, and processability of this technology and, in particular, the interplay between these technology drivers. However, despite intense research efforts, our ability to identify predictive materials and structure/device function relationships and, thus, achieve the rational optimization of materials and device design, remains relatively limited. A key challenge in developing such predictive design tools is the chemical complexity of the device. DSSCs comprise distinct materials components, including metal oxide nanoparticles, a molecular sensitizer dye, and a redox electrolyte, all of which exhibit complex interactions with each other. In particular, the electrolyte alone is chemically complex, including not only a redox couple (almost always iodide/iodine) but also a range of additional additives found empirically to enhance device performance. These molecular solutes make up typically 20% of the electrolyte by volume. As with most molecular systems, they exhibit complex interactions with both themselves and the other device components (e.g., the sensitizer dye and the metal oxide). Moreover, these interactions can be modulated by solar irradiation and device operation. As such, understanding the function of these photoelectrochemical solar cells requires careful consideration of the chemical complexity and its impact upon device operation. In this Account, we focus on the process by which electrons injected into the nanocrystalline electrode are collected by the external electrical circuit in real devices under operating conditions. We first of all summarize device function, including the energetics and kinetics of the key processes, using an \"idealized\" description, which does not fully account for much of the chemical complexity of the system. We then go on to consider recent advances in our understanding of the impact of these complexities upon the efficiency of…",
    "authors": [
     "Brian C. O’Regan",
     "James R. Durrant"
@@ -1969,7 +1969,8 @@
    "keywords": [
     "solar cells"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Development of New Conjugated Polymers with Donor−π-Bridge−Acceptor Side Chains for High Performance Solar Cells",
@@ -1977,7 +1978,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-09-11",
-   "abstract": "",
+   "abstract": "Two new conjugated polymers have been designed and synthesized for polymer solar cells. Both of them exhibit excellent photovoltaic properties with a power conversion efficiency as high as 4.74%. Different from the traditional linear donor-acceptor (D-A) type conjugated polymers, these newly designed polymers have a two-dimensional conjugated structure with their tunable acceptors located at the end of D-A side chains and connected with the donors on the main chain through an efficient pi-bridge. This approach provides great flexibility in fine-tuning the absorption spectra and energy levels of the resultant polymers for achieving high device performance.",
    "authors": [
     "Fei Huang",
     "Kung-Shih Chen",
@@ -2000,7 +2001,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-09-09",
-   "abstract": "",
+   "abstract": "We report the first collision-induced dissociation tandem mass spectrometry (CID MS/MS) of a thiolate-protected Au nanoparticle that has a crystallographically determined structure. CID spectra assert that dissociation pathways for the mixed monolayer Na(x)Au(25)(SC(2)H(4)Ph)(18-y)(S(C(2)H(4)O)(5)CH(3))(y) centrally involve the semi-ring Au(2)L(3) coordination (L = some combination of the two thiolate ligands) that constitutes the nanoparticle's protecting structure. The data additionally confirm charge state assignments in the mass spectra. Prominent among the fragments is [Na(2)AuL(2)](1+), one precursor of which is identified as another nanoparticle fragment in the higher m/z region. Another detected fragment, [Na(2)Au(2)L(3)](1+), represents a mass loss equivalent to an entire semi-ring, whereas others suggest involvement (fragmentation/rearrangement) of multiple semi-rings, e.g., [NaAu(3)L(3)](1+) and [NaAu(4)L(4)](1+). The detailed dissociation/rearrangement mechanisms of these species are not established, but they are observed in other mass spectrometry experiments, including those under non-CID conditions, namely, electrospray ionization mass spectrometry (ESI-MS) with both time-of-flight (TOF) and FT-ICR analyzers. The latter, previously unreported results show that even soft ionization sources can result in Au nanoparticle fragmentation, including that yielding Au(4)L(4) in ESI-TOF of a much larger thiolate-protected Au(144) nanoparticle under non-CID conditions.",
    "authors": [
     "Christina A. Fields-Zinna",
     "Jason S. Sampson",
@@ -2087,7 +2088,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2009-09-03",
-   "abstract": "",
+   "abstract": "Noble metal nanostructures can enhance absorption in thin-film solar cells by simultaneously taking advantage of i) high near-fields surrounding the nanostructures close to their surface plasmon resonance frequency and ii) coupling to waveguide modes. We develop basic design rules for the realization of broadband absorption enhancements for such structures.",
    "authors": [
     "Ragip A. Pala",
     "Justin White",
@@ -2107,7 +2108,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-09-02",
-   "abstract": "",
+   "abstract": "Multiferroic behavior in perovskite-related metal-organic frameworks of general formula [(CH(3))(2)NH(2)]M(HCOO)(3), where M = Mn, Fe, Co, and Ni, is reported. All four compounds exhibit paraelectric-antiferroelectric phase transition behavior in the temperature range 160-185 K (Mn: 185 K, Fe: 160 K; Co: 165 K; Ni: 180 K); this is associated with an order-disorder transition involving the hydrogen bonded dimethylammonium cations. On further cooling, the compounds become canted weak ferromagnets below 40 K. This research opens up a new class of multiferroics in which the electrical ordering is achieved by means of hydrogen bonding.",
    "authors": [
     "Prashant Jain",
     "Vasanth Ramachandran",
@@ -2130,7 +2131,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-09-02",
-   "abstract": "",
+   "abstract": "We developed concurrent tandem living radical polymerization as a novel methodology to efficiently, conveniently, and in one-pot produce gradient copolymers via in situ monomer transformation. The key is to employ a metal alkoxide [Al(Oi-Pr)(3), Ti(Oi-Pr)(4)] and an alcohol solvent (ROH) in ruthenium-catalyzed polymerization of conventional ester-based methyl (meth)acrylate [M(M)A], where the monomer was directly transformed into R(M)A via in situ transesterification to gradually vary the monomer composition during the copolymerization. Typically, methyl methacrylate (MMA) was polymerized with a ruthenium catalyst in the presence of excess ethanol (EtOH) and Al(Oi-Pr)(3) cocatalyst to give well-controlled gradient copolymers from MMA to EMA along the polymer chain, in which the original MMA was gradually converted into ethyl methacrylate (EMA) by the cocatalyst. This concurrent tandem polymerization, in conjunction with a wide variety of alcohols, efficiently and conveniently produced various gradient copolymers including long alkyl chain and PEG pendent groups. The obtained copolymers further exhibited unique physical properties different from the corresponding random and block counterparts.",
    "authors": [
     "Kazuhiro Nakatani",
     "Takaya Terashima",
@@ -2148,7 +2149,7 @@
    "journal": "Accounts of Chemical Research",
    "publisher": "ACS",
    "date": "2009-09-01",
-   "abstract": "",
+   "abstract": "Quantum dot sensitized solar cells (QDSCs) have attracted significant attention as promising third-generation photovoltaic devices. In the form of quantum dots (QDs), the semiconductor sensitizers have very useful and often tunable properties; moreover, their theoretical thermodynamic efficiency might be as high as 44%, better than the original 31% calculated ceiling. Unfortunately, the practical performance of these devices still lags behind that of dye-sensitized solar cells. In this Account, we summarize the strategies for depositing CdSe quantum dots on nanostructured mesoporous TiO(2) electrodes and discuss the methods that facilitate improvement in the performance and stability of QDSCs. One particularly significant factor for solar cells that use polysulfide electrolyte as the redox couple, which provides the best performance among QDSCs, is the passivation of the photoanode surface with a ZnS coating, which leads to a dramatic increase of photocurrents and efficiencies. However, these solar cells usually show a poor current-potential characteristic, so a general investigation of the recombination mechanisms is required for improvements. A physical model based on recombination through a monoenergetic TiO(2) surface state that takes into account the effect of the surface coverage has been developed to better understand the recombination mechanisms of QDSCs. The three main methods of QD adsorption on TiO(2) are (i) in situ growth of QDs by chemical bath deposition (CBD), (ii) deposition of presynthesized colloidal QDs by direct adsorption (DA), and (iii) deposition of presynthesized colloidal QDs by linker-assisted adsorption (LA). A systematic investigation by impedance spectroscopy of QDSCs prepared by these methods showed a decrease in the charge-transfer resistance and increased electron lifetimes for CBD samples; the same result was found after ZnS coating because of the covering of the TiO(2) surface. The increase of the lifetime with the ZnS treatment has also been checked independently by open-circuit potential (V(oc)) decay measurements. Despite the lower recombination rates by electron transfer to electrolyte as well as the higher light absorption of CBD samples, only a moderate increase of photocurrent compared with colloidal QD samples is obtained, indicating the presence of an additional, internal recombination pathway in the closely…",
    "authors": [
     "Iván Mora-Seró",
     "Sixto Giménez",
@@ -2170,7 +2171,7 @@
    "journal": "Accounts of Chemical Research",
    "publisher": "ACS",
    "date": "2009-08-28",
-   "abstract": "",
+   "abstract": "Perhaps the largest challenge for our global society is to find ways to replace the slowly but inevitably vanishing fossil fuel supplies by renewable resources and, at the same time, avoid negative effects from the current energy system on climate, environment, and health. The quality of human life to a large degree depends upon the availability of clean energy sources. The worldwide power consumption is expected to double in the next 3 decades because of the increase in world population and the rising demand of energy in the developing countries. This implies enhanced depletion of fossil fuel reserves, leading to further aggravation of the environmental pollution. As a consequence of dwindling resources, a huge power supply gap of 14 terawatts is expected to open up by year 2050 equaling today's entire consumption, thus threatening to create a planetary emergency of gigantic dimensions. Solar energy is expected to play a crucial role as a future energy source. The sun provides about 120,000 terawatts to the earth's surface, which amounts to 6000 times the present rate of the world's energy consumption. However, capturing solar energy and converting it to electricity or chemical fuels, such as hydrogen, at low cost and using abundantly available raw materials remains a huge challenge. Chemistry is expected to make pivotal contributions to identify environmentally friendly solutions to this energy problem. One area of great promise is that of solar converters generally referred to as \"organic photovoltaic cells\" (OPV) that employ organic constituents for light harvesting or charge carrier transport. While this field is still in its infancy, it is receiving enormous research attention, with the number of publications growing exponentially over the past decade. The advantage of this new generation of solar cells is that they can be produced at low cost, i.e., potentially less than 1 U.S. $/peak watt. Some but not all OPV embodiments can avoid the expensive and energy-intensive high vacuum and materials purification steps that are currently employed in the fabrication of all other thin-film solar cells. Organic materials are abundantly available, so that the technology can be scaled up to the terawatt scale without running into feedstock supply problems. This gives organic-based solar cells an advantage over the two major competing thin-film photovoltaic…",
    "authors": [
     "Michael Grätzel"
    ],
@@ -2186,7 +2187,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2009-08-28",
-   "abstract": "",
+   "abstract": "A 50% enhancement in the conversion efficiency (4.9-7.37%) is realized in dye-sensitized solar cells using hydrothermally synthesized TiO(2)-multiwalled carbon nanotube (MWCNT) nanocomposites as compared to hydrothermally synthesized TiO(2) without MWCNT and Degussa P25. Several characterizations have been employed to reveal the nature of the modification imparted to the MWCNTs under hydrothermal processing conditions and the resulting TiO(2)-MWCNT conjugation through -COOH groups. Efficient charge transfer in the nanocomposite and efficient electron transport by MWCNT (significantly higher incident-photon-to-current conversion efficiency) are suggested to be the possible reasons for the enhancement.",
    "authors": [
     "Subas Muduli",
     "Wonjoo Lee",
@@ -2209,7 +2210,7 @@
    "journal": "Accounts of Chemical Research",
    "publisher": "ACS",
    "date": "2009-08-26",
-   "abstract": "",
+   "abstract": "Organic photovoltaics, which convert sunlight into electricity with thin films of organic semiconductors, have been the subject of active research over the past 20 years. The global energy challenge has greatly increased interest in this technology in recent years. Low-temperature processing of organic small molecules from the vapor phase or of polymers from solution can confer organic semiconductors with a critical advantage over inorganic photovoltaic materials since the high-temperature processing requirements of the latter limit the range of substrates on which they can be deposited. Unfortunately, despite significant advances, the power conversion efficiency of organic solar cells remains low, with maximum values in the range of 6%. A better understanding of the physical processes that determine the efficiency of organic photovoltaic cells is crucial to enhancing their competitiveness with other thin-film technologies. Maximum values for the photocurrent can be estimated from the light-harvesting capability of the individual molecules or polymers in the device. However, a better understanding of the materials-level processes, particularly those in layer-to-layer interfaces, that determine the open-circuit voltage (V(OC)) in organic solar cells is critical and remains the subject of active research. The conventional wisdom is to use organic semiconductors with smaller band gaps to harvest a larger portion of the solar spectrum. This method is not always an effective prescription for increasing efficiency: it ignores the fact that the value of V(OC) is generally decreased in devices employing materials with smaller band gaps, as is the case with inorganic semiconductors. In this Account, we discuss the influence of the different interfaces formed in organic multilayer photovoltaic devices on the value of V(OC); we use pentacene-C(60) solar cells as a model. In particular, we use top and bottom electrodes with different work function values, finding that V(OC) is nearly invariant. In contrast, studies on devices incorporating hole-transport layers with different ionization potentials confirm that the value of V(OC) depends largely on the relative energy levels of the donor and acceptor species that form the essential heterojunction. An analysis of the properties of solar cells using equivalent-circuit methods reveals that V(OC) is proportional to the…",
    "authors": [
     "William J. Potscavage",
     "Asha Sharma",
@@ -2254,7 +2255,8 @@
    "keywords": [
     "solar cells"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Influence of alkyl substituents and thermal annealing on the film morphology and performance of solution processed, diketopyrrolopyrrole-based bulk heterojunction solar cells",
@@ -2262,7 +2264,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-08-15",
-   "abstract": "",
+   "abstract": "A solution processable diketopyrrolopyrrole-containing oligothiophene was blended with a series of methanofullerene acceptors having different alkyl substitutents—[6,6]-phenyl C61 butyric acid methyl (PC6161BM) ester, [6,6]-phenyl C61 butyric acid hexyl ester (PC6161BH) and [6,6]-phenyl C61 butyric acid dodecyl ester (PC6161BD) to study the effect of donor–acceptor interactions on the blend film morphology and device characteristics of small molecule-based bulk heterojunction (BHJ) solar cells. A combination of characterization techniques including X-ray diffraction, atomic force microscopy, conducting atomic force microscopy, and transmission electron microscopy was used to investigate the film morphology and phase separation. The results show that changing the length of the alkyl substituent on the methanofullerene acceptor is a good approach to control the film morphology of blended films and these lead to significant differences on the performance of the as cast and annealed devices. Power conversion efficiencies between 2–3% can be reached by simple variation of the alkyl chain length.",
    "authors": [
     "Arnold Tamayo",
     "Tyler Kent",
@@ -2283,7 +2285,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-08-14",
-   "abstract": "",
+   "abstract": "A new method for the asymmetric synthesis of alpha-alkyl-alpha,beta-dihydroxy esters that involves tandem Wittig rearrangement/aldol reactions of O-benzyl- or O-allylglycolate esters derived from 2-phenylcyclohexanol is described. This sequence constructs two C-C bonds and two stereocenters, one of which is quaternary, to afford syn diol products with excellent stereocontrol. Cleavage of the chiral auxiliary affords enantiomerically enriched products with up to 95% ee. The application of this method to the preparation of a key intermediate in the synthesis of the antifungal agent alternaric acid is also described.",
    "authors": [
     "Natalie C. Giampietro",
     "Jeff W. Kampf",
@@ -2301,7 +2303,7 @@
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2009-08-12",
-   "abstract": "",
+   "abstract": "No need for a transition-metal catalyst is characteristic for the tandem process presented herein to obtain functionalized xanthones. The sequence involves multiple reactions, such as Michael addition-elimination/cyclization/1,2-addition/elimination reactions (see scheme).",
    "authors": [
     "Lizhi Zhao",
     "Fuchun Xie",
@@ -2320,7 +2322,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2009-08-12",
-   "abstract": "",
+   "abstract": "Organic solar cells: By incorporating nonvolatile additives into blends of P3HT:PCBM, the efficiencies of inverted bulk-heterojunction solar cells are improved almost twofold (see figure). These additives selectively partition into the P3HT phase, effectively increasing phase separation between the P3HT and PCBM. Detailed facts of importance to specialist readers are published as ”Supporting Information”. Such documents are peer-reviewed, but not copy-edited or typeset. They are made available as submitted by the authors. Please note: The publisher is not responsible for the content or functionality of any supporting information supplied by the authors. Any queries (other than missing content) should be directed to the corresponding author for the article.",
    "authors": [
     "Chang Su Kim",
     "Leonard L. Tinker",
@@ -2342,7 +2344,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-08-10",
-   "abstract": "",
+   "abstract": "The lantibiotic synthetases LctM and HalM2 are bifunctional enzymes that catalyze both the dehydration of serine and threonine residues and the Michael-type additions of cysteine residues to the resulting dehydroamino acids in their substrate peptides. Using Fourier transform mass spectrometry to analyze these activities in vitro, the dehydration is shown to take place by a distributive mechanism, with build-up of intermediates observed in electrospray mass spectra. The cyclization activity of HalM2 was monitored through alkylation of free cysteines in intermediates, providing access to the regioselectivity of lanthionine ring formation using high-resolution tandem mass spectrometry. HalM2 is shown to catalyze the cyclization process in a largely N- to C-terminal directional fashion, forming a total of four lanthionine rings in its HalA2 substrate. These studies advance a model for lantibiotic production where substrate binding via an N-terminal leader results in dehydration and cyclization on similar time scales and with a high, though not strict, propensity for N-to-C directionality.",
    "authors": [
     "M. Violet Lee",
     "Leigh Anne Furgerson Ihnken",
@@ -2363,7 +2365,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-08-04",
-   "abstract": "",
+   "abstract": "In this article we report the weak but omnipresent electroluminescence (EL) from several types of organic polymer:fullerene bulk heterojunction solar cells biased in the forward direction. The light emitted from blends of some commonly used polymers and the fullerene molecule is significantly different from that of any of the pure materials comprising the blend. The lower energy of the blend EL is found to correlate with both the voltage onset of emission and the open-circuit voltage of the photovoltaic cell under solar illumination. We accordingly interpret the emission to originate from interfacial charge transfer state recombination and emphasize EL as a very valuable tool to characterize the charge transfer state present in donor/acceptor organic photovoltaic (OPV) cells.",
    "authors": [
     "Kristofer Tvingstedt",
     "Koen Vandewal",
@@ -2384,7 +2386,7 @@
    "journal": "Accounts of Chemical Research",
    "publisher": "ACS",
    "date": "2009-08-04",
-   "abstract": "",
+   "abstract": "Our objective in this Account is 3-fold. First, we provide an overview of the optical and electronic processes that take place in a solid-state organic solar cell, which we define as a cell in which the semiconducting materials between the electrodes are organic, be them polymers, oligomers, or small molecules; this discussion is also meant to set the conceptual framework in which many of the contributions to this Special Issue on Photovoltaics can be viewed. We successively turn our attention to (i) optical absorption and exciton formation, (ii) exciton migration to the donor-acceptor interface, (iii) exciton dissociation into charge carriers, resulting in the appearance of holes in the donor and electrons in the acceptor, (iv) charge-carrier mobility, and (v) charge collection at the electrodes. For each of these processes, we also describe the theoretical challenges that need to be overcome to gain a comprehensive understanding at the molecular level. Finally, we highlight recent theoretical advances, in particular regarding the determination of the energetics and dynamics at organic-organic interfaces, and underline that the right balance needs to be found for the optimization of material parameters that often result in opposite effects on the photovoltaic performance.",
    "authors": [
     "Jean-Luc Brédas",
     "Joseph E. Norton",
@@ -2466,7 +2468,8 @@
    "keywords": [
     "photovoltaic"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Solar cells: Small 15/2009",
@@ -2474,7 +2477,7 @@
    "journal": "Small",
    "publisher": "Wiley",
    "date": "2009-07-31",
-   "abstract": "",
+   "abstract": "The cover picture shows a schematic image of in situ UV polymerization of polythiophene-conjugated polymer within a titanium dioxide nanotube array. By using this simple method, one can achieve high filling factors, synthesize well-ordered and well-aligned polymer chains, and effectively couple the electron-donating polymer to the surface of the electron-accepting semiconductor nanotubes. These advances are associated with improved light absorption, higher charge-carrier mobility, and efficient exciton separation. Compared to devices prepared by filling with pre-synthesized polymer, these solar cells exhibit significantly higher photocurrent, indicating that this methodology has the potential to improve the efficiency of hybrid organic–inorganic photovoltaics. For more information, please read the Full Paper “Improved Hybrid Solar Cells via in situ UV Polymerization” by S. B. Darling et al., beginning on page 1776.",
    "authors": [
     "Sanja Tepavcevic",
     "Seth B. Darling",
@@ -2515,7 +2518,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-07-31",
-   "abstract": "",
+   "abstract": "Cu(2)ZnSnS(4) (CZTS) and Cu(2)ZnSnSe(4) (CZTSe) based solar cells are promising candidates for low cost solar cells due to the natural abundance and low toxicity of the constituent elements. Here, we present the first reported synthesis of colloidal CZTS nanocrystals using a simple solution-phase method. Solar cells fabricated using selenized CZTS nanocrystal inks had a power conversion efficiency of 0.74% under AM1.5G illumination.",
    "authors": [
     "Qijie Guo",
     "Hugh W. Hillhouse",
@@ -2533,7 +2536,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2009-07-31",
-   "abstract": "",
+   "abstract": "High incident photon-to-current conversion efficiency of p-type dye-sensitized solar cells are based on transparent NiO films and org. chromophores [4-(bis-[4-[5-(2,2-dicyanovinyl)thiophene-2-yl]phenyl)amino]benzoic acid] and [4-(bis[4'-(2,2-dicyanovinyl)biphenyl-4-yl]amino)benzoic acid] (I). A p-type dye-sensitized solar cell based on I sensitizer and an acetonitrile-based electrolyte yielded an IPCE of 44% (transparent NiO film thickness 1-1.4 Î¼m). Under the same conditions, the ICPE of the cell contg. the thiphenyl analog of I was 35%.",
    "authors": [
     "Peng Qin",
     "Mats Linder",
@@ -2554,7 +2557,7 @@
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2009-07-29",
-   "abstract": "",
+   "abstract": "Catalyst is key: The title reaction sequence has been carried out on 1 in the presence of AgSbF6 (5 mol %) in DCE or In(OTf)3 (5 mol %) with MeOH (4 equiv) to afford 2 or 3, respectively, in up to >20:1 ratio (see scheme; DCE=1,2-dichloroethane, Tf=trifluoromethanesulfonyl).",
    "authors": [
     "Lu Liu",
     "Junliang Zhang"
@@ -2571,7 +2574,7 @@
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2009-07-29",
-   "abstract": "",
+   "abstract": "A SiC way to split water: Illuminated p-type 4H-SiC, as a photocathode short-circuited to Pt, was found to split water (see picture). The hydrogen generated is stored to a considerable extent in the solid.",
    "authors": [
     "Dennis H. van Dorp",
     "Niek Hijnen",
@@ -2590,7 +2593,7 @@
    "journal": "Accounts of Chemical Research",
    "publisher": "ACS",
    "date": "2009-07-28",
-   "abstract": "",
+   "abstract": "Dye-sensitized solar cells (DSCs, also known as Gratzel cells) mimic the photosynthetic process by using a sensitizer dye to harvest light energy to generate electrical power. Several functional features of these photochemical devices are unusual, and DSC research offers a rewarding arena in which to test new ideas, new materials, and new methodologies. Indeed, one of the most attractive chemical features of the DSC is that the basic concept can be used to construct a range of devices, replacing individual components with alternative materials. Despite two decades of increasing research activity, however, many aspects of the behavior of electrons in the DSC remain puzzling. In this Account, we highlight current understanding of the processes involved in the functioning of the DSC, with particular emphasis on what happens to the electrons in the mesoporous film following the injection step. The collection of photoinjected electrons appears to involve a random walk process in which electrons move through the network of interconnected titanium dioxide nanoparticles while undergoing frequent trapping and detrapping. During their passage to the cell contact, electrons may be lost by transfer to tri-iodide species in the redox electrolyte that permeates the mesoporous film. Competition between electron collection and back electron transfer determines the performance of a DSC: ideally, all injected electrons should be collected without loss. This Account then goes on to survey recent experimental and theoretical progress in the field, placing particular emphasis on issues that need to be resolved before we can gain a clear picture of how the DSC works. Several important questions about the behavior of \"sticky\" electrons, those that undergo multiple trapping and detrapping, in the DSC remain unanswered. The most fundamental of these concerns is the nature of the electron traps that appear to dominate the time-dependent photocurrent and photovoltage response of DSCs. The origin of the nonideality factor in the relationship between the intensity and the DSC photovoltage is also unclear, as is the discrepancy in electron diffusion length values determined by steady-state and non-steady-state methods. With these unanswered questions, DSC research is likely to remain an active and fruitful area for some years to come.",
    "authors": [
     "Laurence Peter"
    ],
@@ -2606,7 +2609,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-07-23",
-   "abstract": "",
+   "abstract": "A combination of moderately selective host-guest binding with the impressive specificity of enzymatic transformations allows the real-time monitoring of enzymatic reactions in a homogeneous solution. The resulting enzyme assays (\"supramolecular tandem assays\") exploit the dynamic binding of a fluorescent dye with a macrocyclic host in competition with the binding of the substrate and product. Two examples of enzymatic reactions were investigated: the hydrolysis of arginine to ornithine catalyzed by arginase and the oxidation of cadaverine to 5-aminopentanal by diamine oxidase, in which the substrates have a higher affinity to the macrocycle than the products (\"substrate-selective assays\"). The depletion of the substrate allows the fluorescent dye to enter the macrocycle in the course of the enzymatic reaction, which leads to the desired fluorescence response. For arginase, p-sulfonatocalix[4]arene was used as the macrocycle, which displayed binding constants of 6400 M(-1) with arginine, 550 M(-1) with ornithine, and 60,000 M(-1) with the selected fluorescent dye (1-aminomethyl-2,3-diazabicyclo[2.2.2]oct-2-ene); the dye shows a weaker fluorescence in its complexed state, which leads to a switch-off fluorescence response in the course of the enzymatic reaction. For diamine oxidase, cucurbit[7]uril (CB7) was used as the macrocycle, which showed binding constants of 4.5 x 10(6) M(-1) with cadaverine, 1.1 x 10(5) M(-1) with 1-aminopentane (as a model for the thermally unstable 1-aminopentanal), and 2.9 x 10(5) M(-1) with the selected fluorescent dye (acridine orange, AO); AO shows a stronger fluorescence in its complexed state, which leads to a switch-on fluorescence response upon enzymatic oxidation. It is demonstrated that tandem assays can be successfully used to probe the inhibition of enzymes. Inhibition constants were estimated for the addition of known inhibitors, i.e., S-(2-boronoethyl)-L-cysteine and 2(S)-amino-6-boronohexanoic acid for arginase and potassium cyanide for diamine oxidase. Through the sequential coupling of a \"product-selective\" with a \"substrate-selective\" assay it was furthermore possible to monitor a multistep biochemical pathway, namely the decarboxylation of lysine to cadaverine by lysine decarboxylase followed by the oxidation of cadaverine by diamine oxidase. This \"domino tandem assay\" was performed in the same solution with a…",
    "authors": [
     "Werner M. Nau",
     "Garima Ghale",
@@ -2626,7 +2629,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-07-23",
-   "abstract": "",
+   "abstract": "We investigated the long-term stability of performance for dye-sensitized solar cells (DSSCs) based on an alkyl-functionalized carbazole dye (MK-2) and used in conjunction with ionic liquid-based electrolytes. We observed good long-term stability of the performance of the DSSCs during 60 days under visible-light irradiation at ca. 50 °C. The performance of the DSSC decreased gradually under white-light irradiation including UV light or at 80 °C under dark conditions. However, no decomposition or detachment of the dye molecule from the TiO2electrode was observed after these measurements. These results indicate that the MK-2dye molecule in the cell was stable even under white-light irradiation and at 80 °C under dark conditions.",
    "authors": [
     "Kohjiro Hara",
     "Zhong-Sheng Wang",
@@ -2646,7 +2649,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-07-23",
-   "abstract": "",
+   "abstract": "To better understand why titanium tetrachloride (TiCl4) treatment improves short circuit current, we studied its effects on back contact dye-sensitized solar cells sensitized with black dye [tri(thiocyanato)(4,4′,4″-tricarboxy-2,2′:6′,2″-terpyridine)ruthenium(II), Ru(tcterpy)(NCS)3] using transient absorption spectroscopy and electrochemical impedance spectroscopy. We found that the TiCl4 treatment improved short circuit current and achieved an overall energy conversion efficiency of 8.9%. The transient absorption signals did not change as a result of the treatment, suggesting that electron injection efficiency is not affected by the treatment. The impedance related to electron transport between TiO2 particles decreased and the peak frequency of the imaginary part of the electrochemical impedance spectra assigned to electron transfer from TiO2 to the redox couple was shifted to lower frequency by the treatment. This clearly indicates that TiCl4 treatment improved electron transport in the nanocrystalline TiO2 film in back contact dye-sensitized solar cells.",
    "authors": [
     "Nobuhiro Fuke",
     "Ryuzi Katoh",
@@ -2672,7 +2675,7 @@
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2009-07-22",
-   "abstract": "",
+   "abstract": "Dying to get inside: Charge recombination is retarded and dye aggregation is prevented in solar cells that contain the JK-2 dye encapsulated in a cyclodextrin (CD) cavity (see picture). The β-CD/JK-2 device with a polymer gel electrolyte gave an overall conversion efficiency of 7.40 %, which is the highest value reported to date for DSSCs based on the organic sensitizers, and showed excellent stability.",
    "authors": [
     "Hyunbong Choi",
     "Sang Ook Kang",
@@ -2695,7 +2698,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-07-21",
-   "abstract": "",
+   "abstract": "The first examples of di-branched di-anchoring organic sensitizers were synthesized and used in dye-sensitized solar cells leading to red-shifted IPCE maxima and increased photocurrent when compared to the corresponding mono-branched mono-anchoring dye, yielding power conversion efficiency of 5.7% (4.9% with ionic liquid electrolyte) with enhanced stability under 1 sun conditions from the di-anchoring groups.",
    "authors": [
     "Alessandro Abbotto",
     "Norberto Manfredi",
@@ -2719,7 +2722,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2009-07-21",
-   "abstract": "",
+   "abstract": "A novel dye-sensitized solar cell (DSSC) architecture based on vertically aligned carbon nanofibers coated with a thin nanoneedle-textured anatase TiO2 film is demonstrated. An encouraging overall conversion efficiency of approximately 1.09% and a rather high open-circuit voltage of approximately 0.64 V have been achieved. The efficient charge separation at the TiO2-CNF junction and the large outer TiO2 surface of this core-shell architecture provide new methods to tune the materials and interfaces in solar cells.",
    "authors": [
     "Jianwei Liu",
     "Yen-Ting Kuo",
@@ -2740,7 +2743,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2009-07-17",
-   "abstract": "",
+   "abstract": "Two novel soluble compounds T and A that contain a central dihexyloxy-p-phenylenevinylene unit, intermediate moieties of thiophene or anthracene, respectively, and terminal cyano-vinylene nitrophenyls were synthesized and characterized. They showed moderate thermal stability and relatively low glass transition temperatures. These compounds displayed similar optical properties. Their absorption was broad and extended up to about 750 nm with the longer-wavelength maximum around 640 nm and an optical band gap of approximately 1.70 eV. From the current-voltage characteristics of the devices using both compounds T and A, it was concluded that both compounds behave as p-type organic semiconductors with hole mobility on the order of 10(-5) cm(2)/(V s). The power conversion efficiency (PCE) of the devices based on these compounds was 0.019% and 0.013% for compounds A and T, respectively. When compounds A and T were blended with [6,6]-phenyl-C61-butyric acid methyl ester (PCBM), the PCE dramatically increased up to 1.66% and 1.36% for devices with A:PCBM and T:PCBM, respectively. The efficiencies of the devices were further enhanced upon thermal annealing up to 2.49% and 2.33% for devices based on A:PCBM and T:PCBM, respectively.",
    "authors": [
     "John A. Mikroyannidis",
     "Minas M. Stylianakis",
@@ -2800,7 +2803,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-07-15",
-   "abstract": "",
+   "abstract": "The charge separation between excited CdSe semiconductor quantum dots and stacked-cup carbon nanotubes (SCCNTs) has been successfully tapped to generate photocurrent in a quantum dot sensitized solar cell (QDSC). By employing an electrophoretic deposition technique we have cast SCCNT-CdSe composite films on optically transparent electrodes (OTEs). The quenching of CdSe emission, as well as transient absorption measurements, confirms ultrafast electron transfer to SCCNTs. The rate constant for electron transfer increases from 9.51 x 10(9) s(-1) to 7.04 x 10(10) s(-1) as we decrease the size of CdSe nanoparticles from 4.5 to 3 nm. The ability of SCCNTs to collect and transport electrons from excited CdSe has been established from photocurrent measurements. The morphological and excited state properties of SCCNT-CdSe composites demonstrate their usefulness in energy conversion devices.",
    "authors": [
     "Blake Farrow",
     "Prashant V. Kamat"
@@ -2817,7 +2820,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2009-07-10",
-   "abstract": "",
+   "abstract": "A novel thiophene-thienylenevinylene copolymer is synthesized and evaluated for use in organic field-effect transistors and organic solar cells. PETV12T shows good solution processability and high structural organization after annealing. Organic thin-film transistors based on the polymer exhibit high mobility and a high resistance to oxidation. In addition, PETV12T shows potential as an electron donor in bulk heterojunction solar cells. Detailed facts of importance to specialist readers are published as ”Supporting Information”. Such documents are peer-reviewed, but not copy-edited or typeset. They are made available as submitted by the authors. Please note: The publisher is not responsible for the content or functionality of any supporting information supplied by the authors. Any queries (other than missing content) should be directed to the corresponding author for the article.",
    "authors": [
     "Bogyu Lim",
     "Kang‐Jun Baeg",
@@ -2843,7 +2846,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-07-07",
-   "abstract": "",
+   "abstract": "The energy levels of CdS quantum dots (QDs) can be shifted in a systematic fashion with respect to the TiO(2) bands using molecular dipoles. Dipole moments pointing toward the QD surface shift the energy levels toward the vacuum level (a), thus enabling electron injection from excited QD states into the TiO(2) conduction band at lower photon energies compared to QDs with adsorbed molecular dipoles which are pointing away from the QD surface (b). In CdS QD sensitized solar cells this leads to a dipole dependent shift of the photovoltage onset and the photocurrent.",
    "authors": [
     "Menny Shalom",
     "Sven Rühle",
@@ -2886,7 +2889,7 @@
    "journal": "Accounts of Chemical Research",
    "publisher": "ACS",
    "date": "2009-07-06",
-   "abstract": "",
+   "abstract": "The predicted exhaustion of fossil energy resources and the pressure of environmental constraints are stimulating an intensification of research on renewable energy sources, in particular, on the photovoltaic conversion of solar energy. In this context, organic solar cells are attracting increasing interest that is motivated by the possibility of fabricating large-area, lightweight, and flexible devices using simple techniques with low environmental impact. Organic solar cells are based on a heterojunction resulting from the contact of a donor (D) and an acceptor (A) material. Absorption of solar photons creates excitons, Coulombically bound electron-hole pairs, which diffuse to the D/A interface, where they are dissociated into free holes and electrons by the electric field. D/A heterojunctions can be created with two types of architectures, namely, bilayer heterojunction and bulk heterojunction (BHJ) solar cells. BHJ cells combine the advantages of easier fabrication and higher conversion efficiency due to the considerably extended D/A interface. Until now, the development of BHJ solar cells has been essentially based on the use of soluble pi-conjugated polymers as donor material. Intensive interdisciplinary research carried out in the past 10 years has led to an increase in the conversion efficiency of BHJ cells from 0.10 to more than 5.0%. These investigations have progressively established regioregular poly(3-hexylthiophene) (P3HT) as the standard donor material for BHJ solar cells, owing to a useful combination of optical and charge-transport properties. However, besides the limit imposed to the maximum conversion efficiency by its intrinsic electronic properties, P3HT and more generally polymers pose several problems related to the control of their structure, molecular weight, polydispersity, and purification. In this context, recent years have seen the emergence of an alternative approach based on the replacement of polydisperse polymers by soluble, conjugated single molecules as donor materials in BHJ cells. In fact, molecular donors present specific advantages in terms of structural definition, synthesis, and purification. In this Account, we present a brief survey of recent work in this nascent field of new single-molecule donors in organic solar cells. Various series of three-dimensional donors built by the attachment of different kinds of…",
    "authors": [
     "Jean Roncali"
    ],
@@ -2902,7 +2905,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2009-07-06",
-   "abstract": "",
+   "abstract": "The effect of the incorporation of a low-band-gap small-molecule BTD-TNP on the photovoltaic properties of vinylene copolymer P:PCBM bulk heterojunction solar cells has been investigated. The introduction of this small molecule increases both the short-circuit photocurrent and the overall power conversion efficiency of the photovoltaic device. The incident photon-to-current efficiency (IPCE) of the device based on P:PCBM:BTD-TNP shows two distinct bands, which correspond to the absorption bands of P:PCBM and BTD-TNP. Furthermore, it was found that the IPCE of the device has also been enhanced even at the wavelengths corresponding to the absorption band of P:PCBM, when the thermally annealed blend was used in the device. This indicates that the excitons that are generated in copolymer P are dissociated into charge carriers more effectively in the presence of the BTD-TNP small molecule at the copolymer P:PCBM interface by energy transfer from P to the small molecule. Therefore, we conclude that the BTD-TNP small molecule acts as light-harvesting photosensitizer and also provides a path for the generated exciton in copolymer P toward the P:PCBM interface for efficient charge separation. The overall power conversion efficiency for the P:PCBM:BTD-TNP photovoltaic device is about 1.27%, which has been further enhanced up to 2.6%, when a thermally annealed blend layer is used.",
    "authors": [
     "P. Suresh",
     "P. Balraju",
@@ -2922,7 +2925,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-07-03",
-   "abstract": "",
+   "abstract": "This review discusses the current status of large scale computational capability and future challenges for nanostructure solar cell simulations. The focus is on atomistic ab initio simulations for inorganic nanocrystal systems. A discussion of current capability in simulating the critical steps in a solar cell operation: photon absorption, exciton generation, exciton dissociation, carrier transport, and charge transfer crossing a nano contact is presented. A few novel computational methods that scale linearly to the size of the system, while retaining the ab initio quality of the simulation are introduced. Also discussed are the most challenging aspects of the simulations: surface passivation and nanocontact atomic structures.",
    "authors": [
     "Lin-Wang Wang"
    ],
@@ -2938,7 +2941,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-07-02",
-   "abstract": "",
+   "abstract": "We report the results of an investigation on the preparation, spectral and photoelectrochemical properties of alkyne bridged dendron chromophores with carboxylic acid anchoring group, which adhere effectively to nanocrystalline (anatase) TiO2 surfaces yielding incident photon-to-current conversion efficiency values of up to 76% in their photocurrent action spectra, suggesting that the alkyne π-bridge functional moiety is an effective bridging group between chromophore and conduction band of the semiconductor.",
    "authors": [
     "Nam Seob Baek",
     "Jun-Ho Yum",
@@ -2959,7 +2962,7 @@
    "journal": "Accounts of Chemical Research",
    "publisher": "ACS",
    "date": "2009-07-02",
-   "abstract": "",
+   "abstract": "Solar cells are one attractive method for harnessing inexhaustible clean energy from the sun. Organic photovoltaic technology is emerging as a potential competitor to silicon-based photovoltaic cells (PVCs), and their power conversion efficiencies (PCE) can now exceed 6%. Polymeric bulk-heterojunction (BHJ) PVCs, whose photoactive layer is composed of a blend of bicontinuous and interpenetrating donors and acceptors, can maximize interfacial area between the donor and the acceptor. Classic polymer donors, such as dialkoxy-substituted poly(para-phenylene vinylene)s (PPVs) and poly(3-hexylthiophene) (P3HT), have been widely investigated. However, advances in synthetic methodology provide new avenues for the development of novel conjugated polymer donors with improved power conversion efficiencies. Recently, researchers have achieved great advances in this area. This Account primarily focuses on novel donor polymers that have shown power conversion efficiencies greater than 1%. 2,1,3-Benzothiadiazole, thiophene, thieno[3,4-b]pyrazine, quinoxaline, and silole have emerged as useful heterocycles for constructing a variety of conjugated polymers for photovoltaic applications. We summarize useful information, such as molecular weights, absorption, bandgap, energy levels, and their photovoltaic performances with detailed device parameters (see comparison tables), about these novel donor polymers. We use statistical summaries to evaluate several important parameter relationships among these polymer donors including open-circuit voltage versus HOMO, power conversion efficiency versus bandgap, and power conversion efficiency versus hole mobility. Further statistical analysis of the data listed in these tables may guide further structural design and evaluation of polymer donor materials.",
    "authors": [
     "Junwu Chen",
     "Yong Cao"
@@ -2976,7 +2979,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2009-07-02",
-   "abstract": "",
+   "abstract": "Chlorophyll (Chl) was immobilized into a 1,4-butanediol-modified MCM-41 (BMCM-41) intercalated by poly(3-hexylthiophene) (P3HT) to form BMCM-41/P3HT/Chl nanocomposites having P3HT contents of 10, 30, 60, and 90 wt % from a solution-casting method. Wide-angle X-ray diffraction and transmission electron microscopy studies indicate that the pore structure of MCM-41 was retained after surface modification and a subsequent P3HT intercalation process. Scanning electron microscopy images showed that the BMCM-41 nanoparticles dispersed into the polymer matrix of BMCM-41/P3HT/Chl, and the sample with 10 wt % P3HT content gives the most homogeneous nanoparticle dispersion. Nitrogen adsorption-desorption results confirmed that the P3HT intercalation and Chl immobilization inside the BMCM-41 mesopore were successfully carried out. The pore volume and surface area of BMCM-41 decreased significantly when the amount of P3HT was increased from 10 to 90 wt %. The UV-vis study showed a blue shift of the pi-pi* transition band of P3HT in the spectra of BMCM-41/P3HT/Chl nanocomposites. The FT-IR study indicates an increase of the thiophene ring stretching and a decrease of the C horizontal lineO stretching when P3HT and Chl were inside the mesopore. The photovoltaic property of Chl-doped P3HT was improved significantly upon the addition of BMCM-41 nanoparticles, and BMCM-41/P3HT-10/Chl exhibits the highest incident photon-to-current conversion efficiency of 7.16%.",
    "authors": [
     "Weng On Yah",
     "Zhe Wang",
@@ -2998,7 +3001,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-07-01",
-   "abstract": "",
+   "abstract": "The anion-deficient perovskite 4H-BaMnO(2+x) has been obtained by a topotactic reduction, with LiH, of the hexagonal perovskite 4H-BaMnO(3-x). The crystal structure of 4H-BaMnO(2+x) was solved using electron diffraction and X-ray powder diffraction and further refined using neutron powder diffraction (S.G. Pnma, a = 10.375(2) A, b = 9.466(2) A, c = 11.276(3) A, at 373 K). The orthorhombic superstructure arises from the ordering of oxygen vacancies within a 4H (chch) stacking of close packed c-type BaO(2.5) and h-type BaO(1.5) layers. The ordering of the oxygen vacancies transforms the Mn(2)O(9) units of face-sharing MnO(6) octahedra into Mn(2)O(7) (two corner-sharing tetrahedra) and Mn(2)O(6) (two edge-sharing tetrahedra) groups. The Mn(2)O(7) and Mn(2)O(6) groups are linked by corner-sharing into a three-dimensional framework. The structures of the BaO(2.5) and BaO(1.5) layers are different from those observed previously in anion-deficient perovskites providing a new type of order pattern of oxygen atoms and vacancies in close packed structures. Magnetization measurements and neutron diffraction data reveal 4H-BaMnO(2+x) adopts an antiferromagnetically ordered state below T(N) approximately 350 K.",
    "authors": [
     "Joke Hadermann",
     "Artem M. Abakumov",
@@ -3017,7 +3020,7 @@
    "journal": "Accounts of Chemical Research",
    "publisher": "ACS",
    "date": "2009-07-01",
-   "abstract": "",
+   "abstract": "As the global demand for low-cost renewable energy sources intensifies, interest in new routes for converting solar energy to electricity is rapidly increasing. Although photovoltaic cells have been commercially available for more than 50 years, only 0.1% of the total electricity generated in the United States comes directly from sunlight. The earliest commercial solar technology remains the basis for the most prevalent devices in current use, namely, highly-ordered crystalline, inorganic solar cells, commonly referred to as silicon cells. Another class of solar cells that has recently inspired significant academic and industrial excitement is the bulk heterojunction (BHJ) \"plastic\" solar cell. Research by a rapidly growing community of scientists across the globe is generating a steady stream of new insights into the fundamental physics, the materials design and synthesis, the film processing and morphology, and the device science and architecture of BHJ technology. Future progress in the fabrication of high-performance BHJ cells will depend on our ability to combine aspects of synthetic and physical chemistry, condensed matter physics, and materials science. In this Account, we use a combination of characterization tools to tie together recent advances in BHJ morphology characterization, device photophysics, and thin-film solution processing, illustrating how to identify the limiting factors in solar cell performance. We also highlight how new processing methods, which control both the BHJ phase separation and the internal order of the components, can be implemented to increase the power conversion efficiency (PCE). The failure of many innovative materials to achieve high performance in BHJ solar cell devices has been blamed on \"poor morphology\" without significant characterization of either the structure of the phase-separated morphology or the nature of the charge carrier recombination. We demonstrate how properly controlling the \"nanomorphology\", which is critically dependent on minute experimental details at every step, from synthesis to device construction, provides a clear path to >10% PCE BHJ cells, which can be fabricated at a fraction of the cost of conventional solar cells.",
    "authors": [
     "Jeffrey Peet",
     "Alan J. Heeger",
@@ -3035,7 +3038,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-06-25",
-   "abstract": "",
+   "abstract": "Resonance Raman spectroscopic imaging is introduced as a physical probe to identify and spatially map morphology-dependent variations of intra- and interchain interactions and order in poly-3-hexylthiophene (P3HT) and [6,6]-phenyl-C(61)-butyric acid methyl ester (PCBM) photovoltaic blend thin films. Absorption spectra and C=C symmetric stretching Raman modes of P3HT/PCBM blend films show contributions from two distinct species that are assigned as aggregated and unaggregated P3HT chains with characteristic Raman frequencies of approximately 1450 (I(C=C)(agg)) and approximately 1470 cm(-1) (I(C=C)(un)), respectively. Upon thermal annealing of blend films, the relative concentrations of I(C=C)(agg) and I(C=C)(un) species (R = I(C=C)(agg)/I(C=C)(un)) changes on average from 0.79 +/- 0.20 (as-cast) to 2.45 +/- 0.77 (annealed). It is proposed that R values report on the relative densities of states (DOS) of aggregated and unaggregated species, and resonance Raman imaging is then used to spatially map morphology-dependent variations of R values and uncover subclassifications of these species. From both R and frequency dispersion resonance Raman images of I(C=C)(agg) and I(C=C)(un) species, four distinct types of P3HT chains are identified and mapped in annealed P3HT/PCBM blend thin films: (i) highly aggregated/crystalline, (ii) partially aggregated, (iii) interfacial, and (iv) unaggregated/PCBM rich. The change in aggregation upon annealing is attributed to an increase in planarity of the P3HT chains that is determined from the ratios of C=C/C-C symmetric stretching mode intensities.",
    "authors": [
     "Yongqian Gao",
     "John K. Grey"
@@ -3052,7 +3055,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-06-23",
-   "abstract": "",
+   "abstract": "Cation-exchangeable d(0) layered perovskites are amenable to intercalation, exfoliation, and a variety of topochemical reactions, but they lack the interesting electronic and magnetic functionalities of mixed-valent perovskites. Conversely, electronically and magnetically interesting layered perovskites lack scope in terms of interlayer chemistry. To bridge this gap, the insulating, cation-exchangeable layered perovskites RbLaNb(2)O(7), KCa(2)Nb(3)O(10), and NaYTiO(4) were reacted with poly(tetrafluoroethylene) under inert atmosphere conditions to yield layer perovskites in which some of the oxygen is substituted by fluorine. In the fluorinated materials, the B-site cations are reduced to a mixed-valent state without introducing oxygen vacancies into the anion sublattice. The resulting electronically conducting solids can be exposed to air and water and even ion-exchanged in acid without oxidation of the B-site cations. Electronic transport measurements on the air-stable RbLaNb(2)O(6)F reveal room-temperature conductivity (2-7 x 10(2) ohms x cm) via a variable-range hopping mechanism, which is not substantially changed after aqueous proton exchange to H(1-x)Rb(x)LaNb(2)O(6)F (x approximately = 0.2).",
    "authors": [
     "Yoji Kobayashi",
     "Mingliang Tian",
@@ -3071,7 +3074,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-06-22",
-   "abstract": "",
+   "abstract": "Chemical surface treatment of porphyrin-sensitised titania films using bis-(4-methoxyphenyl)phosphinic acid after dye adsorption, results in large improvements in DSSC efficiencies which originate primarily from higher short circuit currents. The result was attributed to a positive shift in the TiO2 quasi-Fermi level with simultaneous retardation of charge recombination. High device performances have been achieved even using simplified electrolyte matrices devoid of the common additives, LiI and t-butylpyridine.",
    "authors": [
     "Alessandra Allegrucci",
     "Naomi A. Lewcenko",
@@ -3112,7 +3115,8 @@
    "keywords": [
     "solar cells"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Inorganic solid state solar cell with ultra-thin nanocomposite absorber based on nanoporous TiO2 and In2S3",
@@ -3120,7 +3124,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-06-17",
-   "abstract": "",
+   "abstract": "The increase of the diffusion length of a wet chemically prepared absorber by introducing a nanocomposite morphology and the resulting potential for reaching high energy conversion efficiencies were demonstrated.",
    "authors": [
     "Christian Herzog",
     "Abdelhak Belaidi",
@@ -3139,7 +3143,7 @@
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2009-06-12",
-   "abstract": "",
+   "abstract": "D. Placencia et al. report on the creation of organic photovoltaic cells from textured titanyl phthalocyanine (TiOPc) heterojunctions. The foreground of this frontispiece shows the crystal structures of the two polymorphs of TiOPc used, along with FE-SEM images of TiOPc on an ITO electrode before (left), and after (right) phase transformation of the TiOPc film. The background shows AFM phase images of the two TiOPc polymorph films, showing the dewetting of the surface and the nanotexturing which occurs during the solvent annealing/phase transformation process.",
    "authors": [
     "Diogenes Placencia",
     "Weining Wang",
@@ -3221,7 +3225,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-06-11",
-   "abstract": "",
+   "abstract": "We explore the dependence of the dark current of C(60)-based organic photovoltaic (OPV) cells on molecular composition and the degree of intermolecular interaction of several molecular donor materials. The saturation dark current density, J(S), is an important factor in determining the open circuit voltage, V(oc). The V(oc) values of OPVs show a strong inverse correlation with J(S). Donor materials that show evidence for aggregation in their thin-film absorption spectra and polycrystallinity in thin film X-ray diffraction result in a high dark current, and thus a low V(oc). In contrast, donor materials with structures that hinder intermolecular pi-interaction give amorphous thin films and reduced values of J(S), relative to donors with strong intermolecular pi-interactions, leading to a high V(oc). This work provides guidance for the design of materials and device architectures that maximize OPV cell power conversion efficiency.",
    "authors": [
     "M. Dolores Perez",
     "Carsten Borek",
@@ -3240,7 +3244,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-06-11",
-   "abstract": "",
+   "abstract": "A new starburst triphenylamine-based unsymmetrical organic cyanine sensitizer I and the corresponding cyanine dye II containing one triphenylamine unit for the purpose of comparison were designed and synthesized. They were successfully applied in quasi-solid-state dye-sensitized solar cells (DSSCs). The absorption spectra, electrochemical and photovoltaic properties of I and II were extensively investigated. It was found that the HOMO and LUMO energy levels tuning can be conveniently accomplished by alternating the donor moiety, which was confirmed by electrochemical measurements. The quasi-solid-state DSSCs based on the dye I showed the better photovoltaic performance: a maximum monochromatic incident photon-to-current conversion efficiency (IPCE) of 83%, a short-circuit photocurrent density (Jsc) of 9.12 mA cm−2, an open-circuit photovoltage (Voc) of 0.54 V, and a fill factor (ff) of 0.64, corresponding to an overall conversion efficiency of 3.19% under standard global AM 1.5 solar conditions. This work suggests that the cyanine dyes based on the starburst triarylamine donor are promising candidates for improvement of the performance of the quasi-solid-state DSSCs.",
    "authors": [
     "Jin Tang",
     "Wenjun Wu",
@@ -3261,7 +3265,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2009-06-10",
-   "abstract": "",
+   "abstract": "We report herein a detailed study of the thermal and hole-transport properties of poly[2,7-(9,9-dihexylfluorene)-alt-bithiophene] (F6T2) and its photovoltaic performance in a bulk-heterojunction (BHJ) solar cell. This crystalline polymer has a high weight-average molecular weight (M(w) = 52 400) with a polydispersity index of 1.99. With a band gap of 2.36 eV, F6T2 exhibits strong absorption in the 300-500 nm region. BHJ solar cells blending F6T2 with [6,6]-phenyl-C(61)-butyric acid methyl ester (PCBM) (1:3 weight ratio) as the active layer present a high open-circuit voltage (V(oc) approximately 0.9 V) and a promising power conversion efficiency of 2.4% under simulated solar light AM1.5G (100 mW/cm(2)). Furthermore, F6T2 shows sufficient hole mobility [ca. 8.4 x 10(-5) cm(2)/(V s) at 310 K and 2.5 x 10(5) V/cm applied electric field] by a time-of-flight transient photocurrent technique, allowing efficient charge extraction and a good fill factor for solar cell application. Nanoscale phase separation was observed in F6T2/PCBM films with a surface roughness lower than 60 nm.",
    "authors": [
     "Weihua Tang",
     "Vijila Chellappan",
@@ -3294,7 +3298,8 @@
    "keywords": [
     "perovskite"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Palladium Catalyzed Tandem Ring Opening−Ring Closing Reaction of Diazabicyclic Alkenes: A Facile One Pot Strategy for Cyclopentannulation of Heterocycles",
@@ -3302,7 +3307,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-06-05",
-   "abstract": "",
+   "abstract": "Palladium Catalyzed Tandem Ring Opening−Ring Closing Reaction of Diazabicyclic Alkenes: A Facile One Pot Strategy for Cyclopentannulation of Heterocycles",
    "authors": [
     "Jubi John",
     "Indu U.",
@@ -3321,7 +3326,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-06-04",
-   "abstract": "",
+   "abstract": "When a layer of multi-walled carbon nanotubes was deposited on the surface of a poly(3-hexylthiophene) layer on a SnO2-modified glass electrode, the maximum power output of a dye-sensitised photovoltaic solar cell increased by a factor of 1.35.",
    "authors": [
     "Atsushi Furuta",
     "Tatsunori Kuramoto",
@@ -3339,7 +3344,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2009-06-02",
-   "abstract": "",
+   "abstract": "Mesoporous anatase TiO2 beads with high surface areas and controllable pore sizes are prepared by using a combined sol–gel and solvothermal process. Dye-sensitized solar cells made from these mesoporous beads gave a total power conversion efficiency of 7.20% under AM 1.5 sunlight, higher than that obtained using Degussa P25 films of similar thickness (5.66%). Detailed facts of importance to specialist readers are published as ”Supporting Information”. Such documents are peer-reviewed, but not copy-edited or typeset. They are made available as submitted by the authors. Please note: The publisher is not responsible for the content or functionality of any supporting information supplied by the authors. Any queries (other than missing content) should be directed to the corresponding author for the article.",
    "authors": [
     "Dehong Chen",
     "Fuzhi Huang",
@@ -3408,7 +3413,8 @@
    "keywords": [
     "solar cells"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Functionalized Dendritic Oligothiophenes: Ruthenium Phthalocyanine Complexes and Their Application in Bulk Heterojunction Solar Cells",
@@ -3416,7 +3422,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-05-28",
-   "abstract": "",
+   "abstract": "Within the present work, two series of novel ruthenium(II) phthalocyanine (RuPc) complexes with one [RuPcCOPy-nT] or two [RuPc(Py-nT)(2)] dendritic oligothiophene (DOT) ligands in the axial positions are reported. The ability of Ru(II) for axial coordination in RuPcs allowed the attachment of the Pc through the metal site to the DOT-ligands bearing pyridine at the core position of the dendrons. These extended pyridine functionalized conjugated DOT-ligands (Py-nT) were chosen to cover the spectral window between 380 and 550 nm, where the RuPc does not exhibit a strong absorption, in order to improve the light-absorption of these complexes and hence enhance the efficiency of the corresponding solar cells. Good efficiencies of up to 1.6% have been achieved when blended together with a fullerene acceptor in solution-processed photovoltaic devices, providing by far the best phthalocyanine-based bulk heterojunction solar cells reported to-date.",
    "authors": [
     "Markus K. R. Fischer",
     "Ismael López-Duarte",
@@ -3438,7 +3444,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2009-05-28",
-   "abstract": "",
+   "abstract": "Effective cell design variables having a large impact on the fill factor (FF) of organic photovoltaic cells (OPVCs) were systematically identified using a general device structure of ITO/PEDOT:PSS/P3HT + PCBM/LiF/Al. The results show that the characteristic properties of the organic layer, such as morphology and thickness, the regioregularity of the conjugated polymer, and the two interfaces between the electrodes and the blend layer have a large influence on the FF by affecting the series resistance (R(s)) and the shunt resistance (R(sh)). The systematic investigation described in this contribution provides a comprehensive understanding of the correlation between the device variables and R(s) and R(sh) and a way to control FF, which is critically important to achieving a high-performance OPVC.",
    "authors": [
     "Myung-Su Kim",
     "Bong-Gi Kim",
@@ -3456,7 +3462,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2009-05-28",
-   "abstract": "",
+   "abstract": "In this contribution, we report on bulk-heterojunction solar cells using a solution-processable neutral green conjugated copolymer based on 3,4-dioxythiophene and 2,1,3-benzothiadiazole as the donor and [6,6]phenyl-C61 butyric acid methyl ester (PCBM) as the acceptor. We have found that the short-circuit current is very sensitive to the composition of the donor-acceptor blend and it increases with increasing acceptor concentration. The device with a donor-acceptor ratio of 1:8 gives the best performance with a short-circuit current of 5.56 mA/cm(2), an open-circuit voltage of 0.77 V, and a power conversion efficiency of 1.9% under AM 1.5 solar illumination. The incident photon-to-current efficiency (IPCE) of the green solar cells shows two bands, one with a maximum of 57% in the UV region corresponding to absorption of PCBM and a second one with a maximum of 42% at longer wavelengths corresponding to the absorption of the green polymer.",
    "authors": [
     "Jegadesan Subbiah",
     "Pierre M. Beaujuge",
@@ -3477,7 +3483,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-05-27",
-   "abstract": "",
+   "abstract": "We have fabricated titanium dioxide based dye-sensitized solar cells that incorporate corrosion-protected silver nanoparticles as plasmonic optical elements of the photoelectrode. The thickness of the TiO(2) layer separating the dye from the nanoparticles has been systematically varied using atomic layer deposition. Over the range of TiO(2) coating thicknesses examined (2 to 8 nm) there is clear enhancement of the dye extinction when plasmonic particles are present, with the enhancement increasing as the TiO(2) thickness decreases. The optical enhancements translate into photocurrent enhancements, with the best cells (thinnest TiO(2) coatings) showing 9-fold current enhancements under optimal monochromatic illumination. Preliminary experiments indicate that substantially larger optical enhancements are achievable with even thinner dye/particle separation layers, suggesting that even greater photocurrent enhancements may be achievable.",
    "authors": [
     "Stacey D. Standridge",
     "George C. Schatz",
@@ -3542,7 +3548,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2009-05-21",
-   "abstract": "",
+   "abstract": "PHPIT, a new kind of intramolecular donor–acceptor side-chain-tethered hexylphenanthrenyl-imidazole polythiophene is synthesized. The more-balanced electron and hole mobilities and the enhanced visible- and internal-light absorptions in the devices consisting of annealed PHPIT/PCBM blends both contribute to a much higher short-circuit current density, which in turn led to a power conversion efficiency as high as 4.1%.",
    "authors": [
     "Yao‐Te Chang",
     "So‐Lin Hsu",
@@ -3561,7 +3567,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-05-19",
-   "abstract": "",
+   "abstract": "This paper describes synthesis and photovoltaic studies of a series of new semiconducting polymers with alternating thieno[3,4-b]thiophene and benzodithiophene units. The physical properties of these polymers were finely tuned to optimize their photovoltaic effect. The substitution of alkoxy side chains to the less electron-donating alkyl chains or introduction of electron-withdrawing fluorine into the polymer backbone reduced the HOMO energy levels of polymers. The structural modifications optimized polymers' spectral coverage of absorption and their hole mobility, as well as miscibility with fulleride, and enhanced polymer solar cell performances. The open circuit voltage, V(oc), for polymer solar cells was increased by adjusting polymer energy levels. It was found that films with finely distributed polymer/fulleride interpenetrating network exhibited improved solar cell conversion efficiency. Efficiency over 6% has been achieved in simple solar cells based on fluorinated PTB4/PC(61)BM films prepared from mixed solvents. The results proved that polymer solar cells have a bright future.",
    "authors": [
     "Yongye Liang",
     "Danqin Feng",
@@ -3583,7 +3589,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2009-05-15",
-   "abstract": "",
+   "abstract": "We report the successful application of multiwall carbon nanotubes (CNTs) as electrocatalysts for triiodide reduction in a dye-sensitized solar cell (DSSC). Defect-rich edge planes of bamboolike-structure multiwall CNTs facilitate the electron-transfer kinetics at the counter electrode-electrolyte interface, resulting in low charge-transfer resistance and an improved fill factor. In combination with a dye-sensitized TiO2 photoanode and an organic liquid electrolyte, a multiwall CNT counter-electrode DSSC shows 7.7% energy conversion efficiency under 1 sun illumination (100 mW/cm(2), air mass 1.5 G). The short-term stability test at moderate conditions confirms the robustness of CNT counter-electrode DSSCs.",
    "authors": [
     "Won Jae Lee",
     "Easwaramoorthi Ramasamy",
@@ -3602,7 +3608,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-05-11",
-   "abstract": "",
+   "abstract": "The high-pressure sequence of the perovskite polytypes of BaIrO(3) has been investigated in the pressure range up to 10 GPa. At ambient pressure the so-called \"9R\" polytype has been prepared by solid-state reaction and slow cooling in air to yield an almost fully oxygen-stoichiometric BaIrO(2.96(1)) composition. The crystal structure has been refined from XRD data in the monoclinic C2/m space group with a = 10.0046(3) A, b = 5.75362(14) A, c = 15.1839(4) A, beta = 103.27(1) degrees ; it contains trimers of face-sharing octahedra (or Ir(3)O(12) trioctahedra) that are linked by their vertices to form columns parallel to the c-axis with a stacking of layers of corner sharing (c) and face sharing (h) IrO(6) octahedra along the sequence hhchhc. This structure is stable up to 3 GPa; at 4 GPa a new 5H polytype has been stabilized as a pure phase. The crystal structure has been solved by ab initio procedures from powder XRD data. It is monoclinic with a = 9.9511(2) A, b = 5.7503(1) A, c = 13.71003(3) A, beta = 118.404(2) degrees , and it was refined in the C2/m space group from NPD data collected at room temperature. This polytype can be described as a stacking of IrO(6) octahedra along the sequence hchcc. The structure contains chains of double dimer units of face-sharing octahedra; the twin dimers are connected to single layers of vertex-sharing octahedra, forming infinite chains along c. This is a unique stacking that, with this repetition length, has never been described before among the hexagonal polytypes of ABO(3) perovskites. The 5H polytype is stable in a narrow pressure range; at 5 GPa the 6H structure is formed, stable up to 10 GPa. The 6H-BaIrO(3) polytype is monoclinic, space group C2/c, with a = 5.7483(2) A, b = 9.9390(3) A, c = 14.3582(5) A, beta = 91.319(2) degrees . The structure consists of dimers of face-sharing octahedra separated by single corner-sharing octahedra, showing the sequence hcchcc along the c-axis. At 10 GPa the cubic 3C perovskite structure could be identified as a minority phase, with a = 4.0611(7) A, defined in the Pm3m space group. The precarious stability of the 5H polytype, as well as the novel pressure sequence displayed by BaIrO(3) that is distinct from the classical sequence 9R-4H-6H-3C exhibited by many transition metal oxides, for instance BaRuO(3), is a result of the particular stability of the \"9R\" ambient-pressure…",
    "authors": [
     "Jin-Guang Cheng",
     "José Antonio Alonso",
@@ -3622,7 +3628,7 @@
    "journal": "Accounts of Chemical Research",
    "publisher": "ACS",
    "date": "2009-05-01",
-   "abstract": "",
+   "abstract": "Recently, dye-sensitized solar cells have attracted much attention relevant to global environmental issues. Thus far, ruthenium(II) bipyridyl complexes have proven to be the most efficient TiO(2) sensitizers in dye-sensitized solar cells. However, a gradual increment in the highest power conversion efficiency has been recognized in the past decade. More importantly, considering that ruthenium is a rare metal, novel dyes without metal or using inexpensive metal are desirable for highly efficient dye-sensitized solar cells. Large pi-aromatic molecules, such as porphyrins, phthalocyanines, and perylenes, are important classes of potential sensitizers for highly efficient dye-sensitized solar cells, owing to their photostability and high light-harvesting capabilities that can allow applications in thinner, low-cost dye-sensitized solar cells. Porphyrins possess an intense Soret band at 400 nm and moderate Q bands at 600 nm. Nevertheless, the poor light-harvesting properties relative to the ruthenium complexes have limited the cell performance of porphyrin-sensitized TiO(2) cells. Elongation of the pi conjugation and loss of symmetry in porphyrins cause broadening and a red shift of the absorption bands together with an increasing intensity of the Q bands relative to that of the Soret band. On the basis of the strategy, the cell performance of porphyrin-sensitized solar cells has been improved intensively by the enhanced light absorption. Actually, some push-pull-type porphyrins have disclosed a remarkably high power conversion efficiency (6-7%) that was close to that of the ruthenium complexes. Phthalocyanines exhibit strong absorption around 300 and 700 nm and redox features that are similar to porphyrins. Moreover, phthalocyanines are transparent over a large region of the visible spectrum, thereby enabling the possibility of using them as \"photovoltaic windows\". However, the cell performance was poor, owing to strong aggregation and lack of directionality in the excited state. Novel unsymmetrical zinc phthalocyanine sensitizers with \"push\" and \"pull\" groups have made it possible to reduce the aggregation on a TiO(2) surface, tune the level of the excited state, and strengthen the electronic coupling between the phthalocyanine core and the TiO(2) surface. As a result, the power conversion efficiency of up to 3.5% has been achieved. Perylenes are well-known as…",
    "authors": [
     "Hiroshi Imahori",
     "Tomokazu Umeyama",
@@ -3646,7 +3652,8 @@
    "keywords": [
     "photovoltaic"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Nanochemistry aspects of titania in dye-sensitized solar cells",
@@ -3654,7 +3661,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-04-27",
-   "abstract": "",
+   "abstract": "We analyze the main nanochemistry factors affecting photovoltaic performance in TiO2 employed as wide bandgap semiconductor in dye-sensitized solar cells (DSCs). What is the best morphology of the oxide? Which processes yield the required structures? Finally, putting the discussion in the context of the rapid evolution of photovoltaic technologies, we argue that new titania nanostructures will form the basic component of second-generation solar modules based on dye solar cells.",
    "authors": [
     "Mario Pagliaro",
     "Giovanni Palmisano",
@@ -3690,7 +3697,8 @@
    "keywords": [
     "solar cells"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "High molar extinction coefficient amphiphilic ruthenium sensitizers for efficient and stable mesoscopic dye-sensitized solar cells",
@@ -3698,7 +3706,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-04-23",
-   "abstract": "",
+   "abstract": "Two efficient heteroleptic ruthenium (II) complexes, cis-di(thiocyanato)(4,4′-dicarboxylic acid-2,2′-bipyridine)(4,4′-bis(2-(3,5-di tert-butylphenyl)ethenyl)-2,2′-bipyridine) ruthenium (II) (HRD-1) and cis-di(thiocyanato)(4,4′-dicarboxylic acid-2,2′-bipyridine)(4,4′-bis(2-(2,3,5-trimethylphenyl)ethenyl)-2,2′-bipyridine) ruthenium (II) (HRD-2) were synthesized and characterized, which when anchored onto nanocrystalline TiO2 shows efficiency of 5.77 and 4.87% respectively, using durable redox electrolytes.",
    "authors": [
     "Lingamallu Giribabu",
     "Challuri Vijay Kumar",
@@ -3771,7 +3779,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-04-14",
-   "abstract": "",
+   "abstract": "Two organolead halide perovskite nanocrystals, CH(3)NH(3)PbBr(3) and CH(3)NH(3)PbI(3), were found to efficiently sensitize TiO(2) for visible-light conversion in photoelectrochemical cells. When self-assembled on mesoporous TiO(2) films, the nanocrystalline perovskites exhibit strong band-gap absorptions as semiconductors. The CH(3)NH(3)PbI(3)-based photocell with spectral sensitivity of up to 800 nm yielded a solar energy conversion efficiency of 3.8%. The CH(3)NH(3)PbBr(3)-based cell showed a high photovoltage of 0.96 V with an external quantum conversion efficiency of 65%.",
    "authors": [
     "Akihiro Kojima",
     "Kenjiro Teshima",
@@ -3811,7 +3819,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2009-04-14",
-   "abstract": "",
+   "abstract": "Alan Heeger and co-workers report on page 1521 on the role of processing methodology in the fabrication and optimization of bulk heterojunction (BHJ) ‘plastic’ solar cells. Several techniques that have recently been used to optimize the BHJ nanomorphology are discussed and compared and some insights are given into the mechanisms behind these various techniques. The cover image depicts a multilayer solar cell ribbon along with the polymer, fullerene, and solvent additive, which were used to fabricate a low bandgap polymer solar cell with greater than 5% power conversion efficiency.",
    "authors": [
     "Jeffrey Peet",
     "Michelle L. Senatore",
@@ -3851,7 +3859,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2009-04-13",
-   "abstract": "",
+   "abstract": "We report on the application of a poly(methyl acrylate)/poly(ethylene glycol)-based polymer gel electrolyte and triphenylamine-based metal-free organic dyes in quasi-solid-state dye-sensitized solar cells. The poly(methyl acrylate)/poly(ethylene glycol) hybrid is beneficial to the entrapment of a large volume of liquid electrolyte. At 25 degrees C, the ionic conductivity and the triiodide ionic diffusion constant of the as-prepared polymer gel electrolyte are 2.1 mS cm(-1) and 2.3 x 10(-6) cm(2) s(-1), respectively. The quasi-solid-state solar cell sensitized by triphenylamine-based dyes attains an overall energy conversion efficiency of 5.76% at a light intensity of 30 mW cm(-2). The presence of poly(ethylene glycol) in the electrolyte obviously increases the conductivity and energy conversion efficiency compared to that without poly(ethylene glycol).",
    "authors": [
     "Jifu Shi",
     "Shengjie Peng",
@@ -3934,7 +3942,7 @@
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2009-04-09",
-   "abstract": "",
+   "abstract": "On page 1093, Hyunjung Lee and co-workers report a novel method to fabricate an inverse-opal electrode for dye-sensitized solar cells. Compact and ordered TiO2 inverse-opal photoelectrodes are prepared using a 3D colloidal array templating route with flexible dimensional control of pore size. Organic-layer-coated TiO2 nanoparticles improved the degree of infiltration and consequently minimized the volume contraction during thermal calcinations of the colloidal template within the inverse opal structure.",
    "authors": [
     "Eun Sik Kwak",
     "Wonmok Lee",
@@ -3974,7 +3982,7 @@
    "journal": "Science",
    "publisher": "Science",
    "date": "2009-04-03",
-   "abstract": "",
+   "abstract": "FeRu-based metal–organic framework bifunctional catalysts for hydrogen production and methanol electroreforming,",
    "authors": [
     "Richard Eisenberg"
    ],
@@ -3990,7 +3998,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-03-31",
-   "abstract": "",
+   "abstract": "A novel thiocyanate-free cyclometalleted ruthenium sensitizer for solar cells is designed and developed. Upon anchoring to nanocrystalline TiO(2) films, it exhibits a remarkable incident monochromatic photon-to-current conversion efficiency of 83%. The solar cell employing a liquid-based electrolyte exhibits a short circuit photocurrent density of 17 mA/cm(2), an open circuit voltage of 800 mV, and a fill factor of 0.74, corresponding to an overall conversion efficiency of 10.1% at standard AM 1.5 sunlight. To understand the structural, electronic, and optical properties of the cyclometalleted ruthenium sensitizer, we have investigated using density functional theory (DFT) and time-dependent DFT (TDDFT). Our results show the HOMO is located mostly on ruthenium and cyclometalated ligand, while the LUMO is on 4-carboxylic acid-4'-carboxylate-2,2'-bipyridine. Molecular orbitals analysis confirmed the experimental assignment of redox potentials, and TDDFT calculations allowed assignment of the visible absorption bands. The present findings provide new design criteria for the next generation of ruthenium sensitizers and help foster widespread interest in the engineering of new sensitizers that interact effectively with the I(-)/I(3)(-) redox couple.",
    "authors": [
     "Takeru Bessho",
     "Eiji Yoneda",
@@ -4014,7 +4022,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-03-30",
-   "abstract": "",
+   "abstract": "In hybrid organic solar cells a blocking layer between transparent electrode and nanocrystalline titania particles is essential to prevent short-circuiting and current loss through recombination at the electrode interface. Here we report the preparation of a thin, uniform and crack free hybrid blocking layer composed of conducting titania nanoparticles embedded in an insulating polymer derived ceramic. To do so we combine sol–gel chemistry with novel poly(dimethylsiloxane) containing amphiphilic block copolymer, poly(ethyleneglycol) methyl ether methacrylate–block–poly(dimethylsiloxane)–block–poly(ethyleneglycol) methyl ether methacrylate as the templating agent. Conductive probe scanning force microscopy proved that the existing percolating titania networks are separated by an insulating ceramic matrix. The structural uniformity of the percolating structures was investigated by microbeam grazing incidence small angle X-ray scattering making the integrated blocking layer suitable for hybrid organic solar device applications. Preliminary tests with the integrated blocking layer showed reasonable comparison to conventional TiO2 blocking layer containing devices mentioned in the literature.",
    "authors": [
     "Mine Memesa",
     "Stefan Weber",
@@ -4099,7 +4107,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2009-03-30",
-   "abstract": "",
+   "abstract": "The relative concentration of BaTiO3 and CeO2 is shown to control the inclination of composite growth. The oblique composite structures consist of tunable BaTiO3 nanofibers embedded in a CeO2 matrix, which lowers considerably the permittivity while significantly enhancing the tunable response to an electric field. This is of interest in reconfigurable microelectronics.",
    "authors": [
     "Tomoaki Yamada",
     "Cosmin S. Sandu",
@@ -4141,7 +4149,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2009-03-26",
-   "abstract": "",
+   "abstract": "We have used ultraviolet photoelectron spectroscopy to investigate the energy-level and band alignment near the anode for poly(3-hexylthiophene)/[6,6]-phenyl-C(61)-butyric acid methyl ester (P3HT/PCBM)-based organic solar cells. Analysis of various batches of indium-tin oxide (ITO) revealed that the photoresist residues had a strong effect, reducing the work functions of ITO (Phi(ITO)) by as much as 0.61 eV. The energy-level alignment of poly(3,4-ethylenedioxythiophene)/ITO (Phi(PEDOT/ITO)) interfaces obey the Mott-Schottky rule at values of Phi(ITO) of less than 3.92 eV. In contrast, we observed Fermi-level pinning for the blend/PEDOT interfaces at values of Phi(PEDOT/ITO) greater than 4.26 eV; this finding is consistent with a previous report that the positive polaronic energy of P3HT is equal to 4.0 eV. Consequently, we suspect that the similar efficiency levels and open-circuit voltages of devices prepared from various ITO samples were due mainly to the constant interfacial energy barrier at the blend/PEDOT interface with Fermi-level pinning.",
    "authors": [
     "Chih-Ping Chen",
     "Ta-Chang Tien",
@@ -4161,7 +4169,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-03-25",
-   "abstract": "",
+   "abstract": "The tetrapod-like ZnO nanopowders are employed to construct an efficient electron transport network as the photoanode of the dye-sensitized solar cells (DSCs). Due to the high extinction coefficient of the metal-free D149 dye offering a high photocurrent through the ZnO network, the best performance of DSCs based on a 42 µm terapod-like ZnO film showed a high energy conversion efficiency of 4.9% with a high short-circuit photocurrent density of 12.3 mA cm−2, an open-circuit photovoltage of 0.6 V, and a fill factor of 0.65 under AM 1.5 irradiation. Highly efficient electron transport may also be ascribed by a long effective electron diffusion length of 46 µm determined from the electrochemical impedance spectroscopy which is consistent with thickness dependent JSC measurements.",
    "authors": [
     "Wei-Hao Chiu",
     "Chia-Hua Lee",
@@ -4183,7 +4191,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-03-24",
-   "abstract": "",
+   "abstract": "A novel metal-free “black dye” was designed and synthesized for panchromatic dye-sensitized solar cells. Based on this dye, the broader incident photon-to-current conversion efficiency spectrum was obtained over the whole visible range extending into the near-IR region up to 920 nm.",
    "authors": [
     "Haining Tian",
     "Xichuan Yang",
@@ -4203,7 +4211,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-03-23",
-   "abstract": "",
+   "abstract": "The photostability of five sensitizer dyes with and without an oligothiophene moiety was studied by means of spectroscopic techniques to determine the dyes' suitability for dye-sensitized solar cells. We examined the effect of light irradiation on the dyes adsorbed on nanocrystalline TiO2 films under ambient conditions and found that the dyes containing an oligothiophene moiety showed high stability. The results of transient absorption measurements suggest that the location of holes on the oligothiophene moieties was responsible for this observed high stability.",
    "authors": [
     "Ryuzi Katoh",
     "Akihiro Furube",
@@ -4294,7 +4302,7 @@
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2009-03-19",
-   "abstract": "",
+   "abstract": "Chemical vapor synthesis is a convenient one-step synthesis process for the production of nanocrystalline powders. On page 875, Bacsa et al. report that by controlled variation of experimental parameters, tetrapods (as in image) or spherical ZnO nanocrystals can be selectively obtained directly from Zn metal precursor. Shape control leads to improved optical properties and a better performance when applied as electrodes in dye sensitized solar cells.",
    "authors": [
     "Revathi R. Bacsa",
     "Jeannette Dexpert‐Ghys",
@@ -4319,7 +4327,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-03-18",
-   "abstract": "",
+   "abstract": "A novel palladium catalyzed protocol for the synthesis of cyclopentene fused heterocycles from diazabicyclic alkenes and ortho-functionalized aryliodides has been elaborated. The reaction can be tuned toward the formation of either 3,4-disubstituted cyclopentenes or cyclopentene fused heterocycles by careful manipulation of the reaction parameters. A number of cyclopentene fused benzofurans and indole derivatives were prepared in excellent yield by utilizing the developed methodology.",
    "authors": [
     "Jubi John",
     "Indu U.",
@@ -4338,7 +4346,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-03-18",
-   "abstract": "",
+   "abstract": "Highly efficient silicon solar cells have been characterised by impedance spectroscopy and current–potential characteristic in the dark and with different illumination intensities. For each illumination the impedance behaviour has been analysed at different applied bias potentials, in the forward and reverse region, comparing the results with the current–potential characteristic. Different cell parameters, as series and parallel resistances, capacitance, diode factor, minority carrier lifetime, acceptor impurities density and depletion layer charge density have been obtained as a function of bias voltage for different light illumination intensities. The effect of light-generated carriers and applied bias in the behaviour of the solar cell under illumination is discussed.",
    "authors": [
     "Iván Mora-Seró",
     "Germà Garcia-Belmonte",
@@ -4398,7 +4406,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2009-03-16",
-   "abstract": "",
+   "abstract": "Enhancement of the light-harvesting efficiency in poly(3-hexylthiophene)/fullerene derivative (P3HT/PCBM) bulk heterojunction solar cells has been demonstrated by the introduction of near-infrared phthalocyanine molecules as the third component at the P3HT/PCBM interface. The introduction of silicon phthalocyanine derivative (SiPc) increased the short-circuit current density and hence improved the overall power conversion efficiency by 20%, compared to the P3HT/PCBM control device. For P3HT/PCBM/SiPc devices, two distinct external quantum efficiency (EQE) peaks were observed at wavelengths for the absorption bands of SiPc as well as P3HT before and after thermal annealing, suggesting that SiPc molecules are located at the P3HT/PCBM interface because of crystallization of the P3HT and PCBM domains. Furthermore, the EQE for the device increased even at wavelengths for the absorption band of P3HT by the introduction of SiPc molecules. This indicates that P3HT excitons can be dissociated into charge carriers more efficiently in the presence of SiPc molecules at the P3HT/PCBM interface by energy transfer from P3HT to SiPc molecules. These findings suggest that there are two origins for the increase in the photocurrent by the introduction of SiPc; SiPc molecules serve not only as a light-harvesting photosensitizer but also as an energy funnel for P3HT excitons at the P3HT/PCBM interface.",
    "authors": [
     "Satoshi Honda",
     "Takahiro Nogami",
@@ -4418,7 +4426,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-03-12",
-   "abstract": "",
+   "abstract": "In this paper we focus upon the electron injection dynamics in complete nanocrystalline titanium dioxide dye-sensitized solar cells (DSSCs) employing the ruthenium bipyridyl sensitizer dye N719. Electron injection dynamics and quantum yields are studied by time-resolved single photon counting, and the results are correlated with device performance. In typical DSSC devices, electron injection kinetics were found to proceed from the N719 triplet state with a half-time of 200 +/- 60 ps and quantum yield of 84 +/- 5%. We find that these injection dynamics are independent of presence of iodide/triiodide redox couple and of the pH of the peptization step used in the synthesis of the TiO(2) nanoparticles. They are furthermore found to be only weakly dependent upon the application of electrical bias to the device. In contrast, we find these dynamics to be strongly dependent upon the concentration of tert-butylpyridine (tBP) and lithium cations in the electrolyte. This dependence is correlated with shifts of the TiO(2) conduction band energetics as a function of tBP and Li(+) concentration, from which we conclude that a 100 meV shift in band edge results in an approximately 2-fold retardation of injection dynamics. We find that the electron injection quantum yield determined from these transient emission data as a function of tBP and Li(+) concentration shows a linear correlation with device short circuit density J(sc). We thus conclude that the relative energetics of the dye excited state versus the titanium dioxide acceptor state is a key determinant of the dynamics of electron injection in DSSC, and that variations in these energetics, and therefore in the kinetics and efficiency of electron injection, impact directly upon device photovoltaic efficiency. Finally, we discuss these results in terms of singlet versus triplet electron injection pathways and the concept of minimization of kinetic redundancy.",
    "authors": [
     "Sara E. Koops",
     "Brian C. O’Regan",
@@ -4437,7 +4445,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-03-12",
-   "abstract": "",
+   "abstract": "Research and development on the thermochemical water-splitting cycle using iodine and sulfur, a potential large-scale hydrogen production method, is reviewed. Feasibility of the closed-cycle continuous water splitting has been demonstrated by coupling the Bunsen reaction, thermal decomposition of hydrogen iodide and that of sulfuric acid. Studies are in progress to realize efficient hydrogen production. Also, development of chemical reactors made of industrial materials has been carried out, especially those used in the corrosive process environment of sulfuric acid vaporization and decomposition.",
    "authors": [
     "Kaoru Onuki",
     "Shinji Kubo",
@@ -4457,7 +4465,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-03-11",
-   "abstract": "",
+   "abstract": "ADVERTISEMENT RETURN TO ISSUEPREVAddition/CorrectionNEXTSynthesis and Magnetic and Charge-Transport Properties of the Correlated 4d Post-Perovskite CaRhO3Kazunari Yamaura*, Yuichi Shirako, Hiroshi Kojitani, Masao Arai, David P. Young, Masaki Akaogi, Mamoru Nakashima, Tetsuhiro Katsumata, Yoshiyuki Inaguma, and Eiji Takayama-MuromachiCite this: J. Am. Chem. Soc. 2009, 131, 13, 5010Publication Date (Web):March 11, 2009Publication History Published online11 March 2009Published inissue 8 April 2009https://pubs.acs.org/doi/10.1021/ja901621fhttps://doi.org/10.1021/ja901621fcorrectionACS PublicationsCopyright © 2009 American Chemical Society. This publication is available under these Terms of Use. Request reuse permissions This publication is free to access through this site. Learn MoreArticle Views692Altmetric-Citations2LEARN ABOUT THESE METRICSArticle Views are the COUNTER-compliant sum of full text article downloads since November 2008 (both PDF and HTML) across all institutions and individuals. These metrics are regularly updated to reflect usage leading up to the last few days.Citations are the number of other articles citing this article, calculated by Crossref and updated daily. Find more information about Crossref citation counts.The Altmetric Attention Score is a quantitative measure of the attention that a research article has received online. Clicking on the donut icon will load a page at altmetric.com with additional details about the score and the social media presence for the given article. Find more information on the Altmetric Attention Score and how the score is calculated. Share Add toView InAdd Full Text with ReferenceAdd Description ExportRISCitationCitation and abstractCitation and referencesMore Options Share onFacebookTwitterWechatLinked InRedditEmail PDF (139 KB) Get e-Alertsclose Get e-Alerts",
    "authors": [
     "Kazunari Yamaura",
     "Yuichi Shirako",
@@ -4499,7 +4507,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-03-06",
-   "abstract": "",
+   "abstract": "A novel protocol for the palladium-catalyzed intramolecular direct arylation of benzoic acids is reported, which combines decarboxylation and C-H activation into one efficient process. With the optimized catalyst system of palladium trifluoroacetate, silver carbonate, and the proper solvent mixture (5% DMSO/dioxane), dibenzofuran derivatives are formed in excellent yield and selectivity.",
    "authors": [
     "Congyang Wang",
     "Isabel Piel",
@@ -4530,7 +4538,8 @@
    "keywords": [
     "perovskite"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Dye-sensitized solar cells based on low cost nanoscale carbon/TiO2 composite counter electrode",
@@ -4538,7 +4547,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-03-02",
-   "abstract": "",
+   "abstract": "A dye-sensitized solar cell based on low cost nanoscale carbon/TiO2 composite counter electrode was fabricated and its photovoltaic performance (η = 5.5%, AM 1.5, 91.5 mW cm−2) was comparable to that from platinum counter-electrode devices (η = 6.4%, AM 1.5, 91.5 mW cm−2) made at similar conditions.",
    "authors": [
     "Prakash Joshi",
     "Yu Xie",
@@ -4559,7 +4568,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-02-27",
-   "abstract": "",
+   "abstract": "In this article some brief theoretical considerations addressing the potential of single and tandem solar cells, the main experimental achievements reported in the literature so far and finally some design rules for efficient material combinations in bulk-heterojunction organic tandem solar cells are presented.",
    "authors": [
     "Tayebeh Ameri",
     "Gilles Dennler",
@@ -4607,7 +4616,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-02-26",
-   "abstract": "",
+   "abstract": "Dye-sensitized solar cells (DSSCs) made from oriented, one-dimensional semiconductor nanostructures such as nanorods, nanowires, and nanotubes are receiving attention because direct connection of the point of photogeneration with the collection electrode using such structures may improve the cell performance. Specifically, oriented single-crystalline TiO(2) nanorods or nanowires on a transparent conductive substrate would be most desirable, but achieving these structures has been limited by the availability of synthetic techniques. In this study, a facile, hydrothermal method was developed for the first time to grow oriented, single-crystalline rutile TiO(2) nanorod films on transparent conductive fluorine-doped tin oxide (FTO) substrates. The diameter, length, and density of the nanorods could be varied by changing the growth parameters, such as growth time, growth temperature, initial reactant concentration, acidity, and additives. The epitaxial relation between the FTO substrate and rutile TiO(2) with a small lattice mismatch plays a key role in driving the nucleation and growth of the rutile TiO(2) nanorods on FTO. With TiCl(4)-treatment, a light-to-electricity conversion efficiency of 3% could be achieved by using 4 mum-long TiO(2) nanorod films as the photoanode in a DSSC.",
    "authors": [
     "Bin Liu",
     "Eray S. Aydil"
@@ -4624,7 +4633,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-02-25",
-   "abstract": "",
+   "abstract": "A kind of closed-microporous hybrid with poly(acrylic acid)-poly(ethylene glycol)-polypyrrole (PAA-PEG-PPy) was synthesized template-free by in situ polymerization and micro-phase separation of PPy in PAA-PEG gel. This novel structure hybrid was used as a matrix in preparing polymer gel electrolytes for quasi-solid-state dye-sensitized solar cells (QS-DSSC). It shows high liquid electrolyte absorbency and salt tolerance, which are benefits for improving photovoltaic performance of QS-DSSC.",
    "authors": [
     "Zhang Lan",
     "Jihuai Wu",
@@ -4645,7 +4654,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-02-23",
-   "abstract": "",
+   "abstract": "We present an all-oxide solar cell fabricated from vertically oriented zinc oxide nanowires and cuprous oxide nanoparticles. Our solar cell consists of vertically oriented n-type zinc oxide nanowires, surrounded by a film constructed from p-type cuprous oxide nanoparticles. Our solution-based synthesis of inexpensive and environmentally benign oxide materials in a solar cell would allow for the facile production of large-scale photovoltaic devices. We found that the solar cell performance is enhanced with the addition of an intermediate oxide insulating layer between the nanowires and the nanoparticles. This observation of the important dependence of the shunt resistance on the photovoltaic performance is widely applicable to any nanowire solar cell constructed with the nanowire array in direct contact with one electrode.",
    "authors": [
     "Benjamin D. Yuhas",
     "Peidong Yang"
@@ -4662,7 +4671,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-02-23",
-   "abstract": "",
+   "abstract": "Numerical modelling based on random walk methods provides a very versatile tool to describe transport and recombination processes in solar cells made with disordered materials and nanostructured devices. These methods are especially suited to describe these systems since they are characterized by a wide dispersion of spatial and energy states.",
    "authors": [
     "Juan A. Anta"
    ],
@@ -4678,7 +4687,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2009-02-23",
-   "abstract": "",
+   "abstract": "Highly efficient nanoporous TiO2-polythiophene hybrid solar cells are reported. A metal-free organic dye (D102) is employed to modify the TiO2/polythiophene interface. Results indicate dye and interfacial engineering are crucial for highly efficient TiO2/P3HT hybrid solar cells. Detailed facts of importance to specialist readers are published as ”Supporting Information”. Such documents are peer-reviewed, but not copy-edited or typeset. They are made available as submitted by the authors. Please note: The publisher is not responsible for the content or functionality of any supporting information supplied by the authors. Any queries (other than missing content) should be directed to the corresponding author for the article.",
    "authors": [
     "Rui Zhu",
     "Chang‐Yun Jiang",
@@ -4697,7 +4706,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-02-20",
-   "abstract": "",
+   "abstract": "This article reviews photocatalysis for water splitting by various kinds of metal oxides and nitrides such as ferroelectric metal oxides, different kinds of titanates with d0 (Ti4+) electronic configuration as a core metal ion, and various typical metal oxides with d10 (In3+, Ga3+, Ge4+, Sn4+, Sb5+) configuration, and d10 (Ga3+) metal nitride, together with d10s2 (Pb2+) and d0f0 (Ce4+) metal oxides. Ferroelectric metal oxides with single domain structure showed anomalous photovoltaic effects that controlled the behavior of photoexcited electrons. Various metal oxides involving ionic alkaline metal/alkaline earth metal ions showed good correlation between photocatalytic activity and the distortion of octahedral XO6/tetrahedral XO4 (X = core metal ion). When the metal oxides involved covalent metal ions such as Zn2+ and Pb2+, the activity was invoked even in distortion-free structures: this is due to strong electronic effects that affect the band structure. The activity of d10 metal oxides and nitrides is associated with conduction bands of hybridized sp orbitals with large dispersion that are able to generate photoexcited electrons with large mobility. A feature of the photocatalytically active metal oxides and nitrides discovered so far, which is their closed shell electronic structures is discussed.",
    "authors": [
     "Yasunobu Inoue"
    ],
@@ -4713,7 +4722,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2009-02-19",
-   "abstract": "",
+   "abstract": "Through a combination of aberration-corrected HAADF-STEM and the EELS at the atomic level, it is found that added La in CaCu3Ti4O12 is selectively substituted for Ca, rather than Cu. The present study suggests that imaging based on STEM combined with EELS can be utilized as a powerful tool that reveals the atomic-level distribution of cation dopants in complex oxides. Detailed facts of importance to specialist readers are published as ”Supporting Information”. Such documents are peer-reviewed, but not copy-edited or typeset. They are made available as submitted by the authors. Please note: The publisher is not responsible for the content or functionality of any supporting information supplied by the authors. Any queries (other than missing content) should be directed to the corresponding author for the article.",
    "authors": [
     "Si‐Young Choi",
     "Sung‐Yoon Chung",
@@ -4750,7 +4759,7 @@
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2009-02-17",
-   "abstract": "",
+   "abstract": "In this Communication, the following phrase has to be included in the first paragraph of the experimental section on page 330: “The photocurrents were measured with an AM 1.5 simulator (1000 W Oriel Solar Simulators No. 92199A) using a NREL-certified silicon diode for calibration but without correction for spectral mismatch between the silicon cell and the DSSC.”",
    "authors": [
     "Hyunbong Choi",
     "Chul Baik",
@@ -4772,7 +4781,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-02-12",
-   "abstract": "",
+   "abstract": "This work presents polymer photovoltaic devices based on poly(3-hexylthiophene) (P3HT) and TiO2 nanorod hybrid bulk heterojunctions. Interface modification of a TiO2 nanorod surface is conducted to yield a very promising device performance of 2.20% with a short circuit current density (J(sc)) of 4.33 mA/cm2, an open circuit voltage (V(oc)) of 0.78 V, and a fill factor (FF) of 0.65 under simulated A.M. 1.5 illumination (100 mW/cm2). The suppression of recombination at P3HT/TiO2 nanorod interfaces by the attachment of effective ligand molecules substantially improves device performance. The correlation between surface photovoltage and hybrid morphology is revealed by scanning Kelvin probe microscopy. The proposed method provides a new route for fabricating low-cost, environmentally friendly polymer/inorganic hybrid bulk heterojunction photovoltaic devices.",
    "authors": [
     "Yun-Yue Lin",
     "Tsung-Hung Chu",
@@ -4796,7 +4805,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-02-11",
-   "abstract": "",
+   "abstract": "ADVERTISEMENT RETURN TO ISSUEPREVBook ReviewNEXTNanostructured and Photoelectrochemical Systems for Solar Photon ConversionStacey F. BentView Author Information Stanford UniversityCite this: J. Am. Chem. Soc. 2009, 131, 9, 3405–3406Publication Date (Web):February 11, 2009Publication History Published online11 February 2009Published inissue 11 March 2009https://pubs.acs.org/doi/10.1021/ja900723mhttps://doi.org/10.1021/ja900723mbook-reviewACS PublicationsCopyright © 2009 American Chemical SocietyRequest reuse permissionsArticle Views2080Altmetric-Citations1LEARN ABOUT THESE METRICSArticle Views are the COUNTER-compliant sum of full text article downloads since November 2008 (both PDF and HTML) across all institutions and individuals. These metrics are regularly updated to reflect usage leading up to the last few days.Citations are the number of other articles citing this article, calculated by Crossref and updated daily. Find more information about Crossref citation counts.The Altmetric Attention Score is a quantitative measure of the attention that a research article has received online. Clicking on the donut icon will load a page at altmetric.com with additional details about the score and the social media presence for the given article. Find more information on the Altmetric Attention Score and how the score is calculated. Share Add toView InAdd Full Text with ReferenceAdd Description ExportRISCitationCitation and abstractCitation and referencesMore Options Share onFacebookTwitterWechatLinked InRedditEmail Other access optionsGet e-Alertsclose SUBJECTS:Chemical structure,Photoelectrochemistry,Solar cells,Solar energy,Solar energy conversion Get e-Alerts",
    "authors": [
     "Stacey F. Bent"
    ],
@@ -4812,7 +4821,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-02-11",
-   "abstract": "",
+   "abstract": "An oxidative carbonylation reaction that generates acid chloride functionality has been developed. Furthermore, this aminochlorocarbonylation reaction has been merged with a catalytic Friedel-Crafts acylation to produce a highly efficient tandem multicatalytic synthesis of pyrrolidinyl ketones. Significant variation of the aromatic nucleophile and substrate are shown. Two examples of incorporation of this method in triple-catalytic sequences are also demonstrated.",
    "authors": [
     "Tim A. Cernak",
     "Tristan H. Lambert"
@@ -4829,7 +4838,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-02-11",
-   "abstract": "",
+   "abstract": "A TiO(2)/TiSi(2) complex heteronanostructure was synthesized to improve the efficiencies of TiO(2) in photosplitting H(2)O. Photoactive TiO(2) served to convert incident photons into separated charges, and the supporting TiSi(2) nanonet acted as an efficient conductor to transport separated charges. The structural complexity of TiSi(2) also provided a framework of high surface area to enhance photoabsorption. 16.7% peak conversion efficiency was obtained when measured under monochromic UV illuminations. The TiO(2) growth was further explored to extend the absorption to the visible range by incorporating W into TiO(2), and 0.83% efficiency was measured under simulated solar lights.",
    "authors": [
     "Yongjing Lin",
     "Sa Zhou",
@@ -4890,7 +4899,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2009-02-09",
-   "abstract": "",
+   "abstract": "The solar-to-electric power-conversion efficiency (η) of dye-sensitized solar cells can be greatly enhanced by integrating a mesoporous, nanoparticle-based, 1D photonic crystal as a coherent scattering layer in the device. The photogenerated current is greatly improved without altering the open-circuit voltage of the cell, while keeping the transparency of the cell intact. Improved average η values between 15% and 30% are attained. Detailed facts of importance to specialist readers are published as ”Supporting Information”. Such documents are peer-reviewed, but not copy-edited or typeset. They are made available as submitted by the authors. Please note: The publisher is not responsible for the content or functionality of any supporting information supplied by the authors. Any queries (other than missing content) should be directed to the corresponding author for the article.",
    "authors": [
     "Silvia Colodrero",
     "Agustín Mihi",
@@ -4912,7 +4921,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2009-02-09",
-   "abstract": "",
+   "abstract": "The introduction of a thin electronic sieve layer of a material with a wide bandgap, such as lithium fluoride (LiF) or silicon oxide (SiOx), at the inorganic-organic interface of an organic photovoltaic device enhances the charge separation and improves the efficiency by more than an order to a maximum of 6.04%.",
    "authors": [
     "Chien‐Hung Lin",
     "Surojit Chattopadhyay",
@@ -4959,7 +4968,8 @@
    "keywords": [
     "photovoltaic"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Synthesis and Magnetic and Charge-Transport Properties of the Correlated 4d Post-Perovskite CaRhO 3",
@@ -4967,7 +4977,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-02-03",
-   "abstract": "",
+   "abstract": "A high-quality polycrystalline sample of the correlated 4d post-perovskite CaRhO(3) (Rh(4+): 4d(5), S(el) = 1/2) was attained under a moderate pressure of 6 GPa. Since the post-perovskite is quenchable at ambient pressure/temperature, it can be a valuable analogue of the post-perovskite MgSiO(3) (stable higher than 120 GPa and unstable at ambient pressure), which is a significant key material in earth science. The sample was subjected for measurements of charge-transport and magnetic properties. The data clearly indicate it goes into an antiferromagnetically ordered state below approximately 90 K in an unusual way, in striking contrast to what was observed for the perovskite phase. The post-perovskite CaRhO(3) offers future opportunities for correlated electrons science as well as earth science.",
    "authors": [
     "Kazunari Yamaura",
     "Yuichi Shirako",
@@ -4992,7 +5002,7 @@
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2009-01-28",
-   "abstract": "",
+   "abstract": "Isoquinoline ring the changes: A novel strategy for the title reaction involves ortho-haloarylalkynes which undergo sequential intermolecular addition of N heterocycles onto alkynes and subsequent intramolecular ring closure by arylation. The process involves the use of hydroxymethyl benzotriazole as an efficient and inexpensive ligand for the CN and CC coupling reactions.",
    "authors": [
     "Akhilesh Kumar Verma",
     "Tanay Kesharwani",
@@ -5012,7 +5022,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-01-26",
-   "abstract": "",
+   "abstract": "An effective, asymmetric total synthesis of the antitumor antibiotic (-)-okilactomycin (1), as well as assignment of the absolute configuration, has been achieved exploiting a convergent strategy. Highlights of the synthesis include a diastereoselective oxy-Cope rearrangement/oxidation sequence to install the C(1) and C(13) stereogenic centers, a Petasis-Ferrier union/rearrangement to construct the highly functionalized tetrahydropyranone inscribed within the 13-membered macrocycle ring, employing for the first time a sterically demanding acetal, an intramolecular chemoselective acylation to access an embedded bicyclic lactone, and an efficient ring-closing metathesis (RCM) reaction to generate the macrocyclic ring.",
    "authors": [
     "Amos B. Smith",
     "Todd Bosanac",
@@ -5030,7 +5040,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-01-23",
-   "abstract": "",
+   "abstract": "Combining an acid activated precatalyst with a photoacid generator (PAG) in the presence of ultraviolet light resulted in a highly efficient catalyst for olefin metathesis. The tandem system of precatalyst and PAG was capable of both ring closing metathesis (RCM) and ring opening metathesis polymerization (ROMP) in good to excellent conversion. Mechanistic investigations revealed that the catalytically active species is very similar to that of other well-known Ru-based catalysts.",
    "authors": [
     "Benjamin K. Keitz",
     "Robert H. Grubbs"
@@ -5047,7 +5057,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-01-23",
-   "abstract": "",
+   "abstract": "Triruthenium dendrons bearing carboxylic acid substituents at the apex have been evaluated as photosensitizers in dye-sensitized solar cells. The disadvantages of a single carboxylate binding site are partially compensated by the higher charges of the trinuclear dendrons. However, the trinuclear units prove to be ineffective photosenstizers compared to mononuclear model compounds.",
    "authors": [
     "Biljana Bozic-Weber",
     "Edwin C. Constable",
@@ -5067,7 +5077,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2009-01-22",
-   "abstract": "",
+   "abstract": "Inverse crystalline silicon opals (i-cSi-os) in the solid state and hydrogen-plasma passivated are studied, and charge-transport measurements reveal for the first time that their electrical properties are acceptable for device applications. The omnidirectional photonic band gap of i-cSi-os can be uniquely integrated with the semiconductivity of silicon, enhancing their photon-to-electron conversion efficiency. Detailed facts of importance to specialist readers are published as ”Supporting Information”. Such documents are peer-reviewed, but not copy-edited or typeset. They are made available as submitted by the authors. Please note: The publisher is not responsible for the content or functionality of any supporting information supplied by the authors. Any queries (other than missing content) should be directed to the corresponding author for the article.",
    "authors": [
     "Takashi Suezaki",
     "Paul G. O'Brien",
@@ -5088,7 +5098,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-01-13",
-   "abstract": "",
+   "abstract": "Photophysical and photocatalytic properties of A5Nb4O15 (A = Sr and Ba), Ba3LaNb3O12, ALa4Ti4O15 (A = Ca, Sr, and Ba), and La4Ti3O12 with layered perovskite structures, in which a plane in parallel with (111) of a simple perovskite structure was exposed at interlayer, were investigated. These oxides were obtained by a polymerizable complex method at 973–1473 K though only A5Nb4O15 (A = Sr and Ba) were prepared by a solid state reaction even at 1673 K. The shapes of these complex metal oxides were plate-like derived from the perovskite layered structure. These band gaps were estimated to be 3.7–4.1 eV from the onsets of diffuse reflection spectra. These oxides showed photoluminescence at 77 K. These oxides loaded with NiO cocatalysts showed activities for water splitting under UV irradiation. NiOx/BaLa4Ti4O15 and NiOx/Ba5Nb4O15 showed the highest activities among the titanates and niobates tested in the present study. NiOx/BaLa4Ti4O15 and NiOx/Ba5Nb4O15 gave 15% and 17% of quantum yields at 270 nm, respectively. Photocatalytic activities of ALa4Ti4O15 (A = Ca, Sr, and Ba) strongly depended on the alkaline earth metal ion. Pt, Au, Ni, and PbO2 were selectively photodeposited on basal or edge plane of the BaLa4Ti4O15 plate-like powder while these were randomly loaded on CaLa4Ti4O15. It was suggested that this difference in the surface property was the one of the important factors affecting photocatalytic ability for ALa4Ti4O15 (A = Ca, Sr, and Ba).",
    "authors": [
     "Yugo Miseki",
     "Hideki Kato",
@@ -5107,7 +5117,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2009-01-13",
-   "abstract": "",
+   "abstract": "We report on two pairs of platinum acetylide based polymers and model oligomers utilizing a 2,1,3-benzothiadiazole (BTD) acceptor moiety flanked on either side by either 2,5-thienyl donor units (Pt2BTD-Th and p-PtBTD-Th) or (3,4-ethylenedioxy)-2,5-thienyl donors (Pt2BTD-EDOT and p-PtBTD-EDOT). Both oligomer/polymer pairs absorb strongly throughout the visible region; however, because the (ethylenedioxy)thiophene moiety is a stronger donor than thiophene, the latter oligomer/polymer pair has a correspondingly lower band gap and, therefore, harvests light more efficiently at longer wavelengths. p-PtBTD-Th exhibits a relatively narrow molecular weight distribution with a number-average molecular weight (Mn) of 22 kDa, while p-PtBTD-EDOT exhibits a comparable Mn of 33 kDa but has a high polydispersity index likely due to aggregation. We provide a complete report of the photophysical and electrochemical characterization of the two oligomer/polymer pairs. The photophysical studies reveal that the materials undergo relatively efficient intersystem crossing. In a discussion of the energetics of photoinduced electron transfer from the platinum polymers to [6,6]-phenyl C61 butyric acid methyl ester (PCBM), it is noted that while the singlet state is quenched efficiently, the triplet state is not quenched, indicating that charge generation in the photovoltaic materials must ensue from the singlet manifold. Finally, organic photovoltaic devices based on blends of p-PtBDT-Th or p-PtBDT-EDOT with PCBM were characterized under monochromatic and simulated solar (AM1.5) illumination. Optimized devices exhibit an open-circuit voltage (Voc) of approximately 0.5 V, a short-circuit current density (Isc) of approximately 7.2 mA cm(-2), and a fill factor of approximately 35%, which yields overall power conversion efficiencies of 1.1-1.4%.",
    "authors": [
     "Jianguo Mei",
     "Katsu Ogawa",
@@ -5153,7 +5163,7 @@
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2009-01-06",
-   "abstract": "",
+   "abstract": "Biologically-based approaches to large-scale solar power generation promise low cost durable technologies that will exhibit the self-repairing capabilities of photosynthetic organisms1–3 (Basic Research Needs for Solar Energy Utilization, U.S. Department of Energy, Washington DC, 2005; J. Barber and B. Andersson, Trends Biochem. Sci., 1992, 17, 61; A. Huijser et al., J. Phys. Chem. C, 2007, 111, 11726). Most proposed approaches however utilize photosynthetic proteins extracted from organisms4–6 (S. A. Trammell et al., J. Phys. Chem. C, 2007, 111, 17122; R. Das et al., Nano Lett., 2004, 4, 1079; E. Greenbaum, Science, 1985, 230, 1375) and forgo the self-repair capabilities of organisms resulting in short-lived power generation. Beginning with two non-descript graphite electrodes and marine sediment and seawater, we report here a proof-of-concept demonstration of a self-assembling and self-repairing microbial photoelectrochemical solar cell that generates electricity from sunlight7 (S. A. Licht, Nature, 1987, 330, 148). Time records of voltage and current generated by this solar cell reveal a circadian rhythm consistent with a photosynthetic nature. This result supports the interpretation that the electrode reactions are catalyzed by self-maintaining biofilms spontaneously formed on each electrode surface, and that the electrode reactants are photosynthetically regenerated from the electrode products by a self-maintaining spontaneously formed photosynthetic consortium. Our finding suggests a strait-forward approach toward durable biologically-based solar power generation.",
    "authors": [
     "Sumit Malik",
     "Emily Drott",
@@ -5177,7 +5187,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-01-02",
-   "abstract": "",
+   "abstract": "Iridium oxide nanoparticles stabilized by a heteroleptic ruthenium tris(bipyridyl) dye were used as sensitizers in photoelectrochemical cells consisting of a nanocrystalline anatase anode and a Pt cathode. The dye coordinated the IrO(2) x nH(2)O nanoparticles through a malonate group and the porous TiO(2) electrode through phosphonate groups. Under visible illumination (lambda > 410 nm) in pH 5.75 aqueous buffer, oxygen was generated at anode potentials positive of -325 mV vs Ag/AgCl and hydrogen was generated at the cathode. The internal quantum yield for photocurrent generation was ca. 0.9%. Steady-state luminescence and time-resolved flash photolysis/transient absorbance experiments were done to measure the rates of forward and back electron transfer. The low quantum yield for overall water splitting in this system can be attributed to slow electron transfer (approximately 2.2 ms) from IrO(2) x nH(2)O to the oxidized dye. Forward electron transfer does not compete effectively with the back electron transfer reaction from TiO(2) to the oxidized dye, which occurred on a time scale of 0.37 ms.",
    "authors": [
     "W. Justin Youngblood",
     "Seung-Hyun Anna Lee",
@@ -5202,7 +5212,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2009-01-02",
-   "abstract": "",
+   "abstract": "The tandem hydroamination/Meisenheimer rearrangement sequence was developed to address the issue of unfavorable reaction thermodynamics for intermolecular reactions of alkenes and to improve the scope of Cope-type hydroaminations. This tandem sequence allows intermolecular reactions of N-alkyl-N-methallylhydroxyl-amines to be energetically more favorable: the N-oxide intermediate formed via Cope-type hydroamination, which can revert to the starting materials via a Cope elimination, can form a more stable neutral product via a [2,3]-Meisenheimer rearrangement. This tandem sequence also leads to increased efficiency in intramolecular systems as illustrated by syntheses of two alkaloids (coniine and norreticuline) featuring difficult hydroamination key steps.",
    "authors": [
     "Joffré Bourgeois",
     "Isabelle Dion",
@@ -5223,7 +5233,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2009-01-02",
-   "abstract": "",
+   "abstract": "Nitride nanofibers have been synthesized based on a simple electrospinning technique for the first time. No catalysts or templates are needed in this new synthetic method. Highly oriented GaN nanofiber arrays, as well as a high-performance UV photodetector based on single GaN nanofiber assembled FET devices, can be facilely fabricated using this technique. Precise doping of other elements into the GaN nanofibers is easy by this solution-based synthetic method.",
    "authors": [
     "Hui Wu",
     "Yao Sun",
