@@ -1,8 +1,100 @@
 {
  "year": "2026",
- "count": 2113,
- "generated": "2026-07-09 23:17 UTC",
+ "count": 2117,
+ "generated": "2026-07-10 23:03 UTC",
  "papers": [
+  {
+   "title": "Enhancing Sn-Pb perovskite homogeneity via thioether coordination for efficient and stable all-perovskite tandem solar cells | Science Advances",
+   "link": "https://www.science.org/doi/10.1126/sciadv.aeb8790",
+   "journal": "Science Advances",
+   "publisher": "Science",
+   "date": "2026-07-10",
+   "abstract": "Abstract All-perovskite tandem solar cells (TSCs) hold a substantial promise for achieving ultrahigh-efficiency photovoltaics beyond the Shockley-Queisser limit. However, their development has been hampered by challenges associated with a narrow-bandgap tin-lead (Sn-Pb) perovskite subcell. A key issue is inhomogeneous Sn/Pb distribution during crystallization, which generates trap states and accelerates degradation. Here, we introduce a molecular stabilization strategy by using S -allyl- l -cysteine (SALC) as a ligand that preferentially coordinates with tin(II) iodide (SnI 2 ), thereby modulating crystallization kinetics. The strong thioether coordination leads to spatially uniform Sn/Pb distribution, and 3.5-fold reduction in Sn(IV) content due to the reduction capability of functional groups in SALC. Consequently, the resulting Sn-Pb perovskite solar cells achieve a champion power conversion efficiency (PCE) of 22.99% with an exceptional open-circuit voltage of 0.892 V. When integrated into all-perovskite TSCs, a certified PCE of 28.84% (29.44% laboratory-measured) is achieved along with a great improvement in operational stability compared to control devices, retaining nearly 90% of initial PCE after 420 hours of the maximum power point tracking under 1 sun illumination in ambient air.",
+   "authors": [],
+   "doi": "10.1126/sciadv.aeb8790",
+   "keywords": [
+    "narrow-bandgap",
+    "open-circuit voltage",
+    "perovskite",
+    "perovskite solar cells",
+    "photovoltaics",
+    "solar cells",
+    "tandem"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "Atomic-Scale Visualization of Vacancy-Ordered Intermediates and Pathway Selection in the Perovskite-Infinite-Layer Transformation",
+   "link": "https://doi.org/10.1021/jacs.6c08044",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2026-07-10",
+   "abstract": "",
+   "authors": [
+    "Yaolong Xing",
+    "Jinho Byun",
+    "Kyeong Tae Kang",
+    "Jaejin Hwang",
+    "Jaekwang Lee",
+    "Woo Seok Choi",
+    "Sang Ho Oh"
+   ],
+   "doi": "10.1021/jacs.6c08044",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "article",
+   "ab_tried": 1
+  },
+  {
+   "title": "Materials and Device Engineering for Efficient, Stable, and Scalable Monolithic Perovskite/Silicon Tandem Photovoltaics",
+   "link": "https://doi.org/10.1021/acs.chemrev.5c01014",
+   "journal": "Chemical Reviews",
+   "publisher": "ACS",
+   "date": "2026-07-10",
+   "abstract": "",
+   "authors": [
+    "Lorenzo Mardegan",
+    "Ahmed Ali Said",
+    "Anil R. Pininti",
+    "Thomas Allen",
+    "Anand S. Subbiah",
+    "Stefaan De Wolf"
+   ],
+   "doi": "10.1021/acs.chemrev.5c01014",
+   "keywords": [
+    "perovskite",
+    "photovoltaics",
+    "tandem"
+   ],
+   "type": "review",
+   "ab_tried": 1
+  },
+  {
+   "title": "Beyond Homogeneous Models: Intrinsic Halide Gradients Remodel Phase Segregation Pathways in Wide-Bandgap Perovskites",
+   "link": "https://doi.org/10.1021/acsenergylett.6c01537",
+   "journal": "ACS Energy Letters",
+   "publisher": "ACS",
+   "date": "2026-07-10",
+   "abstract": "",
+   "authors": [
+    "Fuyi Zhou",
+    "Haimeng Xin",
+    "Jinghan Zhu",
+    "Yueran Xiang",
+    "Zhongkang Han",
+    "Deren Yang",
+    "Zhenyi Ni"
+   ],
+   "doi": "10.1021/acsenergylett.6c01537",
+   "keywords": [
+    "perovskites",
+    "phase segregation",
+    "wide-bandgap"
+   ],
+   "type": "article",
+   "ab_tried": 1
+  },
   {
    "title": "Dynamic anionic sublattice engineering in perovskite heterostructures for perovskite–silicon tandem solar cells",
    "link": "https://www.nature.com/articles/s44160-026-01111-7",
@@ -81,7 +173,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Triple-junction all-perovskite solar cells with self-assembling hole contacts in all subcells",
@@ -123,7 +215,7 @@
     "triple-junction"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Comparative Analysis of the Defect Landscape of Solution-Processed and Evaporated Lead Halide Perovskite Films",
@@ -148,7 +240,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Sulfonium-Ligand-Regulated Crystallization Interfacial Dynamics Enables Near-Infrared Perovskite Light-Emitting Diodes with 27% EQE",
@@ -176,7 +268,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Aromatic Molecules Control Perovskite Quantum Dot Ripening for Efficient Solar Cells",
@@ -203,7 +295,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Programmable Anomalous Photovoltaics Enabled by Light-Electric Dual-Field Control",
@@ -283,7 +375,8 @@
     "perovskite solar cells",
     "solar cells"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Buried-Interface Engineering Enables Record Flexible Semitransparent Perovskite Solar Cells and 27.7% Flexible Perovskite/Silicon Four-Terminal Tandems",
@@ -4579,7 +4672,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2026-07-01",
-   "abstract": ") of 1.184 V and a fill factor (FF) of 86.05% using antisolvent-free processing. This work exemplifies an efficient route for scalable and rapid exploration of new materials for PSCs.",
+   "abstract": "Numerous interfacial materials have been explored for efficient perovskite solar cells (PSCs). The identification of optimal candidates from the vast chemical space remains a difficult and costly task. Artificial intelligence (AI)-assisted materials screening has emerged as a convenient route to benefit and promote the pace of PSC research. Here, we propose a two-step cascade screening strategy that integrates a contrastive learning-based graph neural network (CLGNN) with a gradient boosting decision tree regressor (GBDTR) to balance high-throughput and predictive accuracy. Among them, CLGNN is a graph contrastive learning model trained on large-scale unlabeled molecular graph topologies, whereas GBDTR is a supervised regression model trained on a manually curated and labeled database. Using CLGNN, we screened one million molecules on a graphics processing unit (GPU) and shortlisted 128 candidates within 10 min. This step substantially reduced the number of molecules requiring subsequent density functional theory (DFT) calculations and experimental validation. We then developed and evaluated multiple regression models based on multidimensional physicochemical descriptors to accurately predict device performance. Two effective buried-interface modifiers, 4,4′-iminodibenzoic acid (4,4′-IDA) and 4,4′-biphenyldicarboxylic acid (4,4′-BA), were selected, which delivered a high-power conversion efficiency of 26.10% with an open-circuit voltage ( V OC ) of 1.184 V and a fill factor (FF) of 86.05% using antisolvent-free processing. This work exemplifies an efficient route for scalable and rapid exploration of new materials for PSCs.",
    "authors": [
     "Guodong Liu",
     "Kaixin Liu",
@@ -6689,7 +6782,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Bioorthogonal Activation of Protein Function through a retro-Cope/Cope Elimination Cascade",
@@ -15858,7 +15951,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Advanced Cobalt‐Free Perovskite Oxide‐Based Air Electrodes for Protonic Ceramic Electrolysis Cells",
@@ -29174,7 +29267,8 @@
     "perovskite solar cells",
     "solar cells"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Dimensional control of low-dimensional perovskite hybrids for photovoltaics",
@@ -34855,7 +34949,7 @@
     "solar cells"
    ],
    "type": "review",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Breaking the efficiency bottleneck of inverted organic solar cells by reversed sequential deposition",
@@ -40212,7 +40306,8 @@
    "keywords": [
     "solar cells"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "The dynamic distribution of genetic tandem amplifications in a heteroresistant Escherichia coli population revealed by ultra-deep long read sequencing",
@@ -41502,7 +41597,8 @@
     "perovskite",
     "solar cells"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Congested Ring‐Fused Perylene Diimide Acceptors With Elevated Triplet Levels Suppressing Non‐Radiative Energy Loss in Organic Solar Cells",
@@ -45643,7 +45739,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Highly Efficient Tandem Electrosynthesis of Dimethyl Carbonate From CO 2",
@@ -53497,7 +53593,7 @@
     "co2 reduction"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "A metastable tetragonal phase in two-dimensional halide perovskite lattices driven by a coherent Higgs mode",
