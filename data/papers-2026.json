@@ -1,8 +1,58 @@
 {
  "year": "2026",
- "count": 2117,
- "generated": "2026-07-10 23:03 UTC",
+ "count": 2119,
+ "generated": "2026-07-11 22:57 UTC",
  "papers": [
+  {
+   "title": "Mesoscale ordered assembly of Er 3+ -doped quantum dots enables efficient 1.55 µm electroluminescence",
+   "link": "https://www.nature.com/articles/s41467-026-75429-3",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-07-11",
+   "abstract": "Efficient 1.55 micrometer light sources are needed for telecom and infrared photonics, but realizing them with perovskite quantum dots is challenging due to bandgap limitations. Li et al. used Er3 + -doping and hydrogen-bonded ordered assembly in CsPbCl3 to enable efficient electroluminescence.",
+   "authors": [
+    "Hua-Hui Li",
+    "Jia-Lin Pan",
+    "Ying-Ying Pan",
+    "Feng Zhao",
+    "Hao-Bo Ren",
+    "Wan-Shan Shen",
+    "Ya-Kun Wang",
+    "Liang-Sheng Liao"
+   ],
+   "doi": "10.1038/s41467-026-75429-3",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "Oxidation-Safe p-Doping of Tin–Lead Perovskites Enabled by an Anion-Anchoring Bifunctional Copolymer",
+   "link": "https://doi.org/10.1021/acsenergylett.6c01287",
+   "journal": "ACS Energy Letters",
+   "publisher": "ACS",
+   "date": "2026-07-11",
+   "abstract": "",
+   "authors": [
+    "ChaeEun Lee",
+    "Jong Chan Shin",
+    "Sang Wook Park",
+    "Dohun Baek",
+    "Seohyeon Ban",
+    "Doyun Kim",
+    "Dongwook Lee",
+    "Dong Gyu Lee",
+    "Tae Kyung Lee",
+    "Minjae Lee",
+    "Min Kim"
+   ],
+   "doi": "10.1021/acsenergylett.6c01287",
+   "keywords": [
+    "perovskites"
+   ],
+   "type": "article",
+   "ab_tried": 1
+  },
   {
    "title": "Enhancing Sn-Pb perovskite homogeneity via thioether coordination for efficient and stable all-perovskite tandem solar cells | Science Advances",
    "link": "https://www.science.org/doi/10.1126/sciadv.aeb8790",
@@ -44,7 +94,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Materials and Device Engineering for Efficient, Stable, and Scalable Monolithic Perovskite/Silicon Tandem Photovoltaics",
@@ -52,7 +102,7 @@
    "journal": "Chemical Reviews",
    "publisher": "ACS",
    "date": "2026-07-10",
-   "abstract": "",
+   "abstract": "Rapid advances in photovoltaic technology have driven its exponential global deployment, establishing solar power as a central pillar of future electricity generation. Among next-generation photovoltaic concepts, perovskite/silicon tandem solar cells offer a compelling pathway to surpass the ∼29.4% efficiency limit of conventional crystalline-silicon devices at manufacturing scale. Laboratory demonstrations have already exceeded this threshold, enabled by innovations in perovskite composition engineering, additive incorporation, interfacial passivation, optimized charge-selective contacts, and improved silicon bottom-cell architectures. This Review provides an integrated overview of perovskite material fundamentals and device-engineering strategies that have propelled these rapid efficiency gains. Emphasis is placed on the interplay between performance, stability, and manufacturability of monolithic perovskite/silicon tandems, outlining key challenges and opportunities that will determine their progression from laboratory prototypes to commercially viable photovoltaic technologies.",
    "authors": [
     "Lorenzo Mardegan",
     "Ahmed Ali Said",
@@ -67,8 +117,7 @@
     "photovoltaics",
     "tandem"
    ],
-   "type": "review",
-   "ab_tried": 1
+   "type": "review"
   },
   {
    "title": "Beyond Homogeneous Models: Intrinsic Halide Gradients Remodel Phase Segregation Pathways in Wide-Bandgap Perovskites",
@@ -76,7 +125,7 @@
    "journal": "ACS Energy Letters",
    "publisher": "ACS",
    "date": "2026-07-10",
-   "abstract": "",
+   "abstract": "Wide-bandgap (WBG) mixed-halide perovskites are highly promising for tandem photovoltaic applications, yet their operational stability remains limited by ion-migration-driven phase segregation. Existing mechanistic understandings on the ion migration dynamics largely rely on idealized homogeneous halide distribution models, overlooking the influence of intrinsic halide concentration gradients. Here, we elucidate the dynamics of halide-gradient-driven ion migration in WBG perovskites, uncovering a pronounced kinetic inversion in the migration energy barriers between I − and Br − that depends on local halide stoichiometry. Driven by the coupled effects of concentration gradients and spatially heterogeneous migration barriers, halide redistribution fundamentally deviates from classical homogenization, culminating in a distinctive “sandwich-like” segregated architecture with I-rich regions at both interfaces and Br-rich domains in the bulk, as directly validated by cross-sectional photoluminescence spectral mapping. Our findings establish a new mechanistic framework for gradient-driven phase segregation and provide actionable insights for designing intrinsically stable WBG perovskites for high-performance tandem photovoltaics.",
    "authors": [
     "Fuyi Zhou",
     "Haimeng Xin",
@@ -92,8 +141,7 @@
     "phase segregation",
     "wide-bandgap"
    ],
-   "type": "article",
-   "ab_tried": 1
+   "type": "article"
   },
   {
    "title": "Dynamic anionic sublattice engineering in perovskite heterostructures for perovskite–silicon tandem solar cells",
@@ -376,7 +424,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Buried-Interface Engineering Enables Record Flexible Semitransparent Perovskite Solar Cells and 27.7% Flexible Perovskite/Silicon Four-Terminal Tandems",
@@ -29268,7 +29316,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Dimensional control of low-dimensional perovskite hybrids for photovoltaics",
@@ -29785,7 +29833,8 @@
     "perovskites",
     "solar cells"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Isomerized Dithienopyrazine‐Based Solid Additive Enables Organic Solar Cells With 20.5% Efficiency",
@@ -31416,7 +31465,8 @@
    "keywords": [
     "solar cells"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Operando Cu Aggregation-Induced Spin State Modulation in Fe–Cu Single Atom Catalyst for Enhanced Tandem Electrochemical Nitrate Reduction Reaction",
@@ -34866,7 +34916,8 @@
    "keywords": [
     "perovskite"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Constructing reverse electric field by buried interfacial heterojunction engineering enables high-performance perovskite X-ray detectors",
@@ -39824,7 +39875,8 @@
     "perovskite solar cells",
     "solar cells"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Carbonyl‐Amine Synergistic Dual‐Site Passivation for Efficient and Stable Wide‐Bandgap Perovskite Solar Cells",
@@ -40307,7 +40359,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "The dynamic distribution of genetic tandem amplifications in a heteroresistant Escherichia coli population revealed by ultra-deep long read sequencing",
@@ -40890,7 +40942,8 @@
     "perovskite solar cells",
     "solar cells"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Dual-molecule reciprocal doping strategy for cathode interfacial materials enables over 20.7% efficiency in organic solar cells",
@@ -40916,7 +40969,8 @@
    "keywords": [
     "solar cells"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Photovoltage‐Driven Two‐Transistor–One‐Diode Perovskite Pixels for In‐Cell Optical Sensing Displays",
@@ -41598,7 +41652,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Congested Ring‐Fused Perylene Diimide Acceptors With Elevated Triplet Levels Suppressing Non‐Radiative Energy Loss in Organic Solar Cells",
@@ -45126,7 +45180,8 @@
     "solar cells",
     "tandem"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Excited State Opto‐Ionic Reservoir Computing in Hybrid Perovskite Electrochemically‐Gated Luminescent Cells",
@@ -48082,7 +48137,8 @@
     "solar cells",
     "tandem"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Ligand Engineering of Ultrasmall CsPbI 3 Quantum Dots via In Situ S N 2 Substitution Enables Bright Rec. 2020 Pure‐Red Perovskite LEDs with Exceptional Current Efficiency",
@@ -48381,7 +48437,8 @@
     "perovskite solar cells",
     "solar cells"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Phonon-driven wavefunction localization enhances room-temperature single-photon purity in large hybrid lead halide perovskite quantum dots",
