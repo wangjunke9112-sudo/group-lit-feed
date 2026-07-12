@@ -1,7 +1,7 @@
 {
  "year": "2026",
  "count": 2119,
- "generated": "2026-07-11 22:57 UTC",
+ "generated": "2026-07-12 22:58 UTC",
  "papers": [
   {
    "title": "Mesoscale ordered assembly of Er 3+ -doped quantum dots enables efficient 1.55 µm electroluminescence",
@@ -9,7 +9,7 @@
    "journal": "Nature Communications",
    "publisher": "Nature",
    "date": "2026-07-11",
-   "abstract": "Efficient 1.55 micrometer light sources are needed for telecom and infrared photonics, but realizing them with perovskite quantum dots is challenging due to bandgap limitations. Li et al. used Er3 + -doping and hydrogen-bonded ordered assembly in CsPbCl3 to enable efficient electroluminescence.",
+   "abstract": "Efficient, electrically driven 1.55 µm light sources are highly desirable for telecom-band emission, on-chip optical sensing, and integrated near-infrared photonics, yet their realization remains a grand challenge. Direct integration of Er3+ into semiconducting perovskite quantum dots (QDs) offers superior potential by enabling intrinsic charge transport, but this pathway is stifled by kinetic barriers that yield polydisperse nanocrystals and random packing, collectively inducing leakage and quenching. Here, we report mesoscale ordering of Er3+-doped CsPbCl3 QDs with efficient 1.55 µm electroluminescence by coupling kinetically controlled synthesis with hydrogen-bonding-directed assembly. Using myristoyl chloride as a slow-release chloride source, we synthesize monodisperse QDs while in-situ generating amide ligands that form interdot N–H···O = C hydrogen-bonding networks. These networks direct assembly into mesoscale ordered assemblies with preferential {100} face-to-face orientation. The resulting architecture yields a record EQE of 3.75% and maximum radiance of 323.31 mW sr−1 m−2, ~10 times higher than the disordered controls, with an operational stability of 197 minutes (~7-fold improvement). This establishes hierarchically ordered semiconductor assemblies as promising candidate for telecom-band optoelectronics. Efficient 1.55 micrometer light sources are needed for telecom and infrared photonics, but realizing them with perovskite quantum dots is challenging due to bandgap limitations. Li et al. used Er3 + -doping and hydrogen-bonded ordered assembly in CsPbCl3 to enable efficient electroluminescence.",
    "authors": [
     "Hua-Hui Li",
     "Jia-Lin Pan",
@@ -32,7 +32,7 @@
    "journal": "ACS Energy Letters",
    "publisher": "ACS",
    "date": "2026-07-11",
-   "abstract": "",
+   "abstract": "Tin–lead perovskites (TLPs) offer near-optimal bandgaps but suffer from spontaneous Sn 2+ oxidation and imbalanced charge transport. Conventional p-dopants improve hole extraction yet exacerbate Sn 2+ oxidation, creating a fundamental design conflict. Here, we resolve this conflict with a bifunctional copolymer additive, poly(pyrrolidinium-Jeffamine) hexafluorophosphate (PPJ-PF 6 ), in which the polypyrrolidinium backbone electrostatically anchors PF 6 − at defect-rich grain boundaries for controlled, non-destructive p-doping, while the Jeffamine polyether segment coordinates and protects Sn 2+ against oxidation. Density functional theory calculations confirm favorable polymer–perovskite binding and show that PF 6 − -induced Fermi-level downshift operates only when the anion is retained within the polymer scaffold. This cooperative mechanism suppresses trap-assisted recombination, improves energy-level alignment, and enhances hole mobility, delivering a champion PCE of 22.8% (from a 21.4% baseline), with unencapsulated devices retaining ∼80% of initial efficiency after 500 h. These results establish a generalizable design principle: bifunctional polymer scaffolds enabling p-doping while protecting the oxidation-sensitive Sn sublattice.",
    "authors": [
     "ChaeEun Lee",
     "Jong Chan Shin",
@@ -50,8 +50,7 @@
    "keywords": [
     "perovskites"
    ],
-   "type": "article",
-   "ab_tried": 1
+   "type": "article"
   },
   {
    "title": "Enhancing Sn-Pb perovskite homogeneity via thioether coordination for efficient and stable all-perovskite tandem solar cells | Science Advances",
@@ -23553,7 +23552,8 @@
     "perovskites",
     "solar cells"
    ],
-   "type": "review"
+   "type": "review",
+   "ab_tried": 1
   },
   {
    "title": "Energetic Offset in Organic Solar Cells‐ Importance, Confusion and Outlook",
@@ -25351,7 +25351,8 @@
    "keywords": [
     "water splitting"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Crystallization modulation of methylammonium-free narrow-bandgap perovskite for thermal-stable all-perovskite tandem solar modules",
@@ -26947,7 +26948,8 @@
     "photovoltaic",
     "solar cells"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "In Situ Interfacial Polymerization Enabling a Dual‐Anchor Surface Binding Interlayer for Efficient and Stable Inverted Perovskite Solar Cells",
@@ -27112,7 +27114,8 @@
     "solar cells",
     "wide-bandgap"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Fully Thermally Evaporated Perovskite Optoelectronic Devices",
@@ -28729,7 +28732,8 @@
    "keywords": [
     "tandem"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "3D electron diffraction—the missing slice completing nanoscale analysis of organic solar cells in TEM",
@@ -29834,7 +29838,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Isomerized Dithienopyrazine‐Based Solid Additive Enables Organic Solar Cells With 20.5% Efficiency",
@@ -30339,7 +30343,8 @@
     "perovskite",
     "perovskites"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "When Poor Exciton Dissociation Limits Photocurrents in Organic Solar Cells: Why Low Offset Non‐Fullerene Acceptor Blends Can't Be Efficient",
@@ -31466,7 +31471,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Operando Cu Aggregation-Induced Spin State Modulation in Fe–Cu Single Atom Catalyst for Enhanced Tandem Electrochemical Nitrate Reduction Reaction",
@@ -34917,7 +34922,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Constructing reverse electric field by buried interfacial heterojunction engineering enables high-performance perovskite X-ray detectors",
@@ -37196,7 +37201,8 @@
    "keywords": [
     "photovoltaic"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Ultrastable Photoactive Halide Perovskite Nanocrystal‐Sensitized SnO 2 Nanorods for Room‐Temperature NO 2 Detection",
@@ -39876,7 +39882,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Carbonyl‐Amine Synergistic Dual‐Site Passivation for Efficient and Stable Wide‐Bandgap Perovskite Solar Cells",
@@ -40943,7 +40949,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Dual-molecule reciprocal doping strategy for cathode interfacial materials enables over 20.7% efficiency in organic solar cells",
@@ -40970,7 +40976,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Photovoltage‐Driven Two‐Transistor–One‐Diode Perovskite Pixels for In‐Cell Optical Sensing Displays",
@@ -45181,7 +45187,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Excited State Opto‐Ionic Reservoir Computing in Hybrid Perovskite Electrochemically‐Gated Luminescent Cells",
@@ -48138,7 +48144,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Ligand Engineering of Ultrasmall CsPbI 3 Quantum Dots via In Situ S N 2 Substitution Enables Bright Rec. 2020 Pure‐Red Perovskite LEDs with Exceptional Current Efficiency",
@@ -48438,7 +48444,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Phonon-driven wavefunction localization enhances room-temperature single-photon purity in large hybrid lead halide perovskite quantum dots",
@@ -49390,7 +49396,8 @@
     "perovskites",
     "solar cells"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Surface Electrostatic Gradient of Perovskite Boosts Metal in Situ Exsolution and CO 2 Electrolysis in Solid Oxide Electrolyzer",
@@ -54456,7 +54463,8 @@
    "keywords": [
     "solar cells"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Multidentate Chelation by Imine‐Linked Covalent Organic Framework Enables High‐Performance Tin‐Based Perovskite Solar Cells",
