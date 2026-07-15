@@ -1,8 +1,114 @@
 {
  "year": "2026",
- "count": 2131,
- "generated": "2026-07-14 23:04 UTC",
+ "count": 2137,
+ "generated": "2026-07-15 23:04 UTC",
  "papers": [
+  {
+   "title": "Opposite and reversible optical switching in soft-lattice halide perovskites using light and heat | Science Advances",
+   "link": "https://www.science.org/doi/10.1126/sciadv.aeb1442",
+   "journal": "Science Advances",
+   "publisher": "Science",
+   "date": "2026-07-15",
+   "abstract": "Abstract Halide perovskites have soft lattices with strong interactions between electronic and structural degrees of freedom, making them promising for next-generation optoelectronics. Recent studies have uncovered their unique photo- and thermally induced optical behavior, yet the potential for dynamic, optical switching remains underexplored. Here, we demonstrate reversible and diametrically opposite optical switching in single-crystal cesium lead bromide (CsPbBr 3 ), driven independently by either above-bandgap illumination or thermal excitation. We measure tunable changes in mid-infrared transmission from 3 to 20 micrometers, exceeding 10% at 20 micrometers, with opposite polarity under light and heat, and modulation times <1 millisecond. This antithetical behavior arises from a polaron-like lattice distortion under illumination (reducing transmission), and from lattice expansion from heating partnered with the material’s negative thermo-optic coefficient (increasing transparency). Our findings establish inorganic halide perovskites as a viable material platform for reconfigurable photonics where transmission can be controlled independently through distinct mechanisms intrinsic to their soft lattices.",
+   "authors": [],
+   "doi": "10.1126/sciadv.aeb1442",
+   "keywords": [
+    "perovskites"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "Low-temperature liquid-assisted vibrational stress-relief strategy enables stable and efficient perovskite solar cells",
+   "link": "https://www.nature.com/articles/s41467-026-75629-x",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-07-15",
+   "abstract": "Perovskite solar cells face defects and interfacial strain that limit efficiency and stability, while standard chemical fixes can add stress. Yang et al. use low-temperature liquid-assisted vibration to remove defects and stress, improving efficiency, durability, and scalability.",
+   "authors": [
+    "Sheng Yang",
+    "Wen Wu",
+    "Peiling Zheng",
+    "Juntao Guo",
+    "Zi Ye",
+    "Chenxin Zhang",
+    "Tao Cheng",
+    "Yonghua Chen",
+    "Wen-Yong Lai"
+   ],
+   "doi": "10.1038/s41467-026-75629-x",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "solar cells"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "Blue LEDs made from perovskite material shine bright thanks to hydrogen bonds",
+   "link": "https://www.nature.com/articles/d41586-026-02161-9",
+   "journal": "Nature",
+   "publisher": "Nature",
+   "date": "2026-07-15",
+   "abstract": "Blue light-emitting diodes (LEDs) are needed for high-definition displays with wide colour range. Efficient, stable and colour-saturated blue LEDs containing emitters made of perovskites have now been fabricated by adding isomeric molecules that generate a network of hydrogen bonds, stabilizing the octahedral structure of the perovskite crystal.",
+   "authors": [],
+   "doi": "10.1038/d41586-026-02161-9",
+   "keywords": [
+    "light-emitting",
+    "perovskite",
+    "perovskites"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "Ultrabright Near-Infrared Lead-Free Perovskite Light-Emitting Diodes with Negligible Efficiency Roll-Off",
+   "link": "https://doi.org/10.1021/jacs.6c05302",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2026-07-15",
+   "abstract": "",
+   "authors": [
+    "Tianjun Liu",
+    "Qichun Gu",
+    "Xinjuan Li",
+    "Yunzhou Deng",
+    "Zhongzheng Yu",
+    "Weidong Xu",
+    "Linfeng Pan",
+    "Zher Ying Ooi",
+    "Yang Lu",
+    "Young-Kwang Jung",
+    "Yuqi Sun",
+    "Alessandro Mirabelli",
+    "Caterina Ducati",
+    "Samuel D. Stranks",
+    "Neil C. Greenham",
+    "Richard H. Friend"
+   ],
+   "doi": "10.1021/jacs.6c05302",
+   "keywords": [
+    "light-emitting",
+    "perovskite"
+   ],
+   "type": "article",
+   "ab_tried": 1
+  },
+  {
+   "title": "Resource articles and the solar cell efficiency tables at Joule",
+   "link": "https://doi.org/10.1016/j.joule.2026.102584",
+   "journal": "Joule",
+   "publisher": "Cell",
+   "date": "2026-07-15",
+   "abstract": "",
+   "authors": [
+    "Andrew Wadsworth"
+   ],
+   "doi": "10.1016/j.joule.2026.102584",
+   "keywords": [
+    "solar cell"
+   ],
+   "type": "article",
+   "ab_tried": 1
+  },
   {
    "title": "Coordinated planning of European charging infrastructure and energy system for optimal V1G and V2G deployment",
    "link": "https://www.nature.com/articles/s41560-026-02107-5",
@@ -56,7 +162,8 @@
     "perovskite solar cells",
     "solar cells"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Electrochemical reactions under reverse bias create additional mobile ions that enable hole tunneling in metal halide perovskite diodes",
@@ -88,7 +195,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Site-dominant quantum-cutting nanocrystals enable silicon photovoltaics exceeding 100% external quantum efficiency",
@@ -120,7 +227,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Competitive Coordination-Driven Phase Evolution toward Phase-Pure Quasi-2D Dion−Jacobson Perovskites with Uniform Quantum Wells",
@@ -128,7 +235,7 @@
    "journal": "ACS Energy Letters",
    "publisher": "ACS",
    "date": "2026-07-14",
-   "abstract": "",
+   "abstract": "Quasi-two-dimensional (quasi-2D) Dion−Jacobson (DJ) perovskites feature bidentate diammonium cations that eliminate van der Waals gaps, providing efficient carrier transport and structural stability. However, aggressive coordination between these spacers and the inorganic framework during crystallization causes disordered quantum well (QW) distributions, severely hindering carrier transport. Herein, we present a competitive coordination-directed phase evolution strategy to achieve phase-pure quasi-2D DJ perovskites with uniform QWs. By introducing dimethylamine as a competitive ligand, Pb 2+ species are effectively captured during the initial wet-film stage, preventing the formation of undesired high-n phases. During subsequent annealing, the controlled release of Pb 2+ species enables stoichiometric reactions with pre-existing low-n phases, resulting in targeted phase-pure DJ perovskites. With the elimination of phase boundaries and a homogeneous energy landscape, our photodetectors demonstrate an impressive on/off ratio of 2.2 × 10 5, high responsivity of 4.32 A W −1, and enhanced stability, establishing a robust kinetic modulation approach for high-performance optoelectronics.",
    "authors": [
     "Jianbo Wu",
     "Siliang Hu",
@@ -148,8 +255,7 @@
    "keywords": [
     "perovskites"
    ],
-   "type": "article",
-   "ab_tried": 1
+   "type": "article"
   },
   {
    "title": "Energy Band Alignment and Interfaces in FAPbI 3 Perovskite Solar Cells: A Hard X-ray Photoelectron Spectroscopy Investigation",
@@ -179,7 +285,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Early-stage local chemistry regulation enabling open-circuit voltage of 847 mV in wide-bandgap Cu 2 ZnSnS 4 solar cells",
@@ -26245,7 +26351,7 @@
     "solar cells"
    ],
    "type": "review",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Synergistic Buried Interface Optimization via Aminothiophenol for Carbon‐Based CsPbI 3 Perovskite Solar Cells With 19.81% Efficiency",
@@ -27805,7 +27911,8 @@
    "keywords": [
     "perovskite"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Ternary organic solar cells: optimizing the third components",
@@ -27824,7 +27931,8 @@
    "keywords": [
     "solar cells"
    ],
-   "type": "review"
+   "type": "review",
+   "ab_tried": 1
   },
   {
    "title": "Suppression of Interfacial Loss Pathways at Self-Assembled Molecular Hole Transport Layers in Perovskite Solar Cells",
@@ -32285,6 +32393,31 @@
    "ab_tried": 2
   },
   {
+   "title": "Simulation-assisted optimization and upscaling of organic photovoltaics: From small cells to large-area modules",
+   "link": "https://doi.org/10.1016/j.joule.2026.102398",
+   "journal": "Joule",
+   "publisher": "Cell",
+   "date": "2026-03-31",
+   "abstract": "In this work, we present the systematic upscaling of fully solution-processed poly[(2,6-(4,8-bis(5-(2-ethylhexyl-3-fluoro)thiophen-2-yl)-benzo[1,2-b:4,5-b′]dithiophene))-alt-(5,5-(1′,3′-di-2-thienyl-5′,7′-bis(2-ethylhexyl)benzo[1′,2′-c:4′,5′-c′] dithiophene-4,8-dione)] (PM6):2,2′-((2Z,2′Z)-((12,13-bis(2-butyloctyl)-3,9-diundecyl-12,13-dihydro-[1,2,5]thiadiazolo[3,4e]thieno [2″,3″:4′,5′]thieno[2′,3′:4,5]pyrrolo[3,2-g]thieno[2′,3′:4,5]thieno[3,2-b]indole-2,10-diyl)bis(methanylylidene))bis(5,6-difluoro-3-oxo-2,3-dihydro-1H-indene-2,1-diylidene))dimalononitrile (Y6-C12):[6,6]-phenyl-C61-butyric acid methyl ester (PC 61 BM) devices processed in ambient air from non-halogenated solvents by a scalable blade-coating process. The developed layer stack contains a silver nanowire top electrode and provides excellent light stability, with 88.4% power conversion efficiency (PCE) retention after 2,530 h of illumination and an extrapolated T 80 lifetime of >20,000 h. Computer simulation-assisted stack and layout optimizations lead to 1 cm² champion cell efficiencies of 15.9% with evaporated silver (opaque) and 11.5% with silver nanowires (semitransparent). Finite element method (FEM) simulations were used to optimize the layout of the large-area modules by minimizing inevitable losses caused by the electrodes' resistivity and inactive interconnect areas. Finally, fully printed, semitransparent modules with a champion PCE of 9.8% on >200 cm² (10.3% on active area) are demonstrated.",
+   "authors": [
+    "Robin Basu",
+    "Fabian Gumpert",
+    "Jan Lohbreier",
+    "Josua Wachsmuth",
+    "Aral Karahan",
+    "Max Bibrack",
+    "Karen Forberich",
+    "Hans-Joachim Egelhaaf",
+    "Andreas Distler",
+    "Christoph J. Brabec"
+   ],
+   "doi": "10.1016/j.joule.2026.102398",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "article"
+  },
+  {
    "title": "3D imaging-informed electrode engineering for water splitting",
    "link": "https://doi.org/10.1039/d6ee00290k",
    "journal": "Energy & Environmental Science",
@@ -34911,7 +35044,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Pancake‐Like Surface Halide‐Fluorothiolate‐Enriched Au 12 Ag 30 Nanoclusters for Defect Passivation and Moisture Shielding in Perovskite Solar Cells",
@@ -35383,7 +35516,8 @@
    "keywords": [
     "solar cells"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Unveiling the Polar‐Solvent Stability of Heterovalent Metal Cation‐Substituted Perovskite Derivative for Promoting Photocatalytic Ethanol Dehydrogenation",
@@ -35710,7 +35844,8 @@
     "tandem",
     "wide-bandgap"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "The long road to outdoor stability: real-world challenges for controlling perovskite materials for solar cells",
@@ -37939,7 +38074,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Synergistic regulation of crystallization and the buried interface in Cs x FA 1− x PbI 3 perovskite photovoltaics using a multifunctional sulfonyl–ammonium additive",
@@ -37972,7 +38107,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "In‐Situ Exsolving Silver Nano‐islands on High‐Entropy Perovskites for Energy‐Efficient Coupled Nitrate Reduction and Sulfide Oxidation",
@@ -38386,7 +38521,8 @@
    "keywords": [
     "perovskite"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Ultra‐Sensitive Neutron Detection Using Hybrid Perovskite Single Crystals With High‐Z Doping and Band‐Aligned Heterostructure",
@@ -39819,7 +39955,8 @@
     "tandem",
     "wide-bandgap"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Sulfur‐Modulated Fully‐Conjugated Self‐Assembled Monolayers for Synergistic Dual‐Interface Optimization in Inverted Perovskite Solar Cells",
@@ -40399,7 +40536,8 @@
    "keywords": [
     "perovskites"
    ],
-   "type": "review"
+   "type": "review",
+   "ab_tried": 1
   },
   {
    "title": "A Water-Dispersible Perovskite-Magnetic Nanocomposite Platform for Efficient Dual-Modal Fluorescence/MR Imaging",
@@ -42803,7 +42941,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Achieving a Record Fill Factor of Approaching 84% and 21% Efficiency in Binary Organic Solar Cells via Solid Additive Engineering",
@@ -46385,7 +46523,7 @@
     "solar cells"
    ],
    "type": "review",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Single‐Chromophore Homojunction Organic Solar Cells: A Path to Simplicity and Efficiency",
@@ -47459,7 +47597,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Dynamic Iodide Regeneration Enabled by Piperazine‐Tailored PCBM Interfaces for Photothermally Stable and Efficient Inverted Perovskite Photovoltaics",
@@ -49725,7 +49863,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Chemical bridging in a 2D/3D heterojunction via dual-anchoring functionalized molecules for efficient, stable and flexible perovskite solar cells",
@@ -51655,7 +51793,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Hydrogen-bond-driven synergistic regulation of crystallization and interfacial coupling in 1.85 eV wide-bandgap perovskites for high-performance organic tandem solar cells",
@@ -51682,7 +51820,7 @@
     "wide-bandgap"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Triple‐Functional Hydrazide‐Based Modifier for Self‐Assembled Monolayers/Perovskite to Obtain 26.29%‐Efficiency Inverted MA‐Free Perovskite Solar Cells",
@@ -52155,7 +52293,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Perovskite Fluoride Anode Stabilized via Ligand‐Field Engineering for High‐Performance Lithium‐Ion Batteries",
@@ -53023,7 +53161,8 @@
     "tandem",
     "wide-bandgap"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Correction: Atmospheric-moisture-driven evaporative cooling and concurrent hydrovoltaic energy harvesting in photovoltaic panels",
@@ -53734,7 +53873,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Chemo‑Electrochemical Tandem Catalysis Unlocking Sulfur Reaction in Practical Lithium–Sulfur Batteries",
