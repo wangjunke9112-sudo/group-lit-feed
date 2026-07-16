@@ -1,0 +1,43 @@
+name: Fill OpenAlex types (one-time sweep)
+# Manual only. Caches OpenAlex 'type' onto every archive paper (newest first),
+# re-derives article/review/comment, and rewrites the data. Does NOT fetch feeds.
+# Resumable: if it doesn't finish, just run it again until "still to try" is 0.
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max papers to fill this run (blank = all remaining)"
+        required: false
+        default: ""
+permissions:
+  contents: write
+jobs:
+  fill-types:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Fill OpenAlex types
+        env:
+          OPENALEX_KEY: ${{ secrets.OPENALEX_KEY }}
+        run: |
+          if [ -n "${{ inputs.limit }}" ]; then
+            python aggregate.py --fill-oa-types ${{ inputs.limit }}
+          else
+            python aggregate.py --fill-oa-types
+          fi
+      - name: Commit data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Fill OpenAlex types: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
