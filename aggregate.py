@@ -559,6 +559,10 @@ IMPORTANT_FALLBACK_JOURNALS = {
     "Journal of the American Chemical Society", "Chemical Reviews",
     "Accounts of Chemical Research", "ACS Energy Letters",
     "ACS Applied Materials & Interfaces", "Joule", "Matter",
+    # Wiley now 403-blocks GitHub's servers too -> recover via Crossref by ISSN.
+    "Advanced Materials", "Advanced Energy Materials",
+    "Advanced Functional Materials", "Angewandte Chemie Int. Ed.",
+    "Small", "Small Methods",
 }
 
 
