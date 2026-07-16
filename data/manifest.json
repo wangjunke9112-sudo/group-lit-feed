@@ -1,6 +1,6 @@
 {
- "generated": "2026-07-15 23:04 UTC",
- "count": 29779,
+ "generated": "2026-07-16 13:30 UTC",
+ "count": 29864,
  "years": [
   "2026",
   "2025",
@@ -22,7 +22,7 @@
   "2009"
  ],
  "year_counts": {
-  "2026": 2137,
+  "2026": 2222,
   "2025": 3653,
   "2024": 3450,
   "2023": 2736,
@@ -73,7 +73,7 @@
   {
    "journal": "Nature Synthesis",
    "found": 8,
-   "kept": 1,
+   "kept": 0,
    "error": null,
    "note": null
   },
@@ -94,14 +94,14 @@
   {
    "journal": "Nature Nanotechnology",
    "found": 8,
-   "kept": 0,
+   "kept": 1,
    "error": null,
    "note": null
   },
   {
    "journal": "Nature Communications",
    "found": 8,
-   "kept": 1,
+   "kept": 0,
    "error": null,
    "note": null
   },
@@ -149,10 +149,10 @@
   },
   {
    "journal": "Journal of the American Chemical Society",
-   "found": 5,
-   "kept": 5,
+   "found": 4,
+   "kept": 4,
    "error": null,
-   "note": "RSS failed; Crossref fallback recovered 5 relevant paper(s)"
+   "note": "RSS failed; Crossref fallback recovered 4 relevant paper(s)"
   },
   {
    "journal": "Chemical Reviews",
@@ -170,10 +170,10 @@
   },
   {
    "journal": "ACS Energy Letters",
-   "found": 28,
-   "kept": 28,
+   "found": 29,
+   "kept": 29,
    "error": null,
-   "note": "RSS failed; Crossref fallback recovered 28 relevant paper(s)"
+   "note": "RSS failed; Crossref fallback recovered 29 relevant paper(s)"
   },
   {
    "journal": "ACS Applied Materials & Interfaces",
@@ -198,45 +198,45 @@
   },
   {
    "journal": "Advanced Materials",
-   "found": 0,
-   "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/feed/15214095/most-recent",
-   "note": null
+   "found": 23,
+   "kept": 23,
+   "error": null,
+   "note": "RSS failed; Crossref fallback recovered 23 relevant paper(s)"
   },
   {
    "journal": "Advanced Energy Materials",
-   "found": 0,
-   "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/feed/16146840/most-recent",
-   "note": null
+   "found": 20,
+   "kept": 20,
+   "error": null,
+   "note": "RSS failed; Crossref fallback recovered 20 relevant paper(s)"
   },
   {
    "journal": "Advanced Functional Materials",
-   "found": 0,
-   "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/feed/16163028/most-recent",
-   "note": null
+   "found": 16,
+   "kept": 16,
+   "error": null,
+   "note": "RSS failed; Crossref fallback recovered 16 relevant paper(s)"
   },
   {
    "journal": "Angewandte Chemie Int. Ed.",
-   "found": 0,
-   "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/feed/15213773/most-recent",
-   "note": null
+   "found": 16,
+   "kept": 16,
+   "error": null,
+   "note": "RSS failed; Crossref fallback recovered 16 relevant paper(s)"
   },
   {
    "journal": "Small",
-   "found": 0,
-   "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/feed/16136829/most-recent",
-   "note": null
+   "found": 16,
+   "kept": 16,
+   "error": null,
+   "note": "RSS failed; Crossref fallback recovered 16 relevant paper(s)"
   },
   {
    "journal": "Small Methods",
-   "found": 0,
-   "kept": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://onlinelibrary.wiley.com/feed/23669608/most-recent",
-   "note": null
+   "found": 11,
+   "kept": 11,
+   "error": null,
+   "note": "RSS failed; Crossref fallback recovered 11 relevant paper(s)"
   },
   {
    "journal": "Science",
