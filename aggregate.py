@@ -218,6 +218,28 @@ def fetch_openalex_abstract(doi):
     return ""
 
 
+def fetch_openalex_type(doi):
+    """Return OpenAlex's work 'type' for a DOI (e.g. 'article', 'review',
+    'editorial'), lowercased, or '' if unavailable. This is the authoritative
+    signal for the article-vs-review distinction."""
+    key = os.environ.get("OPENALEX_KEY", "")
+    if not key:
+        return ""
+    try:
+        import requests
+        params = {"select": "type", "api_key": key}
+        mail = SETTINGS.get("crossref_mailto", "")
+        if mail and "example.com" not in mail:
+            params["mailto"] = mail
+        r = requests.get("https://api.openalex.org/works/doi:" + doi,
+                         params=params, headers=_ab_headers(), timeout=30)
+        if r.status_code == 200:
+            return (r.json().get("type") or "").strip().lower()
+    except Exception:
+        pass
+    return ""
+
+
 def fetch_semanticscholar_abstract(doi):
     key = os.environ.get("S2_API_KEY", "")
     if not key:
@@ -417,19 +439,80 @@ REVIEW_JOURNALS = {
     "Accounts of Chemical Research",
 }
 _COMMENT_RE = re.compile(
-    r"\b(comment on|reply to|matters arising|correspondence|rejoinder|editorial)\b", re.I)
-_REVIEW_RE = re.compile(r"\b(review|perspective|roadmap|primer)\b", re.I)
+    r"\b(comment on|reply to|matters arising|correspondence|rejoinder|editorial|"
+    r"retraction|corrigendum|erratum|addendum)\b", re.I)
+# Strong review signals in a TITLE (high precision; multi-word phrases avoid
+# catching research articles that merely use a word like "advances").
+_REVIEW_TITLE_RE = re.compile(
+    r"\b(review|perspective|roadmap|primer|overview|survey|"
+    r"state[- ]of[- ]the[- ]art|"
+    r"recent (advances|progress|developments|trends)|"
+    r"advances and (challenges|prospects|opportunities)|"
+    r"progress and (challenges|prospects|perspectives)|"
+    r"challenges and (opportunities|prospects|perspectives)|"
+    r"opportunities and challenges)\b", re.I)
+# Strong review signals in an ABSTRACT (catches reviews whose title gives no
+# hint, e.g. "Choose Your Own Adventure: Fabrication of ...").
+_REVIEW_ABSTRACT_RE = re.compile(
+    r"\b(in this review|we review|this review (article|summari|provides|covers|focuses)|"
+    r"here,? we review|we (comprehensively |critically |briefly )?review|"
+    r"we summari[sz]e (recent|the current|the latest)|"
+    r"in this perspective|this perspective (article|discusses|provides)|"
+    r"we provide (a comprehensive |an )?overview|comprehensive overview of|"
+    r"an overview of recent|this article reviews|we survey)\b", re.I)
 
 
-def classify_type(title, journal, hint=""):
+def classify_type(title, journal, hint="", abstract=""):
     text = (title or "") + " " + (hint or "")
     if _COMMENT_RE.search(text):
         return "comment"
     if journal in REVIEW_JOURNALS:
         return "review"
-    if _REVIEW_RE.search(text):
+    if _REVIEW_TITLE_RE.search(text):
+        return "review"
+    if abstract and _REVIEW_ABSTRACT_RE.search(abstract):
         return "review"
     return "article"
+
+
+# ---- Authoritative type via OpenAlex, with heuristic fallback -----------------
+# OpenAlex publishes a metadata-derived work 'type'. We trust it for the
+# article-vs-review distinction and map it to our three buckets. When OpenAlex
+# has no usable type for a paper, we fall back to the text heuristics above.
+_OA_TYPE_MAP = {
+    "review": "review",
+    "editorial": "comment", "erratum": "comment", "corrigendum": "comment",
+    "paratext": "comment", "letter": "article", "article": "article",
+    "preprint": "article", "book-chapter": "article", "report": "article",
+}
+
+
+def map_oa_type(oa_type):
+    """Map an OpenAlex type string to our bucket, or None if unknown/blank."""
+    return _OA_TYPE_MAP.get((oa_type or "").strip().lower())
+
+
+def derive_type(paper):
+    """Resolve a paper's type. Precedence:
+      1. An unambiguous comment/correction in the TITLE always wins.
+      2. OpenAlex 'type' (paper['oa_type']) is authoritative for review vs article.
+      3. Otherwise fall back to the text heuristics -- but while OpenAlex has not
+         yet been consulted, never DOWNGRADE an existing review/comment (so we do
+         not briefly hide a known review); OpenAlex may later correct it either way.
+    """
+    title = paper.get("title", "")
+    journal = paper.get("journal", "")
+    abstract = paper.get("abstract", "")
+    if _COMMENT_RE.search(title or ""):
+        return "comment"
+    mapped = map_oa_type(paper.get("oa_type"))
+    if mapped:
+        return mapped  # authoritative
+    cur = paper.get("type", "article")
+    heuristic = classify_type(title, journal, "", abstract)
+    if cur in ("review", "comment") and heuristic == "article":
+        return cur     # preserve until OpenAlex confirms or denies
+    return heuristic
 
 
 # ---- Relevance evaluation + pending re-check pool -----------------------------
@@ -450,7 +533,7 @@ def _build_record(title, link, journal, publisher, date, abstract, authors, doi,
     return {
         "title": title, "link": link, "journal": journal, "publisher": publisher,
         "date": date, "abstract": abstract, "authors": authors, "doi": doi,
-        "keywords": hits, "type": classify_type(title, journal, hint),
+        "keywords": hits, "type": classify_type(title, journal, hint, abstract),
     }
 
 
@@ -761,7 +844,7 @@ def merge(existing, fresh, start_date):
     return merged
 
 
-def write_archive(papers, report, data_dir=DATA_DIR):
+def write_archive(papers, report=None, data_dir=DATA_DIR):
     os.makedirs(data_dir, exist_ok=True)
     generated = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     by_year = {}
@@ -772,16 +855,63 @@ def write_archive(papers, report, data_dir=DATA_DIR):
         with open(os.path.join(data_dir, f"papers-{year}.json"), "w", encoding="utf-8") as fh:
             json.dump({"year": year, "count": len(items), "generated": generated,
                        "papers": items}, fh, ensure_ascii=False, indent=1)
+    if report is None:
+        # Types-only pass: keep the last run's feed statuses instead of blanking them.
+        try:
+            with open(os.path.join(data_dir, "manifest.json"), "r", encoding="utf-8") as fh:
+                feeds = json.load(fh).get("feeds", [])
+        except Exception:
+            feeds = []
+    else:
+        feeds = [{"journal": r["journal"], "found": r["found"], "kept": r["kept"],
+                  "error": r["error"], "note": r.get("note")} for r in report]
     manifest = {
         "generated": generated, "count": len(papers),
         "years": sorted(by_year.keys(), reverse=True),
         "year_counts": {y: len(v) for y, v in sorted(by_year.items(), reverse=True)},
-        "feeds": [{"journal": r["journal"], "found": r["found"], "kept": r["kept"],
-                   "error": r["error"], "note": r.get("note")} for r in report],
+        "feeds": feeds,
     }
     with open(os.path.join(data_dir, "manifest.json"), "w", encoding="utf-8") as fh:
         json.dump(manifest, fh, ensure_ascii=False, indent=1)
     return manifest
+
+
+def reclassify_types(papers):
+    """Recompute every paper's 'type' via derive_type (OpenAlex-authoritative,
+    heuristic fallback). Offline and fast once OpenAlex types are cached on the
+    records. Type-only and reversible -- it touches nothing but the 'type' field
+    and is recomputed each run, so it self-corrects as OpenAlex data fills in.
+    Returns the count changed this pass."""
+    changed = 0
+    for p in papers:
+        new = derive_type(p)
+        if new != p.get("type"):
+            p["type"] = new
+            changed += 1
+    return changed
+
+
+def fill_openalex_types(papers, limit, max_tries=2):
+    """Cache OpenAlex's 'type' onto records that lack it, NEWEST papers first
+    (so the recent feed your students browse becomes authoritative quickly).
+    Bounded per run; an 'oa_type_tried' counter skips dead ends after max_tries.
+    Returns the count filled."""
+    targets = [p for p in papers
+               if p.get("doi", "").startswith("10.")
+               and not p.get("oa_type")
+               and int(p.get("oa_type_tried", 0)) < max_tries]
+    targets.sort(key=lambda p: p.get("date", ""), reverse=True)  # newest first
+    filled = 0
+    for p in targets[:limit]:
+        t = fetch_openalex_type(p["doi"])
+        if t:
+            p["oa_type"] = t
+            p.pop("oa_type_tried", None)
+            filled += 1
+        else:
+            p["oa_type_tried"] = int(p.get("oa_type_tried", 0)) + 1
+        time.sleep(0.1)
+    return filled
 
 
 def topup_abstracts(papers, limit, min_len=300, max_tries=2):
@@ -835,16 +965,27 @@ def run():
 
     daily_cap = SETTINGS.get("daily_abstract_topup", 300)
     filled = topup_abstracts(papers, limit=daily_cap) if daily_cap else 0
+
+    # Cache OpenAlex's authoritative 'type' onto records (newest first, bounded),
+    # then re-derive every paper's type from it (heuristic fallback where OpenAlex
+    # has nothing yet). Type-only and reversible.
+    oa_cap = SETTINGS.get("daily_oa_type_fill", 800)
+    oa_filled = fill_openalex_types(papers, limit=oa_cap) if oa_cap else 0
+    reclassified = reclassify_types(papers)
+
     manifest = write_archive(papers, report)
 
     new_count = len({_key(r) for r in fresh} - {_key(r) for r in existing})
     ok = sum(1 for r in report if r["error"] is None)
     missing = sum(1 for p in papers if abstract_needs_topping_up(p.get("abstract") or ""))
+    typed = sum(1 for p in papers if p.get("oa_type"))
     print("-" * 60)
     print(f"Feeds OK: {ok}/{len(report)} | new this run: {new_count} "
           f"| archive total: {manifest['count']} (since {start})")
     print(f"Abstracts topped up: {filled} | still missing/short: {missing} "
           f"| promoted from pending: {len(promoted)} | pending pool: {len(pending_final)}")
+    print(f"OpenAlex types filled: {oa_filled} (cached total {typed}/{manifest['count']}) "
+          f"| types reclassified this run: {reclassified}")
     print("By year: " + ", ".join(f"{y}:{c}" for y, c in manifest["year_counts"].items()))
     print(f"Wrote {DATA_DIR}/papers-YYYY.json + manifest.json")
 
@@ -951,14 +1092,81 @@ def selftest():
     g["fetch_abstract_fast"] = real
 
     assert clean_text("<p>Hello&nbsp;<b>world</b></p>") == "Hello world"
+
+    # --- paper-type classification (title + abstract) ---
+    assert classify_type("Perovskite Solar Cells for Space Applications: Progress and Challenges", "Advanced Materials") == "review"
+    assert classify_type("Recent Advances in Wide-Bandgap Perovskite Solar Cells", "Advanced Energy Materials") == "review"
+    assert classify_type("Halide Perovskites for Photovoltaics: A Review", "Small") == "review"
+    assert classify_type("State-of-the-Art Passivation of Perovskite Interfaces", "Advanced Materials") == "review"
+    assert classify_type("Choose Your Own Adventure: Fabrication of Tandem Photovoltaics",
+                         "Advanced Materials", "",
+                         "Here, we review the fabrication of monolithic all-perovskite "
+                         "tandem photovoltaics and summarise recent progress in the field.") == "review"
+    assert classify_type("Monolithic All-Perovskite Tandem Solar Cells with Minimized Optical and Energetic Losses", "Advanced Materials") == "article"
+    assert classify_type("Highly Efficient Perovskite-Perovskite Tandem Solar Cells Reaching 80% of the Theoretical Limit in Photovoltage", "Advanced Materials") == "article"
+    assert classify_type("Barrier-Free Cathode Contacts for High-Efficiency Inverted Carbon-Perovskite Solar Cells", "Advanced Energy Materials") == "article"
+    assert classify_type("Anything at all", "Chemical Society Reviews") == "review"
+    pp = [{"title": "A plain research paper on solar cells", "journal": "Advanced Materials",
+           "abstract": "We fabricate a device.", "type": "review"},
+          {"title": "Perovskites: Progress and Challenges", "journal": "Advanced Materials",
+           "abstract": "", "type": "article"}]
+    n = reclassify_types(pp)
+    assert n == 1 and pp[0]["type"] == "review" and pp[1]["type"] == "review", pp
+
+    # --- OpenAlex authoritative type (article vs review) ---
+    assert map_oa_type("review") == "review"
+    assert map_oa_type("article") == "article"
+    assert map_oa_type("editorial") == "comment"
+    assert map_oa_type("") is None and map_oa_type("weird-unknown") is None
+    # OpenAlex authoritatively marks a review the heuristics would miss:
+    p_oa_rev = {"title": "Choose Your Own Adventure: Fabrication of Tandems",
+                "journal": "Advanced Materials", "abstract": "We fabricate devices.",
+                "type": "article", "oa_type": "review"}
+    assert derive_type(p_oa_rev) == "review"
+    # OpenAlex authoritatively marks an ARTICLE even if the title looks review-ish,
+    # so a genuine research paper is not hidden from the article view:
+    p_oa_art = {"title": "Recent Advances Enable a Record-Efficiency Tandem Cell",
+                "journal": "Advanced Materials", "abstract": "",
+                "type": "review", "oa_type": "article"}
+    assert derive_type(p_oa_art) == "article", derive_type(p_oa_art)
+    # No OpenAlex yet -> heuristic fallback, but never downgrade a known review:
+    p_nooa = {"title": "A plain device paper", "journal": "Advanced Materials",
+              "abstract": "We fabricate.", "type": "review"}
+    assert derive_type(p_nooa) == "review"
+    # reclassify applies OpenAlex authoritatively (can now downgrade a mislabel):
+    pp2 = [{"title": "Looks like a review: Progress and Challenges",
+            "journal": "Advanced Materials", "abstract": "", "type": "review",
+            "oa_type": "article"}]
+    reclassify_types(pp2)
+    assert pp2[0]["type"] == "article", pp2
+
     print("All self-tests passed.")
 
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Build the group literature feed.")
     ap.add_argument("--selftest", action="store_true", help="run offline logic tests")
+    ap.add_argument("--fill-oa-types", nargs="?", type=int, const=100000, default=None,
+                    metavar="N",
+                    help="one-time: cache OpenAlex 'type' for up to N archive papers "
+                         "(newest first), re-derive types, and rewrite. Resumable; "
+                         "run again to continue. Does not fetch feeds.")
     args = ap.parse_args()
     if args.selftest:
         selftest()
+    elif args.fill_oa_types is not None:
+        print(f"Filling OpenAlex types for up to {args.fill_oa_types} paper(s)...")
+        papers = load_archive()
+        oa_filled = fill_openalex_types(papers, limit=args.fill_oa_types)
+        reclassified = reclassify_types(papers)
+        typed = sum(1 for p in papers if p.get("oa_type"))
+        manifest = write_archive(papers)  # report=None -> preserve feed statuses
+        remaining = sum(1 for p in papers
+                        if p.get("doi", "").startswith("10.") and not p.get("oa_type")
+                        and int(p.get("oa_type_tried", 0)) < 2)
+        print(f"OpenAlex types filled: {oa_filled} "
+              f"(cached total {typed}/{manifest['count']}) | "
+              f"types changed: {reclassified} | still to try: {remaining}")
+        print("Run again to continue if 'still to try' is > 0.")
     else:
         run()
