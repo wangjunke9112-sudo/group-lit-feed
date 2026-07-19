@@ -23,6 +23,8 @@ jobs:
         env:
           OPENALEX_KEY: ${{ secrets.OPENALEX_KEY }}
         run: python aggregate.py
+      - name: 生成静态页
+        run: python -u make_plain.py
       - name: Commit data
         run: |
           git config user.name  "github-actions[bot]"
