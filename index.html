@@ -413,10 +413,24 @@ function parseQuery(raw){
 // "wide-bandgap" finds "wide bandgap", "multijunction" finds "multi-junction".
 function normSpace(s){ return s.toLowerCase().replace(/[\u2010-\u2015\-]/g," ").replace(/\s+/g," ").trim(); }
 function compact(s){ return s.toLowerCase().replace(/[\u2010-\u2015\-\s]/g,""); }
+// Author-name matching: fold accents so "Rene" finds "René", and tolerate middle
+// initials so "Henry Snaith" finds "Henry J. Snaith" (and vice versa).
+function foldAccents(s){ return (s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,""); }
+function normName(s){ return normSpace(foldAccents(s)); }
+function reEsc(s){ return s.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"); }
+function authorPattern(term){
+  // Words of 2+ letters only, so typed initials ("J.") don't have to be present.
+  const toks=((normName(term).match(/[a-z0-9]+/g))||[]).filter(t=>t.length>1);
+  if(toks.length<2) return null;               // single words already match normally
+  // "henry snaith" -> henry [up to 3 short initial-like tokens] snaith
+  return new RegExp("(?:^|[^a-z])"+toks.map(reEsc).join("(?:\\s+[a-z]{1,2}\\.?){0,3}\\s+")+"(?![a-z])","i");
+}
 function ensureHay(p){
   if(p._hn===undefined){
-    const raw=p.title+" "+p.abstract+" "+p.journal+" "+(p.authors||[]).join(" ")+" "+(p.keywords||[]).join(" ");
+    const names=splitAuthors(p.authors);
+    const raw=p.title+" "+p.abstract+" "+p.journal+" "+names.join(" ")+" "+(p.keywords||[]).join(" ");
     p._hn=normSpace(raw); p._hc=compact(raw);
+    p._ha=normName(names.join(" ; "));         // ";" stops matches spanning two authors
   }
   return p;
 }
@@ -426,6 +440,8 @@ function termHit(p,term){
   if(p._hn.includes(tn) || p._hc.includes(tc)) return true;
   if(tn.endsWith("s") && tn.length>3 &&            // tolerate a typed plural
      (p._hn.includes(tn.slice(0,-1)) || p._hc.includes(tc.slice(0,-1)))) return true;
+  const re=authorPattern(term);                    // initial-tolerant author match
+  if(re && re.test(p._ha||"")) return true;
   return false;
 }
 
