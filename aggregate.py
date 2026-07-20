@@ -1237,8 +1237,25 @@ def why_missing(journal, days=30, rows=200):
             stored[d] = p
     pending_dois = {normalise_doi(x.get("doi", "")) for x in load_pending()}
 
+    # Probe each ISSN three ways so a wrong ISSN, a date-filter problem and a
+    # blocked/failed request cannot be confused with "nothing published".
     items = []
+    print(f"ISSN probe for {journal} (cutoff {cutoff}):")
     for issn in issns:
+        for label, flt in (("all-time   ", f"issn:{issn}"),
+                           ("in window  ", f"issn:{issn},from-pub-date:{cutoff}")):
+            try:
+                r = requests.get("https://api.crossref.org/works",
+                                 params={**_ab_params(), "filter": flt, "rows": 0},
+                                 headers=_ab_headers(), timeout=30)
+                if r.status_code == 200:
+                    tot = r.json().get("message", {}).get("total-results", 0)
+                    print(f"  {issn}  {label} HTTP 200  total-results = {tot}")
+                else:
+                    print(f"  {issn}  {label} HTTP {r.status_code}  <- request refused")
+            except Exception as exc:
+                print(f"  {issn}  {label} FAILED: {type(exc).__name__}: {exc}")
+            time.sleep(0.2)
         try:
             params = {**_ab_params(),
                       "filter": f"issn:{issn},from-pub-date:{cutoff}",
@@ -1246,10 +1263,28 @@ def why_missing(journal, days=30, rows=200):
             r = requests.get("https://api.crossref.org/works", params=params,
                              headers=_ab_headers(), timeout=30)
             if r.status_code == 200:
-                items.extend(r.json().get("message", {}).get("items", []))
+                got = r.json().get("message", {}).get("items", [])
+                print(f"  {issn}  fetched {len(got)} item(s)")
+                items.extend(got)
+            else:
+                print(f"  {issn}  fetch HTTP {r.status_code} -> 0 items")
         except Exception as exc:
-            print(f"  Crossref error for {issn}: {exc}")
+            print(f"  Crossref error for {issn}: {type(exc).__name__}: {exc}")
         time.sleep(0.2)
+
+    # If the ISSN route is empty, try resolving the journal by name instead --
+    # this distinguishes "our ISSN is wrong" from "nothing was published".
+    if not items:
+        try:
+            r = requests.get("https://api.crossref.org/journals",
+                             params={**_ab_params(), "query": journal, "rows": 5},
+                             headers=_ab_headers(), timeout=30)
+            if r.status_code == 200:
+                print("  Crossref's own ISSNs for this title:")
+                for j in r.json().get("message", {}).get("items", []):
+                    print(f"    {j.get('title','?')[:60]:<60} ISSNs: {j.get('ISSN')}")
+        except Exception as exc:
+            print(f"  journal lookup failed: {type(exc).__name__}: {exc}")
 
     seen, tally = set(), {}
     print(f"\n{journal} -- Crossref items in the last {days} days: {len(items)}")
