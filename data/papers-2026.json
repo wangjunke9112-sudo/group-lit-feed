@@ -1,7 +1,7 @@
 {
  "year": "2026",
- "count": 2317,
- "generated": "2026-07-20 04:24 UTC",
+ "count": 2331,
+ "generated": "2026-07-20 05:07 UTC",
  "papers": [
   {
    "title": "Enhanced energy storage in tungsten bronze-based ferroelectrics and MLCCs via a multi-coating engineering",
@@ -32,8 +32,8 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Defect‐Polarization Coupling in 3D‐Graphene/ β ‐Ga 2 O 3 Heterostructures for Self‐Powered and Multifunctional Solar‐Blind Ultraviolet Photodetection",
@@ -63,6 +63,63 @@
    "doi": "10.1002/smll.74530",
    "keywords": [
     "photodetector"
+   ],
+   "type": "article",
+   "oa_type_tried": 2
+  },
+  {
+   "title": "Slow Heating and Rapid Cooling in Ar + S Atmosphere Enables >800 mV for Sb 2 S 3 Thin‐Film Photovoltaics Toward Artificial Light Pollution Energy Conversion",
+   "link": "https://doi.org/10.1002/smll.74447",
+   "journal": "Small",
+   "publisher": "Wiley",
+   "date": "2026-07-19",
+   "abstract": "ABSTRACT High‐voltage output in photovoltaics is crucial for enabling an efficient building‐integrated photovoltaic (BIPV) system that integrates hydrogen production, which is a promising strategy for creating green‐energy houses and reducing CO 2 emissions. This work aims to develop an optimized annealing process in an Ar + S atmosphere for preparing S‐rich, low‐defect Sb 2 S 3 thin films for high‐performance thin‐film solar cells. By controlling the heating and cooling rates, the slow heating and rapid cooling (SHRC) process proved optimal, yielding a champion device with a power conversion efficiency of 7.20%, along with an open‐circuit voltage ( V oc ) of 0.803 V, a short‐circuit current density of 15.17 mA/cm 2 , and a fill factor of 59.09%. Notably, we achieved an excellent V oc of 0.807 V, which, to the best of our knowledge, surpasses most previously published V oc values for single‐junction Sb 2 S 3 solar cells. Importantly, these SHRC‐annealed Sb 2 S 3 solar cells maintain V oc > 0.5 V even under monochromatic LED illumination at a low light intensity of 0.5 mW/cm 2 . These results demonstrate that an Ar + S atmosphere coupled with a carefully designed annealing profile provides a pathway toward high‐voltage‐output Sb 2 S 3 thin‐film solar cells, enabling BIPV systems to harvest low‐intensity “waste” light, such as urban nighttime illumination, for hydrogen production via water splitting.",
+   "authors": [
+    "Shaobo Zhang",
+    "Wenjie Gu",
+    "Aodi Zhang",
+    "Qiang Xie",
+    "Long Luo",
+    "Xiangdong Meng",
+    "Yunqing Cao",
+    "Ruijin Hu",
+    "Ru Zhou",
+    "Jianning Ding"
+   ],
+   "doi": "10.1002/smll.74447",
+   "keywords": [
+    "photovoltaic",
+    "photovoltaics",
+    "solar cells",
+    "water splitting"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Defect‐Healed Perovskite Quantum Dots for Optoelectronic Applications in Indoor Photovoltaics and Photoplethysmography",
+   "link": "https://doi.org/10.1002/smll.74660",
+   "journal": "Small",
+   "publisher": "Wiley",
+   "date": "2026-07-19",
+   "abstract": "ABSTRACT Metal–halide perovskite (Pe) quantum dots (QDs) offer composition‐ and size‐tunable bandgaps, high absorption coefficients, defect tolerance, and solution processability, rendering them compelling photoactive materials for thin film photovoltaics (PVs). Nevertheless, their synthesis and purification introduce traps that lower device performance and reduce stability. In this study, a dispersion‐phase defect‐healing strategy was developed that combines a low loading of lead sulfide (PbS) QDs with PeQDs. In the mixed dispersion, S 2− coordinates with the exposed Pb on the PeQDs, while Pb 2+ and Br − from the Br‐doped PbS QDs are incorporated into the PeQDs in a manner consistent with vacancy‐related defect passivation. This stabilizes the Pe phase, reduces trap density, and enhances carrier mobility. PeQD PVs achieve a power conversion efficiency (PCE) of 15.1% ± 0.2% under 1‐sun illumination and deliver an output power density of 118.8 ± 1.5 µW cm −2 (PCE = 40.9% ± 0.5%) under light‐emitting diode illumination at 6500 K and 1000 lx. PeQD PVs were applied as photodetectors for noncontact reflection‐mode photoplethysmography under low‐intensity reflected light. Unencapsulated devices retained >80% of their initial PCE after 1000 h in ambient air at 30%–40% relative humidity. This approach provides a scalable route for defect control in PeQDs for high‐performance, durable PVs.",
+   "authors": [
+    "Seon Joong Kim",
+    "Junhyeok Park",
+    "Byung Ku Jung",
+    "Ohhyun Kwon",
+    "Sang Heon Lee",
+    "Hyung Jin Choi",
+    "Seongyong Hong",
+    "Min Jong Lee",
+    "Soong Ju Oh",
+    "Jae Won Shim"
+   ],
+   "doi": "10.1002/smll.74660",
+   "keywords": [
+    "halide perovskite",
+    "perovskite",
+    "photovoltaics"
    ],
    "type": "article",
    "oa_type_tried": 1
@@ -1668,6 +1725,33 @@
    "oa_type": "article"
   },
   {
+   "title": "Synergy of extended exciton transport and strong exciton-CT state coupling in NIR organic photocatalysts",
+   "link": "https://doi.org/10.1039/d6ee03349k",
+   "journal": "Energy & Environmental Science",
+   "publisher": "RSC",
+   "date": "2026-07-16",
+   "abstract": "Organic semiconductor (OSC) photocatalysts often suffer from inefficient free charge generation due to the limited exciton diffusion length (LD), particularly in narrow-bandgap OSCs that harvest near-infrared (NIR) light. Here, we...",
+   "authors": [
+    "Huabin Zhang",
+    "Yunzhi Wang",
+    "Partha Maity",
+    "Simil Thomas",
+    "Lingyun Zhao",
+    "yanru li",
+    "Lijie Wang",
+    "Zhuping Fei",
+    "Niveen M. Khashab",
+    "Omar F. Mohammed"
+   ],
+   "doi": "10.1039/d6ee03349k",
+   "keywords": [
+    "narrow-bandgap"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type": "article"
+  },
+  {
    "title": "A Multidentate Coordination Complex‐Based Self‐Assembled Monolayer Stabilizes Perovskite Interface",
    "link": "https://doi.org/10.1002/anie.8080769",
    "journal": "Angewandte Chemie Int. Ed.",
@@ -1852,6 +1936,28 @@
    ],
    "type": "article",
    "ab_tried": 2,
+   "oa_type": "article"
+  },
+  {
+   "title": "First-principles multi-scale design of gas diffusion electrodes for electrochemical CO2 reduction",
+   "link": "https://doi.org/10.1039/d6ee02654k",
+   "journal": "Energy & Environmental Science",
+   "publisher": "RSC",
+   "date": "2026-07-15",
+   "abstract": "Electrochemical CO2 reduction on copper offers a route to valuable fuels and chemicals, but performance depends strongly on electrolyzer design, which is not yet well understood due to the multiscale...",
+   "authors": [
+    "Ramakrishnan Velmurugan Adith",
+    "Kamal Asghar",
+    "Joshua Wicks",
+    "Edward H Sargent",
+    "Stefan Ringe"
+   ],
+   "doi": "10.1039/d6ee02654k",
+   "keywords": [
+    "co2 reduction"
+   ],
+   "type": "article",
+   "ab_tried": 1,
    "oa_type": "article"
   },
   {
@@ -3160,6 +3266,27 @@
    "oa_type": "article"
   },
   {
+   "title": "Pyrimidine-Containing Covalent Organic Framework for Photocatalytic Solar Hydrogen Peroxide Production",
+   "link": "https://doi.org/10.1021/acsami.6c09721",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-07-14",
+   "abstract": "Photocatalytic production of hydrogen peroxide (H 2 O 2 ) from water and O 2 using organic semiconductor photocatalysts is a promising approach for solar-to-chemical energy conversion. Recently, covalent organic frameworks (COFs) consisting of donor (D)–acceptor (A) conjugates have attracted attention owing to the tunable platforms for semiconductor synthesis. In this study, we synthesized a series of COFs consisting of 2,4,6-triformylphloroglucinol (Tp) as an A unit and different N-containing heterocycles bearing different numbers of terminal –NH 2 groups as D units. The COF containing 2,4,6-triaminopyrimidine (PmA3) as the D unit exhibited the highest activity for photocatalytic H 2 O 2 generation. Photoelectrochemical measurements and density functional theory calculations revealed that the high activity of PmA3-COF originates from the high electron conductivity owing to the multibranched triamine structure and high hole-trapping capability of the Pm ring. These properties enhanced oxidation of water by the photogenerated holes, resulting in efficient H 2 O 2 generation.",
+   "authors": [
+    "Koki Yoshida",
+    "Kazuki Terashima",
+    "Yasuhiro Shiraishi",
+    "Shunsuke Tanaka",
+    "Takayuki Hirai"
+   ],
+   "doi": "10.1021/acsami.6c09721",
+   "keywords": [
+    "photoelectrochemical"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
    "title": "Scalable Graphene/Sn‐WSe 2 /Si Photodetector Array With Broadband Response and Starlight Sensitivity for All‐Light Vision",
    "link": "https://doi.org/10.1002/smll.74431",
    "journal": "Small",
@@ -4346,6 +4473,39 @@
    "oa_type": "article"
   },
   {
+   "title": "The synergistic effects of heat and light stresses on the stability of perovskite solar cells",
+   "link": "https://doi.org/10.1039/d5ee07811c",
+   "journal": "Energy & Environmental Science",
+   "publisher": "RSC",
+   "date": "2026-07-12",
+   "abstract": "Heat and light induce distinct but interacting degradations in perovskite solar cells. We quantify heat–light interactions using a synergy metric. Nip cells show high Pb & I diffusions, Pb 0 defects, and outgassing. Findings guide stable cell designs.",
+   "authors": [
+    "Jueming Bing",
+    "Chwenhaw Liao",
+    "Runmin Tao",
+    "Md Arafat Mahmud",
+    "Jianghui Zheng",
+    "Guoliang Wang",
+    "Tik Lun Leung",
+    "Jianpeng Yi",
+    "Suer Zhou",
+    "Wei-Ting Wang",
+    "Shien-Ping Feng",
+    "Martin P. Bucknall",
+    "David R. McKenzie",
+    "Anita Ho-Baillie"
+   ],
+   "doi": "10.1039/d5ee07811c",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "solar cells"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type": "article"
+  },
+  {
    "title": "Reversible Control of Ferrimagnetic Skyrmion Generation and Motion via Hydrogen Migration Under Electric Field",
    "link": "https://doi.org/10.1002/adma.74036",
    "journal": "Advanced Materials",
@@ -5012,6 +5172,63 @@
     "photovoltaics",
     "solar cells",
     "tandem"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Morphological and chemical changes in Cd-free colloidal QD-LEDs during operation",
+   "link": "https://doi.org/10.1126/sciadv.aec8208",
+   "journal": "Science Advances",
+   "publisher": "Science",
+   "date": "2026-07-10",
+   "abstract": "Heavy-metal-free quantum-dot light-emitting devices (QD-LEDs) demonstrate high brightness, saturated color, and high efficiency, yet their operational lifetimes remain limited, with the underlying degradation mechanisms not fully understood. Here, we show that InP/ZnSe/ZnS (red-emitting) and ZnTeSe/ZnSe/ZnS (blue-emitting) colloidal QD-LEDs undergo nanoscale morphological changes during operation. Interparticle coarsening and layer thinning are observed in the core functional layers, accompanied by the generation and diffusion of compositional-oxygen and hydrogen across the device, with oxygen accumulating at the Al electrode/ZnMgO electron-transport layer (ETL) interface. In situ transmission electron microscopy reveals that electron beam exposure, in presence of atomic hydrogen species, accelerates ZnMgO nanoparticles coarsening. To mitigate these degradation pathways, we show that acrylate-based resin encapsulation can stabilize the ETL, HTL, and QD layers by suppressing atomic species formation and halting morphology changes. This approach achieves over 50-fold and 5000-fold lifetime improvement in InP/ZnSe/ZnS and ZnTeSe/ZnSe/ZnS QD-LEDs, respectively. Our findings establish the causal relationships between morphological degradation, interlayer dynamics, and QD-LED instability, providing insight into the acrylate encapsulation treatment that enables efficient and long-lived QD-LEDs.",
+   "authors": [
+    "Ruiqi Zhang",
+    "Jamie Geng",
+    "Shaun Tan",
+    "Mike Dillender",
+    "Shreyas Srinivasan",
+    "Taehyung Kim",
+    "Mayuran Saravanapavanantham",
+    "Kwang-Hee Kim",
+    "Heejae Chung",
+    "Sujin Park",
+    "Thienan Nguyen",
+    "Karen Yang",
+    "Yongli Lu",
+    "Tae-Gon Kim",
+    "Moungi G. Bawendi",
+    "Vladimir Bulović"
+   ],
+   "doi": "10.1126/sciadv.aec8208",
+   "keywords": [
+    "light-emitting"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Atomically chemical heterogeneity endowing dielectric ceramics with ultrahigh energy storage",
+   "link": "https://doi.org/10.1126/sciadv.aef3315",
+   "journal": "Science Advances",
+   "publisher": "Science",
+   "date": "2026-07-10",
+   "abstract": "Harnessing local structural and chemical complexity in dielectric ceramics to reconcile large polarization, low hysteretic loss, and high breakdown strength is central to advancing dielectric capacitors for pulsed-power and high-voltage electronics. Here, we show that atomic-scale chemical heterogeneity, deliberately engineered in a relaxor ferroelectric perovskite matrix, provides an effective route to simultaneously elevate energy density and efficiency in bulk lead-free ceramics. Using canonical (Bi 0.5 Na 0.5 )TiO 3 -based relaxor ferroelectric as a host, we propose an atomically chemical heterogeneity design by manipulating coupled A/B-sublattice occupancy correlations while preserving the average pseudocubic perovskite framework. Systematic characterizations of local chemical structures reveal nonrandom cation configurations at the atomic scale, severe local lattice distortion, and ultrafine slush-like multipolar nanodomains (1 to 4 nanometers in size) in which tetragonal, rhombohedral, orthorhombic, and nonpolar cubic regions coexist. This nanoscale polar landscape sustains a large electric field–induced polarization while strongly suppressing remanence and hysteresis, enabling an ultrahigh breakdown strength of 74.2 kilovolts per millimeter. As a result, the optimized ceramic delivers a recoverable energy density of 17.4 joules per cubic centimeter with 88% efficiency, together with excellent stability across different operation conditions. In particular, the fatigue endurance remains up to 10 8 charge-discharge cycles under high electric fields. These results identify atomically chemical heterogeneity as a powerful and general design principle for high-reliability dielectric ceramics combining ultrahigh energy density with high efficiency.",
+   "authors": [
+    "Bing Xie",
+    "Qingqing Wu",
+    "Zhiqing Li",
+    "Zhen Wang",
+    "Zhiyong Liu",
+    "Kun Guo",
+    "Haibo Zhang",
+    "Huajie Luo",
+    "Tianyu Li"
+   ],
+   "doi": "10.1126/sciadv.aef3315",
+   "keywords": [
+    "perovskite"
    ],
    "type": "article",
    "oa_type": "article"
@@ -7302,6 +7519,195 @@
    "oa_type": "article"
   },
   {
+   "title": "Efficient and durable perovskite PEC cell for bias free water splitting",
+   "link": "https://doi.org/10.1039/d6ee02503j",
+   "journal": "Energy & Environmental Science",
+   "publisher": "RSC",
+   "date": "2026-07-07",
+   "abstract": "Organo lead halide perovskite photoelectrochemical cells (PEC) consist of an integrated structure where the photovoltaic (PV) cell is in direct contact with the catalyst overlayer through a conductive barrier.",
+   "authors": [
+    "Saikiran. S. Khamgaonkar",
+    "Alexander Li",
+    "Nayla Qureshi",
+    "Vivek Maheshwari"
+   ],
+   "doi": "10.1039/d6ee02503j",
+   "keywords": [
+    "halide perovskite",
+    "perovskite",
+    "photoelectrochemical",
+    "photovoltaic",
+    "water splitting"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type": "article"
+  },
+  {
+   "title": "A novel carborane-based electron transport material for high-performance perovskite/silicon tandem solar cells",
+   "link": "https://doi.org/10.1039/d6ee01246a",
+   "journal": "Energy & Environmental Science",
+   "publisher": "RSC",
+   "date": "2026-07-07",
+   "abstract": "Carborane-based electron transport material enables high-efficiency, fullerene-free monolithic perovskite/silicon tandem solar cell.",
+   "authors": [
+    "Lea Zimmermann",
+    "Julius Petrulevicius",
+    "Dorothee Menzel",
+    "Wander Max Bernardes de Araujo",
+    "Kazuki Morita",
+    "Suresh Maniyarasu",
+    "Maxim Simmonds",
+    "Yasaman Salimi",
+    "Dong Kuk Kim",
+    "Florian Mathies",
+    "Florian Scheler",
+    "Sebastian Berwig",
+    "Woongmo Sung",
+    "Satoshi Nihonyanagi",
+    "Arman Mahboubi Soufiani",
+    "Angelika Harter",
+    "Vygintas Jankauskas",
+    "Jona Kurpiers",
+    "Tadas Malinauskas",
+    "Tahei Tahara",
+    "Mariadriana Creatore",
+    "Sebastian Wood",
+    "Rutger Schlatmann",
+    "Bernd Stannowski",
+    "Lars Korte",
+    "Eike Köhnen",
+    "Vytautas Getautis",
+    "Steve Albrecht"
+   ],
+   "doi": "10.1039/d6ee01246a",
+   "keywords": [
+    "perovskite",
+    "solar cell",
+    "solar cells",
+    "tandem"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type": "article"
+  },
+  {
+   "title": "Homogenizing buried contact via pH-modulated NiOx for highperformance all-perovskite tandem solar cells",
+   "link": "https://doi.org/10.1039/d6ee02093c",
+   "journal": "Energy & Environmental Science",
+   "publisher": "RSC",
+   "date": "2026-07-07",
+   "abstract": "Hybrid hole transport layers (HTLs) consisting of NiO X and self-assembled molecules (SAMs) are widely utilized in inverted perovskite solar cells (PSCs). However, the structural and chemical heterogeneity of NiO...",
+   "authors": [
+    "Zemin Zhang",
+    "Xinpeng Zhang",
+    "Sanwan Liu",
+    "Yong Zhang",
+    "Zijian Zhong",
+    "Lei Tao",
+    "Jianlin Chen",
+    "Haiyang Zhao",
+    "Siyi Wang",
+    "Jinming Zhang",
+    "Haoyuan Zhang",
+    "Yi'an Du",
+    "Linchuan Ma",
+    "Yitong Li",
+    "Zhiying Zhang",
+    "Hongmei Zhou",
+    "Zichun Zhou",
+    "Zhihan Huang",
+    "Zexin Lin",
+    "Zhongliang Yan",
+    "Yang Bai",
+    "Linjie Dai",
+    "Chuying Ouyang",
+    "Yabing Qi",
+    "Chen Zhu",
+    "Nam-Gyu Park",
+    "Yuelong Li"
+   ],
+   "doi": "10.1039/d6ee02093c",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "solar cells",
+    "tandem"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type": "article"
+  },
+  {
+   "title": "Multifunctional Additive Synergistically Regulates Crystallization and Band Alignment for 34.28%-Efficient Perovskite/Silicon Tandem Solar Cells",
+   "link": "https://doi.org/10.1039/d6ee02285e",
+   "journal": "Energy & Environmental Science",
+   "publisher": "RSC",
+   "date": "2026-07-07",
+   "abstract": "Wide-bandgap perovskites are indispensable for two-terminal monolithic perovskite/silicon tandem solar cells, yet their performance and durability remain limited by two tightly coupled challenges: uncontrolled crystallization and halide phase segregation. These...",
+   "authors": [
+    "sinuo chen",
+    "Jinli Yang",
+    "Zhewei Zhang",
+    "Ran Wei",
+    "Lichun Wang",
+    "Zixin Lei",
+    "Kehang Wang",
+    "Daoyuan Han",
+    "Xiaohua Xu",
+    "Su Zhou",
+    "Wenjing Wang",
+    "Mingming Hu",
+    "Runkang Wu",
+    "Guoyi Chen",
+    "Lei Zhao",
+    "Qihang Li",
+    "Wenping Yin",
+    "Jiwei Liang",
+    "Enbing Bi",
+    "Chunlan Zhou"
+   ],
+   "doi": "10.1039/d6ee02285e",
+   "keywords": [
+    "perovskite",
+    "perovskites",
+    "phase segregation",
+    "solar cells",
+    "tandem",
+    "wide-bandgap"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type": "article"
+  },
+  {
+   "title": "Shaping perovskite materials into micro/nanostructures for photonics and optoelectronic applications",
+   "link": "https://doi.org/10.1039/d6cs00257a",
+   "journal": "Chemical Society Reviews",
+   "publisher": "RSC",
+   "date": "2026-07-07",
+   "abstract": "Engineering the shape of metal halide perovskite thin films and single crystals through advanced growth and fabrication strategies enables tailored optical properties and innovative optoelectronic and photonic device architectures.",
+   "authors": [
+    "Rosanna Mastria",
+    "Laura Polimeno",
+    "Francesco Todisco",
+    "Francesco Saverio Difeo",
+    "Ilenia Viola",
+    "Daniele Sanvitto",
+    "Luisa De Marco",
+    "Aurora Rizzo"
+   ],
+   "doi": "10.1039/d6cs00257a",
+   "keywords": [
+    "halide perovskite",
+    "metal halide perovskite",
+    "perovskite"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type": "article"
+  },
+  {
    "title": "On the Importance of Additive Flexibility for Efficient Organic Solar Cells",
    "link": "https://doi.org/10.1021/acsenergylett.6c01418",
    "journal": "ACS Energy Letters",
@@ -9015,6 +9421,45 @@
    ],
    "type": "article",
    "ab_tried": 2,
+   "oa_type": "article"
+  },
+  {
+   "title": "Multifunctional polymer additives enable highly efficient, mechanically durable, and deployable flexible perovskite photovoltaics",
+   "link": "https://doi.org/10.1039/d6ee01534d",
+   "journal": "Energy & Environmental Science",
+   "publisher": "RSC",
+   "date": "2026-07-02",
+   "abstract": "A polymethyl acrylate (PMA) additive enhances optoelectronic quality and mechanical robustness in flexible perovskite solar cells, enabling ∼24% efficiency and ∼85% performance retention after 10 000 bending cycles.",
+   "authors": [
+    "Biruk Alebachew Seid",
+    "Sema Sarisozen",
+    "Andrés-Felipe Castro-Méndez",
+    "Stepan Demchyshyn",
+    "Nima Lucius Mirrafati",
+    "Paria Forozi Sowmeeh",
+    "Seydanur Kaya",
+    "Jarla Thiesbrummel",
+    "Guorui He",
+    "Anne-Catherine Lehnen",
+    "Vitalii Tkachenko",
+    "Fan Hu",
+    "Timo Maschwitz",
+    "Pedro B. Groszewicz",
+    "Thomas Riedl",
+    "Kai Oliver Brinkmann",
+    "Matthias Hartlieb",
+    "Dieter Neher",
+    "Felix Lang"
+   ],
+   "doi": "10.1039/d6ee01534d",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "photovoltaics",
+    "solar cells"
+   ],
+   "type": "article",
+   "ab_tried": 1,
    "oa_type": "article"
   },
   {
@@ -12172,6 +12617,31 @@
    "oa_type": "article"
   },
   {
+   "title": "Chlorinated polypropylene enables stress-dissipative networks and high efficiency in intrinsically stretchable organic photovoltaics",
+   "link": "https://doi.org/10.1039/d6ee02777f",
+   "journal": "Energy & Environmental Science",
+   "publisher": "RSC",
+   "date": "2026-06-29",
+   "abstract": "Energy Environ. Sci. , 2026, Accepted Manuscript DOI : 10.1039/D6EE02777F, Paper Shuiwang Lv, Huizhen Ke, Yuting Wang, Dexia Han, Bei Li, Vakhobjon Kuvondikov, Wenchao Zhao, Menglan Lv, Long Ye Intrinsically stretchable organic photovoltaics (IS-OPVs) demand both high power conversion efficiency (PCE) and robust mechanical deformability, yet these requirements are often difficult to reconcile in state-of-the-art donor:acceptor blends. Existing toughening...",
+   "authors": [
+    "Shuiwang Lv",
+    "Huizhen Ke",
+    "Yuting Wang",
+    "Dexia Han",
+    "Bei Li",
+    "Vakhobjon Kuvondikov",
+    "Wenchao Zhao",
+    "Menglan Lv",
+    "Long Ye"
+   ],
+   "doi": "10.1039/d6ee02777f",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
    "title": "Molecular Chelating‐Clamp Strategy Using Dithiol Antidotes Enables Efficient and Stable Inorganic Perovskite Solar Cells",
    "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.73833?af=R",
    "journal": "Advanced Materials",
@@ -12384,31 +12854,6 @@
     "perovskite",
     "perovskite solar cells",
     "solar cells"
-   ],
-   "type": "article",
-   "oa_type": "article"
-  },
-  {
-   "title": "Chlorinated Polypropylene Enables Stress-Dissipative Networks and High Efficiency in Intrinsically Stretchable Organic Photovoltaics",
-   "link": "http://pubs.rsc.org/en/Content/ArticleLanding/2026/EE/D6EE02777F",
-   "journal": "Energy & Environmental Science",
-   "publisher": "RSC",
-   "date": "2026-06-28",
-   "abstract": "Energy Environ. Sci. , 2026, Accepted Manuscript DOI : 10.1039/D6EE02777F, Paper Shuiwang Lv, Huizhen Ke, Yuting Wang, Dexia Han, Bei Li, Vakhobjon Kuvondikov, Wenchao Zhao, Menglan Lv, Long Ye Intrinsically stretchable organic photovoltaics (IS-OPVs) demand both high power conversion efficiency (PCE) and robust mechanical deformability, yet these requirements are often difficult to reconcile in state-of-the-art donor:acceptor blends. Existing toughening...",
-   "authors": [
-    "Shuiwang Lv",
-    "Huizhen Ke",
-    "Yuting Wang",
-    "Dexia Han",
-    "Bei Li",
-    "Vakhobjon Kuvondikov",
-    "Wenchao Zhao",
-    "Menglan Lv",
-    "Long Ye"
-   ],
-   "doi": "10.1039/d6ee02777f",
-   "keywords": [
-    "photovoltaics"
    ],
    "type": "article",
    "oa_type": "article"
