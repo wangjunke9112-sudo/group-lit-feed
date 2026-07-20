@@ -649,7 +649,7 @@ IMPORTANT_FALLBACK_JOURNALS = {
 }
 
 
-def _crossref_recent_items(issn, cutoff, rows):
+def _crossref_recent_items(issn, cutoff, rows, max_items=None):
     """Fetch recent Crossref items for one ISSN, using BOTH date filters.
 
     Publishers stamp dates inconsistently: ACS/Wiley records match
@@ -659,24 +659,33 @@ def _crossref_recent_items(issn, cutoff, rows):
     is when the DOI was registered, which catches those. We union both and
     de-duplicate by DOI so no publisher's convention is missed."""
     import requests
+    if max_items is None:
+        max_items = rows          # default: one page (cheap, for the daily sweep)
     out, seen = [], set()
     for flt in (f"issn:{issn},from-created-date:{cutoff}",
                 f"issn:{issn},from-pub-date:{cutoff}"):
-        try:
-            params = {**_ab_params(), "filter": flt, "sort": "created",
-                      "order": "desc", "rows": rows}
-            r = requests.get("https://api.crossref.org/works", params=params,
-                             headers=_ab_headers(), timeout=30)
-            if r.status_code != 200:
-                continue
-            for item in r.json().get("message", {}).get("items", []):
+        offset = 0
+        while offset < max_items:
+            page = min(rows, max_items - offset, 1000)   # Crossref caps rows at 1000
+            try:
+                params = {**_ab_params(), "filter": flt, "sort": "created",
+                          "order": "desc", "rows": page, "offset": offset}
+                r = requests.get("https://api.crossref.org/works", params=params,
+                                 headers=_ab_headers(), timeout=30)
+                if r.status_code != 200:
+                    break
+                items = r.json().get("message", {}).get("items", [])
+            except Exception:
+                break
+            for item in items:
                 d = normalise_doi(item.get("DOI", ""))
                 if d and d not in seen:
                     seen.add(d)
                     out.append(item)
-        except Exception:
-            continue
-        time.sleep(0.2)
+            time.sleep(0.2)
+            if len(items) < page:                        # last page reached
+                break
+            offset += page
     return out
 
 
@@ -977,12 +986,29 @@ def fill_openalex_types(papers, limit, max_tries=2):
     return filled
 
 
-def topup_abstracts(papers, limit, min_len=300, max_tries=2):
+def _paper_age_days(p):
+    try:
+        return (dt.date.today() - dt.date.fromisoformat((p.get("date") or "")[:10])).days
+    except Exception:
+        return 9999
+
+
+def topup_abstracts(papers, limit, min_len=300, max_tries=2,
+                    fresh_days=30, fresh_max_tries=6):
+    """Fill missing abstracts, newest-first, using the fast chain.
+
+    Retry budget is age-aware: a paper published in the last `fresh_days` gets
+    `fresh_max_tries` attempts, because its abstract often is not indexed yet on
+    the day it appears and would otherwise burn both attempts in 48 hours and be
+    skipped forever. Older papers keep the low budget -- if no free source has
+    had the abstract for months, more retries only waste time."""
+    def allowed(p):
+        return fresh_max_tries if _paper_age_days(p) <= fresh_days else max_tries
     targets = [p for p in papers
                if p.get("doi", "").startswith("10.")
                and abstract_needs_topping_up(p.get("abstract") or "")
-               and int(p.get("ab_tried", 0)) < max_tries]
-    targets.sort(key=lambda p: len(p.get("abstract") or ""))
+               and int(p.get("ab_tried", 0)) < allowed(p)]
+    targets.sort(key=lambda p: (_paper_age_days(p), len(p.get("abstract") or "")))
     filled = 0
     for p in targets[:limit]:
         ab = fetch_abstract_fast(p["doi"])
@@ -1235,10 +1261,24 @@ def selftest():
     assert normalise_crossref_work(it_keep, "Energy & Environmental Science", "RSC") is not None
     assert normalise_crossref_work(it_drop, "Energy & Environmental Science", "RSC") is None
 
+    # --- age-aware abstract retries ---
+    recent = (dt.date.today() - dt.timedelta(days=5)).isoformat()
+    stale = (dt.date.today() - dt.timedelta(days=900)).isoformat()
+    g2 = globals(); real2 = g2["fetch_abstract_fast"]
+    g2["fetch_abstract_fast"] = lambda doi: ""      # nothing available anywhere
+    fresh_p = {"doi": "10.1039/fresh", "date": recent, "abstract": "", "ab_tried": 3}
+    old_p = {"doi": "10.1039/old", "date": stale, "abstract": "", "ab_tried": 3}
+    topup_abstracts([fresh_p, old_p], limit=10)
+    # recent paper still eligible at 3 tries (budget 6) -> incremented to 4
+    assert fresh_p["ab_tried"] == 4, fresh_p
+    # old paper exhausted its budget of 2 -> untouched
+    assert old_p["ab_tried"] == 3, old_p
+    g2["fetch_abstract_fast"] = real2
+
     print("All self-tests passed.")
 
 
-def why_missing(journal, days=30, rows=200):
+def why_missing(journal, days=30, rows=1000):
     """Read-only diagnosis for ONE journal: list what Crossref published in the
     window and say, for each paper, whether we stored it -- and if not, exactly
     which stage dropped it. Also flags papers we DID store that the website's
@@ -1277,7 +1317,8 @@ def why_missing(journal, days=30, rows=200):
             except Exception as exc:
                 print(f"  {issn}  {label} FAILED: {type(exc).__name__}: {exc}")
             time.sleep(0.2)
-        got = _crossref_recent_items(issn, cutoff, rows)
+        budget = 500 if days <= 60 else 6000     # completeness for long windows
+        got = _crossref_recent_items(issn, cutoff, rows, max_items=budget)
         print(f"  {issn}  fetched {len(got)} item(s) (both filters, de-duplicated)")
         items.extend(got)
 
