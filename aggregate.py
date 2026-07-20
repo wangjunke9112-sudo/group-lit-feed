@@ -1218,6 +1218,79 @@ def selftest():
     print("All self-tests passed.")
 
 
+def why_missing(journal, days=30, rows=200):
+    """Read-only diagnosis for ONE journal: list what Crossref published in the
+    window and say, for each paper, whether we stored it -- and if not, exactly
+    which stage dropped it. Also flags papers we DID store that the website's
+    "Perovskite only" checkbox would hide."""
+    import requests
+    issns = ISSNS.get(journal, [])
+    if not issns:
+        print(f"No ISSN configured for {journal!r}."); return
+    cutoff = (dt.date.today() - dt.timedelta(days=days)).isoformat()
+
+    archive = load_archive()
+    stored = {}
+    for p in archive:
+        d = normalise_doi(p.get("doi", ""))
+        if d:
+            stored[d] = p
+    pending_dois = {normalise_doi(x.get("doi", "")) for x in load_pending()}
+
+    items = []
+    for issn in issns:
+        try:
+            params = {**_ab_params(),
+                      "filter": f"issn:{issn},from-pub-date:{cutoff}",
+                      "sort": "published", "order": "desc", "rows": rows}
+            r = requests.get("https://api.crossref.org/works", params=params,
+                             headers=_ab_headers(), timeout=30)
+            if r.status_code == 200:
+                items.extend(r.json().get("message", {}).get("items", []))
+        except Exception as exc:
+            print(f"  Crossref error for {issn}: {exc}")
+        time.sleep(0.2)
+
+    seen, tally = set(), {}
+    print(f"\n{journal} -- Crossref items in the last {days} days: {len(items)}")
+    print("=" * 78)
+    for item in items:
+        doi = normalise_doi(item.get("DOI", ""))
+        if not doi or doi in seen:
+            continue
+        seen.add(doi)
+        title = clean_text(" ".join(item.get("title") or []))[:88]
+        cr_abs = _clean_abstract_candidate(item.get("abstract", "") or "")
+        rec = stored.get(doi)
+        if rec:
+            text = (rec.get("title", "") + " " + (rec.get("abstract") or "") + " "
+                    + " ".join(rec.get("keywords") or [])).lower()
+            if "perovskite" in text:
+                status = "STORED"
+            else:
+                status = "STORED-BUT-HIDDEN (pvonly)"
+        elif doi in pending_dois:
+            status = "PENDING (awaiting abstract)"
+        else:
+            keep, _hits = is_relevant(title + " \n " + cr_abs)
+            if keep:
+                status = "MISSING (relevant but not stored!)"
+            elif _LOOSE_HINT_RE.search(title):
+                status = ("DROPPED-no-abstract" if abstract_needs_topping_up(cr_abs)
+                          else "DROPPED-not-relevant")
+            else:
+                status = "DROPPED-off-topic"
+        tally[status] = tally.get(status, 0) + 1
+        if not status.startswith("DROPPED-off-topic"):
+            print(f"  [{status}] {title}")
+    print("-" * 78)
+    for k, v in sorted(tally.items(), key=lambda kv: -kv[1]):
+        print(f"  {v:>4}  {k}")
+    print("\nReading it: STORED-BUT-HIDDEN means the paper IS in your archive but the")
+    print("website's 'Perovskite only' box hides it (no 'perovskite' in its stored text,")
+    print("usually because the abstract is still empty). MISSING means a real gap.")
+
+
 def audit_coverage(days=365):
     """Compare what we store per journal against what Crossref says exists, so
     coverage gaps are measured rather than guessed. Read-only: writes nothing."""
@@ -1262,8 +1335,13 @@ if __name__ == "__main__":
                     metavar="DAYS",
                     help="read-only: compare stored papers per journal against "
                          "Crossref totals for the last DAYS (default 365)")
+    ap.add_argument("--why-missing", nargs=2, metavar=("JOURNAL", "DAYS"), default=None,
+                    help='read-only: for one journal, show which stage drops each '
+                         'recent paper, e.g. --why-missing "Energy & Environmental Science" 30')
     args = ap.parse_args()
-    if args.audit is not None:
+    if args.why_missing is not None:
+        why_missing(args.why_missing[0], int(args.why_missing[1]))
+    elif args.audit is not None:
         audit_coverage(args.audit)
     elif args.selftest:
         selftest()
