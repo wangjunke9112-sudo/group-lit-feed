@@ -1,7 +1,7 @@
 {
  "year": "2026",
  "count": 2339,
- "generated": "2026-07-20 05:50 UTC",
+ "generated": "2026-07-20 07:27 UTC",
  "papers": [
   {
    "title": "Enhanced energy storage in tungsten bronze-based ferroelectrics and MLCCs via a multi-coating engineering",
@@ -9,7 +9,7 @@
    "journal": "Nature Communications",
    "publisher": "Nature",
    "date": "2026-07-20",
-   "abstract": "The authors construct tungsten bronze–perovskite composites with a SiO₂ coating, forming a dual-core-shell architecture. This design yields a high energy density of 23.2 J/cm³ and 92.8% efficiency in multilayer ceramic capacitors, due to enhanced polarization and breakdown strength, alongside excellent thermal and fatigue stability.",
+   "abstract": "High-power pulsed systems demand dielectric capacitors with high energy density and efficiency. Although perovskite ceramics dominate this field, simultaneously achieving high performance and fatigue endurance remains a significant challenge. Our study addresses this aim by incorporating a Ba1-xSrxTiO3 second phase into tungsten bronze-type Ba1-xSrxNb2-yTayO6 matrix, followed by chemical coating with a SiO₂ layer. The prepared ceramics achieve an energy density of 21.1 J/cm³ with an efficiency of 84.5%. Furthermore, by combining a rational multilayer ceramic capacitor design with the thickness effect, an energy density of 23.2 ± 1.2 J/cm³ and an improved efficiency of 92.8 ± 0.4% are attained, representing a record energy density for tungsten bronze-based ceramics and capacitors. The dual-core-shell structure and compositional gradients induce lattice mismatch, boosting polarization and breakdown strength. The fabricated devices also demonstrate remarkable stability under varying frequency, temperature, and fatigue cycling conditions. The authors construct tungsten bronze–perovskite composites with a SiO₂ coating, forming a dual-core-shell architecture. This design yields a high energy density of 23.2 J/cm³ and 92.8% efficiency in multilayer ceramic capacitors, due to enhanced polarization and breakdown strength, alongside excellent thermal and fatigue stability.",
    "authors": [
     "Limin Guo",
     "Jiaming Liu",
@@ -32,7 +32,6 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
    "oa_type_tried": 2
   },
   {
@@ -130,7 +129,7 @@
    "journal": "Nature Communications",
    "publisher": "Nature",
    "date": "2026-07-18",
-   "abstract": "Conventional vision hardware separates photodetection from computation, incurring substantial latency and energy costs. Chen and Di et al. report an optoelectronic architecture based on a microcavity-integrated MoS2 photodetector array that unifies sensing, weighting and temporal accumulation within each pixel.",
+   "abstract": "Biological vision systems tightly couple spectral sensing with temporal integration to extract task-relevant information with minimal data movement. In contrast, conventional optoelectronic vision hardware typically separates photodetection from electronic computation, incurring substantial latency and energy costs. Optical neural networks can alleviate this bottleneck, but many implementations are difficult to scale. Here, we propose a bio-inspired optoelectronic inference architecture based on a Fabry-Perot microcavity-integrated MoS2 photodetector array, in which sensing, weighting, and accumulation are unified within each pixel. Cavity-engineered wavelength selectivity encodes neural-network weights in the spectral domain, while the finite carrier lifetime of MoS2 enables analog temporal accumulation without external memory. The system achieves test accuracies of 99.6%, 94.8% and 94.0% on MNIST, CIFAR-10 and the Free Spoken Digit Dataset, respectively. Post-training optical Hessian pruning further reduces optical complexity while maintaining robustness. This architecture provides a compact route toward wavelength-aware in-sensor neuromorphic inference. Conventional vision hardware separates photodetection from computation, incurring substantial latency and energy costs. Chen and Di et al. report an optoelectronic architecture based on a microcavity-integrated MoS2 photodetector array that unifies sensing, weighting and temporal accumulation within each pixel.",
    "authors": [
     "Xiang Chen",
     "Kangjian Di",
@@ -184,7 +183,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1469,7 +1468,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1638,7 +1637,7 @@
    "journal": "Nature Nanotechnology",
    "publisher": "Nature",
    "date": "2026-07-16",
-   "abstract": "Publisher Correction: Halide-site-substituting spacer creates quasi-two-dimensional perovskites for vapour-deposited light-emitting diodes",
+   "abstract": "Nature Nanotechnology - Publisher Correction: Halide-site-substituting spacer creates quasi-two-dimensional perovskites for vapour-deposited light-emitting diodes",
    "authors": [
     "Chan-Yul Park",
     "Joo Sung Kim",
@@ -1663,7 +1662,6 @@
     "perovskites"
    ],
    "type": "article",
-   "ab_tried": 3,
    "oa_type_tried": 2
   },
   {
@@ -1689,7 +1687,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1746,7 +1744,7 @@
     "narrow-bandgap"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1931,7 +1929,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1953,7 +1951,7 @@
     "co2 reduction"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -2873,7 +2871,7 @@
    "journal": "Nature Energy",
    "publisher": "Nature",
    "date": "2026-07-14",
-   "abstract": "European charging infrastructure targets rely on uniform benchmarks that overlook flexibility from smart charging (V1G) and V2G. A system model shows that V1G delivers most cost and infrastructure savings, whereas V2G provides smaller savings but substantial balancing revenues, particularly in photovoltaic-dominated, grid-constrained systems.",
+   "abstract": "Vehicle charging infrastructure targets in Europe currently rely on uniform benchmarks, overlooking the flexibility that could be offered by future unidirectional smart charging (V1G) and vehicle-to-grid (V2G) technologies. To address this gap, here we explicitly represent charging infrastructure and its costs in a cost-minimizing European energy system model, enabling the level of charging flexibility—uncontrolled, V1G and V2G—to compete. We find that V1G captures the majority of system cost savings (€19–42 billion yr−1; 2.2–4.5%) and substantially reduces infrastructure requirements, whereas V2G provides marginal savings of up to €2.5 billion yr−1 but generates substantial balancing market revenues (€6.4 billion yr−1). V2G deployment is most cost-effective in photovoltaic-dominated systems and limited-grid-expansion scenarios where combined solar and wind production is scarce. Charging requirements vary across countries, reflecting either utilization or flexibility maximization, indicating that uniform European Union targets risk overestimating infrastructure needs in some regions while limiting the benefits of smart charging in others. European charging infrastructure targets rely on uniform benchmarks that overlook flexibility from smart charging (V1G) and V2G. A system model shows that V1G delivers most cost and infrastructure savings, whereas V2G provides smaller savings but substantial balancing revenues, particularly in photovoltaic-dominated, grid-constrained systems.",
    "authors": [
     "Francesco Sanvito",
     "Francesco Lombardi",
@@ -2884,8 +2882,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "oa_type": "article",
-   "ab_tried": 3
+   "oa_type": "article"
   },
   {
    "title": "Controlled solid-state crystallization with formamidinium acetate for fully vacuum-deposited perovskite solar cells",
@@ -2893,7 +2890,7 @@
    "journal": "Nature Energy",
    "publisher": "Nature",
    "date": "2026-07-14",
-   "abstract": "Vacuum-processed perovskite solar cells show promise, yet their efficiency remains limited. Xu et al. use formamidinium acetate to promote perovskite crystallization, achieving a 25.5% power conversion efficiency and 1,000 h operational stability.",
+   "abstract": "Vacuum deposition is a promising route for the fabrication of perovskite solar cells (PSCs). However, vacuum-deposited PSCs have not yet matched the performance achieved by solution-processed devices. Here we improve the performance of fully vacuum-deposited PSCs by controlling the solid-state reaction pathway. We find that formamidinium acetate reacts directly with PbI2 to form FAPbI3 seed layers, substantially lowering the barrier to the solid-state conversion of precursors into the crystalline δ-phase and their subsequent transformation into the α-phase perovskite. Moreover, the excess acetate passivates grain boundary defects, thereby suppressing non-radiative recombination. As a result, the PSCs achieve a power conversion efficiency of 25.53% and an electroluminescence external quantum efficiency of 18.38%. Importantly, the solvent-free fabrication also enables excellent device stability, with the devices retaining over 95% of their initial power conversion efficiency after 1,000 h under the ISOS-L-1 protocol. Vacuum-processed perovskite solar cells show promise, yet their efficiency remains limited. Xu et al. use formamidinium acetate to promote perovskite crystallization, achieving a 25.5% power conversion efficiency and 1,000 h operational stability.",
    "authors": [
     "Yutian Xu",
     "Tengfei Pan",
@@ -2923,7 +2920,6 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -2956,7 +2952,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -2989,7 +2985,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -3641,7 +3637,7 @@
    "journal": "Nature",
    "publisher": "Nature",
    "date": "2026-07-13",
-   "abstract": "Perovskite–organic tandem solar cells with a photo-transformable stabilizer",
+   "abstract": "Wide-bandgap (WBG) mixed-halide perovskites with high Br content, which are employed as the front cell material in perovskite–organic tandem solar cells (TSCs), often suffer from initial halide-mixing inhomogeneity and light-induced halide segregation1–3, limiting the performance of perovskite–organic TSCs. Here, we introduced a photo-transformable additive 4-[3-(trifluoromethyl)-3H-diazirin-3-yl]benzylamine (TDB) into the WBG perovskite precursor solution to establish a two-stage strategy for stabilizing the mixed-halide phase. During crystallization, TDB improves the initial halide homogeneity by suppressing the rapid precipitation of the Br-rich phase and accelerating halide mixing upon annealing. During operational illumination, TDB undergoes transformation to form a new species with stronger adsorption on the perovskite grain-boundary surfaces, which inhibits the formation of iodide-related defects, suppresses defect-assisted carrier trapping and ion migration, thereby mitigating light-induced halide segregation4–6. The representative WBG perovskite (Eg = 1.88 eV) solar cell achieved a power conversion efficiency (PCE) of 20.01%, with an open-circuit voltage of 1.42 V, a fill factor of 85.13% and improved stability under illumination. By integrating the WBG perovskite solar cell into a monolithic perovskite–organic TSC, we achieved a PCE of 28.80% with a certified steady-state PCE of 28.04%. The perovskite–organic TSC retained 90% of its initial PCE after 625 h of operation under the ISOS-L-1 protocol.",
    "authors": [
     "Ruihan Wu",
     "Shucheng Qin",
@@ -3670,7 +3666,6 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -4494,7 +4489,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -6564,7 +6559,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -7299,7 +7294,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -7447,7 +7442,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -7483,7 +7478,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -7508,7 +7503,7 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -7556,7 +7551,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -7603,7 +7598,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -7645,7 +7640,7 @@
     "wide-bandgap"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -7672,7 +7667,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -8249,7 +8244,7 @@
    "journal": "Nature Materials",
    "publisher": "Nature",
    "date": "2026-07-03",
-   "abstract": "Publisher Correction: Ultralow-voltage electrochemical organic light-emitting transistors with pinned and wide lateral recombination",
+   "abstract": "Nature Materials - Publisher Correction: Ultralow-voltage electrochemical organic light-emitting transistors with pinned and wide lateral recombination",
    "authors": [
     "Kwan-Nyeong Kim",
     "Huanyu Zhou",
@@ -8273,7 +8268,6 @@
     "light-emitting"
    ],
    "type": "comment",
-   "ab_tried": 3,
    "oa_type": "erratum"
   },
   {
@@ -9354,7 +9348,7 @@
    "journal": "Nature",
    "publisher": "Nature",
    "date": "2026-07-02",
-   "abstract": "Electrodeposited self-assembled molecules for perovskite photovoltaics",
+   "abstract": "Preventing the detachment of self-assembled molecules (SAMs) and enhancing their passivation effect on perovskites are critical challenges for improving the performance and stability of perovskite solar cells (PSCs)1–3. Electrodeposited SAMs provide a route to improve coverage uniformity and anchoring robustness on conductive substrates beyond the limitations of conventional solution processing. Here, we use potential-cycled electrodeposition to promote molecular rearrangement and re-anchoring of SAMs, resulting in a uniform and dense layer on an indium tin oxide (ITO) substrate with enhanced anchoring capability. Building on this base SAM, functional units are grown via electrochemical oxidative coupling to form tailored coupled carbazole phosphonic SAMs, yielding power conversion efficiencies of 26.8% for lab-scale solar cells and 21.3% for solar modules (65 cm2).",
    "authors": [
     "Zhihui Xiong",
     "Xuanang Luo",
@@ -9383,7 +9377,6 @@
     "photovoltaics"
    ],
    "type": "article",
-   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -9422,7 +9415,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -11889,7 +11882,7 @@
    "journal": "Nature Nanotechnology",
    "publisher": "Nature",
    "date": "2026-07-01",
-   "abstract": "Poly(triarylamine)-based devices exhibit superior stability but limited efficiency due to self-crystallization and aggregation. Amphiphilic molecules induce nanoscale amorphization of poly(triarylamine), enabling a certified quasi-steady-state efficiency of 23.01% in perovskite modules.",
+   "abstract": "Perovskite solar modules require hole-selective layers that combine efficient charge extraction, interfacial uniformity and scalable processing. Poly(triarylamine) (PTAA) is widely used in high-performance inverted perovskite photovoltaics, but its nanoscale crystallization and aggregation on indium tin oxide can disrupt film continuity, increase interfacial recombination and limit module stability. Here we show that 4-fluorobenzylphosphonic acid (4FBPA) modifies the surface of indium tin oxide to induce nanoscale amorphization of PTAA, forming a uniform sub-10-nm hole-selective layer. The molecule binds to indium tin oxide through a dehydration reaction, tunes the work function and surface free energy of the photoanode, and improves energy-level alignment with PTAA. The resulting amorphous PTAA film shows enhanced conductivity and hole extraction, suppresses non-radiative recombination at the buried interface and promotes more uniform perovskite growth. Inverted perovskite solar cells reach a power conversion efficiency of 26.63%, while blade-coated modules achieve a certified quasi-steady-state efficiency of 23.01%. The modules retain 95.9% of their initial efficiency after 2,600 hours of maximum-power-point operation under 1-sun illumination at 65 ± 5 °C in nitrogen. These results identify nanoscale amorphization of polymeric hole-selective layers as a route to efficient and stable inverted perovskite photovoltaics. Poly(triarylamine)-based devices exhibit superior stability but limited efficiency due to self-crystallization and aggregation. Amphiphilic molecules induce nanoscale amorphization of poly(triarylamine), enabling a certified quasi-steady-state efficiency of 23.01% in perovskite modules.",
    "authors": [
     "Hongwei Zhu",
     "Bingyao Shao",
@@ -11916,8 +11909,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "oa_type": "article",
-   "ab_tried": 3
+   "oa_type": "article"
   },
   {
    "title": "Halide-site-substituting spacer creates quasi-two-dimensional perovskites for vapour-deposited light-emitting diodes",
@@ -11925,7 +11917,7 @@
    "journal": "Nature Nanotechnology",
    "publisher": "Nature",
    "date": "2026-07-01",
-   "abstract": "Using a halide-site-substituting organic spacer, X-type quasi-two-dimensional perovskites are formed via controlled phase pinning and high-purity crystal growth with a LiF/BPA hetero-scaffold, enabling efficient vapour-deposited perovskite light-emitting diodes.",
+   "abstract": "Vapour deposition offers a scalable and industry-compatible route for perovskite light-emitting diodes, yet the process remains challenging owing to kinetically driven crystallization that produces mixed-dimensional phases and nanoscale heterogeneity. In particular, the lack of thermodynamic control leads to phase-disordered nanostructures, broadened energy landscapes and limited device efficiency. Here we report a thermodynamically guided vapour-phase synthesis of X-type quasi-two-dimensional perovskites, (CsPbBr3)n−1Cs2PbBr2X2, with controlled nanoscale phase distribution and interfacial coherence. By introducing a halide-site-substituting organic spacer molecule that covalently binds to Pb2+ during in situ deposition, we achieve selective crystallization of quasi-two-dimensional phases with high phase purity. A self-assembled hetero-scaffold of LiF and spacer molecule acts as a nanoscale growth template, promoting spatially uniform nucleation and minimizing phase segregation. Multimodal structural and spectroscopic analyses reveal dimensionally and spatially homogeneous films with high photoluminescence quantum yield (>85%) and reduced trap densities, enabling efficient exciton confinement and narrow emission. The resulting perovskite light-emitting diodes achieve an external quantum efficiency of 21.9%, an electroluminescence linewidth of 78.5 meV and operational stability exceeding 1,500 min, with scalable pixel arrays demonstrated. These results provide a scalable route to high-efficiency vapour-deposited perovskite optoelectronics. Using a halide-site-substituting organic spacer, X-type quasi-two-dimensional perovskites are formed via controlled phase pinning and high-purity crystal growth with a LiF/BPA hetero-scaffold, enabling efficient vapour-deposited perovskite light-emitting diodes.",
    "authors": [
     "Chan-Yul Park",
     "Joo Sung Kim",
@@ -11951,7 +11943,6 @@
     "perovskites"
    ],
    "type": "article",
-   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -11960,7 +11951,7 @@
    "journal": "Nature",
    "publisher": "Nature",
    "date": "2026-07-01",
-   "abstract": "Hydrogen-bonding networks engineered with isomeric molecules enable stable, saturated blue perovskite LEDs with record external quantum efficiencies up to 22.0%, advancing high-performance full-colour display technologies.",
+   "abstract": "Despite huge progress accomplished in perovskite light-emitting diodes (PeLEDs), the electroluminescence performance of blue PeLEDs lags far behind, constraining the widespread application of PeLED technology for vibrant full-colour displays1–5. The wider bandgaps of blue emitters require higher working voltages of corresponding electroluminescent devices, intensifying the octahedral instability of perovskites with ionic nature6,7. Here we report efficient and stable PeLEDs with saturated blue emissions by constructing hydrogen-bonding networks formed within perovskite and at the interface using isomeric molecules. The O-benzylhydroxylamine hydrochloride (OBCl) between the hole transport layer and the emitter acts as hydrogen-bonding donor, binding to the perovskite inorganic framework, which enhances the perovskite structural stability and decreases the hole energy barrier due to the large dipole moment. The isomeric N-benzylhydroxylamine hydrochloride (NBCl) added into the perovskite provides acceptor and donor sites for forming hydrogen bonding with the OB+ and the perovskite. The isomeric molecular hydrogen bonding reinforces the preferential orientation of perovskite films induced by OB+ interfacial molecules, improving the carrier mobility and further enhancing material stability. We demonstrate, as a result, blue PeLEDs with external quantum efficiencies of 16.8% at 463 nm and 22.0% at 468 nm, as well as significantly improved device stability, representing state-of-the-art performance among pure- and deep-blue PeLEDs. Hydrogen-bonding networks engineered with isomeric molecules enable stable, saturated blue perovskite LEDs with record external quantum efficiencies up to 22.0%, advancing high-performance full-colour display technologies.",
    "authors": [
     "Yuanzhi Wang",
     "Chengxi Zhang",
@@ -11984,7 +11975,6 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -12198,7 +12188,7 @@
     "water-splitting"
    ],
    "type": "comment",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "erratum"
   },
   {
@@ -14365,7 +14355,7 @@
     "perovskite"
    ],
    "type": "comment",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "erratum"
   },
   {
@@ -14663,7 +14653,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -14732,7 +14722,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -16055,7 +16045,7 @@
    "journal": "Nature Nanotechnology",
    "publisher": "Nature",
    "date": "2026-06-23",
-   "abstract": "Nature Nanotechnology, Published online: 23 June 2026; doi:10.1038/s41565-026-02201-5 Coherent 2D–3D van der Waals perovskite heterostructures are grown by cross-dimensional epitaxy, yielding atomically sharp interfaces, controllable domains, spiral chiroptical structures and stable gate-tunable rectification.",
+   "abstract": "Precise control and a clear understanding of the interfaces between 2D and 3D perovskites remain limited by structural disorder, interfacial defects and poorly defined growth pathways. Here we report a strategy for coherent van der Waals cross-dimensional epitaxy, in which 3D MASnI3 (MA: methylammonium) single crystals are grown directly on 2D (3T)2SnI4 (3T: tri-thiophenylethylammonium) templates. This approach achieves deterministic control over domain orientation, density and coverage, yielding planar heterostructures with atomically sharp and structurally coherent interfaces. Low-dose aberration-corrected transmission electron microscopy and ptychographic imaging resolve the heterointerface in real space, revealing ordered spacer ligands and uniform interfacial passivation. The epitaxial growth tolerates topological defects in the 2D templates, giving rise to spiral heterostructures with pronounced chiroptical responses. The method further extends from microscale domains to macroscopic single-crystal heterostructure thin films, bridging fundamental epitaxy and device-relevant architectures. These heterostructures support efficient charge separation and transport, exhibiting gate-tunable rectification ratios exceeding 106 with robust operational stability. These results define a general route to coherent cross-dimensional epitaxy and establish a versatile platform for scalable perovskite optoelectronics. Coherent 2D–3D van der Waals perovskite heterostructures are grown by cross-dimensional epitaxy, yielding atomically sharp interfaces, controllable domains, spiral chiroptical structures and stable gate-tunable rectification.",
    "authors": [
     "Ming Xia",
     "Yu Chen",
@@ -16086,8 +16076,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type": "article",
-   "ab_tried": 3
+   "oa_type": "article"
   },
   {
    "title": "Monolithic three-dimensional integration of heterogeneous electronics for self-powered sensing and processing",
@@ -16095,7 +16084,7 @@
    "journal": "Nature Electronics",
    "publisher": "Nature",
    "date": "2026-06-23",
-   "abstract": "Nature Electronics, Published online: 23 June 2026; doi:10.1038/s41928-026-01624-1 A low-power self-powered integrated system for sensing and computing can be created through the monolithic integration of tiers containing graphene-based chemical sensors, two-dimensional semiconductor-based complementary logic and silicon photovoltaic modules.",
+   "abstract": "Self-powered microelectronics systems generate energy from ambient sources like light, heat or mechanical vibrations using on-chip devices, and the overall system is designed to minimize its power footprint. These systems can be used to build systems that operate autonomously without an external power source. Such systems are of particular interest in edge computing, internet of things devices and remote-sensing technologies, for which replacing or recharging batteries is impractical. Here we report on a monolithic three-dimensional integrated circuit that stacks graphene transistors in the top tier for low-power chemical sensing, complementary logic circuits based on n-type monolayer molybdenum disulfide (MoS2) and p-type bilayer tungsten diselenide (WSe2) in the middle tier for low-power computing, and an on-chip silicon photovoltaic module in the bottom tier to harvest ambient light. The integrated system, which operates solely on ambient light, can distinguish between various chemical solutions and generate corresponding digital codes in a fully sustainable manner. We also demonstrate the dense integration of data and power vias across the tiers and show that the intertier separation can be reduced to 50 nm. A low-power self-powered integrated system for sensing and computing can be created through the monolithic integration of tiers containing graphene-based chemical sensors, two-dimensional semiconductor-based complementary logic and silicon photovoltaic modules.",
    "authors": [
     "Subir Ghosh",
     "Pranavram Venkatram",
@@ -16113,8 +16102,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "oa_type": "article",
-   "ab_tried": 3
+   "oa_type": "article"
   },
   {
    "title": "Cascade Oxidation of Ethylene and Propylene over a Redox Heterometallic Cluster",
@@ -17359,7 +17347,7 @@
     "co2 reduction"
    ],
    "type": "comment",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "erratum"
   },
   {
@@ -17391,7 +17379,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -17413,7 +17401,7 @@
     "perovskites"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -17441,7 +17429,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -19048,7 +19036,8 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type": "article"
+   "oa_type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Submicron Perovskite Quantum Dot Glass Microspheres for Micro‐LED Displays",
@@ -19770,7 +19759,7 @@
     "solar cells"
    ],
    "type": "comment",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "erratum"
   },
   {
@@ -19919,7 +19908,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -19956,7 +19945,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -20230,7 +20219,7 @@
     "perovskite"
    ],
    "type": "comment",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "letter"
   },
   {
@@ -21605,7 +21594,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -21815,7 +21804,7 @@
     "perovskite"
    ],
    "type": "comment",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "erratum"
   },
   {
@@ -22739,7 +22728,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -23084,7 +23073,7 @@
    "journal": "Nature Materials",
    "publisher": "Nature",
    "date": "2026-06-08",
-   "abstract": "",
+   "abstract": "Light emission from organic transistors holds strong potential for user-interactive functionality across applications ranging from wearable and biointegrated systems to neuromorphic electronics. However, conventional single-active-layer organic transistors suffer from inefficient charge carrier injection, resulting in high drain voltages (>80 V in field-effect devices and >3.5 V in electrochemical devices with p–i–n junctions) and narrow, spatially dynamic recombination zones (<75 μm). Here we report a single-active-layer electrochemical organic light-emitting transistor with drain-side electric double layer formation, achieving ultralow-voltage operation (<3.5 V) together with a wide, spatially pinned recombination zone. An ion transport enhancer in the light-emitting polymer channel induces an electric double layer at the drain electrode, overcoming limited electron injection without n-type doping. This mechanism enables flexible, large-area devices with a recombination zone width of 267 μm and a maximum luminance of 826 cd m−2 at 3.5 V, and operation with two 1.5-V batteries. This work advances single-active-layer OLETs and paves the way for organic electronic systems with intuitive, user-friendly visualization functions. Organic light-emitting transistors require a large operating voltage and exhibit a narrow recombination zone, owing to inefficient charge injection. By incorporating an ion transport enhancer into light-emitting polymers, organic light-emitting transistors achieving <3.5-V voltage operation and a maximum recombination zone width of ~267 µm are realized.",
    "authors": [
     "Kwan-Nyeong Kim",
     "Huanyu Zhou",
@@ -23108,7 +23097,6 @@
     "light-emitting"
    ],
    "type": "article",
-   "ab_tried": 1,
    "oa_type": "article"
   },
   {
@@ -23159,7 +23147,7 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -23538,7 +23526,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -24989,7 +24977,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -25213,7 +25201,7 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -26766,7 +26754,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Ferroelectrics Diisopropylammonium Hydrobromide as an Interface Layer Enhancing the Open Circuit Voltage and Efficiency of Cs 2 AgBi 0.997 Fe 0.003 Br 6 Solar Cells",
@@ -27424,7 +27412,7 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -27563,7 +27551,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -27596,7 +27584,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -27620,7 +27608,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -27645,7 +27633,7 @@
     "solar cells"
    ],
    "type": "comment",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -27801,7 +27789,7 @@
     "photoelectrochemical"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -28934,7 +28922,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -29338,7 +29326,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -29896,7 +29884,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -30187,7 +30175,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -30389,7 +30377,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -30433,7 +30421,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -30457,7 +30445,7 @@
     "solar cells"
    ],
    "type": "comment",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "erratum"
   },
   {
@@ -30568,7 +30556,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -30992,7 +30980,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "All-in-one cocatalyst for photocatalytic overall water splitting",
@@ -31388,7 +31376,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Monolithic Perovskite–Perovskite–Perovskite–Silicon Quadruple-Junction Tandem Solar Cell with Efficiency over 21%",
@@ -31937,7 +31925,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -32269,7 +32257,7 @@
     "wide-bandgap"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -32288,7 +32276,7 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -32417,7 +32405,7 @@
     "photoelectrochemical"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -32515,7 +32503,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -32722,7 +32710,7 @@
     "wide-bandgap"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -32751,7 +32739,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -32778,7 +32766,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -32851,7 +32839,7 @@
     "solar cells"
    ],
    "type": "comment",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "erratum"
   },
   {
@@ -33263,7 +33251,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -33853,7 +33841,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -33882,7 +33870,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -34022,7 +34010,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -34054,7 +34042,7 @@
     "wide-bandgap"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -34331,7 +34319,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Tandem Guest–Host Switching for Chemical-to-Electrochemical Signal Transduction",
@@ -34409,7 +34397,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -34430,7 +34418,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -35386,7 +35374,7 @@
     "wide-bandgap"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -35657,7 +35645,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -36208,7 +36196,7 @@
     "solar cells"
    ],
    "type": "comment",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "erratum"
   },
   {
@@ -36598,7 +36586,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Reprogramming CO2 reduction through interfacial water",
@@ -36616,7 +36604,7 @@
     "co2 reduction"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -36747,7 +36735,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -37266,7 +37254,7 @@
     "perovskites"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -37675,7 +37663,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -38088,7 +38076,7 @@
    "journal": "Nature Synthesis",
    "publisher": "Nature",
    "date": "2026-04-02",
-   "abstract": "",
+   "abstract": "High crystallographic symmetry is a key feature of many inorganic semiconductors and underpins their remarkable physical properties. By contrast, hybrid (organic and inorganic) crystals such as two-dimensional metal halide perovskites exhibit much lower crystal symmetry due to in-plane or out-of-plane octahedral distortions. Although they exhibit efficient photoinduced emission at room temperature, limited control over charge carrier transport remains a major challenge for optoelectronic applications. Here, inspired by three-dimensional cubic (α-phase) FAPbI3 (FA, formamidinium), we developed FA-based layered two-dimensional perovskites using tailored cage cations, spacers and crystallization protocols. The compounds achieve near-maximal predicted symmetry, adopting a tetragonal P4/mmm space group without octahedral distortion. Among reported two-dimensional perovskites, these materials present short interlayer distances (4 Å) and lower optical bandgaps (1.7–1.8 eV). The absence of octahedral distortions results in an exciton diffusion length of 2.5 µm and a diffusivity of 4.4 cm2 s−1, both of which are an order of magnitude larger than those of previously reported two-dimensional perovskites and are on par with monolayer transition metal dichalcogenides. Two-dimensional (2D) metal halide perovskites exhibit efficient photoinduced emission at room temperature, but control over charge carrier transport remains limited. Here formamidinium-based layered 2D perovskites are developed with high predicted symmetry. The absence of octahedral distortion results in an exciton diffusion length of 2.5 µm.",
    "authors": [
     "Jin Hou",
     "Jared Fletcher",
@@ -38118,7 +38106,6 @@
     "perovskites"
    ],
    "type": "article",
-   "ab_tried": 1,
    "oa_type": "article"
   },
   {
@@ -38475,7 +38462,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -38924,7 +38911,7 @@
     "perovskites"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -38953,7 +38940,7 @@
     "x-ray detection"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -39003,7 +38990,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "ab_tried": 1,
+   "ab_tried": 2,
    "oa_type": "article"
   },
   {
@@ -39031,7 +39018,7 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -39218,7 +39205,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -39897,7 +39884,7 @@
     "perovskite"
    ],
    "type": "comment",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "erratum"
   },
   {
@@ -39917,7 +39904,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -40022,7 +40009,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -40577,7 +40564,7 @@
     "solar cells"
    ],
    "type": "comment",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "erratum"
   },
   {
@@ -40639,7 +40626,8 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type": "article"
+   "oa_type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Tandem Auxochrome Design Enables Ready Access to Deep Shortwave Infrared Dyes",
@@ -40869,7 +40857,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -40970,7 +40958,7 @@
    "journal": "Nature Sustainability",
    "publisher": "Nature",
    "date": "2026-03-23",
-   "abstract": "",
+   "abstract": "Besides decarbonizing energy supply, photovoltaics can also largely enhance the resilience of global food supply, argues Zhenguo Li.",
    "authors": [
     "Zhenguo Li"
    ],
@@ -40979,7 +40967,6 @@
     "photovoltaics"
    ],
    "type": "article",
-   "ab_tried": 1,
    "oa_type": "article"
   },
   {
@@ -41748,7 +41735,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -42126,7 +42113,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -42150,7 +42137,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -42181,7 +42168,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -42212,7 +42199,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -42239,7 +42226,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -42303,7 +42290,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -42491,7 +42478,7 @@
     "perovskite"
    ],
    "type": "comment",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "erratum"
   },
   {
@@ -42580,7 +42567,7 @@
     "wide-bandgap"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -42606,7 +42593,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -43416,7 +43403,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -44289,7 +44276,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "D-Camphorsulfonic Acid Modulated Self-Assembled Monolayer for Stable and Efficient Inverted Perovskite Solar Cells",
@@ -44462,7 +44449,7 @@
     "tandem"
    ],
    "type": "comment",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "erratum"
   },
   {
@@ -44492,7 +44479,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -44890,7 +44877,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -44924,7 +44911,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -45318,7 +45305,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -45353,7 +45340,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -45937,7 +45924,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -46058,7 +46045,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "MXene-driven nanoscale field-effect junction for advanced 4-terminal perovskite/silicon tandem solar panels",
@@ -46416,7 +46403,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -46633,7 +46620,8 @@
     "photovoltaics"
    ],
    "type": "article",
-   "oa_type": "article"
+   "oa_type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Radiation-triggered superfluorescent scintillation in quantum-ordered perovskite nanocrystal superlattices",
@@ -46692,7 +46680,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -46756,7 +46744,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -46796,7 +46784,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -46840,7 +46828,7 @@
     "wide-bandgap"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -47198,7 +47186,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -47238,7 +47226,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -47272,7 +47260,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -47441,7 +47429,7 @@
     "perovskites"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -47774,7 +47762,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -47852,7 +47840,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -48021,7 +48009,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -48380,7 +48368,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -48408,7 +48396,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -49052,7 +49040,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -49090,7 +49078,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -49114,7 +49102,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -49358,7 +49346,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -49448,7 +49436,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -49552,7 +49540,8 @@
     "photovoltaic"
    ],
    "type": "article",
-   "oa_type": "article"
+   "oa_type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Ultra-stable polymer solar cells with T97 lifetime over 2,000 h in air",
@@ -49581,7 +49570,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -49611,7 +49600,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -49775,7 +49764,7 @@
     "tandem"
    ],
    "type": "comment",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "erratum"
   },
   {
@@ -49933,7 +49922,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -51337,7 +51326,8 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type": "article"
+   "oa_type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Maximizing perovskite electroluminescence with ordered 3D/2D heterojunction",
@@ -52531,7 +52521,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -52777,7 +52767,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -53410,7 +53400,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -53623,7 +53613,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -53647,7 +53637,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -54606,7 +54596,7 @@
     "photovoltaic"
    ],
    "type": "comment",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "erratum"
   },
   {
@@ -54624,7 +54614,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -54762,7 +54752,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -55178,7 +55168,7 @@
     "co2 electroreduction"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -55414,7 +55404,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -55444,7 +55434,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -55846,7 +55836,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -56157,7 +56147,7 @@
     "solar cells"
    ],
    "type": "comment",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "erratum"
   },
   {
@@ -56374,7 +56364,7 @@
     "solar cells"
    ],
    "type": "comment",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "erratum"
   },
   {
@@ -56400,7 +56390,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -56565,7 +56555,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -56592,7 +56582,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -57082,7 +57072,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -57112,7 +57102,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -57146,7 +57136,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -57561,7 +57551,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -58096,7 +58086,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -58520,7 +58510,7 @@
     "perovskite"
    ],
    "type": "comment",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "editorial"
   },
   {
@@ -58977,7 +58967,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Regulation of hydrothermal reaction kinetics with sodium sulfide for certified 10.7% efficiency Sb2(S,Se)3 solar cells",
@@ -59116,7 +59106,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -59144,7 +59134,7 @@
     "wide-bandgap"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -59634,7 +59624,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -60535,7 +60525,7 @@
     "wide-bandgap"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -60562,7 +60552,7 @@
     "photovoltaic"
    ],
    "type": "comment",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "erratum"
   },
   {
@@ -61273,7 +61263,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -61449,7 +61439,7 @@
     "solar cells"
    ],
    "type": "comment",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "erratum"
   },
   {
@@ -61573,7 +61563,7 @@
     "co2 reduction"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -61707,7 +61697,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -62408,7 +62398,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {

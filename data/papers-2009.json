@@ -1,7 +1,7 @@
 {
  "year": "2009",
  "count": 255,
- "generated": "2026-07-20 05:50 UTC",
+ "generated": "2026-07-20 07:27 UTC",
  "papers": [
   {
    "title": "Observation of Positive Effects of Freestanding Scattering Film in Dye-Sensitized Solar Cells",
@@ -165,7 +165,7 @@
    "journal": "Nature",
    "publisher": "Nature",
    "date": "2009-12-10",
-   "abstract": "",
+   "abstract": "Krystle Catalli and colleagues report the thickness of the post-perovskite boundary determined in the laser-heated diamond-anvil cell at in situ high pressure and temperature conditions. Their measured Clapeyron slope is consistent with the D′′ discontinuity observed seismically, however their estimate of the post-perovskite boundary thickness is 400¬600 km, which is substantially larger than the observed thickness of less than 30 km. They predict that the post-perovskite boundary will be particularly thick in regions with elevated aluminium content and/or low Mg/Si ratio, reducing the effects of the large positive Clapeyron slope on the buoyancy of thermal anomalies and stabilizing compositional heterogeneities in the lowermost mantle. If the post-perovskite transition is the source of the D′′ discontinuity, regions with sharp discontinuities may require distinct compositions, such as a higher Mg/Si ratio or low aluminium content. Seismic detectability of the boundaries and convection in the mantle is strongly influenced by the thicknesses and Clapeyron slopes of mantle phase boundaries. The unusually large positive Clapeyron slope found for the boundary between perovskite and post-perovskite (the 'pPv boundary') would destabilize high-temperature anomalies in the lowermost mantle, in disagreement with the seismic observations. Here, new studies of the thickness and Clapeyron slope of the pPv boundary shed light on this matter. The thicknesses and Clapeyron slopes of mantle phase boundaries strongly influence the seismic detectability of the boundaries and convection in the mantle. The unusually large positive Clapeyron slope found for the boundary between perovskite (Pv) and post-perovskite (pPv)1,2,3 (the ‘pPv boundary’) would destabilize high-temperature anomalies in the lowermost mantle4, in disagreement with the seismic observations5. Here we report the thickness of the pPv boundary in (Mg0.91Fe2+0.09)SiO3 and (Mg0.9Fe3+0.1)(Al0.1Si0.9)O3 as determined in a laser-heated diamond-anvil cell under in situ high-pressure (up to 145 GPa), high-temperature (up to 3,000 K) conditions. The measured Clapeyron slope is consistent with the D′′ discontinuity6. In both systems, however, the pPv boundary thickness increases to 400–600 ± 100 km, which is substantially greater than the thickness of the D′′ discontinuity (<30 km)7. Although the Fe2+ buffering effect of…",
    "authors": [
     "Krystle Catalli",
     "Sang-Heon Shim",
@@ -176,7 +176,6 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
    "oa_type": "article"
   },
   {
@@ -235,7 +234,8 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type": "article"
+   "oa_type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Tertiary Amine Mediated Tandem Cross‐Rauhut–Currier/Acetalization Reactions: Access to Functionalized Spiro‐3,4‐Dihydropyrans",
@@ -257,7 +257,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Vicinal Diboronates in High Enantiomeric Purity through Tandem Site-Selective NHC−Cu-Catalyzed Boron−Copper Additions to Terminal Alkynes",
@@ -477,7 +477,7 @@
    "journal": "Nature Materials",
    "publisher": "Nature",
    "date": "2009-11-29",
-   "abstract": "",
+   "abstract": "Dye-sensitized solar cells are a promising technology for sustainable energy generation. Most dyes in these types of solar cell act as sensitizers for injecting electrons into n-type semiconductors. But the development of a sensitizer that can efficiently inject holes into p-type semiconductors makes possible the realization of tandem cells that could exploit the two approaches together. Thin-film dye-sensitized solar cells (DSCs) based on mesoporous semiconductor electrodes are low-cost alternatives to conventional silicon devices1,2. High-efficiency DSCs typically operate as photoanodes (n-DSCs), where photocurrents result from dye-sensitized electron injection into n-type semiconductors. Dye-sensitized photocathodes (p-DSCs) operate in an inverse mode, where dye-excitation is followed by rapid electron transfer from a p-type semiconductor to the dye (dye-sensitized hole injection). Such p-DSCs and n-DSCs can be combined to construct tandem solar cells3 (pn-DSCs) with a theoretical efficiency limitation well beyond that of single-junction DSCs (ref. 4). Nevertheless, the efficiencies of such tandem pn-DSCs have so far been hampered by the poor performance of the available p-DSCs (refs 3, 5–15). Here we show for the first time that p-DSCs can convert absorbed photons to electrons with yields of up to 96%, resulting in a sevenfold increase in energy conversion efficiency compared with previously reported photocathodes7. The donor–acceptor dyes, studied as photocathodic sensitizers, comprise a variable-length oligothiophene bridge, which provides control over the spatial separation of the photogenerated charge carriers. As a result, charge recombination is decelerated by several orders of magnitude and tandem pn-DSCs can be constructed that exceed the efficiency of their individual components.",
    "authors": [
     "A. Nattestad",
     "A. J. Mozer",
@@ -493,7 +493,6 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
    "oa_type": "article"
   },
   {
@@ -609,7 +608,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Formation of a Non‐Thickness‐Limited Titanium Dioxide Mesosponge and its Use in Dye‐Sensitized Solar Cells",
@@ -824,7 +823,7 @@
    "journal": "Nature Photonics",
    "publisher": "Nature",
    "date": "2009-10-30",
-   "abstract": "",
+   "abstract": "Following the development of the bulk heterojunction1 structure, recent years have seen a dramatic improvement in the efficiency of polymer solar cells. Maximizing the open-circuit voltage in a low-bandgap polymer is one of the critical factors towards enabling high-efficiency solar cells. Study of the relation between open-circuit voltage and the energy levels of the donor/acceptor2 in bulk heterojunction polymer solar cells has stimulated interest in modifying the open-circuit voltage by tuning the energy levels of polymers3. Here, we show that the open-circuit voltage of polymer solar cells constructed based on the structure of a low-bandgap polymer, PBDTTT4, can be tuned, step by step, using different functional groups, to achieve values as high as 0.76 V. This increased open-circuit voltage combined with a high short-circuit current density results in a polymer solar cell with a power conversion efficiency as high as 6.77%, as certified by the National Renewable Energy Laboratory. Adding electron-withdrawing groups to the backbone of the polymer PBDTTT is shown to increase the open-circuit voltage of photovoltaic cells, resulting in a polymer solar-cell that has a certified power-conversion efficiency of 6.77%.",
    "authors": [
     "Hsiang-Yu Chen",
     "Jianhui Hou",
@@ -842,7 +841,6 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
    "oa_type": "article"
   },
   {
@@ -851,7 +849,7 @@
    "journal": "Nature Photonics",
    "publisher": "Nature",
    "date": "2009-10-30",
-   "abstract": "",
+   "abstract": "Nature Photonics - Increased light harvesting in dye-sensitized solar cells with energy relay dyes",
    "authors": [
     "Brian E. Hardin",
     "Eric T. Hoke",
@@ -869,7 +867,6 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
    "oa_type": "article"
   },
   {
@@ -935,7 +932,8 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type": "article"
+   "oa_type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Total Synthesis of Auripyrone A Using a Tandem Non‐Aldol Aldol/Paterson Aldol Process as a Key Step",
@@ -1206,7 +1204,7 @@
    "journal": "Nature Chemistry",
    "publisher": "Nature",
    "date": "2009-10-18",
-   "abstract": "",
+   "abstract": "The most efficient plastic solar cells comprise a blend of conjugated polymer and a suitable electron acceptor, typically a fullerene derivative. Therefore narrow-bandgap conjugated polymers are currently sought for the fabrication of such devices. A significant challenge is being able to predict device function and performance from consideration of the molecular connectivity and dimensions of the partners within the active layer. Improved chemical syntheses are therefore required to make structurally varied polymers and enable the delineation of structure–function relationships with the aim of improving power conversion efficiencies. Here, we demonstrate that microwave heating in combination with the screening of comonomer reactant ratios can be used to obtain donor–acceptor copolymers with high average molecular weights and properties that make them suitable for solar cell incorporation. Furthermore, we highlight the importance of high molecular weight and the contribution of solubilizing side groups in determining the final device properties. Plastic solar cells contain a blend of conjugated polymer and fullerene electron-acceptor material that phase separates, resulting in the formation of heterojunctions. Improving the performance of these devices requires an understanding of the blend morphology. Now researchers show how a microwave-assisted synthesis method can be used to create structurally diverse copolymers enabling the investigation of their structure–function relationship.",
    "authors": [
     "Robert C. Coffin",
     "Jeff Peet",
@@ -1219,7 +1217,6 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
    "oa_type": "article"
   },
   {
@@ -1331,7 +1328,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -1408,7 +1405,7 @@
    "journal": "Nature Nanotechnology",
    "publisher": "Nature",
    "date": "2009-10-11",
-   "abstract": "",
+   "abstract": "Graphene research so far has focused on electronic1,2,3,4,5,6 rather than photonic applications, in spite of its impressive optical properties7,8. These include its ability to absorb ∼2% of incident light over a broad wavelength range despite being just one atom thick7. Here, we demonstrate ultrafast transistor-based photodetectors made from single- and few-layer graphene. The photoresponse does not degrade for optical intensity modulations up to 40 GHz, and further analysis suggests that the intrinsic bandwidth may exceed 500 GHz. The generation and transport of photocarriers in graphene differ fundamentally from those in photodetectors made from conventional semiconductors as a result of the unique photonic and electronic properties of the graphene. This leads to a remarkably high bandwidth, zero source–drain bias and dark current operation, and good internal quantum efficiency. Field-effect transistors made from graphene act as photodetectors at frequencies up to 40 GHz, demonstrating the advantage offered by graphene for photonic applications.",
    "authors": [
     "Fengnian Xia",
     "Thomas Mueller",
@@ -1421,7 +1418,6 @@
     "photodetector"
    ],
    "type": "article",
-   "ab_tried": 2,
    "oa_type": "article"
   },
   {
@@ -1430,7 +1426,7 @@
    "journal": "Nature Materials",
    "publisher": "Nature",
    "date": "2009-10-11",
-   "abstract": "",
+   "abstract": "The increasing amount of research on solution-processable, organic donor–acceptor bulk heterojunction photovoltaic systems, based on blends of conjugated polymers and fullerenes has resulted in devices with an overall power-conversion efficiency of 6%. For the best devices, absorbed photon-to-electron quantum efficiencies approaching 100% have been shown. Besides the produced current, the overall efficiency depends critically on the generated photovoltage. Therefore, understanding and optimization of the open-circuit voltage (Voc) of organic solar cells is of high importance. Here, we demonstrate that charge-transfer absorption and emission are shown to be related to each other and Voc in accordance with the assumptions of the detailed balance and quasi-equilibrium theory. We underline the importance of the weak ground-state interaction between the polymer and the fullerene and we confirm that Voc is determined by the formation of these states. Our work further suggests alternative pathways to improve Voc of donor–acceptor devices. The efficiency of solar cells depends not only on the generated current, but also the photovoltage produced. Ground-state charge-transfer complexes are shown to have an important role in influencing the open-circuit voltage of several polymer–fullerene solar-cell blends; future chemical tuning of the polymers could maximize the complexes’ role in affecting the voltage for increased power-conversion efficiency.",
    "authors": [
     "Koen Vandewal",
     "Kristofer Tvingstedt",
@@ -1444,7 +1440,6 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
    "oa_type": "article"
   },
   {
@@ -1535,7 +1530,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Nanoscale Phase Separation and High Photovoltaic Efficiency in Solution‐Processed, Small‐Molecule Bulk Heterojunction Solar Cells",
@@ -1709,7 +1704,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Tandem Asymmetric Aza-Darzens/Ring-Opening Reactions: Dual Functionality from the Silane Lewis Acid",
@@ -1793,7 +1788,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Surface properties of SnO2 nanowires for enhanced performance with dye-sensitized solar cells",
@@ -1839,7 +1834,8 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type": "article"
+   "oa_type": "article",
+   "ab_tried": 1
   },
   {
    "title": "TiO 2 ‐Coated Multilayered SnO 2 Hollow Microspheres for Dye‐Sensitized Solar Cells",
@@ -1862,7 +1858,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -1888,7 +1884,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Synthesis of perylene monoimide derivative and its use for quasi-solid-state dye-sensitized solar cells based on bare and modified nano-crystalline ZnO photoelectrodes",
@@ -2056,7 +2052,7 @@
    "journal": "Nature Materials",
    "publisher": "Nature",
    "date": "2009-09-13",
-   "abstract": "",
+   "abstract": "The efficiency of polymer solar cells critically depends on the intimacy of mixing of the donor and acceptor semiconductors used in these devices to create charges and on the presence of unhindered percolation pathways in the individual components to transport holes and electrons. The visualization of these bulk heterojunction morphologies in three dimensions has been challenging and has hampered progress in this area. Here, we spatially resolve the morphology of 2%-efficient hybrid solar cells consisting of poly(3-hexylthiophene) as the donor and ZnO as the acceptor in the nanometre range by electron tomography. The morphology is statistically analysed for spherical contact distance and percolation pathways. Together with solving the three-dimensional exciton-diffusion equation, a consistent and quantitative correlation between solar-cell performance, photophysical data and the three-dimensional morphology has been obtained for devices with different layer thicknesses that enables differentiating between generation and transport as limiting factors to performance. The performance of hybrid solar cells depends critically on the morphology of both the polymeric and the inorganic components. Electron tomography is used to resolve the morphology in three dimensions; coupling this information with three-dimensional exciton-diffusion studies enables the differentiation of charge generation and transport as performance-limiting factors.",
    "authors": [
     "Stefan D. Oosterhout",
     "Martijn M. Wienk",
@@ -2073,7 +2069,6 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
    "oa_type": "article"
   },
   {
@@ -2189,7 +2184,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -2211,7 +2206,8 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type": "article"
+   "oa_type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Multiferroic Behavior Associated with an Order−Disorder Hydrogen Bonding Transition in Metal−Organic Frameworks (MOFs) with the Perovskite ABX 3 Architecture",
@@ -2363,7 +2359,7 @@
    "journal": "Nature Nanotechnology",
    "publisher": "Nature",
    "date": "2009-08-16",
-   "abstract": "",
+   "abstract": "Dye-sensitized solar cells consist of a random network of titania nanoparticles that serve both as a high-surface-area support for dye molecules and as an electron-transporting medium. Despite achieving high power conversion efficiencies, their performance is limited by electron trapping in the nanoparticle film. Electron diffusion lengths can be increased by transporting charge through highly ordered nanostructures such as titania nanotube arrays. Although titania nanotube array films have been shown to enhance the efficiencies of both charge collection and light harvesting, it has not been possible to grow them on transparent conducting oxide glass with the lengths needed for high-efficiency device applications (tens of micrometres). Here, we report the fabrication of transparent titania nanotube array films on transparent conducting oxide glass with lengths between 0.3 and 33.0 µm using a novel electrochemistry approach. Dye-sensitized solar cells containing these arrays yielded a power conversion efficiency of 6.9%. The incident photon-to-current conversion efficiency ranged from 70 to 80% for wavelengths between 450 and 650 nm. Transparent films of titania nanotubes up to 30-μm long are fabricated on transparent conducting oxide glass, and used to make dye-sensitized solar cells.",
    "authors": [
     "Oomman K. Varghese",
     "Maggie Paulose",
@@ -2374,7 +2370,6 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
    "oa_type": "article"
   },
   {
@@ -2436,7 +2431,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -2581,7 +2576,7 @@
    "journal": "Nature Physics",
    "publisher": "Nature",
    "date": "2009-08-02",
-   "abstract": "",
+   "abstract": "Electrical detection of spin-polarized transport in semiconductors is one of the key prerequisites for successful incorporation of spin in semiconductor microelectronics. The present schemes are based on spin-dependent transport effects within the spin generation region in the semiconductor, or on non-local detection outside the spin-injection area using a ferromagnet attached to the semiconductor. Here, we report that polarized injection of carriers can be detected by transverse electrical signals directly along the semiconducting channel, both inside and outside the injection area, without disturbing the spin-polarized current or using magnetic elements. Our planar p–n diode microdevices enable us to demonstrate Hall effect symmetries and large magnitudes of the measured effect. Supported by microscopic calculations, we infer that the observed spin-injection Hall effect reflects spin dynamics induced by an internal spin–orbit field and is closely related to the anomalous and spin Hall effects. The spin-injection Hall effect is observed up to high temperatures and our devices represent a realization of a non-magnetic spin-photovoltaic polarimeter that directly converts polarization of light into transverse voltage signals. A technique that allows the electrical detection of spin-polarized transport in semiconductors without disturbing the spin-polarized current or using magnetic elements has now been demonstrated. The approach could lead to the integration of spintronics elements into semiconductor microelectronic circuits.",
    "authors": [
     "J. Wunderlich",
     "A. C. Irvine",
@@ -2598,7 +2593,6 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 2,
    "oa_type": "article"
   },
   {
@@ -2701,7 +2695,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -2722,7 +2716,7 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -3261,7 +3255,7 @@
    "journal": "Nature Photonics",
    "publisher": "Nature",
    "date": "2009-06-21",
-   "abstract": "",
+   "abstract": "Conventional dye-sensitized solar cells have excellent charge collection efficiencies, high open-circuit voltages and good fill factors. However, dye-sensitized solar cells do not completely absorb all of the photons from the visible and near-infrared domain and consequently have lower short-circuit photocurrent densities than inorganic photovoltaic devices. Here, we present a new design where high-energy photons are absorbed by highly photoluminescent chromophores unattached to the titania and undergo Förster resonant energy transfer to the sensitizing dye. This novel architecture allows for broader spectral absorption, an increase in dye loading, and relaxes the design requirements for the sensitizing dye. We demonstrate a 26% increase in power conversion efficiency when using an energy relay dye (PTCDI) with an organic sensitizing dye (TT1). We estimate the average excitation transfer efficiency in this system to be at least 47%. This system offers a viable pathway to develop more efficient dye-sensitized solar cells. The power-conversion efficiency of dye-sensitized solar cells is increased by 26% by using energy relay dyes. The scheme aids the absorption of high-energy photons that undergo Förster resonant energy transfer to a sensitizing dye, and may offer a viable pathway for developing more efficient dye-sensitized solar cells.",
    "authors": [
     "Brian E. Hardin",
     "Eric T. Hoke",
@@ -3279,7 +3273,6 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
    "oa_type": "article"
   },
   {
@@ -3300,7 +3293,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -3458,7 +3451,7 @@
    "journal": "Nature Materials",
    "publisher": "Nature",
    "date": "2009-06-07",
-   "abstract": "",
+   "abstract": "In multiferroics ferroelectricity and magnetism are coupled, but the coupling is often rather weak. As is now shown for a perovskite oxide, composite domain walls can lead to a strong coupling of electricity and magnetism, highlighting the importance of domain walls for practical applications using multiferroics. Controlling ferromagnetism by an external electric field has been a great challenge in materials physics, for example towards the development of low-power-consumption spintronics devices. To achieve an efficient mutual control of electricity and magnetism, the use of multiferroics—materials that show both ferroelectric and ferromagnetic/antiferromagnetic order—is one of the most promising approaches1,2,3,4. Here, we show that GdFeO3, one of the most orthodox perovskite oxides5, is not only a weak ferromagnet but also possesses a ferroelectric ground state, in which the ferroelectric polarization is generated by the striction through the exchange interaction between the Gd and Fe spins. Furthermore, in this compound, ferroelectric polarization and magnetization are successfully controlled by magnetic and electric fields, respectively. This unprecedented mutual controllability of electricity and magnetism is attributed to the unique feature of composite domain wall clamping of the respective domain walls for electric and magnetic orders. This domain wall feature generally determines the efficiency of the mutual controllability and thus could have an important role towards the application of multiferroics to practical devices.",
    "authors": [
     "Yusuke Tokunaga",
     "Nobuo Furukawa",
@@ -3472,7 +3465,6 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
    "oa_type": "article"
   },
   {
@@ -3493,7 +3485,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -3513,7 +3505,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -3595,7 +3587,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -3728,7 +3720,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -3847,7 +3839,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -3876,7 +3868,7 @@
    "journal": "Nature Photonics",
    "publisher": "Nature",
    "date": "2009-04-26",
-   "abstract": "",
+   "abstract": "We report the fabrication and measurement of solar cells with 6% power conversion efficiency using the alternating co-polymer, poly[N-9′′-hepta-decanyl-2,7-carbazole-alt-5,5-(4′,7′-di-2-thienyl-2′,1′,3′-benzothiadiazole) (PCDTBT) in bulk heterojunction composites with the fullerene derivative [6,6]-phenyl C70-butyric acid methyl ester (PC70BM). The PCDTBT/PC70BM solar cells exhibit the best performance of any bulk heterojunction system studied to date, with JSC = 10.6 mA cm−2, VOC = 0.88 V, FF = 0.66 and ηe = 6.1% under air mass 1.5 global (AM 1.5 G) irradiation of 100 mW cm−2. The internal quantum efficiency is close to 100%, implying that essentially every absorbed photon results in a separated pair of charge carriers and that all photogenerated carriers are collected at the electrodes. A polymer solar-cell based on a bulk hetereojunction design with an internal quantum efficiency of over 90% across the visible spectrum (425 nm to 575 nm) is reported. The device exhibits a power-conversion efficiency of 6% under standard air-mass 1.5 global illumination tests.",
    "authors": [
     "Sung Heum Park",
     "Anshuman Roy",
@@ -3894,7 +3886,6 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
    "oa_type": "article"
   },
   {
@@ -4201,7 +4192,7 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -4272,7 +4263,8 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type": "article"
+   "oa_type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Cover Picture: Direct Decomposition of Nitrous Oxide to Nitrogen by In Situ Oxygen Removal with a Perovskite Membrane (Angew. Chem. Int. Ed. 16/2009)",
@@ -4426,7 +4418,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Highly stable sensitizer dyes for dye-sensitized solar cells: role of the oligothiophene moiety",
@@ -4631,7 +4623,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Improvement of the Light-Harvesting Efficiency in Polymer/Fullerene Bulk Heterojunction Solar Cells by Interfacial Dye Modification",
@@ -4764,7 +4756,7 @@
    "journal": "Nature",
    "publisher": "Nature",
    "date": "2009-03-04",
-   "abstract": "",
+   "abstract": "The introduction of 'foreign' elements into transition-metal oxides (called chemical doping) can change the valence state of the metal's cations and hence modify the physical properties of the material as a whole. These changes can be dramatic, for example causing high-temperature superconductivity in copper oxides and colossal magnetoresistance in manganese oxides. Youwen Long et al. have identified an oxide system, the perovskite LaCu3Fe4O12, in which changes in valence state occur when charge is shuffled between different cations (iron and copper) in the host structure, rather than via doping. As a result, the material can be reversibly transformed from one possessing iron in an unusually high Fe3.75+ state (partnered with fairly common Cu2+ ions) to one possessing rare Cu3+ ions. These changes are reflected in the magnetic and electronic properties of the material and, intriguingly, the material contracts slightly on being warmed through the transition. The temperature sensitivity of this effect makes it a strong candidate for technological applications. This paper identifies an oxide system where changes in valence state occur as a result of charge being shuffled between different cations in the host structure, rather than via doping, this charge transfer being sensitive to temperature. As a result, the material can be reversibly transformed from one possessing iron in an unusually high Fe3.75+ state to one possessing rare Cu3+ ions. These changes are reflected in the magnetic and electronic properties of the material and, intriguingly, are accompanied by negative thermal expansion. Changes of valence states in transition-metal oxides often cause significant changes in their structural and physical properties1,2. Chemical doping is the conventional way of modulating these valence states. In ABO3 perovskite and/or perovskite-like oxides, chemical doping at the A site can introduce holes or electrons at the B site, giving rise to exotic physical properties like high-transition-temperature superconductivity and colossal magnetoresistance3,4. When valence-variable transition metals at two different atomic sites are involved simultaneously, we expect to be able to induce charge transfer—and, hence, valence changes—by using a small external stimulus rather than by introducing a doping element. Materials showing this type of charge transfer are very rare,…",
    "authors": [
     "Y. W. Long",
     "N. Hayashi",
@@ -4778,7 +4770,6 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
    "oa_type": "article"
   },
   {
@@ -4802,7 +4793,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Organic tandem solar cells: A review",
@@ -4824,7 +4815,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Material Solubility‐Photovoltaic Performance Relationship in the Design of Novel Fullerene Derivatives for Bulk Heterojunction Solar Cells",
@@ -4929,7 +4920,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Highly Efficient Nanoporous TiO 2 ‐Polythiophene Hybrid Solar Cells Based on Interfacial Modification Using a Metal‐Free Organic Dye",
@@ -5153,7 +5144,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Porous One‐Dimensional Photonic Crystals Improve the Power‐Conversion Efficiency of Dye‐Sensitized Solar Cells",
@@ -5206,7 +5197,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Endohedral fullerenes for organic photovoltaic devices",
@@ -5214,7 +5205,7 @@
    "journal": "Nature Materials",
    "publisher": "Nature",
    "date": "2009-02-08",
-   "abstract": "",
+   "abstract": "A limiting factor of the power conversion efficiencies of organic photovoltaic devices is low voltage output. Methano derivatives of the trimetallic endohedral fullerene Lu3N@C80 have now been synthesized and used as the acceptor in organic photovoltaics. The open circuit voltage of the devices is significantly above those made using alternative fullerenes. So far, one of the fundamental limitations of organic photovoltaic (OPV) device power conversion efficiencies (PCEs) has been the low voltage output caused by a molecular orbital mismatch between the donor polymer and acceptor molecules. Here, we present a means of addressing the low voltage output by introducing novel trimetallic nitride endohedral fullerenes (TNEFs) as acceptor materials for use in photovoltaic devices. TNEFs were discovered in 1999 by Stevenson et al. 1; for the first time derivatives of the TNEF acceptor, Lu3N@C80, are synthesized and integrated into OPV devices. The reduced energy offset of the molecular orbitals of Lu3N@C80 to the donor, poly(3-hexyl)thiophene (P3HT), reduces energy losses in the charge transfer process and increases the open circuit voltage (Voc) to 260 mV above reference devices made with [6,6]-phenyl-C61-butyric methyl ester (C60-PCBM) acceptor. PCEs >4% have been observed using P3HT as the donor material. This work clears a path towards higher PCEs in OPV devices by demonstrating that high-yield charge separation can occur with OPV systems that have a reduced donor/acceptor lowest unoccupied molecular orbital energy offset.",
    "authors": [
     "Russel B. Ross",
     "Claudia M. Cardona",
@@ -5234,7 +5225,6 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 2,
    "oa_type": "article"
   },
   {
