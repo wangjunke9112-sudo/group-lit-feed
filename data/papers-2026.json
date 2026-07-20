@@ -1,11 +1,75 @@
 {
  "year": "2026",
- "count": 2309,
- "generated": "2026-07-19 22:57 UTC",
+ "count": 2317,
+ "generated": "2026-07-20 04:24 UTC",
  "papers": [
   {
-   "title": "Wavelength-encoded neuromorphic inference enabled by microcavity MoS 2 photodetector arrays",
-   "link": "https://www.nature.com/articles/s41467-026-75808-w",
+   "title": "Enhanced energy storage in tungsten bronze-based ferroelectrics and MLCCs via a multi-coating engineering",
+   "link": "https://www.nature.com/articles/s41467-026-75708-z",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-07-20",
+   "abstract": "The authors construct tungsten bronze–perovskite composites with a SiO₂ coating, forming a dual-core-shell architecture. This design yields a high energy density of 23.2 J/cm³ and 92.8% efficiency in multilayer ceramic capacitors, due to enhanced polarization and breakdown strength, alongside excellent thermal and fatigue stability.",
+   "authors": [
+    "Limin Guo",
+    "Jiaming Liu",
+    "Menghan Li",
+    "Ying Jiang",
+    "Weichen Zhang",
+    "Kezhen Hui",
+    "Jinsong Cui",
+    "Xu Cheng",
+    "Jinghui Huang",
+    "Jianchun Xu",
+    "Yunjian Guo",
+    "Ke Bi",
+    "Peiyao Zhao",
+    "Yongle Wu",
+    "Xiaohui Wang"
+   ],
+   "doi": "10.1038/s41467-026-75708-z",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Defect‐Polarization Coupling in 3D‐Graphene/ β ‐Ga 2 O 3 Heterostructures for Self‐Powered and Multifunctional Solar‐Blind Ultraviolet Photodetection",
+   "link": "https://doi.org/10.1002/smll.74530",
+   "journal": "Small",
+   "publisher": "Wiley",
+   "date": "2026-07-19",
+   "abstract": "ABSTRACT Solar‐blind ultraviolet photodetectors are promising for secure communication, early warning systems, and information security. Monoclinic phase gallium oxide ( β ‐Ga 2 O 3 ) is an ideal candidate due to its ultrawide bandgap. Unavoidable oxygen vacancies in β ‐Ga 2 O 3 have been viewed as detrimental defects that degrade performance. However, this study introduces an innovative approach that reinterprets these oxygen vacancies as beneficial for optoelectronic enhancement, accomplished through a 3D‐graphene/ β ‐Ga 2 O 3 heterojunction. Oxygen vacancies cause localized lattice symmetry breaking, generating dipole fields and local polarization. This interacts with the optical resonance of 3D‐graphene, enhancing optical and electrical fields in the heterojunction, which improves the separation and transport of photogenerated carriers. Experimental investigations, along with DFT and TCAD calculations, reveal that oxygen‐vacancy‐induced local polarization reduces the interfacial barrier, enhances electron injection, and increases photoconductive gain through a trap‐assisted mechanism. The photodetector achieves weak‐light detection at 255 nm (0.002 µW/mm 2 ) with a responsivity of 3740 A/W and specific detectivity of 6.85 × 10 13 Jones, a response of 140 µs, and enabling zero‐bias self‐powered operation. The 8 × 8 array allows for ultraviolet imaging and optical encrypted communication. This study reframes oxygen vacancies as functional mechanisms for enhancing polarization, paving the way for advanced wide‐bandgap optoelectronic device design.",
+   "authors": [
+    "Fanghao Zhu",
+    "Yuanyuan Wang",
+    "Ziyu Li",
+    "Genqiang Cao",
+    "Hui Ma",
+    "Kuan Qian",
+    "Shubo Li",
+    "Jinqiu Zhang",
+    "Shanshui Lian",
+    "Li Zheng",
+    "Peng He",
+    "Yun Zhao",
+    "Miao Gao",
+    "Wenwu Xu",
+    "Xu Wang",
+    "Gang Wang"
+   ],
+   "doi": "10.1002/smll.74530",
+   "keywords": [
+    "photodetector"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Wavelength-encoded neuromorphic inference enabled by microcavity MoS2 photodetector arrays",
+   "link": "https://doi.org/10.1038/s41467-026-75808-w",
    "journal": "Nature Communications",
    "publisher": "Nature",
    "date": "2026-07-18",
@@ -311,13 +375,19 @@
    "oa_type": "article"
   },
   {
-   "title": "Simultaneous measurements of translation rate and transcriptome uncovers linked regulation within an active bacterial cell population | Science Advances",
-   "link": "https://www.science.org/doi/10.1126/sciadv.adz1707",
+   "title": "Simultaneous measurements of translation rate and transcriptome uncovers linked regulation within an active bacterial cell population",
+   "link": "https://doi.org/10.1126/sciadv.adz1707",
    "journal": "Science Advances",
    "publisher": "Science",
    "date": "2026-07-17",
    "abstract": "Abstract Cell-to-cell variation within clonal bacterial populations provides bacterial communities with important advantages including opportunities for bet-hedging and metabolic division of labor. In recent years, the extent of bacterial heterogeneity has been documented both at the transcriptome level and with physiological measurements of cell growth rate and translation rate. However, methods that link physiological parameters to a single cell’s full transcriptomic state are lacking, making it difficult to identify the regulatory mechanisms that couple physiology and transcriptional output. Here, we introduce a method that combines click chemistry–enabled labeling of nascent polypeptides to measure translation rates in single cells alongside microfluidic encapsulation and single-cell transcriptomic measurements, providing a tandem measurement of translation rate and transcriptome in thousands of single Bacillus subtilis cells. In a culture experiencing nutrient limitation, we identified a subpopulation of cells with a higher rate of protein translation that overexpresses genes for several metabolic processes including acetoin production and arginine synthesis. Using a genetic approach informed by the gene expression in this subpopulation, we identified a regulatory mechanism that couples the increase in protein abundance of a transcriptional regulator AlsR with the expression of alsR -regulated genes in this subpopulation.",
-   "authors": [],
+   "authors": [
+    "Christopher Baumann",
+    "Molly Hydorn",
+    "Samuel F. Cooke",
+    "Jonathan Dworkin",
+    "Adam Z. Rosenthal"
+   ],
    "doi": "10.1126/sciadv.adz1707",
    "keywords": [
     "tandem"
@@ -326,8 +396,154 @@
    "oa_type": "article"
   },
   {
+   "title": "Opposite and reversible optical switching in soft-lattice halide perovskites using light and heat",
+   "link": "https://doi.org/10.1126/sciadv.aeb1442",
+   "journal": "Science Advances",
+   "publisher": "Science",
+   "date": "2026-07-17",
+   "abstract": "Abstract Halide perovskites have soft lattices with strong interactions between electronic and structural degrees of freedom, making them promising for next-generation optoelectronics. Recent studies have uncovered their unique photo- and thermally induced optical behavior, yet the potential for dynamic, optical switching remains underexplored. Here, we demonstrate reversible and diametrically opposite optical switching in single-crystal cesium lead bromide (CsPbBr 3 ), driven independently by either above-bandgap illumination or thermal excitation. We measure tunable changes in mid-infrared transmission from 3 to 20 micrometers, exceeding 10% at 20 micrometers, with opposite polarity under light and heat, and modulation times <1 millisecond. This antithetical behavior arises from a polaron-like lattice distortion under illumination (reducing transmission), and from lattice expansion from heating partnered with the material’s negative thermo-optic coefficient (increasing transparency). Our findings establish inorganic halide perovskites as a viable material platform for reconfigurable photonics where transmission can be controlled independently through distinct mechanisms intrinsic to their soft lattices.",
+   "authors": [
+    "Mansha Dubey",
+    "Tristan J. Deppe",
+    "Andrii Kanak",
+    "Abigail R. Hering",
+    "Peifen Lyu",
+    "Declan Kopper",
+    "Paulina V. Escobar",
+    "Maksym V. Kovalenko",
+    "Jeremy N. Munday",
+    "Marina S. Leite"
+   ],
+   "doi": "10.1126/sciadv.aeb1442",
+   "keywords": [
+    "perovskites"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Thermodynamic control of Cu-I nanotopologies enables solar-driven CO 2 -to-multicarbon conversion",
+   "link": "https://doi.org/10.1126/sciadv.aec6434",
+   "journal": "Science Advances",
+   "publisher": "Science",
+   "date": "2026-07-17",
+   "abstract": "Solar-driven electrochemical CO 2 reduction to multicarbon (C 2+ ) products presents a promising avenue for artificial photosynthesis, yet remains constrained by high overpotentials and limited conversion efficiency. Here, we developed an alkaline environment-modulated prereduction strategy that capitalizes on the divergent thermodynamic stabilities of precursors, enabling the precise synthesis of iodine-doped copper nanotopologies (Cu-I NTs). Featuring tunable under-coordination defects and stabilized high-energy adsorption sites, the Cu-I NTs achieve an onset potential of only −0.37 V versus the reversible hydrogen electrode for C 2+ formation. Operando Raman measurement and density functional theory calculation reveal that the tailored surface topologies favor Cu-CO rotation adsorption, enabling dynamic reorientation from bridge- to atop-binding configurations, which collectively lowers the barrier for CO-CO coupling. Impressively, powering the electrolyzer by a perovskite/silicon tandem together with a single-junction silicon photovoltaic device, the system delivers a photocurrent of 12.34 mA cm −2 at 2.17 V under standard AM 1.5 illumination, achieving a solar-to-C 2+ conversion efficiency of 8.64%.",
+   "authors": [
+    "Qixing Zhang",
+    "Jing Gao",
+    "Muchen Li",
+    "Ying Yang",
+    "Guanlan Chen",
+    "Han He",
+    "Xingfei Chen",
+    "Xiaobing Gu",
+    "Yajun Gao",
+    "Yongcai He",
+    "Bo He",
+    "Xixiang Xu",
+    "Zhenguo Li",
+    "Ying Zhao",
+    "Lijun Zhang",
+    "Michael Grätzel",
+    "Xiaodan Zhang"
+   ],
+   "doi": "10.1126/sciadv.aec6434",
+   "keywords": [
+    "perovskite",
+    "photovoltaic",
+    "single-junction",
+    "tandem"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Photoinduced anion exchange for spatially patterned perovskite ASE: Enabling full-color pixelated lasing displays",
+   "link": "https://doi.org/10.1126/sciadv.aef5186",
+   "journal": "Science Advances",
+   "publisher": "Science",
+   "date": "2026-07-17",
+   "abstract": "Laser displays are pivotal next-generation technologies for augmented/virtual reality, wearables, and optical communications. To realize full-color patterned lasing displays, we propose an effective‌ photoinduced vapor-solid anion exchange (PVAE) strategy, enabling unprecedented amplified spontaneous emission (ASE) control via precise temporal modulation. It regulates photoswitchable anion exchange in CsPbX 3 (X = Cl, Br, I) perovskites, with exchange rates tuned by illumination wavelength and intensity. Under optimized 1561.8 microwatts per square centimeter ultraviolet activation, PVAE drives complete compositional transitions (CsPbIBr 2 → CsPbBr 3 → CsPbClBr 2 ), inducing linear ASE peak shifts across 470- to 710-nanometer full-color spectra. Spatially modulated multicolor ASE patterns further verify its adaptability. We achieve precise, wide microscale emission wavelength modulation of CsPbX 3 films in both temporal and spatial domains. These advantages establish PVAE as a dual-mode platform for high-precision pixelated laser displays, offering practical solutions for cutting-edge photonic applications such as programmable high-resolution lasing displays and dynamic laser anticounterfeiting labels.",
+   "authors": [
+    "Shuaiqi Li",
+    "Yan He",
+    "Nian Liu",
+    "Yexiong Huang",
+    "Mingyu Pi",
+    "Jingwen Yao",
+    "Wensheng Fu",
+    "Dingke Zhang",
+    "Haiyang Xu",
+    "Zhenxiang Cheng"
+   ],
+   "doi": "10.1126/sciadv.aef5186",
+   "keywords": [
+    "perovskite",
+    "perovskites"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Optical-based stretchable multimodal sensors for detecting strain and light with periodic buckling structures",
+   "link": "https://doi.org/10.1126/sciadv.aee9547",
+   "journal": "Science Advances",
+   "publisher": "Science",
+   "date": "2026-07-17",
+   "abstract": "Stretchable optoelectronic sensors are essential for next-generation wearable health monitoring; however, a critical limitation remains unresolved. When a stretchable photodetector deforms, the effective light-detection location shifts across the skin surface, complicating the interpretation of spatially localized physiological signals. Herein, we report a periodic-buckling stretchable organic photodetector (OPD) that enables dual optical and strain sensing within a single device, allowing real-time estimation of changes in the effective detection position. The open-circuit voltage ( V oc ) depends solely on light intensity, whereas the short-circuit current ( I sc ) reflects both light intensity and variations in the active area, enabling geometric localization of the photodetection site. The OPD exhibits stable performance under applied strains of up to 60%, with variations in V oc below 1.1% and a strain gauge factor of 0.44 derived from I sc . This approach addresses a key limitation of stretchable photodetectors and provides a pathway toward high-resolution, position-aware wearable optical biosensing.",
+   "authors": [
+    "Tomohiro Anda",
+    "Yusuke Ebihara",
+    "Mari Koizumi",
+    "Kento Yamagishi",
+    "Tomoyuki Yokota",
+    "Takao Someya"
+   ],
+   "doi": "10.1126/sciadv.aee9547",
+   "keywords": [
+    "open-circuit voltage",
+    "photodetector"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Mitigating surface structural disorder for high-performance near-infrared quantum dot light-emitting diodes",
+   "link": "https://doi.org/10.1126/sciadv.aeg2635",
+   "journal": "Science Advances",
+   "publisher": "Science",
+   "date": "2026-07-17",
+   "abstract": "Perovskite quantum dots are promising for near-infrared light-emitting diodes, although they face serious challenges in limited operating device lifetime originating from the complex and disordered surface atomic states. Here, we design and use multifunctional zinc(II) 4-aminobenzenesulfonate to mitigate surface structural disorder in quantum dots, thereby achieving high-performance near-infrared light-emitting diodes. Such an additive, with four functional groups and ions (-NH 2 , -S–O, -S=O, and Zn 2+ ), and that shows double hydrogen–bonding effects, can strengthen surface atom termination and mitigate surface disorder, enabling an improved photoluminescence quantum yield of more than 90%. The as-fabricated light-emitting diodes demonstrated narrow electroluminescence spectra with a full width at half maximum of 42 nanometers at 789 nanometers, a maximum external quantum efficiency of 23.11% with negligible efficiency roll-off (as small as 3% at 100 milliamperes per square centimeter), a radiance of 155,851 milliwatts per steradian per square meter, and an operating lifetime of 2298 minutes at an initial radiance of 1,000 milliwatts per steradian per square meter (39,000 minutes for 190 milliwatts per steradian per square meter). This work represents a substantial improvement in radiance, efficiency roll-off, and operating stability compared with the best previously reported near-infrared perovskite quantum dot light-emitting diodes.",
+   "authors": [
+    "Jiawei Chen",
+    "Xiyu Luo",
+    "Xiangyu Liu",
+    "Boning Han",
+    "Danlei Zhu",
+    "Yuhang Cui",
+    "Xudong Hu",
+    "Jiuyao Du",
+    "Wenyu Gu",
+    "Xinghua Yan",
+    "Ye Wu",
+    "Yuanzhuang Cheng",
+    "Shulin Chen",
+    "Xiaoming Li",
+    "Lian Duan",
+    "Dongxin Ma",
+    "Haibo Zeng"
+   ],
+   "doi": "10.1126/sciadv.aeg2635",
+   "keywords": [
+    "light-emitting",
+    "perovskite"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
    "title": "A cracking-assisted transfer printing technology for high-resolution quantum dot light-emitting diode displays",
-   "link": "https://www.nature.com/articles/s41928-026-01670-9",
+   "link": "https://doi.org/10.1038/s41928-026-01670-9",
    "journal": "Nature Electronics",
    "publisher": "Nature",
    "date": "2026-07-17",
@@ -361,7 +577,7 @@
   },
   {
    "title": "High-performance multijunction perovskite LEDs with reduced interconnection loss",
-   "link": "https://www.nature.com/articles/s41467-026-75756-5",
+   "link": "https://doi.org/10.1038/s41467-026-75756-5",
    "journal": "Nature Communications",
    "publisher": "Nature",
    "date": "2026-07-17",
@@ -1333,8 +1549,37 @@
    "oa_type": "article"
   },
   {
+   "title": "Spatiotemporally homogeneous crystallization for ambient scalable perovskite photovoltaics",
+   "link": "https://doi.org/10.1126/science.aef1969",
+   "journal": "Science",
+   "publisher": "Science",
+   "date": "2026-07-16",
+   "abstract": "Commercializing perovskite solar cells (PSCs) will likely require the scalable deposition of homogeneous perovskite films under ambient conditions. However, the spatially heterogeneous degradation of metastable perovskites during prolonged coating leads to nonuniformity. Here, we demonstrate spatiotemporally homogeneous crystallization of α-phase FAPbI 3 (where FA is formamidinium) enabled by a phase-locking strategy that establishes a dynamically evolving, moisture-buffering intergranular network during large-area printing. This method prevents the premature degradation caused by ambient humidity, eliminating directional inhomogeneity. Blade-coated PSCs achieved a 26.7% power conversion efficiency (PCE; 26.1% certified), and rigid and flexible 100-square-centimeter modules reached 21.5 and 19.5%, respectively. Improved morphological homogeneity mitigated localized degradation and suppressed self-amplifying aging pathways. Encapsulated devices retained more than 90% of their initial PCE after 1500 hours of 85°C maximum power point tracking in ambient air.",
+   "authors": [
+    "Binlou Gao",
+    "Yang Zhong",
+    "Xiao Luo",
+    "Jiacheng He",
+    "Junxi Guo",
+    "Xueying Wang",
+    "Yikun Liu",
+    "Licheng Tan",
+    "Yiwang Chen"
+   ],
+   "doi": "10.1126/science.aef1969",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "perovskites",
+    "photovoltaics",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
    "title": "Publisher Correction: Halide-site-substituting spacer creates quasi-two-dimensional perovskites for vapour-deposited light-emitting diodes",
-   "link": "https://www.nature.com/articles/s41565-026-02250-w",
+   "link": "https://doi.org/10.1038/s41565-026-02250-w",
    "journal": "Nature Nanotechnology",
    "publisher": "Nature",
    "date": "2026-07-16",
@@ -1513,21 +1758,6 @@
    "oa_type": "article"
   },
   {
-   "title": "Opposite and reversible optical switching in soft-lattice halide perovskites using light and heat | Science Advances",
-   "link": "https://www.science.org/doi/10.1126/sciadv.aeb1442",
-   "journal": "Science Advances",
-   "publisher": "Science",
-   "date": "2026-07-15",
-   "abstract": "Abstract Halide perovskites have soft lattices with strong interactions between electronic and structural degrees of freedom, making them promising for next-generation optoelectronics. Recent studies have uncovered their unique photo- and thermally induced optical behavior, yet the potential for dynamic, optical switching remains underexplored. Here, we demonstrate reversible and diametrically opposite optical switching in single-crystal cesium lead bromide (CsPbBr 3 ), driven independently by either above-bandgap illumination or thermal excitation. We measure tunable changes in mid-infrared transmission from 3 to 20 micrometers, exceeding 10% at 20 micrometers, with opposite polarity under light and heat, and modulation times <1 millisecond. This antithetical behavior arises from a polaron-like lattice distortion under illumination (reducing transmission), and from lattice expansion from heating partnered with the material’s negative thermo-optic coefficient (increasing transparency). Our findings establish inorganic halide perovskites as a viable material platform for reconfigurable photonics where transmission can be controlled independently through distinct mechanisms intrinsic to their soft lattices.",
-   "authors": [],
-   "doi": "10.1126/sciadv.aeb1442",
-   "keywords": [
-    "perovskites"
-   ],
-   "type": "article",
-   "oa_type": "article"
-  },
-  {
    "title": "Low-temperature liquid-assisted vibrational stress-relief strategy enables stable and efficient perovskite solar cells",
    "link": "https://www.nature.com/articles/s41467-026-75629-x",
    "journal": "Nature Communications",
@@ -1557,7 +1787,7 @@
   },
   {
    "title": "Blue LEDs made from perovskite material shine bright thanks to hydrogen bonds",
-   "link": "https://www.nature.com/articles/d41586-026-02161-9",
+   "link": "https://doi.org/10.1038/d41586-026-02161-9",
    "journal": "Nature",
    "publisher": "Nature",
    "date": "2026-07-15",
@@ -2558,7 +2788,7 @@
   },
   {
    "title": "Controlled solid-state crystallization with formamidinium acetate for fully vacuum-deposited perovskite solar cells",
-   "link": "https://www.nature.com/articles/s41560-026-02093-8",
+   "link": "https://doi.org/10.1038/s41560-026-02093-8",
    "journal": "Nature Energy",
    "publisher": "Nature",
    "date": "2026-07-14",
@@ -3250,8 +3480,8 @@
    "oa_type": "article"
   },
   {
-   "title": "Early-stage local chemistry regulation enabling open-circuit voltage of 847 mV in wide-bandgap Cu 2 ZnSnS 4 solar cells",
-   "link": "https://www.nature.com/articles/s41560-026-02111-9",
+   "title": "Early-stage local chemistry regulation enabling open-circuit voltage of 847 mV in wide-bandgap Cu2ZnSnS4 solar cells",
+   "link": "https://doi.org/10.1038/s41560-026-02111-9",
    "journal": "Nature Energy",
    "publisher": "Nature",
    "date": "2026-07-13",
@@ -3286,7 +3516,7 @@
   },
   {
    "title": "Perovskite–organic tandem solar cells with a photo-transformable stabilizer",
-   "link": "https://www.nature.com/articles/s41586-026-10869-x",
+   "link": "https://doi.org/10.1038/s41586-026-10869-x",
    "journal": "Nature",
    "publisher": "Nature",
    "date": "2026-07-13",
@@ -4750,13 +4980,29 @@
    "oa_type": "article"
   },
   {
-   "title": "Enhancing Sn-Pb perovskite homogeneity via thioether coordination for efficient and stable all-perovskite tandem solar cells | Science Advances",
-   "link": "https://www.science.org/doi/10.1126/sciadv.aeb8790",
+   "title": "Enhancing Sn-Pb perovskite homogeneity via thioether coordination for efficient and stable all-perovskite tandem solar cells",
+   "link": "https://doi.org/10.1126/sciadv.aeb8790",
    "journal": "Science Advances",
    "publisher": "Science",
    "date": "2026-07-10",
    "abstract": "Abstract All-perovskite tandem solar cells (TSCs) hold a substantial promise for achieving ultrahigh-efficiency photovoltaics beyond the Shockley-Queisser limit. However, their development has been hampered by challenges associated with a narrow-bandgap tin-lead (Sn-Pb) perovskite subcell. A key issue is inhomogeneous Sn/Pb distribution during crystallization, which generates trap states and accelerates degradation. Here, we introduce a molecular stabilization strategy by using S -allyl- l -cysteine (SALC) as a ligand that preferentially coordinates with tin(II) iodide (SnI 2 ), thereby modulating crystallization kinetics. The strong thioether coordination leads to spatially uniform Sn/Pb distribution, and 3.5-fold reduction in Sn(IV) content due to the reduction capability of functional groups in SALC. Consequently, the resulting Sn-Pb perovskite solar cells achieve a champion power conversion efficiency (PCE) of 22.99% with an exceptional open-circuit voltage of 0.892 V. When integrated into all-perovskite TSCs, a certified PCE of 28.84% (29.44% laboratory-measured) is achieved along with a great improvement in operational stability compared to control devices, retaining nearly 90% of initial PCE after 420 hours of the maximum power point tracking under 1 sun illumination in ambient air.",
-   "authors": [],
+   "authors": [
+    "Lijuan He",
+    "Haoran Wang",
+    "Zhaojin Wang",
+    "Zhongliang Yan",
+    "Arui Huang",
+    "Jing Zhang",
+    "Xueying Yang",
+    "Miao Zeng",
+    "Zaiwei Wang",
+    "Guang Yang",
+    "Zhifang Shi",
+    "Wei Zhang",
+    "Liang Shen",
+    "Yang Bai",
+    "Hui-Ming Cheng"
+   ],
    "doi": "10.1126/sciadv.aeb8790",
    "keywords": [
     "narrow-bandgap",
@@ -6000,8 +6246,56 @@
    "oa_type": "article"
   },
   {
+   "title": "Indium-free perovskite/silicon tandem solar cells with tin oxide recombination layer and electrodes",
+   "link": "https://doi.org/10.1126/science.aef5355",
+   "journal": "Science",
+   "publisher": "Science",
+   "date": "2026-07-09",
+   "abstract": "Indium-based transparent conductive oxides are widely used as electrodes and recombination layers in perovskite/silicon tandem solar cells, yet their scalability is constrained by indium scarcity and sputtering-induced damage. We report high-efficiency and stable indium-free perovskite/silicon tandem solar cells enabled by reactive plasma deposited tin oxide (RPD-SnO x ). For RPD-SnO x as the recombination layer, we achieved a certified efficiency of 33.6%. Fully indium-free tandems that used RPD-SnO x as both recombination layer and electrodes delivered a champion power conversion efficiency of 33.2% (1 square centimeter) and a minimodule with a certified efficiency of 31.0% (207.9 square centimeters). Dense and uniform self-assembled monolayer anchoring enabled by RPD-SnO x suppressed nonradiative recombination and reduced halide migration. Indium-free minimodules exhibited high thermal, damp-heat, and outdoor operational stability and retained 65% of their maximum initial efficiency after 105 days of outdoor operation.",
+   "authors": [
+    "Wei Shi",
+    "Shibo Wang",
+    "Shumao Wang",
+    "Yue Zhang",
+    "Xiaoqiong Ren",
+    "Cao Yu",
+    "Xinya Niu",
+    "Bo Gao",
+    "Liu Yang",
+    "Bowen Yang",
+    "Wenhao Li",
+    "Xinyao Sun",
+    "Jianwei Yu",
+    "Jun Zhu",
+    "Shengxing Zhou",
+    "Yihua Chen",
+    "Fengxian Cao",
+    "Kun Gao",
+    "Chang Wang",
+    "Xi Chen",
+    "Shaofei Yang",
+    "Jian Zhou",
+    "Chenxu He",
+    "Ruy Sebastian Bonilla",
+    "Yiliang Wu",
+    "Qi Chen",
+    "Zijia Li",
+    "Yuan Cheng",
+    "Xinbo Yang",
+    "Xiaohong Zhang"
+   ],
+   "doi": "10.1126/science.aef5355",
+   "keywords": [
+    "perovskite",
+    "solar cells",
+    "tandem"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
    "title": "Dynamic anionic sublattice engineering in perovskite heterostructures for perovskite–silicon tandem solar cells",
-   "link": "https://www.nature.com/articles/s44160-026-01111-7",
+   "link": "https://doi.org/10.1038/s44160-026-01111-7",
    "journal": "Nature Synthesis",
    "publisher": "Nature",
    "date": "2026-07-09",
@@ -7580,7 +7874,7 @@
   },
   {
    "title": "Publisher Correction: Ultralow-voltage electrochemical organic light-emitting transistors with pinned and wide lateral recombination",
-   "link": "https://www.nature.com/articles/s41563-026-02684-6",
+   "link": "https://doi.org/10.1038/s41563-026-02684-6",
    "journal": "Nature Materials",
    "publisher": "Nature",
    "date": "2026-07-03",
@@ -11183,7 +11477,7 @@
   },
   {
    "title": "Nanoscale amorphization of poly(triarylamine) for efficient and stable inverted perovskite photovoltaics",
-   "link": "https://www.nature.com/articles/s41565-026-02207-z",
+   "link": "https://doi.org/10.1038/s41565-026-02207-z",
    "journal": "Nature Nanotechnology",
    "publisher": "Nature",
    "date": "2026-07-01",
@@ -11219,7 +11513,7 @@
   },
   {
    "title": "Halide-site-substituting spacer creates quasi-two-dimensional perovskites for vapour-deposited light-emitting diodes",
-   "link": "https://www.nature.com/articles/s41565-026-02208-y",
+   "link": "https://doi.org/10.1038/s41565-026-02208-y",
    "journal": "Nature Nanotechnology",
    "publisher": "Nature",
    "date": "2026-07-01",
