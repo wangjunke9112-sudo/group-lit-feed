@@ -32,14 +32,23 @@ jobs:
       - name: Show generated files
         if: always()
         run: ls -la plain*.html || echo "!! no plain*.html generated"
-      - name: Commit data and static pages
+      - name: Commit data
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ plain*.html
+          git add data/
           if git diff --staged --quiet; then
             echo "No changes to commit."
-          else
-            git commit -m "Daily update: $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git push
+            exit 0
           fi
+          git commit -m "Daily update: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          for i in 1 2 3; do
+            if git push; then
+              echo "Pushed on attempt $i."
+              exit 0
+            fi
+            echo "Push rejected (remote moved); rebasing and retrying..."
+            git pull --rebase --autostash || { echo "Rebase failed."; exit 1; }
+          done
+          echo "Could not push after 3 attempts."
+          exit 1
