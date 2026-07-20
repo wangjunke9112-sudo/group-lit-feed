@@ -1,0 +1,41 @@
+name: Diagnose journal coverage
+# Read-only. Prints why recent papers for one journal were or weren't collected.
+# Commits nothing, touches no data.
+on:
+  workflow_dispatch:
+    inputs:
+      journal:
+        description: "Journal name exactly as in feeds.py"
+        required: true
+        default: "Energy & Environmental Science"
+      days:
+        description: "How many days back to check"
+        required: true
+        default: "30"
+      mode:
+        description: "why-missing (per-paper) or audit (all journals)"
+        required: true
+        default: "why-missing"
+        type: choice
+        options: [why-missing, audit]
+permissions:
+  contents: read
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Run diagnostic
+        env:
+          OPENALEX_KEY: ${{ secrets.OPENALEX_KEY }}
+        run: |
+          if [ "${{ inputs.mode }}" = "audit" ]; then
+            python aggregate.py --audit ${{ inputs.days }}
+          else
+            python aggregate.py --why-missing "${{ inputs.journal }}" ${{ inputs.days }}
+          fi
