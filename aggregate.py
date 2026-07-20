@@ -649,6 +649,37 @@ IMPORTANT_FALLBACK_JOURNALS = {
 }
 
 
+def _crossref_recent_items(issn, cutoff, rows):
+    """Fetch recent Crossref items for one ISSN, using BOTH date filters.
+
+    Publishers stamp dates inconsistently: ACS/Wiley records match
+    'from-pub-date', but RSC (EES, Chem Soc Rev) deposits records whose
+    publication date falls outside that window, so a pub-date query returns
+    nothing even though the journal is publishing normally. 'from-created-date'
+    is when the DOI was registered, which catches those. We union both and
+    de-duplicate by DOI so no publisher's convention is missed."""
+    import requests
+    out, seen = [], set()
+    for flt in (f"issn:{issn},from-created-date:{cutoff}",
+                f"issn:{issn},from-pub-date:{cutoff}"):
+        try:
+            params = {**_ab_params(), "filter": flt, "sort": "created",
+                      "order": "desc", "rows": rows}
+            r = requests.get("https://api.crossref.org/works", params=params,
+                             headers=_ab_headers(), timeout=30)
+            if r.status_code != 200:
+                continue
+            for item in r.json().get("message", {}).get("items", []):
+                d = normalise_doi(item.get("DOI", ""))
+                if d and d not in seen:
+                    seen.add(d)
+                    out.append(item)
+        except Exception:
+            continue
+        time.sleep(0.2)
+    return out
+
+
 def evaluate_crossref_work(item, journal, publisher):
     """Crossref work -> ('keep', record) | ('pending', candidate) | ('drop', None).
 
@@ -698,23 +729,12 @@ def crossref_recent_for_journal(journal, publisher, days=35, rows=120):
     from_date = (dt.date.today() - dt.timedelta(days=days)).isoformat()
     records, pending = [], []
     for issn in issns:
-        try:
-            params = {**_ab_params(),
-                      "filter": f"issn:{issn},from-pub-date:{from_date}",
-                      "sort": "published", "order": "desc", "rows": rows}
-            r = requests.get("https://api.crossref.org/works", params=params,
-                             headers=_ab_headers(), timeout=30)
-            if r.status_code != 200:
-                continue
-            for item in r.json().get("message", {}).get("items", []):
-                kind, payload = evaluate_crossref_work(item, journal, publisher)
-                if kind == "keep":
-                    records.append(payload)
-                elif kind == "pending":
-                    pending.append(payload)
-        except Exception:
-            continue
-        time.sleep(0.2)
+        for item in _crossref_recent_items(issn, from_date, rows):
+            kind, payload = evaluate_crossref_work(item, journal, publisher)
+            if kind == "keep":
+                records.append(payload)
+            elif kind == "pending":
+                pending.append(payload)
     by_key = {}
     for rec in records:
         by_key[_key(rec)] = _better_record(by_key.get(_key(rec)), rec)
@@ -1242,8 +1262,9 @@ def why_missing(journal, days=30, rows=200):
     items = []
     print(f"ISSN probe for {journal} (cutoff {cutoff}):")
     for issn in issns:
-        for label, flt in (("all-time   ", f"issn:{issn}"),
-                           ("in window  ", f"issn:{issn},from-pub-date:{cutoff}")):
+        for label, flt in (("all-time        ", f"issn:{issn}"),
+                           ("pub-date window ", f"issn:{issn},from-pub-date:{cutoff}"),
+                           ("created window  ", f"issn:{issn},from-created-date:{cutoff}")):
             try:
                 r = requests.get("https://api.crossref.org/works",
                                  params={**_ab_params(), "filter": flt, "rows": 0},
@@ -1256,21 +1277,9 @@ def why_missing(journal, days=30, rows=200):
             except Exception as exc:
                 print(f"  {issn}  {label} FAILED: {type(exc).__name__}: {exc}")
             time.sleep(0.2)
-        try:
-            params = {**_ab_params(),
-                      "filter": f"issn:{issn},from-pub-date:{cutoff}",
-                      "sort": "published", "order": "desc", "rows": rows}
-            r = requests.get("https://api.crossref.org/works", params=params,
-                             headers=_ab_headers(), timeout=30)
-            if r.status_code == 200:
-                got = r.json().get("message", {}).get("items", [])
-                print(f"  {issn}  fetched {len(got)} item(s)")
-                items.extend(got)
-            else:
-                print(f"  {issn}  fetch HTTP {r.status_code} -> 0 items")
-        except Exception as exc:
-            print(f"  Crossref error for {issn}: {type(exc).__name__}: {exc}")
-        time.sleep(0.2)
+        got = _crossref_recent_items(issn, cutoff, rows)
+        print(f"  {issn}  fetched {len(got)} item(s) (both filters, de-duplicated)")
+        items.extend(got)
 
     # If the ISSN route is empty, try resolving the journal by name instead --
     # this distinguishes "our ISSN is wrong" from "nothing was published".
