@@ -649,34 +649,54 @@ IMPORTANT_FALLBACK_JOURNALS = {
 }
 
 
-def normalise_crossref_work(item, journal, publisher):
+def evaluate_crossref_work(item, journal, publisher):
+    """Crossref work -> ('keep', record) | ('pending', candidate) | ('drop', None).
+
+    Mirrors evaluate_entry: Crossref frequently has no abstract (RSC and Wiley
+    deposit few), so a paper judged only on its title would be dropped forever.
+    Field-plausible papers without an abstract are parked for re-check instead."""
     title = clean_text(" ".join(item.get("title") or []))
     if not title:
-        return None
+        return ("drop", None)
     doi = normalise_doi(item.get("DOI", ""))
     link = item.get("URL") or ("https://doi.org/" + doi if doi else "")
     abstract = _clean_abstract_candidate(item.get("abstract", "") or "")
-    keep, hits = is_relevant(title + " \n " + abstract)
-    if not keep:
-        return None
     authors = []
     for a in item.get("author", []) or []:
         name = " ".join(x for x in [a.get("given", ""), a.get("family", "")] if x)
         if name:
             authors.append(clean_text(name))
-    hint = item.get("type", "") or ""
     date = pick_crossref_date(item) or dt.date.today().isoformat()
-    return _build_record(title, link, journal, publisher, date,
-                         _cap_abstract(abstract), authors, doi, hits, hint)
+    keep, hits = is_relevant(title + " \n " + abstract)
+    if keep:
+        hint = item.get("type", "") or ""
+        return ("keep", _build_record(title, link, journal, publisher, date,
+                                      _cap_abstract(abstract), authors, doi, hits, hint))
+    if (abstract_needs_topping_up(abstract) and _LOOSE_HINT_RE.search(title)
+            and doi.startswith("10.")):
+        return ("pending", {"doi": doi, "title": title, "link": link,
+                            "journal": journal, "publisher": publisher,
+                            "date": date, "authors": authors, "tries": 0})
+    return ("drop", None)
+
+
+def normalise_crossref_work(item, journal, publisher):
+    """Backward-compatible wrapper: returns a record or None."""
+    kind, payload = evaluate_crossref_work(item, journal, publisher)
+    return payload if kind == "keep" else None
 
 
 def crossref_recent_for_journal(journal, publisher, days=35, rows=120):
+    """Pull recent papers for one journal from Crossref by ISSN.
+    Returns (records, pending). Used both as the RSS-failure fallback and as the
+    daily sweep, so discovery never depends on a publisher's RSS being healthy
+    or on its RSS carrying a full abstract."""
     import requests
     issns = ISSNS.get(journal, [])
     if not issns:
-        return []
+        return [], []
     from_date = (dt.date.today() - dt.timedelta(days=days)).isoformat()
-    records = []
+    records, pending = [], []
     for issn in issns:
         try:
             params = {**_ab_params(),
@@ -687,9 +707,11 @@ def crossref_recent_for_journal(journal, publisher, days=35, rows=120):
             if r.status_code != 200:
                 continue
             for item in r.json().get("message", {}).get("items", []):
-                rec = normalise_crossref_work(item, journal, publisher)
-                if rec:
-                    records.append(rec)
+                kind, payload = evaluate_crossref_work(item, journal, publisher)
+                if kind == "keep":
+                    records.append(payload)
+                elif kind == "pending":
+                    pending.append(payload)
         except Exception:
             continue
         time.sleep(0.2)
@@ -698,7 +720,27 @@ def crossref_recent_for_journal(journal, publisher, days=35, rows=120):
         by_key[_key(rec)] = _better_record(by_key.get(_key(rec)), rec)
     merged = list(by_key.values())
     merged.sort(key=lambda r: (r.get("date", ""), r.get("journal", "")), reverse=True)
-    return merged
+    return merged, pending
+
+
+def crossref_sweep(days=None, rows=120):
+    """Daily Crossref sweep across EVERY journal that has an ISSN, whether or not
+    its RSS worked. RSS feeds are unreliable in two different ways: they break
+    (403/SSL), and several carry only a one-line teaser instead of the abstract,
+    so keyword matching on RSS alone silently misses papers. Crossref by ISSN is
+    the stable backbone; merge() de-duplicates the overlap with RSS.
+    Returns (records, pending, per_journal_counts)."""
+    if days is None:
+        days = SETTINGS.get("crossref_sweep_days", 21)
+    records, pending, counts = [], [], {}
+    for journal, publisher, _url in FEEDS:
+        if journal not in ISSNS:
+            continue
+        recs, pend = crossref_recent_for_journal(journal, publisher, days=days, rows=rows)
+        records.extend(recs)
+        pending.extend(pend)
+        counts[journal] = len(recs)
+    return records, pending, counts
 
 
 def harvest():
@@ -724,7 +766,8 @@ def harvest():
         except Exception as exc:
             status["error"] = f"{type(exc).__name__}: {exc}"
             if journal in IMPORTANT_FALLBACK_JOURNALS:
-                fallback = crossref_recent_for_journal(journal, publisher)
+                fallback, fb_pending = crossref_recent_for_journal(journal, publisher)
+                new_pending.extend(fb_pending)
                 if fallback:
                     records.extend(fallback)
                     status["found"] = len(fallback)
@@ -948,6 +991,20 @@ def _dedupe_pending(items, known_dois):
 def run():
     print(f"Harvesting {len(FEEDS)} feeds ...")
     fresh, report, new_pending = harvest()
+
+    # Crossref sweep across all journals with an ISSN. RSS is a bonus, not the
+    # source of truth: some feeds break, and several (RSC especially) carry only
+    # a teaser sentence, so relevance judged on RSS alone misses real papers.
+    sweep_days = SETTINGS.get("crossref_sweep_days", 21)
+    swept, swept_pending, sweep_counts = ([], [], {})
+    if sweep_days:
+        print(f"Crossref sweep ({sweep_days}d, all journals with an ISSN) ...")
+        swept, swept_pending, sweep_counts = crossref_sweep(days=sweep_days)
+        top = sorted(sweep_counts.items(), key=lambda kv: kv[1], reverse=True)[:6]
+        print("  recovered: " + ", ".join(f"{j}:{n}" for j, n in top if n) or "  recovered: none")
+        fresh = fresh + swept
+        new_pending = new_pending + swept_pending
+
     existing = load_archive()
     start = SETTINGS["start_date"]
 
@@ -1140,7 +1197,57 @@ def selftest():
     reclassify_types(pp2)
     assert pp2[0]["type"] == "article", pp2
 
+    # --- Crossref path: keep / pending / drop ---
+    it_keep = {"title": ["Wide-bandgap perovskite solar cells with low voltage loss"],
+               "DOI": "10.1039/d6ee00001a", "abstract": ""}
+    assert evaluate_crossref_work(it_keep, "Energy & Environmental Science", "RSC")[0] == "keep"
+    # No abstract yet + field-plausible title that misses the keyword gate -> PENDING
+    it_pend = {"title": ["Interfacial engineering of halide thin-film optoelectronic devices"],
+               "DOI": "10.1039/d6ee00002a", "abstract": ""}
+    kind, cand = evaluate_crossref_work(it_pend, "Energy & Environmental Science", "RSC")
+    assert kind == "pending", (kind, cand)
+    assert cand["doi"] == "10.1039/d6ee00002a"
+    # Clearly out of scope -> drop
+    it_drop = {"title": ["A study of onion farming in temperate climates"],
+               "DOI": "10.1039/d6ee00003a", "abstract": ""}
+    assert evaluate_crossref_work(it_drop, "Energy & Environmental Science", "RSC")[0] == "drop"
+    # wrapper still returns a record or None
+    assert normalise_crossref_work(it_keep, "Energy & Environmental Science", "RSC") is not None
+    assert normalise_crossref_work(it_drop, "Energy & Environmental Science", "RSC") is None
+
     print("All self-tests passed.")
+
+
+def audit_coverage(days=365):
+    """Compare what we store per journal against what Crossref says exists, so
+    coverage gaps are measured rather than guessed. Read-only: writes nothing."""
+    import requests
+    papers = load_archive()
+    cutoff = (dt.date.today() - dt.timedelta(days=days)).isoformat()
+    mine = {}
+    for p in papers:
+        if (p.get("date") or "") >= cutoff:
+            mine[p.get("journal", "")] = mine.get(p.get("journal", ""), 0) + 1
+    print(f"Coverage audit, last {days} days (stored vs Crossref total for the journal)")
+    print(f"{'journal':<42}{'stored':>8}{'crossref':>10}")
+    print("-" * 60)
+    for journal, _publisher, _url in FEEDS:
+        issns = ISSNS.get(journal, [])
+        total = 0
+        for issn in issns:
+            try:
+                params = {**_ab_params(),
+                          "filter": f"issn:{issn},from-pub-date:{cutoff}", "rows": 0}
+                r = requests.get("https://api.crossref.org/works", params=params,
+                                 headers=_ab_headers(), timeout=30)
+                if r.status_code == 200:
+                    total = max(total, r.json().get("message", {}).get("total-results", 0))
+            except Exception:
+                pass
+            time.sleep(0.2)
+        print(f"{journal:<42}{mine.get(journal, 0):>8}{total:>10}")
+    print("\nNote: 'crossref' is ALL papers in that journal, not just relevant ones,")
+    print("so stored should be much smaller. Look for journals storing near zero.")
 
 
 if __name__ == "__main__":
@@ -1151,8 +1258,14 @@ if __name__ == "__main__":
                     help="one-time: cache OpenAlex 'type' for up to N archive papers "
                          "(newest first), re-derive types, and rewrite. Resumable; "
                          "run again to continue. Does not fetch feeds.")
+    ap.add_argument("--audit", nargs="?", type=int, const=365, default=None,
+                    metavar="DAYS",
+                    help="read-only: compare stored papers per journal against "
+                         "Crossref totals for the last DAYS (default 365)")
     args = ap.parse_args()
-    if args.selftest:
+    if args.audit is not None:
+        audit_coverage(args.audit)
+    elif args.selftest:
         selftest()
     elif args.fill_oa_types is not None:
         print(f"Filling OpenAlex types for up to {args.fill_oa_types} paper(s)...")
