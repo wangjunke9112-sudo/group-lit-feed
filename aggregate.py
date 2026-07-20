@@ -1352,16 +1352,19 @@ def audit_coverage(days=365):
         issns = ISSNS.get(journal, [])
         total = 0
         for issn in issns:
-            try:
-                params = {**_ab_params(),
-                          "filter": f"issn:{issn},from-pub-date:{cutoff}", "rows": 0}
-                r = requests.get("https://api.crossref.org/works", params=params,
-                                 headers=_ab_headers(), timeout=30)
-                if r.status_code == 200:
-                    total = max(total, r.json().get("message", {}).get("total-results", 0))
-            except Exception:
-                pass
-            time.sleep(0.2)
+            # Query BOTH date filters: RSC deposits records whose pub-date falls
+            # outside the window, so a pub-date-only count reports a false zero.
+            for flt in (f"issn:{issn},from-created-date:{cutoff}",
+                        f"issn:{issn},from-pub-date:{cutoff}"):
+                try:
+                    r = requests.get("https://api.crossref.org/works",
+                                     params={**_ab_params(), "filter": flt, "rows": 0},
+                                     headers=_ab_headers(), timeout=30)
+                    if r.status_code == 200:
+                        total = max(total, r.json().get("message", {}).get("total-results", 0))
+                except Exception:
+                    pass
+                time.sleep(0.2)
         print(f"{journal:<42}{mine.get(journal, 0):>8}{total:>10}")
     print("\nNote: 'crossref' is ALL papers in that journal, not just relevant ones,")
     print("so stored should be much smaller. Look for journals storing near zero.")
