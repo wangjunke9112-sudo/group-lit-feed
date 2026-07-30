@@ -1,7 +1,7 @@
 {
  "year": "2026",
- "count": 2562,
- "generated": "2026-07-29 23:04 UTC",
+ "count": 2565,
+ "generated": "2026-07-30 10:08 UTC",
  "papers": [
   {
    "title": "Radiation-resilient monolithic wide-bandgap perovskite/p-type heterojunction silicon tandem solar cells for space photovoltaics",
@@ -38,7 +38,7 @@
     "wide-bandgap"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "IoT-enabled wireless neural implant for chronic, programmable neuropharmacology and optogenetics",
@@ -64,7 +64,7 @@
     "light-emitting"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Noncoplanar multidentate contacts reinforce buried interface for perovskite/silicon tandem solar cells",
@@ -102,7 +102,7 @@
     "wide-bandgap"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Genome-wide analyses of an avian herpesvirus identify 10 loci associated with tumorigenicity and vaccine escape",
@@ -129,6 +129,68 @@
     "tandem"
    ],
    "type": "article",
+   "oa_type_tried": 2
+  },
+  {
+   "title": "PFN‐Br Modified Buried Interface Enhanced Charge Extraction in Inverted Wide‐Bandgap Perovskite Solar Cells",
+   "link": "https://doi.org/10.1002/smll.74806",
+   "journal": "Small",
+   "publisher": "Wiley",
+   "date": "2026-07-30",
+   "abstract": "ABSTRACT In recent years, tandem solar cells (TSCs) have achieved remarkable progress. Nevertheless, wide‐bandgap perovskite solar cells (WBG PSCs), typically employed as the top cell, still suffer from significant open‐circuit voltage ( V OC ) losses. One contributing factor is the deeper valence band of WBG PSCs compared with conventional bandgap counterparts, which results in energy‐level mismatch when conventional hole transport materials are used in p–i–n structured PSCs. Moreover, the top‐down crystallization process of perovskite films frequently induces defect states at the buried interface, underscoring the urgent need for advanced passivation strategies. Here, we introduce poly[9,9‐bis(3′‐(N,N‐dimethyl)‐N‐ethylammoniumpropyl)‐2,7‐fluorene‐alt‐2,7‐(9,9‐dioctylfluorene)] dibromide (PFN‐Br) as an interlayer between 2PACz and the perovskite absorber. The bromide‐counterion ammonium groups in PFN‐Br effectively suppress non‐radiative recombination, while simultaneously tuning the energy‐level alignment, thereby facilitating more efficient hole extraction in WBG PSCs. As a result, the PFN‐Br–modified devices deliver a champion power conversion efficiency of 23.15% and a high V OC of 1.281 V for perovskite cells with a bandgap of 1.67 eV.",
+   "authors": [
+    "Yuying Wang",
+    "Felix T. Eickemeyer",
+    "Pengyang Wang",
+    "Likai Zheng",
+    "Michael Grätzel",
+    "Xiaodan Zhang"
+   ],
+   "doi": "10.1002/smll.74806",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "solar cells",
+    "tandem"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Modulating p–n transition of two-dimensional perovskites for efficient and stable perovskite/Si tandem photovoltaics",
+   "link": "https://doi.org/10.1038/s41566-026-01979-z",
+   "journal": "Nature Photonics",
+   "publisher": "Nature",
+   "date": "2026-07-30",
+   "abstract": "",
+   "authors": [
+    "Jiahao Guo",
+    "Zeyu Zhang",
+    "Zhen Jia",
+    "Fang Liu",
+    "Menglei Feng",
+    "Wenji Zhan",
+    "Haifei Wang",
+    "Xiaoyu Wang",
+    "Yide Chang",
+    "Yao Wang",
+    "Kanrui Jiang",
+    "Yuetian Chen",
+    "Yanfeng Miao",
+    "Bowei Li",
+    "Yanming Wang",
+    "Zijia Li",
+    "Yixin Zhao"
+   ],
+   "doi": "10.1038/s41566-026-01979-z",
+   "keywords": [
+    "perovskite",
+    "perovskites",
+    "photovoltaics",
+    "tandem"
+   ],
+   "type": "article",
+   "ab_tried": 1,
    "oa_type_tried": 1
   },
   {
@@ -147,6 +209,33 @@
    "doi": "10.1002/smtd.70901",
    "keywords": [
     "water splitting"
+   ],
+   "type": "article",
+   "oa_type_tried": 2
+  },
+  {
+   "title": "Halide‐Triggered Oxidative Etching as a Key Step in the Formation of Lead‐Free Double Perovskite Nanocrystals",
+   "link": "https://doi.org/10.1002/smtd.70917",
+   "journal": "Small Methods",
+   "publisher": "Wiley",
+   "date": "2026-07-29",
+   "abstract": "ABSTRACT The colloidal synthesis of Ag‐based lead‐free double perovskite nanocrystals (NCs) involves Ag + ‐reduction mediated pathways, however, the role of Ag redox chemistry in lattice formation remains poorly understood. Here, we elucidate the crystallization‐driven redox processes that govern the formation of Cs 2 AgBiBr 6 NCs. An alternative synthesis has been proposed by carefully studying the effect of reaction temperature behind the in‐situ Ag‐reduction aided from Ag‐oleate complex decomposition at >175 °C, followed by its oxidation mediated by the addition of exclusively used halide precursor, oleylammonium bromide (OLAmBr). The halide precursor participates in the oxidation of in‐situ formed Ag 0 followed by the crystallization of Cs 2 AgBiBr 6 NCs. This work establishes halide‐mediated oxidative etching as a key step in the crystallization of lead‐free double perovskite NCs.",
+   "authors": [
+    "Samrat Das Adhikari",
+    "Sukanya Ghosh",
+    "Vishnu Anilkumar",
+    "Jan Nawrocki",
+    "Suvodeep Sen",
+    "Apurba Mahapatra",
+    "Joanna Kruszyńska",
+    "Kostiantyn Nikiforow",
+    "Elisa Carignani",
+    "Julita Smalc‐Koziorowska",
+    "Daniel Prochowicz"
+   ],
+   "doi": "10.1002/smtd.70917",
+   "keywords": [
+    "perovskite"
    ],
    "type": "article",
    "oa_type_tried": 1
@@ -179,7 +268,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Li‐Doped Front Interface Engineering Enables Flexible Kesterite Solar Cell With 12.31% Efficiency and Module With 7.85% Efficiency",
@@ -204,7 +293,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Balancing Iridium Speciation in Ir/NiO Single‐Atom Catalysts for Overall Water Splitting",
@@ -230,7 +319,7 @@
     "water splitting"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Field‐Modulated Photoresponse in Dual‐Phase Perovskite Nanosheets for Photodetection Application",
@@ -251,7 +340,7 @@
     "perovskites"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Chiral polariton transport enabled by optical spin Hall effect in perovskite waveguides",
@@ -272,8 +361,8 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Photocatalytic water splitting by 2D polymer with out-of-plane carrier flow",
@@ -296,8 +385,8 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Multifunctional guanidine additive enabling high-quality phase transition crystallization of 1.67 eV-bandgap perovskite for efficient and stable perovskite/Si tandem solar cells",
@@ -341,8 +430,8 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Kinetic Trapping of Pressure‐Induced Symmetry Breaking in Hybrid Metal Halides via Fluorine‐Mediated Molecular Locking",
@@ -371,7 +460,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Solvent Hydrogen Bonding Determines Adsorption Geometry of Trimesic Acid on Cu",
@@ -392,7 +481,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Establishing Atomic Coherence in Twisted Oxide Membranes Containing Volatile Elements",
@@ -415,7 +504,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Decoupling Bulk Crystallization and Interfacial Passivation via Steric Engineering for Efficient Inverted Perovskite Solar Cells",
@@ -445,7 +534,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Successive Hemispherical Protrusions‐Like P‐type Tin Oxide Enabling Stable High‐Efficiency Sn‐Pb Mixed Perovskite Solar Cells (Adv. Funct. Mater. 60/2026)",
@@ -480,8 +569,8 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Built‐in Electric Field Enhanced Water Splitting Kinetics via 3D MoS 2 /NiSe 2 /CC Nanoarray Heterostructure",
@@ -505,7 +594,7 @@
     "water splitting"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Correction to “Bilateral Anchoring Strategy Enables Highly Efficient Wide‐Bandgap Perovskite Solar Cells/Modules for Self‐Powered Photo‐Electrocatalytic Antibacterial System”",
@@ -522,8 +611,8 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Sequential Processing Leaves Trace A‐D‐A‐type Acceptor as a Bifunctional Buried Interlayer for Efficient and Stable Inverted Organic Solar Cells",
@@ -579,7 +668,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Enhanced Dielectric Reliability of Recyclable Polyimide Film Enabled by Dynamic Disulfide Bond Exchange",
@@ -699,7 +788,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -725,7 +814,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -754,7 +843,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -793,7 +882,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -854,7 +943,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Manipulating Molecular Packing Mode and Excited‐State Dynamics via Twisted Conjugated Groups for High‐Performance Organic Solar Cells",
@@ -995,7 +1084,7 @@
     "perovskites"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1043,7 +1132,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1368,7 +1457,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Large Language Model Guided Discovery of Hole Transport Layer Dopants for Efficient and Stable Perovskite Photovoltaics",
@@ -1459,7 +1548,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Narrow-Bandgap Zero-Dimensional Chiral Hybrid Perovskites",
@@ -1484,7 +1573,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Additive‐Free, Efficient, and Stable All‐Polymer Solar Cells Enabled by Congeneric Molecule Construction for Integrated Solar‐Storage Applications",
@@ -2063,7 +2152,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -2094,7 +2183,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -2119,7 +2208,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "In Situ Hole-Transport Layer Formation and Concurrent Passivation for FA 0.9 Cs 0.1 PbI 3 Perovskite Solar Cells",
@@ -2836,7 +2925,7 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -2860,7 +2949,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
