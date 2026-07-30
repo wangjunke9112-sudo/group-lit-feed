@@ -479,27 +479,36 @@ def classify_type(title, journal, hint="", abstract=""):
 # OpenAlex publishes a metadata-derived work 'type'. We trust it for the
 # article-vs-review distinction and map it to our three buckets. When OpenAlex
 # has no usable type for a paper, we fall back to the text heuristics above.
-_OA_TYPE_MAP = {
+# OpenAlex types carry information only when they are SPECIFIC. Most journal
+# papers -- reviews included -- are deposited to Crossref as the generic
+# "journal-article", which OpenAlex surfaces as "article". So "article" means
+# "no subtype was declared", NOT "this is not a review". Treating it as
+# authoritative overwrote every heuristically-detected review. Only positive,
+# specific signals are trusted here; everything else falls through to the text
+# heuristics, which can still see review language in the title/abstract.
+_OA_TYPE_POSITIVE = {
     "review": "review",
     "editorial": "comment", "erratum": "comment", "corrigendum": "comment",
-    "paratext": "comment", "letter": "article", "article": "article",
-    "preprint": "article", "book-chapter": "article", "report": "article",
+    "retraction": "comment", "paratext": "comment", "peer-review": "comment",
 }
+# Generic/uninformative values: present, but they tell us nothing about subtype.
+_OA_TYPE_GENERIC = {"article", "journal-article", "letter", "preprint",
+                    "book-chapter", "report", "other", ""}
 
 
 def map_oa_type(oa_type):
-    """Map an OpenAlex type string to our bucket, or None if unknown/blank."""
-    return _OA_TYPE_MAP.get((oa_type or "").strip().lower())
+    """Map an OpenAlex type to our bucket, or None when it carries no signal."""
+    return _OA_TYPE_POSITIVE.get((oa_type or "").strip().lower())
 
 
 def derive_type(paper):
     """Resolve a paper's type. Precedence:
       1. An unambiguous comment/correction in the TITLE always wins.
-      2. OpenAlex 'type' (paper['oa_type']) is authoritative for review vs article.
-      3. Otherwise fall back to the text heuristics -- but while OpenAlex has not
-         yet been consulted, never DOWNGRADE an existing review/comment (so we do
-         not briefly hide a known review); OpenAlex may later correct it either way.
-    """
+      2. A SPECIFIC OpenAlex type ("review", "editorial", ...) is authoritative.
+      3. Otherwise -- including OpenAlex's generic "article" -- the text
+         heuristics decide, since a generic type is an absence of evidence.
+    Deterministic: the same record always yields the same answer, so types are
+    fully recomputed (and self-correct) on every run."""
     title = paper.get("title", "")
     journal = paper.get("journal", "")
     abstract = paper.get("abstract", "")
@@ -507,12 +516,8 @@ def derive_type(paper):
         return "comment"
     mapped = map_oa_type(paper.get("oa_type"))
     if mapped:
-        return mapped  # authoritative
-    cur = paper.get("type", "article")
-    heuristic = classify_type(title, journal, "", abstract)
-    if cur in ("review", "comment") and heuristic == "article":
-        return cur     # preserve until OpenAlex confirms or denies
-    return heuristic
+        return mapped                      # specific -> authoritative
+    return classify_type(title, journal, "", abstract)
 
 
 # ---- Relevance evaluation + pending re-check pool -----------------------------
@@ -1209,39 +1214,56 @@ def selftest():
     assert classify_type("Highly Efficient Perovskite-Perovskite Tandem Solar Cells Reaching 80% of the Theoretical Limit in Photovoltage", "Advanced Materials") == "article"
     assert classify_type("Barrier-Free Cathode Contacts for High-Efficiency Inverted Carbon-Perovskite Solar Cells", "Advanced Energy Materials") == "article"
     assert classify_type("Anything at all", "Chemical Society Reviews") == "review"
+    # reclassify is now DETERMINISTIC (no sticky labels): it re-derives both
+    # directions, so a mislabelled review becomes an article and vice versa.
     pp = [{"title": "A plain research paper on solar cells", "journal": "Advanced Materials",
            "abstract": "We fabricate a device.", "type": "review"},
           {"title": "Perovskites: Progress and Challenges", "journal": "Advanced Materials",
            "abstract": "", "type": "article"}]
     n = reclassify_types(pp)
-    assert n == 1 and pp[0]["type"] == "review" and pp[1]["type"] == "review", pp
+    assert n == 2, (n, pp)
+    assert pp[0]["type"] == "article", pp[0]   # nothing review-ish -> corrected down
+    assert pp[1]["type"] == "review", pp[1]    # review phrasing -> corrected up
 
     # --- OpenAlex authoritative type (article vs review) ---
     assert map_oa_type("review") == "review"
-    assert map_oa_type("article") == "article"
     assert map_oa_type("editorial") == "comment"
+    # Generic types carry NO signal -- they must not be treated as "not a review".
+    assert map_oa_type("article") is None
+    assert map_oa_type("journal-article") is None
+    assert map_oa_type("letter") is None
     assert map_oa_type("") is None and map_oa_type("weird-unknown") is None
     # OpenAlex authoritatively marks a review the heuristics would miss:
     p_oa_rev = {"title": "Choose Your Own Adventure: Fabrication of Tandems",
                 "journal": "Advanced Materials", "abstract": "We fabricate devices.",
                 "type": "article", "oa_type": "review"}
     assert derive_type(p_oa_rev) == "review"
-    # OpenAlex authoritatively marks an ARTICLE even if the title looks review-ish,
-    # so a genuine research paper is not hidden from the article view:
-    p_oa_art = {"title": "Recent Advances Enable a Record-Efficiency Tandem Cell",
-                "journal": "Advanced Materials", "abstract": "",
-                "type": "review", "oa_type": "article"}
-    assert derive_type(p_oa_art) == "article", derive_type(p_oa_art)
-    # No OpenAlex yet -> heuristic fallback, but never downgrade a known review:
-    p_nooa = {"title": "A plain device paper", "journal": "Advanced Materials",
-              "abstract": "We fabricate.", "type": "review"}
-    assert derive_type(p_nooa) == "review"
-    # reclassify applies OpenAlex authoritatively (can now downgrade a mislabel):
-    pp2 = [{"title": "Looks like a review: Progress and Challenges",
-            "journal": "Advanced Materials", "abstract": "", "type": "review",
-            "oa_type": "article"}]
+    # REGRESSION: OpenAlex's generic "article" must NOT erase a review detected
+    # from the text. This is what silently turned every review into an article.
+    p_generic = {"title": "Perovskite Solar Cells: Progress and Challenges",
+                 "journal": "Advanced Materials", "abstract": "",
+                 "type": "review", "oa_type": "article"}
+    assert derive_type(p_generic) == "review", derive_type(p_generic)
+    # A dedicated review journal survives a generic OpenAlex type too:
+    assert derive_type({"title": "Anything", "journal": "Chemical Society Reviews",
+                        "abstract": "", "oa_type": "article"}) == "review"
+    # A genuine research paper stays an article (nothing review-ish anywhere):
+    assert derive_type({"title": "Barrier-Free Cathode Contacts for Inverted Cells",
+                        "journal": "Advanced Materials", "abstract": "We fabricate.",
+                        "oa_type": "article"}) == "article"
+    # No OpenAlex data at all -> heuristics decide, deterministically:
+    assert derive_type({"title": "A plain device paper", "journal": "Advanced Materials",
+                        "abstract": "We fabricate."}) == "article"
+    # reclassify restores reviews that the authoritative-article bug flattened:
+    pp2 = [{"title": "Halide Perovskites for Photovoltaics: A Review",
+            "journal": "Advanced Materials", "abstract": "", "type": "article",
+            "oa_type": "article"},
+           {"title": "Choose Your Own Adventure: Fabrication of Tandems",
+            "journal": "Advanced Materials", "type": "article", "oa_type": "review",
+            "abstract": "We fabricate devices."}]
     reclassify_types(pp2)
-    assert pp2[0]["type"] == "article", pp2
+    assert pp2[0]["type"] == "review", pp2[0]     # via heuristics
+    assert pp2[1]["type"] == "review", pp2[1]     # via specific OpenAlex type
 
     # --- Crossref path: keep / pending / drop ---
     it_keep = {"title": ["Wide-bandgap perovskite solar cells with low voltage loss"],
