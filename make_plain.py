@@ -357,8 +357,64 @@ def tier(journal):
     return len(TIERS)
 
 
+# Review detection.
+#
+# The archive's own "type"/"oa_type" fields cannot be trusted to say NO.
+# OpenAlex labels a great many reviews as "article" because publisher Crossref
+# metadata does not distinguish them, and aggregate.py treats OpenAlex as
+# authoritative, so the mislabel propagates. Observed case: "Recent Advances in
+# Solution-Processable Small-Molecule Cathode Interfacial Layers", whose
+# abstract opens "This review highlights...", stored as type=article,
+# oa_type=article.
+#
+# So: trust an explicit "review" from any source, and otherwise fall back to
+# text signals. Asymmetric on purpose. A "review" label is reliable; an
+# "article" label is not.
+REVIEW_JOURNALS = {
+    "Chemical Reviews", "Chemical Society Reviews", "Nature Reviews Materials",
+    "Nature Reviews Chemistry", "Nature Reviews Methods Primers",
+    "Accounts of Chemical Research", "Nature Reviews Physics",
+    "Nature Reviews Clean Technology",
+}
+
+# Titles: research papers rarely name themselves this way, so this is safe.
+_REVIEW_TITLE_RE = re.compile(
+    r"\b(review|perspective|roadmap|primer|overview|survey|tutorial|"
+    r"state[- ]of[- ]the[- ]art|"
+    r"recent (advances|progress|developments|trends)|"
+    r"advances and (challenges|prospects|opportunities)|"
+    r"progress and (challenges|prospects|perspectives)|"
+    r"challenges and (opportunities|prospects|perspectives)|"
+    r"opportunities and challenges|"
+    r"from fundamentals to|current status)\b", re.I)
+
+# Abstracts: deliberately tight. Phrases like "recent progress in X has been
+# rapid" appear in the introduction of ordinary research papers, so they are
+# NOT included; only self-descriptions of the work itself count.
+_REVIEW_ABSTRACT_RE = re.compile(
+    r"\b(in this review|this review\b|we review|here,? we review|"
+    r"we (comprehensively |critically |briefly )?review\b|"
+    r"this (article|work|paper) (reviews|summari[sz]es recent)|"
+    r"in this perspective|this perspective\b|"
+    r"we provide (a comprehensive |an )?overview|"
+    r"comprehensive overview of|"
+    r"we summari[sz]e (recent|the current|the latest)|"
+    r"this (review|perspective) (article|systematically|critically))\b", re.I)
+
+
 def is_review(p):
-    return (p.get("type") or "").lower() == "review"
+    """True if the paper is a review/perspective, by label OR by text."""
+    if (p.get("type") or "").lower() == "review":
+        return True
+    if (p.get("oa_type") or "").lower() == "review":
+        return True
+    if (p.get("journal") or "") in REVIEW_JOURNALS:
+        return True
+    if _REVIEW_TITLE_RE.search(p.get("title") or ""):
+        return True
+    if _REVIEW_ABSTRACT_RE.search(p.get("abstract") or ""):
+        return True
+    return False
 
 
 def load_papers(data_dir=DATA_DIR):
@@ -729,6 +785,33 @@ def selftest():
     c = {"journal": "Joule", "date": "2026-06-01"}
     d = {"journal": "Joule", "date": "2020-01-01"}
     assert rank(c) < rank(d)
+
+    # --- review detection must survive a wrong "article" label -------------
+    # Real record observed 2026-07-30: stored type=article, oa_type=article,
+    # abstract opens "This review highlights...". OpenAlex says article because
+    # the publisher metadata does, so the label alone loses the paper.
+    mislabelled = {
+        "title": "Recent Advances in Solution-Processable Small-Molecule "
+                 "Cathode Interfacial Layers for Organic Solar Cells",
+        "abstract": "Organic solar cells are a promising technology. This "
+                    "review highlights recent progress in cathode interfacial "
+                    "materials.",
+        "journal": "ACS Applied Materials & Interfaces",
+        "type": "article", "oa_type": "article"}
+    assert is_review(mislabelled), "must not trust an 'article' label"
+    assert is_review({"title": "X", "abstract": "", "journal": "Chemical Society Reviews"})
+    assert is_review({"title": "Tandem photovoltaics: a perspective", "abstract": ""})
+    assert is_review({"title": "X", "abstract": "In this review we summarise."})
+    assert is_review({"title": "X", "abstract": "", "type": "review"})
+    # and must NOT flag a research paper that merely cites recent progress
+    assert not is_review({
+        "title": "Efficient tandem solar cells reaching 30% efficiency",
+        "abstract": "Recent progress in perovskite photovoltaics has been "
+                    "rapid. Here we fabricate devices and measure J-V curves.",
+        "journal": "Nature Energy", "type": "article"})
+    assert not is_review({"title": "Suppressing halide segregation",
+                          "abstract": "We report a passivation strategy.",
+                          "journal": "Joule", "type": "article"})
 
     nasty = {"title": '<script>alert(1)</script> & co', "abstract": "a<b>",
              "link": "http://x?a=1&b=2", "authors": ["A B"], "date": "2026-01-01",
