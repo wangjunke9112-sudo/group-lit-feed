@@ -1,7 +1,7 @@
 {
  "year": "2026",
- "count": 2565,
- "generated": "2026-07-30 10:08 UTC",
+ "count": 2570,
+ "generated": "2026-07-30 12:18 UTC",
  "papers": [
   {
    "title": "Radiation-resilient monolithic wide-bandgap perovskite/p-type heterojunction silicon tandem solar cells for space photovoltaics",
@@ -154,7 +154,7 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Modulating p–n transition of two-dimensional perovskites for efficient and stable perovskite/Si tandem photovoltaics",
@@ -162,7 +162,7 @@
    "journal": "Nature Photonics",
    "publisher": "Nature",
    "date": "2026-07-30",
-   "abstract": "",
+   "abstract": "Electronically tunable 2D perovskites optimize charge extraction in wide-bandgap solar cells, enabling perovskite/silicon tandem cells with a certified efficiency of 33.64% and excellent long-term stability.",
    "authors": [
     "Jiahao Guo",
     "Zeyu Zhang",
@@ -187,10 +187,152 @@
     "perovskite",
     "perovskites",
     "photovoltaics",
-    "tandem"
+    "solar cells",
+    "tandem",
+    "wide-bandgap"
    ],
    "type": "article",
-   "ab_tried": 1,
+   "ab_tried": 2,
+   "oa_type_tried": 2
+  },
+  {
+   "title": "Origin of Dark Current Robustness in Photomultiplication Organic Photodetectors Enabled by Ionic Conjugated Electron‐Blocking Layers",
+   "link": "https://doi.org/10.1002/adma.74371",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-07-30",
+   "abstract": "ABSTRACT Photomultiplication‐type organic photodetectors (PM OPDs), which rely on signal amplification via electron trapping, suffer from a fundamental trade‐off: high gain is typically accompanied by a steep increase in dark current under high reverse bias. Here, we overcome this challenge by employing ionic conjugated polyelectrolyte (CPE)‐based electron blocking layers (EBLs) with an alternating fluorene‐co‐triphenylamine backbone. CPE‐based EBLs in PM OPDs enable robust dark current stability under reverse bias up to −10 V while maintaining external quantum efficiencies (EQE) exceeding 2000%. Charge‐dynamics analysis using Fowler–Nordheim plots reveals that a nanometer‐thick CPE layer provides electron‐blocking performance comparable to that of a ∼20 nm Al 2 O 3 layer. At the same time, we show that the nature of the ionic side chains (cationic vs anionic) in CPEs governs interfacial energy‐level alignment, thereby modulating hole selectivity and photocarrier dynamics. The design principles establish a general framework for interfacial and field engineering across a broad range of photodetector platforms—from organic to hybrid systems—guiding the development of next‐generation photodetectors.",
+   "authors": [
+    "Yelim Kang",
+    "Min Hun Jee",
+    "Shuai Zhang",
+    "Sang Heon Lee",
+    "Jung Min Ha",
+    "Xingchao Zhao",
+    "Xiaoling Ma",
+    "Huiseong Shin",
+    "Changhwan Shin",
+    "Soonyong Lee",
+    "Fujun Zhang",
+    "Jae Won Shim",
+    "Han Young Woo"
+   ],
+   "doi": "10.1002/adma.74371",
+   "keywords": [
+    "photodetector"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Ternary Cooperative Interface With Electronegative Phosphine Bridges Enables Efficient and Stable Inverted Perovskite Solar Cells",
+   "link": "https://doi.org/10.1002/adma.74416",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-07-30",
+   "abstract": "ABSTRACT Carbazole‐based self‐assembled monolayers (SAMs) are widely used in high‐performance perovskite solar cells (PSCs); however, single‐component SAMs often suffer from incomplete coverage on FTO substrates and weak interactions with the perovskite layer, leading to interfacial defects and crystallization stress. Herein, we develop a synergistic interface engineering strategy by introducing a phosphine‐based molecule, bis(4‐trifluoromethylphenyl)(4‐carboxyphenyl)phosphine (TFMP), to construct a ternary cooperative interface (Co‐SAM@TFMP) based on a co‐adsorbed self‐assembled monolayer (Co‐SAM) composed of [4‐(3,6‐dimethyl‐9H‐carbazol‐9‐yl)butyl]phosphonic acid (Me‐4PACz) and [4‐(9'‐phenyl‐9H,9'H‐[3,3'‐bicarbazol]‐9‐yl)butyl]phosphonic acid (4PABCz). In this system, the phosphonic and carboxylic acid groups are firmly anchored to the substrate, improving the integrity of the interfacial coverage. At the buried interface, TFMP acts as a molecular bridge by coordinating with Pb 2+ and stabilizing FA + , thereby suppressing interfacial defects. Furthermore, this cooperative interface alleviates crystallization stress during perovskite film growth through flexible molecular segments, promoting the formation of uniform and highly crystalline films. Ultimately, the optimized inverted PSCs achieved a power conversion efficiency (PCE) of 26.78%, and the unencapsulated devices retained 93.7% of their initial PCE after continuous operation at the maximum power point for 1200 h. This work offers a general and effective strategy for interface modulation toward high‐performance perovskite solar cells and related optoelectronic devices.",
+   "authors": [
+    "Pingping Ma",
+    "Yiting Zheng",
+    "Ziyue Zhang",
+    "Shijing Qian",
+    "Xin Zhao",
+    "Yingdong Xia",
+    "Yonghua Chen"
+   ],
+   "doi": "10.1002/adma.74416",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Quaternary PdPS 0.55 Se 0.45 for SBUV‐to‐SWIR Broadband Photodetection and Tri‐Band In‐Sensor Processing",
+   "link": "https://doi.org/10.1002/adma.74379",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-07-30",
+   "abstract": "ABSTRACT Post‐fire remote sensing for accurate damage assessment critically relies on multi‐band perception spanning from solar‐blind ultraviolet (SBUV) to short‐wave infrared (SWIR) and effective in‐sensor image pre‐processing. However, most vdW photodetectors still operate over limited spectral response, which constrains unified ultraviolet‐visible‐infrared sensing and computing within a single device platform. Here, we develop a stable quaternary vdW semiconductor, PdPS 0.55 Se 0.45 , and demonstrate a single photodetector enabling broadband sensing from SBUV (266 nm) to SWIR (1550 nm) while supporting in‐sensor convolutional processing for remote‐sensing images. The device achieves a peak responsivity ( R ) of 98.13 (84.81) A W −1 and a specific detectivity ( D *) exceeding 10 13 Jones at 266 nm (638 nm). We further exploit the intrinsic power‐density‐dependent responsivity to program band‐specific convolution kernels, where responsivity differences under 266, 638, and 1550 nm illumination are mapped into analog multiply‐accumulate weights. Coupled with a convolutional neural network (CNN), this tri‐band in‐sensor pre‐processing enables robust post‐fire target recognition on noise‐corrupted remote sensing images, achieving a recognition accuracy of ∼96% for post‐fire scenes. This work offers a practical route to SBUV‐to‐SWIR photodetector for in‐sensor computing, advancing broadband perception‐computation integration and creating new opportunities for remote sensing vision under complex environments.",
+   "authors": [
+    "Shankun Xu",
+    "Sirui Liu",
+    "Kaiyao Xin",
+    "Yali Yu",
+    "Xueming Li",
+    "Siqi Qiu",
+    "Wenjie Chen",
+    "Kexin He",
+    "Jie Wen",
+    "Haifeng Dou",
+    "Chengao Yang",
+    "Ziqi Zhou",
+    "Nengjie Huo",
+    "Juehan Yang"
+   ],
+   "doi": "10.1002/adma.74379",
+   "keywords": [
+    "photodetector"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Carbonyl‐Mediated Hydrogen Bonding in Substituent‐Asymmetric Carbazole Phosphonic Acid Enables Robust Molecular Contacts in Blade‐Coated Inverted Perovskite Solar Cells",
+   "link": "https://doi.org/10.1002/adfm.77381",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-07-30",
+   "abstract": "ABSTRACT Carbazole phosphonic acid (PACz) molecular contacts are widely used in inverted perovskite solar cells (PSCs), yet they often suffer from limited interfacial dipoles, insufficient robustness, and a trade‐off between intermolecular packing and coating uniformity under realistic solution processing. Here, we introduce a substituent‐asymmetric strategy by acetylating MeO‐4PACz to afford AcMeO‐4PACz, enabling simultaneous regulation of interfacial energetics, wetting, uniformity, and contact robustness. AcMeO‐4PACz exhibits a substantially enhanced surface‐normal dipole component (0.36 to 2.68 D) and downshifted frontier energy levels, thereby improving energetic alignment at the buried interface. The carbonyl motif mediates intermolecular hydrogen bonding, which fine‐tunes intermolecular interactions and yields a more homogeneous and solvent‐resilient molecular contact. The acetyl substitution also increases surface polarity, leading to improved precursor wetting and higher quality buried interface formation during blade coating. Consequently, blade‐coated inverted PSCs achieve a champion power conversion efficiency (PCE) of 25.57% and exhibit excellent stability under ISOS protocols (ISOS‐D‐1: 98.7% retention after 1920 h; ISOS‐D‐2: 88.0% retention after 1000 h at 65°C; ISOS‐L‐1: 99.0% retention after 1000 h under 1‐sun maximum power point tracking). This work establishes substituent asymmetry, together with carbonyl‐mediated intermolecular modulation, as an effective design strategy for processing‐resilient molecular contacts in scalable inverted PSCs.",
+   "authors": [
+    "Kunpeng Du",
+    "Ying Zhou",
+    "Weicheng Wang",
+    "Yuanzhi Jin",
+    "Yiran Zheng",
+    "Jiajun Wang",
+    "Lin Zhang",
+    "Guofeng You",
+    "Haotian Wu",
+    "Weifei Fu",
+    "Gang Wu",
+    "Hongzheng Chen"
+   ],
+   "doi": "10.1002/adfm.77381",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Bioceramic Ionic Conductor Enabling Multifunctional Hydrogel Electrolytes for Printable On‐Body Devices",
+   "link": "https://doi.org/10.1002/adfm.77414",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-07-30",
+   "abstract": "ABSTRACT The rapid advancement of flexible electronics has imposed urgent need for lightweight, integrated, and biocompatible energy storage devices in wearable applications. Herein, bioceramic (hydroxyapatite, HA) ionic conductor is synthesized at kilogram scale via a simple ion‐exchange method using ZnCl 2 , effectively avoiding CaSO 4 •2H 2 O impurities. Zn‐doped hydroxyapatite (ZnHA) is then combined with gelatin to form a hydrogel electrolyte (ZnHA/Gel). The impurity‐free ZnHA provides additional Zn 2+ transport pathways that synergize with ion migration in the gelatin matrix, achieving a high ionic conductivity of 42.2 mS cm −1 . Moreover, the abundant hydroxyl groups on ZnHA promote Zn salt dissociation and Zn 2+ desolvation, suppressing side reactions such as hydrogen evolution and corrosion. Meanwhile, strong interactions between ZnHA and gelatin enhance the mechanical strength of the electrolyte and inhibit dendrite growth. As a result, the half cells operate stably for over 2800 h at 1 mA cm −2 /1 mAh cm −2 , while the full cells retain 90% of their capacity after 1000 cycles. Notably, the biomass‐derived components impart printability, degradability, recyclability, and biocompatibility to the electrolyte. Finally, flexible batteries were 3D printed and integrated with wearable sensor and LEDs to form an interactive system, demonstrating good potential for next‐generation flexible and on‐body electronic applications.",
+   "authors": [
+    "Zihan Lin",
+    "Guiping Lei",
+    "Chao Sun",
+    "Mengyue Liu",
+    "Yueqi Zhang",
+    "Chengjin Zheng",
+    "Jiaying Peng",
+    "Chendong Ji",
+    "Jin Niu",
+    "Feng Wang"
+   ],
+   "doi": "10.1002/adfm.77414",
+   "keywords": [
+    "ion migration"
+   ],
+   "type": "article",
    "oa_type_tried": 1
   },
   {
@@ -238,7 +380,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "CsPbBr 3 Quantum Dot Sensitization Enabled Type‐III SnSe 2 /MoTe 2 Heterojunction for Fast and Self‐Powered Visible Photodetection",
@@ -361,7 +503,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type_tried": 2
   },
   {
@@ -385,7 +527,7 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type_tried": 2
   },
   {
@@ -430,7 +572,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type_tried": 2
   },
   {
@@ -569,7 +711,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type_tried": 2
   },
   {
@@ -611,7 +753,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type_tried": 2
   },
   {
@@ -788,7 +930,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -814,7 +956,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -843,7 +985,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -882,7 +1024,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1084,7 +1226,7 @@
     "perovskites"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -1132,7 +1274,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -1457,7 +1599,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Large Language Model Guided Discovery of Hole Transport Layer Dopants for Efficient and Stable Perovskite Photovoltaics",
@@ -1548,7 +1690,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Narrow-Bandgap Zero-Dimensional Chiral Hybrid Perovskites",
@@ -1573,7 +1715,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Additive‐Free, Efficient, and Stable All‐Polymer Solar Cells Enabled by Congeneric Molecule Construction for Integrated Solar‐Storage Applications",
@@ -2152,7 +2294,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -2183,7 +2325,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -2208,7 +2350,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "In Situ Hole-Transport Layer Formation and Concurrent Passivation for FA 0.9 Cs 0.1 PbI 3 Perovskite Solar Cells",
@@ -2925,7 +3067,7 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -2949,7 +3091,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
