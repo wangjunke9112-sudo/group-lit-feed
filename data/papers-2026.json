@@ -1,7 +1,7 @@
 {
  "year": "2026",
- "count": 2578,
- "generated": "2026-07-30 16:09 UTC",
+ "count": 2586,
+ "generated": "2026-07-30 23:16 UTC",
  "papers": [
   {
    "title": "Radiation-resilient monolithic wide-bandgap perovskite/p-type heterojunction silicon tandem solar cells for space photovoltaics",
@@ -157,6 +157,100 @@
    "oa_type_tried": 2
   },
   {
+   "title": "Plasma surface engineering for efficient and stable perovskite solar cells and modules",
+   "link": "https://doi.org/10.1126/science.aeg1730",
+   "journal": "Science",
+   "publisher": "Science",
+   "date": "2026-07-30",
+   "abstract": "The instability of perovskite solar cells (PSCs) stems largely from the formation and evolution of interfacial defects associated with the soft, multicomponent perovskite lattice. We report a scalable, plasma-based passivation strategy that forms conformal, uniform, and strong-bonded heterostructure through in situ chemical reactions on large-area perovskite films. This approach also mitigates defect accumulation within the laser-scribed interconnection regions, where localized damage often dominates module-level performance losses. We achieved a power conversion efficiency (PCE) of 27.2% in small-area devices (active area 8.313 square millimeters) and 24.0% (certified efficiency of 23.5%) in 100-square-centimeter (cm 2 ) modules (aperture area 65.05 cm 2 ). The small-area device retained 98.1% of its initial PCE after 2000 hours of maximum power point tracking at 85°C under 1-sun illumination, and the 100-cm 2 module retained 99.3% of its initial PCE after 1600 hours at 65°C under 1-sun illumination.",
+   "authors": [
+    "Rundong Fan",
+    "Yue Ma",
+    "Shuoyang Xu",
+    "Liang Cheng",
+    "Zhongyang Zhang",
+    "Yan Li",
+    "Huijun Liu",
+    "Zhaoboxun Bao",
+    "Guilin Liu",
+    "Yuetong Wu",
+    "Xinmeng Zhuang",
+    "Kailin Li",
+    "Yanrun Chen",
+    "Jackson Tze Fung Ng",
+    "BoShiun Huang",
+    "Wentao Zhou",
+    "Yu Zhang",
+    "Ying Han",
+    "Ruiyang Yin",
+    "Shaocheng Liu",
+    "Tianhao Xia",
+    "Mengqi Xiao",
+    "Xiaowei Zhan",
+    "Xiaoxu Zhao",
+    "Qi Chen",
+    "Huanping Zhou"
+   ],
+   "doi": "10.1126/science.aeg1730",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "n-Type polymer layers enable efficient, scalable, and thermally stable perovskite solar modules",
+   "link": "https://doi.org/10.1126/science.aed8175",
+   "journal": "Science",
+   "publisher": "Science",
+   "date": "2026-07-30",
+   "abstract": "Fullerene-based electron transport layers (ETLs) used in inverted (p-i-n) perovskite solar cells face issues regarding cost, scalability, and instability, whereas highly stable inorganic oxides feature unfavorable energy alignment and enhance hysteresis, which reduce power conversion efficiency (PCE). We report a nonfullerene conjugated polymer, 2PB-T, that incorporates coplanar and electron-withdrawing perylene bisimide (PBI) units into its backbone. The PBI polymeric backbone and side-chain engineering address the instability of small-molecule ETLs by optimizing electron transport properties, film uniformity, and interfacial binding. Small-area devices achieved a champion PCE of 27.8%, with a certified maximum power point tracking (MPPT) efficiency of 27.3%. Perovskite modules with areas of 20.6 and 625 square centimeters reached PCEs of 24.4 and 22.5%, respectively. Small-area devices retained more than 98.6% of their initial PCE after 1752 hours of continuous MPPT at 85°C in air, and the 625-square-centimeter module maintained 96.9% of its initial PCE after 5900 hours of outdoor operation.",
+   "authors": [
+    "Danpeng Gao",
+    "Jie Gong",
+    "Lei Yang",
+    "Ning Wang",
+    "Bohong Chang",
+    "Liangchen Qian",
+    "Francesco Vanin",
+    "Chunlei Zhang",
+    "Zexin Yu",
+    "Shuai Li",
+    "Jianqiu Gong",
+    "Zonglong Zhu"
+   ],
+   "doi": "10.1126/science.aed8175",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Editorial Expression of Concern for the Research Article “Hafnium oxide interface stabilization for efficient, photothermally stable perovskite solar cells”",
+   "link": "https://doi.org/10.1126/science.aek6646",
+   "journal": "Science",
+   "publisher": "Science",
+   "date": "2026-07-30",
+   "abstract": "",
+   "authors": [
+    "H. Holden Thorp"
+   ],
+   "doi": "10.1126/science.aek6646",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "solar cells"
+   ],
+   "type": "comment",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
    "title": "Modulating p–n transition of two-dimensional perovskites for efficient and stable perovskite/Si tandem photovoltaics",
    "link": "https://doi.org/10.1038/s41566-026-01979-z",
    "journal": "Nature Photonics",
@@ -192,7 +286,7 @@
     "wide-bandgap"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type_tried": 2
   },
   {
@@ -222,8 +316,8 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Indium-free tantalum oxynitride recombination layer for monolithic perovskite/silicon tandem solar cells",
@@ -263,8 +357,8 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Hydrogen-bonded organic frameworks enable in-sensor perovskite photoadaptation for ultralow-power neuromorphic vision",
@@ -294,8 +388,8 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Local Conformational Distortion Enables Ultralow Non-Radiative Recombination Energy Losses in 21%-Efficient Organic Solar Cells",
@@ -328,8 +422,8 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Understanding the effect of the drying rate in process-structure-performance relationships for PM6-Y6 organic solar cells",
@@ -361,8 +455,8 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Boron Cluster‐Based X‐Ray Scintillators for Highly Efficient Radioluminescence",
@@ -383,6 +477,99 @@
     "Hong Yan"
    ],
    "doi": "10.1002/anie.1428276",
+   "keywords": [
+    "scintillator"
+   ],
+   "type": "article",
+   "oa_type_tried": 2
+  },
+  {
+   "title": "Strengthened Charge‐Selective Perovskite/SAM Heterocontact for Efficient and Durable Perovskite Solar Cells via Interfacial Reconfiguration",
+   "link": "https://doi.org/10.1002/anie.1018855",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2026-07-30",
+   "abstract": "ABSTRACT Hole‐selective self‐assembled molecular (SAM) layer plays a critical role in driving the optoelectronic performance of inverted perovskite solar cells (PSCs). Nevertheless, the inherent aggregation of SAMs at the buried heterocontact that causes large energy loss and severe instability, strongly hinders PSCs’ practical deployment. Herein, we propose an effective in situ strategy of reconfiguring a robust buried hole‐selective heterocontact between SAM and perovskite to promote charge extraction with improved energetics, while suppressing the formation of interfacial voids and defects. We also demonstrate that thermally activated polymerization network densely covers the SAM at the heterocontact, minimizing underlying electrode exposure and preventing upper perovskite decomposition. Simultaneously, perovskite film directly grown on network exhibits a higher crystallinity, along with releasing the residual stress. Consequently, the PSC achieves an impressive efficiency of 26.87% for 1.57 eV bandgap cells and one of the highest fill factors of 87.04% reported so far. Encouragingly, the modified device features an excellent thermal and operational stability, significantly advancing the progress of PSCs toward industrialization.",
+   "authors": [
+    "Xiaoyun Wan",
+    "Hao Wang",
+    "Haixin Chen",
+    "Kai Jiang",
+    "Jiyuan Chen",
+    "Di Li",
+    "Xuelin Wang",
+    "Ziheng Zhang",
+    "Zhijie Wang",
+    "Menghui Jia",
+    "Shuo Zhang",
+    "Ruihao Tang",
+    "Jinxiang Wang",
+    "Lixuan Kan",
+    "Zaifei Ma",
+    "Bo Li",
+    "Yongbo Yuan",
+    "Shaobing Xiong",
+    "Yefeng Yao",
+    "Jianxin Tang",
+    "Junhao Chu",
+    "Qinye Bao"
+   ],
+   "doi": "10.1002/anie.1018855",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Molecular Tailoring of Self‐Assembled Monolayers Derived From Asymmetric Benzothienoindole for Efficient and Stable Inverted Perovskite Solar Cells and Modules",
+   "link": "https://doi.org/10.1002/anie.1678852",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2026-07-30",
+   "abstract": "ABSTRACT Self‐assembled monolayers (SAMs) have emerged as efficient hole‐transporting materials for inverted perovskite solar cells (PSCs). However, the synergistic design of SAMs that simultaneously optimizes electronic structure, molecular packing, perovskite crystallization, and interfacial contact remains underexplored, and the development of new SAMs is often impeded by complex synthetic routes. Herein, we developed an asymmetric [1]benzothieno[3,2‐b]indole (BTI) core via a concise Fischer indole synthesis. From this core, three SAMs are obtained by sequentially introducing substituents with electron‐donating to electron‐withdrawing characteristics. As the electron‐withdrawing ability of the substituents increases, the SAMs exhibited progressively enhanced electron delocalization, improved energy‐level alignment with perovskite, and preserved long‐range ordered molecular packing. The improved SAMs film quality enables them to act as effective templating layers for perovskite deposition, directing perovskite crystallization, improving buried interfacial contact, and suppressing interfacial nonradiative recombination. Consequently, the inverted PSCs with F‐4PABTI deliver a champion power conversion efficiency (PCE) of 26.76%, a high open‐circuit voltage ( V OC ) of 1.203 V, and markedly improved operational stability. Notably, the large area device (1 cm 2 ), module (655.2 cm 2 ), and wide‐bandgap device (1.84 eV) achieve excellent PCEs of 25.38%, 20.59%, and 17.87%, respectively. This work offers a rational molecular design strategy for advancing high‐performance and stable PSCs.",
+   "authors": [
+    "Shen Zhong",
+    "Yonglong Yang",
+    "Zhaojin Wang",
+    "Gang Xie",
+    "Hongxiang Li",
+    "Wei Yi",
+    "Shuo Yao",
+    "Fanyu Zeng",
+    "Zengqi Huang",
+    "Aihui Liang",
+    "Yiwang Chen"
+   ],
+   "doi": "10.1002/anie.1678852",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Switching Fluorescent–Phosphorescent Radioluminescence in Organic X‐Ray Scintillators via a Host–Guest Strategy",
+   "link": "https://doi.org/10.1002/anie.3713814",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2026-07-30",
+   "abstract": "ABSTRACT Organic scintillators have attracted increasing attention for applications in medical diagnostics, nondestructive inspection and high‐energy physics. Regulating the radioluminescence (RL) lifetime and emission wavelength is crucial for developing organic scintillators that meet diverse application requirements, yet remains challenging. Achieving switchable fluorescent‐phosphorescent RL through a simple and effective approach is therefore highly desirable for x‐ray imaging applications. Here, we report an efficient host–guest strategy to realize switching between fluorescence and phosphorescence in RL from a single guest emitter. Accordingly, the fluorescence and phosphorescence exhibit decay lifetimes of 4.28 ns (emission at 450 nm) and 1140.41 ms (emission at 529 nm), respectively. Moreover, the phosphorescent scintillator demonstrated pronounced scintillation performance at elevated temperatures. Notably, 2‐TBASF@DMAP exhibits a long afterglow exceeding 0.8 s over a wide temperature range from 78 to 375 K, highlighting its strong potential for high‐temperature x‐ray detection and advanced imaging technologies. This work opens new possibilities for organic scintillators in multimodal detection, as the switchable emission modes enable enhanced signal discrimination and environmental responsiveness.",
+   "authors": [
+    "Yuxin Xiao",
+    "Shiwen Liu",
+    "Xinqi Xu",
+    "Chenxi Peng",
+    "Xiaowang Liu",
+    "Qiushui Chen",
+    "Tao Yu",
+    "Wei Huang"
+   ],
+   "doi": "10.1002/anie.3713814",
    "keywords": [
     "scintillator"
    ],
@@ -507,7 +694,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Carbonyl‐Mediated Hydrogen Bonding in Substituent‐Asymmetric Carbazole Phosphonic Acid Enables Robust Molecular Contacts in Blade‐Coated Inverted Perovskite Solar Cells",
@@ -586,7 +773,7 @@
     "perovskites"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Durable, Binder‐Free MoO 3 /Fe 2 O 3 /MoS 2 Honeycomb Heterostructure for Light‐Enhanced Water Splitting at Industrial Current Density",
@@ -743,7 +930,7 @@
    "journal": "Nature Communications",
    "publisher": "Nature",
    "date": "2026-07-29",
-   "abstract": "",
+   "abstract": "Controlling the spin degree of freedom of light at the microscale is crucial for advancing photonic information processing. Spin polarized light propagation, combined with strong optical nonlinearities, unlocks new functionalities in compact photonic circuits and active spin optronic devices. Lead halide perovskite exciton polaritons uniquely combine room temperature operation, pronounced nonlinearities, and versatile microstructuring, making them a powerful platform for spin based photonic technologies. Here, we demonstrate polarized edge emission from polariton condensates in perovskite single crystals predesigned into a microwire, forming natural, DBR free cavity. Above threshold, we observe a distinct waveguiding optical spin Hall effect pattern in both real- and reciprocal-space emission, accompanied by pseudospin phase locking arising from coherence between opposite edges. Beyond static polarization textures, we achieve spin-resolved polariton edge lasing with chirality exceeding 80\\% and spin-polarized signal propagation over tens of micrometres. These results establish CsPbBr3 waveguides as a promising easy to fabricate platform for on chip spin coded information transport and nonlinear spin optoelectronics.",
    "authors": [
     "Mateusz Kędziora",
     "Andrzej Opala",
@@ -756,8 +943,30 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 5,
    "oa_type_tried": 2
+  },
+  {
+   "title": "High-entropy photocatalyst enabling collaborative cascade C–N coupling for converting benzyl alcohol to imine",
+   "link": "https://doi.org/10.1038/s41467-026-75878-w",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-07-29",
+   "abstract": "The selective conversion of biomass-derived alcohols to nitrogen-containing organic chemicals, such as the highly valuable imine, is a significant challenge due to the complex tandem process of C–N coupling and multiple reaction pathways. The photocatalytic coupling of biomass-derived alcohols with NH3 using renewable energy offers a sustainable way to produce imines, but requires the development of suitable photocatalysts. In this work, we present a promising high-entropy sulfide photocatalyst (NiSnCaZnInS) with integrated multifunctional sites. Using benzyl alcohol (BA) as an example, we achieved an imine yield of 1240 μmol $${{\\mbox{g}}}_{{\\mbox{cat}}}^{-1}$$ for 5 hours, with a selectivity of 91.7%. The photocatalytic performance can be attributed to the special configuration of the high-entropy surface, which provides ideal catalytic sites for the cascade coupling reaction. This work highlights the great potential of high-entropy materials in photocatalytic reactions, providing a sustainable and effective approach to the photocatalytic conversion of biomass derivatives into valuable chemicals. The design of multifunction reactive sites is pivotal for cascade reaction. Here, the authors prepared a high-entropy photocatalyst that enables direct C–N coupling of alcohols with NH3 to form imines, achieving high benzyl alcohol-to-imine yield.",
+   "authors": [
+    "Nengcong Yang",
+    "Yi Shu",
+    "Zhian Chen",
+    "Zhuwei Cao",
+    "Haiqun Cao",
+    "Sheng Ye",
+    "Yujie Xiong"
+   ],
+   "doi": "10.1038/s41467-026-75878-w",
+   "keywords": [
+    "tandem"
+   ],
+   "type": "article",
+   "oa_type": "article"
   },
   {
    "title": "Photocatalytic water splitting by 2D polymer with out-of-plane carrier flow",
@@ -780,7 +989,7 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type_tried": 2
   },
   {
@@ -825,7 +1034,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type_tried": 2
   },
   {
@@ -964,7 +1173,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type_tried": 2
   },
   {
@@ -992,6 +1201,28 @@
    "oa_type_tried": 2
   },
   {
+   "title": "Photodriven Two‐Dimensional Optoelectronic Heterojunction Membranes for Highly Efficient Lithium Separation (Adv. Funct. Mater. 60/2026)",
+   "link": "https://doi.org/10.1002/adfm.77104",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-07-29",
+   "abstract": "Photoelectronic Heterojunction Illustration of a light-driven, graphene-confined 2D perovskite membrane for selective lithium extraction from a salt-lake environment. Inspired by Dunhuang mural aesthetics, the celestial goddess sits cross-legged atop the membrane, symbolically weaving the crystalline lattice while guiding photoenergy from a fiery Taiji sun. Multiple golden beams emanate from the Taiji disk, striking distinct positions on the membrane, and triggering localized photoelectric fields within the interlayer. These fields selectively drive Li+ ions through the confined 2D perovskite channels while repelling Mg2+, Na+, and K+ ions in the surrounding brine. The irregular weaving patch illustrates the in-situ construction and repair of the membrane lattice, highlighting the spatially controlled assembly of ultrathin perovskite layers. This artistic representation captures the core innovations of the work: (i) in-situ formation of 2D perovskite within graphene oxide layers, (ii) light-activated, built-in interlayer electric fields for selective ion transport, and (iii) structural and chemical design enabling stable, high-efficiency lithium extraction from complex ionic environments. More details can be found in the Research Article by Ximeng Chen, Zhan Li, and co-workers (DOI: 10.1002/adfm.76159).",
+   "authors": [
+    "Qifeng Gao",
+    "Yaxin Hao",
+    "Yaoling Zhang",
+    "Xin Liu",
+    "Ximeng Chen",
+    "Zhan Li"
+   ],
+   "doi": "10.1002/adfm.77104",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
    "title": "Correction to “Bilateral Anchoring Strategy Enables Highly Efficient Wide‐Bandgap Perovskite Solar Cells/Modules for Self‐Powered Photo‐Electrocatalytic Antibacterial System”",
    "link": "https://doi.org/10.1002/aenm.71373",
    "journal": "Advanced Energy Materials",
@@ -1006,7 +1237,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type_tried": 2
   },
   {
@@ -1852,7 +2083,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 5
+   "ab_tried": 6
   },
   {
    "title": "Large Language Model Guided Discovery of Hole Transport Layer Dopants for Efficient and Stable Perovskite Photovoltaics",
@@ -1943,7 +2174,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 5
+   "ab_tried": 6
   },
   {
    "title": "Narrow-Bandgap Zero-Dimensional Chiral Hybrid Perovskites",
@@ -1968,7 +2199,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 5
+   "ab_tried": 6
   },
   {
    "title": "Additive‐Free, Efficient, and Stable All‐Polymer Solar Cells Enabled by Congeneric Molecule Construction for Integrated Solar‐Storage Applications",
@@ -2603,7 +2834,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 5
+   "ab_tried": 6
   },
   {
    "title": "In Situ Hole-Transport Layer Formation and Concurrent Passivation for FA 0.9 Cs 0.1 PbI 3 Perovskite Solar Cells",
