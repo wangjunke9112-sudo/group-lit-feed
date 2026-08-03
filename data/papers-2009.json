@@ -1,8 +1,28 @@
 {
  "year": "2009",
- "count": 255,
- "generated": "2026-08-03 16:10 UTC",
+ "count": 333,
+ "generated": "2026-08-03 19:24 UTC",
  "papers": [
+  {
+   "title": "Polarization-Induced Hole Doping in Wide–Band-Gap Uniaxial Semiconductor Heterostructures",
+   "link": "https://doi.org/10.1126/science.1183226",
+   "journal": "Science",
+   "publisher": "Science",
+   "date": "2009-12-31",
+   "abstract": "Activating Stubborn Dopants Many applications of semiconductor light-emitting diodes and lasers, such as reading optical disks, benefit from shorter wavelengths, but this requires materials with larger energy gaps between their valance and conduction bands. The electronic conductivity of these materials often has to be increased by doping with impurity atoms. However, in nitride materials, such as GaN and AlGaN, hole doping with acceptor atoms such as Mg is ineffective at room temperature. Simon et al. (p. 60 ) grew a gradient of AlGaN on the surface of GaN and found that the polarization of the layer could field-ionize the acceptor dopants efficiently at room temperature. The heterostructure was used successfully in a light-emitting diode that emits in the ultraviolet.",
+   "authors": [
+    "John Simon",
+    "Vladimir Protasenko",
+    "Chuanxin Lian",
+    "Huili Xing",
+    "Debdeep Jena"
+   ],
+   "doi": "10.1126/science.1183226",
+   "keywords": [
+    "light-emitting"
+   ],
+   "type": "article"
+  },
   {
    "title": "Observation of Positive Effects of Freestanding Scattering Film in Dye-Sensitized Solar Cells",
    "link": "https://doi.org/10.1021/am900691c",
@@ -42,6 +62,27 @@
    ],
    "type": "article",
    "oa_type": "article"
+  },
+  {
+   "title": "Molecules on Si: Electronics with Chemistry",
+   "link": "https://doi.org/10.1002/adma.200901834",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2009-12-28",
+   "abstract": "Abstract Basic scientific interest in using a semiconducting electrode in molecule‐based electronics arises from the rich electrostatic landscape presented by semiconductor interfaces. Technological interest rests on the promise that combining existing semiconductor (primarily Si) electronics with (mostly organic) molecules will result in a whole that is larger than the sum of its parts. Such a hybrid approach appears presently particularly relevant for sensors and photovoltaics. Semiconductors, especially Si, present an important experimental test‐bed for assessing electronic transport behavior of molecules, because they allow varying the critical interface energetics without, to a first approximation, altering the interfacial chemistry. To investigate semiconductor‐molecule electronics we need reproducible, high‐yield preparations of samples that allow reliable and reproducible data collection. Only in that way can we explore how the molecule/electrode interfaces affect or even dictate charge transport, which may then provide a basis for models with predictive power. To consider these issues and questions we will, in this Progress Report, review junctions based on direct bonding of molecules to oxide‐free Si. describe the possible charge transport mechanisms across such interfaces and evaluate in how far they can be quantified. investigate to what extent imperfections in the monolayer are important for transport across the monolayer. revisit the concept of energy levels in such hybrid systems.",
+   "authors": [
+    "Ayelet Vilan",
+    "Omer Yaffe",
+    "Ariel Biller",
+    "Adi Salomon",
+    "Antoine Kahn",
+    "David Cahen"
+   ],
+   "doi": "10.1002/adma.200901834",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "article"
   },
   {
    "title": "Efficiency Enhancement in Organic Photovoltaic Cells: Consequences of Optimizing Series Resistance",
@@ -98,6 +139,24 @@
    ],
    "type": "article",
    "oa_type": "article"
+  },
+  {
+   "title": "Gold Nanorods: From Synthesis and Properties to Biological and Biomedical Applications",
+   "link": "https://doi.org/10.1002/adma.200802789",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2009-12-21",
+   "abstract": "Abstract Noble metal nanoparticles are capable of confining resonant photons in such a manner as to induce coherent surface plasmon oscillation of their conduction band electrons, a phenomenon leading to two important properties. Firstly, the confinement of the photon to the nanoparticle's dimensions leads to a large increase in its electromagnetic field and consequently great enhancement of all the nanoparticle's radiative properties, such as absorption and scattering. Moreover, by confining the photon's wavelength to the nanoparticle's small dimensions, there exists enhanced imaging resolving powers, which extend well below the diffraction limit, a property of considerable importance in potential device applications. Secondly, the strongly absorbed light by the nanoparticles is followed by a rapid dephasing of the coherent electron motion in tandem with an equally rapid energy transfer to the lattice, a process integral to the technologically relevant photothermal properties of plasmonic nanoparticles. Of all the possible nanoparticle shapes, gold nanorods are especially intriguing as they offer strong plasmonic fields while exhibiting excellent tunability and biocompatibility. We begin this review of gold nanorods by summarizing their radiative and nonradiative properties. Their various synthetic methods are then outlined with an emphasis on the seed‐mediated chemical growth. In particular, we describe nanorod spontaneous self‐assembly, chemically driven assembly, and polymer‐based alignment. The final section details current studies aimed at applications in the biological and biomedical fields.",
+   "authors": [
+    "Xiaohua Huang",
+    "Svetlana Neretina",
+    "Mostafa A. El‐Sayed"
+   ],
+   "doi": "10.1002/adma.200802789",
+   "keywords": [
+    "tandem"
+   ],
+   "type": "article"
   },
   {
    "title": "High‐Performance Organic Photovoltaic Devices Using a New Amorphous Molecular Material with High Hole Drift Mobility, Tris[4‐(5‐phenylthiophen‐2‐yl)phenyl]amine",
@@ -158,6 +217,30 @@
    ],
    "type": "article",
    "oa_type": "article"
+  },
+  {
+   "title": "Organic Nonvolatile Memory Transistors for Flexible Sensor Arrays",
+   "link": "https://doi.org/10.1126/science.1179963",
+   "journal": "Science",
+   "publisher": "Science",
+   "date": "2009-12-11",
+   "abstract": "Flexible Organic Flash Memory Advances in organic electronics have enabled the fabrication of a number of core devices on flexible plastic substrates. These include transistors, light-emitting diodes, actuators, and sensors. Sekitani et al. (p. 1516 ) use a low-temperature hybrid dielectric based on a thin metal oxide and a self-assembled monolayer to develop flexible floating-gate memory transistors with small program and erase voltages. These are integrated into a flexible large-area sensor area, capable of storing values from applied external pressures.",
+   "authors": [
+    "Tsuyoshi Sekitani",
+    "Tomoyuki Yokota",
+    "Ute Zschieschang",
+    "Hagen Klauk",
+    "Siegfried Bauer",
+    "Ken Takeuchi",
+    "Makoto Takamiya",
+    "Takayasu Sakurai",
+    "Takao Someya"
+   ],
+   "doi": "10.1126/science.1179963",
+   "keywords": [
+    "light-emitting"
+   ],
+   "type": "article"
   },
   {
    "title": "Thickness and Clapeyron slope of the post-perovskite boundary",
@@ -234,8 +317,7 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type": "article",
-   "ab_tried": 2
+   "oa_type": "article"
   },
   {
    "title": "Tertiary Amine Mediated Tandem Cross‐Rauhut–Currier/Acetalization Reactions: Access to Functionalized Spiro‐3,4‐Dihydropyrans",
@@ -258,6 +340,28 @@
    "type": "article",
    "oa_type": "article",
    "ab_tried": 4
+  },
+  {
+   "title": "Synthesis and Photoelectrochemical Study of Vertically Aligned Silicon Nanowire Arrays",
+   "link": "https://doi.org/10.1002/anie.200902861",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2009-12-08",
+   "abstract": "",
+   "authors": [
+    "Guangbi Yuan",
+    "Huaizhou Zhao",
+    "Xiaohua Liu",
+    "Zainul S. Hasanali",
+    "Yan Zou",
+    "Andrew Levine",
+    "Dunwei Wang"
+   ],
+   "doi": "10.1002/anie.200902861",
+   "keywords": [
+    "photoelectrochemical"
+   ],
+   "type": "article"
   },
   {
    "title": "Vicinal Diboronates in High Enantiomeric Purity through Tandem Site-Selective NHC−Cu-Catalyzed Boron−Copper Additions to Terminal Alkynes",
@@ -320,6 +424,26 @@
    ],
    "type": "article",
    "oa_type": "article"
+  },
+  {
+   "title": "Direct Electron‐Beam Writing of Highly Conductive Wires in Functionalized Fullerene Films",
+   "link": "https://doi.org/10.1002/smll.200900071",
+   "journal": "Small",
+   "publisher": "Wiley",
+   "date": "2009-12-04",
+   "abstract": "Abstract This work demonstrates the patterning of thin films (≈25 nm) of a newly synthesized fullerene derivative by direct‐write electron‐beam lithography to produce highly conducting carbon microstructures. Scanning electron microscopy and atomic force microscopy are used to characterize the resulting microstructure morphology, whilst the resistivities of the structures are probed using four‐point probe electrodes deposited on the microstructures by lift‐off. The microstructures have a resistivity of ≈9.5 × 10 −3 Ω cm after exposure to an electron dose of 0.1 C cm −2 . The method may have applications in the generation and electrical contacting of organic electronics, organic photovoltaics, and lab‐on‐a‐chip devices.",
+   "authors": [
+    "Francis P. Gibbons",
+    "Mayandithevar Manickam",
+    "Jon A. Preece",
+    "Richard E. Palmer",
+    "Alex P. G. Robinson"
+   ],
+   "doi": "10.1002/smll.200900071",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "article"
   },
   {
    "title": "Mechanism of Water Splitting and Oxygen−Oxygen Bond Formation by a Mononuclear Ruthenium Complex",
@@ -433,7 +557,7 @@
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2009-12-03",
-   "abstract": "Abstract The photo‐induced charge transfer and the dynamics of persistent charge carriers in blends of semiconducting polymers and nanocrystals are investigated. Regioregular poly(3‐hexylthiophene) (P3HT) is used as the electron donor material, while the acceptor moiety is established by CdSe nanocrystals (nc‐CdSe) prepared via colloidal synthesis. As a reference system, organic blends of P3HT and [6,6]‐phenyl C 61 ‐butyric acid methyl ester (PCBM) are studied as well. The light‐induced charge transfer between P3HT and the acceptor materials is studied by photoluminescence (PL), photo‐induced absorption (PIA) and light‐induced electron spin resonance spectroscopy (LESR). Compared to neat P3HT samples, both systems show an intensified formation of polarons in the polymer upon photo‐excitation, pointing out successful separation of photogenerated charge carriers. Additionally, relaxation of the persistent charge carriers is investigated, and significant differences are found between the hybrid composite and the purely organic system. While relaxation, reflected in the transient signal decay of the polaron signal, is fast in the organic system, the hybrid blends exhibit long‐term persistence. The appearance of a second, slow recombination channel indicates the existence of deep trap states in the hybrid system, which leads to the capture of a large fraction of charge carriers. A change of polymer conformation due to the presence of nc‐CdSe is revealed by low temperature LESR measurements and microwave saturation techniques. The impact of the different recombination behavior…",
+   "abstract": "Abstract The photo‐induced charge transfer and the dynamics of persistent charge carriers in blends of semiconducting polymers and nanocrystals are investigated. Regioregular poly(3‐hexylthiophene) (P3HT) is used as the electron donor material, while the acceptor moiety is established by CdSe nanocrystals (nc‐CdSe) prepared via colloidal synthesis. As a reference system, organic blends of P3HT and [6,6]‐phenyl C 61 ‐butyric acid methyl ester (PCBM) are studied as well. The light‐induced charge transfer between P3HT and the acceptor materials is studied by photoluminescence (PL), photo‐induced absorption (PIA) and light‐induced electron spin resonance spectroscopy (LESR). Compared to neat P3HT samples, both systems show an intensified formation of polarons in the polymer upon photo‐excitation, pointing out successful separation of photogenerated charge carriers. Additionally, relaxation of the persistent charge carriers is investigated, and significant differences are found between the hybrid composite and the purely organic system. While relaxation, reflected in the transient signal decay of the polaron signal, is fast in the organic system, the hybrid blends exhibit long‐term persistence. The appearance of a second, slow recombination channel indicates the existence of deep trap states in the hybrid system, which leads to the capture of a large fraction of charge carriers. A change of polymer conformation due to the presence of nc‐CdSe is revealed by low temperature LESR measurements and microwave saturation techniques. The impact of the different recombination behavior on the photovoltaic efficiency of both systems is discussed.",
    "authors": [
     "Marc Daniel Heinemann",
     "Karsten von Maydell",
@@ -445,10 +569,30 @@
    ],
    "doi": "10.1002/adfm.200900852",
    "keywords": [
+    "photovoltaic",
     "solar cells"
    ],
    "type": "article",
    "oa_type": "article"
+  },
+  {
+   "title": "Nanoscale Conducting Channels at the Surface of Organic Semiconductors Formed by Decoration of Molecular Steps with Self‐Assembled Molecules",
+   "link": "https://doi.org/10.1002/adfm.200901525",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2009-12-03",
+   "abstract": "Abstract Under certain conditions, self‐assembling molecules preferentially bind to molecular steps at the surface of crystalline organic semiconductors, inducing a strong local doping effect. This creates macroscopically long conducting paths of nanoscale width (a single crystalline analogue of organic nanowires) that can span distances of up to 1 cm between electrical contacts. The observed effect of molecular step decoration opens intriguing possibilities for visualization, passivation, and selective doping of surface and interfacial defects in organic electronic devices and provides a novel system for research on nanoscale charge transport in organic semiconductors. In addition, this effect sheds light on the microscopic origin of nucleation and growth of self‐assembled monolayers at organic surfaces. It can also have implications in electronic patterning, nanoscale chemical sensors, integrated interconnects and charge‐transfer interfaces in organic transistors and solar cells.",
+   "authors": [
+    "Bumsu Lee",
+    "Taekjib Choi",
+    "Sang‐Wook Cheong",
+    "Vitaly Podzorov"
+   ],
+   "doi": "10.1002/adfm.200901525",
+   "keywords": [
+    "solar cells"
+   ],
+   "type": "article"
   },
   {
    "title": "Thermocleavable Materials for Polymer Solar Cells with High Open Circuit Voltage—A Comparative Study",
@@ -583,6 +727,51 @@
    "oa_type": "article"
   },
   {
+   "title": "Customized Electronic Coupling in Self‐Assembled Donor–Acceptor Nanostructures",
+   "link": "https://doi.org/10.1002/adfm.200901374",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2009-11-20",
+   "abstract": "Abstract Charge transfer processes between donor–acceptor complexes and metallic electrodes are at the heart of novel organic optoelectronic devices such as solar cells. Here, a combined approach of surface‐sensitive microscopy, synchrotron radiation spectroscopy, and state‐of‐the‐art ab initio calculations is used to demonstrate the delicate balance that exists between intermolecular and molecule–substrate interactions, hybridization, and charge transfer in model donor–acceptor assemblies at metal‐organic interfaces. It is shown that charge transfer and chemical properties of interfaces based on single component layers cannot be naively extrapolated to binary donor–acceptor assemblies. In particular, studying the self‐assembly of supramolecular nanostructures on Cu(111), composed of fluorinated copper‐phthalocyanines (F 16 CuPc) and diindenoperylene (DIP), it is found that, in reference to the associated single component layers, the donor (DIP) decouples electronically from the metal surface, while the acceptor (F 16 CuPc) suffers strong hybridization with the substrate.",
+   "authors": [
+    "Dimas G. de Oteyza",
+    "Juan M. García‐Lastra",
+    "Martina Corso",
+    "Bryan P. Doyle",
+    "Luca Floreano",
+    "Alberto Morgante",
+    "Yutaka Wakayama",
+    "Angel Rubio",
+    "J. Enrique Ortega"
+   ],
+   "doi": "10.1002/adfm.200901374",
+   "keywords": [
+    "solar cells"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "Charge Transfer Excitons in Polymer/Fullerene Blends: The Role of Morphology and Polymer Chain Conformation",
+   "link": "https://doi.org/10.1002/adfm.200901398",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2009-11-20",
+   "abstract": "Abstract Here, it is shown how carrier recombination through charge transfer excitons between conjugated polymers and fullerene molecules is mainly controlled by the intrachain conformation of the polymer, and to a limited extent by the mesoscopic morphology of the blend. This experimental result is obtained by combining near‐infrared photoluminescence spectroscopy and transmission electron microscopy, which are sensitive to charge transfer exciton emission and morphology, respectively. The photoluminescence intensity of the charge transfer exciton is correlated to the degree of intrachain order of the polymer, highlighting an important aspect for understanding and limiting carrier recombination in organic photovoltaics.",
+   "authors": [
+    "Markus Hallermann",
+    "Ilka Kriegel",
+    "Enrico Da Como",
+    "Josef M. Berger",
+    "Elizabeth von Hauff",
+    "Jochen Feldmann"
+   ],
+   "doi": "10.1002/adfm.200901398",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "article"
+  },
+  {
    "title": "Device Performance of APFO‐3/PCBM Solar Cells with Controlled Morphology",
    "link": "https://doi.org/10.1002/adma.200900754",
    "journal": "Advanced Materials",
@@ -655,6 +844,23 @@
    ],
    "type": "article",
    "oa_type": "article"
+  },
+  {
+   "title": "Organic Photovoltaics",
+   "link": "https://doi.org/10.1021/ar900238j",
+   "journal": "Accounts of Chemical Research",
+   "publisher": "ACS",
+   "date": "2009-11-17",
+   "abstract": "",
+   "authors": [
+    "Jean-Luc Bredas",
+    "James R. Durrant"
+   ],
+   "doi": "10.1021/ar900238j",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "review"
   },
   {
    "title": "Hydrotalcites of zinc and titanium as precursors of finely dispersed mixed oxide semiconductors for dye-sensitized solar cells",
@@ -732,7 +938,7 @@
    "keywords": [
     "solar cells"
    ],
-   "type": "review",
+   "type": "article",
    "oa_type": "article"
   },
   {
@@ -818,6 +1024,28 @@
    "oa_type": "article"
   },
   {
+   "title": "Poly(diketopyrrolopyrrole−terthiophene) for Ambipolar Logic and Photovoltaics",
+   "link": "https://doi.org/10.1021/ja907506r",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2009-11-03",
+   "abstract": "",
+   "authors": [
+    "Johan C. Bijleveld",
+    "Arjan P. Zoombelt",
+    "Simon G. J. Mathijssen",
+    "Martijn M. Wienk",
+    "Mathieu Turbiez",
+    "Dago M. de Leeuw",
+    "René A. J. Janssen"
+   ],
+   "doi": "10.1021/ja907506r",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "article"
+  },
+  {
    "title": "Polymer solar cells with enhanced open-circuit voltage and efficiency",
    "link": "https://doi.org/10.1038/nphoton.2009.192",
    "journal": "Nature Photonics",
@@ -895,6 +1123,25 @@
    "oa_type": "article"
   },
   {
+   "title": "Copper‐Free Clickable Coatings",
+   "link": "https://doi.org/10.1002/adfm.200900743",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2009-10-30",
+   "abstract": "Abstract The copper‐catalyzed azide–alkyne 1,3‐dipolar cycloaddition (CuAAC) is extensively used for the functionalization of well‐defined polymeric materials. However, the necessity for copper, which is inherently toxic, limits the potential applications of these materials in the area of biology and biomedicine. Therefore, the first entirely copper‐free procedure for the synthesis of clickable coatings for the immobilization of functional molecules is reported. In the first step, azide‐functional coatings are prepared by thermal crosslinking of side‐chain azide‐functional polymers and dialkyne linkers. In a second step, three copper‐free click reactions (i.e., the Staudinger ligation, the dibenzocyclooctyne‐based strain‐promoted azide–alkyne [3+2] cycloaddition, and the methyl‐oxanorbornadiene‐based tandem cycloaddition−retro‐Diels−Alder (crDA) reaction) are used to functionalize the azide‐containing surfaces with fluorescent probes, allowing qualitative comparison with the traditional CuAAC.",
+   "authors": [
+    "Luiz A. Canalle",
+    "Sander S. van Berkel",
+    "Laurens T. de Haan",
+    "Jan C. M. van Hest"
+   ],
+   "doi": "10.1002/adfm.200900743",
+   "keywords": [
+    "tandem"
+   ],
+   "type": "article"
+  },
+  {
    "title": "Iodine/Iodide-Free Dye-Sensitized Solar Cells",
    "link": "https://doi.org/10.1021/ar900069p",
    "journal": "Accounts of Chemical Research",
@@ -933,8 +1180,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type": "article",
-   "ab_tried": 2
+   "oa_type": "article"
   },
   {
    "title": "Total Synthesis of Auripyrone A Using a Tandem Non‐Aldol Aldol/Paterson Aldol Process as a Key Step",
@@ -1019,7 +1265,7 @@
     "solar cell",
     "solar cells"
    ],
-   "type": "review",
+   "type": "article",
    "oa_type": "article"
   },
   {
@@ -1049,7 +1295,7 @@
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2009-10-22",
-   "abstract": "Abstract The morphological, bipolar charge‐carrier transport, and photovoltaic characteristics of poly(3‐alkylthiophene) (P3AT):[6,6]‐phenyl‐C61‐butyric acid methyl ester (PCBM) blends are studied as a function of alkyl side‐chain length m , where m equals the number of alkyl carbon atoms. The P3ATs studied are poly(3‐butylthiophene) (P3BT, m = 4), poly(3‐pentylthiophene) (P3PT, m = 5), and poly(3‐hexylthiophene) (P3HT, m = 6). Solar cells with these blends deliver similar order of photo‐current yield (exceeding 10 mA cm −2 ) irrespective of side‐chain length. Power conversion efficiencies of 3.2, 4.3, and 4.6% are within reach using solar cells with active layers of P3BT:PCBM (1:0.8), P3PT:PCBM (1:1), and P3HT:PCBM (1:1), respectively. A difference in fill factor values is found to be the main source of efficiency difference. Morphological studies reveal an increase in the degree of phase separation with increasing alkyl chain length. Moreover, while P3PT:PCBM and P3HT:PCBM films have similar hole mobility, measured by hole‐only diodes, the hole mobility in P3BT:PCBM lowers by nearly a factor of four. Bipolar measurements made by field‐effect transistor showed a decrease in the hole mobility and an increase in the electron mobility with increasing alkyl chain length. Balanced charge transport is only achieved in the P3HT:PCBM blend. This, together with better processing properties, explains the superior properties of P3HT as a solar cell material. P3PT is proved to be a potentially competitive material. The optoelectronic and charge transport properties observed in the…",
+   "abstract": "Abstract The morphological, bipolar charge‐carrier transport, and photovoltaic characteristics of poly(3‐alkylthiophene) (P3AT):[6,6]‐phenyl‐C61‐butyric acid methyl ester (PCBM) blends are studied as a function of alkyl side‐chain length m , where m equals the number of alkyl carbon atoms. The P3ATs studied are poly(3‐butylthiophene) (P3BT, m = 4), poly(3‐pentylthiophene) (P3PT, m = 5), and poly(3‐hexylthiophene) (P3HT, m = 6). Solar cells with these blends deliver similar order of photo‐current yield (exceeding 10 mA cm −2 ) irrespective of side‐chain length. Power conversion efficiencies of 3.2, 4.3, and 4.6% are within reach using solar cells with active layers of P3BT:PCBM (1:0.8), P3PT:PCBM (1:1), and P3HT:PCBM (1:1), respectively. A difference in fill factor values is found to be the main source of efficiency difference. Morphological studies reveal an increase in the degree of phase separation with increasing alkyl chain length. Moreover, while P3PT:PCBM and P3HT:PCBM films have similar hole mobility, measured by hole‐only diodes, the hole mobility in P3BT:PCBM lowers by nearly a factor of four. Bipolar measurements made by field‐effect transistor showed a decrease in the hole mobility and an increase in the electron mobility with increasing alkyl chain length. Balanced charge transport is only achieved in the P3HT:PCBM blend. This, together with better processing properties, explains the superior properties of P3HT as a solar cell material. P3PT is proved to be a potentially competitive material. The optoelectronic and charge transport properties observed in the different P3AT:PCBM bulk heterojunction (BHJ) blends provide useful information for understanding the physics of BHJ films and the working principles of the corresponding solar cells.",
    "authors": [
     "Abay Gadisa",
     "Wibren D. Oosterbaan",
@@ -1221,6 +1467,22 @@
    "oa_type": "article"
   },
   {
+   "title": "The Optogenetic Catechism",
+   "link": "https://doi.org/10.1126/science.1174520",
+   "journal": "Science",
+   "publisher": "Science",
+   "date": "2009-10-16",
+   "abstract": "An emerging set of methods enables an experimental dialogue with biological systems composed of many interacting cell types—in particular, with neural circuits in the brain. These methods are sometimes called “optogenetic” because they use light-responsive proteins (“opto-”) encoded in DNA (“-genetic”). Optogenetic devices can be introduced into tissues or whole organisms by genetic manipulation and be expressed in anatomically or functionally defined groups of cells. Two kinds of devices perform complementary functions: Light-driven actuators control electrochemical signals, while light-emitting sensors report them. Actuators pose questions by delivering targeted perturbations; sensors (and other measurements) signal answers. These catechisms are beginning to yield previously unattainable insight into the organization of neural circuits, the regulation of their collective dynamics, and the causal relationships between cellular activity patterns and behavior.",
+   "authors": [
+    "Gero Miesenböck"
+   ],
+   "doi": "10.1126/science.1174520",
+   "keywords": [
+    "light-emitting"
+   ],
+   "type": "article"
+  },
+  {
    "title": "Columnar Structure in Bulk Heterojunction in Solution-Processable Three-Layered p-i-n Organic Photovoltaic Devices Using Tetrabenzoporphyrin Precursor and Silylmethyl[60]fullerene",
    "link": "https://doi.org/10.1021/ja9048702",
    "journal": "Journal of the American Chemical Society",
@@ -1288,6 +1550,25 @@
    "oa_type": "article"
   },
   {
+   "title": "Conjugated‐Polymer Blends for Optoelectronics",
+   "link": "https://doi.org/10.1002/adma.200900783",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2009-10-16",
+   "abstract": "Abstract Solution‐processed polymer optoelectronic devices such as light‐emitting diodes and solar cells have many advantages for large‐area manufacture, and show increasing levels of performance. Here, we review recent progress in using blends of two conjugated polymers for optoelectronic devices. The blending of two or more polymers allows tuning of device performance, and for photovoltaics presents an attractive way to combine donor and acceptor materials with a morphology controlled by polymer phase separation. We discuss recent advances in imaging the microstructure of conjugated polymer blends, and we demonstrate how the blend structure leads to performance advantages in both LEDs and photovoltaic devices.",
+   "authors": [
+    "Christopher R. McNeill",
+    "Neil C. Greenham"
+   ],
+   "doi": "10.1002/adma.200900783",
+   "keywords": [
+    "photovoltaic",
+    "photovoltaics",
+    "solar cells"
+   ],
+   "type": "article"
+  },
+  {
    "title": "Alternating Polyfluorenes Collect Solar Light in Polymer Photovoltaics",
    "link": "https://doi.org/10.1021/ar900073s",
    "journal": "Accounts of Chemical Research",
@@ -1305,6 +1586,26 @@
    ],
    "type": "review",
    "oa_type": "article"
+  },
+  {
+   "title": "Various Valence States of Square-Coordinated Mn in A-Site-Ordered Perovskites",
+   "link": "https://doi.org/10.1021/ja906668c",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2009-10-15",
+   "abstract": "",
+   "authors": [
+    "Youwen Long",
+    "Takashi Saito",
+    "Masaichiro Mizumaki",
+    "Akane Agui",
+    "Yuichi Shimakawa"
+   ],
+   "doi": "10.1021/ja906668c",
+   "keywords": [
+    "perovskites"
+   ],
+   "type": "article"
   },
   {
    "title": "Tumor‐Associated MUC1 Tandem‐Repeat Glycopeptide Microarrays to Evaluate Serum– and Monoclonal–Antibody Specificity",
@@ -1835,8 +2136,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type": "article",
-   "ab_tried": 2
+   "oa_type": "article"
   },
   {
    "title": "TiO 2 ‐Coated Multilayered SnO 2 Hollow Microspheres for Dye‐Sensitized Solar Cells",
@@ -1886,6 +2186,24 @@
    "type": "article",
    "oa_type": "article",
    "ab_tried": 4
+  },
+  {
+   "title": "Response to Comment on “The Dynamic Control of Kiss-And-Run and Vesicular Reuse Probed with Single Nanoparticles”",
+   "link": "https://doi.org/10.1126/science.1176007",
+   "journal": "Science",
+   "publisher": "Science",
+   "date": "2009-09-18",
+   "abstract": "Granseth et al . argue that vesicle retrieval at hippocampal synapses is fully accounted for by a single mode of endocytosis. However, their assay focused on readily releasable pool vesicles (RRP), not RRP + reserve pool vesicles in tandem, and therefore cannot detect pool-dependent changes in vesicle-retrieval kinetics during a stimulus train. Using a probe similar to theirs, we observed rapid vesicle retrieval consistent with Kiss-And-Run fusion.",
+   "authors": [
+    "Qi Zhang",
+    "Yulong Li",
+    "Richard W. Tsien"
+   ],
+   "doi": "10.1126/science.1176007",
+   "keywords": [
+    "tandem"
+   ],
+   "type": "comment"
   },
   {
    "title": "Synthesis of perylene monoimide derivative and its use for quasi-solid-state dye-sensitized solar cells based on bare and modified nano-crystalline ZnO photoelectrodes",
@@ -1969,6 +2287,27 @@
    ],
    "type": "article",
    "oa_type": "article"
+  },
+  {
+   "title": "A Divergent Synthesis of Very Large Polyphenylene Dendrimers with Iridium(III) Cores: Molecular Size Effect on the Performance of Phosphorescent Organic Light-Emitting Diodes",
+   "link": "https://doi.org/10.1021/ja905118t",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2009-09-16",
+   "abstract": "",
+   "authors": [
+    "Tianshi Qin",
+    "Junqiao Ding",
+    "Lixiang Wang",
+    "Martin Baumgarten",
+    "Gang Zhou",
+    "Klaus Müllen"
+   ],
+   "doi": "10.1021/ja905118t",
+   "keywords": [
+    "light-emitting"
+   ],
+   "type": "article"
   },
   {
    "title": "Characterization of Inverted-Type Organic Solar Cells with a ZnO Layer as the Electron Collection Electrode by ac Impedance Spectroscopy",
@@ -2073,6 +2412,26 @@
    "oa_type": "article"
   },
   {
+   "title": "Extremely Efficient Multiple Electron-Hole Pair Generation in Carbon Nanotube Photodiodes",
+   "link": "https://doi.org/10.1126/science.1176112",
+   "journal": "Science",
+   "publisher": "Science",
+   "date": "2009-09-11",
+   "abstract": "Efficient Carbon Nanotube Photodiodes A single photon absorbed in a single-walled carbon nanotube device can generate multiple unbound particles carrying an electric charge. Gabor et al. (p. 1367 ) report that in such a device at low temperatures, excitation with light of increasing energy leads to well-defined stepwise increases in current. Interestingly, because of the unique band structure of carbon nanotubes, this behavior is analogous to particle-antiparticle creation commonly observed in high-energy particle physics. These observations point to the promise of investigations in other nanoscale carbon systems, such as graphene, and could lead to numerous applications, including highly sensitive photon detection and ultra-efficient photovoltaics.",
+   "authors": [
+    "Nathaniel M. Gabor",
+    "Zhaohui Zhong",
+    "Ken Bosnick",
+    "Jiwoong Park",
+    "Paul L. McEuen"
+   ],
+   "doi": "10.1126/science.1176112",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "article"
+  },
+  {
    "title": "Development of New Conjugated Polymers with Donor−π-Bridge−Acceptor Side Chains for High Performance Solar Cells",
    "link": "https://doi.org/10.1021/ja9066139",
    "journal": "Journal of the American Chemical Society",
@@ -2148,7 +2507,7 @@
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2009-09-09",
-   "abstract": "Abstract Lead sulfide (PbS) and cadmium sulfide (CdS) quantum dots (QDs) are prepared over mesoporous TiO 2 films by a successive ionic layer adsorption and reaction (SILAR) process. These QDs are exploited as a sensitizer in solid‐state solar cells with 2,2′,7,7′‐tetrakis( N , N ‐di‐ p ‐methoxyphenylamine)‐9,9′‐spirobifluorene (spiro‐OMeTAD) as a hole conductor. High‐resolution transmission electron microscopy (TEM) images reveal that PbS QDs of around 3 nm in size are distributed homogeneously over the TiO 2 surface and are well separated from each other if prepared under common SILAR deposition conditions. The pore size of the TiO 2 films and the deposition medium are found to be very critical in determining the overall performance of the solid‐state QD cells. By incorporating promising inorganic QDs (PbS) and an organic hole conductor spiro‐OMeTAD into the solid‐state cells, it is possible to attain an efficiency of over 1% for PbS‐sensitized solid‐state cells after some optimizations. The optimized deposition cycle of the SILAR process for PbS QDs has also been confirmed by transient spectroscopic studies on the hole generation of spiro‐OMeTAD. In addition, it is established that the PbS QD layer plays a role in mediating the interfacial recombination between the spiro‐OMeTAD + cation and the TiO 2 conduction band electron, and that the lifetime of these species can change by around 2 orders of magnitude by varying the number of SILAR cycles used. When a near infrared (NIR)‐absorbing zinc carboxyphthalocyanine dye (TT1) is added on top of the PbS‐sensitized electrode…",
+   "abstract": "Abstract Lead sulfide (PbS) and cadmium sulfide (CdS) quantum dots (QDs) are prepared over mesoporous TiO 2 films by a successive ionic layer adsorption and reaction (SILAR) process. These QDs are exploited as a sensitizer in solid‐state solar cells with 2,2′,7,7′‐tetrakis( N , N ‐di‐ p ‐methoxyphenylamine)‐9,9′‐spirobifluorene (spiro‐OMeTAD) as a hole conductor. High‐resolution transmission electron microscopy (TEM) images reveal that PbS QDs of around 3 nm in size are distributed homogeneously over the TiO 2 surface and are well separated from each other if prepared under common SILAR deposition conditions. The pore size of the TiO 2 films and the deposition medium are found to be very critical in determining the overall performance of the solid‐state QD cells. By incorporating promising inorganic QDs (PbS) and an organic hole conductor spiro‐OMeTAD into the solid‐state cells, it is possible to attain an efficiency of over 1% for PbS‐sensitized solid‐state cells after some optimizations. The optimized deposition cycle of the SILAR process for PbS QDs has also been confirmed by transient spectroscopic studies on the hole generation of spiro‐OMeTAD. In addition, it is established that the PbS QD layer plays a role in mediating the interfacial recombination between the spiro‐OMeTAD + cation and the TiO 2 conduction band electron, and that the lifetime of these species can change by around 2 orders of magnitude by varying the number of SILAR cycles used. When a near infrared (NIR)‐absorbing zinc carboxyphthalocyanine dye (TT1) is added on top of the PbS‐sensitized electrode to obtain a panchromatic response, two signals from each component are observed, which results in an improved efficiency. In particular, when a CdS‐sensitized electrode is first prepared, and then co‐sensitized with a squarine dye (SQ1), the resulting color change is clearly an addition of each component and the overall efficiencies are also added in a more synergistic way than those in PbS/TT1‐modified cells because of favorable charge‐transfer energetics.",
    "authors": [
     "HyoJoong Lee",
     "Henry C. Leventis",
@@ -2169,6 +2528,48 @@
    ],
    "type": "article",
    "oa_type": "article"
+  },
+  {
+   "title": "Molecular Design of Unsymmetrical Squaraine Dyes for High Efficiency Conversion of Low Energy Photons into Electrons Using TiO 2 Nanocrystalline Films",
+   "link": "https://doi.org/10.1002/adfm.200900231",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2009-09-09",
+   "abstract": "Abstract An optimized unsymmetrical squaraine dye 5‐carboxy‐2‐[[3‐[(2,3‐dihydro‐1, 1‐dimethyl‐3‐ethyl‐1 H ‐benzo[ e ]indol‐2‐ylidene)methyl]‐2‐hydroxy‐4‐oxo‐2‐cyclobuten‐1‐ylidene]methyl]‐3,3‐dimethyl‐1‐octyl‐3 H ‐indolium ( SQ02 ) with carboxylic acid as anchoring group is synthesized for dye‐sensitized solar cells (DSCs). Although the π ‐framework of SQ02 is insignificantly extended compared to its antecessor squaraine dye SQ01 , photophysical measurements show that the new sensitizer has a much higher overall conversion efficiency η of 5.40% which is improved by 20% when compared to SQ01 . UV‐vis spectroscopy, cyclic voltammetry and time dependent density functional theory calculations are accomplished to rationalize the higher conversion efficiency of SQ02 . A smaller optical band gap including a higher molar absorption coefficient leads to improved light harvesting of the solar cell and a broadened photocurrent spectrum. Furthermore, all excited state orbitals relevant for the π – π * transition in SQ02 are delocalized over the carboxylic acid anchoring group, ensuring a strong electronic coupling to the conduction band of TiO 2 and hence a fast electron transfer.",
+   "authors": [
+    "Thomas Geiger",
+    "Simon Kuster",
+    "Jun‐Ho Yum",
+    "Soo‐Jin Moon",
+    "Mohammad K. Nazeeruddin",
+    "Michael Grätzel",
+    "Frank Nüesch"
+   ],
+   "doi": "10.1002/adfm.200900231",
+   "keywords": [
+    "solar cell",
+    "solar cells"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "Crystallization and Grain Growth Kinetics for Precipitation‐Based Ceramics: A Case Study on Amorphous Ceria Thin Films from Spray Pyrolysis",
+   "link": "https://doi.org/10.1002/adfm.200900255",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2009-09-09",
+   "abstract": "Abstract The introductory part reviews the impact of thin film fabrication, precipitation versus vacuum‐based methods, on the initial defect state of the material and microstructure evolution to amorphous, biphasic amorphous‐nanocrystalline, and fully nanocrystalline metal oxides. In this study, general rules for the kinetics of nucleation, crystallization, and grain growth of a pure single‐phase metal oxide thin film made by a precipitation‐based technique from a precursor with one single organic solvent are discussed. For this a complete case study on the isothermal and non‐isothermal microstructure evolution of dense amorphous ceria thin films fabricated by spray pyrolysis is conducted. A general model is established and comparison of these thin film microstructure evolution to kinetics of classical glass‐ceramics or metallic glasses is presented. Knowledge on thermal microstructure evolution of originally amorphous precipitation‐based metal oxide thin films allows for their introduction and distinctive microstructure engineering in devices‐based on microelectromechanical (MEMS) technology such as solar cells, capacitors, sensors, micro‐solid oxide fuel cells, or oxygen separation membranes on Si‐chips.",
+   "authors": [
+    "Jennifer L. M. Rupp",
+    "Barbara Scherrer",
+    "Ashley S. Harvey",
+    "Ludwig J. Gauckler"
+   ],
+   "doi": "10.1002/adfm.200900255",
+   "keywords": [
+    "solar cells"
+   ],
+   "type": "article"
   },
   {
    "title": "New Trick for Splitting Water With Sunlight",
@@ -2207,8 +2608,27 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type": "article",
-   "ab_tried": 2
+   "oa_type": "article"
+  },
+  {
+   "title": "Oxide Contacts in Organic Photovoltaics: Characterization and Control of Near-Surface Composition in Indium−Tin Oxide (ITO) Electrodes",
+   "link": "https://doi.org/10.1021/ar900096f",
+   "journal": "Accounts of Chemical Research",
+   "publisher": "ACS",
+   "date": "2009-09-03",
+   "abstract": "",
+   "authors": [
+    "Neal R. Armstrong",
+    "P. Alex Veneman",
+    "Erin Ratcliff",
+    "Diogenes Placencia",
+    "Michael Brumbach"
+   ],
+   "doi": "10.1021/ar900096f",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "review"
   },
   {
    "title": "Multiferroic Behavior Associated with an Order−Disorder Hydrogen Bonding Transition in Metal−Organic Frameworks (MOFs) with the Perovskite ABX 3 Architecture",
@@ -2252,6 +2672,30 @@
    ],
    "type": "article",
    "oa_type": "article"
+  },
+  {
+   "title": "A Direct White-Light-Emitting Metal−Organic Framework with Tunable Yellow-to-White Photoluminescence by Variation of Excitation Light",
+   "link": "https://doi.org/10.1021/ja903947b",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2009-09-02",
+   "abstract": "",
+   "authors": [
+    "Ming-Sheng Wang",
+    "Sheng-Ping Guo",
+    "Yan Li",
+    "Li-Zhen Cai",
+    "Jian-Ping Zou",
+    "Gang Xu",
+    "Wei-Wei Zhou",
+    "Fa-Kun Zheng",
+    "Guo-Cong Guo"
+   ],
+   "doi": "10.1021/ja903947b",
+   "keywords": [
+    "light-emitting"
+   ],
+   "type": "article"
   },
   {
    "title": "Recombination in Quantum Dot Sensitized Solar Cells",
@@ -2318,6 +2762,27 @@
    "oa_type": "article"
   },
   {
+   "title": "Natural dye senstizers for photoelectrochemical cells",
+   "link": "https://doi.org/10.1039/b913248c",
+   "journal": "Energy & Environmental Science",
+   "publisher": "RSC",
+   "date": "2009-08-27",
+   "abstract": "",
+   "authors": [
+    "Giuseppe Calogero",
+    "Gaetano Di Marco",
+    "Stefano Caramori",
+    "Silvia Cazzanti",
+    "Roberto Argazzi",
+    "Carlo Alberto Bignozzi"
+   ],
+   "doi": "10.1039/b913248c",
+   "keywords": [
+    "photoelectrochemical"
+   ],
+   "type": "article"
+  },
+  {
    "title": "Critical Interfaces in Organic Solar Cells and Their Influence on the Open-Circuit Voltage",
    "link": "https://doi.org/10.1021/ar900139v",
    "journal": "Accounts of Chemical Research",
@@ -2338,6 +2803,116 @@
    "oa_type": "article"
   },
   {
+   "title": "Reduced Efficiency Roll-Off in Organic Light-Emitting Diodes by a Novel Short-Lived Organoeuropium Emitter",
+   "link": "https://doi.org/10.1021/am900408h",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2009-08-25",
+   "abstract": "",
+   "authors": [
+    "Liming Zhang",
+    "Bin Li",
+    "Liying Zhang",
+    "Zhongmin Su"
+   ],
+   "doi": "10.1021/am900408h",
+   "keywords": [
+    "light-emitting"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "Tailoring Bicomponent Supramolecular Nanoporous Networks: Phase Segregation, Polymorphism, and Glasses at the Solid−Liquid Interface",
+   "link": "https://doi.org/10.1021/ja9032428",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2009-08-24",
+   "abstract": "",
+   "authors": [
+    "Carlos-Andres Palma",
+    "Jonas Bjork",
+    "Massimo Bonini",
+    "Matthew S. Dyer",
+    "Anna Llanes-Pallas",
+    "Davide Bonifazi",
+    "Mats Persson",
+    "Paolo Samorì"
+   ],
+   "doi": "10.1021/ja9032428",
+   "keywords": [
+    "phase segregation"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "Printed Assemblies of Inorganic Light-Emitting Diodes for Deformable and Semitransparent Displays",
+   "link": "https://doi.org/10.1126/science.1175690",
+   "journal": "Science",
+   "publisher": "Science",
+   "date": "2009-08-21",
+   "abstract": "Bend Me, Stretch Me In the push toward flexible electronics, much research has focused on using organic conducting materials, including light-emitting diodes (LEDs), because they are more readily processed using scalable techniques. Park et al. (p. 977 ) have developed a series of techniques for depositing and assembling inorganic LEDs onto glass, plastic, or rubber. Conventional processing techniques are used to connect the LEDs in order to create flexible, stretchable displays, which, because the active diode material only covers a small part of the substrate, are mostly transparent.",
+   "authors": [
+    "Sang-Il Park",
+    "Yujie Xiong",
+    "Rak-Hwan Kim",
+    "Paulius Elvikis",
+    "Matthew Meitl",
+    "Dae-Hyeong Kim",
+    "Jian Wu",
+    "Jongseung Yoon",
+    "Chang-Jae Yu",
+    "Zhuangjian Liu",
+    "Yonggang Huang",
+    "Keh-chih Hwang",
+    "Placid Ferreira",
+    "Xiuling Li",
+    "Kent Choquette",
+    "John A. Rogers"
+   ],
+   "doi": "10.1126/science.1175690",
+   "keywords": [
+    "light-emitting"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "Block copolymers for photovoltaics",
+   "link": "https://doi.org/10.1039/b912086f",
+   "journal": "Energy & Environmental Science",
+   "publisher": "RSC",
+   "date": "2009-08-20",
+   "abstract": "",
+   "authors": [
+    "Seth B. Darling"
+   ],
+   "doi": "10.1039/b912086f",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "Synthesis of Cu 2 ZnSnS 4 Nanocrystals for Use in Low-Cost Photovoltaics",
+   "link": "https://doi.org/10.1021/ja905922j",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2009-08-17",
+   "abstract": "",
+   "authors": [
+    "Chet Steinhagen",
+    "Matthew G. Panthani",
+    "Vahid Akhavan",
+    "Brian Goodfellow",
+    "Bonil Koo",
+    "Brian A. Korgel"
+   ],
+   "doi": "10.1021/ja905922j",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "article"
+  },
+  {
    "title": "Solution Processing of Chalcogenide Semiconductors via Dimensional Reduction",
    "link": "https://doi.org/10.1002/adma.200802027",
    "journal": "Advanced Materials",
@@ -2353,6 +2928,29 @@
    ],
    "type": "article",
    "oa_type": "article"
+  },
+  {
+   "title": "Ultrasmooth, Large‐Area, High‐Uniformity, Conductive Transparent Single‐Walled‐Carbon‐Nanotube Films for Photovoltaics Produced by Ultrasonic Spraying",
+   "link": "https://doi.org/10.1002/adma.200803551",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2009-08-17",
+   "abstract": "",
+   "authors": [
+    "Robert C. Tenent",
+    "Teresa M. Barnes",
+    "Jeremy D. Bergeson",
+    "Andrew J. Ferguson",
+    "Bobby To",
+    "Lynn M. Gedvilas",
+    "Michael J. Heben",
+    "Jeffrey L. Blackburn"
+   ],
+   "doi": "10.1002/adma.200803551",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "article"
   },
   {
    "title": "Long vertically aligned titania nanotubes on transparent conducting oxide for highly efficient solar cells",
@@ -2457,6 +3055,24 @@
    ],
    "type": "article",
    "oa_type": "article"
+  },
+  {
+   "title": "Near‐Infrared Quantum Cutting for Photovoltaics",
+   "link": "https://doi.org/10.1002/adma.200802220",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2009-08-12",
+   "abstract": "",
+   "authors": [
+    "Bryan M. van der Ende",
+    "Linda Aarts",
+    "Andries Meijerink"
+   ],
+   "doi": "10.1002/adma.200802220",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "article"
   },
   {
    "title": "Distributive and Directional Behavior of Lantibiotic Synthetases Revealed by High-Resolution Tandem Mass Spectrometry",
@@ -2572,6 +3188,29 @@
    "oa_type": "article"
   },
   {
+   "title": "Photovoltaics Based on Hybridization of Effective Dye‐Sensitized Titanium Oxide and Hole‐Conductive Polymer P3HT",
+   "link": "https://doi.org/10.1002/adfm.200900283",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2009-08-03",
+   "abstract": "Abstract Here, the fabrication of quasi‐solid‐state TiO 2 /dye/poly(3‐hexylthiophene) (P3HT) solar cells is reported, in which the dyes with oleophilic thienyl groups were employed and ionic liquid (IL), 1‐ethyl‐3‐methylimidazolium (EMIm) containing lithium bis(trifluromethanesulfone)amide (Li‐TFSI) and 4‐ tert ‐butylpyridine ( t ‐BP) are assembled with dyed TiO 2 surfaces. One of the devices gave a high conversion efficiency of up to 2.70% under 1 sun illumination. The excellent performance is ascribed to successful molecular self‐organization at interface of the dye molecules and P3HT, and to the efficient charge separation and diffusion acquired by introduction of the IL coupled with Li‐TFSI and t‐BP.",
+   "authors": [
+    "Ke‐Jian Jiang",
+    "Kazuhiro Manseki",
+    "You‐Hai Yu",
+    "Naruhiko Masaki",
+    "Kazuharu Suzuki",
+    "Yan‐lin Song",
+    "Shozo Yanagida"
+   ],
+   "doi": "10.1002/adfm.200900283",
+   "keywords": [
+    "photovoltaics",
+    "solar cells"
+   ],
+   "type": "article"
+  },
+  {
    "title": "Spin-injection Hall effect in a planar photovoltaic cell",
    "link": "https://doi.org/10.1038/nphys1359",
    "journal": "Nature Physics",
@@ -2623,7 +3262,7 @@
    "journal": "Small",
    "publisher": "Wiley",
    "date": "2009-07-31",
-   "abstract": "Abstract One approach for making inexpensive inorganic–organic hybrid photovoltaic (PV) cells is to fill highly ordered TiO 2 nanotube (NT) arrays with solid organic hole conductors such as conjugated polymers. Here, a new in situ UV polymerization method for growing polythiophene (UV‐PT) inside TiO 2 NTs is presented and compared to the conventional approach of infiltrating NTs with pre‐synthesized polymer. A nanotubular TiO 2 substrate is immersed in a 2,5‐diiodothiophene (DIT) monomer precursor solution and then irradiated with UV light. The selective UV photodissociation of the CI bond produces monomer radicals with intact π ‐ring structure that further produce longer oligothiophene/PT molecules. Complete photoluminescence quenching upon UV irradiation suggests coupling between radicals created from DIT and at the TiO 2 surface via a charge transfer complex. Coupling with the TiO 2 surface improves UV‐PT crystallinity and π – π stacking; flat photocurrent values show that charge recombination during hole transport through the polymer is negligible. A non‐ideal, backside‐illuminated setup under illumination of 620‐nm light yields a photocurrent density of ≈5 µA cm 2 —surprisingly much stronger than with comparable devices fabricated with polymer synthesized ex situ. Since in this backside architecture setup we illuminate the cell through the Ag top electrode, there is a possibility for Ag plasmon‐enhanced solar energy conversion. By using this simple in situ UV polymerization method that couples the conjugated polymer to the TiO 2 surface, the absorption of sunlight…",
+   "abstract": "Abstract One approach for making inexpensive inorganic–organic hybrid photovoltaic (PV) cells is to fill highly ordered TiO 2 nanotube (NT) arrays with solid organic hole conductors such as conjugated polymers. Here, a new in situ UV polymerization method for growing polythiophene (UV‐PT) inside TiO 2 NTs is presented and compared to the conventional approach of infiltrating NTs with pre‐synthesized polymer. A nanotubular TiO 2 substrate is immersed in a 2,5‐diiodothiophene (DIT) monomer precursor solution and then irradiated with UV light. The selective UV photodissociation of the CI bond produces monomer radicals with intact π ‐ring structure that further produce longer oligothiophene/PT molecules. Complete photoluminescence quenching upon UV irradiation suggests coupling between radicals created from DIT and at the TiO 2 surface via a charge transfer complex. Coupling with the TiO 2 surface improves UV‐PT crystallinity and π – π stacking; flat photocurrent values show that charge recombination during hole transport through the polymer is negligible. A non‐ideal, backside‐illuminated setup under illumination of 620‐nm light yields a photocurrent density of ≈5 µA cm 2 —surprisingly much stronger than with comparable devices fabricated with polymer synthesized ex situ. Since in this backside architecture setup we illuminate the cell through the Ag top electrode, there is a possibility for Ag plasmon‐enhanced solar energy conversion. By using this simple in situ UV polymerization method that couples the conjugated polymer to the TiO 2 surface, the absorption of sunlight can be improved and the charge carrier mobility of the photoactive layer can be enhanced.",
    "authors": [
     "Sanja Tepavcevic",
     "Seth B. Darling",
@@ -2638,6 +3277,42 @@
    ],
    "type": "article",
    "oa_type": "article"
+  },
+  {
+   "title": "Ionic‐Liquid‐Assisted Sonochemical Synthesis of Carbon‐Nanotube‐Based Nanohybrids: Control in the Structures and Interfacial Characteristics",
+   "link": "https://doi.org/10.1002/smll.200900128",
+   "journal": "Small",
+   "publisher": "Wiley",
+   "date": "2009-07-31",
+   "abstract": "Abstract A versatile, facile, and rapid synthetic method of advanced carbon nanotube (CNT)‐based nanohybrid fabrication, or the so‐called ionic‐liquid‐assisted sonochemical method (ILASM), which combines the supramolecular chemistry between ionic liquids (ILs) and CNTs with sonochemistry for the control in the size and amount of uniformly decorated nanoparticles (NPs) and interfacial engineering, is reported. The excellence in electrocatalysis of hybrid materials with well‐designed nanostructures and favorable interfaces is demonstrated by applying them to electrochemical catalysis. The synthetic method discussed in this report has an important and immediate impact not only on the design and synthesis of functional hybrid nanomaterials by supramolecular chemistry and sonochemistry but also on applications of the same into electrochemical devices such as sensors, fuel cells, solar cells, actuators, batteries, and capacitors.",
+   "authors": [
+    "Ho Seok Park",
+    "Bong Gill Choi",
+    "Seong Ho Yang",
+    "Weon Ho Shin",
+    "Jeung Ku Kang",
+    "Doohwan Jung",
+    "Won Hi Hong"
+   ],
+   "doi": "10.1002/smll.200900128",
+   "keywords": [
+    "solar cells"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "OLED displays and organic photovoltaics",
+   "link": "https://doi.org/10.1038/nphoton.2009.134",
+   "journal": "Nature Photonics",
+   "publisher": "Nature",
+   "date": "2009-07-31",
+   "abstract": "",
+   "authors": [],
+   "doi": "10.1038/nphoton.2009.134",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "article"
   },
   {
    "title": "Synthesis of Cu 2 ZnSnS 4 Nanocrystal Ink and Its Use for Solar Cells",
@@ -2719,6 +3394,27 @@
    "type": "article",
    "ab_tried": 4,
    "oa_type": "article"
+  },
+  {
+   "title": "Indium‐Based Perovskites: A New Class of Near‐Room‐Temperature Multiferroics",
+   "link": "https://doi.org/10.1002/anie.200902827",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2009-07-29",
+   "abstract": "",
+   "authors": [
+    "Alexei A. Belik",
+    "Takao Furubayashi",
+    "Yoshitaka Matsushita",
+    "Masahiko Tanaka",
+    "Shunichi Hishita",
+    "Eiji Takayama‐Muromachi"
+   ],
+   "doi": "10.1002/anie.200902827",
+   "keywords": [
+    "perovskites"
+   ],
+   "type": "article"
   },
   {
    "title": "“Sticky Electrons” Transport and Interfacial Transfer of Electrons in the Dye-Sensitized Solar Cell",
@@ -2805,6 +3501,25 @@
    ],
    "type": "article",
    "oa_type": "article"
+  },
+  {
+   "title": "Progress and perspective of polymer white light-emitting devices and materials",
+   "link": "https://doi.org/10.1039/b816352a",
+   "journal": "Chemical Society Reviews",
+   "publisher": "RSC",
+   "date": "2009-07-22",
+   "abstract": "",
+   "authors": [
+    "Hongbin Wu",
+    "Lei Ying",
+    "Wei Yang",
+    "Yong Cao"
+   ],
+   "doi": "10.1039/b816352a",
+   "keywords": [
+    "light-emitting"
+   ],
+   "type": "review"
   },
   {
    "title": "An Efficient Dye‐Sensitized Solar Cell with an Organic Sensitizer Encapsulated in a Cyclodextrin Cavity",
@@ -2941,6 +3656,26 @@
    "oa_type": "article"
   },
   {
+   "title": "Photocrosslinkable Polythiophenes for Efficient, Thermally Stable, Organic Photovoltaics",
+   "link": "https://doi.org/10.1002/adfm.200900043",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2009-07-16",
+   "abstract": "Abstract Photocrosslinkable bromine‐functionalized poly(3‐hexylthiophene) (P3HT‐Br) copolymers designed for application in solution‐processed organic photovoltaics are prepared by copolymerization of 2‐bromo‐3‐(6‐bromohexyl) thiophene and 2‐bromo‐3‐hexylthiophene. The monomer ratio is carefully controlled to achieve a UV photocrosslinkable layer while retaining the π–π stacking feature of the conjugated polymers. The new materials are used as electron donors in both bulk heterojunction (BHJ) and bilayer type photovoltaic devices. Unlike devices prepared from either P3HT:PCBM blend or P3HT‐Br:PCBM blend without UV treatment, photocrosslinked P3HT‐Br:PCBM devices are stable even when annealed for two days at the elevated temperature of 150 °C as the nanophase separated morphology of the bulk heterojunction is stabilized as confirmed by optical microscopy and grazing incidence wide angle X‐ray scattering (GIWAXS). When applied to solution‐processed bilayer devices, the photocrosslinkable materials show high power conversion efficiencies (∼2%) and excellent thermal stability (3 days at 150 °C). Such performance, one of the highest obtained for a bilayer device fabricated by solution processing, is achieved as crosslinking does not disturb the π–π stacking of the polymer as confirmed by GIWAXS measurements. These novel photocrosslinkable materials provide ready access to efficient bilayer devices thus enabling the fundamental study of photophysical characteristics, charge generation, and transport across a well‐defined interface.",
+   "authors": [
+    "Bumjoon J. Kim",
+    "Yoshikazu Miyamoto",
+    "Biwu Ma",
+    "Jean M. J. Fréchet"
+   ],
+   "doi": "10.1002/adfm.200900043",
+   "keywords": [
+    "photovoltaic",
+    "photovoltaics"
+   ],
+   "type": "article"
+  },
+  {
    "title": "CdSe Quantum Dot Sensitized Solar Cells. Shuttling Electrons Through Stacked Carbon Nanocups",
    "link": "https://doi.org/10.1021/ja903337c",
    "journal": "Journal of the American Chemical Society",
@@ -2984,6 +3719,25 @@
    ],
    "type": "article",
    "oa_type": "article"
+  },
+  {
+   "title": "Charge Transport in Disordered Organic Materials and Its Relevance to Thin‐Film Devices: A Tutorial Review",
+   "link": "https://doi.org/10.1002/adma.200803541",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2009-07-10",
+   "abstract": "Abstract Semiconducting polymers and small molecules form an extremely flexible class of amorphous materials that can be used in a wide range of applications, some of which are display, radio‐frequency tags, and solar cells. The rapid progress towards functional devices is occurring despite the lack of sufficient understanding of the physical processes and very little experience in device engineering. This tutorial review aims to provide sufficient intuitive background to draw more researchers to look into the fundamental aspects of device physics and engineering.",
+   "authors": [
+    "Nir Tessler",
+    "Yevgeni Preezant",
+    "Noam Rappaport",
+    "Yohai Roichman"
+   ],
+   "doi": "10.1002/adma.200803541",
+   "keywords": [
+    "solar cells"
+   ],
+   "type": "review"
   },
   {
    "title": "Energy Level Alignment in CdS Quantum Dot Sensitized Solar Cells Using Molecular Dipoles",
@@ -3031,6 +3785,25 @@
    "oa_type": "article"
   },
   {
+   "title": "Interfacial Polar‐Bonding‐Induced Multifunctionality of Nano‐Silicon in Mesoporous Silica",
+   "link": "https://doi.org/10.1002/adfm.200801336",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2009-07-06",
+   "abstract": "Abstract The optoelectronic response of a material governs its suitability for a wide range of applications, from photon detection to photovoltaic conversion. To conquer the material limitations and achieve improved optoelectronic responses, nanotechnology has been employed to arrange subunits with specific size‐dependent quantum mechanical properties in a hierarchically organized structure. However, building a functional optoelectronic system from nano‐objects remains a formidable challenge. In this paper, the fabrication of a new artificially engineered optoelectronic material by the preferential growth of silicon nanocrystals on the bottom of the pore‐channels of mesoporous silica is reported. The nanocrystals form highly stable interface structures bonded on one side; these structure show strong electron–phonon coupling and a ferroelectric‐like hysteretic switching property. A new class of multifunctional materials is realized by invoking a concept that employs semiconductor nanocrystals for optical sensing and utilizes interfacial polar layers to facilitate carrier transport and emulate ferroelectric‐like switching.",
+   "authors": [
+    "Jung Y. Huang",
+    "Jia M. Shieh",
+    "Hao C. Kuo",
+    "Ci L. Pan"
+   ],
+   "doi": "10.1002/adfm.200801336",
+   "keywords": [
+    "photovoltaic"
+   ],
+   "type": "article"
+  },
+  {
    "title": "Molecular Bulk Heterojunctions: An Emerging Approach to Organic Solar Cells",
    "link": "https://doi.org/10.1021/ar900041b",
    "journal": "Accounts of Chemical Research",
@@ -3067,6 +3840,36 @@
    ],
    "type": "article",
    "oa_type": "article"
+  },
+  {
+   "title": "Three-dimensional nanopillar-array photovoltaics on low-cost and flexible substrates",
+   "link": "https://doi.org/10.1038/nmat2493",
+   "journal": "Nature Materials",
+   "publisher": "Nature",
+   "date": "2009-07-05",
+   "abstract": "",
+   "authors": [
+    "Zhiyong Fan",
+    "Haleh Razavi",
+    "Jae-won Do",
+    "Aimee Moriwaki",
+    "Onur Ergen",
+    "Yu-Lun Chueh",
+    "Paul W. Leu",
+    "Johnny C. Ho",
+    "Toshitake Takahashi",
+    "Lothar A. Reichertz",
+    "Steven Neale",
+    "Kyoungsik Yu",
+    "Ming Wu",
+    "Joel W. Ager",
+    "Ali Javey"
+   ],
+   "doi": "10.1038/nmat2493",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "article"
   },
   {
    "title": "Computational challenges for nanostructure solar cells",
@@ -3277,6 +4080,25 @@
    "oa_type": "article"
   },
   {
+   "title": "Colloidal Quantum-Dot Photodetectors Exploiting Multiexciton Generation",
+   "link": "https://doi.org/10.1126/science.1173812",
+   "journal": "Science",
+   "publisher": "Science",
+   "date": "2009-06-19",
+   "abstract": "Reaping Gain from Decay In photovoltaic devices, absorbed light excites electrons into a conduction band and thereby initiates electric current flow. Unfortunately, if the energy of the incident photons exceeds the threshold for this excitation (the bandgap), the excess tends to be wasted. Initially, a photon bearing several multiples of the bandgap energy may correspondingly promote several electrons, but before these can begin to travel through a circuit, most of them drop back down to the immobile state, transferring their packet of energy to a lone remaining carrier in a process termed “Auger decay.” Sukhovatkin et al. (p. 1542 ) show that a photoconductive device design can actually leverage the Auger decay process to improve sensitivity in ultraviolet detection. Their detector, a thin film assembled from lead sulfide quantum dots, improves its response by up to a factor of four when the incident light frequency rises to several multiples of the bandgap.",
+   "authors": [
+    "Vlad Sukhovatkin",
+    "Sean Hinds",
+    "Lukasz Brzozowski",
+    "Edward H. Sargent"
+   ],
+   "doi": "10.1126/science.1173812",
+   "keywords": [
+    "photovoltaic"
+   ],
+   "type": "article"
+  },
+  {
    "title": "Inorganic solid state solar cell with ultra-thin nanocomposite absorber based on nanoporous TiO2 and In2S3",
    "link": "https://doi.org/10.1039/b905897d",
    "journal": "Energy & Environmental Science",
@@ -3296,6 +4118,25 @@
    "type": "article",
    "ab_tried": 4,
    "oa_type": "article"
+  },
+  {
+   "title": "Conjugated Polymers Based on Benzo[2,1- b :3,4- b′ ]dithiophene with Low-Lying Highest Occupied Molecular Orbital Energy Levels for Organic Photovoltaics",
+   "link": "https://doi.org/10.1021/am900327n",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2009-06-16",
+   "abstract": "",
+   "authors": [
+    "Shengqiang Xiao",
+    "Andrew C. Stuart",
+    "Shubin Liu",
+    "Wei You"
+   ],
+   "doi": "10.1021/am900327n",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "article"
   },
   {
    "title": "Photovoltaic Cells: Organic Photovoltaic Cells Based On Solvent‐Annealed, Textured Titanyl Phthalocyanine/C 60 Heterojunctions (Adv. Funct. Mater. 12/2009)",
@@ -3325,7 +4166,7 @@
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2009-06-12",
-   "abstract": "Abstract Organic photovoltaic cells (OPV) with good near‐IR photoactivity are created from highly textured titanyl phthalocyanine (TiOPc)/C 60 heterojunctions. Vacuum deposited TiOPc thin films are converted to the near‐IR absorbing “Phase II” polymorph using post‐deposition solvent annealing. The Phase I → Phase II transition broadens the absorbance spectrum of the Pc film producing absorptivities ( α ≈ 10 5 cm −1 ) from 600–900 nm, along with substantial texturing of the Pc layer. Atomic force microscopy and field‐emission scanning electron microscopy of the solvent annealed films show that the surface roughness of the Pc layers is increased by a factor of greater than 2× as a result of the phase transformation. Current–voltage ( J – V ) responses for white light illumination of ITO (100 nm)/TiOPc (20 nm)/C 60 (40 nm)/BCP (10 nm)/Al (100 nm) OPVs show a near doubling of the short‐circuit photocurrent ( J SC ), with only a small decrease in open‐circuit photopotential ( V OC ), and a concomitant increase in power conversion efficiency. Incident photon current efficiency (IPCE) plots confirmed the enhanced near‐IR OPV activity, with maximum IPCE values of ca. 30% for devices using Phase II‐only TiOPc films. UV‐photoelectron spectroscopy (UPS) of TiOPc/C 60 heterojunctions, for both Phase I and Phase II TiOPc films, suggest that the Phase II polymorph has nearly the same HOMO energy as seen in the Phase I polymorph, and similar frontier orbital energy offsets, E HOMO Pc – E LUMO C60 , leading to comparable open‐circuit photovoltages. These studies suggest new strategies for…",
+   "abstract": "Abstract Organic photovoltaic cells (OPV) with good near‐IR photoactivity are created from highly textured titanyl phthalocyanine (TiOPc)/C 60 heterojunctions. Vacuum deposited TiOPc thin films are converted to the near‐IR absorbing “Phase II” polymorph using post‐deposition solvent annealing. The Phase I → Phase II transition broadens the absorbance spectrum of the Pc film producing absorptivities ( α ≈ 10 5 cm −1 ) from 600–900 nm, along with substantial texturing of the Pc layer. Atomic force microscopy and field‐emission scanning electron microscopy of the solvent annealed films show that the surface roughness of the Pc layers is increased by a factor of greater than 2× as a result of the phase transformation. Current–voltage ( J – V ) responses for white light illumination of ITO (100 nm)/TiOPc (20 nm)/C 60 (40 nm)/BCP (10 nm)/Al (100 nm) OPVs show a near doubling of the short‐circuit photocurrent ( J SC ), with only a small decrease in open‐circuit photopotential ( V OC ), and a concomitant increase in power conversion efficiency. Incident photon current efficiency (IPCE) plots confirmed the enhanced near‐IR OPV activity, with maximum IPCE values of ca. 30% for devices using Phase II‐only TiOPc films. UV‐photoelectron spectroscopy (UPS) of TiOPc/C 60 heterojunctions, for both Phase I and Phase II TiOPc films, suggest that the Phase II polymorph has nearly the same HOMO energy as seen in the Phase I polymorph, and similar frontier orbital energy offsets, E HOMO Pc – E LUMO C60 , leading to comparable open‐circuit photovoltages. These studies suggest new strategies for the formation of higher efficiency OPVs using processing conditions which lead to enhance near‐IR absorptivities, and extensive texturing of crystalline donor or acceptor films.",
    "authors": [
     "Diogenes Placencia",
     "Weining Wang",
@@ -3367,7 +4208,7 @@
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2009-06-12",
-   "abstract": "Abstract Photoelectrochemical cells based on traditional and nanostructured ZnO thin films are investigated for hydrogen generation from water splitting. The ZnO thin films are fabricated using three different deposition geometries: normal pulsed laser deposition, pulsed laser oblique‐angle deposition, and electron‐beam glancing‐angle deposition. The nanostructured films are characterized by scanning electron microscopy, X‐ray diffraction, UV‐vis spectroscopy and photoelectrochemical techniques. Normal pulsed laser deposition produces dense thin films with ca. 200 nm grain sizes, while oblique‐angle deposition produces nanoplatelets with a fishscale morphology and individual features measuring ca. 900 by 450 nm on average. In contrast, glancing‐angle deposition generates a highly porous, interconnected network of spherical nanoparticles of 15–40 nm diameter. Mott‐Schottky plots show the flat band potential of pulsed laser deposition, oblique‐angle deposition, and glancing‐angle deposition samples to be −0.29, −0.28 and +0.20 V, respectively. Generation of photocurrent is observed at anodic potentials and no limiting photocurrents were observed with applied potentials up to 1.3 V for all photoelectrochemical cells. The effective photon‐to‐hydrogen efficiency is found to be 0.1%, 0.2% and 0.6% for pulsed laser deposition, oblique‐angle deposition and glancing‐angle deposition samples, respectively. The photoelectrochemical properties of the three types of films are understood to be a function of porosity, crystal defect concentration, charge transport properties and space…",
+   "abstract": "Abstract Photoelectrochemical cells based on traditional and nanostructured ZnO thin films are investigated for hydrogen generation from water splitting. The ZnO thin films are fabricated using three different deposition geometries: normal pulsed laser deposition, pulsed laser oblique‐angle deposition, and electron‐beam glancing‐angle deposition. The nanostructured films are characterized by scanning electron microscopy, X‐ray diffraction, UV‐vis spectroscopy and photoelectrochemical techniques. Normal pulsed laser deposition produces dense thin films with ca. 200 nm grain sizes, while oblique‐angle deposition produces nanoplatelets with a fishscale morphology and individual features measuring ca. 900 by 450 nm on average. In contrast, glancing‐angle deposition generates a highly porous, interconnected network of spherical nanoparticles of 15–40 nm diameter. Mott‐Schottky plots show the flat band potential of pulsed laser deposition, oblique‐angle deposition, and glancing‐angle deposition samples to be −0.29, −0.28 and +0.20 V, respectively. Generation of photocurrent is observed at anodic potentials and no limiting photocurrents were observed with applied potentials up to 1.3 V for all photoelectrochemical cells. The effective photon‐to‐hydrogen efficiency is found to be 0.1%, 0.2% and 0.6% for pulsed laser deposition, oblique‐angle deposition and glancing‐angle deposition samples, respectively. The photoelectrochemical properties of the three types of films are understood to be a function of porosity, crystal defect concentration, charge transport properties and space charge layer characteristics.",
    "authors": [
     "Abraham Wolcott",
     "Wilson A. Smith",
@@ -3535,7 +4376,7 @@
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2009-06-02",
-   "abstract": "Abstract An investigation of the function of an indolene‐based organic dye, termed D149, incorporated in to solid‐state dye‐sensitized solar cells using 2,2′,7,7′‐tetrakis( N , N ‐di‐ p ‐methoxypheny‐amine)‐9,9′‐spirobifluorene (spiro‐OMeTAD) as the hole transport material is reported. Solar cell performance characteristics are unprecedented under low light levels, with the solar cells delivering up to 70% incident photon‐to‐current efficiency (IPCE) and over 6% power conversion efficiency, as measured under simulated air mass (AM) 1.5 sun light at 1 and 10 mW cm −2 . However, a considerable nonlinearity in the photocurrent as intensities approach “full sun” conditions is observed and the devices deliver up to 4.2% power conversion efficiency under simulated sun light of 100 mW cm −2 . The influence of dye‐loading upon solar cell operation is investigated and the thin films are probed via photoinduced absorption (PIA) spectroscopy, time‐correlated single‐photon counting (TCSPC), and photoluminescence quantum efficiency (PLQE) measurements in order to deduce the cause for the non ideal solar cell performance. The data suggest that electron transfer from the photoexcited sensitizer into the TiO 2 is only between 10 to 50% efficient and that ionization of the photo excited dye via hole transfer directly to spiro‐OMeTAD dominates the charge generation process. A persistent dye bleaching signal is also observed, and assigned to a remarkably high density of electrons “trapped” within the dye phase, equivalent to 1.8 × 10 17 cm −3 under full sun illumination. it is believed that…",
+   "abstract": "Abstract An investigation of the function of an indolene‐based organic dye, termed D149, incorporated in to solid‐state dye‐sensitized solar cells using 2,2′,7,7′‐tetrakis( N , N ‐di‐ p ‐methoxypheny‐amine)‐9,9′‐spirobifluorene (spiro‐OMeTAD) as the hole transport material is reported. Solar cell performance characteristics are unprecedented under low light levels, with the solar cells delivering up to 70% incident photon‐to‐current efficiency (IPCE) and over 6% power conversion efficiency, as measured under simulated air mass (AM) 1.5 sun light at 1 and 10 mW cm −2 . However, a considerable nonlinearity in the photocurrent as intensities approach “full sun” conditions is observed and the devices deliver up to 4.2% power conversion efficiency under simulated sun light of 100 mW cm −2 . The influence of dye‐loading upon solar cell operation is investigated and the thin films are probed via photoinduced absorption (PIA) spectroscopy, time‐correlated single‐photon counting (TCSPC), and photoluminescence quantum efficiency (PLQE) measurements in order to deduce the cause for the non ideal solar cell performance. The data suggest that electron transfer from the photoexcited sensitizer into the TiO 2 is only between 10 to 50% efficient and that ionization of the photo excited dye via hole transfer directly to spiro‐OMeTAD dominates the charge generation process. A persistent dye bleaching signal is also observed, and assigned to a remarkably high density of electrons “trapped” within the dye phase, equivalent to 1.8 × 10 17 cm −3 under full sun illumination. it is believed that this localized space charge build‐up upon the sensitizer is responsible for the non‐linearity of photocurrent with intensity and nonoptimum solar cell performance under full sun conditions.",
    "authors": [
     "Henry J. Snaith",
     "Annamaria Petrozza",
@@ -3574,6 +4415,31 @@
    "oa_type": "article"
   },
   {
+   "title": "A White-Light-Emitting Molecule: Frustrated Energy Transfer between Constituent Emitting Centers",
+   "link": "https://doi.org/10.1021/ja902533f",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2009-05-29",
+   "abstract": "",
+   "authors": [
+    "Sanghyuk Park",
+    "Ji Eon Kwon",
+    "Se Hun Kim",
+    "Jangwon Seo",
+    "Kyeongwoon Chung",
+    "Sun-Young Park",
+    "Du-Jeon Jang",
+    "Begoña Milián Medina",
+    "Johannes Gierschner",
+    "Soo Young Park"
+   ],
+   "doi": "10.1021/ja902533f",
+   "keywords": [
+    "light-emitting"
+   ],
+   "type": "article"
+  },
+  {
    "title": "Assessing the viability of solar cells",
    "link": "https://doi.org/10.1038/nphoton.2009.77",
    "journal": "Nature Photonics",
@@ -3590,6 +4456,22 @@
    "type": "article",
    "ab_tried": 4,
    "oa_type": "article"
+  },
+  {
+   "title": "Infrared photovoltaics made by solution processing",
+   "link": "https://doi.org/10.1038/nphoton.2009.89",
+   "journal": "Nature Photonics",
+   "publisher": "Nature",
+   "date": "2009-05-28",
+   "abstract": "",
+   "authors": [
+    "Edward H. Sargent"
+   ],
+   "doi": "10.1038/nphoton.2009.89",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "article"
   },
   {
    "title": "Functionalized Dendritic Oligothiophenes: Ruthenium Phthalocyanine Complexes and Their Application in Bulk Heterojunction Solar Cells",
@@ -3654,6 +4536,27 @@
    ],
    "type": "article",
    "oa_type": "article"
+  },
+  {
+   "title": "Effect of the Charge Balance on High-Efficiency Blue-Phosphorescent Organic Light-Emitting Diodes",
+   "link": "https://doi.org/10.1021/am900228b",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2009-05-28",
+   "abstract": "",
+   "authors": [
+    "Neetu Chopra",
+    "Jaewon Lee",
+    "Ying Zheng",
+    "Sang-Hyun Eom",
+    "Jiangeng Xue",
+    "Franky So"
+   ],
+   "doi": "10.1021/am900228b",
+   "keywords": [
+    "light-emitting"
+   ],
+   "type": "article"
   },
   {
    "title": "Distance Dependence of Plasmon-Enhanced Photocurrent in Dye-Sensitized Solar Cells",
@@ -3725,6 +4628,52 @@
    "oa_type": "article"
   },
   {
+   "title": "Conjugated Polyelectrolytes: Synthesis, Photophysics, and Applications",
+   "link": "https://doi.org/10.1002/anie.200805456",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2009-05-26",
+   "abstract": "Abstract Ionic polymers in action : Conjugated polyelectrolytes are an emerging class of multifunctional polymers that feature π‐conjugated backbones festooned with ionic solubilizing groups. These materials have been exploited in a number of applications, including fluorescent biosensors, polymer light‐emitting diodes, and polymer solar cells. MV 2+ =methylviologen magnified image Organic optoelectronic polymers have evolved to the point where fine structural control of the conjugated main chain, coupled with solubilizing and property‐modifying pendant substituents, provides an entirely new class of materials. Conjugated polyelectrolytes (CPEs) provide a unique set of properties, including water solubility and processability, main‐chain‐controlled exciton and charge transport, variable band gap light absorption and fluorescence, ionic interactions, and aggregation phenomena. These characteristics allow these materials to be considered for use in applications ranging from light‐emitting diodes and electrochromic color‐changing displays, to photovoltaic devices and photodetectors, along with chemical and biological sensors. This Review describes the evolution of CPE structures from simple polymers to complex materials, describes numerous photophysical aspects, including amplified quenching in macromolecules and aggregates, and illustrates how the physical and electronic properties lead to useful applications in devices.",
+   "authors": [
+    "Hui Jiang",
+    "Prasad Taranekar",
+    "John R. Reynolds",
+    "Kirk S. Schanze"
+   ],
+   "doi": "10.1002/anie.200805456",
+   "keywords": [
+    "photovoltaic",
+    "solar cells"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "High-performance crosslinked colloidal quantum-dot light-emitting diodes",
+   "link": "https://doi.org/10.1038/nphoton.2009.92",
+   "journal": "Nature Photonics",
+   "publisher": "Nature",
+   "date": "2009-05-24",
+   "abstract": "",
+   "authors": [
+    "Kyung-Sang Cho",
+    "Eun Kyung Lee",
+    "Won-Jae Joo",
+    "Eunjoo Jang",
+    "Tae-Ho Kim",
+    "Sang Jin Lee",
+    "Soon-Jae Kwon",
+    "Jai Yong Han",
+    "Byung-Ki Kim",
+    "Byoung Lyong Choi",
+    "Jong Min Kim"
+   ],
+   "doi": "10.1038/nphoton.2009.92",
+   "keywords": [
+    "light-emitting"
+   ],
+   "type": "article"
+  },
+  {
    "title": "Intramolecular Donor–Acceptor Regioregular Poly(hexylphenanthrenyl‐imidazole thiophene) Exhibits Enhanced Hole Mobility for Heterojunction Solar Cell Applications",
    "link": "https://doi.org/10.1002/adma.200802379",
    "journal": "Advanced Materials",
@@ -3768,6 +4717,63 @@
    "oa_type": "article"
   },
   {
+   "title": "Stereocontrolled Synthesis of Highly Functionalized Quaternary Carbon Centers: A Route to α‐Substituted Serines",
+   "link": "https://doi.org/10.1002/anie.200900609",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2009-05-19",
+   "abstract": "Abstract Three in a row! Highly functionalized quaternary amino polyols with three consecutive asymmetric carbon centers have been prepared through tandem hydroboration of allene 1 and addition to an aldehyde (see scheme; Cy=cyclohexyl, TBDPS= tert ‐butyldiphenylsilyl, Ts=4‐toluenesulfonyl). This one‐pot process provides access to advanced intermediates for the enantioselective synthesis of α‐substituted serines. magnified image",
+   "authors": [
+    "Xavier Ariza",
+    "Josep Cornellà",
+    "Mercè Font‐Bardia",
+    "Jordi Garcia",
+    "Jordi Ortiz",
+    "Carolina Sánchez",
+    "Xavier Solans"
+   ],
+   "doi": "10.1002/anie.200900609",
+   "keywords": [
+    "tandem"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "Mechanical Buckling: Mechanics, Metrology, and Stretchable Electronics",
+   "link": "https://doi.org/10.1002/adfm.200801065",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2009-05-18",
+   "abstract": "Abstract Mechanical buckling usually means catastrophic failure in structural mechanics systems. However, controlled buckling of thin films on compliant substrates has been used to advantage in diverse fields such as micro‐/nanofabrication, optics, bioengineering, and metrology as well as fundamental mechanics studies. In this Feature Article, a mechanical buckling model is presented, which sprang, in part, from the buckling study of high‐quality, single‐crystalline nanomaterials. To check the mechanical‐buckling phenomenon down to the nano‐/molecular scale, well‐aligned single‐walled carbon nanotube arrays and cross linked carbon‐based monolayers are transferred from growth substrate onto elastomeric substrate and then they are buckled into well‐defined shapes that are amenable to quantitative analysis. From this nano‐ or molecular‐scale buckling, it is shown that the mechanical moduli of nanoscale materials can easily be determined, even using a model based on continuum mechanics. In addition, buckling phenomena can be utilized for the determination of mechanical moduli of organic functional materials such as poly(3‐hexylthiophene) (P3HT) and P3HT/6,6‐phenyl‐C 61 ‐butyric acid methyl ester (PCBM) composite, which are widely used for organic transistors and organic photovoltaics. The results provide useful information for the realization of flexible and/or stretchable organic electronics. Finally, the fabrication and applications of “wavy, stretchable” single‐crystal Si electronics on elastomeric substrates are demonstrated.",
+   "authors": [
+    "Dahl‐Young Khang",
+    "John A. Rogers",
+    "Hong H. Lee"
+   ],
+   "doi": "10.1002/adfm.200801065",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "Photovoltaics Power Up",
+   "link": "https://doi.org/10.1126/science.1169616",
+   "journal": "Science",
+   "publisher": "Science",
+   "date": "2009-05-15",
+   "abstract": "The power-generating capacity of solar cells, while currently small relative to other sources, is increasing exponentially.",
+   "authors": [
+    "Richard M. Swanson"
+   ],
+   "doi": "10.1126/science.1169616",
+   "keywords": [
+    "photovoltaics",
+    "solar cells"
+   ],
+   "type": "article"
+  },
+  {
    "title": "Efficient Dye-Sensitized Solar Cells with Catalytic Multiwall Carbon Nanotube Counter Electrodes",
    "link": "https://doi.org/10.1021/am800249k",
    "journal": "ACS Applied Materials & Interfaces",
@@ -3786,6 +4792,54 @@
    ],
    "type": "article",
    "oa_type": "article"
+  },
+  {
+   "title": "White organic light-emitting diodes with fluorescent tube efficiency",
+   "link": "https://doi.org/10.1038/nature08003",
+   "journal": "Nature",
+   "publisher": "Nature",
+   "date": "2009-05-13",
+   "abstract": "",
+   "authors": [
+    "Sebastian Reineke",
+    "Frank Lindner",
+    "Gregor Schwartz",
+    "Nico Seidler",
+    "Karsten Walzer",
+    "Björn Lüssem",
+    "Karl Leo"
+   ],
+   "doi": "10.1038/nature08003",
+   "keywords": [
+    "light-emitting"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "Interactive Radical Dimers in Photoconductive Organic Thin Films",
+   "link": "https://doi.org/10.1002/anie.200900472",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2009-05-12",
+   "abstract": "Abstract Fully interactive : Overlap between extended unoccupied molecular orbitals leads to the high photoconductivity of interactive radical dimers. Sandwich‐type cells (see picture; ITO=indium tin oxide) comprising highly oriented thin films of a disjoint diradical, 4,4′‐bis(1,2,3,5‐dithiadiazolyl) (BDTDA) exhibit a photocurrent with a high on/off ratio at reverse bias voltages and photovoltaic behavior at zero bias voltage. magnified image",
+   "authors": [
+    "Akito Iwasaki",
+    "Laigui Hu",
+    "Rie Suizu",
+    "Kenji Nomura",
+    "Hirofumi Yoshikawa",
+    "Kunio Awaga",
+    "Yukiko Noda",
+    "Kaname Kanai",
+    "Yukio Ouchi",
+    "Kazuhiko Seki",
+    "Hiroshi Ito"
+   ],
+   "doi": "10.1002/anie.200900472",
+   "keywords": [
+    "photovoltaic"
+   ],
+   "type": "article"
   },
   {
    "title": "A New Perovskite Polytype in the High-Pressure Sequence of BaIrO 3",
@@ -3807,6 +4861,48 @@
    ],
    "type": "article",
    "oa_type": "article"
+  },
+  {
+   "title": "Stretchable active-matrix organic light-emitting diode display using printable elastic conductors",
+   "link": "https://doi.org/10.1038/nmat2459",
+   "journal": "Nature Materials",
+   "publisher": "Nature",
+   "date": "2009-05-10",
+   "abstract": "",
+   "authors": [
+    "Tsuyoshi Sekitani",
+    "Hiroyoshi Nakajima",
+    "Hiroki Maeda",
+    "Takanori Fukushima",
+    "Takuzo Aida",
+    "Kenji Hata",
+    "Takao Someya"
+   ],
+   "doi": "10.1038/nmat2459",
+   "keywords": [
+    "light-emitting"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "Scanning Kelvin Probe Microscopy on Bulk Heterojunction Polymer Blends",
+   "link": "https://doi.org/10.1002/adfm.200801283",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2009-05-08",
+   "abstract": "Abstract Here, correlated AFM and scanning Kelvin probe microscopy measurements with sub‐100 nm resolution on the phase‐separated active layer of polymer‐fullerene (MDMO‐PPV:PCBM) bulk heterojunction solar cells in the dark and under illumination are described. Using numerical modeling a fully quantitative explanation for the contrast and shifts of the surface potential in dark and light is provided. Under illumination an excess of photogenerated electrons is present in both the donor and acceptor phases. From the time evolution of the surface potential after switching off the light the contributions of free and trapped electrons can be identified. Based on these measurements the relative 3D energy level shifts of the sample are calculated. Moreover, by comparing devices with fine and coarse phase separation, it is found that the inferior performance of the latter devices is, at least partially, due to poor electron transport.",
+   "authors": [
+    "Klára Maturová",
+    "Martijn Kemerink",
+    "Martijn M. Wienk",
+    "Dimitri S. H. Charrier",
+    "René A. J. Janssen"
+   ],
+   "doi": "10.1002/adfm.200801283",
+   "keywords": [
+    "solar cells"
+   ],
+   "type": "article"
   },
   {
    "title": "Large π-Aromatic Molecules as Potential Sensitizers for Highly Efficient Dye-Sensitized Solar Cells",
@@ -3842,6 +4938,22 @@
    "type": "article",
    "ab_tried": 4,
    "oa_type": "article"
+  },
+  {
+   "title": "Recent Developments in the Field of Inorganic Phosphors",
+   "link": "https://doi.org/10.1002/anie.200804005",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2009-04-28",
+   "abstract": "Abstract Energy efficiency is in! New inorganic luminescent materials can help to increase energy efficiency when used in plasma display panels and white‐light‐emitting diodes (see color diagram; mixing the three emissions A–C produces any given point within the triangle). In mercury‐free fluorescent lamps these phosphors might contribute to environmental protection, and they provide better scintillation materials for medical diagnostics. magnified image Because fossil fuels are becoming scarce and because of the expected climate change, our standard of living can only be maintained by a significant increase in energy efficiency. Large amounts of energy are consumed for lighting and during operation of displays. Thus, the targets are the development of economical light sources like white‐light‐emitting diodes and display panels with enhanced efficiency. Solar energy is converted into electricity by solar cells, and their efficiency must be improved considerably. A possible contribution might be delivered by phosphors which allow the conversion of thermal radiation into electrical energy. Although the target of energy efficiency is very important, we must not overlook that medical imaging diagnostic methods require efficient and sensitive detectors. For the solution of these central questions, inorganic solid‐state materials doped with rare‐earth ions are very promising and are therefore in the focus of current research activities.",
+   "authors": [
+    "Henning A. Höppe"
+   ],
+   "doi": "10.1002/anie.200804005",
+   "keywords": [
+    "solar cells"
+   ],
+   "type": "review"
   },
   {
    "title": "Nanochemistry aspects of titania in dye-sensitized solar cells",
@@ -3913,6 +5025,29 @@
    "oa_type": "article"
   },
   {
+   "title": "Efficiency Enhancement of GaAs Photovoltaics Employing Antireflective Indium Tin Oxide Nanocolumns",
+   "link": "https://doi.org/10.1002/adma.200802563",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2009-04-21",
+   "abstract": "",
+   "authors": [
+    "Peichen Yu",
+    "Chia‐Hua Chang",
+    "Ching‐Hua Chiu",
+    "Chin‐Sheng Yang",
+    "Jue‐Chin Yu",
+    "Hao‐Chung Kuo",
+    "Shih‐Hsin Hsu",
+    "Yia‐Chung Chang"
+   ],
+   "doi": "10.1002/adma.200802563",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "article"
+  },
+  {
    "title": "Vertical Phase Separation in Poly(3‐hexylthiophene): Fullerene Derivative Blends and its Advantage for Inverted Structure Solar Cells",
    "link": "https://doi.org/10.1002/adfm.200801286",
    "journal": "Advanced Functional Materials",
@@ -3964,6 +5099,26 @@
    ],
    "type": "article",
    "oa_type": "article"
+  },
+  {
+   "title": "Doping of the Metal Oxide Nanostructure and its Influence in Organic Electronics",
+   "link": "https://doi.org/10.1002/adfm.200801639",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2009-04-20",
+   "abstract": "Abstract Synthesizing metal oxides through the sol–gel process provides a convenient way for forming a nanostructured layer in wide band gap semiconductors. In this paper, a unique method of introducing dopants into the metal oxide semiconductor is presented. The doped TiO 2 is prepared by adding a Cs 2 CO 3 solution to a nanocrystalline TiO 2 solution that is synthesized via a non‐hydrolytic sol–gel process. The properties of the TiO 2 :Cs layer are investigated and the results show stable nanostructure morphology. In addition to providing morphological stability, Cs in TiO 2 also gives rise to a more desirable work function for charge transport in organic electronics. Polymer solar cells based on the poly(3‐hexylthiophene) (P3HT): methanofullerene (PC 70 BM) system with the addition of a TiO 2 :Cs interfacial layer exhibit excellent characteristics with a power conversion efficiency of up to 4.2%. The improved device performance is attributed to an improved polymer/metal contact, more efficient electron extraction, and better hole blocking properties. The effectiveness of this unique functionality also extends to polymer light emitting devices, where a lower driving voltage, improved efficiency, and extended lifetime are demonstrated.",
+   "authors": [
+    "Mi‐Hyae Park",
+    "Juo‐Hao Li",
+    "Ankit Kumar",
+    "Gang Li",
+    "Yang Yang"
+   ],
+   "doi": "10.1002/adfm.200801639",
+   "keywords": [
+    "solar cells"
+   ],
+   "type": "article"
   },
   {
    "title": "Organometal Halide Perovskites as Visible-Light Sensitizers for Photovoltaic Cells",
@@ -4050,6 +5205,28 @@
    "oa_type": "article"
   },
   {
+   "title": "Organic Photovoltaics Using Tetraphenylbenzoporphyrin Complexes as Donor Layers",
+   "link": "https://doi.org/10.1002/adma.200802683",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2009-04-14",
+   "abstract": "",
+   "authors": [
+    "M. Dolores Perez",
+    "Carsten Borek",
+    "Peter I. Djurovich",
+    "Elizabeth I. Mayo",
+    "Richard R. Lunt",
+    "Stephen R. Forrest",
+    "Mark E. Thompson"
+   ],
+   "doi": "10.1002/adma.200802683",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "article"
+  },
+  {
    "title": "Quasi-Solid-State Dye-Sensitized Solar Cells with Polymer Gel Electrolyte and Triphenylamine-Based Organic Dyes",
    "link": "https://doi.org/10.1021/am9000375",
    "journal": "ACS Applied Materials & Interfaces",
@@ -4093,6 +5270,59 @@
    ],
    "type": "article",
    "oa_type": "article"
+  },
+  {
+   "title": "Elastic Shear Anisotropy of Ferropericlase in Earth's Lower Mantle",
+   "link": "https://doi.org/10.1126/science.1169365",
+   "journal": "Science",
+   "publisher": "Science",
+   "date": "2009-04-10",
+   "abstract": "Seismic shear anisotropy in the lowermost mantle most likely results from elastic shear anisotropy and lattice preferred orientation of its constituent minerals, including perovskite, post-perovskite, and ferropericlase. Measurements of the elastic shear anisotropy of single-crystal (Mg 0.9 Fe 0.1 )O up to 69 gigapascals (GPa) show that it increased considerably across the pressure-induced spin transition of iron between 40 and 60 GPa. Increasing iron content further enhances the anisotropy. This leads to at least 50% stronger elastic shear anisotropy of (Mg,Fe)O in the lowermost mantle compared to MgO, which is typically used in geodynamic modeling. Our results imply that ferropericlase is the dominant cause of seismic shear anisotropy in the lower mantle.",
+   "authors": [
+    "Hauke Marquardt",
+    "Sergio Speziale",
+    "Hans J. Reichmann",
+    "Daniel J. Frost",
+    "Frank R. Schilling",
+    "Edward J. Garnero"
+   ],
+   "doi": "10.1126/science.1169365",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "A Great Earthquake Rupture Across a Rapidly Evolving Three-Plate Boundary",
+   "link": "https://doi.org/10.1126/science.1167476",
+   "journal": "Science",
+   "publisher": "Science",
+   "date": "2009-04-10",
+   "abstract": "On 1 April 2007 a great, tsunamigenic earthquake (moment magnitude 8.1) ruptured the Solomon Islands subduction zone at the triple junction where the Australia and Solomon Sea–Woodlark Basin plates simultaneously underthrust the Pacific plate with different slip directions. The associated abrupt change in slip direction during the great earthquake drove convergent anelastic deformation of the upper Pacific plate, which generated localized uplift in the forearc above the subducting Simbo fault, potentially amplifying local tsunami amplitude. Elastic deformation during the seismic cycle appears to be primarily accommodated by the overriding Pacific forearc. This earthquake demonstrates the seismogenic potential of extremely young subducting oceanic lithosphere, the ability of ruptures to traverse substantial geologic boundaries, and the consequences of complex coseismic slip for uplift and tsunamigenesis.",
+   "authors": [
+    "Kevin P. Furlong",
+    "Thorne Lay",
+    "Charles J. Ammon"
+   ],
+   "doi": "10.1126/science.1167476",
+   "keywords": [
+    "triple junction"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "Flexible Wires and Organic Photovoltaics",
+   "link": "https://doi.org/10.1126/science.324.5924.143m",
+   "journal": "Science",
+   "publisher": "Science",
+   "date": "2009-04-10",
+   "abstract": "",
+   "authors": [],
+   "doi": "10.1126/science.324.5924.143m",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "article"
   },
   {
    "title": "Recombination‐Limited Photocurrents in Low Bandgap Polymer/Fullerene Solar Cells",
@@ -4197,6 +5427,31 @@
    "oa_type": "article"
   },
   {
+   "title": "Structure and Ultrafast Dynamics of White-Light-Emitting CdSe Nanocrystals",
+   "link": "https://doi.org/10.1021/ja900529h",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2009-04-02",
+   "abstract": "",
+   "authors": [
+    "Michael J. Bowers II",
+    "James R. McBride",
+    "Maria D. Garrett",
+    "Jessica A. Sammons",
+    "Albert D. Dukes III",
+    "Michael A. Schreuder",
+    "Tony L. Watt",
+    "Andrew R. Lupini",
+    "Stephen J. Pennycook",
+    "Sandra J. Rosenthal"
+   ],
+   "doi": "10.1021/ja900529h",
+   "keywords": [
+    "light-emitting"
+   ],
+   "type": "article"
+  },
+  {
    "title": "New Paradigm in Molecular Engineering of Sensitizers for Solar Cell Applications",
    "link": "https://doi.org/10.1021/ja9002684",
    "journal": "Journal of the American Chemical Society",
@@ -4264,8 +5519,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type": "article",
-   "ab_tried": 2
+   "oa_type": "article"
   },
   {
    "title": "Cover Picture: Direct Decomposition of Nitrous Oxide to Nitrogen by In Situ Oxygen Removal with a Perovskite Membrane (Angew. Chem. Int. Ed. 16/2009)",
@@ -4309,8 +5563,7 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type": "article",
-   "ab_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Self‐Assembled Perovskite‐Fluorite Oblique Nanostructures for Adaptive (Tunable) Electronics",
@@ -4334,8 +5587,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type": "article",
-   "ab_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Polymer‐Fullerene Bulk‐Heterojunction Solar Cells",
@@ -4354,7 +5606,7 @@
     "photovoltaic",
     "solar cells"
    ],
-   "type": "review",
+   "type": "article",
    "oa_type": "article"
   },
   {
@@ -4445,6 +5697,32 @@
    ],
    "type": "article",
    "oa_type": "article"
+  },
+  {
+   "title": "Omnidirectional Printing of Flexible, Stretchable, and Spanning Silver Microelectrodes",
+   "link": "https://doi.org/10.1126/science.1168375",
+   "journal": "Science",
+   "publisher": "Science",
+   "date": "2009-03-20",
+   "abstract": "Flexible, stretchable, and spanning microelectrodes that carry signals from one circuit element to another are needed for many emerging forms of electronic and optoelectronic devices. We have patterned silver microelectrodes by omnidirectional printing of concentrated nanoparticle inks in both uniform and high–aspect ratio motifs with minimum widths of approximately 2 micrometers onto semiconductor, plastic, and glass substrates. The patterned microelectrodes can withstand repeated bending and stretching to large levels of strain with minimal degradation of their electrical properties. With this approach, wire bonding to fragile three-dimensional devices and spanning interconnects for solar cell and light-emitting diode arrays are demonstrated.",
+   "authors": [
+    "Bok Y. Ahn",
+    "Eric B. Duoss",
+    "Michael J. Motala",
+    "Xiaoying Guo",
+    "Sang-Il Park",
+    "Yujie Xiong",
+    "Jongseung Yoon",
+    "Ralph G. Nuzzo",
+    "John A. Rogers",
+    "Jennifer A. Lewis"
+   ],
+   "doi": "10.1126/science.1168375",
+   "keywords": [
+    "light-emitting",
+    "solar cell"
+   ],
+   "type": "article"
   },
   {
    "title": "Polymer Photovoltaic Cells Based on Solution‐Processable Graphene and P3HT",
@@ -4545,6 +5823,28 @@
    "oa_type": "article"
   },
   {
+   "title": "Interfacial Strain‐Induced Oxygen Disorder as the Cause of Enhanced Critical Current Density in Superconducting Thin Films",
+   "link": "https://doi.org/10.1002/adfm.200801112",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2009-03-19",
+   "abstract": "Abstract To understand the origin of the increase in critical current density of rare earth barium cuprate superconductor thin films with decreasing thickness, a series of sub‐300‐nm EuBa 2 Cu 3 O 7− δ thin films deposited on SrTiO 3 substrates are studied by X‐ray diffraction and electrical transport measurements. The out‐of‐plane crystallographic mosaic tilt and the out‐of‐plane microstrain both increase with decreasing film thickness. The calculated density of c ‐axis threading dislocations matches the extent of the observed low‐field enhancement in critical current density for fields applied parallel to c . The in‐plane mosaic twist and in‐plane microstrain are both around twice the magnitude of the out‐of‐plane values, and both increase with decreasing film thickness. The results are consistent with the observed stronger field enhancement in critical current density for fields applied parallel to ab . The lattice parameter variation with thickness is not as expected from consideration of the biaxial strain with the substrate, indicative of in‐plane microstrain accommodation by oxygen disorder. Collectively, the results point to an enhancement of critical current by interfacial strain induced oxygen disorder which is greatest closest to the film‐substrate interface. The findings of this study have important implications for other thin functional oxide perovskite films and nanostructures where surface and interfacial strains dominate the properties.",
+   "authors": [
+    "Stuart C. Wimbush",
+    "Meicheng Li",
+    "Mary E. Vickers",
+    "Boris Maiorov",
+    "D. Matt Feldmann",
+    "Quanxi Jia",
+    "Judith L. MacManus‐Driscoll"
+   ],
+   "doi": "10.1002/adfm.200801112",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "article"
+  },
+  {
    "title": "Palladium Catalyzed Tandem Ring Opening−Ring Closing Reaction of Diazabicyclic Alkenes: A Facile One Pot Strategy for Cyclopentannulation of Heterocycles",
    "link": "https://doi.org/10.1021/ja900477e",
    "journal": "Journal of the American Chemical Society",
@@ -4603,7 +5903,7 @@
     "solar cells",
     "tandem"
    ],
-   "type": "review",
+   "type": "article",
    "oa_type": "article"
   },
   {
@@ -4627,6 +5927,23 @@
    "type": "article",
    "oa_type": "article",
    "ab_tried": 4
+  },
+  {
+   "title": "Total Synthesis of Cribrostatin 6",
+   "link": "https://doi.org/10.1002/anie.200806269",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2009-03-17",
+   "abstract": "Abstract Fast and furious : Cribrostatin 6, an antimicrobial and antineoplastic agent, was the target of a total synthesis where the longest linear sequence was only four steps. The key step involves a tandem 4π electrocyclic ring opening, radical cyclization, and homolytic aromatic substitution sequence to afford the tricyclic core of the natural product. magnified image",
+   "authors": [
+    "Daniel Knueppel",
+    "Stephen F. Martin"
+   ],
+   "doi": "10.1002/anie.200806269",
+   "keywords": [
+    "tandem"
+   ],
+   "type": "article"
   },
   {
    "title": "Improvement of the Light-Harvesting Efficiency in Polymer/Fullerene Bulk Heterojunction Solar Cells by Interfacial Dye Modification",
@@ -4733,6 +6050,43 @@
    ],
    "type": "article",
    "oa_type": "article"
+  },
+  {
+   "title": "A Total Synthesis of Norhalichondrin B",
+   "link": "https://doi.org/10.1002/anie.200806111",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2009-03-10",
+   "abstract": "Abstract Four corners : The syntheses of four key building blocks for the total synthesis of norhalichondrin B (see structure) are described. The assembly of these subunits into the natural product is also reported. Key features of the synthesis are the use of the Achmatowicz oxidation/ionic hydrogenation for the synthesis of pyrans and pyranopyrans, and the application of tandem metathesis for the synthesis of pyranopyrans. magnified image",
+   "authors": [
+    "Katrina L. Jackson",
+    "James A. Henderson",
+    "Hajime Motoyoshi",
+    "Andrew J. Phillips"
+   ],
+   "doi": "10.1002/anie.200806111",
+   "keywords": [
+    "tandem"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "Parallel Kinetic Resolution Approach to the Cyathane and Cyanthiwigin Diterpenes Using a Cyclopropanation/Cope Rearrangement",
+   "link": "https://doi.org/10.1002/anie.200806154",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2009-03-10",
+   "abstract": "Abstract Parallel effort : Stereodivergent parallel kinetic resolution of a racemic mixture of dienes using Davies' [Rh 2 {( S )‐dosp} 4 ] or [Rh 2 {( R )‐dosp} 4 ] catalysts promotes a tandem vinyl diazoacetate cyclopropanation/Cope rearrangement sequence to afford two diastereomeric, enantioenriched cycloheptadienes, which correspond to the natural antipodes of the title diterpenoids (see scheme). magnified image",
+   "authors": [
+    "Laura C. Miller",
+    "J. Maina Ndungu",
+    "Richmond Sarpong"
+   ],
+   "doi": "10.1002/anie.200806154",
+   "keywords": [
+    "tandem"
+   ],
+   "type": "article"
   },
   {
    "title": "Palladium-Catalyzed Intramolecular Direct Arylation of Benzoic Acids by Tandem Decarboxylation/C−H Activation",
@@ -4850,6 +6204,23 @@
    "oa_type": "article"
   },
   {
+   "title": "Photosensitization of TiO 2 Nanostructures with CdS Quantum Dots: Particulate versus Tubular Support Architectures",
+   "link": "https://doi.org/10.1002/adfm.200801173",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2009-02-27",
+   "abstract": "Abstract TiO 2 nanotube arrays and particulate films are modified with CdS quantum dots with an aim to tune the response of the photoelectrochemical cell in the visible region. The method of successive ionic layer adsorption and reaction facilitates size control of CdS quantum dots. These CdS nanocrystals, upon excitation with visible light, inject electrons into the TiO 2 nanotubes and particles and thus enable their use as photosensitive electrodes. Maximum incident photon to charge carrier efficiency (IPCE) values of 55% and 26% are observed for CdS sensitized TiO 2 nanotube and nanoparticulate architectures respectively. The nearly doubling of IPCE observed with the TiO 2 nanotube architecture is attributed to the increased efficiency of charge separation and transport of electrons.",
+   "authors": [
+    "David R. Baker",
+    "Prashant V. Kamat"
+   ],
+   "doi": "10.1002/adfm.200801173",
+   "keywords": [
+    "photoelectrochemical"
+   ],
+   "type": "article"
+  },
+  {
    "title": "Growth of Oriented Single-Crystalline Rutile TiO 2 Nanorods on Transparent Conducting Substrates for Dye-Sensitized Solar Cells",
    "link": "https://doi.org/10.1021/ja8078972",
    "journal": "Journal of the American Chemical Society",
@@ -4946,6 +6317,24 @@
    "oa_type": "article"
   },
   {
+   "title": "III-nitride photonic-crystal light-emitting diodes with high extraction efficiency",
+   "link": "https://doi.org/10.1038/nphoton.2009.21",
+   "journal": "Nature Photonics",
+   "publisher": "Nature",
+   "date": "2009-02-22",
+   "abstract": "",
+   "authors": [
+    "Jonathan J. Wierer",
+    "Aurelien David",
+    "Mischa M. Megens"
+   ],
+   "doi": "10.1038/nphoton.2009.21",
+   "keywords": [
+    "light-emitting"
+   ],
+   "type": "article"
+  },
+  {
    "title": "Photocatalytic water splitting by RuO2-loaded metal oxides and nitrides with d0- and d10 -related electronic configurations",
    "link": "https://doi.org/10.1039/b816677n",
    "journal": "Energy & Environmental Science",
@@ -4959,8 +6348,28 @@
    "keywords": [
     "water splitting"
    ],
-   "type": "review",
+   "type": "article",
    "oa_type": "article"
+  },
+  {
+   "title": "Synthesis of Light-Emitting Conjugated Polymers for Applications in Electroluminescent Devices",
+   "link": "https://doi.org/10.1021/cr000013v",
+   "journal": "Chemical Reviews",
+   "publisher": "ACS",
+   "date": "2009-02-19",
+   "abstract": "",
+   "authors": [
+    "Andrew C. Grimsdale",
+    "Khai Leok Chan",
+    "Rainer E. Martin",
+    "Pawel G. Jokisz",
+    "Andrew B. Holmes"
+   ],
+   "doi": "10.1021/cr000013v",
+   "keywords": [
+    "light-emitting"
+   ],
+   "type": "review"
   },
   {
    "title": "Direct Determination of Dopant Site Selectivity in Ordered Perovskite CaCu 3 Ti 4 O 12 Polycrystals by Aberration‐Corrected STEM",
@@ -5022,8 +6431,40 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type": "article",
-   "ab_tried": 1
+   "oa_type": "article"
+  },
+  {
+   "title": "Photoelectrochemical Study of the Band Structure of Zn 2 SnO 4 Prepared by the Hydrothermal Method",
+   "link": "https://doi.org/10.1021/ja806719x",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2009-02-16",
+   "abstract": "",
+   "authors": [
+    "Mario A. Alpuche-Aviles",
+    "Yiying Wu"
+   ],
+   "doi": "10.1021/ja806719x",
+   "keywords": [
+    "photoelectrochemical"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "Equilibrium Iron Isotope Fractionation at Core-Mantle Boundary Conditions",
+   "link": "https://doi.org/10.1126/science.1166329",
+   "journal": "Science",
+   "publisher": "Science",
+   "date": "2009-02-13",
+   "abstract": "The equilibrium iron isotope fractionation between lower mantle minerals and metallic iron at core-mantle boundary conditions can be evaluated from the high-pressure 57 Fe partial vibrational density of states determined by synchrotron inelastic nuclear resonant x-ray scattering spectroscopy using a diamond anvil. Ferropericlase [(Mg,Fe)O] and (Fe,Mg)SiO 3 –post-perovskite are enriched in heavy iron isotopes relative to metallic iron at ultrahigh pressures, as opposed to the equilibrium iron isotope fractionation between these compounds at low pressure. The enrichment of Earth and Moon basalts in heavy iron isotopes relative to those from Mars and asteroid Vesta can be explained by the equilibrium iron isotope fractionation during the segregation of Earth's core and the assumption that Earth was already differentiated before the Moon-forming “giant impact.”",
+   "authors": [
+    "Veniamin B. Polyakov"
+   ],
+   "doi": "10.1126/science.1166329",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "article"
   },
   {
    "title": "Interfacial Nanostructuring on the Performance of Polymer/TiO 2 Nanorod Bulk Heterojunction Solar Cells",
@@ -5258,6 +6699,90 @@
    "oa_type": "article"
   },
   {
+   "title": "Efficient Near-Infrared Polymer and Organic Light-Emitting Diodes Based on Electrophosphorescence from (Tetraphenyltetranaphtho[2,3]porphyrin)platinum(II)",
+   "link": "https://doi.org/10.1021/am800236x",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2009-02-03",
+   "abstract": "",
+   "authors": [
+    "Jonathan R. Sommer",
+    "Richard T. Farley",
+    "Kenneth R. Graham",
+    "Yixing Yang",
+    "John R. Reynolds",
+    "Jiangeng Xue",
+    "Kirk S. Schanze"
+   ],
+   "doi": "10.1021/am800236x",
+   "keywords": [
+    "light-emitting"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "Bottom-up growth of fully transparent contact layers of indium tin oxide nanowires for light-emitting devices",
+   "link": "https://doi.org/10.1038/nnano.2008.418",
+   "journal": "Nature Nanotechnology",
+   "publisher": "Nature",
+   "date": "2009-02-01",
+   "abstract": "",
+   "authors": [
+    "C. O'Dwyer",
+    "M. Szachowicz",
+    "G. Visimberga",
+    "V. Lavayen",
+    "S. B. Newcomb",
+    "C. M. Sotomayor Torres"
+   ],
+   "doi": "10.1038/nnano.2008.418",
+   "keywords": [
+    "light-emitting"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "Enantioselective Synthesis of (+)‐Chamaecypanone C: A Novel Microtubule Inhibitor",
+   "link": "https://doi.org/10.1002/anie.200805486",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2009-01-30",
+   "abstract": "Abstract A bicycle built for tubulin : The total synthesis of (+)‐chamaecypanone C has been achieved by using a tandem retro‐Diels–Alder/Diels–Alder cascade reaction (see scheme). Initial biological studies demonstrate that (+)‐chamaecypanone C is an inhibitor of tubulin assembly and binds at the colchicine site. magnified image",
+   "authors": [
+    "Suwei Dong",
+    "Ernest Hamel",
+    "Ruoli Bai",
+    "David G. Covell",
+    "John A. Beutler",
+    "John A. Porco"
+   ],
+   "doi": "10.1002/anie.200805486",
+   "keywords": [
+    "tandem"
+   ],
+   "type": "article"
+  },
+  {
+   "title": "Dendritic and Linear Macromolecular Architectures for Photovoltaics: A Photoinduced Charge Transfer Investigation",
+   "link": "https://doi.org/10.1021/ja809194u",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2009-01-29",
+   "abstract": "",
+   "authors": [
+    "Arpornrat Nantalaksakul",
+    "Astrid Mueller",
+    "Akamol Klaikherd",
+    "Christopher J. Bardeen",
+    "S. Thayumanavan"
+   ],
+   "doi": "10.1021/ja809194u",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "article"
+  },
+  {
    "title": "A Copper‐Catalyzed Tandem Synthesis of Indolo‐ and Pyrrolo[2,1‐ a ]isoquinolines",
    "link": "https://doi.org/10.1002/anie.200804427",
    "journal": "Angewandte Chemie Int. Ed.",
@@ -5276,8 +6801,28 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type": "article",
-   "ab_tried": 1
+   "oa_type": "article"
+  },
+  {
+   "title": "Silaphenylmercuric Triflate Catalyzed Reactions: Synthesis of a Solid‐Supported Mercuric Salt Catalyst",
+   "link": "https://doi.org/10.1002/anie.200804641",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2009-01-28",
+   "abstract": "Abstract Let it flow, let it flow : A procedure to generate the first solid‐supported mercuric salt, silaphenylmercuric triflate, is described. Silaphenylmercuric triflate showed remarkable catalytic activity for an indole synthesis, furanoyne cyclization, arylyne cyclization, and tandem carbocyclizations. An efficient flow reaction system for indole synthesis and arylyne cyclization is also described (see figure). magnified image",
+   "authors": [
+    "Hirofumi Yamamoto",
+    "Ikuo Sasaki",
+    "Yuki Hirai",
+    "Kosuke Namba",
+    "Hiroshi Imagawa",
+    "Mugio Nishizawa"
+   ],
+   "doi": "10.1002/anie.200804641",
+   "keywords": [
+    "tandem"
+   ],
+   "type": "article"
   },
   {
    "title": "Evolution of the Total Synthesis of (−)-Okilactomycin Exploiting a Tandem Oxy-Cope Rearrangement/Oxidation, a Petasis−Ferrier Union/Rearrangement, and Ring-Closing Metathesis",
@@ -5428,6 +6973,23 @@
    "oa_type": "article"
   },
   {
+   "title": "Organic photovoltaics",
+   "link": "https://doi.org/10.1039/b812502n",
+   "journal": "Energy & Environmental Science",
+   "publisher": "RSC",
+   "date": "2009-01-07",
+   "abstract": "",
+   "authors": [
+    "Bernard Kippelen",
+    "Jean-Luc Brédas"
+   ],
+   "doi": "10.1039/b812502n",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "article"
+  },
+  {
    "title": "A self-assembling self-repairing microbial photoelectrochemical solar cell",
    "link": "https://doi.org/10.1039/b816417g",
    "journal": "Energy & Environmental Science",
@@ -5521,6 +7083,25 @@
    ],
    "type": "article",
    "oa_type": "article"
+  },
+  {
+   "title": "Electrical Scanning Probe Microscopy on Active Organic Electronic Devices",
+   "link": "https://doi.org/10.1002/adma.200801466",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2009-01-02",
+   "abstract": "Abstract Polymer‐ and small‐molecule‐based organic electronic devices are being developed for applications including electroluminescent displays, transistors, and solar cells due to the promise of low‐cost manufacturing. It has become clear that these materials exhibit nanoscale heterogeneities in their optical and electrical properties that affect device performance, and that this nanoscale structure varies as a function of film processing and device‐fabrication conditions. Thus, there is a need for high‐resolution measurements that directly correlate both electronic and optical properties with local film structure in organic semiconductor films. In this article, we highlight the use of electrical scanning probe microscopy techniques, such as conductive atomic force microscopy (c‐AFM), electrostatic force microscopy (EFM), scanning Kelvin probe microscopy (SKPM), and similar variants to elucidate charge injection/extraction, transport, trapping, and generation/recombination in organic devices. We discuss the use of these tools to probe device structures ranging from light‐emitting diodes (LEDs) and thin‐film transistors (TFT), to light‐emitting electrochemical cells (LECs) and organic photovoltaics.",
+   "authors": [
+    "Liam S. C. Pingree",
+    "Obadiah G. Reid",
+    "David S. Ginger"
+   ],
+   "doi": "10.1002/adma.200801466",
+   "keywords": [
+    "photovoltaics",
+    "solar cells"
+   ],
+   "type": "article"
   }
  ]
 }
