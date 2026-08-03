@@ -1,7 +1,7 @@
 {
  "year": "2019",
  "count": 1904,
- "generated": "2026-08-02 23:03 UTC",
+ "generated": "2026-08-03 16:10 UTC",
  "papers": [
   {
    "title": "Tunable Photocatalytic Water Splitting by the Ferroelectric Switch in a 2D AgBiP 2 Se 6 Monolayer",
@@ -580,7 +580,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2019-12-23",
-   "abstract": "nanoplates capped with oleic acid/oleylamine (OA/OAM). Introducing these high quality NCs into backlight displays, an ultrapure green backlight which covers ≈85.7% of the Rec. 2020 standard in the CIE 1931 color space is achieved, signifying the \"greenest\" backlight till now. Thus, we can foresee perovskite NCs as the most potential candidates for next-generation displays.",
+   "abstract": "To best catch human eyes in next-generation displays, the updated recommendation 2020 (Rec. 2020) standard has called for ultrapure green emitters to be qualified with a narrow emission of 525–535 nm with a full width at half-maximum (fwhm) below 25 nm. However, it is still challenging to find an emitter which can simultaneously cover these two criteria. Instead of traditional II–VI group semiconductor quantum dots, perovskite nanocrystals (NCs) can render versatile emitting tunability to allow them access to the Rec. 2020 standard. Herein, to realize the critical window of Rec. 2020, we have proposed a scalable, room temperature synthesis route of formamidinium lead bromide (FAPbBr 3 ) NCs using a sole ligand of sulfobetaine-18 (SBE-18). The as-synthesized FAPbBr 3 NCs exhibit an ideal emission at 534 nm with an ultranarrow fwhm of 20.5 nm and a high photoluminescence quantum yield of 90.6%, overwhelming the FAPbBr 3 nanoplates capped with oleic acid/oleylamine (OA/OAM). Introducing these high quality NCs into backlight displays, an ultrapure green backlight which covers ≈85.7% of the Rec. 2020 standard in the CIE 1931 color space is achieved, signifying the “greenest” backlight till now. Thus, we can foresee perovskite NCs as the most potential candidates for next-generation displays.",
    "authors": [
     "Yanqing Zu",
     "Jun Xi",
@@ -709,7 +709,7 @@
     "solar cells"
    ],
    "type": "review",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -824,7 +824,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1311,7 +1311,7 @@
    ],
    "type": "comment",
    "oa_type": "erratum",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Electrodeposition of crystalline silicon films from silicon dioxide for low-cost photovoltaic applications",
@@ -1383,7 +1383,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1566,7 +1566,7 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1649,7 +1649,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2019-12-17",
-   "abstract": "). This study unravels the pivotal role played by C@TeNRs in controlling the performance of SiNW-based LJSCs.",
+   "abstract": "Silicon nanowire (SiNW) arrays offer a range of exciting opportunities, from maximizing solar spectrum utilization for high-performance liquid-junction solar cells (LJSCs) to functioning as potential micro-supercapacitors in the near future. This work, contrasting strongly with the previously reported studies on SiNW-based LJSCs where electron-conducting nanoparticles of Pt or Au were employed to achieve high efficiencies, aims at tethering relatively inexpensive, hole-conducting, and photoresponsive carbon-coated tellurium nanorods (C@TeNRs) to SiNWs in the quest to achieve an outstanding solar cell performance. A SiNW LJSC (control cell) with a SiNWs/Br –, Br 2 /carbon-fabric architecture delivers a power conversion efficiency (PCE) of 4.8%. Further, by anchoring C@TeNRs, along the lengths of SiNWs via electrophoresis, a PCE of ∼11.6% is attained for a C@TeNRs@SiNWs/Br –, Br 2 /carbon-fabric-based LJSC. The multifunctionality of C@Te comes to the fore in this cell where (1) the p-type (hole) conducting nature of C@Te ensures efficient charge separation by rapidly collecting holes from SiNWs (and suppresses recombination), (2) the C@TeNRs are also photoresponsive and increase light-harvesting, and (3) the C coating restricts the chemical corrosion and photo-oxidation of SiNWs and the Te core by the acidic electrolyte, thereby improving the cell’s operational lifetime. This LJSC also serves as an effective stand-alone energy-storage device giving an improved areal specific capacitance of 1605 μF cm –2 (at 1 mA cm –2 ). This study unravels the pivotal role played by C@TeNRs in controlling the performance of SiNW-based LJSCs.",
    "authors": [
     "Ankita Kolay",
     "Debanjan Maity",
@@ -1661,7 +1661,6 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -2282,7 +2281,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -2406,7 +2405,8 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type": "article"
+   "oa_type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Perovskite Solar Cells: Halogen Engineering for Operationally Stable Perovskite Solar Cells via Sequential Deposition (Adv. Energy Mater. 46/2019)",
@@ -2547,7 +2547,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -2581,7 +2581,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -2631,7 +2631,7 @@
     "solar cells"
    ],
    "type": "review",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -3331,7 +3331,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -3639,7 +3639,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -4093,7 +4093,7 @@
     "solar cells"
    ],
    "type": "comment",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "erratum"
   },
   {
@@ -4284,7 +4284,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -4346,7 +4346,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -4554,7 +4554,7 @@
    "journal": "ACS Energy Letters",
    "publisher": "ACS",
    "date": "2019-11-27",
-   "abstract": "depending on the trap density and the morphological environment-a distribution that would be missed from analogous macroscopic or surface measurements. This work reveals a new framework to understand diffusion pathways, which are extremely sensitive to local properties and buried defects.",
+   "abstract": "High Resolution Image Download MS PowerPoint Slide Halide perovskites have shown great potential for light emission and photovoltaic applications due to their remarkable electronic properties. Although the device performances are promising, they are still limited by microscale heterogeneities in their photophysical properties. Here, we study the impact of these heterogeneities on the diffusion of charge carriers, which are processes crucial for efficient collection of charges in light-harvesting devices. A photoluminescence tomography technique is developed in a confocal microscope using one- and two-photon excitation to distinguish between local surface and bulk diffusion of charge carriers in methylammonium lead bromide single crystals. We observe a large dispersion of local diffusion coefficients with values between 0.3 and 2 cm 2 ·s –1 depending on the trap density and the morphological environment—a distribution that would be missed from analogous macroscopic or surface measurements. This work reveals a new framework to understand diffusion pathways, which are extremely sensitive to local properties and buried defects.",
    "authors": [
     "Camille Stavrakas",
     "Géraud Delport",
@@ -4571,8 +4571,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type": "article",
-   "ab_tried": 3
+   "oa_type": "article"
   },
   {
    "title": "High Photovoltage Inverted Planar Heterojunction Perovskite Solar Cells with All-Inorganic Selective Contact Layers",
@@ -4687,7 +4686,7 @@
     "wide bandgap"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -4714,7 +4713,7 @@
     "photoelectrochemical"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -5038,7 +5037,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -5064,7 +5063,7 @@
     "photodetector"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -5096,7 +5095,7 @@
    ],
    "type": "comment",
    "oa_type": "erratum",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Heteroepitaxial vertical perovskite hot-electron transistors down to the monolayer limit",
@@ -5348,7 +5347,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -5445,7 +5444,7 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -5483,7 +5482,7 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -5560,7 +5559,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -5588,7 +5587,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -5607,7 +5606,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -5616,7 +5615,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2019-11-20",
-   "abstract": "also exhibit a PCE of 16.2%. This work demonstrates a promising route toward commercially viable, stable, and efficient PSCs.",
+   "abstract": "Perovskite solar cells (PSCs) has skyrocketed in the past decade to an unprecedented level due to their outstanding photoelectric properties and facile processability. However, the utilization of expensive hole transport materials (HTMs) and the inevitable instability instigated by the deliquescent dopants represent major concerns hindering further commercialization. Here, a series of low-cost, conjugated polymers are designed and applied as dopant-free HTMs in PSCs, featuring tuned energy levels, good temperature and humidity resistivity, and excellent photoelectric properties. Further studies highlight the critical and multifaceted roles of the polymers with respect to facilitating charge separation, passivating the surface trap sites of perovskite materials, and guaranteeing long-term stability of the devices. A stabilized power conversion efficiency (PCE) of 20.3% and remarkably enhanced device longevity are achieved using the dopant-free polymer P3 with a low concentration of 5 mg/mL, qualifying the device as one of the best PSC systems constructed on the basis of dopant-free HTMs so far. In addition, the flexible PSCs based on P3 also exhibit a PCE of 16.2%. This work demonstrates a promising route toward commercially viable, stable, and efficient PSCs.",
    "authors": [
     "Fuguo Zhang",
     "Zhaoyang Yao",
@@ -5641,7 +5640,6 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -6590,7 +6588,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -6872,7 +6870,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -7044,7 +7042,7 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -7302,7 +7300,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -7436,7 +7434,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -7767,7 +7765,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -8356,7 +8354,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2019-11-04",
-   "abstract": "",
+   "abstract": "Perovskite solar cells (PSCs) have gained tremendous research interest because of their tolerance of defects, low cost, and facile processing. In PSC devices, PbI 2 has been utilized to passivate defects at perovskite film surfaces and GBs; however, a systematic mechanism of PbI 2 in situ passivation for enhancing the solar cells efficiency has not been fully explored. Here, this work, we systematically studies the effect of the precise PbI 2 ratio and the PbI 2 in situ passivation mechanism based on trap density, carrier lifetime, Fermi level, and so forth. This study finds the appropriate ratio of I/Pb to be around 2.57:1 using energy-dispersive spectroscopy. After the moderate excess PbI 2 in situ passivation, the trap density is reduced from 6.12 × 10 16 to 3.38 × 10 16 cm –3, and the carrier lifetime is extended from 168.35 to 368.77 ps by using fs-TA spectroscopy. This result indicates that the moderate excess PbI 2 in situ passivation can reduce the trap density and suppress the nonradiative recombination. The efficiency of solar cell has shown a nearly 11.3% improvement of 19.55% for an I/Pb ratio of 2.57:1 compared with 2.69:1. It also demonstrates that the efficiency of PSCs can be enhanced effectively by PbI 2 in situ passivation.",
    "authors": [
     "Yichuan Chen",
     "Qi Meng",
@@ -8376,7 +8374,6 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -8719,7 +8716,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -8751,7 +8748,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -9030,7 +9027,7 @@
    ],
    "type": "comment",
    "oa_type": "erratum",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Solar Cells: Triamine‐Based Aromatic Cation as a Novel Stabilizer for Efficient Perovskite Solar Cells (Adv. Funct. Mater. 44/2019)",
@@ -9080,7 +9077,8 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type": "article"
+   "oa_type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Cu(In,Ga)(S,Se) 2 Photocathodes with a Grown-In Cu x S Catalyst for Solar Water Splitting",
@@ -9430,7 +9428,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -9460,7 +9458,7 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -9481,7 +9479,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -9877,7 +9875,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -10175,7 +10173,7 @@
     "water-splitting"
    ],
    "type": "comment",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "editorial"
   },
   {
@@ -10564,7 +10562,7 @@
     "perovskite"
    ],
    "type": "comment",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "erratum"
   },
   {
@@ -10624,7 +10622,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -10876,7 +10874,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -10926,7 +10924,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 3
+   "ab_tried": 4
   },
   {
    "title": "Ba-induced phase segregation and band gap reduction in mixed-halide inorganic perovskite solar cells",
@@ -11209,7 +11207,7 @@
    ],
    "type": "comment",
    "oa_type": "erratum",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "A 0D/3D Heterostructured All‐Inorganic Halide Perovskite Solar Cell with High Performance and Enhanced Phase Stability",
@@ -11338,7 +11336,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -11366,7 +11364,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -11621,7 +11619,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -11653,7 +11651,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -11965,7 +11963,7 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -12144,7 +12142,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -12329,7 +12327,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -12732,7 +12730,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -12850,7 +12848,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2019-10-02",
-   "abstract": "solar cell for a month and found that h-BN passivation effectively suppressed its degradation speed. In particular, the degradation speed of the passivated cell was twice as low as that of a nonpassivated cell. This work reveals that h-BN can successfully suppress the electrical loss and degradation of 2D vdW heterojunction solar cells under ambient conditions.",
+   "abstract": "Two-dimensional (2D) semiconductors can be promising active materials for solar cells due to their advantageous electrical and optical properties, in addition to their ability to form high-quality van der Waals (vdW) heterojunctions using a simple process. Furthermore, the atomically thin nature of these 2D materials allows them to form lightweight and transparent thin-film solar cells. However, strategies appropriate for optimizing their properties have not been extensively studied yet. In this paper, we propose a method for reducing the electrical loss of 2D vdW solar cells by introducing hexagonal boron nitride (h-BN) as a surface passivation layer. This method allowed us to enhance the photovoltaic performance of a MoS 2 /WSe 2 solar cell. In particular, we observed ∼74% improvement of the power conversion efficiency owing to a large increase in both short-circuit current and open-circuit voltage. Such a remarkable performance enhancement was due to the reduction of the recombination rate at the junction and surface of nonoverlapped semiconductor regions, which was confirmed via a time-resolved photoluminescence analysis. Furthermore, the h-BN top layer was found to improve the long-term stability of the tested 2D solar cell under ambient conditions. We observed the evolution of our MoS 2 /WSe 2 solar cell for a month and found that h-BN passivation effectively suppressed its degradation speed. In particular, the degradation speed of the passivated cell was twice as low as that of a nonpassivated cell. This work reveals that h-BN can successfully suppress the electrical loss and degradation of 2D vdW heterojunction solar cells under ambient conditions.",
    "authors": [
     "Ah-Jin Cho",
     "Jang-Yeon Kwon"
@@ -12860,8 +12858,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type": "article",
-   "ab_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Vis–IR Wide-Spectrum Photodetector at Room Temperature Based on p–n Junction-Type GaAs 1– x Sb x /InAs Core–Shell Nanowire",
@@ -13340,7 +13337,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -13633,7 +13630,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 3
+   "ab_tried": 4
   },
   {
    "title": "Comment on “Unbiased solar H 2 production with current density up to 23 mA cm −2 by Swiss-cheese black Si coupled with wastewater bioanode” by L. Lu, W. Vakki, J. A. Aguiar, C. Xiao, K. Hurst, M. Fairchild, X. Chen, F. Yang, J. Gu and Z. J. Ren, Energy Environ. Sci. , 2019, 12 , 1088",
@@ -13652,7 +13649,7 @@
     "photoelectrochemical"
    ],
    "type": "comment",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -13759,7 +13756,8 @@
     "single junction"
    ],
    "type": "article",
-   "oa_type": "article"
+   "oa_type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Tuning Methylammonium Iodide Amount in Organolead Halide Perovskite Materials by Post-Treatment for High-Efficiency Solar Cells",
@@ -14058,7 +14056,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2019-09-23",
-   "abstract": ". We rationalize our observations by proposing the first example of a mechanistic pathway where two distinct yet interconnected photoredox cycles provide access to an extended reduction potential window capable of engaging a wide range of energy demanding and synthetically relevant organic substrates including aryl halides.",
+   "abstract": "We report the discovery of a tandem catalytic process to reduce energy demanding substrates, using the [Ir(ppy) 2 (dtb-bpy)] + ( 1 + ) photocatalyst. The immediate products of photoinitiated electron transfer (PET) between 1 + and triethylamine (TEA) undergo subsequent reactions to generate a previously unknown, highly reducing species ( 2 ). Formation of 2 occurs via reduction and semisaturation of the ancillary dtb-bpy ligand, where the TEA radical cation serves as an effective hydrogen atom donor, confirmed by nuclear magnetic resonance, mass spectrometry, and deuterium labeling experiments. Steady-state and time-resolved luminescence and absorption studies reveal that upon irradiation, 2 undergoes electron transfer or proton-coupled electron transfer (PCET) with a representative acceptor ( N -(diphenylmethylene)-1-phenylmethanamine; S ). Turnover of this new photocatalytic cycle occurs along with the reformation of 1 + . We rationalize our observations by proposing the first example of a mechanistic pathway where two distinct yet interconnected photoredox cycles provide access to an extended reduction potential window capable of engaging a wide range of energy demanding and synthetically relevant organic substrates including aryl halides.",
    "authors": [
     "Timothy U. Connell",
     "Catherine L. Fraser",
@@ -14080,8 +14078,7 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type": "article",
-   "ab_tried": 3
+   "oa_type": "article"
   },
   {
    "title": "Self‐Powered UV–Vis–NIR Photodetector Based on Conjugated‐Polymer/CsPbBr 3 Nanowire Array",
@@ -14111,7 +14108,7 @@
    "journal": "ACS Energy Letters",
    "publisher": "ACS",
    "date": "2019-09-23",
-   "abstract": "We demonstrate a record short-circuit current density (28.06 mA/cm2) in a single-junction perovskite solar cell with a 1.6 eV bandgap absorber. We achieve this by integrating a ternary organic bulk heterojunction structure into a perovskite top layer to extend the photoresponse to the near-infrared region.",
+   "abstract": "We demonstrate a record short-circuit current density (28.06 mA/cm 2 ) in a single-junction perovskite solar cell with a 1.6 eV bandgap absorber. We achieve this by integrating a ternary organic bulk heterojunction structure into a perovskite top layer to extend the photoresponse to the near-infrared region.",
    "authors": [
     "Wei Chen",
     "Huiliang Sun",
@@ -14126,8 +14123,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type": "article",
-   "ab_tried": 3
+   "oa_type": "article"
   },
   {
    "title": "Perovskite Sr 1– x (Na 0.5 Bi 0.5 ) x Ti 0.99 Mn 0.01 O 3 Thin Films with Defect Dipoles for High Energy-Storage and Electrocaloric Performance",
@@ -14180,7 +14176,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -14276,7 +14272,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -15475,7 +15471,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -16155,7 +16151,8 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type": "article"
+   "oa_type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Reversible Removal of Intermixed Shallow States by Light Soaking in Multication Mixed Halide Perovskite Films",
@@ -16163,7 +16160,7 @@
    "journal": "ACS Energy Letters",
    "publisher": "ACS",
    "date": "2019-09-05",
-   "abstract": ", be removed by light soaking, which leads to a reduction in the imbalance between the diffusional motion of electrons and holes. We interpret the shallow states as a result of initially well-intermixed halide distributions, which upon light soaking segregate into domains with distinct band gaps.",
+   "abstract": "High Resolution Image Download MS PowerPoint Slide The highest reported efficiencies of metal halide perovskite (MHP) solar cells are all based on mixed perovskites, such as (FA,MA,Cs)Pb(I 1– x Br x ) 3 . Despite demonstrated structural changes induced by light soaking, it is unclear how the charge carrier dynamics are affected across this entire material family. Here, various (FA,MA,Cs)Pb(I 1– x Br x ) 3 perovskite films are light-soaked in nitrogen, and changes in optoelectronic properties are investigated through time-resolved microwave conductivity (TRMC) and optical and structural techniques. To fit the TRMC decay kinetics obtained for pristine (FA,MA,Cs)Pb(I 1– x Br x ) 3 for various excitation densities, additional shallow states have to be included, which are not required for describing TRMC traces of single-cation MHPs. These shallow states can, independently of x, be removed by light soaking, which leads to a reduction in the imbalance between the diffusional motion of electrons and holes. We interpret the shallow states as a result of initially well-intermixed halide distributions, which upon light soaking segregate into domains with distinct band gaps.",
    "authors": [
     "Dengyang Guo",
     "Zahra Andaji Garmaroudi",
@@ -16177,8 +16174,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type": "article",
-   "ab_tried": 3
+   "oa_type": "article"
   },
   {
    "title": "High-Efficiency and Stable Perovskite Solar Cells Prepared Using Chlorobenzene/Acetonitrile Antisolvent",
@@ -16403,7 +16399,7 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -16426,7 +16422,7 @@
     "water splitting"
    ],
    "type": "review",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -16552,7 +16548,7 @@
     "solar cells"
    ],
    "type": "comment",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "erratum"
   },
   {
@@ -16586,7 +16582,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -17024,7 +17020,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -17074,7 +17070,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2019-08-29",
-   "abstract": "-based photodetectors. Our findings open a new way to obtain high-quality perovskite single crystals and their high-performance photodetectors.",
+   "abstract": "A hybrid perovskite MAPbCl 3 (MA = CH 3 NH 3 + ) single crystal is considered to be one of the most viable candidates for the development of photodetectors because of its outstanding optoelectronic properties. However, the relatively lower crystalline quality of the reported MAPbCl 3 single crystals fabricated by the traditional one-step inverse temperature crystallization results in momentous degradation in the performance of their photodetectors. Here, we present a novel two-step temperature process to fabricate high-quality MAPbCl 3 single crystals, namely, lower temperature nucleation and higher temperature crystallization. These MAPbCl 3 single crystals present low defect density (∼7.9 × 10 9 cm –3 ) commensurate with the best-quality crystals of hybrid organic–inorganic lead halide perovskites reported so far. Moreover, a high-performance ultraviolet photodetector was demonstrated on MAPbCl 3 single crystals. At 30 V, the peak responsivity at 415 nm of the photodetector is as high as 3.73 A W –1 (light intensity = 1 mW cm –2 ), ∼2–3 orders of magnitude higher than that of the previously reported MAPbCl 3 photodetectors. Meanwhile, the device has an ultrafast response speed with a rise time of 130 ns, which is one of the shortest values of MAPbX 3 -based photodetectors. Our findings open a new way to obtain high-quality perovskite single crystals and their high-performance photodetectors.",
    "authors": [
     "Zhen Cheng",
     "Kewei Liu",
@@ -17093,7 +17089,6 @@
     "photodetector"
    ],
    "type": "article",
-   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -17766,7 +17761,7 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -17947,7 +17942,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -17966,7 +17961,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -18000,7 +17995,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -18164,7 +18159,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2019-08-20",
-   "abstract": "H perovskite-betavoltaic devices based on results of the Geant4 simulation, respectively. These results indicate the brilliant prospects of perovskite materials in betavoltaic power sources.",
+   "abstract": "Betavoltaic devices are very appealing to applications in out-space exploration, deep-sea facilities, and implantable medical devices for their ultralong lifetime and high power density. The key to further improve the betavoltaic device efficiency is to find proper semiconductor materials with long carrier diffusion lengths and having strong interactions with β-particles. Halide perovskite would be a promising candidate material for betavoltaics due to the long carrier diffusion length, the high defect tolerance, the strong interaction with β-particles, and the wide adjustable band gap. Until now, little research has been done on perovskite-betavoltaic devices. In this work, we demonstrated a prototype perovskite-betavoltaic cell with a power conversion efficiency of 3.56% and a maximum output power of 534 nW, under electron radiation equivalent to a 10 keV and 253 mCi source mimicked by an electron gun. The device efficiency can be further improved via the device structure optimization and advanced device fabrication technique. Excellent power conversion efficiencies of 21.0 and 19.6% can be achieved for the 63 Ni and 3 H perovskite-betavoltaic devices based on results of the Geant4 simulation, respectively. These results indicate the brilliant prospects of perovskite materials in betavoltaic power sources.",
    "authors": [
     "Zhen Song",
     "Chen Zhao",
@@ -18177,7 +18172,6 @@
     "perovskites"
    ],
    "type": "article",
-   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -18231,7 +18225,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -18971,7 +18965,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -19005,7 +18999,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -19173,7 +19167,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -19246,7 +19240,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -19568,7 +19562,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -20198,7 +20192,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -20225,7 +20219,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -20254,7 +20248,7 @@
     "solar cells"
    ],
    "type": "review",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -20524,7 +20518,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2019-08-07",
-   "abstract": "surface chemistry on PAL composition and energetics, which are critical factors that impact the performance and long stability of these materials in emerging photovoltaic device technologies.",
+   "abstract": "This investigation elucidates critical Brønsted and Lewis acid–base interactions at the titanium dioxide (TiO 2 ) surface that control the interfacial composition and, thus, the energetics of vacuum-processed methylammonium lead iodide (MAPbI 3 ) perovskite active layers (PALs). In situ photoelectron spectroscopy analysis shows that interfacial growth, chemical composition, and energetics of co-deposited methylammonium iodide (MAI)/PbI 2 thin films are significantly different on bare and (3-aminopropyl)triethoxysilane (APTES)-functionalized TiO 2 surfaces. Mass spectroscopy analysis indicates that MAI dissociates into hydrogen iodide and methylamine in the gas phase and suggests that MAPbI 3 nucleation is preceded by adsorption and coupling of these volatile MAI precursors. Prior to MAPbI 3 nucleation on the bare TiO 2 surface, we suggest that high coverages of methylamine adsorbed to surface defect sites (e.g., undercoordinated Ti atoms and hydroxyls) promote island-like growth of large, PbI 2 -rich nuclei that inhibit nucleation and lead to a thick substoichiometric interface layer that impedes charge transport and collection energetics. APTES functional groups passivate TiO 2 surface defects and facilitate more conformal growth of small, PbI 2 -rich nuclei that enhance MAPbI 3 nucleation and significantly improve interfacial energetics for charge transport and extraction. This work highlights the considerable influence of TiO 2 surface chemistry on PAL composition and energetics, which are critical factors that impact the performance and long stability of these materials in emerging photovoltaic device technologies.",
    "authors": [
     "R. Clayton Shallcross",
     "Selina Olthof",
@@ -20536,7 +20530,6 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -21051,7 +21044,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -21654,7 +21647,8 @@
     "ion migration"
    ],
    "type": "article",
-   "oa_type": "article"
+   "oa_type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Surface Micro-/Nanotextured Hybrid PEDOT:PSS-Silicon Photovoltaic Cells Employing Kirigami Graphene",
@@ -21927,7 +21921,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -22116,7 +22110,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2019-07-25",
-   "abstract": ", enabling it to be a promising bifunctional catalyst for water electrolysis in real applications.",
+   "abstract": "The concept of using renewable energy to power water electrolyzers is seen as a favorable approach for the production of green and sustainable hydrogen. The electrochemical water splitting can be significantly and efficiently enhanced using bifunctional catalysts, which are active toward both oxygen evolution reaction (OER) and hydrogen evolution reaction (HER). Herein, a stable and high-performance catalyst based on hybrid-metal/metal-hydroxide nanosheet arrays electroplated onto Cu-metallized cotton textile (Co(OH) 2 @Ni) was designed and fabricated as a bifunctional electrocatalyst for complete water-splitting reactions. It was found that the interconnected α-Co(OH) 2 nanosheets were evenly formed onto the metalized cotton textile, and the optimized Co(OH) 2 @Ni sample exhibited an overpotential of +96 mV at 10 mA cm –2, with excellent stability toward HER. The as-prepared catalyst also showed superior electrochemical activity and durability toward OER, which was found to be comparable to those of conventional precious group metal-based catalysts. In addition, when Co(OH) 2 @Ni were assembled as electrodes in a water electrolyzer (1 M KOH), a cell voltage of 1.640 V was achieved at a current density of 10 mA cm –2, enabling it to be a promising bifunctional catalyst for water electrolysis in real applications.",
    "authors": [
     "Zining Wang",
     "Shan Ji",
@@ -22132,7 +22126,6 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -22154,7 +22147,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Gallium Cationic Incorporated Compact TiO2 as an Efficient Electron-Transporting Layer for Stable Perovskite Solar Cells",
@@ -22176,7 +22169,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -22441,7 +22434,7 @@
    ],
    "type": "comment",
    "oa_type": "erratum",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Selective visible-light-driven photocatalytic CO2 reduction to CH4 mediated by atomically thin CuIn5S8 layers",
@@ -23207,7 +23200,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -23403,7 +23396,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2019-07-15",
-   "abstract": "and exhibits long-term stability and outperforms most other state-of-the-art electrocatalysts. The reported electrocatalyst activation approach by anion doping can be adapted for other transition-metal chalcogenides for water electrolysis, offering great promise for future applications.",
+   "abstract": "Iron–nickel sulfide ((Ni,Fe) 3 S 2 ) is one of the most promising bifunctional electrocatalysts for both the hydrogen evolution reaction (HER) and oxygen evolution reaction (OER) in alkaline media because of their metallic conductivity and low cost. However, the reported HER activity of (Ni,Fe) 3 S 2 is still unsatisfactory. Herein, three-dimensional self-supported phosphorus-doped (Ni,Fe) 3 S 2 nanosheet arrays on Ni foam (P-(Ni,Fe) 3 S 2 /NF) are synthesized by a simple one-step simultaneous phosphorization and sulfuration route, which exhibits dramatically enhanced HER activity as well as drives remarkable OER activity. The incorporation of P significantly optimized the hydrogen/water absorption free energy (Δ G H* /Δ G H 2 O* ), enhanced electrical conductivity, and increased electrochemical surface area. Accordingly, the optimal P-(Ni,Fe) 3 S 2 /NF exhibits relatively low overpotentials of 98 and 196 mV at 10 mA cm –2 for HER and OER in 1 M KOH, respectively. Furthermore, an alkaline electrolyzer comprising the P-(Ni,Fe) 3 S 2 /NF electrodes needs a very low cell voltage of 1.54 V at 10 mA cm –2 and exhibits long-term stability and outperforms most other state-of-the-art electrocatalysts. The reported electrocatalyst activation approach by anion doping can be adapted for other transition-metal chalcogenides for water electrolysis, offering great promise for future applications.",
    "authors": [
     "Caichi Liu",
     "Dongbo Jia",
@@ -23420,8 +23413,7 @@
     "water splitting"
    ],
    "type": "article",
-   "oa_type": "article",
-   "ab_tried": 3
+   "oa_type": "article"
   },
   {
    "title": "Perovskite Solar Cells: High‐Performance and Stable Perovskite Solar Cells Based on Dopant‐Free Arylamine‐Substituted Copper(II) Phthalocyanine Hole‐Transporting Materials (Adv. Energy Mater. 26/2019)",
@@ -24156,7 +24148,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -24177,7 +24169,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -24215,7 +24207,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -24448,7 +24440,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -24472,7 +24464,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -24501,7 +24493,7 @@
     "perovskites"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -24808,7 +24800,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "A Mechanically Robust Conducting Polymer Network Electrode for Efficient Flexible Perovskite Solar Cells",
@@ -24841,7 +24833,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -25434,7 +25426,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -25496,7 +25488,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2019-06-27",
-   "abstract": "encompasses it as a promising candidate for anode material in the intermediate-temperature solid oxide fuel cell (IT-SOFC) application.",
+   "abstract": "Lanthanum (La 3+ )-doped double perovskites Sr 2 CoMoO 6 (Sr 2– x La x CoMoO 6, 0.00 ≤ x ≤ 0.03) were synthesized via the citrate–nitrate autocombustion route. The Reitveld refinement analysis of X-ray diffraction reveals the tetragonal symmetry as the main phase with space group I 4/ m and also confirms the presence of some peaks corresponding to extra phase SrMoO 4 . The SEM micrograph images reflect that grains are in irregular shape and sizes for all samples. Average grain size gradually decreases with the increase of the SrMoO 4 phase. The X-ray photoelectron spectroscopy (XPS) analysis confirms the presence of mixed valence states of Mo 5+ /Mo 6+, Co 2+ /Co 3+, and O-lattice/O-chemisorbed/O-physisorbed species. Coefficient of thermal expansion (CTE) analysis shows that the particular composition Sr 1.97 La 0.03 CoMoO 6 has the lowest CTE value among the compositions studied. The electrical conductivity of Sr 2 CoMoO 6 is enhanced effectively by doping La at Sr sites. The measured area-specific resistance (ASR) for the composition Sr 1.97 La 0.03 CoMoO 6 (SLCM03) is found to be appreciably low, ∼0.053 Ohm cm –2 at 800 °C. The obtained highest electrical conductivity with the lowest activation energy and low ASR value for the composition Sr 1.97 La 0.03 CoMoO 6 encompasses it as a promising candidate for anode material in the intermediate-temperature solid oxide fuel cell (IT-SOFC) application.",
    "authors": [
     "Pravin Kumar",
     "Paramananda Jena",
@@ -25511,7 +25503,6 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -25606,7 +25597,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -25626,7 +25617,7 @@
     "water splitting"
    ],
    "type": "review",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -25703,7 +25694,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 3
+   "ab_tried": 4
   },
   {
    "title": "Organic Solar Cells: Facile Synthesis of Polycyclic Aromatic Hydrocarbon (PAH)–Based Acceptors with Fine‐Tuned Optoelectronic Properties: Toward Efficient Additive‐Free Nonfullerene Organic Solar Cells (Adv. Energy Mater. 24/2019)",
@@ -25857,7 +25848,7 @@
     "co2 reduction"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -26244,7 +26235,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -26371,7 +26362,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -26585,7 +26576,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -26659,7 +26650,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Spin-Coating Process for 10 cm × 10 cm Perovskite Solar Modules Enabled by Self-Assembly of SnO 2 Nanocolloids",
@@ -26738,7 +26729,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -26769,7 +26760,7 @@
     "co2 reduction"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -26799,7 +26790,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -27122,7 +27113,7 @@
     "water splitting"
    ],
    "type": "review",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -27565,7 +27556,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -27592,7 +27583,7 @@
     "solar cells"
    ],
    "type": "review",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -27981,7 +27972,7 @@
    ],
    "type": "review",
    "oa_type": "article",
-   "ab_tried": 3
+   "ab_tried": 4
   },
   {
    "title": "High‐Yield Electrochemical Production of Large‐Sized and Thinly Layered NiPS 3 Flakes for Overall Water Splitting",
@@ -28042,7 +28033,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -28061,7 +28052,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "other"
   },
   {
@@ -28137,7 +28128,7 @@
     "solar cells"
    ],
    "type": "review",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -28183,7 +28174,8 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type": "article"
+   "oa_type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Improving the Activity for Oxygen Evolution Reaction by Tailoring Oxygen Defects in Double Perovskite Oxides",
@@ -28334,7 +28326,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2019-06-07",
-   "abstract": "materials per se but diffusion-limited crystallization. The planar structure of ITIC and potentially other non-fullerene acceptors readily facilitates the desired glass-crystal transition, which constitutes a significant advantage over fullerenes, and may pave the way for truly stable organic solar cells.",
+   "abstract": "High Resolution Image Download MS PowerPoint Slide Organic solar cells are thought to suffer from poor thermal stability of the active layer nanostructure, a common belief that is based on the extensive work that has been carried out on fullerene-based systems. We show that a widely studied non-fullerene acceptor, the indacenodithienothiophene-based acceptor ITIC, crystallizes in a profoundly different way as compared to fullerenes. Although fullerenes are frozen below the glass-transition temperature T g of the photovoltaic blend, ITIC can undergo a glass-crystal transition considerably below its high T g of ∼180 °C. Nanoscopic crystallites of a low-temperature polymorph are able to form through a diffusion-limited crystallization process. The resulting fine-grained nanostructure does not evolve further with time and hence is characterized by a high degree of thermal stability. Instead, above T g, the low temperature polymorph melts, and micrometer-sized crystals of a high-temperature polymorph develop, enabled by more rapid diffusion and hence long-range mass transport. This leads to the same detrimental decrease in photovoltaic performance that is known to occur also in the case of fullerene-based blends. Besides explaining the superior thermal stability of non-fullerene blends at relatively high temperatures, our work introduces a new rationale for the design of bulk heterojunctions that is not based on the selection of high- T g materials per se but diffusion-limited crystallization. The planar structure of ITIC and potentially other non-fullerene acceptors readily facilitates the desired glass-crystal transition, which constitutes a significant advantage over fullerenes, and may pave the way for truly stable organic solar cells.",
    "authors": [
     "Liyang Yu",
     "Deping Qian",
@@ -28358,8 +28350,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type": "article",
-   "ab_tried": 3
+   "oa_type": "article"
   },
   {
    "title": "Hierarchical Nanoassembly of MoS 2 /Co 9 S 8 /Ni 3 S 2 /Ni as a Highly Efficient Electrocatalyst for Overall Water Splitting in a Wide pH Range",
@@ -28408,7 +28399,7 @@
     "co2 electroreduction"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -28714,7 +28705,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Accelerated Development of Perovskite-Inspired Materials via High-Throughput Synthesis and Machine-Learning Diagnosis",
@@ -28748,7 +28739,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -28772,7 +28763,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -28803,7 +28794,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -29339,7 +29330,7 @@
     "perovskite"
    ],
    "type": "comment",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "editorial"
   },
   {
@@ -29369,7 +29360,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -29619,7 +29610,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -29715,7 +29706,7 @@
    ],
    "type": "comment",
    "oa_type": "erratum",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Earth-Abundant Molecular Z-Scheme Photoelectrochemical Cell for Overall Water-Splitting",
@@ -29979,7 +29970,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "The Second Spacer Cation Assisted Growth of a 2D Perovskite Film with Oriented Large Grain for Highly Efficient and Stable Solar Cells",
@@ -30084,7 +30075,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 3
+   "ab_tried": 4
   },
   {
    "title": "Conjugated Polymers: Conjugated Donor–Acceptor Terpolymers Toward High‐Efficiency Polymer Solar Cells (Adv. Mater. 22/2019)",
@@ -30391,7 +30382,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -30970,7 +30961,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -31131,7 +31122,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2019-05-16",
-   "abstract": "",
+   "abstract": "The high-efficiency photocarrier collection at the interfaces plays an important role in improving the performance of perovskite solar cells (PSCs) because the photocarrier effective diffusion lengths in the lead halide perovskite absorbers usually surpass the incident depths of light. Developing the electron selective layer (ESL) that has good interfaces with photoactive perovskite and current collector layer-like fluorine-doped tin oxide (FTO) is actively pursued. Here, an unusual dense film of faceted rutile TiO 2 single crystals with a gradient of the Sn 4+ dopant grown heteroepitaxially on the FTO layer is obtained by a hydrothermal route and subsequent thermal treatment. Owing to the global features including low concentration of defects, atomically smooth coherent interface with FTO, and gradient doping-induced built-in electric field to promote the collection of photoelectrons in it, an optimal PSC with such a film as the ESL exhibits an efficiency of 17.2% with an open-circuit voltage of 1.1 V and fill factor of 76.1%, which are among the highest values of the PSCs with rutile TiO 2 films as ESLs.",
    "authors": [
     "Tingting Wu",
     "Chao Zhen",
@@ -31150,7 +31141,6 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -31203,7 +31193,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -31232,7 +31222,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -31389,7 +31379,7 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -31458,7 +31448,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2019-05-14",
-   "abstract": "value of 1.27 V and a negligible hysteresis effect. This work explicates the high compatibility of all-inorganic perovskite materials and unlocks the opportunities for the use of high-valence ions for perovskite property modification.",
+   "abstract": "All-inorganic perovskites are attracting increasing attention due to their superior thermal stability than that of the traditional CH 3 NH 3 PbI 3, while their inferior phase stability in ambient conditions is still an unsolved issue. Here, for the first time, we report the incorporation of niobium (Nb 5+ ) ions into the CsPbI 2 Br perovskite. Results indicate that Nb 5+ can effectively stabilize the photoactive α-CsPbI 2 Br phase by the possible substitution of Pb 2+ . With 0.5% Nb doping, the carbon electrode-based all-inorganic perovskite solar cells achieved a high photoconversion efficiency value of 10.42%, 15% higher than that of the control device. The Nb 5+ incorporation reduces the charge recombination in the perovskite, leading to a champion V oc value of 1.27 V and a negligible hysteresis effect. This work explicates the high compatibility of all-inorganic perovskite materials and unlocks the opportunities for the use of high-valence ions for perovskite property modification.",
    "authors": [
     "Zhanglin Guo",
     "Shuai Zhao",
@@ -31477,7 +31467,6 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -32066,7 +32055,7 @@
    ],
    "type": "comment",
    "oa_type": "erratum",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Graphite-protected CsPbBr3 perovskite photoanodes functionalised with water oxidation catalyst for oxygen evolution in water",
@@ -32359,7 +32348,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2019-05-07",
-   "abstract": "material gives an optimized PCE of 17.04%. The results highlight the strong promise of 3D hollow mixed Pb/Sn perovskites in achieving ideal band gap materials with higher chemical stability and lower Pb content for high-performance single-junction solar cells or multijunction solar cells serving as bottom cells.",
+   "abstract": "The power conversion efficiency (PCE) of halide perovskite solar cells is now comparable to that of commercial solar cells. These solar cells are generally based on multication mixed-halide perovskite absorbers with nonideal band gaps of 1.5–1.6 eV. The PCE should be able to rise further if the solar cells could use narrower-band gap absorbers (1.2–1.4 eV). Reducing the Pb content of the semiconductors without sacrificing performance is also a significant driver in the perovskite solar cell research. Here, we demonstrate that mixed Pb/Sn-based perovskites containing the oversized ethylenediammonium ( en ) dication, { en }FA 0.5 MA 0.5 Sn 0.5 Pb 0.5 I 3 (FA = formamidinium, MA = methylammonium), can exhibit ideal band gaps of 1.27–1.38 eV, suitable for the assembly of single-junction solar cells with higher efficiencies. The use of en dication creates a three-dimensional (3D) hollow inorganic perovskite structure, which was verified through crystal density measurements and single-crystal X-ray diffraction structural analysis as well as nuclear magnetic resonance measurements. The { en }FA 0.5 MA 0.5 Sn 0.5 Pb 0.5 I 3 structure has massive Pb/Sn vacancies and much higher chemical stability than the same structure without en and vacancies. This new property reduces the dark current and carrier trap density and increases the carrier lifetime of the Pb/Sn-based perovskite films. Therefore, solar cells using { en }FA 0.5 MA 0.5 Sn 0.5 Pb 0.5 I 3 light absorbers have substantially enhanced air stability and around 20% improvement in efficiency. After overlaying a thin MABr top layer, we found that the {5% en }FA 0.5 MA 0.5 Sn 0.5 Pb 0.5 I 3 material gives an optimized PCE of 17.04%. The results highlight the strong promise of 3D hollow mixed Pb/Sn perovskites in achieving ideal band gap materials with higher chemical stability and lower Pb content for high-performance single-junction solar cells or multijunction solar cells serving as bottom cells.",
    "authors": [
     "Weijun Ke",
     "Ioannis Spanopoulos",
@@ -32376,8 +32365,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type": "article",
-   "ab_tried": 3
+   "oa_type": "article"
   },
   {
    "title": "Defect and Contact Passivation for Perovskite Solar Cells",
@@ -32813,7 +32801,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -32840,7 +32828,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -32941,7 +32929,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -33456,7 +33444,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -33600,7 +33588,7 @@
     "solar cells"
    ],
    "type": "comment",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "erratum"
   },
   {
@@ -33623,7 +33611,7 @@
     "solar cells"
    ],
    "type": "review",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -33754,7 +33742,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -33956,7 +33944,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -34101,7 +34089,7 @@
     "photovoltaic"
    ],
    "type": "review",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -34368,7 +34356,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -34450,7 +34438,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -34739,7 +34727,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -34763,7 +34751,7 @@
     "perovskite"
    ],
    "type": "comment",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "erratum"
   },
   {
@@ -34861,7 +34849,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -34902,7 +34890,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Room‐Temperature Meniscus Coating of >20% Perovskite Solar Cells: A Film Formation Mechanism Investigation",
@@ -35088,7 +35076,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -35119,7 +35107,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 3
+   "ab_tried": 4
   },
   {
    "title": "Anion‐Modulated HER and OER Activities of 3D Ni–V‐Based Interstitial Compound Heterojunctions for High‐Efficiency and Stable Overall Water Splitting",
@@ -35430,7 +35418,7 @@
     "perovskite"
    ],
    "type": "comment",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "erratum"
   },
   {
@@ -35485,7 +35473,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -35742,7 +35730,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -35908,7 +35896,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -36030,7 +36018,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -36353,7 +36341,7 @@
     "perovskite"
    ],
    "type": "comment",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "paratext"
   },
   {
@@ -37396,7 +37384,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "High‐Performance Solution‐Processed Organo‐Metal Halide Perovskite Unipolar Resistive Memory Devices in a Cross‐Bar Array Structure",
@@ -37868,7 +37856,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "20.7% highly reproducible inverted planar perovskite solar cells with enhanced fill factor and eliminated hysteresis",
@@ -37896,7 +37884,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -38634,7 +38622,7 @@
     "photovoltaics"
    ],
    "type": "comment",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "editorial"
   },
   {
@@ -38795,7 +38783,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -38982,7 +38970,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -39520,7 +39508,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -39576,7 +39564,7 @@
    "journal": "ACS Energy Letters",
    "publisher": "ACS",
    "date": "2019-03-12",
-   "abstract": "A monolithic two-terminal perovskite/silicon tandem solar cell based on an industrial, high-temperature tolerant p-type crystalline silicon bottom cell with a steady-state power conversion efficiency of 25.1% is demonstrated.",
+   "abstract": "A monolithic two-terminal perovskite/silicon tandem solar cell based on an industrial, high-temperature tolerant p -type crystalline silicon bottom cell with a steady-state power conversion efficiency of 25.1% is demonstrated.",
    "authors": [
     "G. Nogay",
     "F. Sahli",
@@ -39596,7 +39584,6 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -39781,7 +39768,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -39799,7 +39786,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -39861,7 +39848,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -39974,7 +39961,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -40001,7 +39988,7 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -40226,7 +40213,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -40627,7 +40614,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -40741,7 +40728,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -40992,7 +40979,7 @@
    "journal": "Nature Communications",
    "publisher": "Nature",
    "date": "2019-02-27",
-   "abstract": "",
+   "abstract": "Asahi et al. recently reported 1 record increases (ΔEQE) in the external quantum efficiency (EQE) of a heterojunction solar cell when it is illuminated with below-bandgap energy light. The EQE is the ratio of photocurrent electron flux to incident photon flux at zero bias. This ‘two-step photon up-conversion’ effect offers a way of breaking the 31% theoretical Shockley–Queisser solar cell efficiency limit 2 . However, the device transport is very temperature sensitive, and a 10 K temperature rise (see Fig. 3b, ref. 1 ) increases the photocurrent by about 30% on its own 1 . The below-bandgap light is continuous wave (CW) and intense (about 360 mW cm −2 ). Here it is argued that the observed photocurrent increase is due to sample heating, not direct photoexcitation.",
    "authors": [
     "Chris C. Phillips"
    ],
@@ -41001,7 +40988,6 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -41010,7 +40996,7 @@
    "journal": "Nature Communications",
    "publisher": "Nature",
    "date": "2019-02-27",
-   "abstract": "Nature Communications - Reply to: “Thermal artefacts in two-photon solar cell experiments”",
+   "abstract": "Two-step photon up-conversion solar cells (TPU-SCs) are among the most promising photovoltaic devices 1 , 2 . In our previous works, we demonstrated the increase in the open-circuit voltage as well as the short-circuit current induced by the additional infrared (IR) light 1 . Phillips suggested that this phenomenon could be attributed to the sample heating 2 . Here, we present additional data suggesting that photoexcitation might be the cause. In the TPU-SC, the up-conversion is achieved by a series of two-step photoexcitation. By absorbing a below-gap photon, an electron transits from the valence band to the conduction band of the narrow bandgap semiconductor. Upon absorption of another below-gap photon, the electron accumulated at the hetero-interface is further pumped into the conduction band of the wide bandgap semiconductor. This ideal TPU process, following the absorption of two below-gap photons, produces additional photocurrent and boosts the photovoltage depending on the band offset at the hetero-interface. In this Reply to Matters Arising, we discuss the excitation power dependence of the external quantum efficiency (EQE) observed in TPU-SC and the efficient intraband excitation at the hetero-interface.",
    "authors": [
     "Shigeo Asahi",
     "Takashi Kita"
@@ -41020,8 +41006,7 @@
     "solar cell"
    ],
    "type": "comment",
-   "oa_type": "letter",
-   "ab_tried": 2
+   "oa_type": "letter"
   },
   {
    "title": "Formal Aza‐Wacker Cyclization by Tandem Electrochemical Oxidation and Copper Catalysis",
@@ -41452,7 +41437,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -41481,7 +41466,7 @@
     "perovskite"
    ],
    "type": "comment",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "erratum"
   },
   {
@@ -41825,7 +41810,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2019-02-21",
-   "abstract": "), owing to the deep donor states present near the InGaN/AlN interface. It shows a responsivity of 9.64 A/W with rise and fall times of 19.9 and 21.4 μs, respectively. A relation between the open circuit voltage and the responsivity has been realized.",
+   "abstract": "A self-powered, broad band and ultrafast photodetector based on n + -InGaN/AlN/n-Si(111) heterostructure is demonstrated. Si-doped (n + type) InGaN epilayer was grown by plasma-assisted molecular beam epitaxy on a 100 nm thick AlN template on an n-type Si(111) substrate. The n + -InGaN/AlN/n-Si(111) devices exhibit excellent self-powered photoresponse under UV–visible (300–800 nm) light illumination. The maximum response of this self-powered photodetector is observed at 580 nm for low-intensity irradiance (0.1 mW/cm 2 ), owing to the deep donor states present near the InGaN/AlN interface. It shows a responsivity of 9.64 A/W with rise and fall times of 19.9 and 21.4 μs, respectively. A relation between the open circuit voltage and the responsivity has been realized.",
    "authors": [
     "Arun Malla Chowdhury",
     "Greeshma Chandan",
@@ -41840,7 +41825,6 @@
     "photodetector"
    ],
    "type": "article",
-   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -42066,7 +42050,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -42580,7 +42564,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -42609,7 +42593,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -43006,7 +42990,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -43535,7 +43519,7 @@
     "perovskites"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -45463,7 +45447,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2019-01-28",
-   "abstract": "(0.21 ps, 5.8 meV/fs). The cation dependence can be explained by stronger interaction between the organic cations with the Pb-Br frameworks compared to the Cs. The revealed cation-dependent HC relaxation process is important for providing cation engineering strategies for developing high performance LHP devices.",
+   "abstract": "Lead halide perovskites (LHPs) nanocrystals (NCs), owing to their outstanding photophysical properties, have recently emerged as a promising material not only for solar cells but also for lighting and display applications. The photophysical properties of these materials can be further improved by chemical engineering such as cation exchange. Hot carrier (HC) cooling, as one of the key photophysical processes in LHPs, can strongly influence performance of LHPs NCs based devices. Here, we study HC relaxation dynamics in LHP NCs with cesium (Cs), methylammonium (MA, CH 3 NH 3 + ), and formamidinium (FA, CH(NH 2 ) 2 + ) cations by using femtosecond transient absorption spectroscopy. The LHP NCs show excitation intensity and excitation energy-dependent HC cooling. We investigate the details of HC cooling in CsPbBr 3, MAPbBr 3, and FAPbBr 3 at three different excitation energies with low excitation intensity. It takes longer time for the HCs at high energy to relax (cool) to the band edge, compared to the HCs generated by low excitation energy. At the same excitation energy (350 nm, 3.54 eV), all the three LHP NCs show fast HC relaxation ( MAPbBr 3 (0.27 ps, 4.6 meV/fs) > FAPbBr 3 (0.21 ps, 5.8 meV/fs). The cation dependence can be explained by stronger interaction between the organic cations with the Pb–Br frameworks compared to the Cs. The revealed cation-dependent HC relaxation process is important for providing cation engineering strategies for developing high performance LHP devices.",
    "authors": [
     "Junsheng Chen",
     "Maria E. Messing",
@@ -45476,8 +45460,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type": "article",
-   "ab_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Highly Efficient Fullerene-Free Organic Solar Cells Operate at Near Zero Highest Occupied Molecular Orbital Offsets",
@@ -45935,7 +45918,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -46265,7 +46248,7 @@
     "water splitting"
    ],
    "type": "review",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -46779,7 +46762,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -46800,7 +46783,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -46837,7 +46820,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -47086,7 +47069,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -47286,7 +47269,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -47375,7 +47358,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Quantum and Dielectric Confinement Effects in Lower-Dimensional Hybrid Perovskite Semiconductors",
@@ -47479,7 +47462,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -47835,7 +47818,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -47885,7 +47868,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2019-01-09",
-   "abstract": "",
+   "abstract": "High Resolution Image Download MS PowerPoint Slide Ultrathin metal oxides prepared by atomic layer deposition (ALD) have gained utmost attention as moisture and thermal stress barrier layers in perovskite solar cells (PSCs). We have recently shown that 10 cycles of ALD Al 2 O 3 deposited directly on top of the CH 3 NH 3 PbI 3– x Cl x perovskite material, are effective in delivering a superior PSC performance with 18% efficiency (compared to 15% of the Al 2 O 3 -free cell) with a long-term humidity-stability of more than 60 days. Motivated by these results, the present contribution focuses on the chemical modification which the CH 3 NH 3 PbI 3– x Cl x perovskite undergoes upon growth of ALD Al 2 O 3 . Specifically, we combine in situ Infrared (IR) spectroscopy studies during film growth, together with X-ray photoelectron spectroscopy (XPS) analysis of the ALD Al 2 O 3 /perovskite interface. The IR-active signature of the NH 3 + stretching mode of the perovskite undergoes minimal changes upon exposure to ALD cycles, suggesting no diffusion of ALD precursor and co-reactant (Al(CH 3 ) 3 and H 2 O) into the bulk of the perovskite. However, by analyzing the difference between the IR spectra associated with the Al 2 O 3 coated perovskite and the pristine perovskite, respectively, changes occurring at the surface of perovskite are monitored. The abstraction of either NH 3 or CH 3 NH 2 from the perovskite surface is observed as deduced by the development of negative N–H bands associated with its stretching and bending modes. The IR investigations are corroborated by XPS study, confirming the abstraction of CH 3 NH 2 from the perovskite surface, whereas no oxidation of its inorganic framework is observed within the ALD window process investigated in this work. In parallel, the growth of ALD Al 2 O 3 on perovskite is witnessed by the appearance of characteristic IR-active Al–O–Al phonon and (OH)–Al═O stretching modes. Based on the IR and XPS investigations, a plausible growth mechanism of ALD Al 2 O 3 on top of perovskite is presented.",
    "authors": [
     "Dibyashree Koushik",
     "Lotte Hazendonk",
@@ -47900,7 +47883,6 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -48426,7 +48408,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -48499,7 +48481,7 @@
     "water splitting"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -48557,7 +48539,7 @@
     "solar cells"
    ],
    "type": "review",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
