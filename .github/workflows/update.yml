@@ -1,14 +1,26 @@
 name: Historical backfill (one-time)
-# Manual only: go to the Actions tab, pick this workflow, click "Run workflow".
-# It pulls the back-catalogue from Crossref (since start_date in feeds.py) and
-# commits the data files. Re-running is safe; results merge and de-duplicate.
+# Manual only. Three modes:
+#   discover-dry-run  enumerate every journal by ISSN, report counts, write NOTHING
+#   discover          same enumeration, but merge + WRITE the results  <-- the real run
+#   repair-abstracts  fill missing/short abstracts on papers already stored
+# Run `discover` first, then `repair-abstracts` (new papers arrive without abstracts).
+# Safe to re-run: results merge and de-duplicate.
 on:
   workflow_dispatch:
     inputs:
-      dry_run:
-        description: "Dry run (fetch + count only, write nothing)"
-        type: boolean
-        default: false
+      mode:
+        description: "What to run"
+        required: true
+        default: "discover-dry-run"
+        type: choice
+        options:
+          - discover-dry-run
+          - discover
+          - repair-abstracts
+      repair_limit:
+        description: "repair-abstracts only: how many papers to try this run"
+        required: false
+        default: "3000"
 permissions:
   contents: write
 jobs:
@@ -25,20 +37,39 @@ jobs:
         env:
           OPENALEX_KEY: ${{ secrets.OPENALEX_KEY }}
         run: |
-          if [ "${{ inputs.dry_run }}" = "true" ]; then
-            python backfill.py --dry-run
-          else
-            python backfill.py --repair-abstracts --repair-all --repair-limit 3000
-          fi
+          case "${{ inputs.mode }}" in
+            discover-dry-run)
+              python backfill.py --dry-run
+              ;;
+            discover)
+              python backfill.py
+              ;;
+            repair-abstracts)
+              python backfill.py --repair-abstracts --repair-limit "${{ inputs.repair_limit }}"
+              ;;
+            *)
+              echo "Unknown mode: ${{ inputs.mode }}"
+              exit 1
+              ;;
+          esac
       - name: Commit data
-        if: ${{ inputs.dry_run != true }}
+        if: ${{ inputs.mode != 'discover-dry-run' }}
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
           if git diff --staged --quiet; then
             echo "No changes to commit."
-          else
-            git commit -m "Historical backfill: $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git push
+            exit 0
           fi
+          git commit -m "Backfill (${{ inputs.mode }}): $(date -u +'%Y-%m-%d %H:%M UTC')"
+          for i in 1 2 3; do
+            if git push; then
+              echo "Pushed on attempt $i."
+              exit 0
+            fi
+            echo "Push rejected (remote moved); rebasing and retrying..."
+            git pull --rebase --autostash || { echo "Rebase failed."; exit 1; }
+          done
+          echo "Could not push after 3 attempts."
+          exit 1
