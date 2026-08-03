@@ -33,7 +33,7 @@ from feeds import ISSNS, CORE_QUERIES, SETTINGS
 # reuse the daily job's helpers so filtering/merging behave identically
 from aggregate import (clean_text, is_relevant, merge, load_archive,
                        write_archive, _key, pick_crossref_date, classify_type,
-                       fetch_abstract)
+                       fetch_abstract, _better_record)
 
 CROSSREF = "https://api.crossref.org/works"
 WORK = "https://api.crossref.org/works/{}"   # single-DOI lookup (no `select`, full record)
@@ -150,54 +150,105 @@ def _get_with_retry(params, label, tries=5):
     return None
 
 
-def _query_one(term, issn, start_date):
-    """Page through Crossref for one seed term within ONE ISSN. Small request."""
-    params = {
-        "query.bibliographic": term,
-        "filter": f"from-pub-date:{start_date},issn:{issn}",
-        "rows": 1000,
-        "cursor": "*",
-        "select": SELECT,
-    }
-    params.update(_mailto_param())
-    kept = []
-    while True:
-        try:
-            r = _get_with_retry(params, f"'{term}'/{issn}")
-            if r is None:
+def _enumerate_issn(issn, start_date, on_gap, progress=None):
+    """Page through EVERY Crossref record for one ISSN in the window.
+
+    No `query.bibliographic` seed term: relevance is decided locally by
+    is_relevant(), not by Crossref's relevance ranking. A seed-term search only
+    returns what the ranking surfaces, so papers it does not rank highly were
+    silently never seen. Enumeration removes that dependency entirely.
+
+    Both date filters are used and unioned: publishers stamp dates
+    inconsistently, and RSC records in particular fall outside `from-pub-date`,
+    so a pub-date-only query returns nothing for them.
+
+    A request that cannot be recovered calls on_gap(...) instead of silently
+    truncating the stream, so incomplete coverage is reported, not hidden.
+    """
+    kept, seen_dois = [], set()
+    scanned = 0
+    for dfilter in ("from-created-date", "from-pub-date"):
+        params = {
+            "filter": f"{dfilter}:{start_date},issn:{issn}",
+            "rows": 1000,
+            "cursor": "*",
+            "select": SELECT,
+        }
+        params.update(_mailto_param())
+        while True:
+            try:
+                r = _get_with_retry(params, f"{issn}/{dfilter}")
+            except Exception as exc:  # noqa: BLE001
+                on_gap(issn, dfilter, f"{type(exc).__name__}: {exc}")
                 break
-            msg = r.json().get("message", {})
-        except Exception as exc:  # noqa: BLE001
-            print(f"      !! '{term}' / {issn}: {type(exc).__name__}: {exc}")
-            break
-        items = msg.get("items", [])
-        if not items:
-            break
-        for it in items:
-            rec = normalise(it)
-            if rec:
-                kept.append(rec)
-        cursor = msg.get("next-cursor")
-        if not cursor or len(items) < params["rows"]:
-            break
-        params["cursor"] = cursor
-        time.sleep(1)  # polite
-    time.sleep(0.3)    # small gap between queries to ease rate limits
-    return kept
+            if r is None:
+                on_gap(issn, dfilter, "request failed after retries")
+                break
+            try:
+                msg = r.json().get("message", {})
+            except Exception as exc:  # noqa: BLE001
+                on_gap(issn, dfilter, f"bad JSON: {type(exc).__name__}")
+                break
+            items = msg.get("items", [])
+            if not items:
+                break
+            scanned += len(items)
+            for it in items:
+                doi = (it.get("DOI") or "").strip().lower()
+                if doi and doi in seen_dois:
+                    continue
+                if doi:
+                    seen_dois.add(doi)
+                rec = normalise(it)          # local keyword gate
+                if rec:
+                    kept.append(rec)
+            if progress:
+                progress(scanned, len(kept))
+            cursor = msg.get("next-cursor")
+            if not cursor or len(items) < params["rows"]:
+                break
+            params["cursor"] = cursor
+            time.sleep(1)  # polite
+        time.sleep(0.3)
+    return kept, scanned
 
 
 def backfill_all(start_date):
-    """Per-journal querying: each request carries a single ISSN, so the Crossref
-    filter stays short (the all-ISSNs-in-one-filter approach hit HTTP 400)."""
+    """Enumerate every journal by ISSN and filter locally.
+
+    Replaces the previous seed-query approach, under which a paper entered the
+    archive only if Crossref's relevance search for one of ten broad terms
+    happened to return it -- an assumption that was never measured and that
+    silently omitted papers.
+    """
     by_key, per_journal = {}, {}
+    gaps = []
+
+    def on_gap(issn, dfilter, why):
+        gaps.append((issn, dfilter, why))
+        print(f"      !! GAP {issn} [{dfilter}]: {why}")
+
     for name, issns in ISSNS.items():
         before = len(by_key)
+        scanned_total = 0
         for issn in issns:
-            for term in CORE_QUERIES:
-                for rec in _query_one(term, issn, start_date):
-                    by_key[_key(rec)] = rec        # de-dupe across terms/ISSNs/journals
+            recs, scanned = _enumerate_issn(issn, start_date, on_gap)
+            scanned_total += scanned
+            for rec in recs:
+                key = _key(rec)
+                if key in by_key:
+                    by_key[key] = _better_record(by_key[key], rec)
+                else:
+                    by_key[key] = rec
         per_journal[name] = len(by_key) - before
-        print(f"  {name:<42} +{per_journal[name]:>5} new  (running total {len(by_key)})")
+        print(f"  {name:<42} scanned {scanned_total:>6}  +{per_journal[name]:>5} relevant"
+              f"  (running total {len(by_key)})")
+
+    if gaps:
+        print(f"\n!! {len(gaps)} incomplete request stream(s) -- coverage may have holes:")
+        for issn, dfilter, why in gaps:
+            print(f"   {issn} [{dfilter}]: {why}")
+        print("   Re-run to fill these; results merge and de-duplicate.")
     return list(by_key.values()), per_journal
 
 
@@ -314,7 +365,8 @@ def repair_abstracts(limit=0, dry_run=False, repair_all=False, min_len=200,
 def run(dry_run=False):
     start = SETTINGS["start_date"]
     print(f"Backfilling {len(ISSNS)} journals from {start} via Crossref (per-journal)")
-    print(f"Seed queries: {', '.join(CORE_QUERIES)}\n")
+    print("Mode: full enumeration by ISSN (no seed queries); relevance decided locally.")
+    print("Date filters: from-created-date UNION from-pub-date.\n")
 
     fresh, per_journal = backfill_all(start)
     print(f"\nUnique matching papers from backfill: {len(fresh)}")
