@@ -1,7 +1,7 @@
 {
  "year": "2021",
  "count": 2929,
- "generated": "2026-08-07 01:39 UTC",
+ "generated": "2026-08-07 22:50 UTC",
  "papers": [
   {
    "title": "Multi‐Level Passivation of MAPbI 3 Perovskite for Efficient and Stable Photovoltaics",
@@ -130,7 +130,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2021-12-30",
-   "abstract": "",
+   "abstract": "The development of white-light-emitting polymers has been actively pursued because of the importance of such polymers in various applications, such as lighting sources and displays. To generate white-light, numerous research efforts have focused on synthesizing multifluorophore-based random copolymers to effectively cover the entire visible region. However, due to their intrinsic synthetic and structural features, this strategy has limitations in securing color reproducibility and stability. Herein, we report the development of single-fluorophore-based white-light-emitting homopolymers with excellent color reproducibility. A powerful direct C-H amidation polymerization (DCAP) strategy enabled the synthesis of defect-free polysulfonamides that emit white-light via excited-state intramolecular proton-transfer (ESIPT). To gain structural insights for designing such polymers, we conducted detailed model studies by varying the electronic nature of substituents that allow facile tuning of the emission colors. Further analysis revealed precise control of the thermodynamics of the ESIPT process by fine-tuning the strength of the intramolecular hydrogen bond. By applying this design principle to polymerization, we successfully produced a series of well-defined polysulfonamides with single-fluorophore emitting white-light. The resulting polymers emitted consistent fluorescence, regardless of their molecular weights or phases (i.e., solution, powder, or thin film), guaranteeing excellent color reproducibility. With these advantages in hand, we also demonstrated practical use of our DCAP system by fabricating a white-light-emitting coated LED.",
    "authors": [
     "Soon-Hyeok Hwang",
     "Hongsik Kim",
@@ -165,7 +165,8 @@
     "perovskites",
     "photovoltaics"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Polyacrylonitrile‐Coordinated Perovskite Solar Cell with Open‐Circuit Voltage Exceeding 1.23 V",
@@ -309,7 +310,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2021-12-30",
-   "abstract": "",
+   "abstract": "Oxyfluorides possess considerable attention for their multiple excellent properties, but the conventional high-temperature solid-state syntheses have seen bottlenecks in the synthesis of new compounds. Herein, we report a novel layered oxyfluoride ZnMoO 4:F, which is prepared by a facile hydrothermal method using ZnF 2 as the fluoride source. The fluoride anions are successfully introduced into the oxygen sublattice, which is confirmed by a combined analysis using XRD, STEM, and TGA techniques. The as-synthesized ZnMoO 4:F has an absorption edge at around 550 nm, indicating a red shift of E g to the visible region compared to the oxide counterpart. The layered oxyfluoride exhibits an enhanced photocatalytic active for hydrogen evolution under simulated sunlight (λ > 350 nm), and the activity of ZnMoO 4:F (651.9 μmol g –1 ) was 2 times higher than that of ZnMoO 4 (309.7 μmol g –1 ). Further electrochemical analysis has shown that the conduction band position plays a critical role in the high performances of ZnMoO 4:F. This work sheds new light on the future design and synthesis of novel fluoride-doped materials for photocatalysis applications.",
    "authors": [
     "Liang Tang",
     "Qi Dang",
@@ -332,7 +333,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2021-12-30",
-   "abstract": "",
+   "abstract": "Lead-free double perovskites are regarded as stable and green optoelectronic alternatives to single perovskites, but may exhibit indirect band gaps and high effective masses, thus limiting their maximum photovoltaic efficiency. Considering that the trial-and-error experimental and computational approaches cannot quickly identify ideal candidates, we propose an ensemble learning workflow to screen all suitable double perovskites from the periodic table, with a high predictive accuracy of 92% and a computed speed that is ∼10 8 faster than ab initio calculations. From ∼23 314 unexplored double perovskites, we successfully identify six candidates that exhibit suitable band gaps (1.0–2.0 eV), where two have direct band gaps and low effective masses. They all show good thermal stabilities that are hopefully able to be synthesized. The proposed ML workflow immensely shortens the screening cycle for double perovskites, which will greatly promote the development and application of photovoltaic devices.",
    "authors": [
     "Zhilong Wang",
     "Yanqiang Han",
@@ -353,7 +354,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2021-12-30",
-   "abstract": "",
+   "abstract": "Poly(3,4-ethylenedioxythiophene):poly(styrenesulfonate) (PEDOT:PSS) is one of the most prospering transparent conductive materials for flexible optoelectronic devices, which arises from its nonpareil features of low-cost solution processability, tunable conductivity, high transparency, and superior mechanical flexibility. However, acidity and hygroscopicity of PSS chains cause a decrease in conductivity, substrate corrosion, and device degradation. This work proposes a facile and effective direct doping strategy of sodium 3-methylsalicylate to enhance the conductivity, alleviate the acidity, and improve the stability of PEDOT:PSS electrodes, simultaneously. Owing to the formation of weaker acid and PSS-Na, PSS chains are disentangled from the coiled PEDOT:PSS complexes, leading to the phase separation of PEDOT:PSS and the formation of fibril-like PEDOT domains. Eventually, the sodium 3-methylsalicylate-modified PEDOT:PSS electrode is employed in flexible organic light-emitting diodes with an outstanding external quantum efficiency of up to 25%. The improved performance is attributed to the more matched work function and the as-formed interfacial dipole. The sodium 3-methylsalicylate-modified PEDOT:PSS electrode with high conductivity and transmittance, superior stability in the air as well as good mechanical flexibility has the potential to be the most promising transparent conductive material for flexible optoelectronic device applications.",
    "authors": [
     "Lihui Liu",
     "Lei Wu",
@@ -703,7 +704,7 @@
    "journal": "ACS Energy Letters",
    "publisher": "ACS",
    "date": "2021-12-28",
-   "abstract": "",
+   "abstract": "Low-dimensional organic-inorganic hybrid lead halides have opened up a new frontier in single-component phosphors for white emission, which stems from self-trapped excitons (STEs), where STE states are dependent on lattice deformation, involving interactions between an inorganic skeleton and organic cations to consequently affect electron-phonon coupling. Herein, to decouple the crystal structure dominator on emission mechanisms, we employ the protonated benzimidazole as organic cations to synthesize two 100-oriented two-dimensional (2D) perovskites with Br- or Cl- as halogen anions, separately. Interestingly, even with a similar single layered crystal structure that is almost distortion-free in an inorganic octahedral framework, the two as-synthesized perovskites show distinct emission mechanisms. The underlying halogen regulatory mechanism is unveiled. In addition to changing the lattice deformation energy and self-trapping energy of STEs, the halogen substitution results in a 10-fold enhancement in electron-phonon coupling that affects STE dynamics. Therefore, this suggests a general design principle to tailor electron-phonon coupling in low-dimensional perovskites for broadband white emission.",
    "authors": [
     "Ying Han",
     "Jun Yin",
@@ -858,7 +859,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2021-12-28",
-   "abstract": "",
+   "abstract": "If we can transparently produce energy, we may apply invisible power generators to residential architectures to supply energy without losing visibility. Transparent photovoltaic cells (TPVs) are a transparent solar technology that transmits visible light while absorbing the invisible short wavelengths, such as ultraviolet. Installing TPVs in buildings provides an on-site energy supply platform as a window-embedded power generator or color-matched solar cell installation on a building surface. The record-high power generation (10.82 mW) and photocurrent value (68.25 mA) were achieved from large-scale TPVs (25 cm 2 ). The metal oxide heterojunction is the fundamental TPV structure. The high-performance TPVs were achieved by adopting a thin Si film between ZnO and NiO as a functional light-absorbing layer. Based on the large energy band gap of metal oxides, TPVs have a clear transmittance (43%) and good color coordinates, which ensure degrees of freedom to adopt TPV power generators in various colored structures or transparent power windows. The bidirectional feature of TPVs is ultimately desirable to maximize light utilization. TPVs can generate electric power from sunlight during the day and can also work from artificial light sources at night. In the near future, humans will acquire electric power without losing visibility with on-site energy supply platforms.",
    "authors": [
     "Sangho Kim",
     "Malkeshkumar Patel",
@@ -879,7 +880,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2021-12-28",
-   "abstract": "",
+   "abstract": "Two novel chiral conjugated polymers R-P and S-P designed and synthesized from a pair of circularly polarized thermally activated delayed fluorescence (CP-TADF) enantiomers are presented in this work. The two polymers exhibited excellent TADF properties with small singlet–triplet energy gaps (Δ E ST ) of 0.045 and 0.061 eV and relatively high photoluminescence quantum yields (PLQYs) of 72 and 76%, respectively. Besides, intense mirror-image circularly polarized luminescence signals were detected from R-P and S-P in both solution and film states with dissymmetry factors (| g lum |) of up to 1.9 × 10 –3 . Furthermore, solution-processed circularly polarized polymer light-emitting diodes (CP-PLEDs) fabricated with R-P and S-P achieved high maximum external quantum efficiencies of 14.9 and 15.8% and high maximum brightness ( L max ) of 8940 and 12,180 cd/m 2 with yellowish-green emission peaks at 546 and 544 nm, respectively. Moreover, intense circularly polarized electroluminescence signals with electroluminescence dissymmetry factors ( g EL ) of −1.5 × 10 –3 and +1.6 × 10 –3 were detected from the CP-PLED devices fabricated with R-P and S-P, respectively.",
    "authors": [
     "Jin-Ming Teng",
     "Da-Wei Zhang",
@@ -898,7 +899,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2021-12-27",
-   "abstract": "",
+   "abstract": "Metal-halide perovskites (MHPs) have attracted tremendous attention as active materials in optoelectronic devices. For light-emitting diode (LED) applications, nanostructuring of MHPs is considered to be inevitable, but its light-enhancement mechanism is still elusive because the particle (or grain) size is often beyond the quantum confinement regime. As motivated by the experimental finding that the nanostructuring can change the preferred crystalline symmetry from the orthorhombic phase to the high-symmetric cubic phase, we here investigated the carrier dynamics in various polymorphic phases of CsPbBr 3 using ab initio quantum dynamics simulation. We found that the cubic phase shows a smaller inelastic phonon scattering than the orthorhombic phase; the suppression of the octahedral tilt minimizes the longitudinal Br fluctuation and helps disentangle the A-site cation dynamics from the nonadiabatic carrier dynamics. We thus anticipate that our present work will offer a material design principle to enhance the quantum yield of MHPs via symmetry engineering, which will help develop highly luminescent LED technology based on MHPs.",
    "authors": [
     "Yoonhoo Ha",
     "Jong-Goo Park",
@@ -1058,7 +1059,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2021-12-27",
-   "abstract": "",
+   "abstract": "Quantum dots (QDs) are a promising material for photoelectrochemical (PEC) hydrogen (H 2 ) production because of their attractive optical properties including high optical absorption coefficient, band-gap tunability, and potential multiple exciton generation. To date, QDs containing toxic elements such as Cd or Pb have been mainly investigated for PEC H 2 production, which cannot be utilized in practice because of the environmental issue. Here, we demonstrate a highly efficient type II heterojunction photoanode of nontoxic CuIn 1.5 Se 3 (CISe) QDs and a mesoporous TiO 2 film. In addition, ZnS/SiO 2 double overlayers are deposited on the photoanodes to passivate surface defect sites on the CISe QDs, leading to the enhancement of both photocurrent density and photostability. Due to a combination of a wide light absorption range of the CISe QDs and the reduced interfacial charge recombination by the overlayers, a remarkable photocurrent density of 8.5 mA cm –2 (at 0.5 V RHE ) is obtained under 1 sun illumination, which is a record for the PEC sulfite oxidation based on nontoxic QD photoanodes.",
    "authors": [
     "Jeehye Kim",
     "Youn Jeong Jang",
@@ -1080,7 +1081,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2021-12-27",
-   "abstract": "",
+   "abstract": "Layered lead halide perovskites (2D LHPs) are attracting considerable attention as a promising material for a new generation of solar cell devices. LHPs have been presented as a more stable alternative to the more widespread 3D bulk perovskite materials; however, a critical analysis of their photostability is still lacking. In this work, we perform a comparative study between BA 2 MA n –1 Pb n I 3 n +1 (BA─butylammonium and MA─methylammonium) 2D LHPs with different dimensionalities ( n = 1–3) and MAPbI 3 3D perovskites. We compare different stability testing protocols including photometrical determination of iodine-containing products in nonpolar solvents, X-ray diffraction, and photoluminescence (PL) spectroscopy. The resulting trends of the photostability in an inert atmosphere based on PL spectroscopy measurements demonstrate a nonmonotonic dependence of the degradation rate on the perovskite layer thickness n with a “stability island” at n ≥ 3, which is caused by a combination of antibate factors of electronic structures and chemical compositions in the family of 2D perovskites. We also identify a critical oxygen concentration in the surrounding environment that affects the mechanism and strongly enhances the rate of layered perovskite photodegradation.",
    "authors": [
     "Natalia N. Udalova",
     "Sergey A. Fateev",
@@ -1102,7 +1103,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2021-12-27",
-   "abstract": "",
+   "abstract": "Perovskites and graphene are receiving a meteoric rise in popularity in the field of active photonics because they exhibit excellent optoelectronic properties for dynamic manipulation of light-matter interactions. However, challenges still exist, such as the instability of perovskites under ambient conditions and the low Fermi level of graphene in experiments. These shortcomings limit the scope of applications when they are used alone in advanced optical devices. However, the combination of graphene and perovskites is still a promising route for efficient control of light-matter interactions. Here, we report a dual-optoelectronic metadevice fabricated by integrating terahertz metasurfaces with a sandwich complex composed of graphene, polyimide, and perovskites for ultra-wideband and multidimensional manipulation of higher-order Fano resonances. Owing to the photogenerated carriers and electrostatic doping effect, the dual optoelectronic metadevice showed different manipulation behavior at thermal imbalance (electrostatic doping state of the system). The modulation depth of the transmission amplitude reached 200%, the total resonant frequency shift was 800 GHz, and the tunable range of the resonant frequency was 68.8%. In addition, modulation of the maximum phase reached 346°. This work will inspire a new generation of metasurface-based optical devices that combine two active materials.",
    "authors": [
     "Maosheng Yang",
     "Tengteng Li",
@@ -1474,7 +1475,8 @@
    "keywords": [
     "wide-bandgap"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Perovskite‐Type SrVO 3 as High‐Performance Anode Materials for Lithium‐Ion Batteries",
@@ -2069,7 +2071,7 @@
    "journal": "ACS Energy Letters",
    "publisher": "ACS",
    "date": "2021-12-22",
-   "abstract": "",
+   "abstract": "Halide mixing is one of the most powerful techniques to tune the optical bandgap of metal-halide perovskites. However, halide mixing has commonly been observed to result in phase segregation, which reduces excited-state transport and limits device performance. While the current emphasis lies on the development of strategies to prevent phase segregation, it remains unclear how halide mixing may affect excited-state transport even if phase purity is maintained. Here, we study exciton transport in phase pure mixed-halide 2D perovskites of (PEA) 2 Pb(I 1-x Br x ) 4 . Using transient photoluminescence microscopy, we show that, despite phase purity, halide mixing inhibits exciton transport. We find a significant reduction even for relatively low alloying concentrations. By performing Brownian dynamics simulations, we are able to reproduce our experimental results and attribute the decrease in diffusivity to the energetically disordered potential landscape that arises due to the intrinsic random distribution of alloying sites.",
    "authors": [
     "Michael Seitz",
     "Marc Meléndez",
@@ -2124,7 +2126,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2021-12-22",
-   "abstract": "",
+   "abstract": "Scintillation fibers based on rare-earth ion-doped crystal materials have attracted significant attention for applications in a wide range of areas from security to healthcare. However, the scintillation performance of crystal fibers is severely limited owing to the complex preparation process. Here, we report a modified preparation process of the transparent Ce/Tb co-doped yttrium pyrosilicate (YPS) nanocrystal silica fiber for the first time, which was fabricated by the CO 2 laser-heated method assisted with optimal thermal annealing. An YPS nanocrystal phase with an average size of approximately 38 nm is obtained by controlling the diffusion concentration of SiO 2 in the fiber core region. Both Ce 3+ and Tb 3+ ions were successfully embedded into YPS nanocrystals, which enhanced the energy transfer with an efficiency of 59.87% between the dopants as well as brighter green light emission. Furthermore, the X-ray-excited remote radioluminescence response of the obtained YPS nanocrystal fiber with a length of 20 m was approximately 1 order of magnitude larger than that of the precursor fiber, while the dose rate response exhibited excellent linearity. It is believed that the novel transparent YPS nanocrystal-doped silica optical fibers, combined with their excellent fluorescent properties, could be promising candidates for scintillators, fiber lasers, and phosphors.",
    "authors": [
     "Ming Jia",
     "Jianxiang Wen",
@@ -2222,7 +2224,8 @@
    "keywords": [
     "perovskites"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Application of Perovskite Quantum Dots as an Absorber in Perovskite Solar Cells",
@@ -2413,7 +2416,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2021-12-20",
-   "abstract": "",
+   "abstract": "Halide double perovskites have attracted substantial attention for optoelectronic applications owing to their low toxicity and high stability. However, double perovskites have strict requirements in terms of the halide type, thus rendering many of their properties unchangeable, including the band gap, atomic number, and carrier transport. By introducing long-chain organic amines, the chloride site of double perovskites can be completely replaced by bromide. Using this strategy, two dimensions silver–indium–bromide double perovskites (PEA) 4 AgInBr 8 and ( i -BA) 4 AgInBr 8 were successfully synthesized [(PEA) + = C 6 H 5 (CH 2 ) 2 NH 3 +, ( i -BA) + = CH(CH 3 ) 2 CH 2 NH 3 + ]. Density functional theory calculations and spectroscopy characterizations were performed to unveil the semiconducting behaviors and photoluminescence properties of the title compounds. Electrical characterization confirms their good carrier-transport property (μτ product: 2.0 × 10 –3 cm 2 V –1 ) and low dark current. Moreover, the presence of heavy atoms, together with the ultrastable baseline contributes to a high X-ray detection sensitivity (185 μC Gy air –1 cm –2 ), greater than that of most previous double-perovskite detectors. Our work lays the foundation for broadening the family of potential double perovskites, creating a new path for the realization of long-sought perovskites with low toxicity and high stability that retain good optoelectronic performance.",
    "authors": [
     "Da Chen",
     "Guangda Niu",
@@ -3175,7 +3178,7 @@
    "journal": "Nature Communications",
    "publisher": "Nature",
    "date": "2021-12-16",
-   "abstract": "",
+   "abstract": "The original version of this Article contained an error in page 6 line 13 which incorrectly read ‘However, the heat conductance (along the direction normal to the substrate) is dependent on the relative substrate thickness, which for thin NOA63 and the thick glass substrate are 543.38 and 37.5 [W K −1 ]’. The correct version states ‘0.543 and 0.0375 [W K −1 ]’. in place of ‘543.38 and 37.5 [W K −1 ]’.",
    "authors": [
     "Dae Keun Choi",
     "Dong Hyun Kim",
@@ -3398,7 +3401,7 @@
    "journal": "ACS Energy Letters",
    "publisher": "ACS",
    "date": "2021-12-16",
-   "abstract": "",
+   "abstract": "The properties of charged point defects in semiconductors such as metal halide perovskites play a critical role in the efficiency and stability of solar cells. Still, the formation and migration enthalpies as well as formation entropies of ionic defects in metal halide perovskites have not yet been determined experimentally. Through impedance spectroscopy, along with a quantification of the ionic defect properties, we demonstrate an approach to obtain ion migration and formation enthalpies as well as formation entropy changes in different metal halide perovskite thin films. We investigate lead-based perovskites that contain different cations (Cs, methylammonium (MA), and formamidinium (FA)) such as MAPbI 3, CsPbI 3, and a mixture of all Cs 0.05 (FA 0.83 MA 0.17 ) 0.95 Pb(I 0.9 Br 0.1 ) 3 . We assign the most dominant, common defect responsible for ion conductivity to iodide vacancy and compare its defect properties in terms of entropy and enthalpy changes in all measured perovskite compositions. Our approach is relevant for ionic conductors in general.",
    "authors": [
     "Sandhya Tammireddy",
     "Sebastian Reichert",
@@ -3470,7 +3473,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2021-12-16",
-   "abstract": "",
+   "abstract": "In this study, we demonstrated two deep-blue TADF emitters, BO-tCzPhICz and BO-tCzDICz, for solution-processable thermally activated delayed fluorescence organic light-emitting diodes (TADF-OLEDs). They were synthesized by employing an organoboron acceptor and 9-(3,6-di- tert -butyl-9 H -carbazol-9-yl)-5-phenyl-5,12-dihydroindolo[3,2- a ]carbazole (tCzPhICz) and 12-(3,6-di- tert -butyl-9 H -carbazol-9-yl)-15 H -diindolo[2,3- b:1′,2′,3′- lm ]carbazole (tCzDICz) as bulky aryl-annulated [3,2- a ] carbazole donors, respectively. Both emitters showed sufficient solubility in organic solvents, narrow deep-blue emission, and small energy difference (Δ E ST ) between singlet and triplet states, which can be applied to solution-processable deep-blue TADF-OLEDs. Solution-processed OLEDs exploiting these TADF emitters displayed deep-blue electroluminescence with CIE y <0.1, and high external quantum efficiencies of 17.8 and 14.8% were observed for BO-tCzPhICz and BO-tCzDICz, respectively. The emitter bearing bulky ICz-based donating units shows highly promising potential for high-efficiency solution-processable deep-blue TADF-OLEDs.",
    "authors": [
     "Jinhyo Hwang",
     "Chang Woo Koh",
@@ -4539,7 +4542,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2021-12-10",
-   "abstract": "",
+   "abstract": "Recently, with the development of figure-of-merit non-fullerene acceptor materials combined with a ternary strategy and layer-by-layer (LbL) processing, the efficiency of single-junction organic solar cells has exceeded 18%. However, the structural properties of LbL-processed films have not been sufficiently elucidated. Herein, we systematically investigate films fabricated via LbL processing of three different systems, including a ternary system. In particular, we focus on the structural and morphological transitions associated with the diffusion process controlled by thermal annealing and an additive solvent. Different diffusion and crystal formation mechanisms were clearly identified, which were observed to be dependent on the characteristics of the upper layer formed during the LbL process. Based on this insight, the photovoltaic properties associated with various LbL conditions are elucidated, and an ideal path toward a better device is suggested.",
    "authors": [
     "Ahra Yi",
     "Sangmin Chae",
@@ -4798,7 +4801,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2021-12-09",
-   "abstract": "",
+   "abstract": "Voltage losses (Δ V OC ) are a crucial limitation for the performance of excitonic organic solar cells (OSCs) and can be estimated by two approaches─the radiative limit and the Marcus charge-transfer (MCT) model. In this work, we show that combining the radiative limit and MCT models for voltage loss calculations provides useful insights into the physics of emerging efficient OSCs. We studied nine different donor–acceptor systems, wherein the power conversion efficiency ranges from 4.4 to 14.1% and Δ V OC varies from 0.55 to 0.95 V. For these state-of-the-art devices, we calculated the Δ V OC using the radiative limit and the MCT model. Furthermore, we combined both models to derive new insights on the origin of radiative voltage losses (Δ V rad ) in OSCs. We quantified the contribution in Δ V rad due to the bulk intramolecular (S 1 ) disorder and interfacial intermolecular (CT) disorder by revisiting the spectral regions of interest for OSCs. Our findings are in agreement with the expected relationship of V OC with Urbach energy ( E U ), which suggests that the low E U is beneficial for reduced losses. However, unprecedentedly, we also identify a universal, almost linear relationship between the interfacial disorder (λ) and Δ V rad . We believe that these results can be exploited by the organic photovoltaic (OPV) community for the design of new molecules and a combination of donor–acceptors to further improve OSCs.",
    "authors": [
     "Nakul Jain",
     "Ramakant Sharma",
@@ -5045,7 +5048,7 @@
    "journal": "ACS Energy Letters",
    "publisher": "ACS",
    "date": "2021-12-08",
-   "abstract": "",
+   "abstract": "High pressure treatment has become an effective way to tune the optical properties of halide perovskites. However, how compression can affect the carrier transport in perovskites remains unknown. Herein, by combining time-resolved imaging microscopy with a diamond anvil cell, we report in situ measurement of carrier transport in CH 3 NH 3 PbI 3 perovskite microcrystals (MCs) under high pressure. From ambient pressure to 5.7 GPa, the pressure induces a phase transition at 0.3–0.4 GPa and an isostructural phase transition at about 3 GPa. The carrier diffusivity is found to increase by at least 30% from ∼1.82 cm 2 s –1 at ambient pressure to 2.32–2.90 cm 2 s –1 at 0.4–5.7 GPa, leading to long carrier diffusion lengths of 5–8 μm. This result indicates that the perovskites can sustain excellent carrier transport properties under high pressure and thus enhances the potential of compression for optimizing the optoelectronic performance of perovskite materials.",
    "authors": [
     "Yanfeng Yin",
     "Wenming Tian",
@@ -5303,7 +5306,7 @@
    "journal": "ACS Energy Letters",
    "publisher": "ACS",
    "date": "2021-12-07",
-   "abstract": "",
+   "abstract": "Atomic defects in semiconductors such as vacancies, interstitials, or dopants can lead to additional electronic states within the bandgap. These atomic defects are considered immobile in classical semiconductor theory, one of the reasons why a p–n junction with its ionized dopants remains stable over time. For mixed ionic–electronic conductors, the assumption of immobile defects is not valid. Halide perovskites (HaPs) are a class of materials in which ions and the related atomic defects have been shown to be mobile and migrate in response to external stimuli such as voltage or light. (1−3) We refer to them as ionic defects. Using iodide partial pressure investigations, it was deduced that the halide ion is the most mobile. (4,5) Furthermore, it was shown that the mobile ions follow the Meyer–Neldel rule (6,7) and that HaPs are capable of self-healing after being damaged. (8,9) As a result, Rakita et al. (10) stated that HaPs “are likely an example of a class of materials that cannot support static bulk defect densities significantly above thermodynamically-dictated densities. The reasons are (a) the free energy to form HaPs (from binary halides) is less than the formation energies of (static) defects in them and (b) the small kinetic stabilization of such defects.” These dynamic defects have significant implications for defect spectroscopy measurements. (11,12) In defect spectroscopy, the observed electronic defects (in the bandgap) that trap (localize) mobile charge carriers are usually assumed to be caused by immobile ionic defects. In the case of mobile ionic defects, it is instead possible to observe the migration of the ionic defects themselves, rather than the capture/emission of charge carriers into/from the electronic defects created by these ionic defects.",
    "authors": [
     "Moritz H. Futscher",
     "Carsten Deibel"
@@ -5320,7 +5323,7 @@
    "journal": "ACS Energy Letters",
    "publisher": "ACS",
    "date": "2021-12-07",
-   "abstract": "",
+   "abstract": "ADVERTISEMENT RETURN TO ISSUEPREVViewpointNEXTDo Halide Perovskites Prefer a Specific Direction for Forming One-Dimensional Nanostructures?Narayan Pradhan*Narayan PradhanSchool of Materials Sciences, Indian Association for the Cultivation of Science, Kolkata 700032, India*Email: [email protected]More by Narayan Pradhanhttps://orcid.org/0000-0003-4646-8488Cite this: ACS Energy Lett. 2022, 7, 1, 150–153Publication Date (Web):December 7, 2021Publication History Received13 October 2021Accepted19 November 2021Published online7 December 2021Published inissue 14 January 2022https://pubs.acs.org/doi/10.1021/acsenergylett.1c02235https://doi.org/10.1021/acsenergylett.1c02235article-commentaryACS PublicationsCopyright © 2021 American Chemical Society. This publication is available under these Terms of Use. Request reuse permissions This publication is free to access through this site. Learn MoreArticle Views2919Altmetric-Citations7LEARN ABOUT THESE METRICSArticle Views are the COUNTER-compliant sum of full text article downloads since November 2008 (both PDF and HTML) across all institutions and individuals. These metrics are regularly updated to reflect usage leading up to the last few days.Citations are the number of other articles citing this article, calculated by Crossref and updated daily. Find more information about Crossref citation counts.The Altmetric Attention Score is a quantitative measure of the attention that a research article has received online. Clicking on the donut icon will load a page at altmetric.com with additional details about the score and the social media presence for the given article. Find more information on the Altmetric Attention Score and how the score is calculated. Share Add toView InAdd Full Text with ReferenceAdd Description ExportRISCitationCitation and abstractCitation and referencesMore Options Share onFacebookTwitterWechatLinked InRedditEmail PDF (3 MB) Get e-AlertscloseSUBJECTS:Magnetic properties,Nanocrystals,Nanorods,Nanostructures,Perovskites Get e-Alerts",
    "authors": [
     "Narayan Pradhan"
    ],
@@ -5336,7 +5339,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2021-12-07",
-   "abstract": "",
+   "abstract": "Stable and efficient emitters are highly desired for near-infrared organic light-emitting diodes (NIR OLEDs) due to their extensive applications in biometric authentication, night vision display, and telecommunication. As this technology advances, there is an increasing demand for the development of NIR OLEDs with an emission spectrum beyond 900 nm. This work reports a stable and efficient near-infrared Pt(II) porphyrin complex, i.e., Pt(II) tetra(3,5-difluorophenyl)tetranaphthoporphyrin named PtTPTNP-F 8, of which 84% of the total emitted photons are at wavelengths longer than 900 nm. By introducing fluorine atoms on the meta positions of all four phenyl groups, PtTPTNP-F 8 can successfully overcome the common thermal instability issue emerging from the heavy Pt(II) porphyrin complexes, demonstrating a sublimation yield of above 90%. By carefully choosing the host materials, a NIR OLED device with PtTPTNP-F 8 as an emissive material achieves a high peak device efficiency of 1.9%. Furthermore, devices of PtTPTNP-F 8 fabricated in a stable device structure demonstrate extraordinary operational stability with an LT 99 lifetime (time to 99% of the initial photocurrent) of more than 1000 h at a constant driving current density of 20 mA cm –2 .",
    "authors": [
     "Linyu Cao",
     "Jingjun Li",
@@ -5568,7 +5571,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2021-12-06",
-   "abstract": "",
+   "abstract": "Chains of alternating semiconductor nanocrystals are complex nanostructures that can offer control over photogenerated charge carriers dynamics and quantized electronic states. We develop a simple one-pot colloidal synthesis of complex Cu 1.94 S-CdS and Cu 1.94 S-ZnS nanochains exploiting an equilibrium driving ion exchange mechanism. The chain length of the heterostructures can be tuned using a concentration dependent cation exchange mechanism controlled by the precursor concentrations, which enables the synthesis of monodisperse and uniform Cu 1.94 S-CdS-Cu 1.94 S nanochains featuring three epitaxial junctions. These seamless junctions enable efficient separation of photogenerated charge carriers, which can be harvested for photocatalytic applications. We demonstrate the superior photocatalytic activity of these noble metal free materials through solar hydrogen generation at a hydrogen evolution rate of 22.01 mmol g –1 h –1, which is 1.5-fold that of Pt/CdS heterostructure photocatalyst particles.",
    "authors": [
     "Njemuwa Nwaji",
     "Eser Metin Akinoglu",
@@ -5588,7 +5591,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2021-12-06",
-   "abstract": "",
+   "abstract": "In this report, we synthesized two series of deep-blue-emitting homoleptic iridium(III) phosphors bearing 1,2,4-triazol-3-ylidene and 5-(trifluoromethyl)-1,2,4-triazol-3-ylidene cyclometalate. Compared with reported synthetic routes using Ag 2 O as the promoter, herein, we adopted a different strategy to furnish these complexes in high yields. Also, the meridional to facial isomerization was executed in the presence of trifluoroacetic acid. These phosphors were examined using NMR spectroscopies, single-crystal X-ray diffraction studies, and photophysical methods. The results revealed that electron-withdrawing trifluoromethyl substitution on the N-heterocyclic carbene fragment only gave a minor variation of photoluminescence peak wavelengths and a decrease in radiative lifetime but notable reduction in thermal stabilities. The parent 1,2,4-triazol-3-ylidene complexes have been demonstrated to be suitable for use as deep-blue phosphors, with structured emission with the peak max. located at ∼420 nm and with photoluminescence quantum yields in a range of 34.8–42.5% in degassed THF solution at RT. Fabrication of both the phosphorescent organic light-emitting diodes (OLEDs) and phosphor-sensitized OLEDs (or hyperphosphorescence) was successfully conducted, from which the OLED device based on m -tz1 showed a max. external quantum efficiency (EQE) of 10% with CIE x, y coordinates of 0.15, 0.06, while the corresponding hyperphosphorescent OLED using m -tz2 as a sensitizer and t -DABNA as a terminal emitter afforded a significantly improved max. EQE of 19.7%, EL λ max of 468 nm, and FWHM of 31 nm with CIE x, y coordinates of 0.12, 0.13.",
    "authors": [
     "Caifa You",
     "Xue-Qi Wang",
@@ -5611,7 +5614,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2021-12-06",
-   "abstract": "",
+   "abstract": "In this work, two asymmetric non-fullerene acceptors (NFAs), BTP-EHBO-4F and BTP-PHD-4F, are designed to be applied in green-solvent-processable organic photovoltaics (OPVs). BTP-EHBO-4F and BTP-PHD-4F show good solubilities in green solvent o -xylene. As a result, PM6:BTP-EHBO-4F-based devices exhibit outstanding photovoltaic performances using o -xylene as a solvent. By comparison, due to the poor solubility of Y6 in o -xylene, PM6:Y6-based devices show poor performances. Owing to the favorable phase separation, molecule packing, and orientation observed from atomic force microscopy (AFM) and grazing-incidence wide-angle X-ray scattering (GIWAXS) measurements, PM6:BTP-PHD-4F-based devices demonstrate a PCE of 15.91% with a V OC of 0.87 V, a J SC of 25.64 mA/cm 2, and an FF of 71.34%. Moreover, PM6:BTP-EHBO-4F-based devices exhibit an impressive PCE of 16.82% with a V OC of 0.85 V, a J SC of 26.12 mA/cm 2, and an FF of 75.78%, which is outstanding for OPVs using o -xylene as a solvent.",
    "authors": [
     "Yi-Jia Su",
     "Hebing Nie",
@@ -5900,7 +5903,8 @@
    "keywords": [
     "perovskites"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Error-prone, stress-induced 3′ flap–based Okazaki fragment maturation supports cell survival",
@@ -5951,7 +5955,8 @@
    "keywords": [
     "wide-bandgap"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Inhibiting excessive molecular aggregation to achieve highly efficient and stabilized organic solar cells by introducing a star-shaped nitrogen heterocyclic-ring acceptor",
@@ -6438,7 +6443,7 @@
    "journal": "ACS Energy Letters",
    "publisher": "ACS",
    "date": "2021-12-02",
-   "abstract": "",
+   "abstract": "Quasi-2D metal-halide perovskites with Ruddlesden–Popper structures have shown promising stability due to the protective effects of the intercalating organic cations. However, a systematic study of the effect of intercalating organic cations on stability has rarely been reported. Here we use a high-throughput-robot platform to fabricate over 300 perovskite films and study the effect of cations and their concentrations on the thermal stability of perovskite films. We find that approximately 20–25 mol % of intercalating organic cations into MAPbI 3 (nominal n = 4/5) can maximize the film stability, while higher/lower concentrations lead to inferior stability, which is termed stability bowing in analogy to band-gap bowing. A model with two competitive effects of the intercalating organic cation (better protection vs more defects) is proposed to rationalize this behavior. We anticipate this work to provide new insights into the stability of quasi-2D perovskites.",
    "authors": [
     "Jiyun Zhang",
     "Stefan Langner",
@@ -6643,7 +6648,8 @@
    "keywords": [
     "perovskites"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Organic light-emitting diode microdisplay-enabled scalable visible-light 3D printing",
@@ -6660,7 +6666,8 @@
    "keywords": [
     "light-emitting"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Local magnetic spin mismatch promoting photocatalytic overall water splitting with exceptional solar-to-hydrogen efficiency",
@@ -6934,7 +6941,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2021-11-30",
-   "abstract": "",
+   "abstract": "Halide perovskite heterocrystals, composed of distinct perovskite single crystals, have generated great interest for both fundamental research and applied device designs. One of the key advantages of using such a heterocrystal is its built-in electric potential, which enhances charge transport and suppresses the noise in the solid-state devices. On the basis of this strategy, high-performance optoelectronic devices (e.g., X-ray detectors) have been successfully demonstrated. However, the toxicity of metal cations (Pb) in those reported heterocrystals hinders their wider applications. Thus, developing lead-free halide perovskite heterocrystals is significant but remains highly challenging. Here, we report a solution-processed in situ heteroepitaxial approach that enables us to create the first lead-free halide perovskite heterocrystal, (BA) 2 CsAgBiBr 7 /Cs 2 AgBiBr 6 (BA = n -butylammonium), with dimensions of up to 10 × 7 × 6 mm 3 . The as-grown heterocrystals have high crystalline quality and present near atomically sharp interfaces. More excitingly, the (BA) 2 CsAgBiBr 7 /Cs 2 AgBiBr 6 heterogeneous integration allows the formation of a built-in electric potential in the junction, which triggers spontaneous charge separation/transport. Consequently, X-ray detectors using the heterocrystals can operate in a self-driven mode and exhibit an impressive sensitivity (206 μC Gy –1 cm –2 ) superior to that of the pristine Cs 2 AgBiBr 6 crystal detectors, an ultralow dark current, and operational stability. Our findings provide the first demonstration of lead-free halide perovskite heterocrystals and may open up opportunities for a host of sustainable and miniaturized perovskite optoelectronic devices.",
    "authors": [
     "Xinyuan Zhang",
     "Tingting Zhu",
@@ -7131,7 +7138,8 @@
     "perovskite",
     "perovskites"
    ],
-   "type": "review"
+   "type": "review",
+   "ab_tried": 1
   },
   {
    "title": "Ionic Liquid Passivation Eliminates Low- n Quantum Well Domains in Blue Quasi-2D Perovskite Films",
@@ -7206,7 +7214,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2021-11-29",
-   "abstract": "",
+   "abstract": "Ternary organic photovoltaics (OPVs) were constructed with one wide-band-gap donor PM6 and two A–D–A-type acceptors (M-series M36 and MQ5) with similar chemical structures. Power conversion efficiency (PCE) of the optimal ternary OPVs reaches 17.24% with 20 wt % MQ5 content, arising from a simultaneously increased short circuit current density ( J SC ) of 25.36 mA cm –2 and a fill factor (FF) of 76.02% as compared to those of two binary OPVs. The photon harvesting of ternary active layers can be maximized by adjusting the MQ5 content by reason of the complementary absorption spectra of M36 and MQ5. The molecular arrangement of PM6 and M36 can be collectively optimized by introducing an appropriate amount of MQ5 as a morphology regulator for facilitating effective charge transportation in ternary active layers. The improved photon harvesting and charge transport in active layers should be two important factors responsible for J SC and FF improvement of optimal ternary OPVs, respectively. More than an 8.8% improvement of PCE is achieved in ternary OPVs with an appropriate amount of MQ5 as the photon-harvesting enhancer and morphology regulator. The huge potential of A–D–A-type materials in constructing highly efficient OPVs can be further exploited based on a ternary strategy.",
    "authors": [
     "Xiaoling Ma",
     "Changquan Tang",
@@ -8122,7 +8130,8 @@
    "keywords": [
     "perovskites"
    ],
-   "type": "review"
+   "type": "review",
+   "ab_tried": 1
   },
   {
    "title": "Eutectic Crystallization Activates Solid‐State Zinc‐Ion Conduction",
