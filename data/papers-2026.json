@@ -1,7 +1,7 @@
 {
  "year": "2026",
- "count": 3345,
- "generated": "2026-08-08 22:41 UTC",
+ "count": 3354,
+ "generated": "2026-08-09 22:42 UTC",
  "papers": [
   {
    "title": "Charge-Transfer Engineering in 0D/3D Rare-Earth Halide Heterostructures Enables Tunable and Efficient White Light-Emitting Diodes",
@@ -22,6 +22,240 @@
    "doi": "10.1021/acsami.6c12186",
    "keywords": [
     "light-emitting"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Manipulation of Photoresponse via Defect-Level Excitations in Metal–Insulator–Semiconductor-Type Two-Dimensional Heterostructure for Optoelectronic Logic Gates",
+   "link": "https://doi.org/10.1021/acsami.6c10578",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-08-10",
+   "abstract": "Abstract In recent years, effective carrier–exciton conversion and defect engineering in tunneling diodes based on metal–insulator–semiconductor (MIS) van der Waals heterostructures have attracted extensive research interest in modulating optoelectronic device performance. Effectively exciting and controlling defects in such devices, thereby enabling tunable optoelectronic responses, is critical for both functional realization and performance enhancement. Here, we report a MIS heterostructure photodetector consisting of monolayer graphene (Gr), hexagonal boron nitride (h-BN), and monolayer molybdenum disulfide (MoS2). Defect states within h-BN layers are successfully activated, allowing controlled interlayer charge transfer among the two-dimensional materials. Under visible-light illumination, the device reveals a wavelength-selective photoresponse at 405 and 638 nm. The mechanism underlying the selective photocurrent generation is elucidated through defect-state modeling of h-BN combined with energy-band alignment analysis. Notably, the device demonstrates a high switching ratio of up to 105 and an ultrafast response time of approximately 7–8 μs. These characteristics enable the demonstration of its potential for applications such as raster-scanned photocurrent imaging and optoelectronic logic operations.",
+   "authors": [
+    "Jiayuan Zhou",
+    "Ran Tian",
+    "Yingjie Tao",
+    "Kaipeng Ni",
+    "Huanghuang Cheng",
+    "Chuangwei Wu",
+    "Shanyu Gao",
+    "Danfeng Sun",
+    "Xuegang Chen",
+    "Wenshuai Gao",
+    "Yuxuan Jiang",
+    "Mingliang Tian",
+    "Liang Li",
+    "Xue Liu"
+   ],
+   "doi": "10.1021/acsami.6c10578",
+   "keywords": [
+    "photodetector"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "In-Device Assessment of the Nanometric i-ZnO Layer: A Case Study of CZTSe-Based Thin-Film Solar Cells",
+   "link": "https://doi.org/10.1021/acsami.6c08519",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-08-10",
+   "abstract": "Abstract Nanometric zinc oxide (ZnO) layers are widely employed in optoelectronic devices due to their low cost, non-toxicity, and facile deposition by various methods. In Cu2ZnSn(S,Se)4 and Cu(In,Ga)Se2 thin-film photovoltaic (TF PV) technologies, this layer has been proposed to act as an electron transport layer protector, a shunt path blocker, and to facilitate the band alignment between the electron transport layer and the front transparent conductive oxide contact. However, its specific role in TF PV devices and its influence on technology scalability have not yet been fully clarified. This mainly arises from the difficulty in analyzing nanometric, wide band gap, non-conductive layers buried within multilayer structures. The present study develops a fast, non-destructive approach for the in-device characterization of the ZnO layer based on Raman spectroscopy, using kesterite-based devices as an example. The results reveal that the grain size of ZnO is a key factor in determining the maximum device performance, particularly the open-circuit voltage (with a 20 mV increase), and that even subtle fluctuations across the sample surface in ZnO grain size and crystalline quality induce variability in shunt resistance and short-circuit current, thereby defining overall solar cell performance. This study demonstrates the applicability of the proposed approach for the in-device analysis of ZnO properties and highlights the importance of their control for scaling up TF PV technologies.",
+   "authors": [
+    "Victoria Rotaru",
+    "Marta Miró Llorente",
+    "Robert Fonoll-Rubio",
+    "Jacob Andrade-Arvizu",
+    "David Payno",
+    "Alejandro Pérez-Rodríguez",
+    "Victor Izquierdo-Roca",
+    "Pedro Vidal-Fuentes",
+    "Maxim Guc"
+   ],
+   "doi": "10.1021/acsami.6c08519",
+   "keywords": [
+    "open-circuit voltage",
+    "photovoltaic",
+    "solar cell",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Ultra Broad Range Pressure Tunable CaZrO3:Ce3+ Luminescence for Multiparametric Manometry",
+   "link": "https://doi.org/10.1021/acsami.6c13720",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-08-10",
+   "abstract": "Abstract Optical manometry is essential in diamond anvil cell experiments, motivating pressure-sensitive phosphors that provide robust broadband readouts over a wide pressure range. Here we report a Ce3+-activated CaZrO3 perovskite phosphor with a low dopant level of about 0.40 atom % Ce quantified by EDS, and we evaluate its pressure-dependent luminescence response. Powder XRD and SEM–EDS confirm a single-phase CaZrO3 host and successful incorporation of the Ce activator. Temperature-dependent photoluminescence and lifetime measurements reveal that the material exhibits good thermal stability. Under compression up to 45 GPa, the broadband Ce3+ 5d–4f emission exhibits an almost linear redshift of the band centroid with dλ/dP about 2.45 nm GPa–1 and a concurrent broadening of FWHM with dFWHM/dP about 1.15 nm GPa–1. In parallel, the CIE 1931 chromaticity coordinates derived from the full emission spectrum evolve regularly with pressure, enabling a continuous color change from blue to green and offering a convenient visual readout. High-pressure Raman spectra indicate a structural transition near 30 GPa, consistent with synchrotron XRD reports for CaZrO3, yet no discontinuity is observed in the pressure dependences of the luminescence parameters. First-principles calculations suggest that compression is mainly accommodated by ZrO6 octahedral tilting and anisotropic polyhedral compression, whereas the local Ce-O crystal-field environment evolves smoothly, accounting for the continuous optical response through the transition. These results establish CaZrO3:Ce3+ as a wide-range, multi-parameter optical manometer for high-pressure calibration at room temperature.",
+   "authors": [
+    "Xiyao Wang",
+    "Jiaju Liang",
+    "Huiyu Ji",
+    "Jian Zhang",
+    "Lin Lin",
+    "Hengnan Liang"
+   ],
+   "doi": "10.1021/acsami.6c13720",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Selenium Solar Cells for Semi-Transparent Photovoltaics: Capped Annealing Protocols for Ultra-Thin Devices",
+   "link": "https://doi.org/10.1021/acsami.6c13441",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-08-10",
+   "abstract": "Abstract This work investigates the impact of annealing protocols on the crystallization, morphology, and device performance of selenium (Se) solar cells, with a focus on the feasibility of transparent devices. Different annealing sequences are explored, varying the thermal processing steps relative to the layer deposition. A complete structural characterization (Raman, X-ray diffraction (XRD), and scanning electron microscopy (SEM)) reveals that uncapped annealing improves interfacial order and grain sizes, while capped conditions favor smoother morphologies. Despite similar bulk crystallinity, these differences significantly influenced the photovoltaic performance, with the best results, 5.6% power conversion efficiency (PCE), achieved when annealing the whole device. Thinner absorber layers (100 and 50 nm) are then processed into devices, enabling semi-transparent devices with promising average photopic visible transmittance (up to 40%) and light utilization efficiencies exceeding 1%, rendering the Se technology interesting for semi-transparency. Interestingly, optical modeling suggests that the optimized annealing conditions yield a nanostructured Se layer with intermediate optical constants, between those of amorphous and crystalline Se, particularly well-suited for semi-transparency, underscoring the key role of synthesis in tuning optical behavior.",
+   "authors": [
+    "Arnau Torrens",
+    "Oriol Segura-Blanch",
+    "Ivan Caño",
+    "Romain Scaffidi",
+    "Alejandro Navarro-Güell",
+    "Diouldé Sylla",
+    "Maxim Guc",
+    "Zacharie Victor Samuel Nathana Jehl",
+    "Edgardo Saucedo",
+    "Joaquim Puigdollers",
+    "Alejandro Pérez-Rodríguez",
+    "Marcel Placidi"
+   ],
+   "doi": "10.1021/acsami.6c13441",
+   "keywords": [
+    "photovoltaic",
+    "photovoltaics",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Boosting NIR Emissions and Thermal Resistance in Cr3+-Doped MgGa2O4 Semiconductor Microcrystals by Energy Transfer for Smart Detection",
+   "link": "https://doi.org/10.1021/acsami.6c10021",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-08-10",
+   "abstract": "Abstract High-radiant-intensity broadband near-infrared (NIR) emitters are highly desirable for nondestructive testing, night-vision imaging, and information encryption. However, the exploration of phosphors that possess both high luminous efficiency and outstanding thermal stability continues to pose significant difficulties. Among various NIR phosphor systems, Cr3+-doped MgGa2O4 (MGO:Cr3+) exhibits characteristic broadband emission. Herein, Bi3+ ions were incorporated as sensitizers into the MGO:Cr3+ phosphor system, resulting in substantial enhancements in photoluminescence (PL), mechanoluminescence (ML), and thermal stability. The Bi3+ co-doping enhanced the NIR PL intensity to 4.0 times and the ML output to 1.45 times those of the Cr3+ singly doped reference, indicating a pronounced sensitization effect and improved energy transfer efficiency. Furthermore, the emission-intensity retention at 423 K improved from 49.29 to 82.88%, confirming a significant enhancement in the thermal stability of the NIR emission. A broadband NIR phosphor-converted light-emitting diode (pc-LED) assembled by coupling the Bi3+, Cr3+-co-doped MGO with a blue LED further demonstrated the material’s potential for nondestructive testing, night-vision imaging, and anti-counterfeiting.",
+   "authors": [
+    "Ange Zhu",
+    "Jiawen Wang",
+    "Zhouyang Xia",
+    "Fanlei Qin",
+    "Yinyan Li",
+    "Jianfeng Wang",
+    "Karol Bartosiewicz",
+    "Yan Li",
+    "Gongxun Bai"
+   ],
+   "doi": "10.1021/acsami.6c10021",
+   "keywords": [
+    "light-emitting"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Antiphase Boundaries Regulate Phase Stability and Performance in DMA + ‐Assisted CsPbI 3 ‐Based Perovskites",
+   "link": "https://doi.org/10.1002/adma.74538",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-09",
+   "abstract": "ABSTRACT CsPbI 3 ‐based perovskites are promising absorbers for tandem solar cells owing to their optimal bandgap (∼1.7 eV). However, the phase transition from photoactive γ‐CsPbI 3 to non‐photoactive δ‐CsPbI 3 remains a major obstacle and is strongly governed by microstructural defects formed during film growth. Among these, Ruddlesden–Popper antiphase boundaries (RP‐APBs) are particularly prevalent and exhibit competing effects, relieving lattice strain while simultaneously facilitating moisture penetration, ion migration, and nonradiative recombination. Here, we systematically regulate RP‐APB defects in γ‐phase CsPbI 3 thin films and elucidate their decisive influence on both phase stability and optoelectronic performance. A compositional strategy based on PbI 2 excess effectively reduces RP‐APB density but induces edge‐sharing [PbI 6 ] 4− motifs that nucleate the δ phase. In contrast, a dimethylammonium (DMA + )‐assisted phase‐engineering strategy forms β‐(DMA,Cs)PbI 3 , which intrinsically suppresses RP‐APB formation while preserving the photoactive perovskite framework. As a result, RP‐APB‐free β‐phase films exhibit prolonged carrier lifetimes, strongly suppressed nonradiative recombination, and the lowest apparent trap densities, enabling a champion power conversion efficiency of 20.23% together with markedly enhanced operational, thermal, and ambient‐air stability. This work demonstrates that regulating crystalline defects, exemplified by RP‐APBs, plays a critical role in achieving both stable and efficient perovskite solar cells.",
+   "authors": [
+    "Zhi‐Wen Yin",
+    "Nan Li",
+    "Yang Jiang",
+    "Xin‐Jun Yang",
+    "Ji‐Hong Zheng",
+    "Qi‐Bo Yuan",
+    "Yu‐Chen Wang",
+    "Yu‐Song Xiao",
+    "Jing‐Yi Sun",
+    "Yan‐Bing Chen",
+    "Wanchun Xiang",
+    "Yu Li",
+    "Yi‐Bing Cheng",
+    "Gustaaf Van Tendeloo",
+    "Wei Li",
+    "Zhi‐Yi Hu"
+   ],
+   "doi": "10.1002/adma.74538",
+   "keywords": [
+    "ion migration",
+    "perovskite",
+    "perovskite solar cells",
+    "perovskites",
+    "solar cells",
+    "tandem"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Multidimensional Sensing in Flexible Violet Phosphorus Photodetectors Driven by the Bulk Photovoltaic Effect",
+   "link": "https://doi.org/10.1002/adfm.77531",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-09",
+   "abstract": "ABSTRACT The bulk photovoltaic effect (BPVE) generates zero bias photocurrents in systems with broken inversion symmetry, offering a junction free pathway for self‐powered optoelectronic devices and conceptually overcoming the Shockley‐Queisser efficiency limit of conventional junction based devices. However, achieving high performance self‐powered photodetection across a broadband spectrum remains challenging, and low dimensional quantum materials that enable efficient multi‐mechanism photoconversion with superior optoelectronic properties remain scarce. Here, we devise a flexible, bio‐inspired device architecture on polyethylene terephthalate (PET) substrates that synergistically leverages the intrinsic properties of few‐layer violet phosphorus (VP)—a material with localized inversion symmetry breaking—to enable broadband multidimensional sensing, thereby surpassing the limitations of conventional junction‐based devices. By synergizing the unique low symmetry crystal structure of few‐layer VP with a flexible device architecture, we achieve a substantial zero‐bias photocurrent of 20 µA, a high responsivity of 0.01 A/W, and a polarization ratio (PR) of 5.5 at 650 nm. The polarization imaging system constructed with this detector achieves high contrast imaging and image processing of surface polarization states by capturing multi‐angle polarization images and calculating Stokes parameters. This work establishes a generalizable bionic strategy for engineering high performance, self‐powered polarization selective photodetectors for next generation intelligent imaging, remote sensing, and integrated photonic systems.",
+   "authors": [
+    "Wenqi Mo",
+    "Mengjie Jiang",
+    "Jinqiu Huang",
+    "Libo Zhang",
+    "Shijian Tian",
+    "Guangye Li",
+    "Shicong Hou",
+    "Yunduo Zhang",
+    "Kening Xiao",
+    "Bolang Peng",
+    "Yiran Tan",
+    "Yuanfeng Wen",
+    "Xueyuan Wei",
+    "Guanhai Li",
+    "Xiaoshuang Chen"
+   ],
+   "doi": "10.1002/adfm.77531",
+   "keywords": [
+    "photovoltaic"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Material Selection through Accelerated Aging Enables &gt;95% Performance Retention of a Perovskite–Silicon Tandem Solar Cell after 1 Year of Outdoor Monitoring",
+   "link": "https://doi.org/10.1021/acsenergylett.6c01363",
+   "journal": "ACS Energy Letters",
+   "publisher": "ACS",
+   "date": "2026-08-09",
+   "abstract": "Abstract In order to ensure that the degradation modes of perovskite–silicon tandem solar cells exacerbated by accelerated aging tests are relevant to those observed under real-world operating conditions, accelerated testing should be developed in line with outdoor monitoring. Here, a short 3-day accelerated aging test under 1 sun equivalent illumination and at open-circuit conditions is validated by outdoor monitoring data. This accelerated test is used to successfully screen perovskite–silicon tandem cell architectures. In particular, by replacing 2-(9H-carbazol-9-yl)ethyl)phosphonic acid (2PACz) with nickel oxide (NiOx) combined with the dye N719 as the hole transport layer (HTL), significantly improved stability is achieved. Exemplifying this, after 1 year of maximum power point tracking outdoors, a tandem with the NiOx/N719 HTL retains 96.4% of its initial power conversion efficiency.",
+   "authors": [
+    "Helen Bristow",
+    "Nathalie Nguyen",
+    "Yannick Roujol",
+    "Giuliana Giuliano",
+    "Diego Di Girolamo",
+    "Giuseppe Bengasi",
+    "Amandine Boulanger",
+    "Vincent Barth",
+    "Matthias Demuylder",
+    "Marina Foti",
+    "Cosimo Gerardi",
+    "Noëlla Lemaitre"
+   ],
+   "doi": "10.1021/acsenergylett.6c01363",
+   "keywords": [
+    "perovskite",
+    "solar cell",
+    "solar cells",
+    "tandem"
    ],
    "type": "article",
    "oa_type_tried": 1
@@ -46,7 +280,7 @@
     "perovskites"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Lighting Hidden Traces: Rapid Green Synthesis of Zero‐Dimensional Manganese Halide Perovskite for X‐Ray and Fingerprint Imaging",
@@ -66,7 +300,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Chiral Bifacial Indacenodithiophene‐Based Hole‐Transport Materials With Chirality‐Induced Spin Selectivity: Chirality‐Spin Polarity Correspondence and Perovskite Passivation",
@@ -88,7 +322,7 @@
     "solar cells"
    ],
    "type": "comment",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Synergistic Cu/Se Substitution and Dual Carbon Encapsulation in ZnS Enabling High‐Rate Sodium Storage",
@@ -111,7 +345,7 @@
     "ion migration"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Self-Assembled Multilayers Reduce Interfacial Energy Loss in Perovskite Solar Cells",
@@ -152,7 +386,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Single‐Photon Superradiance in Giant Rhombicuboctahedral CsPbI 3 Nanocrystals",
@@ -180,7 +414,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Controlled Activation of Self‐assembled Molecules Enabling Reproducible Flexible Perovskite/Cu(In,Ga)Se 2 Tandems",
@@ -216,7 +450,7 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Boosting Open‐Circuit Voltage to a Record 0.692 V in Solution‐Processed CIGSSe Solar Cells Through Surface Ga‐Rich Engineering",
@@ -247,7 +481,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Molecular Glue: 1D/3D Heterojunction Suppresses Nonradiative Recombination and C 60 Aggregation for Efficient and Stable Perovskite Solar Cells",
@@ -289,7 +523,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Bi 2 TeO 6 ‐Interfaced Perovskite/Silicon Heterojunction Photodetectors With Pyro‐Phototronic Enhancement for Intelligent Anti‐Counterfeiting",
@@ -319,7 +553,7 @@
     "photodetector"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Unlock lasing in two-dimensional metal halide perovskites by tuning ns 2 lone pairs",
@@ -470,6 +704,45 @@
    "oa_type": "article"
   },
   {
+   "title": "Decoupling ferroelectric polarization and charge transport for thermally robust polymer dielectric energy storage",
+   "link": "https://doi.org/10.1038/s41467-026-76481-9",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-08-07",
+   "abstract": "Polymer dielectrics are vital for high-power electronics, yet their high-temperature application is fundamentally constrained by the inherent trade-offs among thermal stability, polarization retention, and conduction loss. Here, we mitigate these limitations by integrating high-entropy nanofillers with a preferentially oriented, wide-bandgap inorganic nanocoating to construct a multiscale heterointerfacial architecture. Within this design, entropy-driven compositional disorder enhances the structural stability and polarization response of the nanofillers, while the conformal inorganic network synergistically suppresses carrier injection and modulates bulk trap-mediated transport. Consequently, the engineered composites deliver a discharged energy density of 10.44 J cm−3 with 95% efficiency and a breakdown strength of 650 MV m−1 at room temperature. Notably, at 150 °C, the composites retain 8.35 J cm−3, 80% efficiency, and a breakdown strength of 610 MV m−1. First-principles calculations and phase-field simulations suggest multiscale field confinement that weakens electrothermal coupling and enhances high-temperature stability. This work establishes a comprehensive, multiscale design paradigm for next-generation polymer dielectric capacitors operating in extreme thermal environments. The authors combine high-entropy nanofillers with a preferentially oriented aluminum oxide nanocoating to control charge transport and heat accumulation, enabling polymer dielectrics with high energy density and stable performance at 150 °C.",
+   "authors": [
+    "Yang Liu",
+    "Weichen Zhao",
+    "Zhenjun Shao",
+    "Zhaobo Liu",
+    "Diming Xu",
+    "Zhentao Wang",
+    "Jian Bao",
+    "Tiezhu Guo",
+    "Xin Wang",
+    "Xiangkun Li",
+    "Zenghui Liu",
+    "Wenyuan Liu",
+    "Yao Zhou",
+    "Wenfeng Liu",
+    "Jinzhan Su",
+    "Houbing Huang",
+    "Jordi Jacas",
+    "Joan Ramon Morante Lleonart",
+    "Andreu Cabot",
+    "Kar Ban Tan",
+    "Pengjian Wang",
+    "Qin Guo",
+    "Di Zhou"
+   ],
+   "doi": "10.1038/s41467-026-76481-9",
+   "keywords": [
+    "wide-bandgap"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
    "title": "Colloidal Synthesis Enables Indium Solubility Modulation in Liquid Gallium Nanoparticles for Temperature-Dependent Generation of CO2 Electrocatalytic Active Sites",
    "link": "https://doi.org/10.1021/jacs.6c11963",
    "journal": "Journal of the American Chemical Society",
@@ -541,7 +814,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -574,7 +847,7 @@
     "perovskites"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -998,7 +1271,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type_tried": 2
   },
   {
@@ -1032,7 +1305,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type_tried": 2
   },
   {
@@ -1529,7 +1802,7 @@
     "photoelectrochemical"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type_tried": 2
   },
   {
@@ -1634,7 +1907,7 @@
     "solar cells"
    ],
    "type": "comment",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "erratum"
   },
   {
@@ -1780,7 +2053,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -1838,7 +2111,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -1990,7 +2263,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -2544,7 +2817,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -2678,7 +2951,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
