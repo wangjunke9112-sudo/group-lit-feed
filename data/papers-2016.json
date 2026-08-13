@@ -1,7 +1,7 @@
 {
  "year": "2016",
  "count": 1831,
- "generated": "2026-08-12 22:59 UTC",
+ "generated": "2026-08-13 22:56 UTC",
  "papers": [
   {
    "title": "Engineering Interfacial Charge Transfer in CsPbBr 3 Perovskite Nanocrystals by Heterovalent Doping",
@@ -75,7 +75,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2016-12-29",
-   "abstract": "",
+   "abstract": "Only a selected group of two-dimensional (2D) lead–halide perovskites shows a peculiar broad-band photoluminescence. Here we show that the structural distortions of the perovskite lattice can determine the defectivity of the material by modulating the defect formation energies. By selecting and comparing two archetype systems, namely, (NBT) 2 PbI 4 and (EDBE)PbI 4 perovskites (NBT = n -butylammonium and EDBE = 2,2-(ethylenedioxy)bis(ethylammonium)), we find that only the latter, subject to larger deformation of the Pb–X bond length and X–Pb–X bond angles, sees the formation of V F color centers whose radiative decay ultimately leads to broadened PL. These findings highlight the importance of structural engineering to control the optoelectronic properties of this class of soft materials.",
    "authors": [
     "Daniele Cortecchia",
     "Stefanie Neutzner",
@@ -568,7 +568,8 @@
    "keywords": [
     "perovskites"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Evidence for ion migration in hybrid perovskite solar cells with minimal hysteresis",
@@ -809,7 +810,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-12-22",
-   "abstract": "",
+   "abstract": "We study the relative importance of deterioration of material quantum yield and charge balance to the electroluminescence stability of PHOLEDs, with a special emphasis on blue devices. Investigations show that the quantum yields of both host and emitter in the emission layer degrade due to exciton-polaron interactions and that the deterioration in material quantum yield plays the primary role in device degradation under operation. On the other hand, the results show that the charge balance factor is also affected by exciton-polaron interactions but only plays a secondary role in determining device stability. Finally, we show that the degradation mechanisms in blue PHOLEDs are fundamentally the same as those in green PHOLEDs. The limited stability of the blue devices is a result of faster deterioration in the quantum yield of the emitter.",
    "authors": [
     "Yingjie Zhang",
     "Hany Aziz"
@@ -1094,7 +1095,8 @@
    "keywords": [
     "photovoltaics"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Super-resolution imaging of light–matter interactions near single semiconductor nanowires",
@@ -1564,7 +1566,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-12-19",
-   "abstract": "",
+   "abstract": "Nitride-based ultraviolet light-emitting diodes (UV LEDs) are promising replacements for conventional UV lamps. However, the external quantum efficiency of UV LEDs is much lower than for visible LEDs due to light absorption in the p-GaN contact and electrode layers, along with p-AlGaN growth and doping issues. To minimize such absorption, we should obtain direct ohmic contact to p-AlGaN using UV-transparent ohmic electrodes and not use p-GaN as a contact layer. Here, we propose a glass-based transparent conductive electrode (TCE) produced using electrical breakdown (EBD) of an AlN thin film, and we apply the thin film to four (Al)GaN-based visible and UV LEDs with thin buffer layers for current spreading and damage protection. Compared to LEDs with optimal ITO contacts, our LEDs with AlN TCEs exhibit a lower forward voltage, higher light output power, and brighter light emission for all samples. The ohmic transport mechanism for current injection and spreading from the metal electrode to p-(Al)GaN layer via AlN TCE is also investigated by analyzing the p-(Al)GaN surface before and after EBD.",
    "authors": [
     "Tae Ho Lee",
     "Kyeong Heon Kim",
@@ -1711,7 +1713,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-12-16",
-   "abstract": "",
+   "abstract": "Sensitive and accurate analysis of DNA is crucial to better understanding of DNA functions and early diagnosis of fatal disease. Herein, an enhanced photoelectrochemical (PEC) DNA biosensor was proposed based on dual-signal amplification via coupling inorganic-organic nanocomposites sensitization with λ-exonuclease (λ-Exo)-assisted target recycling. The short DNA sequence about chronic myelogenous leukemia (CML, type b3a2) was selected as target DNA (tDNA). ZnO nanoplates were deposited with CdS nanocrystals to form ZnO/CdS hetero-nanostructure, and it was used as PEC substrate for immobilizing hairpin DNA (hDNA). CdTe quantum dots (QDs) covalently linked with meso-tetra(4-carboxyphenyl)porphine (TCPP) to form CdTe/TCPP inorganic-organic nanocomposites, which were utilized as sensitization agents labeling at the terminal of probe DNA (pDNA). When the hDNA-modified sensing electrode was incubated with tDNA and λ-Exo, hDNA hybridized with tDNA, and meanwhile it could be recognized and cleaved by λ-Exo, resulting in the release of tDNA. The rest of nonhybridized hDNA would continuously hybridize with the released tDNA, cleave by λ-Exo, and set free the tDNA again. After λ-Exo-assisted tDNA recycling, more amounts of short DNA (sDNA) fragments coming from digestion of hDNA produced on the electrode and hybridized with CdTe/TCPP-labeled pDNA (pDNA-CdTe/TCPP conjugates). In this case, the sensitization of CdTe/TCPP inorganic-organic nanocomposites occurred, which evidently extend the absorption range and strengthened the absorption intensity of light energy, and accordingly the photocurrent signal significantly promoted. Through introducing the dual-signal amplification tactics, the developed PEC assay allowed a low calculated detection limit of 25.6 aM with a wide detection scope from 0.1 fM to 5 pM for sensitive and selective determination of tDNA.",
    "authors": [
     "Xiao-Mei Shi",
     "Gao-Chao Fan",
@@ -1874,7 +1876,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-12-15",
-   "abstract": "",
+   "abstract": "The voltage-tunable multicolor emission was realized in a poly(p-phenylene)/nanoporous ZnMnO organic-inorganic hybrid light-emitting diode. Red, green, and blue (RGB) colors sequentially appeared with increasing magnitude of the bias voltage (i.e., R → RG → RGB with V↑). At a higher voltage (>2.4 V), eventually, the device emitted the visible light with a mixture of colors including RGB. These unique features may move us a step closer to the application of organic-inorganic hybrid solid-state lighting devices for the full-color display and/or the electrical-to-optical data converter for multivalue electronic signal processes. In-depth analyses on electrical and optical properties are presented, and voltage-controllable multicolor-emission mechanisms are discussed.",
    "authors": [
     "Sejoon Lee",
     "Youngmin Lee",
@@ -1893,7 +1895,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-12-15",
-   "abstract": "",
+   "abstract": "In a neutral π-radical-based organic light-emitting diode (OLED), although the emission comes from the doublet excitons and their transition to the ground state is spin-allowed, the upper limit of internal quantum efficiency (IQE) is not clear, 50% or 100%? In this work, the deep-red OLEDs based on a neutral π-radical were fabricated. Up to 100% doublet exciton formation ratio was obtained through rational designing device structure and host-guest doping system. This indicates the IQE of neutral π-radical-based OLEDs will reach 100% if the nonradiative pathways of radicals can be suppressed. The maximum external quantum efficiency of the optimized device is as high as 4.3%, which is among the highest values of deep-red/near-infrared OLEDs with nonphosphorescent materials as emitters. Our results also indicate that using partially reduced radical mixture as emitter may be a way to solve aggregation-caused quenching in radical-based OLEDs.",
    "authors": [
     "Ablikim Obolda",
     "Xin Ai",
@@ -2632,7 +2634,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2016-12-09",
-   "abstract": "",
+   "abstract": "Photocatalysis is a promising technology for renewable energy production. Many photocatalysis have realized the visible-light-driven catalytic activity. However, it is still difficult to achieve the enhanced photocatalytic activity with tunable wavelength. We have designed tunable wavelength enhanced photoelectrochemical cells by tuning the surface plasmon resonance (SPR) peaks, which can be controlled by the aspect ratios of the Au nanorods, for both the cathode with the hydrogen evolution reaction and the anode with the electrooxidation of methanol reaction. The optimal photocatalytic activity of the hydrogen evolution and electrooxidation of the methanol can be realized only when the illuminating wavelength matches with the SPR peaks, which is quite selective to the illuminating wavelength. The blue shift of the SPR peak increases the photoelectrocatalytic effect whereas the red shift enhances the photothermal effect. Such studies provide a useful way for improving the photocatalytic activity and the selectivity of the photocatalytic reactions by adjusting the illuminating wavelength.",
    "authors": [
     "Hao Yang",
     "Zi-Han Wang",
@@ -2891,7 +2893,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-12-08",
-   "abstract": "",
+   "abstract": "A hybrid patterned sapphire substrate (hybrid-PSS) was prepared using an anodic aluminum oxide etching mask to transfer nanopatterns onto a conventional patterned sapphire substrate with microscale patterns (bare-PSS). The threading dislocation (TD) suppression of light-emitting diodes (LEDs) grown on a hybrid-PSS (HP-LED) exhibits a smaller reverse leakage current compared with that of LEDs grown on a bare-PSS (BP-LED). The strain-free GaN buffer layer and fully strained InGaN active layer were evidenced by cross-sectional Raman spectra and reciprocal space mapping of the X-ray diffraction intensity for both samples. The calculated piezoelectric fields for both samples are close, implying that the quantum-confined Stark effect was not a dominant mechanism influencing the electroluminescence (EL) peak wavelength under a high injection current. The bandgap shrinkage effect of the InGaN well layer was considered to explain the large red-shifted EL peak wavelength under high injection currents. The estimated LED chip temperatures rise from room temperature to 150 °C and 75 °C for BP-LED and HP-LED, respectively, at a 600-mA injection current. This smaller temperature rise of the LED chip is attributed to the increased contact area between the sapphire and the LED structural layer because of the embedded nanopattern. Although the chip generates more heat at high injection currents, the accumulated heat can be removed to outside the chip effectively. The high diffuse reflection (DR) rate of hybrid-PSS increases the escape probability of photons, resulting in an increase in the viewing angle of the LEDs from 130° to 145°. The efficiency droop was reduced from 46% to 35%, effects which can be attributed to the elimination of TDs and strain relaxation by embedded nanopatterns. In addition, the light output power of HP-LED at 360-mA injection currents exhibits a ∼ 22.3% enhancement, demonstrating that hybrid-PSSs are beneficial to apply in high-power LEDs.",
    "authors": [
     "Wen-Cheng Ke",
     "Fang-Wei Lee",
@@ -3002,7 +3004,7 @@
    "journal": "Chemical Reviews",
    "publisher": "ACS",
    "date": "2016-12-07",
-   "abstract": "",
+   "abstract": "The field of organic photovoltaics has developed rapidly over the last 2 decades, and small solar cells with power conversion efficiencies of 13% have been demonstrated. Light absorbed in the organic layers forms tightly bound excitons that are split into free electrons and holes using heterojunctions of electron donor and acceptor materials, which are then extracted at electrodes to give useful electrical power. This review gives a concise description of the fundamental processes in photovoltaic devices, with the main emphasis on the characterization of energy transfer and its role in dictating device architecture, including multilayer planar heterojunctions, and on the factors that impact free carrier generation from dissociated excitons. We briefly discuss harvesting of triplet excitons, which now attracts substantial interest when used in conjunction with singlet fission. Finally, we introduce the techniques used by researchers for characterization and engineering of bulk heterojunctions to realize large photocurrents, and examine the formed morphology in three prototypical blends.",
    "authors": [
     "Gordon J. Hedley",
     "Arvydas Ruseckas",
@@ -3561,7 +3563,7 @@
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2016-12-05",
-   "abstract": "",
+   "abstract": "Bond length and bond angle exhibited by valence electrons is essential to the core of chemistry. Using lead-based organic–inorganic perovskite compounds as an exploratory platform, it is demonstrated that the modulation of valence electrons by compression can lead to discovery of new properties of known compounds. Yet, despite its unprecedented progress, further efficiency boost of lead-based organic–inorganic perovskite solar cells is hampered by their wider bandgap than the optimum value according to the Shockley–Queisser limit. By modulating the valence electron wavefunction with modest hydraulic pressure up to 2.1 GPa, the optimized bandgap for single-junction solar cells in lead-based perovskites, for the first time, is achieved by narrowing the bandgap of formamidinium lead triiodide (HC(NH2)2PbI3) from 1.489 to 1.337 eV. Strikingly, such bandgap narrowing is partially retained after the release of pressure to ambient, and the bandgap narrowing is also accompanied with double-prolonged carrier lifetime. With First-principles simulation, this work opens a new dimension in basic chemical understanding of structural photonics and electronics and paves an alternative pathway toward better photovoltaic materials-by-design.",
    "authors": [
     "Gang Liu",
     "Lingping Kong",
@@ -3631,7 +3633,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-12-05",
-   "abstract": "",
+   "abstract": "Containing two nitrogen atoms, the electron-deficient pyrimidine ring has excellent coordinating capability with transition metal ions. However, compared with the widely used pyridine ring, applications of the pyrimidine ring in phosphorescent Ir(III) complexes are rare. In this research, two highly emissive pyrimidine-based mononuclear Ir(III) complexes and their corresponding dinuclear Ir(III) complexes were prepared with a simple one-pot reaction. The incorporation of the second Ir(III) center can lead to dramatic differences of both photophysical and electrochemical properties between the mono- and dinuclear complexes. Besides, these properties can also be fine-tuned with different substituents. Theoretical calculations have also been performed to understand their photophysical behaviors. The electroluminescent investigations demonstrate that the pyrimidine-based mono- and dinuclear Ir(III) complexes could show impressive device performance. The vacuum-deposited organic light-emitting diode (OLED) based on the mononuclear Ir(III) complex exhibited an external quantum efficiency (EQE) of 16.1% with almost no efficiency roll-off even at 10 000 cd m –2 . More encouragingly, the solution-processed OLED based on the dinuclear Ir(III) complex achieved the outstanding EQE, current efficiency (CE), and power efficiency (PE) of 17.9%, 52.5 cd A –1, and 51.2 lm W –1, respectively, representing the highest efficiencies ever achieved by OLEDs based on dinuclear Ir(III) complexes.",
    "authors": [
     "Xiaolong Yang",
     "Zhao Feng",
@@ -3771,7 +3773,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-12-02",
-   "abstract": "",
+   "abstract": "We report the utilization of both pyrid-2-yl-imidazolylidene and dianionic bipz chelates as constituents in syntheses of a new series of charge-neutral Pt(II) complexes 1 – 4, among which complex 4 revealed remarkable triboluminescence, i.e., generation of photoemission upon grinding or cracking of the solid sample. The triboluminescence is found to be sensitive to the subtle changes of the associated substituents of pyrid-2-yl-imidazolylidene chelate, as verified by the disappearance of the triboluminescence for complexes 1 – 3 . Alternatively, the well-ordered solid packing of 3, as indicated by the grazing incidence X-ray scattering experiment, serves as an ideal emitter for the fabrication of highly efficient OLEDs, rendering high external quantum efficienciy (25.9%) and luminesce efficiency (90 cd A – 1 ) at the practical brightness of 100 cd m – 2 . The rather low roll-off in efficiency (24.4%, 85 cd A – 1 at high brightness of 1000 cd m –2 ) is attributed to the short excited-state lifetime of 3 (∼800 ns) in the solid state, which in turn is associated with the MMLCT transition character.",
    "authors": [
     "Che-Wei Hsu",
     "Kiet Tuong Ly",
@@ -3933,7 +3935,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-12-01",
-   "abstract": "",
+   "abstract": "Stretchable, mechanically stable films with thermally stable dual emission peaked in the blue and orange spectral range are fabricated by condensation and aging of carboxylated polyurethane in the presence of on-purpose aggregated copper nanoclusters. The aggregation of copper clusters leads to the enhancement of their emission in the orange, while polyurethane matrix contributes with the blue emission band, with an overall photoluminescence quantum yield of the films as high as 18%. Composite Cu nanoclusters/polyurethane films are sufficiently transparent over the visible spectral range and are absorbing in the UV range; more than 90% of their emission intensity is preserved after 10 times of cycle of stretch and recovery, as well as aging of up to 10 h at 90 °C, making them useful for optoelectronic devices. Remote white light-emitting devices (LEDs) have been fabricated by placing a down-conversion layer of composite Cu nanoclusters/polyurethane film separated through a silicone resin spacer from the UV LED chip, with Commission Internationale de l'Eclairage color coordinates of (0.34, 0.29), and a high color rendering index of 87.",
    "authors": [
     "Zhenguang Wang",
     "Bingkun Chen",
@@ -3955,7 +3957,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-12-01",
-   "abstract": "",
+   "abstract": "High Resolution Image Download MS PowerPoint Slide Despite hundreds of cationic bis-cyclometalated iridium(III) complexes having been explored as emitters for light-emitting electrochemical cells (LEECs), uniformly their composition has been in the form of a racemic mixture of Λ and Δ enantiomers. The investigation of LEECs using enantiopure iridium(III) emitters, however, remains unprecedented. Herein, we report the preparation, the crystal structures, and the optoelectronic properties of two families of cyclometalated iridium(III) complexes of the form of [(C^N) 2 Ir(dtBubpy)]PF 6 (where dtBubpy is 4,4′-di- tert -butyl-2,2′-bipyridine) in both their racemic and enantiopure configurations. LEEC devices using Λ and Δ enantiomers as well as the racemic mixture of both families have been prepared, and the device performances were tested. Importantly, different solid-state photophysical properties exist between enantiopure and racemic emitters, which are also reflected in the device performances.",
    "authors": [
     "Diego Rota Martir",
     "Cristina Momblona",
@@ -4404,7 +4406,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-11-29",
-   "abstract": "",
+   "abstract": "The chemical structure of the Zn(O,S)/Cu(In,Ga)Se 2 interface in high-efficiency photovoltaic devices is investigated using X-ray photoelectron and Auger electron spectroscopy, as well as soft X-ray emission spectroscopy. We find that the Ga/(Ga+In) ratio at the absorber surface does not change with the formation of the Zn(O,S)/Cu(In,Ga)Se 2 interface. Furthermore, we find evidence for Zn in multiple bonding environments, including ZnS, ZnO, Zn(OH) 2, and ZnSe. We also observe dehydrogenation of the Zn(O,S) buffer layer after Ar + ion treatment. Similar to high-efficiency CdS/Cu(In,Ga)Se 2 devices, intermixing occurs at the interface, with diffusion of Se into the buffer, and the formation of S—In and/or S—Ga bonds at or close to the interface.",
    "authors": [
     "Michelle Mezher",
     "Rebekah Garris",
@@ -4447,7 +4449,8 @@
    "keywords": [
     "light-emitting"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Stability of Perovskite Solar Cells: A Prospective on the Substitution of the A Cation and X Anion",
@@ -4604,7 +4607,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-11-28",
-   "abstract": "",
+   "abstract": "Two new donor–acceptor small molecules based on benzo[1,2- b:4,5- b ′]dithiophene (BDT) and benzo[ c ][1,2,5]thiadiazole (BT) were designed and synthesized. Small molecules 4,4′-[(4,8-bis(5-(2-ethylhexyl)thiophen-2-yl)benzo[1,2- b:4,5- b ′]dithiophene-2,6-diyl)bis(2,2′-bithiophene)-5,5′-diyl]bis(benzo[ c ][1,2,5]thiadiazole) (BDT-TT-BT) and 4,4′-(4,8-bis(5-(2-ethylhexyl)thiophen-2-yl)benzo[1,2- b:4,5- b ′]dithiophene-2,6-diyl)bis[7-(2,2′-bithiophene-5-yl)benzo[ c ][1,2,5]thiadiazole] (BDT-BT-TT) are structural isomers with the 2,2-bithiophene unit placed either between the BDT and BT units or at the end of the BT units. This work is targeted toward finding the effect of structural variation on optoelectronic properties, morphology, and photovoltaic performance. On the basis of theoretical calculations, the molecular geometry and energy levels are different for these two molecules when the position of the 2,2-bithiophene unit is changed. Optical and electrochemical properties of these two small molecules were characterized using UV–vis and cyclic voltammetry. The results showed that BDT-BT-TT has broader absorption and an elevated HOMO energy level when compared with those of BDT-TT-BT. The performance of these two isomers in solar cell devices was tested by blending with [6,6]-phenyl-C 71 -butyric acid methyl ester (PC 71 BM). Power conversion efficiencies as high as 3.22 and 3.71% were obtained in conventional solar cell structures for BDT-TT-BT and BDT-BT-TT, respectively. The morphology was studied using grazing incident wide-angle X-ray scattering and transmission electron microscopy, which revealed different phase separations of these two molecules when blended with PC 71 BM.",
    "authors": [
     "Jia Du",
     "Andria Fortney",
@@ -4647,7 +4650,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2016-11-25",
-   "abstract": "",
+   "abstract": "Bifunctional electrocatalysts for oxygen evolution/reduction reaction (OER/ORR) are desirable for the development of energy conversion technologies. It is discovered that the manganese quadruple perovskites CaMn7O12 and LaMn7O12 show bifunctional catalysis in the OER/ORR. A possible origin of the high OER activity is the unique surface structure through corner-shared planar MnO4 and octahedral MnO6 units to promote direct OO bond formations.",
    "authors": [
     "Ikuya Yamada",
     "Hiroshi Fujii",
@@ -6535,7 +6538,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-11-10",
-   "abstract": "",
+   "abstract": "Recently, the control of correlated color temperature (CCT) of artificial solid-state white-light sources starts to attract more attention since CTs affect human physiology and health profoundly. In this work, we proposed and demonstrated a method that can widely tune the CCTs of electroluminescence (EL) from white-light-emitting electrochemical cells (LECs) by employing plasmonic filters. These integrated on-chip plasmonic filters are composed of semicontinuous thin Ag film or Ag nanoparticles (NPs) both included in the indium tin oxide anode contact, which have different characteristics of plasmonic resonant absorptions that can tune the EL spectra of white LECs. The CCTs of EL from white LECs integrated with semicontinuous thin Ag film and randomly distributed Ag NPs are 5778 and 2350 K, respectively. A commercially available laser scanning system was used to locally thermal anneal the semicontinuous thin Ag film to form the randomly distributed Ag NPs on the scanned areas. Hence, these two kinds of filters can be integrated on the same chip of white LEC, giving more freedom to control the CCTs of white EL and more potential applications. In addition, the laser scanning system used here is quite often used in display manufactures so that our proposed method can be immediately adopted by the light-emitting diode industry.",
    "authors": [
     "Hsiao-Chin Lee",
     "Chien-Ming Fan Chiang",
@@ -6559,7 +6562,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-11-10",
-   "abstract": "",
+   "abstract": "Red-emissive solid-state carbon nanoparticles (CNPs) with a hollow sphere structure for white light-emitting diodes (WLEDs) were designed and synthesized by molecular self-assembly and microwave pyrolysis. Highly ordered graphite-like structures for CNPs were characterized by transmission electron microscopy, X-ray photoelectron spectroscopy, and ultraviolet–visible (UV–vis) spectroscopy. The emission mechanism of the red-emissive solid-state CNPs was investigated in detail by steady-state and time-resolved photoluminescence (PL) spectroscopy. The as-prepared CNPs showed a red emission band centered at 620 nm with excitation wavelength independence, indicating uniform size of sp 2 carbon domains in the CNPs. The CNPs also had a PL quantum yield (QY) of 17% under 380 nm excitation. Significantly, the PL QY of the organosilane-functionalized CNPs was 47%, which is the highest value recorded for red-emissive solid-state carbon-based materials under UV-light excitation. More importantly, the red-emissive CNPs exhibited a PL QY of 25% after storage in air for 12 months, indicating their excellent stability. The red-emissive CNP powders were used as environmentally friendly and low-cost phosphors on a commercial 460 nm blue GaN-based chip, and a pure white light with CIE coordinates of (0.35, 0.36) was achieved. The experimental results indicated that the red-emissive CNP phosphors have potential applications in WLEDs.",
    "authors": [
     "Yi Fan",
     "Xiaoyang Guo",
@@ -7453,7 +7456,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-11-07",
-   "abstract": "",
+   "abstract": "Organic–inorganic hybrid perovskite solar cells have emerged as promising candidates for next-generation solar cells. To attain high photovoltaic efficiency, reducing the defects in perovskites is crucial along with a uniform coating of the films. Also, evaluating the quality of synthesized perovskites via facile and adequate methods is important as well. Herein, CH 3 NH 3 PbI 3 perovskites were synthesized by applying second solvent dripping to nonstoichiometric precursors containing excess CH 3 NH 3 I. The resulting perovskite films exhibited a larger average grain size with a better crystallinity compared to that from stoichiometric precursors. As a result, the performance of planar perovskite solar cells was significantly improved, achieving an efficiency of 14.3%. Furthermore, perovskite films were effectively analyzed using a conductive AFM and noise spectroscopy, which have been uncommon in the field of perovskite solar cells. Comparing the topography and photocurrent maps, the variation of photocurrents in nanoscale was systematically investigated, and a linear relationship between the grain size and photocurrent was revealed. Also, noise analyses with a conductive probe enabled examination of the defect density of perovskites at specific grain interiors by excluding the grain-boundary effect, and reduced defects were clearly observed for the perovskites using CH 3 NH 3 I-rich precursors.",
    "authors": [
     "Byungho Lee",
     "Sangheon Lee",
@@ -7477,7 +7480,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-11-07",
-   "abstract": "",
+   "abstract": "Stretchable organic light-emitting devices (SOLEDs) with two-dimensional (2D) stretchability are superior to one-dimensional (1D) SOLEDs in most practical applications such as wearable electronics and electronic skins and therefore attract a great deal of interest. However, the luminous efficiency of the 2D SOLEDs is still not practical for the purposes of commercial applications. This is due to the limitations on materials and structures from the physical and electrical damage caused by the complicated interactions of the anisotropic stress in 2D stretchable system. Here 2D SOLEDs with excellent stretchability and electroluminescence performance have been demonstrated based on an ultrathin and ultraflexible OLED and a buckling process. The devices endure tensile strain of 50% in area with a maximum efficiency of 79 cd A –1, which is the largest luminescent efficiency of 2D SOLEDs reported to date. The 2D SOLEDs survive continuous cyclic stretching and exhibit slight performance variations at different strain values. The 2D SOLEDs reported here have exhibited enormous potential for various practical applications.",
    "authors": [
     "Da Yin",
     "Jing Feng",
@@ -7628,7 +7631,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-11-04",
-   "abstract": "",
+   "abstract": "Photoelectrochemical (PEC) water splitting is a promising technique for sustainable hydrogen generation. However, PEC performance on current semiconductors needs further improvement. Herein, a phosphorus cation doping strategy is proposed to fundamentally boost PEC performance on TiO 2 nanotube photonic crystal (TiO 2 NTPC) photoelectrodes in both the visible-light region and full solar-light illumination. The self-supported P-TiO 2 NTPC photoelectrodes are fabricated by a facile two-step electrochemical anodization method and subsequent phosphidation treatment. The Ti 4+ is partially replaced by P cations (P 5+ ) from the crystal lattice, which narrows the band gap of TiO 2 and induces charge imbalance by the formation of Ti–O–P bonds. We believe the combination of unique photonic nanostructures of TiO 2 NTPCs and P cation doping strategy will open up a new opportunity for enhancing PEC performance of TiO 2 -based photoelectrodes.",
    "authors": [
     "Zhenzhen Li",
     "Yanmei Xin",
@@ -7853,7 +7856,8 @@
    "keywords": [
     "photoelectrochemical"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Contrasting Magnetic Behaviors in Rhodium‐ and Ruthenium‐Doped Cubic Perovskite SrFeO 3 : Nearly Ferromagnetic Metal versus Spin‐Glass Insulator",
@@ -7920,7 +7924,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-11-02",
-   "abstract": "",
+   "abstract": "A study of hybrid inverted quantum-dot (QD) light-emitting diodes constructed with and without Al 2 O 3 interlayers is presented. The Al 2 O 3 interlayers are deposited at ZnO/QDs or/and QDs/4,4′-bis(carbazol-9-yl)biphenyl interfaces, resulting in large improvement of device performance, including luminance, current efficiency, and device lifetime. Especially, the devices with QD emitters sandwiched by two Al 2 O 3 layers exhibits outstanding performance, the longest operation lifetime, and mediate efficiency. The maximum current efficiency of 15.3 cd/A is obtained, an enhancement factor of 35% in comparison to that (11.3 cd/A) of conventional device without Al 2 O 3 layer. Moreover, device lifetime is also largely enhanced, over 110 000 h for the device containing two Al 2 O 3 interlayers, nearly 40% enhancement relative to that of conventional device that shows a lifetime of only 80 000 h. On the basis of electrical property and photoluminescence spectroscopy studies, we demonstrate that the Al 2 O 3 interlayers play crucial roles in suppressing the leakage current across the device and reducing exciton quenching induced by ZnO.",
    "authors": [
     "Han Zhang",
     "Ning Sui",
@@ -7989,7 +7993,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-11-01",
-   "abstract": "",
+   "abstract": "Increasing attention has now been focused on the photoelectrochemical (PEC) hydrogen evolution as a promising route to transforming solar energy into chemical fuels. Silicon is one of the most studied PEC electrode materials, but its performance is still limited by its inherent PEC instability and electrochemical inertness toward water splitting. To achieve significant PEC activities, silicon-based photoelectrodes usually have to be coupled with proper cocatalysts, and thus, the formed semiconductor–cocatalyst interface presents a critical structural parameter in the rational design of efficient PEC devices. In this study, we directly grow nanostructured pyrite-phase nickel phosphide (NiP 2 ) cocatalyst films on textured pn + -Si photocathodes via on-surface reaction at high temperatures. The areal loading of the cocatalyst film can be tailored to achieve an optimal balance between its optical transparency and electrocatalytic activity. As a result, our pn + -Si/Ti/NiP 2 photocathodes demonstrate a great PEC onset potential of 0.41 V versus reversible hydrogen electrode (RHE), a decent photocurrent density of ∼12 mA/cm 2 at the thermodynamic potential of hydrogen evolution, and an impressive operation durability for at least 6 h in 0.5 M H 2 SO 4 . Comparable PEC performance is also observed in 1 M potassium borate buffer (pH = 9.5) using this device.",
    "authors": [
     "Fengjiao Chen",
     "Qishan Zhu",
@@ -8023,7 +8027,8 @@
    "keywords": [
     "light-emitting"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Defects in perovskite-halides and their effects in solar cells",
@@ -8348,7 +8353,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2016-10-28",
-   "abstract": "",
+   "abstract": "A charge carrier in a lead halide perovskite lattice is protected as a large polaron responsible for the remarkable photophysical properties, irrespective of the cation type. All-inorganic-based APbX3 perovskites may mitigate the stability problem for their applications in solar cells and other optoelectronics.",
    "authors": [
     "Haiming Zhu",
     "M. Tuan Trinh",
@@ -8445,7 +8450,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-10-28",
-   "abstract": "",
+   "abstract": "Modification of p-type Si surface by active and stable earth-abundant electrocatalysts is an effective strategy to improve the sluggish kinetics for the hydrogen evolution reaction (HER) at p-Si/electrolyte interface and to develop highly efficient and low-cost photocathodes for hydrogen production from water. To this end, Si nanowire (Si-NW) array has been loaded with highly efficient electrocatalysts, M-B (M = Ni, Co), by facile and quick electroless plating to build M-B catalyst-modified Si nanowire-array-textured photocathodes for water reduction to H 2 . Compared with the bare Si-NW array, composite Si-NWs/M-B arrays display evidently enhanced photoelectrochemical (PEC) performance. The onset potential ( V phon ) of cathodic photocurrent is positively shifted by 530–540 mV to 0.44–0.45 V vs RHE, and the short-circuit current density ( J sc ) is up to 19.5 mA cm –2 in neutral buffer solution under simulated 1 sun illumination. Impressively, the half-cell photopower conversion efficiencies (η hc ) of the optimized Si-NWs/Co–B (2.53%) and Si-NWs/Ni–B (2.45%) are comparable to that of Si-NWs/Pt (2.46%). In terms of the large J sc, V phon, and η hc values, as well as the high Faradaic efficiency, Si-NWs/M-B electrodes are among the top performing Si photocathodes which are modified with HER electrocatalysts but have no buried solid/solid junction.",
    "authors": [
     "Yong Yang",
     "Mei Wang",
@@ -8466,7 +8471,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-10-28",
-   "abstract": "",
+   "abstract": "Semiconductor nanostructure photoelectrochemical (PEC) cells for sunlight conversion have the potential to supply continuous, low-cost, high-efficiency and carbon-free energy; however, in order to provide economically competitive energy, long-time stability and high-efficiency are requisite. In this work, the saturation photocurrent density ( J sat ) and stability of the silicon nanowires (SiNWs) in a PEC cell are significantly improved via surface modification with Ag@SiO 2 nanoparticles and conformal TiO 2 ultrathin film. Compared to the bare SiNWs, a 40% enhancement in J sat, a cathodic shift of 0.8 V in the applied potential for J sat, and over 10-h continuous operation with a high photocurrent density without decay are realized by using the properly modified SiNWs. Comparison of minority carrier lifetime indicates that the surface recombination of the modified SiNWs has been effectively suppressed. External quantum efficiency measurements reveal that the superstable and improved PEC responses of the modified SiNWs can be maintained for a broadband spectrum. This work provides an alternative route to the industrial applications for the semiconductor nanostructure PEC cells.",
    "authors": [
     "Xiang Gao",
     "Shaolong Wu",
@@ -9434,7 +9439,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2016-10-19",
-   "abstract": "",
+   "abstract": "The extent to which the soft structural properties of metal halide perovskites affect their optoelectronic properties is unclear. X-ray diffraction and micro-photoluminescence measurements are used to show that there is a coexistence of both tetragonal and orthorhombic phases through the low-temperature phase transition, and that cycling through this transition can lead to structural changes and enhanced optoelectronic properties.",
    "authors": [
     "Anna Osherov",
     "Eline M. Hutter",
@@ -9631,7 +9636,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-10-18",
-   "abstract": "",
+   "abstract": "Great efforts have been devoted to develop efficient deep blue organic light-emitting diodes (OLEDs) materials meeting the standards of European Broadcasting Union (EBU) standard with Commission International de L’Eclairage (CIE) coordinates of (0.15, 0.06) for flat-panel displays and solid-state lightings. However, high-performance deep blue OLEDs are still rare for applications. Herein, two efficient deep blue emitters, PIMNA and PyINA, are designed and synthesized by coupling naphthalene with phenanthreneimidazole and pyreneimidazole, respectively. The balanced ambipolar transporting natures of them are demonstrated by single-carrier devices. Their nondoped OLEDs show deep blue emissions with extremely small CIE y of 0.034 for PIMNA and 0.084 for PyINA, with negligible efficiency roll-off. To take advantage of high photoluminescence quantum efficiency of PIMNA and large fraction of singlet exciton formation of PyINA, doped devices are fabricated by dispersing PyINA into PIMNA. A significantly improved maximum external quantum efficiency (EQE) of 5.05% is obtained through very effective energy transfer with CIE coordinates of (0.156, 0.060), and the EQE remains 4.67% at 1000 cd m –2, which is among the best of deep blue OLEDs reported matching stringent EBU standard well.",
    "authors": [
     "Tong Shan",
     "Yulong Liu",
@@ -10142,7 +10147,7 @@
    "journal": "ACS Energy Letters",
    "publisher": "ACS",
    "date": "2016-10-14",
-   "abstract": "",
+   "abstract": "In recent years colloidal quantum dot (CQD) photovoltaics have developed rapidly because of novel device architectures and robust surface passivation schemes. Achieving controlled net doping remains an important unsolved challenge for this field. Herein we present a general molecular doping platform for CQD solids employing a library of metal–organic complexes. Low effective ionization energy and high electron affinity complexes are shown to produce n- and p-doped CQD solids. We demonstrate the obvious advantage in solar cells by p-doping the CQD absorber layer. Employing photoemission spectroscopy, we identify two doping concentration regimes: lower concentrations lead to efficient doping, while higher concentrations also cause large surface dipoles creating energy barriers to carrier flow. Utilizing the lower concentration regime, we remove midgap electrons leading to 25% enhancement in the power conversion efficiency relative to undoped cells. Given the vast number of available metal–organic complexes, this approach opens new and facile routes to tuning the properties of CQDs for various applications without necessarily resorting to new ligand chemistries.",
    "authors": [
     "Ahmad R. Kirmani",
     "Amirreza Kiani",
@@ -10609,7 +10614,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-10-12",
-   "abstract": "",
+   "abstract": "The simultaneous realization of high efficiency, stable spectra, high color rendering index (CRI), and low-efficiency roll-off in a fluorescent white organic light-emitting diode (WOLED) still remains a big challenge. Here, we demonstrate high-performance conventional fluorescent-dopant-based WOLEDs by strategic management of singlet and triplet excitons within an efficient emissive zone. This design consists of two separated red/green sub-EMLs with ultralow doping concentration and a sandwiched sub-EML doped with red and green fluorescent dyes at a relatively high concentration, which can harness all electrogenerated excitons and reduce the energy loss to the utmost extent. Accordingly, the resulting WOLED realizes an external quantum efficiency (EQE) of 18.2% with a maximum power efficiency of 44.6 lm W –1 . At the practical luminance of 1000 cd m –2 for the lighting source, the EQE still remains as high as 16.2% with a CRI of 82 and stable color spectra. A comprehensive understanding of the device working mechanism is performed to guide design of efficient and stable fluorescent WOLEDs.",
    "authors": [
     "Zhongbin Wu",
     "Qi Wang",
@@ -10679,7 +10684,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2016-10-11",
-   "abstract": "",
+   "abstract": "Quantum and dielectric confinement effects in Ruddlesden-Popper 2D hybrid perovskites create excitons with a binding energy exceeding 150 meV. We exploit the large exciton binding energy to study exciton and carrier dynamics as well as electron-phonon coupling (EPC) in hybrid perovskites using absorption and photoluminescence (PL) spectroscopies. At temperatures 75 K, excitonic absorption and PL exhibit homogeneous broadening. While absorption remains homogeneous, PL becomes inhomogeneous at temperatures <75K, which we speculate is caused by the formation and subsequent dynamics of a polaronic exciton.",
    "authors": [
     "Daniel B. Straus",
     "Sebastian Hurtado Parra",
@@ -11017,7 +11022,8 @@
    "keywords": [
     "light-emitting"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Origin of unusual bandgap shift and dual emission in organic-inorganic lead halide perovskites",
@@ -11041,7 +11047,8 @@
    "keywords": [
     "perovskites"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Quantum dot–induced phase stabilization of α-CsPbI 3 perovskite for high-efficiency photovoltaics",
@@ -11102,7 +11109,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2016-10-07",
-   "abstract": "",
+   "abstract": "The simple solution processability at room temperature exposes lead halide perovskite semiconductors to a non-negligible level of unintentional structural and chemical defects. Ascertained that their primary optoelectronic properties meet the requirement for high efficiency optoelectronic technologies, a lack of knowledge about the nature of defects and their role in the device operation currently is a major challenge for their market-scale application due to the issues with stability and reliability. Here, we use excitation correlation photoluminescence (ECPL) spectroscopy to investigate the recombination dynamics of the photogenerated carriers in lead bromide perovskites and quantitatively describe the carrier trapping dynamics within a generalization of the Shockley-Read-Hall formalism. The superior sensitivity of our spectroscopic tool to the many-body interactions enables us to identify the energetics of the defects. In fact, in the case of polycrystalline films, depending on the synthetic route, we demonstrate the presence of both deep and shallow carrier traps. The shallow defects, which are situated at about 20 meV below the conduction band, dope the semiconductor, leading to a substantial enhancement of the photoluminescence quantum yield despite carrier trapping. At excitation densities relevant for lasing, we observe breakdown of the rate-equation model, indicating a buildup of a highly correlated regime of the photocarrier population that suppresses the nonradiative Auger recombination. Furthermore, we demonstrate that colloidal nanocrystals represent virtually defect-free systems, suffering from nonradiative quenching only due to subpicosecond Auger-like interactions at high excitation density. By correlating the fabrication conditions to the nonradiative loss channels, this work provides guidelines for material engineering towards superior optoelectronic devices.",
    "authors": [
     "Ajay Ram Srimath Kandada",
     "Stefanie Neutzner",
@@ -11127,7 +11134,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2016-10-07",
-   "abstract": "",
+   "abstract": "Influence of light exposure on cesium lead halide nanostructures has been explored. A discovery of photon driven transformation (PDT) in 2D CsPbBr3 nanoplatelets is reported, in which the quantum-confined few-monolayer nanoplatelets will convert to bulk phase under very low irradiation intensity (≈20 mW cm−2). Benefiting from the remarkable emission color change during PDT, the multicolor luminescence photopatterns and facile information photo-encoding are established.",
    "authors": [
     "Yue Wang",
     "Xiaoming Li",
@@ -11766,7 +11773,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-10-05",
-   "abstract": "",
+   "abstract": "This paper reports the distinct roles of Au and Ag nanoparticles (NPs) in organic light-emitting diodes (OLEDs) depending on their sizes. Au and Ag NPs that are 40 and 50 nm in size, respectively, are the most effective for enhancing the performance of green OLEDs. The external quantum efficiencies (EQEs) of green OLEDs doped with Au and Ag NPs (40 and 50 nm, respectively) are improved by 29.5% and 36.1%, respectively, while the power efficiencies (PEs) are enhanced by 47.9% and 37.5%, respectively. Furthermore, combining the Au and Ag NPs produces greater enhancements. The EQE and PE of the codoped OLEDs are improved by 63.9% and 68.8%, respectively, through the synergistic behavior of the different NPs. Finite-difference time-domain simulations confirm that the localized surface-plasmon resonance of the Au NPs near 580 nm improves the radiative recombination rate ( k rad ) of green-light emitters locally (<50 nm), while the Ag NPs cause relatively long-range and broadband enhancements in k rad . The simulations of various domain sizes verify that the light-extraction efficiency (LEE) can be enhanced by more than 4.2% by applying Ag NPs. Thus, size-controlled Au and Ag NPs can synergistically enhance OLEDs by improving both the internal quantum efficiency and LEE.",
    "authors": [
     "Changsoon Cho",
     "Hyunbum Kang",
@@ -11930,7 +11937,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-10-04",
-   "abstract": "",
+   "abstract": "A series of polarity-tunable host materials were developed based on oligocarbazoles and diphenylphosphine oxide, and their polarities can be tuned through increasing distance of acceptor and donor units. Density functional theory calculations were employed, and photoluminescence spectra in different polar solvents were measured to illustrate different polarities of these host materials. As CZPO has relatively stronger polarity, electroluminescence (EL) spectrum of solution-processed device based on 6 wt % PXZDSO2: CZPO is 7 nm red-shifted relative to that of other host materials based devices. Besides, a comparable impressive external quantum efficiency (EQE) value of 18.7% is achieved for an evaporation-processed yellow device consisting of FCZBn, which is superior to that of the device based on CBP (4,4′-dicarbazolyl-1,1′-biphenyl) (17.0%), and its efficiency roll-off is also obviously reduced, giving an EQE value as high as 16.3% at the luminance of 1000 cd/m 2 . In addition, from CZPO to FCZBn as the polarities of host materials decrease, EL spectra of solution-processed devices based on DMAC-DPS emitter blue-shift constantly from 496 to 470 nm. The current work gives a constructive approach to control EL spectra of organic light-emitting diodes with a fixed thermally activated delayed fluorescence emitter by tuning the polarities of host materials.",
    "authors": [
     "Gaozhan Xie",
     "Dongjun Chen",
@@ -12020,7 +12027,7 @@
    "journal": "ACS Energy Letters",
    "publisher": "ACS",
    "date": "2016-10-03",
-   "abstract": "",
+   "abstract": "We report optically enhanced infrared-harvesting colloidal quantum dot solar cells based on integrated Fabry–Perot cavities. By integrating the active layer of the photovoltaic device between two reflective interfaces, we tune its sensitivity in the spectral region at 1100–1350 nm. The top and bottom electrodes also serve as mirrors, converting the device into an optical resonator. The front conductive mirror consists of a dielectric stack of SiN x and SiO 2 with a terminal layer of ITO and ZnO in which current can flow, while the back mirror consists of a highly reflective gold layer. Adjusting the reflectivity and central wavelength of the front mirror as well as the thickness of the active layer allowed increases in absorption by a total of 56% in the infrared, leading to a record external quantum efficiency of 60% at 1300 nm. This work opens new avenues toward low-cost, high-efficiency rear-junction photovoltaic harvesters that add to the overall performance of silicon solar cells.",
    "authors": [
     "Olivier Ouellette",
     "Nadir Hossain",
@@ -12160,7 +12167,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2016-09-30",
-   "abstract": "",
+   "abstract": "The role of excitons on the amplifications of lead halide perovskites has been explored. Unlike the photoluminescence, the intensity of amplified spontaneous emission is partially suppressed at low temperature. The detailed analysis and experiments show that the inhibition is attributed to the existence of exciton and a quantitative model has been built to explain the experimental observations.",
    "authors": [
     "Quan Lü",
     "Haohan Wei",
@@ -13123,7 +13130,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-09-26",
-   "abstract": "",
+   "abstract": "A near-infrared-driven photoelectrochemical aptasensor was developed as a new method for the detection of the breast cancer cell MCF-7. The upconversion nanoparticles and TiO 2 /CdTe heterostructure were combined to prepare the film electrode, and the high-affinity aptamer AS1411 was conjugated to the electrode to recognize MCF-7 cells. In this fabrication, the upconversion nanoparticles transferred the near-infrared light to visible light, which could excite the semiconductor to enhance the current response. As a result, the aptasensor revealed good sensitivity and specificity with MCF-7 cell concentrations ranging from 1 × 10 3 to 1 × 10 5 cells/mL. The results presented a favorable determination of MCF-7 cells, which was achieved with the help of the upconversion nanoparticles and the photoelectrochemical interface.",
    "authors": [
     "Kewei Wang",
     "Ruihua Zhang",
@@ -13179,7 +13186,8 @@
    "keywords": [
     "perovskites"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Highly Controlled Codeposition Rate of Organolead Halide Perovskite by Laser Evaporation Method",
@@ -13571,7 +13579,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-09-21",
-   "abstract": "",
+   "abstract": "Causes of efficiency limitation in common fluorescence and phosphorescence hybrid white organic light-emitting devices (WOLEDs) are discussed, and a new device architecture is proposed to address these issues. This architecture employs a fluorescent emitting layer (EML) of blue exciplex-forming cohost, which shows broad and strong thermally activated delayed fluorescence (TADF). Hybrid WOLEDs based on this architecture not only allow complete triplet harvesting for light generation but also can achieve white light emission with high color rending indexes (CRI) using only two colors. By using 26DCzPPy:PO-T2T as the blue fluorescent EML and 26DCzPPy:Ir complexes as the phosphorescent EML, we prepared a series of two-color WOLEDs with low turn-on voltages of 2.5-3.3 V, high forward-viewing EQEs of 12.7-19.3% and high CRIs of 67-77. These results suggest this new architecture would be an effective way to achieve high performance WOLEDs with simple structures.",
    "authors": [
     "Xiao-Ke Liu",
     "Wencheng Chen",
@@ -13691,7 +13699,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-09-20",
-   "abstract": "",
+   "abstract": "Inkjet printing has been considered an available way to achieve large size full-color RGB quantum dots LED display, and the key point is to obtain printed film with uniform and flat surface profile. In this work, mixed solvent of 20 vol % 1,2-dichlorobenzene (oDCB) with cyclohexylbenzene (CHB) was used to dissolve green quantum dots (QDs) with CdSe@ZnS/ZnS core/shell structure. Then, by inkjet printing, a flat dotlike QDs film without the coffee ring was successfully obtained on polyetherimide (PEI)-modified ZnO layer, and the printed dots array exhibited great stability and repeatability. Here, adding oDCB into CHB solutions was used to reduce surface tension, and employing ZnO nanoparticle layer with PEI-modified was used to increase the surface free energy. As a result, a small contact angle is formed, which leads to the enhancement of evaporation rate, and then the coffee ring effect was suppressed. The printed dots with flat surface profile were eventually realized. Moreover, inverted green QD-LEDs with PEI-modified ZnO film as electron transport layer (ETL) and printed green QDs film as emission layer were successfully fabricated. The QD-LEDs exhibited the maximum luminance of 12 000 cd/m 2 and the peak current efficiency of 4.5 cd/A at luminance of 1500 cd/m 2 .",
    "authors": [
     "Congbiao Jiang",
     "Zhiming Zhong",
@@ -14014,7 +14022,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-09-15",
-   "abstract": "",
+   "abstract": "The effects of femtosecond-laser-induced periodic surface structures (LIPSS) on an indium tin oxide (ITO) surface applied to an organic photovoltaic (OPV) system were investigated. The modifications of ITO induced by LIPPS in OPV devices result in more than 14% increase in power conversion efficiency (PCE) and short-circuit current density relative to those of the standard device. The basic mechanisms for the enhanced short-circuit current density are attributed to better light harvesting, increased scattering effects, and more efficient charge collection between the ITO and photoactive layers. Results show that higher PCEs would be achieved by laser-pulse-treated electrodes.",
    "authors": [
     "Mei-Hsin Chen",
     "Ya-Hsin Tseng",
@@ -14524,7 +14532,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-09-12",
-   "abstract": "",
+   "abstract": "Four wide bandgap host materials, namely, 9-(4-diphenyl(4-(pyridin-3-yl)phenyl)silyl-phenyl)-9H-carbazole (CSmP), 9-(4-diphenyl(4-(pyridin-2-yl)phenyl)silylphenyl)-9H-carbazole (CSoP), 9-(4-diphenyl(4-(pyridin-3-yl)phenyl)silylphenyl)-9H-3,9'-bicarbazole (DCSmP), and 9-(4-(diphenyl(4-(pyridin-2-yl)phenyl)silyl)phenyl)-9H-3,9'-bicarbazole (DCSoP), have developed by incorporation of pyridine with varied N atom orientation and carbazole/dimer carbazole units into the tetraphenylsilane skeleton for blue phosphorescent light-emitting diodes. These host materials all possess wide bandgap (3.54-3.64 eV) and high triplet energies (2.77-2.95 eV). As revealed by the absorption and emission spectra, theoretical calculations, and CV measurements, the N atom orientation exerts a strong influence on the LUMO energy level and electron-transportation behaviors without deterioring the photophysical properties. Among them, DCSmP with 3-pyridyl substituent manifests the best electron-transporting capability. The FIrpic-doped blue phosphorescent device using DCSmP as host material exhibits excellent electroluminescence performance with a maximum current efficiency of 40.1 cd A(-1) and a maximum external quantum efficiency of 20.0%. The current efficiency and external quantum efficiency are improved 3-fold, higher than those fabricated from DCSpP with 4-pyridyl as substituent, demonstrating an effective strategy for large improvement in device performance by a subtle change in molecular structure.",
    "authors": [
     "Qing Bai",
     "He Liu",
@@ -14677,7 +14685,7 @@
    "journal": "ACS Energy Letters",
    "publisher": "ACS",
    "date": "2016-09-09",
-   "abstract": "",
+   "abstract": "ADVERTISEMENT RETURN TO ISSUEEditorialNEXTPublishing Hybrid/Organic Photovoltaics Papers in ACS Energy LettersFilippo De Angelis*View Author Information Computational Laboratory for Hybrid/Organic Photovoltaics (CLHYO), Istituto CNR di Scienze e Tecnologie Molecolari (ISTM-CNR), Via Elce di Sotto 8, 06123 Perugia, Italy CompuNet, Istituto Italiano di Tecnologia, Via Morego 30, 16163 Genova, Italy*E-mail: [email protected]Cite this: ACS Energy Lett. 2016, 1, 3, 646–647Publication Date (Web):September 9, 2016Publication History Published online9 September 2016Published inissue 9 September 2016https://pubs.acs.org/doi/10.1021/acsenergylett.6b00361https://doi.org/10.1021/acsenergylett.6b00361editorialACS PublicationsCopyright © 2016 American Chemical Society. This publication is available under these Terms of Use. Request reuse permissions This publication is free to access through this site. Learn MoreArticle Views1456Altmetric-Citations1LEARN ABOUT THESE METRICSArticle Views are the COUNTER-compliant sum of full text article downloads since November 2008 (both PDF and HTML) across all institutions and individuals. These metrics are regularly updated to reflect usage leading up to the last few days.Citations are the number of other articles citing this article, calculated by Crossref and updated daily. Find more information about Crossref citation counts.The Altmetric Attention Score is a quantitative measure of the attention that a research article has received online. Clicking on the donut icon will load a page at altmetric.com with additional details about the score and the social media presence for the given article. Find more information on the Altmetric Attention Score and how the score is calculated. Share Add toView InAdd Full Text with ReferenceAdd Description ExportRISCitationCitation and abstractCitation and referencesMore Options Share onFacebookTwitterWechatLinked InRedditEmail PDF (140 KB) Get e-AlertscloseSUBJECTS:Perovskites,Photovoltaics,Solar cells,Solar energy Get e-Alerts",
    "authors": [
     "Filippo De Angelis"
    ],
@@ -15221,7 +15229,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-09-06",
-   "abstract": "",
+   "abstract": "To increase the power conversion efficiency of solar cells, improved antireflection coatings are needed to couple light into the cell with minimal parasitic loss. Here, we present measurements and simulations of an antireflection coating based on silicon dioxide (SiO2) nanospheres that improve solar cell absorption by coupling light from free space into the absorbing layer through excitation of modes within the nanospheres. The deposited monolayer of nanospheres leads to a significant increase in light absorption within an underlying semiconductor on the order of 15-20%. When the periodicity and spacing between the nanospheres are varied, whispering gallery-like modes can be excited and tuned throughout the visible spectrum. The coating was applied to a Si solar cell containing a Si3N4 antireflection layer, and an additional increase in the spectral current density of ∼5% was found. The fabrication process, involving Meyer rod rolling, is scalable and inexpensive and could enable large-scale manufacturability of microresonator-based photovoltaics.",
    "authors": [
     "Dongheon Ha",
     "Chen Gong",
@@ -15280,7 +15288,8 @@
    "keywords": [
     "photoelectrochemical"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Tandem Ring‐Opening–Ring‐Closing Metathesis for Functional Metathesis Catalysts",
@@ -15528,7 +15537,7 @@
    "journal": "Advanced Energy Materials",
    "publisher": "Wiley",
    "date": "2016-09-02",
-   "abstract": "",
+   "abstract": "Lead sulfide quantum dot (QD) solar cells employing an ordered bulk heterojunction with ZnO nanowires and band alignment engineering of the QD film achieve photocurrent density greater than 30 mA cm−2, the highest reported for a QD photovoltaic (PV) device with an ideal band gap of 1.3 eV. This record performance is shown to be the result of simultaneous improvement in light harvesting and carrier collection efficiency, and these effects are generalizable to other PV absorber materials.",
    "authors": [
     "Paul H. Rekemeyer",
     "Sehoon Chang",
@@ -15651,7 +15660,8 @@
    "keywords": [
     "photovoltaics"
    ],
-   "type": "comment"
+   "type": "comment",
+   "ab_tried": 1
   },
   {
    "title": "Revisiting photocarrier lifetimes in photovoltaics",
@@ -15668,7 +15678,8 @@
    "keywords": [
     "photovoltaics"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Nucleotide binding by the widespread high-affinity cyclic di-GMP receptor MshEN domain",
@@ -15888,7 +15899,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2016-08-30",
-   "abstract": "",
+   "abstract": "The electron-doping-induced phase transition of a prototypical perovskite SmNiO3 induces a large and non-volatile optical refractive-index change and has great potential for active-photonic-device applications. Strong optical modulation from the visible to the mid-infrared is demonstrated using thin-film SmNiO3. Modulation of a narrow band of light is demonstrated using plasmonic metasurfaces integrated with SmNiO3.",
    "authors": [
     "Zhaoyi Li",
     "You Zhou",
@@ -15944,7 +15955,7 @@
    "journal": "Advanced Energy Materials",
    "publisher": "Wiley",
    "date": "2016-08-30",
-   "abstract": "",
+   "abstract": "Carbon nanoforms, namely fullerenes, CNTs, graphene and graphene quantum dots reveal appealing properties to be used as interesting active materials for the preparation of photovoltaic devices. The experimental findings evidence that far from being a myth, these carbon materials are becoming a reality with remarkable energy conversion efficiencies.",
    "authors": [
     "Nazario Martín"
    ],
@@ -15982,7 +15993,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-08-30",
-   "abstract": "",
+   "abstract": "The development of efficient charge transport layers is a key requirement for the fabrication of efficient and stable organic solar cells. A graphene-based derivative with planar resistivity exceeding 10(5) Ω/□ and work function of 4.9 eV is here produced by finely tuning the parameters of the chemical vapor deposition process on copper. After the growth, the film is transferred to glass/indium tin oxide and used as hole transport layer in organic solar cells based on a PBDTTT-C-T:[70]PCBM blend. The cells attained a maximum power conversion efficiency of 5%, matching reference cells made with state-of-the-art PEDOT: PSS as the hole transport layer. Our results indicate that functionalized graphene could represent an effective alternative to PEDOT: PSS as hole transport/electron blocking layer in solution-processed organic photovoltaics.",
    "authors": [
     "Andrea Capasso",
     "Luigi Salamandra",
@@ -16262,7 +16273,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-08-26",
-   "abstract": "",
+   "abstract": "We have performed a rigorous investigation of the structure and composition of individual grains in copper-zinc-tin-sulfide (CZTS) films realized by sulfurization of a sputtered metal stack. Although on average close to the ideal CZTS stoichiometry, elemental analysis shows significant grain-to-grain variations in composition. High-resolution Raman spectroscopy indicates that this is accompanied by grain-to-grain structural variations as well. The intensity from the 337 cm(-1) Raman peak, generally assigned to the kesterite phase of CZTS, remains constant over a large area of the sample. On the other hand, signals from secondary phases at 376 cm(-1) (copper-tin-sulfide) and 351 cm(-1) (zinc-sulfide) show significant variation over the same area. These results confirm the great complexity inherent to this material system. Moreover, structural and compositional variations are recognized in the literature as a factor limiting the efficiency of CZTS photovoltaic devices. This study demonstrates how a seemingly homogeneous CZTS thin film can actually have considerable structural and compositional variations at the microscale, and highlights the need for routine microscale characterization in this material system.",
    "authors": [
     "Alejandro Alvarez Barragan",
     "Hoda Malekpour",
@@ -16977,7 +16988,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-08-22",
-   "abstract": "",
+   "abstract": "Holography metasurfaces have been used to control the propagation of light to an unprecedented level, exhibiting the immense potential for light steering in organic light-emitting diodes (OLEDs). Here, a new approach to tailoring directive gain for high contrast, wide-viewing-angle OLEDs is proposed by implementing a spcekle image holography (SIH) metasurface. The experimental and theoretical results provide the direct proofs that the SIH metasurface can play very important roles not only in releasing the trapped energy flow insides the devices but also in tailoring the wavefronts to the preferred patterns due to its \"regional orientation\" k-vectors patterns. The resulting power efficiency and external quantum efficiency of the OLEDs using a SIH metasurface are 1.97 and 1.95 times that of the reference device with a standard architecture. Furthermore, the wavefronts of emitted light are delicately modulated in a polarization-independent manner, yielding 2.5 times higher contrast ratio compared to the reference device. This unique engineered directive gain property is also well-retained for the viewing angles varing from normal to titled ±60° without spectral distortion. These results enrich the understanding of light wavefronts control in OLEDs and highlight its potential application in display as well as light steering for other optoelectronics.",
    "authors": [
     "Lei Zhou",
     "Qing-Dong Ou",
@@ -16999,7 +17010,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-08-22",
-   "abstract": "",
+   "abstract": "Ordered three-dimensional (3D) nanostructure arrays hold promise for high-performance energy harvesting and storage devices. Here, we report the fabrication of InP nanopore arrays (NPs) in unique 3D architectures with excellent light trapping characteristic and large surface areas for use as highly active photoelectrodes in photoelectrochemical (PEC) hydrogen evolution devices. The ordered 3D NPs were scalably synthesized by a facile two-step etching process of (1) anodic etching of InP in neutral 3 M NaCl electrolytes to realize nanoporous structures and (2) wet chemical etching in HCl/H3PO4 (volume ratio of 1:3) solutions for removing the remaining top irregular layer. Importantly, we demonstrated that the use of neutral electrolyte of NaCl instead of other solutions, such as HCl, in anodic etching of InP can significantly passivate the surface states of 3D NPs. As a result, the maximum photoconversion efficiency obtained with ∼15.7 μm thick 3D NPs was 0.95%, which was 7.3 and 1.4 times higher than that of planar and 2D NPs. Electrochemical impedance spectroscopy and photoluminescence analyses further clarified that the improved PEC performance was attributed to the enhanced charge transfer across 3D NPs/electrolyte interfaces, the improved charge separation at 3D NPs/electrolyte junction, and the increased PEC active surface areas with our unique 3D NP arrays.",
    "authors": [
     "Qiang Li",
     "Maojun Zheng",
@@ -17024,7 +17035,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-08-22",
-   "abstract": "",
+   "abstract": "Solvent additive has proven as a useful protocol for improving the film nanomorphology of polymer donor (D): fullerene acceptor (A) blends in bulk heterojunction (BHJ) photovoltaic cells. By contrast, the effect of such solvent additive on nonfullerene BHJ cells based on perylene diimide acceptor, for instance, is less effective because of their highly planar structure and strong π-aggregation in solid state. Here we choose N,N'-bis(1-ethylpropyl)-perylene-3,4,9,10-tetracarboxylic diimide (PDI) and thieno[3,4-b]thiophene-alt-benzodithiophene (PTB7) as a model D:A blend system to investigate how solvent engineering strategy synergistically impacts the blend film nanomorphology. Based on the differences of solvent volatility and solubility, various host solvents-chloroform (CF) and chlorobenzene (CB) and solvent additives-chloronaphthalene (CN) and 1,8-diiodooctane (DIO) are selected for comparative studies. It is found that the π-aggregation of PDIs can be largely suppressed by using low-boiling point (Tb) CF solvent, yet enlarged by using high-Tb CB. Moreover, CN additive provides good solubility of PDI molecules and hence reduces large PDI aggregates in CB system, while DIO exhibiting poor solubility works oppositely. By contrast, DIO that presents larger Tb difference with CF prolongs the film-forming, which assists in optimizing the PDI aggregation and increases the intermixed PTB7:PDI phases more significantly than CN in CF system, yielding the finest phase-separation morphology and balanced charge mobility. Consequently, the inverted BHJ cells based on CF-processed PTB7:PDI blend film with 0.4 vol % DIO exhibit the highest PCE of 3.55% with a fill factor of 56%, both of which are among the best performance for such a paradigm PTB7:PDI blend-based BHJ cells.",
    "authors": [
     "Jialin Wang",
     "Ziqi Liang"
@@ -17243,7 +17254,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-08-19",
-   "abstract": "",
+   "abstract": "The synthesis and characterization of a molecular tetrapod, SFBTD, featuring a tetraphenylsilane center and four identical conjugated arms, which structurally resembles breakwaters in common wave-reducing shore constructions, are reported. Cyclic voltammetry reveals that SFBTD has a medium band gap of ca. 2.0 eV and a low-lying HOMO energy level at ca. -5.2 eV. Absorption spectroscopy, X-ray diffraction, and differential scanning calorimetry experiments reveal a low degree of crystallinity in this compound and slow crystallization kinetics. Bulk heterojunction organic photovoltaics (OPVs) employing SFBTD and fullerene derivatives exhibit power conversion efficiencies (PCEs) up to 1.05% and open-circuit voltage (VOC) values as high as 1.02 V. To the best of our knowledge, this is the highest PCE obtained for OPVs employing molecular tetrapods as donor materials. These devices are relatively thermally stable due to the known ability of breakwater tetrapods to interlock, preventing dislodging and sliding. The lack of favorable phase separations and low hole mobilities of the blend films are the major factors limiting the device performance. Ternary blend devices by the addition of three low band gap poly(thienylene vinylene) (PTV) derivatives were fabricated and tested. We found that the added PTVs acted to be either the major hole conductor or a competing hole conduction channel depending on the HOMO level positions relative to that of SFBTD. Some of the ternary OPV devices out-performed the corresponding binary counterparts employing SFBTD or PTVs alone, suggesting cooperative effects in the ternary systems.",
    "authors": [
     "Jianzhong Yang",
     "Zhen Zhang",
@@ -17458,7 +17469,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2016-08-17",
-   "abstract": "",
+   "abstract": "Highly bright light-emitting diodes based on solution-processed all-inorganic perovskite thin film are demonstrated. The cesium lead bromide (CsPbBr3) created using a new poly(ethylene oxide)-additive spin-coating method exhibits photoluminescence quantum yield up to 60% and excellent uniformity of electrical current distribution. Using the smooth CsPbBr3 films as emitting layers, green perovskite-based light-emitting diodes (PeLEDs) exhibit electroluminescent brightness and efficiency above 53 000 cd m−2 and 4%: a new benchmark of device performance for all-inorganic PeLEDs.",
    "authors": [
     "Yichuan Ling",
     "Yu Tian",
@@ -17545,7 +17556,8 @@
     "perovskite",
     "perovskites"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Vacancy‐Induced Electronic Structure Variation of Acceptors and Correlation with Proton Conduction in Perovskite Oxides",
@@ -17742,7 +17754,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-08-16",
-   "abstract": "",
+   "abstract": "Polymeric carbon nitride (CN) has recently emerged as a novel metal-free semiconductor due to its unique electronic structure, wide availability, and promising applications in photoelectrochemical solar energy conversion. However, few works regarding CN photoelectrode optimization such as by minimization of unwanted grain boundary effects have been reported, which would greatly influence the photoelectrochemcial conversion efficiency. Herein, three general ways of preparing CN photoelectrode are presented and compared, including drop-casting of CN particles, or further blendeding with Nafion or PEDOT-PSS as the binder. In addition, the influences of CN particle sizes (0.5, 1.1, and 3.2 μm) and the film thickness (i.e., the loading amount) to the overall photoelectrochemcial activity were also evaluated in detail. As a result, when PEDOT-PSS acted as binder, CN particles with size of 0.5 μm and an optimal loading amount (2.4 mg/cm(2)) were adopted; the as-prepared CN photoelectrode had much superior photoelectrochemical activity than all other counterparts. Therefore, this study would pave the way for preparing CN photoelectrode of superior quality so as to promote CN materials to be better applied in solar fuel and sensing applications.",
    "authors": [
     "Shuang Lou",
     "Zhixin Zhou",
@@ -17840,7 +17852,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-08-15",
-   "abstract": "",
+   "abstract": "The growth conditions of two types of indium-based III-V nanowires, InP and InN, are tailored such that instead of yielding conventional wire-type morphologies, single-crystal conical structures are formed with an enlarged diameter either near the base or near the tip. By using indium droplets as a growth catalyst, combined with an excess indium supply during growth, \"ice cream cone\" type structures are formed with a nanowire \"cone\" and an indium-based \"ice cream\" droplet on top for both InP and InN. Surface polycrystallinity and annihilation of the catalyst tip of the conical InP nanowires are observed when the indium supply is turned off during the growth process. This growth design technique is extended to create single-crystal InN nanowires with the same morphology. Conical InN nanowires with an enlarged base are obtained through the use of an excess combined Au-In growth catalyst. Electrochemical studies of the InP nanowires on silicon demonstrate a reduction photocurrent as a proof of photovolatic behavior and provide insight as to how the observed surface polycrystallinity and the resulting interface affect these device-level properties. Additionally, a photovoltage is induced in both types of conical InN nanowires on silicon, which is not replicated in epitaxial InN thin films.",
    "authors": [
     "Vijay Parameshwaran",
     "Xiaoqing Xu",
@@ -17858,7 +17870,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-08-15",
-   "abstract": "",
+   "abstract": "Bulky conjugated polymers with high crystallinity is the prerequisite for the overall improvement of performance in wide-bandgap semiconductors, including charge transport, photoluminescence quantum yield, processing reliability, and stability. Herein, we report a stable β-phase film of bulky polydiarylfluorene (PODPF) preparing by thermal annealing at ∼220 °C. The β-phase conformation and regular molecular packing are confirmed by UV-vis, photoluminescence (PL), Raman spectra, and grazing incidence X-ray diffraction (GIXD), respectively. Polymer light-emitting diodes (PLEDs) with crystalline and β-phase film serving as the active layer exhibit higher current efficiency of 1.8 cd/A (6.0 V) and more stable electroluminescence over the amorphous one. Surprisingly, mixed conformations in PODPF film produce dually tunable amplified spontaneous emission (ASE) at 463 and 482 nm. Polydiarylfluorenes with quasi-planar conformation will be a promising candidate for the next-generation gain medium toward a broadly tunable lasing and dual-wavelength laser.",
    "authors": [
     "Bin Liu",
     "Jinyi Lin",
@@ -17883,7 +17895,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-08-15",
-   "abstract": "",
+   "abstract": "The band structure of colloidal quantum dot (CQD) bilayer heterojunction solar cells is optimized using a combination of ligand modification and QD band gap control. Solar cells with power conversion efficiencies of up to 9.33 ± 0.50% are demonstrated by aligning the absorber and hole transport layers (HTL). Key to achieving high efficiencies is optimizing the relative position of both the valence band and Fermi energy at the CQD bilayer interface. By comparing different band gap CQDs with different ligands, we find that a smaller band gap CQD HTL in combination with a more p-type-inducing CQD ligand is found to enhance hole extraction and hence device performance. We postulate that the efficiency improvements observed are largely due to the synergistic effects of narrower band gap QDs, causing an upshift of valence band position due to 1,2-ethanedithiol (EDT) ligands and a lowering of the Fermi level due to oxidation.",
    "authors": [
     "Nanlin Zhang",
     "Darren C. J. Neo",
@@ -17931,7 +17943,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2016-08-12",
-   "abstract": "",
+   "abstract": "Heteronanostructures have attracted intensive attention due to their electronic coupling effects between distinct components. Despite tremendous advances of nanostructure fabrication, combining independent polymorphs by forming heterojunction is still challenging but fascinating, such as copper sulfides (Cu 2– x S), exhibiting varying band gaps and crystal structures with various stoichiometries. Herein, self-coupled Cu 2– x S polymorphs (Cu 1.94 S-CuS) by a facile one-pot chemical transformation route have been reported for the first time. Unprecedentedly, a manganous precursor plays a crucial role in inducing and directing the formation of such a dumbbell-like architecture, which combines 1D Cu 1.94 S with 2D CuS. During the transformation, Mn 2+ ions mediate the Cu + ions diffusion and phase conversion process particularly. Furthermore, this self-coupled polymorphic structure exhibits significantly enhanced photoelectrochemical properties compared with the individual Cu 1.94 S nanocrystals and CuS nanoplates, originating from the unique heterointerfaces constructed by intrinsic band alignment and the enhanced contact between high conductivity hexagonal planes and the working electrode revealed by density functional theory (DFT) calculations. So we anticipate this emerging interfacial charge separation could provide useful hints for applications in optoelectronic devices or photocatalysis.",
    "authors": [
     "Shi-Kui Han",
     "Chao Gu",
@@ -18158,7 +18170,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2016-08-11",
-   "abstract": "",
+   "abstract": "On page 6562, K. T. Nam, H. W. Jang, and co-workers describe an ultralow electric field and high-ON/OFF-ratio resistive-switching behavior of solution-processed organo-metal halide perovskite (OHP) films with the rotational motion of the A-site molecular cation. Metal/OHP/metal cells exhibit electroforming-free resistive switching at an electric field of 3.25 × 103 V cm−1 for four distinguishable ON-state resistance levels.",
    "authors": [
     "Jaeho Choi",
     "Sunghak Park",
@@ -18287,7 +18299,7 @@
    "journal": "ACS Energy Letters",
    "publisher": "ACS",
    "date": "2016-08-11",
-   "abstract": "",
+   "abstract": "ADVERTISEMENT RETURN TO ISSUEPREVEnergy FocusNEXTAustralian Photovoltaics Research and DevelopmentMartin A. GreenView Author Information School of Photovoltaic and Renewable Energy Engineering, University of New South Wales (UNSW) Australia, Sydney 2052, AustraliaCite this: ACS Energy Lett. 2016, 1, 3, 516–520Publication Date (Web):August 11, 2016Publication History Received15 July 2016Accepted5 August 2016Published online11 August 2016Published inissue 9 September 2016https://pubs.acs.org/doi/10.1021/acsenergylett.6b00283https://doi.org/10.1021/acsenergylett.6b00283article-commentaryACS PublicationsCopyright © 2016 American Chemical Society. This publication is available under these Terms of Use. Request reuse permissions This publication is free to access through this site. Learn MoreArticle Views2107Altmetric-Citations1LEARN ABOUT THESE METRICSArticle Views are the COUNTER-compliant sum of full text article downloads since November 2008 (both PDF and HTML) across all institutions and individuals. These metrics are regularly updated to reflect usage leading up to the last few days.Citations are the number of other articles citing this article, calculated by Crossref and updated daily. Find more information about Crossref citation counts.The Altmetric Attention Score is a quantitative measure of the attention that a research article has received online. Clicking on the donut icon will load a page at altmetric.com with additional details about the score and the social media presence for the given article. Find more information on the Altmetric Attention Score and how the score is calculated. Share Add toView InAdd Full Text with ReferenceAdd Description ExportRISCitationCitation and abstractCitation and referencesMore Options Share onFacebookTwitterWechatLinked InRedditEmail PDF (2 MB) Get e-AlertscloseSUBJECTS:Photovoltaics,Power,Power conversion efficiency,Silicon,Solar cells Get e-Alerts",
    "authors": [
     "Martin A. Green"
    ],
@@ -18417,7 +18429,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-08-10",
-   "abstract": "",
+   "abstract": "How charge-transfer states (CTSs) assist charge separation of a Coulombically bound exciton in organic photovoltaics has been a hot topic. It is believed that the delocalization feature of a CTS plays a crucial role in the charge separation process. However, the delocalization of the \"hot\" and the \"relaxed\" CTSs is still under debate. Here, with a novel frequency dependent charge-modulated electroabsorption spectroscopy (CMEAS) technique, we elucidate clearly that both \"hot\" and \"relaxed\" CTSs are loosely bound and delocalized states. This is confirmed by comparing the CMEAS results of CTSs with those of localized polaron states. Our results reveal the role of CTS delocalization on charge separation and indicate that no substantial delocalization gradient exists in CTSs.",
    "authors": [
     "Zhiqiang Guan",
     "Ho-Wa Li",
@@ -18601,7 +18613,8 @@
    "keywords": [
     "light-emitting"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Iridium-based double perovskites for efficient water oxidation in acid media",
@@ -19117,7 +19130,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-08-04",
-   "abstract": "",
+   "abstract": "We report hole-injection layers (HILs) comprising a heteropoly acid containing MoO3 units, phosphomolybdic acid (PMA), in organic light-emitting devices (OLEDs). PMA possesses outstanding properties, such as high solubility in organic solvents, very low surface roughness in the film state, high transparency in the visible region, and an appropriate work function (WF), that make it suitable for HILs. We also found that these properties were dependent on the postbaking atmosphere and temperature after film formation. When the PMA film was baked in N2, the Mo in the PMA was reduced to Mo(V), whereas baking in air had no influence on the Mo valence state. Consequently, different baking atmospheres yielded different WF values. OLEDs with PMA HILs were fabricated and evaluated. OLEDs with PMA baked under appropriate conditions exhibited comparably low driving voltages and higher driving stability compared with OLEDs employing conventional hole-injection materials (HIMs), poly(3,4-ethylenedioxythiophene):poly(4-styrenesulfonate), and evaporated MoO3, which clearly shows the high suitability of PMA HILs for OLEDs. PMA is also a commercially available and very cheap material, leading to the widespread use of PMA as a standard HIM.",
    "authors": [
     "Satoru Ohisa",
     "Sho Kagami",
@@ -19718,7 +19731,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-07-29",
-   "abstract": "",
+   "abstract": "The utilization of phosphorescent metal cluster complexes as new types of emitting materials in organic light-emitting diodes (OLEDs) is becoming an alternative and viable approach for achieving high-efficiency electroluminescence. We report herein the design of cationic PtAu2 cluster complexes with differently positioned 9-phenylcarbazole-acetylides to serve as phosphorescent emitters in OLEDs. The rigid structures of PtAu2 complexes cause intense phosphorescence with quantum yields of over 85%, which originates from (3)[π(phenylcarbazole-acetylide) → π*(dpmp)] ligand-to-ligand and (3)[π(phenylcarbazole-acetylide) → p/s(PtAu2)] ligand-to-metal charge-transfer triplet excited states. When 8 wt % PtAu2 is doped to blended host materials of TCTA and OXD-7 (2:1 weight ratio) as light-emitting layers, solution-processed OLEDs give a current efficiency of 78.2 cd A(-1) and an external quantum efficiency (EQE) of 21.5% at a practical luminance of 1029 cd m(-2) with a slow efficiency roll-off upon increasing luminance. This represents the best device performance and the highest efficiency recorded at practical luminance for solution-processed OLEDs.",
    "authors": [
     "Liang-Jin Xu",
     "Xian-Chong Zeng",
@@ -19808,7 +19821,8 @@
     "photoelectrochemical",
     "water splitting"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Engineering of CH 3 NH 3 PbI 3 Perovskite Crystals by Alloying Large Organic Cations for Enhanced Thermal Stability and Transport Properties",
@@ -19966,7 +19980,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-07-27",
-   "abstract": "",
+   "abstract": "Polymer light-emitting diodes (PLEDs) have attracted broad interest due to their solution-processable properties. It is well-known that to achieve better performance, organic light-emitting diodes require multilayer device structures. However, it is difficult to realize multilayer device structures by solution processing for PLEDs. Because most semiconducting polymers have similar solubility in common organic solvents, such as toluene, xylene, chloroform, and chlorobenzene, the deposition of multilayers can cause layers to mix together and damage each layer. Herein, a novel semiorthogonal solubility relationship was developed and demonstrated. For the first time, an alkane-soluble dendrimer is utilized as the electron-transport layer (ETL) in PLEDs via a solution-based process. With the dendrimer ETL, the external quantum efficiency increases more than threefold. This improvement in the device performance is attributed to better exciton confinement, improved exciton energy transfer, and better charge carrier balance. The semiorthogonal solubility provided by alkane offers another process dimension in PLEDs. By combining them with water/alcohol-soluble polyelectrolytes, more exquisite multilayer devices can be fabricated to achieve high device performance, and new device structures can be designed and realized.",
    "authors": [
     "Zhiming Zhong",
     "Sen Zhao",
@@ -19996,7 +20010,8 @@
    "keywords": [
     "photovoltaics"
    ],
-   "type": "review"
+   "type": "review",
+   "ab_tried": 1
   },
   {
    "title": "Perovskite CH 3 NH 3 PbI 3 (Cl) Single Crystals: Rapid Solution Growth, Unparalleled Crystalline Quality, and Low Trap Density toward 10 8 cm –3",
@@ -20228,7 +20243,8 @@
    "keywords": [
     "perovskites"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Regioisomeric Effects of Donor–Acceptor–Acceptor′ Small‐Molecule Donors on the Open Circuit Voltage of Organic Photovoltaics",
@@ -20236,7 +20252,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2016-07-25",
-   "abstract": "",
+   "abstract": "Donor-acceptor-acceptor' small-molecule donors are synthesized to investigate regioisomeric effects on organic photovoltaic device performance. Cross-conjugation in 2-((7-(N-(2-ethylhexyl)-benzothieno[3,2-b]thieno[3,2-d]pyrrol-2-yl)benzo[c][1,2,5]thiadiazol-4-yl)methylene)malononitrile leads to an increased open-circuit voltage compared with its isomer 2-((7-(N-(2-ethylhexyl)-benzothieno[3,2-b]thieno[2,3-d]pyrrol-2-yl)benzo[c][1,2,5]thiadiazol-4-yl)methylene)malononitrile. A correlation is then established between molecular conjugation length and orbital energies, and hence open-circuit voltage.",
    "authors": [
     "Xiaozhou Che",
     "Chin‐Lung Chung",
@@ -20583,7 +20599,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-07-22",
-   "abstract": "",
+   "abstract": "Red phosphors (e.g., SrLiAl3N4:Eu(2+)) with high thermal stability and narrow-band properties are urgently explored to meet the next-generation high-power white light-emitting diodes (LEDs). However, to date, synthesis of such phosphors remains an arduous task. Herein, we report, for the first time, a facile method to synthesize SrLiAl3N4:Eu(2+) through Sr3N2, Li3N, Al, and EuN under atmospheric pressure. The as-synthesized narrow-band red-emitting phosphor exhibits excellent thermal stability, including small chromaticity shift and low thermal quenching. Intriguingly, the title phosphor shows an anomalous increase in theoretical lumen equivalent with the increase of temperature as a result of blue shift and band broadening of the emission band, which is crucial for high-power white LEDs. Utilizing the title phosphor, commercial YAG:Ce(3+), and InGaN-based blue LED chip, a proof-of-concept warm white LEDs with a color rendering index (CRI) of 91.1 and R9 = 68 is achieved. Therefore, our results highlight that this method, which is based on atmospheric pressure synthesis, may open a new means to explore narrow-band-emitting nitride phosphor. In addition, the underlying requirements to design Eu(2+)-doped narrow-band-emitting phosphors were also summarized.",
    "authors": [
     "Xuejie Zhang",
     "Yi-Ting Tsai",
@@ -21316,7 +21332,8 @@
    "keywords": [
     "photovoltaics"
    ],
-   "type": "review"
+   "type": "review",
+   "ab_tried": 1
   },
   {
    "title": "Simultaneous H 2 Generation and Biomass Upgrading in Water by an Efficient Noble‐Metal‐Free Bifunctional Electrocatalyst",
@@ -21773,7 +21790,7 @@
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2016-07-11",
-   "abstract": "",
+   "abstract": "On page 4653, N. Zhao, M. A. Loi, and co-workers report a giant light-induced enhancement of the photoluminescence intensity in formamidinium lead iodide perovskite thin films. They demonstrate that the “brightening” of the perovskite can be attributed to a moisture-assisted light-healing effect, which can be potentially used to increase and control the quality of hybrid perovskite thin films.",
    "authors": [
     "Hong‐Hua Fang",
     "Feng Wang",
@@ -22476,7 +22493,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-07-06",
-   "abstract": "",
+   "abstract": "New soluble host materials with benzocarbazole and triphenyltriazine moieties, 11-[3-(4,6-diphenyl-[1,3,5]triazin-2-yl)-phenyl]-11H-benzo[a]carbazole and 11-[3'-(4,6-diphenyl-[1,3,5]triazin-2-yl)-biphenyl-4-yl]-11H-benzo[a]carbazole, were synthesized for highly efficient red phosphorescent organic light-emitting diodes (PHOLED). Hole-transporting benzocarbazole moiety and electron transporting triphenyltriazine moiety, which are severely twisted each other enhance the solubility of those materials in common organic solvent. The improved solubility from this molecular design could be due to a reduced π-π stacking interaction, which gives a very uniform film morphology after spin coating of those materials. As a result, we obtained highly efficient soluble PHOLEDs combined with an evaporated blue common layer structure. The resultant red PHOLED exhibited the maximum current efficiency as well as external quantum efficiency values up to 23.7 cd/A and 19.0%.",
    "authors": [
     "Min Chul Suh",
     "So-Ra Park",
@@ -23406,7 +23423,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-06-28",
-   "abstract": "",
+   "abstract": "We propose and fabricate a random light scattering layer for light extraction in organic light-emitting diodes (OLEDs) with silver nanodots, which were obtained by melting silver nanowires. The OLED with the light scattering layer as an internal light extraction structure was enhanced by 49.1% for the integrated external quantum efficiency (EQE). When a wrinkle structure is simultaneously used for an external light extraction structure, the total enhancement of the integrated EQE was 65.3%. The EQE is maximized to 65.3% at a current level of 2.0 mA/cm(2). By applying an internal light scattering layer and wrinkle structure to an OLED, the variance in the emission spectra was negligible over a broad viewing angle. Power mode analyses with finite difference time domain (FDTD) simulations revealed that the use of a scattering layer effectively reduced the waveguiding mode while introducing non-negligible absorption. Our method offers an effective yet simple approach to achieve both efficiency enhancement and spectral stability for a wide range of OLED applications.",
    "authors": [
     "Keunsoo Lee",
     "Jin-Wook Shin",
@@ -23697,7 +23714,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-06-24",
-   "abstract": "",
+   "abstract": "In this study, we report a contact printing technique that uses polyurethane-acrylate (PUA) polymers as the printing stamps to pattern electroluminescent layers of organic light emitting diodes (OLEDs). We demonstrate that electroluminescent thin films can be printed with high uniformity and resolution. We also show that the performance of the printed devices can be improved via postprinting thermal annealing, and that the external quantum efficiency of the printed devices is comparable with the efficiency of the vacuum-deposited OLEDs. Our results suggest that the PUA-based contact printing can be used as an alternative to the traditional shadow mask deposition, permitting manufacturing of OLED displays with the resolution up to the diffraction limit of visible-light emission.",
    "authors": [
     "Jinhai Li",
     "Lisong Xu",
@@ -23716,7 +23733,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-06-24",
-   "abstract": "",
+   "abstract": "The microcavity effect in top-emitting quantum dot light-emitting diodes (TQLEDs) is theoretically and experimentally investigated. By carefully optimizing the cavity length, the thickness of the top Ag electrode and the thickness of the capping layer, very bright and efficient TQLEDs with external quantum efficiency (EQE) of 12.5% are demonstrated. Strong dependence of luminance and efficiency on cavity length is observed, in good agreement with theoretical calculation. By setting the normal-direction resonant wavelength around the peak wavelength of the intrinsic emission, highest luminance of 112 000 cd/m(2) (at a driving voltage of 7 V) and maximum current efficiency of 27.8 cd/A are achieved, representing a 12-fold and a 2.1-fold enhancement compared to 9000 cd/m(2) and 13.2 cd/A of the conventional bottom emitting devices, respectively, whereas the highest EQE of 12.5% is obtained by setting the resonant wavelength 30 nm longer than the peak wavelength of the intrinsic emission. Benefit from the very narrow spectrum of QDs and the low absorption of silver electrodes, the potential of microcavity effect can be fully exploited in TQLEDs.",
    "authors": [
     "Guohong Liu",
     "Xiang Zhou",
@@ -23824,7 +23841,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-06-23",
-   "abstract": "",
+   "abstract": "A wide-bandgap SiC4 semiconductor with low density and high elasticity has been designed and characterized by ab initio molecular dynamics simulations and first-principles calculations. The through-space conjugation among the d orbitals of Si and the π* orbitals of ethynyl moieties can remarkably enhance the photoconductivity. This new-type superlight and superflexible semiconductor is predicted to have unique electronic, optical, and mechanical properties, and it is a quite promising material for the high-performance UV optoelectronic devices suitable for various practical demands in a complex environment.",
    "authors": [
     "Ming-Jun Sun",
     "Xinrui Cao",
@@ -23842,7 +23859,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-06-23",
-   "abstract": "",
+   "abstract": "Robust light-emitting materials with strong solid-state fluorescence as well as fast and balanced carrier transporting ability are crucial to achieve high-performance organic light-emitting diodes (OLEDs). In this contribution, two linear tetraphenylethene (TPE) derivatives (TPE-TPAPBI and TPE-DPBI) that are functionalized with hole-transporting triphenylamine and/or electron-transporting 1,2-diphenyl-1H-benzimidazole groups are synthesized and fully characterized. Both TPE-TPAPBI and TPE-DPBI have aggregation-induced emission attributes and excellent photoluminescence quantum yields approaching 100% in vacuum deposited films. They also possess good thermal property, giving high decomposition temperatures (480 and 483 °C) and glass-transition temperatures (141 and 157 °C). TPE-TPAPBI and TPE-DPBI present high electron mobilities of 1.80 × 10(-5) and 1.30 × 10(-4) cm(2) V (-1) s(-1), respectively, at an electric field of 3.6 × 10(5) V cm(-1), which are comparable or even superior to that of 1,3,5-tri(1-phenylbenzimidazol-2-yl)benzene. The nondoped OLED device employing TPE-TPAPBI as active layer performs outstandingly, affording ultrahigh luminance of 125 300 cd m(-2), and excellent maximum external quantum, power and current efficiencies of 5.8%, 14.6 lm W(-1), and 16.8 cd A(-1), respectively, with very small roll-offs, demonstrating that TPE-TPAPBI is a highly promising luminescent material for nondoped OLEDs.",
    "authors": [
     "Gengwei Lin",
     "Huiren Peng",
@@ -23868,7 +23885,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-06-23",
-   "abstract": "",
+   "abstract": "To improve the color purity of thermally activated delayed fluorescence (TADF) emitters, two isomeric compounds, oPTC (5'-(phenoxazin-10-yl)-[1,1':3',1″-terphenyl]-2'-carbonitrile) and mPTC (2'-(phenoxazin-10-yl)-[1,1':3',1″-terphenyl]-5'-carbonitrile), were designed and synthesized with same skeleton but different molecular restrictions. Both compounds exhibit similar highest occupied molecular orbital and lowest unoccupied molecular orbital distributions and energy levels, photophysical properties in nonpolar cyclohexane solution, and high external quantum efficiencies (19.9% for oPTC and 17.4% for mPTC) in the devices. With the increased molecular space restriction induced by the additional phenyl substitutions at meta-position of the cyano group from mPTC to oPTC, much weaker positive solvatochromic effect is observed for mPTC. And the color purity of emission from mPTC (full width at half-maximum (fwhm) of 86 nm) is also improved contrasted with that of oPTC (fwhm of 97 nm) in the devices. These results prove that increased restriction of the molecular structure is a simple and effective method to improve the color purity of the TADF emitters.",
    "authors": [
     "Dong-Yang Chen",
     "Wei Liu",
@@ -23891,7 +23908,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-06-23",
-   "abstract": "",
+   "abstract": "Light-emitting electrochemical cells (LEECs) utilizing small molecule emitters such as iridium complexes have great potential as low-cost emissive devices. In these devices, ions rearrange during operation to facilitate carrier injection, bringing about efficient operation from simple, single layer devices. Recent work has shown that the luminance, efficiency, and responsiveness of iridium-based LEECs are greatly enhanced by the inclusion of small amounts of lithium salts (≤0.5%/wt) into the active layer. However, the origin of this enhancement has yet to be demonstrated experimentally. Furthermore, although iridium-based devices have been the longstanding leader among small molecule LEECs, fundamental understanding of the ionic distribution in these devices under operation is lacking. Herein, we use scanning Kelvin probe microscopy to measure the in situ potential profiles and electric field distributions of planar iridium-based LEECs and clarify the role of ionic lithium additives. In pristine devices, it is found that ions do not pack densely at the cathode, and ionic redistribution is slow. Inclusion of small amounts of Li[PF6] greatly increases ionic space charge near the cathode that doubles the peak electric fields and enhances electronic injection relative to pristine devices. This study confirms and clarifies a number of longstanding hypotheses regarding iridium LEECs and recent postulates concerning optimization of their operation.",
    "authors": [
     "Kuo-Yao Lin",
     "Lyndon D. Bastatas",
@@ -24247,7 +24264,7 @@
    "journal": "Chemical Reviews",
    "publisher": "ACS",
    "date": "2016-06-21",
-   "abstract": "",
+   "abstract": ") due to the preponderance of experimental and theoretical studies surrounding this material. We also discuss other salient MHP systems, including 2-dimensional compounds, where relevant. More specifically, this review is a critical account of the interrelation between MHP electronic structure, absorption, emission, carrier dynamics and transport, and other relevant photophysical processes that have propelled these materials to the forefront of modern optoelectronics research.",
    "authors": [
     "Joseph S. Manser",
     "Jeffrey A. Christians",
@@ -24538,7 +24555,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-06-20",
-   "abstract": "",
+   "abstract": "Blue phosphorescent organic light-emitting diode (PhOLED) with a high maximum external quantum efficiency (EQE) of 26.6% was achieved using a new material, 2,8-bis(9,9-dimethylacridin-10(9H)-yl)dibenzo[b,d]furan (DBF-DMS) with a small bandgap, as the host. The device with DBF-DMS showed improved performance compared with that with 1,3-di-9-carbazolylbenzene, which is ascribed to the enhancement in carrier injection and transporting abilities and material stability of DBF-DMS. A lifetime of more than 100 h (time to 50% of the initial luminance, 1000 cd/m(2) with an EQE of 19.6%) in the other DBF-DMS-based device is obtained by further utilizing better device structure. This is a report indicating that host material with a small bandgap like DBF-DMS can be successfully utilized toward blue PhOLEDs with high performance.",
    "authors": [
     "Lei Zhang",
     "Ye-Xin Zhang",
@@ -24734,7 +24751,7 @@
    "journal": "Accounts of Chemical Research",
    "publisher": "ACS",
    "date": "2016-06-17",
-   "abstract": "",
+   "abstract": "Hydrogen bonds (H-bonds) constitute highly relevant structural units of molecular self-assembly. They bridge biological and synthetic sciences, implementing dynamic properties into materials and molecules, not achieved via purely covalent bonds. Phase segregation on the other hand represents another important assembly principle, responsible for, e.g., cell compartimentation, membrane-formation, and microphase segregation in polymers. Yet, despite the expanding elegant synthetic strategies of supramolecular polymers, the investigation of phase behavior of macromolecules driven by H-bonding forces still remains in its infancy. Compared to phase segregation arising from covalently linked block copolymers, the generation of phase segregated nanostructures via supramolecular polymers facilitates the design of novel functional materials, such as those with stimuli-responsive, self-healing, and erasable-material properties. We here discuss the phase segregation of H-bonding polymers in both the solution and solid state, wherein the molecular recognition elements are based on multiple H-bonding moieties, such as thymine/2,6-diamino-pyridine (THY/DAP), thymine/diamino triazine (THY/DAT), and barbiturate/Hamilton wedge (Ba/HW) elements. The specific aggregation of a series of different H-bonding polymers in solution, both linear and dendritic polymers, bearing heterocomplementary H-bonding moieties are described, in particular focusing on the issue of phase segregation. The exploitation of H-bonded supramolecular dendrons with segregating polymer chains leads to the formation of three-phase segregated hierarchical micelles in solution, purely linking the components via H-bonds, in turn displaying a versatile spectrum of segregated morphologies. We also focus on segregation effects of H-bonded amorphous and crystalline polymers: thus the formation of nanostructures, such as disordered micelles and well-ordered body centered cubic (BCC) packed spheres from telechelic polymers bearing H-bonding moieties at the chain ends is observed. Finally, we discuss the discovery of novel functional microphase separated self-healing supramolecular architectures, illustrating dynamic and self-healing properties with an almost complete recovery of the initial mechanical performances healing within 24h at 30 °C. Collectively, our studies prove that phase segregation in H-bonding…",
    "authors": [
     "Senbin Chen",
     "Wolfgang H. Binder"
@@ -24779,7 +24796,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-06-17",
-   "abstract": "",
+   "abstract": "We demonstrate herein the fabrication of small molecule-based OLEDs where four organic layers from the hole- to the electron-transporting layers have successively been deposited by using an all-solution process. The key feature of the device relies on a novel photopolymerizable red-emitting material, made of small fluorophores substituted with two acrylate units, and displaying high-quality film-forming properties as well as high emission quantum yield as nondoped thin films. Insoluble emissive layers were obtained upon UV irradiation using low illumination doses, with no further need of postcuring. Very low photodegradation was noticed, giving rise to bright layers with a remarkable surface quality, characterized by a mean RMS roughness as low as 0.7 nm after development. Comparative experiments between solution-processed OLEDs and vacuum-processed OLEDs made of fluorophores with close architectures show external quantum efficiencies in the same range while displaying distinct behaviors in terms of current and power efficiencies. They validate the proof of concept of nondoped solution-processable emissive layers exclusively made of photopolymerized fluorophores, thereby reducing the amount of components and opening the way toward cost-effective fabrication of solution-processed OLED multilayer architectures.",
    "authors": [
     "Lionel Derue",
     "Simon Olivier",
@@ -25036,7 +25053,8 @@
    "keywords": [
     "photoelectrochemical"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Fast and Sensitive Solution‐Processed Visible‐Blind Perovskite UV Photodetectors",
@@ -25657,7 +25675,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-06-09",
-   "abstract": "",
+   "abstract": "While low hole mobilities limit the current collection and efficiency of hydrogenated amorphous silicon (a-Si:H) photovoltaic devices, attempts to improve mobility of the material directly have stagnated. Herein, we explore a method of utilizing nanostructuring of a-Si:H devices to allow for improved hole collection in thick absorber layers. This is achieved by etching an array of 150 nm diameter holes into intrinsic a-Si:H and then coating the structured material with p-type a-Si:H and a conformal zinc oxide transparent conducting layer. The inclusion of these nanoholes yields relative power conversion efficiency (PCE) increases of ∼45%, from 7.2 to 10.4% PCE for small area devices. Comparisons of optical properties, time-of-flight mobility measurements, and internal quantum efficiency spectra indicate this efficiency is indeed likely occurring from an improved collection pathway provided by the nanostructuring of the devices. Finally, we estimate that through modest optimizations of the design and fabrication, PCEs of beyond 13% should be obtainable for similar devices.",
    "authors": [
     "Eric Johlin",
     "Ahmed Al-Obeidi",
@@ -25937,7 +25955,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-06-07",
-   "abstract": "",
+   "abstract": "An individual light-emitting diode (LED) capable of emitting different colors of light under different bias conditions not only allows for compact device integration but also extends the functionality of the LED beyond traditional illumination and display. Herein, we report a color-switchable LED based on solution-grown n-type ZnO on p-GaN/n-GaN heterojunction. The LED emits red light with a peak centered at ∼692 nm and a full width at half-maximum of ∼90 nm under forward bias, while it emits green light under reverse bias. These two lighting colors can be switched repeatedly by reversing the bias polarity. The bias-polarity-switched dual-color LED enables independent control over the lighting color and brightness of each emission with two-terminal operation. The results offer a promising strategy toward transparent, miniaturized, and smart LEDs, which hold great potential in optoelectronics and optical communication.",
    "authors": [
     "Xiaohu Huang",
     "Li Zhang",
@@ -26118,7 +26136,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-06-06",
-   "abstract": "",
+   "abstract": "This study presents the influence of various substituents on the photophysical features of heteroleptic copper(I) complexes bearing both N-heterocyclic carbene (NHC) and dipyridylamine (dpa = dipyridylamine skeleton corresponding to ligand L1) ligands. The luminescent properties have been compared to our recently reported archetypal blue emitting [Cu(IPr)(dpa)][PF6] complex. The choice of the substituents on both ligands has been guided to explore the effect of the electron donor/acceptor and \"push-pull\" on the emission wavelengths and photoluminescence quantum yields. A selection of the best candidates in terms of their photophysical features were applied for developing the first blue light-emitting electrochemical cells (LECs) based on copper(I) complexes. The device analysis suggests that the main concern is the moderate redox stability of the complexes under high applied driving currents, leading to devices with moderate stabilities pointing to a proof-of-concept for further development. Nevertheless, under low applied driving currents the blue emission is stable, showing performance levels competitive to those reported for blue LECs based on iridium(III) complexes. Overall, this work provides valuable guidelines to tackle the design of enhanced NHC copper complexes for lighting applications in the near future.",
    "authors": [
     "Margaux Elie",
     "Fabien Sguerra",
@@ -26229,7 +26247,8 @@
    "keywords": [
     "perovskites"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Water splitting–biosynthetic system with CO 2 reduction efficiencies exceeding photosynthesis",
@@ -26635,7 +26654,7 @@
    "journal": "ACS Energy Letters",
    "publisher": "ACS",
    "date": "2016-06-02",
-   "abstract": "",
+   "abstract": "Perovskite photovoltaics have made giant leaps in efficiency in just a few years from their inception. The employed solution synthesis techniques lead to inherently “soft” structures, which are properly sampled by dynamical approaches. The presence of two types of mobile ions, that is, the (organic) A-cations and ion/defects species in both the organic and inorganic lattices, gives rise to a broad spectrum of dynamical features. A charge localization mechanism due to fluctuations of the A-cations is proposed to screen carrier recombination. Defect/ion migration probably underlies the slow materials response under light irradiation related also to solar cell hysteresis. We also show how the dynamics of the organic cations and that related to ion/defect migration are essentially coupled, with the methylammonium cations providing a local screening mechanism that may further speed up the ionic migration. The use of less polar and less orientationally mobile A-cations may possibly slow down ion migration.",
    "authors": [
     "Edoardo Mosconi",
     "Filippo De Angelis"
@@ -27084,7 +27103,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-05-31",
-   "abstract": "",
+   "abstract": "Wide-band-gap mixed-halide CH3NH3PbI3-XBrX-based solar cells have been prepared by means of a sequential spin-coating process. The spin-rate for PbI2 as well as its repetitive deposition are important in determining the cross-sectional shape and surface morphology of perovskite, and, consequently, J-V performance. A perovskite solar cell converted from PbI2 with a dense bottom layer and porous top layer achieved higher device performance than those of analogue cells with a dense PbI2 top layer. This work demonstrates a facile way to control PbI2 film configuration and morphology simply by modification of spin-coating parameters without any additional chemical or thermal post-treatment.",
    "authors": [
     "Dowon Bae",
     "Axel Palmstrom",
@@ -27428,7 +27447,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-05-27",
-   "abstract": "",
+   "abstract": "Organic heterojunctions (OHJs) consisting of a strong electron acceptor 1,4,5,8,9,11-hexaazatriphenylene hexacarbonitrile (HAT-CN) and an electron donor N,N'-di(naphthalene-1-yl)-N,N'-diphenyl-benzidine (NPB) were demonstrated for the first time that they can be implemented as effective modification layers between hole transport layer (HTL) and emission layer in the heterostructured organic light-emitting field effect transistors (OLEFETs). The influence of both HAT-CN/NPB junction (npJ) and NPB/HAT-CN junction (pnJ) on the optoelectronic performance of OLEFETs were conscientiously investigated. It is found that both the transport ability of holes and the injection ability of holes into emissive layer can be dramatically improved via the charge transfer of the OHJs and that between HAT-CN and the HTL. Consequently, OLEFETs with pnJ present optimal performance of an external quantum efficiency (EQE) of 3.3% at brightness of 2630 cdm(-2) and the ones with npJs show an EQE of 4.7% at brightness of 4620 cdm(-2). By further utilizing npn OHJs of HAT-CN/NPB/HAT-CN, superior optoelectronic performance with an EQE of 4.7% at brightness of 8350 cdm(-2) and on/off ratio of 1 × 10(5) is obtained. The results demonstrate the great practicality of implementing OHJs as effective modification layers in heterostructured OLEFETs.",
    "authors": [
     "Li Song",
     "Yongsheng Hu",
@@ -27636,7 +27655,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-05-26",
-   "abstract": "",
+   "abstract": "The root causes of the differences in electroluminescence stability among phosphorescent organic light-emitting devices (PHOLEDs) utilizing different emitter guests are studied. The results show that the host material plays a more influential role in limiting device stability in comparison to the guest. During the operation of a PHOLED, the host undergoes aggregation as a result of interactions between the excitons and positive polarons. The rate of this aggregation is found to be the limiting factor for device lifetime and is influenced by the choice of the guest material and its concentration. Finally, it is shown that phase segregation between the host and the guest is an important aspect of the aggregation process. As a result of this segregation, energy transfer from the host to the guest becomes increasingly less efficient, resulting in the observed gradual loss in electroluminescence efficiency in the devices over time. The findings explain why PHOLEDs utilizing different guest materials but otherwise identical material systems can have significantly different lifetimes and provide an answer to a long-lasting question in the field.",
    "authors": [
     "Yingjie Zhang",
     "Hany Aziz"
@@ -28618,7 +28637,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2016-05-18",
-   "abstract": "",
+   "abstract": "Organolead halide perovskites are used for low-operating-voltage multilevel resistive switching. Ag/CH3 NH3 PbI3 /Pt cells exhibit electroforming-free resistive switching at an electric field of 3.25 × 10(3) V cm(-1) for four distinguishable ON-state resistance levels. The migration of iodine interstitials and vacancies with low activation energies is responsible for the low-electric-field resistive switching via filament formation and annihilation.",
    "authors": [
     "Jaeho Choi",
     "Sunghak Park",
@@ -28790,7 +28809,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2016-05-17",
-   "abstract": "",
+   "abstract": "Hall effect measurements in CH3 NH3 PbBr3 single crystals reveal that the charge-carrier mobility follows an inverse-temperature power-law dependence, μ ∝ T(-) (γ) , with the power exponent γ = 1.4 ± 0.1 in the cubic phase, indicating an acoustic-phonon-dominated carrier scattering, and γ = 0.5 ± 0.1 in the tetragonal phase, suggesting another dominant mechanism, such as a piezoelectric or space-charge scattering.",
    "authors": [
     "Hee Taek Yi",
     "Xiaoxi Wu",
@@ -29007,7 +29026,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-05-17",
-   "abstract": "",
+   "abstract": "Strategies to confine electromagnetic field within ultrathin film emerge as essential technologies for applications from thin-film solar cells to imaging and sensing devices. We demonstrate a lithography-free, low-cost, large-scale method to realize broadband ultrathi-film metal-dielectric-metal (MDM) absorbers, by exploiting gap-plasmon resonances for strongly confined electromagnetic field. A two-steps method, first organizing Au nanoparticles via thermal dewetting and then transferring the nanoparticles to a spacer-reflector substrate, is used to achieve broader absorption bandwidth by manipulating geometric shapes of the top metallic layer into hemiellipsoids. A fast-deposited nominal Au film, instead of a conventional slow one, is employed in the Ostwald ripening process to attain hemiellipsoidal nanoparticles. A polymer supported transferring step allows a wider range of dewetting temperature to manipulate the nanoparticles' shape. By incorporating circularity with ImageJ software, the geometries of hemiellipsoidal nanoparticles are quantitatively characterized. Controlling the top geometry of MDM structure from hemisphere to hemiellipsoid increases the average absorption at 500-900 nm from 23.1% to 43.5% in the ultrathin film and full width at half-maximum of 132-324 nm, which is consistently explained by finite-difference time-domain simulation. The structural advantages of our scheme are easily applicable to thin-film photovoltaic devices because metal electrodes can act as metal reflectors and semiconductor layers as dielectric spacers.",
    "authors": [
     "Minjung Choi",
     "Gumin Kang",
@@ -29210,7 +29229,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-05-16",
-   "abstract": "",
+   "abstract": "This study explores low-temperature solution-process-based seed-layer-free ZnO p-n homojunction light-emitting diode (LED). In order to obtain p-type ZnO nanodisks (NDs), antimony (Sb) was doped into ZnO by using a facile chemical route at 120 °C. The X-ray photoelectron spectra indicated the presence of (SbZn-2VZn) acceptor complex in the Sb-doped ZnO NDs. Using these NDs as freestanding templates, undoped n-type ZnO nanorods (NRs) were epitaxially grown at 95 °C to form ZnO p-n homojunction. The homojunction with a turn-on voltage of 2.5 V was found to be significantly stable up to 100 s under a constant voltage stress of 5 V. A strong orange-red emission was observed by the naked eye under a forward bias of 5 V. The electroluminescence spectra revealed three major peaks at 400, 612, and 742 nm which were attributed to the transitions from Zni to VBM, from Zni to Oi, and from VO to VBM, respectively. The presence of these deep-level defects was confirmed by the photoluminescence of ZnO NRs. This study paves the way for future applications of ZnO homojunction LEDs using low-temperature and low-cost solution processes with the controlled use of native defects.",
    "authors": [
     "Sung-Doo Baek",
     "Pranab Biswas",
@@ -29431,7 +29450,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-05-12",
-   "abstract": "",
+   "abstract": "Despite the recent progress of developing graphitic carbon nitride (g-C3N4) as a metal-free photocatalyst, the synthesis of nanostructured g-C3N4 has still remained a complicated and time-consuming approach from its bulk powder, which substantially limits its photoelectrochemical (PEC) applications as well as the potential to form composites with other semiconductors. Different from the labor-intensive methods used before, such as exfoliation or assistant templates, herein, we developed a facile method to synthesize graphitic C3N4 quantum dots (g-CNQDs) directly grown on TiO2 nanowire arrays via a one-step quasi-chemical vapor deposition (CVD) process in a homemade system. The as-synthesized g-CNQDs uniformly covered over the surface of TiO2 nanowires and exhibited attractive photoluminescence (PL) properties. In addition, compared to pristine TiO2, the heterojunction of g-CNQD-decorated TiO2 nanowires showed a substantially enhanced PEC photocurrent density of 3.40 mA/cm(2) at 0 V of applied potential vs Ag/AgCl under simulated solar light (300 mW/cm(2)) and excellent stability with ∼82% of the photocurrent retained after over 10 h of continuous testing, attributed to the quantum and sensitization effects of g-CNQDs. Density functional theory calculations were further carried out to illustrate the synergistic effect of TiO2 and g-CNQD. Our method suggests that a variety of g-CNQD-based composites with other semiconductor nanowires can be synthesized for energy applications.",
    "authors": [
     "Tiance An",
     "Jing Tang",
@@ -29710,7 +29729,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-05-11",
-   "abstract": "",
+   "abstract": "Electrophoretic deposition (EPD) is used for the growth of carbon nitride (C3N4) layers on conductive substrates. EPD is fast, environmentally friendly, and allows the deposition of negatively charged C3N4 with different compositions and chemical properties. In this method, C3N4 can be deposited on various conductive substrates ranging from conductive glass and carbon paper to nickel foam possessing complex 3D geometries. The high flexibility of this approach enables us to readily tune the photophysical and photoelectronic properties of the C3N4 electrodes. The advantage of this method was further illustrated by the tailored construction of a heterostructure between two complementary C3N4, with marked photoelectrochemical activity.",
    "authors": [
     "Jingsan Xu",
     "Menny Shalom"
@@ -29773,7 +29792,8 @@
    "keywords": [
     "perovskites"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Highly Efficient Perovskite Solar Cells Employing an Easily Attainable Bifluorenylidene‐Based Hole‐Transporting Material",
@@ -29937,7 +29957,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-05-09",
-   "abstract": "",
+   "abstract": "In a photoelectrochemical (PEC) cell for water splitting, the critical issue is charge separation and transport, which is usually completed by designing semiconductor heterojunctions. TiO2 anatase-rutile mixed junctions could largely improve photocatalytic properties, but impairs PEC water splitting performance. We designed and prepared two types of TiO2 heterostructures with the anatase thin film and rutile nanowire phases organized in different sequences. The two types of heterostructures were used as PEC photoanodes for water splitting and demonstrated completely opposite results. Rutile nanowires on anatase film demonstrated enhanced photocurrent density and onset potential, whereas strong negative performance was obtained from anatase film on rutile nanowire structures. The mechanism was investigated by photoresponse, light absorption and reflectance, and electrochemical impedance spectra. This work revealed the significant role of phase sequence in performance gain of anatase-rutile TiO2 heterostructured PEC photoanodes.",
    "authors": [
     "Fengren Cao",
     "Jie Xiong",
@@ -29998,7 +30018,8 @@
    "keywords": [
     "tandem"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Silicon solar cells: Making contact",
@@ -30140,7 +30161,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-05-06",
-   "abstract": "",
+   "abstract": "We report an organo-molybdenumn oxide bronze that enables the fabrication of high-performance silver window electrodes for top-illuminated solution processed organic photovoltaics without complicating the process of device fabrication. This hybrid material combines the function of wide-band-gap interlayer for efficient hole extraction with the role of metal electrode seed layer, enabling the fabrication of highly transparent, low-sheet-resistance silver window electrodes. Additionally it is also processed from ethanol, which ensures orthogonality with a large range of solution processed organic semiconductors. The key organic component is the low cost small molecule 3-mercaptopropionic acid, which (i) promotes metal film formation and imparts robustness at low metal thickness, (ii) reduces the contact resistance at the Ag/molybdenumn oxide bronze interface, (iii) and greatly improves the film forming properties. Silver electrodes with a thickness of 8 nm deposited by simple vacuum evaporation onto this hybrid interlayer have a sheet resistance as low as 9.7 Ohms per square and mean transparency ∼80% over the wavelength range 400-900 nm without the aid of an antireflecting layer, which makes them well-matched to the needs of organic photovoltaics and applicable to perovskite photovoltaics. The application of this hybrid material is demonstrated in two types of top-illuminated organic photovoltaic devices.",
    "authors": [
     "Martin S. Tyler",
     "Marc Walker",
@@ -30353,7 +30374,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2016-05-04",
-   "abstract": "",
+   "abstract": "A new class of luminescent dendritic carbazole-containing alkynylplatinum(II) complexes has been synthesized, characterized, and applied as phosphorescent dopants in the fabrication of solution-processable organic light-emitting devices (OLEDs). These complexes exhibit high photoluminescence quantum yields of up to 80% in spin-coated thin films. In addition, the incorporation of carbazole dendrons into the platinum(II) center can significantly suppress intermolecular interactions in solid-state thin films, giving rise to emission spectra that are similar to those found in solution irrespective of dopant concentrations. High-performance solution-processable OLEDs have also been fabricated, with a maximum external quantum efficiency of up to 10.4%, which is comparable to that of the vacuum-deposited devices based on the small-molecule counterpart. This is one of the highest ever reported values for solution-processable devices based on platinum(II) complexes with tridentate ligands.",
    "authors": [
     "Fred Ka-Wai Kong",
     "Man-Chung Tang",
@@ -30800,7 +30821,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-04-29",
-   "abstract": "",
+   "abstract": "Red phosphors AMF6:Mn(4+) (A = Na, K, Cs, Ba, Rb; M = Si, Ti, Ge) have been widely studied due to the narrow red emission bands around 630 nm. The different emission of the zero-phonon line (ZPL) may affect the color rendering index of white light-emitting diodes (WLED). The primary reason behind the emergence and intensity of ZPL, taking KNaSiF6:Mn(4+) as an example, was investigated here. The effects of pressure on crystal structure and luminescence were determined experimentally and theoretically. The increase of band gap, red shift of emission spectrum and blue shift of excitation spectrum were observed with higher applied pressure. The angles of ∠FMnF and ∠FMF(M = Si, Ti, Ge) were found clearly distorted from 180° in MF6(2-) octahedron with strong ZPL intensity. The larger distorted SiF6(2-) octahedron, the stronger ZPL intensity. This research provides a new perspective to address the ZPL intensity problem of the hexafluorosilicate phosphors caused by crystal distortion and pressure-dependence of the luminescence. The efficacy of the device featuring from Y3Al5O12:Ce(3+) (YAG) and KNaSiF6:Mn(4+) phosphor was 118 lm/W with the color temperature of 3455 K. These results reveal that KNaSiF6:Mn(4+) presents good luminescent properties and could be a potential candidate material for application in back-lighting systems.",
    "authors": [
     "Ye Jin",
     "Mu-Huai Fang",
@@ -30873,7 +30894,8 @@
     "perovskites",
     "x-ray detection"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Dopant-free polymeric hole transport materials for highly efficient and stable perovskite solar cells",
@@ -31073,7 +31095,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-04-28",
-   "abstract": "",
+   "abstract": "Here, we report the influence of the ambient gas on the performance of quantum dot-based light-emitting diodes (QD-LEDs). The blue QD-LED devices with the maximum external quantum efficiency of 8.1% and the turn-on voltage of 2.7 V could be obtained in air. The efficiency decreases by 12% and turn-on voltage increases by 0.3 V relative to the control devices fabricated in a N2-filled glovebox. The histogram of maximum external quantum efficiency (EQE) shows average peak EQE of 8.08% and a low standard deviation of 3.63%, suggesting high reproducibility. Correspondingly, the operational lifetime of 376 h is obtained, which is on par with 408 h of devices fabricated in N2. For the devices fabricated in air, relatively high efficiency could be maintained only at low voltages, because of the near balanced injection of carriers under low bias. The measurements of contact potential difference, chemical composition, and surface roughness are used to verify the variation of energy level and surface morphology of films influenced by different ambient gas. These results would offer reasonable guidance for the application of QD-LEDs in actual large-scale production.",
    "authors": [
     "Qingli Lin",
     "Fei Chen",
@@ -31097,7 +31119,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-04-28",
-   "abstract": "",
+   "abstract": "Phosphors with sufficient red emission component are necessary for warm white light-emitting diodes. In this work on (Sr,Ba)2(1-x)Eu2xSiO4 phosphors, (Sr,Ba)1.5Eu0.5SiO4 achieved 75% of an internal quantum efficiency under excitation by blue light. Surprisingly, the (Sr,Ba)1.5Eu0.5SiO4 exhibited orange emission, against the well-known traditional green-yellow emission of (Sr,Ba)2SiO4:Eu(2+). Moreover, the concentration quenching of Eu(2+) in (Sr,Ba)2SiO4 was abnormally unobvious. With the help of calculations based on the density functional theory, it was discovered that the distinct local environment of luminescence centers rather than usual explanation such as self-absorption or intensified crystal field splitting, is responsible to the interesting red shifts in excitation and emission spectra. The refinement analysis based on X-ray diffraction revealed that the unequal distribution of Eu(2+) to two crystallographic sites caused low concentration of Eu(2+) at the 9-coordination site, inhibiting the concentration quenching. The (Sr,Ba)1.5Eu0.5SiO4 phosphor has warmer emission than the commercial Y3Al5O12:Ce(3+). This study also promotes research on the effect of site occupancy and the local environment of luminescence centers.",
    "authors": [
     "Dawei Wen",
     "Hiroki Kuwahara",
@@ -31285,7 +31307,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2016-04-26",
-   "abstract": "",
+   "abstract": "A novel triple dipole effect has been observed for Cl-assisted self-assembled small-molecules on ITO substrate, and a highest polymer solar cell performance of 9.2% is obtained.",
    "authors": [
     "Liqiang Huang",
     "Lie Chen",
@@ -31491,7 +31513,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-04-26",
-   "abstract": "",
+   "abstract": "A four-color warm-white organic light-emitting diode employing a simple adjacent two-emitting-layer structure as a blue host-orange dopant/green host-red dopant has been fabricated, which exhibited a stable high electroluminescent performance: an external quantum efficiency of 23.3% and a power efficiency of 63.2 lm W(-1) at an illumination-relevant luminance of 1000 cd m(-2) with a high color-rendering index (CRI) of 92 and maintained high levels of 21.6% and 48.8 lm W(-1) with a CRI value of 93 at the extremely high luminance of 5000 cd m(-2). To our knowledge, this should be the best result so far for a white-light organic light-emitting diode with CRI > 90, simultaneously exhibiting very high efficiencies based on a high luminance level for the solid-state lighting.",
    "authors": [
     "Xuming Zhuang",
     "Hao Zhang",
@@ -31528,7 +31550,8 @@
    "keywords": [
     "perovskites"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Inside Cover: Synergistic Cocatalytic Effect of Carbon Nanodots and Co 3 O 4 Nanoclusters for the Photoelectrochemical Water Oxidation on Hematite (Angew. Chem. Int. Ed. 19/2016)",
@@ -31557,7 +31580,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2016-04-25",
-   "abstract": "",
+   "abstract": "Printed flexible photodetectors based on 2D inorganic perovskites with atomic thickness show excellent photosensing with fast rise and decay response times. As-synthesized nanosheets can easily be dispersed in various solvents, leading to large-area, crack-free, low-roughness, flexible films after printing. This study demonstrates that all-inorganic perovskite CsPbX3 nanosheets as a new class of 2D semiconductors have huge potential for flexible optoelectronic applications.",
    "authors": [
     "Jizhong Song",
     "Leimeng Xu",
@@ -31797,7 +31820,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-04-22",
-   "abstract": "",
+   "abstract": "In this work, a TiO 2 /Sb-doped SnO 2 electrode was prepared on the boron-doped diamond (BDD) substrate with double-layer three-dimensional macro–mesoporous (DL3DOM-m) structure, using the polystyrene sphere (PS) vertical deposition method. The as-prepared DL3DOM-m TiO 2 /SnO 2 /BDD was employed for organic contaminant removal, showing excellent photoelectrocatalytic performance. SEM, XRD and XPS indicated that DL3DOM-m electrode possessed a 3D macroporous layered framework with uniform pore size (about 400 nm), nanosized particles (4.5–5.8 nm), and high electroactive surface area (3-fold more than that of BDD). SA-XRD indicated the backbone of DL3DOM-m electrode had mesoporous structure. It was found that the as-prepared electrode exhibited remarkable electrocatalytic activity, high photocurrent and outstanding absorption capability (91.0 μg cm –2 ). Furthermore, bisphenol A (BPA) was completely decomposed after 3 h of reaction applying DL3DOM-m electrode as photoanode, and that on BDD was only 58.9%. It indicated that the modified electrode had great potential to be used in practical water treatment with high photoelectrochemical performance.",
    "authors": [
     "Jiaqi Fan",
     "Huijie Shi",
@@ -31841,7 +31864,7 @@
    "journal": "Journal of the American Chemical Society",
    "publisher": "ACS",
    "date": "2016-04-21",
-   "abstract": "",
+   "abstract": "Heterocrystalline polytype nanostructured semiconductors have been attracting more and more attention in recent years due to their novel structures and special interfaces. Up to now, controlled polytypic nanostructures are mostly realized in II-VI and III-V semiconductors. Herein, we report the synthesis and photoelectrochemical properties of Cu-based ternary I-III-VI2 chalcogenide polytypic nanocrystals, with a focus on polytypic CuInS2 (CIS), CuInSe2 (CISe), and CuIn(S0.5Se0.5)2 alloy nanocrystals. Each obtained polytypic nanocrystal is constructed with a wurtzite hexagonal column and a zinc blende/chalcopyrite cusp, regardless of the S/Se ratio. The growth mechanisms of polytypic CIS and CISe nanocrystals have been studied by time-dependent experiments. The polytypic nanocrystals are solution-deposited on indium-tin oxide glass substrate and used as a photoelectrode, thus showing stable photoelectrochemical activity in aqueous solution. Density functional theory calculation was used to study the electronic structure and the band gap alignment. This versatile synthetic method provides a new route for synthesis of novel polytypic nanostructured semiconductors with unique properties.",
    "authors": [
     "Liang Wu",
     "Shi-You Chen",
@@ -31902,7 +31925,8 @@
    "keywords": [
     "photovoltaics"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Pressure‐Dependent Polymorphism and Band‐Gap Tuning of Methylammonium Lead Iodide Perovskite",
@@ -32449,7 +32473,8 @@
    "keywords": [
     "photovoltaic"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Photovoltaic materials: Present efficiencies and future challenges",
@@ -32927,7 +32952,7 @@
    "journal": "ACS Applied Materials & Interfaces",
    "publisher": "ACS",
    "date": "2016-04-12",
-   "abstract": "",
+   "abstract": "We present phosphorescent WOLEDs fabricated simply by inserting an ultrathin nondoped orange layer within the blue emissive zone, where an efficient exciplex system is applied as the host. The resulting WOLED shows maximum power efficiency of 75.3 and 63.1 lm/W at the luminance of 1000 cd/m(2). The exciton density profile in the emitting layer, the operational mechanism and the quenching process at high luminance are systematically investigated by experimental and theoretical methods, from which it is concluded that the efficient utilization of excitons via exciplex host and the wide recombination zone are the key factors for the prominent achievement of high efficiency and greatly reduced efficiency roll-off.",
    "authors": [
     "Jiaxiu Wang",
     "Jiangshan Chen",
