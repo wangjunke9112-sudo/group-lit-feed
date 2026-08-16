@@ -1,7 +1,7 @@
 {
  "year": "2026",
- "count": 3461,
- "generated": "2026-08-15 22:38 UTC",
+ "count": 3464,
+ "generated": "2026-08-16 22:31 UTC",
  "papers": [
   {
    "title": "Novel Lead-Free Cs2Ag0.75Bi0.75Ba0.5I6 Double Perovskite: Synthesis and Application as High-Performance Photodetectors",
@@ -33,12 +33,101 @@
    "oa_type": "article"
   },
   {
+   "title": "Salt-Resistant Self-Floating Composite Hydrogel Foam Evaporator Enabled by Donnan Effect for Efficient Solar Interfacial Evaporation and Water Purification",
+   "link": "https://doi.org/10.1021/acsami.6c11557",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-08-17",
+   "abstract": "Abstract Solar interfacial evaporation is a promising approach for desalination and wastewater treatment, yet practical evaporators remain challenged by limited water transport, interfacial heat loss, and salt deposition in high-salinity brines. Herein, a self-floating, salt-resistant composite hydrogel foam evaporator, PTF@PGAS-Foam, was developed by integrating an electrospun tannic acid–Fe3+ photothermal membrane with a polyelectrolyte double-network hydrogel foam. The upper photothermal membrane enables strong solar absorption and thermal localization, while the lower foam layer provides buoyancy, low thermal conductivity, and continuous three-dimensional water-transport pathways. Fixed sulfonate groups in the hydrogel induce the Donnan effect, suppressing salt-ion migration toward the evaporation interface and alleviating salt crystallization during continuous evaporation. Under 1 sun irradiation, PTF@PGAS-Foam achieved an evaporation rate of 2.61 kg·m–2·h–1 and an efficiency of 92% in a 20 wt % NaCl solution, with stable performance during continuous and cyclic tests. The evaporator also adsorbed heavy metal ions, including Pb2+ and Cd2+, and cationic dyes. In outdoor scaled-up tests, a 15 cm diameter evaporator produced 20.35 kg·m–2 of water per day. This multifunctional evaporator integrates solar absorption, heat localization, self-floating behavior, salt resistance, and adsorption, showing potential for solar desalination and wastewater purification.",
+   "authors": [
+    "Jikui Wang",
+    "Rongzhe Yang",
+    "Shaoyu Luan",
+    "Lexuan Su",
+    "Yican Wang",
+    "Weihong Guo"
+   ],
+   "doi": "10.1021/acsami.6c11557",
+   "keywords": [
+    "ion migration"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Correction to “Direct Deposition of C60-Free SnO x Electron Contact on Perovskite Enables Efficient and Outdoor-Stable Inverted Solar Modules”",
+   "link": "https://doi.org/10.1021/acsami.6c16004",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-08-17",
+   "abstract": "",
+   "authors": [
+    "Maoyuan Wu",
+    "Fangjie Xu",
+    "Xiaoxuan Lin",
+    "Kai Sun",
+    "Zhen Wang",
+    "Yushan Li",
+    "Shaohang Wu",
+    "Yaohua Mai"
+   ],
+   "doi": "10.1021/acsami.6c16004",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Stabilization of All-Slot-Die-Coated Perovskite Solar Cells by MXene Nanospheres Unleashes Thousand-Hour Operational Lifetimes",
+   "link": "https://doi.org/10.1021/acsami.6c07537",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-08-17",
+   "abstract": "Abstract Halide perovskite solar cells (PSCs) have emerged as highly promising photovoltaic technologies. However, their commercialization is impeded by rapid degradation at interfaces due to intrinsic defects and corrosive decomposition products. Here, we demonstrate the use of spherical Ti3C2Tx MXene nanoparticles synthesized by femtosecond laser ablation as stabilizing additives for all-slot-die-coated PSCs. Unlike conventional MXene flakes, these nanoparticles exhibit improved colloidal stability, uniform dispersion, and facile integration into thin-film layers. Incorporation of MXene nanoparticles into electron transport layers notably enhances charge carrier dynamics, yielding an increased power conversion efficiency from 17.4 to 18.2%. Moreover, operational stability under continuous illumination extends from 400 h to over 1700 h owing to MXene nanoparticles. Structural and photophysical analyses suggest that MXene nanoparticles mitigate interfacial degradation by passivating ionic defects and improving energy-level alignment. This scalable nanoparticle-based strategy offers a versatile pathway toward stable, efficient, and commercially viable perovskite photovoltaics and opens new prospects for MXenes in advanced optoelectronic applications.",
+   "authors": [
+    "Son Le",
+    "Gleb Tselikov",
+    "Daria Panova",
+    "Georgy Ermolaev",
+    "Ivan Kazantsev",
+    "Gleb Tikhonowski",
+    "Dmitriy Dyubo",
+    "Alexander Syuy",
+    "Anton Popov",
+    "Daniil Tselikov",
+    "Lev Luchnikov",
+    "Dmitry S. Muratov",
+    "Pavel Gostishchev",
+    "Andrey V. Kabashin",
+    "Arthur Ishteev",
+    "Aleksey Arsenin",
+    "Valentyn S. Volkov",
+    "Eugene Statnik",
+    "Alexander Korsunsky",
+    "Danila Saranin",
+    "Aldo Di Carlo"
+   ],
+   "doi": "10.1021/acsami.6c07537",
+   "keywords": [
+    "halide perovskite",
+    "perovskite",
+    "perovskite solar cells",
+    "photovoltaic",
+    "photovoltaics",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
    "title": "Achieving Near 21% Efficiency Organic Solar Cells through Controlled Packing of Fused-Ring Electron Acceptors",
    "link": "https://doi.org/10.1038/s41467-026-76532-1",
    "journal": "Nature Communications",
    "publisher": "Nature",
    "date": "2026-08-15",
-   "abstract": "Non radiative energy loss remains a challenge in non-fullerene organic solar cells. Wei et al. introduce chlorobenzene-functionalized acceptors that exhibit enhanced photoluminescence quantum yield with a distinct molecular packing mode, enabling a power conversion efficiency of 20.92%.",
+   "abstract": "Non-radiative energy loss remains a challenge in organic solar cells. Here we show that introducing bulky chlorobenzene moieties at the end of inner side chains yields two acceptor materials, Y6-2Cl and Y6-4Cl. The introduction of chlorobenzene groups enhances the solubility, while also boosting the photoluminescence quantum yield and inducing a distinct molecular packing mode in Y6-2Cl and Y6-4Cl. Rather than following the conventional three-dimensional network structure observed in Y-series acceptors, these materials form a highly ordered, array-like arrangement while maintaining excellent crystalline characteristics. This unique structural feature not only preserves high charge-transport properties but also optimizes aggregation behavior and morphology of the active layers. The D18:Y6-2Cl binary device demonstrates a PCE of 20.0%. The ternary device composed of D18:L8-BO:Y6-2Cl achieves a PCE of 20.92%, accompanied by a fill factor of 82.93%. Overall, the side-chain functionalization strategy proposed in this study offers a direction for developing high-performance non-fullerene acceptors. Non radiative energy loss remains a challenge in non-fullerene organic solar cells. Wei et al. introduce chlorobenzene-functionalized acceptors that exhibit enhanced photoluminescence quantum yield with a distinct molecular packing mode, enabling a power conversion efficiency of 20.92%.",
    "authors": [
     "Nan Wei",
     "Tong Sun",
@@ -61,8 +150,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Solution-phase transition zones govern crystallographic perfection in metal halide perovskite single crystals",
@@ -93,8 +181,8 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type": "article"
   },
   {
    "title": "Giant bulk photovoltaic effect driven by interfacial symmetry breaking in MoS2/Ta2NiSe5 heterostructures",
@@ -102,7 +190,7 @@
    "journal": "Nature Communications",
    "publisher": "Nature",
    "date": "2026-08-15",
-   "abstract": "",
+   "abstract": "Van der Waals (vdW) heterostructures offer a versatile platform for engineering unconventional bulk photovoltaic (BPV) effect through interfacial symmetry breaking. However, the coexistence of multiple photophysical mechanisms, driven by structural complexity, spontaneous charge transfer, and strong interlayer coupling, often obscures the microscopic origin of the BPV response and hinders its rational optimization. Here, we demonstrate a pronounced BPV effect localized at the overlap region of a cross-bar MoS2/Ta2NiSe5 vdW heterostructure, where symmetry breaking induced by vertical stacking lifts the inversion center of MoS2. The orthogonal device geometry enables the independent probing of intralayer and interfacial photoresponse pathways, facilitating clear separation of competing mechanisms. Spontaneous interfacial charge transfer between MoS2 and Ta2NiSe5 further establishes a strong interlayer electronic coupling. By modulating the interlayer potential landscape through gate voltage and vertical electric fields, we achieve an optimized zero-bias photocurrent density of 247 A/cm2 and a BPV coefficient of 0.99 V−1. Supported by theoretical modeling, our results illustrate how minimalist device geometry can transform complex heterostructures into experimentally tractable platforms. This strategy paves the way for analyzing and optimizing interface-driven BPV effect, with implications for self-powered optoelectronics, broadband photodetection, and energy-harvesting nanodevices. The bulk photovoltaic effect (BPVE) in van der Waals materials holds promise for optoelectronic and energy harvesting applications. Here, the authors report the observation of a large electrically tunable BPVE in MoS2/Ta2NiSe5 heterostructures with a crossbar design, which enables the exclusion of competing mechanisms.",
    "authors": [
     "Jianwen Ma",
     "Pengliang Leng",
@@ -129,8 +217,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Multifunctional Halogenated Third Components Enable Additive‐Free Organic Solar Cells with 20.63% Efficiency via Regulating Molecular Stacking and Suppressing Exciton‐Vibration Coupling",
@@ -156,7 +243,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "When the Substrate Matters in Solar Cells: Photoinduced Force Microscopy Uncovers How ITO Pretreatment Governs Self‐Assembled Monolayers",
@@ -340,7 +427,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -387,7 +474,7 @@
     "tandem"
    ],
    "type": "comment",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "erratum"
   },
   {
@@ -491,7 +578,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -758,7 +845,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -791,7 +878,7 @@
     "scintillator"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1411,7 +1498,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -1739,7 +1826,7 @@
     "tandem"
    ],
    "type": "comment",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "erratum"
   },
   {
@@ -1789,7 +1876,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -1947,7 +2034,7 @@
     "solar cells"
    ],
    "type": "comment",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "erratum"
   },
   {
@@ -2078,7 +2165,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -2240,7 +2327,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -2265,7 +2352,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
