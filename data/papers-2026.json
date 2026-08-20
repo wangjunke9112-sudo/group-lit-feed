@@ -1,7 +1,7 @@
 {
  "year": "2026",
- "count": 3539,
- "generated": "2026-08-19 22:31 UTC",
+ "count": 3572,
+ "generated": "2026-08-20 22:35 UTC",
  "papers": [
   {
    "title": "Lattice engineering of thermally evaporated perovskite enables monolithically integrated micro-display",
@@ -34,7 +34,7 @@
     "perovskites"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "All-inorganic perovskites for four-dimensional dynamic encryption",
@@ -64,6 +64,791 @@
     "perovskites"
    ],
    "type": "article",
+   "oa_type_tried": 2
+  },
+  {
+   "title": "Photon-Transport Interface Optimization of GAGG:Ce Scintillating Waveguides for Radio-Photovoltaic Cells",
+   "link": "https://doi.org/10.1021/acsami.6c12790",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-08-21",
+   "abstract": "Abstract Radio-photovoltaic (RPV) cells can provide self-powered and long-lifetime electricity for complex and harsh environments, but their energy conversion efficiency is limited by interfacial losses during radiation-to-light and light-to-electricity conversion. Here, we propose a photon-transport interface engineering strategy for RPV cells driven by radioisotope radiation sources, using a GAGG:Ce scintillating waveguide as the radiation-to-light conversion layer. The original scintillator layer suffers from radioluminescence (RL) absorption at the radiation-source loading surface and low edge light extraction efficiency (27.6%). Because the refractive index of GAGG:Ce is high, only a limited fraction of isotropically generated RL photons can directly escape from a smooth GAGG:Ce/air interface within one pass. An annealed 100 nm Ag reflective film reduces photon leakage from the main surface, improves RL photon transport, and maintains low particle-energy absorption at sufficiently high incident energies, producing a 20.8% enhancement in emission intensity. In parallel, a disordered rough edge surface improves photon extraction by changing local emission angles; Under the present open-edge configuration, the edge with an Sa value of 434.2 nm produces the highest measured output, corresponding to an edge-emission enhancement of at least 77% relative to the smooth edge. Together, these interfacial modifications improve edge emission and electrical output, yielding a maximum electrical power of 0.648 μW at an X-ray tube voltage of 30 kV and current of 1.0 mA. An absolute ECE is not reported because the X-ray power incident on and absorbed by the scintillator was not independently calibrated.",
+   "authors": [
+    "Zexiang Luo",
+    "Tongxin Jiang",
+    "Chen Wang",
+    "Sijie Li",
+    "Xin Li",
+    "Haisheng San"
+   ],
+   "doi": "10.1021/acsami.6c12790",
+   "keywords": [
+    "photovoltaic",
+    "scintillator"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Mitigating Residual FAI for Air‐Stable FAPbI 3 LEDs",
+   "link": "https://doi.org/10.1002/smll.75332",
+   "journal": "Small",
+   "publisher": "Wiley",
+   "date": "2026-08-20",
+   "abstract": "ABSTRACT Formamidinium lead iodide (FAPbI 3 ) perovskite light‐emitting diodes (PeLEDs), showing record external quantum efficiencies (EQEs), are typically fabricated in an n‐i‐p structure through the deposition of a precursor solution rich in formamidinium iodide (FAI) on top of ZnO/ITO substrates. The ZnO electron transport layer is known to interact with the precursor solution during the fabrication, which can help to remove most of the excess FAI to ensure good stoichiometry and crystallinity as well as promote the formation of films with strong emission. However, residual FAI often remains on the perovskite surface, where it compromises device efficiency and stability. To mitigate this, we introduce here a thiol‐functionalized tertiary ammonium halide, 2‐diethylaminoethanethiol hydrochloride (DEAET), on top of FAPbI 3 . Beyond effectively regulating excess FAI, DEAET also acts as a passivation agent through synergistic hydrogen‐bonding and electrostatic interactions. This dual functionality suppresses non‐radiative pathways and promotes radiative recombination. The resulting DEAET‐passivated LEDs exhibit increased EQE and an impressive 15‐days air stability without encapsulation. The encouraging findings of this study lay the foundation for the utilization of thiol‐based salts as efficient agents for interface engineering in FAPbI 3 perovskite, that opens new possibilities for air‐stable perovskite light‐emitting diodes.",
+   "authors": [
+    "Spyros Orfanoudakis",
+    "Konstantina Yannakopoulou",
+    "Julia Morat",
+    "Leonidas Tsetseris",
+    "Polychronis Tsipas",
+    "Stefania Skorda",
+    "Alexandros El Sachat",
+    "Feng Gao",
+    "Athanassios G. Kontos",
+    "Thomas Stergiopoulos"
+   ],
+   "doi": "10.1002/smll.75332",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Genomes of Poaceae relatives reveal key metabolic innovations preceding the evolution of grasses",
+   "link": "https://doi.org/10.1126/science.adv0443",
+   "journal": "Science",
+   "publisher": "Science",
+   "date": "2026-08-20",
+   "abstract": "The grass family (Poaceae) has immense economic and ecological importance and exhibits distinctive metabolic traits, including dual starch and lignin biosynthetic pathways. We sequenced the genomes of Pharus , Joinvillea , Ecdeiocolea , and Typha species to investigate when and how these metabolic innovations evolved relative to the origin of the grass family. The rho whole-genome duplication (ρWGD) within the lineage that led to the last common ancestor of all grasses contributed to the gene family expansions underlying cytosolic starch biosynthesis, whereas an earlier tandem duplication of phenylalanine ammonia lyase ( PAL ) gave rise to phenylalanine/tyrosine ammonia lyase ( PTAL ), which is responsible for the dual lignin biosynthesis. Integrated biochemical, functional, and structural studies, guided by phylogenomic analyses, further revealed the molecular basis of key metabolic innovations predating the evolution of grasses.",
+   "authors": [
+    "Yuri Takeda-Kimura",
+    "Bethany Moore",
+    "Samuel Holden",
+    "Jae S. Morris",
+    "Sontosh K. Deb",
+    "Carly Sanders",
+    "Jorge El-Azaz",
+    "Matt Barrett",
+    "David Lorence",
+    "Marcos V. V. de Oliveira",
+    "Wynne Havranek",
+    "Jane Grimwood",
+    "Melissa Williams",
+    "Lori Beth Boston",
+    "Jerry Jenkins",
+    "Christopher Plott",
+    "Shengqiang Shu",
+    "Kerrie Barry",
+    "David M. Goodstein",
+    "Jeremy Schmutz",
+    "Joseph M. Jez",
+    "Matthew J. Moscou",
+    "Michael R. McKain",
+    "James H. Leebens-Mack",
+    "Hiroshi A. Maeda"
+   ],
+   "doi": "10.1126/science.adv0443",
+   "keywords": [
+    "tandem"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "China’s solar expansion policy reduces bird diversity",
+   "link": "https://doi.org/10.1126/science.aee0747",
+   "journal": "Science",
+   "publisher": "Science",
+   "date": "2026-08-20",
+   "abstract": "Could the global transition to renewable energy create a green dilemma that pits carbon reduction against biodiversity conservation? This study examined the effect of policies promoting solar photovoltaics on local avian biodiversity using a panel dataset covering 2344 counties in China from 2014 to 2023. Policies that favored photovoltaic expansion led to reductions in bird diversity, disproportionately affecting wealthier and nondesert regions, as well as widespread species. The mechanism operated primarily through land conversion: Cropland and grassland were transformed into developed areas, reducing the diversity of vegetation. Paradoxically, the leaf area index increased, a pattern we term “inferior greening,” whereby diverse natural landscapes were replaced by dense but ecologically homogeneous vegetation. We argue that future photovoltaic development should be accompanied by strict biodiversity safeguards, especially in economically developed regions with high habitat complexity.",
+   "authors": [
+    "Huiming Zhang",
+    "Aixin Zhang",
+    "Kai Wu",
+    "Yinyin Cai",
+    "Shanjun Li",
+    "Shouyang Wang",
+    "Yueming (Lucy) Qiu",
+    "Shoujun Huang",
+    "Thi Thuc Anh Phan"
+   ],
+   "doi": "10.1126/science.aee0747",
+   "keywords": [
+    "photovoltaic",
+    "photovoltaics"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Redirecting wet–interfacial redox pathways for efficient inverted perovskite solar cells",
+   "link": "https://doi.org/10.1126/science.aeg8415",
+   "journal": "Science",
+   "publisher": "Science",
+   "date": "2026-08-20",
+   "abstract": "Carbazole-based phosphonic acid self-assembled monolayers (SAMs) are essential for high-efficiency p-i-n perovskite solar cells. However, during processing, these SAMs inevitably contact perovskite inks, where their acidity triggers a dimethyl sulfoxide (DMSO)-mediated iodide redox reaction that imprints device performance, representing a universal bottleneck for inverted devices. We resolve this SAM-triggered redox mechanism and introduce chemistry-matched hydrazide additives to mitigate the degradation. These additives abrogate DMSO activation and redirect unwanted by-products toward benign hydrazide–formamidinium adducts. Consequently, we achieved power conversion efficiencies (PCEs) of 27.7% (certified 27.4%) in small-area (0.06 cm 2 ) cells and 20.1% in 2.0 m 2 modules, along with T95 lifetimes of ~2000 hours of maximum power point tracking (MPPT) at 85°C and ~1500 hours MPPT at 85°C and 85% relative humidity.",
+   "authors": [
+    "Zheng Liang",
+    "Boyuan Liu",
+    "Yuelong Li",
+    "Yalan Zhang",
+    "Yi Yang",
+    "Shengbin Cheng",
+    "Linchuan Ma",
+    "Bao Tu",
+    "Hua-Chao Liu",
+    "Huifen Xu",
+    "Yuqi Bao",
+    "Minghui Fan",
+    "Peide Zhu",
+    "Xianfu Zhang",
+    "Congqi Li",
+    "Hui Zhang",
+    "Xinyuan Zhang",
+    "Yuheng Li",
+    "Guodong Chen",
+    "Cheng Liu",
+    "Chen Zhu",
+    "Chuying Ouyang",
+    "Nam-Gyu Park",
+    "Yong Zhang"
+   ],
+   "doi": "10.1126/science.aeg8415",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "In situ dry repair and passivation unlocks size-independent performance in Ⅲ-nitride micro-LEDs",
+   "link": "https://www.nature.com/articles/s41566-026-01990-4",
+   "journal": "Nature Photonics",
+   "publisher": "Nature",
+   "date": "2026-08-20",
+   "abstract": "An in situ dry repair and passivation technique is developed to overcome plasma-induced sidewall damage in nitride-based micro-light-emitting diodes (micro-LEDs), leading to external quantum efficiencies of 64.7% and 55.1% for 2-μm-sized blue and green micro-LEDs, respectively.",
+   "authors": [
+    "Jinjian Yan",
+    "Jinchai Li",
+    "Guanqi Li",
+    "Penggang Li",
+    "Lili Wu",
+    "Xinyi Guo",
+    "Zhenkun Lin",
+    "Linhua Cao",
+    "Xiaoqi Wu",
+    "Xu Yang",
+    "Zhaoxia Bi",
+    "Tao Tao",
+    "Bin Liu",
+    "Li Ji",
+    "Kai Huang",
+    "Junyong Kang",
+    "Rong Zhang"
+   ],
+   "doi": "10.1038/s41566-026-01990-4",
+   "keywords": [
+    "light-emitting"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Alternative tandem transcription initiation links noncoding variants to human disease through translational control",
+   "link": "https://doi.org/10.1038/s41467-026-76741-8",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-08-20",
+   "abstract": "",
+   "authors": [
+    "Xudong Zou",
+    "Wei Wang",
+    "Yinuo Wang",
+    "Hui Chen",
+    "Xing Li",
+    "Shuxin Chen",
+    "Feihong Weng",
+    "Yangcan Li",
+    "Qin Li",
+    "Chen Yu",
+    "Lei Li"
+   ],
+   "doi": "10.1038/s41467-026-76741-8",
+   "keywords": [
+    "tandem"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Germanium-integrated exciplex host for high-performance narrowband OLEDs with mitigated efficiency roll-off",
+   "link": "https://doi.org/10.1038/s41467-026-76914-5",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-08-20",
+   "abstract": "Abstract Multi-resonance thermally activated delayed fluorescence (MR-TADF) materials open a heavy-metal-free avenue toward highly efficient, narrowband organic light-emitting diodes (OLEDs). However, their slow reverse intersystem crossing (RISC) kinetics lead to severe efficiency roll-off at practical driving currents, and existing strategies to improve RISC often require emitter-specific chemical modifications. Here we demonstrate a general strategy by integrating heavy-atom germanium into hole-transporting/electron-transporting hosts to construct an exciplex system that accelerates spin-flip dynamics. This design enhances RISC rates in diverse MR-TADF emitters via Förster resonance energy transfer without altering their electronic structure. The resulting blue and green OLEDs achieve external quantum efficiencies exceeding 40% with markedly suppressed efficiency roll-off relative to silicon- and carbon-based counterparts. Notably, the green device exhibits a half-lifetime of 241 h at an initial luminance of 1000 cd m −2 . This general host-guest strategy advances MR-TADF systems toward practical high-performance displays.",
+   "authors": [
+    "Xu Zhang",
+    "Zhanxiang Chen",
+    "Manli Huang",
+    "Jiahui Liu",
+    "Siyuan He",
+    "Cheng Zhong",
+    "Jingsheng Miao",
+    "Xue Zhou",
+    "Yu Gu",
+    "Chuluo Yang"
+   ],
+   "doi": "10.1038/s41467-026-76914-5",
+   "keywords": [
+    "light-emitting"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "High-performance CsSnI3 quadrant photodetector enabled by a competitive molecular strategy for precision light-spot tracking",
+   "link": "https://doi.org/10.1038/s41467-026-76920-7",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-08-20",
+   "abstract": "",
+   "authors": [
+    "Xinren Zhang",
+    "Jizhong Jiang",
+    "Hang-Ming Zhang",
+    "Xiaohan Lai",
+    "Xin Zhao",
+    "Jingyi Tong",
+    "Qiuxu Lin",
+    "Luxin Zhang",
+    "Hongxu Chen",
+    "Wei Wei",
+    "Hongyu Bian",
+    "Yuhao Zhang",
+    "Han Wang",
+    "Liang Shen"
+   ],
+   "doi": "10.1038/s41467-026-76920-7",
+   "keywords": [
+    "photodetector"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Symmetry-breaking co-assembly of conjugated molecules boosts perovskite photovoltaics",
+   "link": "https://doi.org/10.1038/s41467-026-76848-y",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-08-20",
+   "abstract": "",
+   "authors": [
+    "Chuanyao Luo",
+    "Zhongliang Yan",
+    "Tao Du",
+    "Zhiyuan Dai",
+    "Tanghao Liu",
+    "Bosen Zou",
+    "Wenbin Yuan",
+    "Yang Yang",
+    "Yao Liu",
+    "Xicheng Tang",
+    "Biao Zhang",
+    "Jan Seidel",
+    "Jae Sung Yun",
+    "Ruihao Chen",
+    "Renjun Guo",
+    "Jun Yin",
+    "Yang Bai",
+    "Tom Wu"
+   ],
+   "doi": "10.1038/s41467-026-76848-y",
+   "keywords": [
+    "perovskite",
+    "photovoltaics"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Molecular-Ionic Hybrid Modulates Intermediate Evolution from CO2 to Methanol at High Current Density",
+   "link": "https://doi.org/10.1021/jacs.6c11699",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2026-08-20",
+   "abstract": "Abstract Electrochemical conversion of CO2 to methanol offers compelling route for sustainable carbon utilization. Although cobalt phthalocyanine (CoPc) is recognized as promising catalyst for this reaction, achieving high methanol selectivity at high current density remains a critical challenge, due to insufficient stabilization of *CO intermediate and sluggish hydrogenation kinetics. Here we report a molecular-ionic hybrid catalyst constructed by integrating amino-functionalized CoPc with imidazolium-based ionic liquid (IL) on carbon nanotubes (CoPc-NH2 + IL/CNT). The hybrid catalyst achieves a methanol Faradaic efficiency of 75.0% with a partial current density of 300 mA cm–2. This outstanding performance originates from the cooperative interplay between CoPc-NH2 and imidazolium cations. The imidazolium serves as a CO2 adsorption reservoir that enriches and delivers CO2 to Co centers for activation, while simultaneously inducing a more electron-deficient Co center that stabilizes diverse *CO adsorption states for deep hydrogenation. In parallel, imidazolium cations reorganize interfacial hydrogen-bond networks, accelerate water dissociation and proton supply, and facilitate charge transfer to reaction intermediates through an electronic relay effect. These synergistic effects suppress the competing CO pathway and selectively steer CO2 electroreduction toward methanol at high current densities. The effectiveness of this molecular-ionic coupling is further validated across a range of imidazolium cations, demonstrating the generality of this microenvironment-engineering strategy.",
+   "authors": [
+    "Pengsong Li",
+    "Xiang-Da Zhang",
+    "Yuqing Hou",
+    "Yong Wang",
+    "Ganwen Zhang",
+    "Changlong Zhu",
+    "Xinchen Kang",
+    "Peng Liu",
+    "Xiaolong Wang",
+    "Qinggong Zhu",
+    "Buxing Han"
+   ],
+   "doi": "10.1021/jacs.6c11699",
+   "keywords": [
+    "co2 electroreduction"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Scalable dual-step deposition of cascaded nickel oxide enables high-efficiency inverted perovskite solar cells and mini-modules",
+   "link": "https://doi.org/10.1016/j.joule.2026.102635",
+   "journal": "Joule",
+   "publisher": "Cell",
+   "date": "2026-08-20",
+   "abstract": "",
+   "authors": [
+    "Jiani Liu",
+    "Ping Xu",
+    "Xin Chen",
+    "Qi Wang",
+    "Wei Hui",
+    "Ben Fan",
+    "Lin Song",
+    "Xiaopeng Xu",
+    "Yihui Wu",
+    "Qiang Peng"
+   ],
+   "doi": "10.1016/j.joule.2026.102635",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "solar cells"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Inside Back Cover: Subcellular Tandem‐Activated Signal Amplification for Spatially Precise Molecular Imaging in Mitochondria",
+   "link": "https://doi.org/10.1002/anie.2026-m1308074000",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2026-08-20",
+   "abstract": "",
+   "authors": [
+    "Xueyan Feng",
+    "Deyu Yi",
+    "Lele Li",
+    "Mengyuan Li"
+   ],
+   "doi": "10.1002/anie.2026-m1308074000",
+   "keywords": [
+    "tandem"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Chemical Bonding and Crystal Structure Design for Low Thermal Conductivity in Inorganic Solids",
+   "link": "https://doi.org/10.1002/adma.74614",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-20",
+   "abstract": "ABSTRACT Thermal conductivity is one of the fundamental manifestations of how the underlying atomic arrangement in materials facilitates heat flow. The critical role of thermal conductivity in influencing the performance of materials in the energy and quantum technologies arena makes engineering it to match functionality a crucial challenge to address. Here, we focus on intrinsically tuning thermal transport in inorganic crystalline solids through the strategic design of crystal structures. As structure is determined by the underlying chemical bonding, light is also shed on the influence of chemical bonding on thermal transport, including the concept of multicentered bonding and the role of antibonding states. In this review, we distill global research efforts into key design features rooted in chemical bonding and structural principles that enable an intrinsic property‐based descriptor‐framework for the purposeful manipulation of thermal conductivity in inorganic solids. We survey examples in which lattice thermal conductivity of crystalline solids has been pushed to extremes, specifically toward the diffusion limit or even rendered glassy. The broad and significant applicability of these principles across functional materials such as thermoelectrics, superionic conductors, ferroelectrics and halide perovskites is thus demonstrated. Finally, we explore emerging directions in the field, including topological phonons, thermotronics, and the phonon wave‐particle crossover, alongside the impact of artificial intelligence and machine learning on materials discovery.",
+   "authors": [
+    "Ivy Maria",
+    "Anustoop Das",
+    "Riddhimoy Pathak",
+    "Kanishka Biswas"
+   ],
+   "doi": "10.1002/adma.74614",
+   "keywords": [
+    "perovskites"
+   ],
+   "type": "review",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Pathways to High‐Efficiency Perovskite‐Organic Tandem Solar Cells",
+   "link": "https://doi.org/10.1002/adma.74694",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-20",
+   "abstract": "ABSTRACT Perovskite‐organic tandem solar cells (POTSCs) have emerged as a promising strategy to transcend the thermodynamic Shockley–Queisser limit of single‐junction devices. This architecture uniquely combines the exceptional tunability of wide‐bandgap (WBG) perovskite front cells with narrow‐bandgap (NBG) organic rear cells. In this review, we systematically examine the critical challenges and advancements in POTSCs. For the WBG perovskite subcells, we focus on composition engineering for precise bandgap tuning, the underlying thermodynamic and kinetic mechanisms of phase segregation, energy loss pathways resulting from non‐radiative recombination, and interface regulation strategies. Regarding the organic subcells, we highlight the necessity of exact bandgap matching and summarize molecular design strategies aimed at developing highly efficient NBG materials. Finally, we discuss the tandem architecture potential for achieving high power conversion efficiencies and synergistic stability. In this synergistic configuration, the WBG perovskite layer acts as a natural UV filter to protect the organic materials from high‐energy photons, while the moisture‐insensitive organic layer provides a barrier to shield the perovskite from water and oxygen erosion. By dissecting these key aspects, this review aims to provide a comprehensive roadmap for propelling POTSC efficiencies beyond the 30% milestone.",
+   "authors": [
+    "Shucheng Qin",
+    "Ruihan Wu",
+    "Tianwei Zou",
+    "Yufei Gong",
+    "Meng Yuan",
+    "Zhe Liu",
+    "Senyao Wang",
+    "Xiaojun Li",
+    "Lei Meng",
+    "Yongfang Li"
+   ],
+   "doi": "10.1002/adma.74694",
+   "keywords": [
+    "perovskite",
+    "phase segregation",
+    "solar cells",
+    "tandem"
+   ],
+   "type": "review",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Local Atom Clusters Drive Supercritical Relaxor State in Lead‐Free Dielectrics for Giant Energy Storage",
+   "link": "https://doi.org/10.1002/adma.74625",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-20",
+   "abstract": "ABSTRACT Perovskite relaxor ferroelectrics have emerged as the leading capacitive energy‐storage materials in pulsed‐power electronics and integrated energy systems. However, conventional relaxor design strategies encounter a fundamental trade‐off, wherein increasing compositional complexity to suppress hysteresis typically weakens local polar strength, thereby hindering the simultaneous realization of ultrahigh recoverable energy density ( W rec ) and efficiency ( η ). Herein, we demonstrate that sublattice‐hierarchical local atom clustering provides an effective approach to overcoming this limitation. By combining strong A ‐site disorder with Mg/Hf‐rich nanoregions on B ‐site sublattices, we embed atomic clusters within a relaxor ferroelectric matrix to stabilize a supercritical relaxor state. Through neutron total scattering techniques and atomic‐resolution electron microscopy, we reveal that local atom clusters not only enhance lattice distortion to form ultrafine polar nanodomains but, more importantly, strengthen the local random field to enable strong and highly reversible polarization. As a result, the designed lead‐free ceramic achieves an ultrahigh W rec of 17.03 J cm −3 and an excellent η of 93.5%, resulting in a superior figure of merit up to 262. The fast‐discharging capability and robust stability against temperature, frequency, and cycling further evidence its strong application potential. These findings identify local atom clustering as a general and powerful approach for designing high‐performance dielectric ceramic capacitors.",
+   "authors": [
+    "Bing Xie",
+    "Hubo Zhu",
+    "Huajie Luo",
+    "Qingqing Wu",
+    "Zhen Wang",
+    "Zhiyong Liu",
+    "Kun Guo",
+    "Haibo Zhang",
+    "Tianyu Li",
+    "Shujun Zhang"
+   ],
+   "doi": "10.1002/adma.74625",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Additive‐Free Facet Engineering of Lead‐Free Double Perovskite Single‐Crystalline Microsheets for Defect‐Related Optoelectronic Properties",
+   "link": "https://doi.org/10.1002/adfm.77721",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-20",
+   "abstract": "ABSTRACT Facet engineering of lead‐free halide double perovskites is pivotal for regulating their microscopic physicochemical properties but remains highly challenging. Here, we synthesize Cs 2 AgBiBr 6 single‐crystalline microsheets with exposed (100) and (111) facets via an additive‐free, intermediate state‐dependent spatially confined anti‐solvent crystallization method. The (111) facet of Cs 2 AgBiBr 6 is thermodynamically preferred, possessing the lowest intrinsic surface energy, while our synthetic strategy effectively stabilizes the energetically unfavorable (100) facet. We demonstrate remarkable optoelectronic differences in different exposed facets of Cs 2 AgBiBr 6 . Specifically, the (100)‑faceted Cs 2 AgBiBr 6 possesses a higher surface defect‑state density, which directly results in a dark current one order of magnitude lower than that of its (111)‑faceted counterpart, while the (111)‑faceted crystals yield a higher photocurrent. This work not only provides a synthetic strategy for the facet engineering of lead‐free halide perovskites, but it also offers key insights into the directed optimization of their optoelectronic properties.",
+   "authors": [
+    "Qingzhuo Lin",
+    "Danil W. Boukhvalov",
+    "Mark G. Humphrey",
+    "Chi Zhang",
+    "Zhipeng Huang"
+   ],
+   "doi": "10.1002/adfm.77721",
+   "keywords": [
+    "perovskite",
+    "perovskites"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Buried‑Interface Seeded Bottom‑Up Growth for Universal High‑Efficiency p–i–n Perovskites",
+   "link": "https://doi.org/10.1002/adfm.77828",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-20",
+   "abstract": "ABSTRACT Oriented crystallization is critical for high performance and stability in inverted (p–i–n) perovskite solar cells, yet practical routes to precisely regulate this process remain limited. We introduce a co‐assembled monolayer (Co‐SAM) of MeO‐2PACz and pyrophosphoric acid (PA) that densifies packing on ITO and converts the buried contact into an active nucleation scaffold. Strong PA‐PbI 2 coordination enables the formation of interfacial seeds for α‐phase nuclei, directing interface‐initiated nucleation and bottom‐up phase conversion. The resulting films exhibit continuous, void‐free coverage, large high‐crystallinity grains, fewer residual intermediates and grain boundaries. Furthermore, the Co‐SAM optimizes energy‐level alignment and chemical passivation at the hole‐extract interface. This versatile strategy is successfully demonstrated across diverse inverted perovskite formulations, delivering high power conversion efficiencies (PCEs) with a champion value of 26.37%, and 25.07% for a 1 cm 2 device. Additionally, the Co‐SAM‐based devices demonstrate exceptional operational durability, retaining over 95% of their initial efficiency after 1500 h of continuous maximum power point tracking.",
+   "authors": [
+    "Qingyun He",
+    "Xiangru Zhao",
+    "Junbo Wang",
+    "Lei Li",
+    "Zhixian Sun",
+    "Shuaijun Yan",
+    "Jiehui Li",
+    "Yang Jiang",
+    "Pinghui Yang",
+    "Tianshi Qin",
+    "Wei Huang",
+    "Renzhi Li",
+    "Fangfang Wang"
+   ],
+   "doi": "10.1002/adfm.77828",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "perovskites",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Aromatic Interaction Tailored Interfacial Chemical Reactivity of the Perovskite/Self‐Assembled Monolayers for Efficient and Stable Perovskite Solar Cells",
+   "link": "https://doi.org/10.1002/adfm.77814",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-20",
+   "abstract": "ABSTRACT The perovskite/self–assembled monolayer (SAM) interface critically determines the efficiency and stability of perovskite solar cells (PSCs). However, uncontrolled interfacial chemical reactivity at this interface not only influences charge transport properties and interfacial stability, but also governs the nucleation and crystallization of the overlying perovskite film. Here, we analyze thermodynamic instability and degradation mechanisms of the conventional NiO x ‐SAM/perovskite interface, and introduce bisphosphonate molecules with distinct conjugation interactions into NiO x to tailor the interfacial chemical reactivity. Among our bisphosphonate molecules, zoledronic acid with an imidazole ring reduces interfacial chemical reactivity and forms a robust interface that directs perovskite crystallization toward slower, defect‐healed, and highly ordered growth, due to the highest degree of conjugation. The corresponding inverted perovskite solar cells achieve remarkable power conversion efficiencies of 26.67% (active area, 0.075 cm 2 ), 21.68% (active area, 10.04 cm 2 ), and 21.06% (active area, 650 cm 2 ), respectively, underscoring the universality of this strategy for commercial‐scale manufacturing. The devices also exhibit remarkable durability, retaining >97% of their initial efficiency after 3000 h of ISOS‐D‐1 storage (extrapolated T 90 > 14,000 h) and >93% after 900 h under ISOS‐L‐1 maximum‐power‐point tracking, showcasing their exceptionally high stability compared to previously reported PSCs.",
+   "authors": [
+    "Chunhong Hu",
+    "Cheng Wang",
+    "Weicun Chu",
+    "Luyao Li",
+    "Jie Sheng",
+    "Jiaxing Gao",
+    "Qiankai Ba",
+    "Zhelu Hu",
+    "Xuefeng Xia",
+    "Riming Nie",
+    "Zhuhua Zhang"
+   ],
+   "doi": "10.1002/adfm.77814",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Dual‐Group Surface Functionalization of TiO 2 Enabling Efficient Cd‐free Sb 2 (S,Se) 3 Solar Cells",
+   "link": "https://doi.org/10.1002/adfm.77806",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-20",
+   "abstract": "ABSTRACT Sb 2 (S,Se) 3 is a promising absorber for next‐generation thin‐film solar cells owing to its excellent stability, tunable bandgap, and high absorption coefficient. In the device application, CdS is currently the most efficient electron transport layer, while its narrow bandgap (Eg = 2.4 eV) causes parasitic light absorption, limiting device efficiency. Wide‐bandgap TiO 2 (Eg = 3.2 eV) has been considered as a preferable alternative interfacial material, but its chemically inert surface usually leads to poor Sb 2 (S,Se) 3 nucleation, resulting in incomplete film coverage and severe interfacial defects. Herein, we develop a sulfur‐ethylenediamine post‐treatment that introduces both sulfate and amino groups onto TiO 2 surface, which creates high‐density nucleation sites that allow the formation of compact, pinhole‐free Sb 2 (S,Se) 3 films. Simultaneously, the sulfur anchoring suppresses the formation of sulfur‐vacancy deep‐level defects. As a direct consequence, the post‐treated device achieves a champion power conversion efficiency of 9.33%, setting a new record for Cd‐free Sb 2 (S,Se) 3 solar cells. This study establishes a surface‐functionalization strategy that links surface chemistry with nucleation control and defect suppression, offering a viable pathway toward high‐performance and environmentally benign chalcogenide photovoltaics.",
+   "authors": [
+    "Yue Hu",
+    "Zichen Ruan",
+    "Jianyu Li",
+    "Yuchen Li",
+    "Shuwei Sheng",
+    "Junjie Yang",
+    "Xiaoqi Peng",
+    "Rongfeng Tang",
+    "Gang Pei",
+    "Tao Chen"
+   ],
+   "doi": "10.1002/adfm.77806",
+   "keywords": [
+    "narrow bandgap",
+    "photovoltaics",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Defect Healing of Electron Transport Layers Using Multifunctional Carboxyl Acid for Carbon‐Based Flexible Perovskite Solar Cells",
+   "link": "https://doi.org/10.1002/adfm.77833",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-20",
+   "abstract": "ABSTRACT Defects in electron transport layers (ETLs) critically limit the performance of perovskite solar cells, particularly in flexible architectures. Here, we introduce a defect healing strategy using multifunctional carboxylic acids to modify SnO 2 ETLs on flexible substrates. Theoretical calculations reveal strong adsorption energies between carboxylate groups and SnO 2 surface atoms, enabling effective coordination with undercoordinated Sn sites and oxygen vacancies. Density functional theory screens that 2‐bromo‐1,3,5‐benzenetricarboxylic acid (BBA) exhibits the highest binding energy owing to synergistic Sn–Br interactions, which enhance interfacial coupling and electron transfer. The optimized interface between SnO 2 and BBA facilitates uniform perovskite film growth and suppresses trap‐assisted recombination. Consequently, the carbon‐based flexible perovskite solar cells deliver an efficiency of 17.07% and retain 68% of the initial efficiency after 30 days without encapsulation. This work establishes a versatile and low‐temperature strategy for defect regulation in SnO 2 ETLs, offering a promising pathway toward efficient and durable flexible perovskite photovoltaics.",
+   "authors": [
+    "Decai Zhu",
+    "Yulu Wang",
+    "Xiaoqin Fan",
+    "Enyu Liu",
+    "Benyan Wang",
+    "Wenlin Zhang",
+    "Hua Li",
+    "Qingbo Wei",
+    "Dong Yang"
+   ],
+   "doi": "10.1002/adfm.77833",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "photovoltaics",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Dual‐Functional Frustrated Lewis Pairs‐Regulated GaOOH/Ga 2 O 3 Heterojunctions: Targeted Molecular Activation for Boosted Photocatalytic Tandem CO 2 Hydrogenation",
+   "link": "https://doi.org/10.1002/adfm.77810",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-20",
+   "abstract": "ABSTRACT Frustrated Lewis pairs (FLPs) possess spatially segregated Lewis active sites, enabling exceptional performance in small‐molecule activation and establishing them as a unique and promising catalytic platform. Nevertheless, most reported FLP‐based catalysts are plagued by limited molecular activation specificity, as they are merely capable of activating a single type of substrate molecule. In this work, we rationally design and fabricate a dual‐functional FLPs catalyst based on defective GaOOH/Ga 2 O 3 heterojunctions. Combined experimental characterizations and density functional theory calculations collectively corroborate the formation of intrinsic FLPs in both defective GaOOH and Ga 2 O 3 components. The GaOOH/Ga 2 O 3 heterojunction (Ga‐350) delivers remarkable synergistic effects toward CO 2 hydrogenation. Within this heterojunction, Ga 2 O 3 exhibits superior activity for heterolytic H 2 cleavage, while GaOOH preferentially activates CO 2 molecules. The resultant active hydrogen species migrate to the adsorbed CO 2 intermediates and subsequently drive the tandem photocatalytic reaction. Integrated with dual‐functional FLPs and a type‐II heterojunction, the Ga‐350 exhibited outstanding CO 2 ‐to‐CO conversion activity that not only surpassed that of pristine GaOOH and Ga 2 O 3 , but also exceeded those of the Al‐based and In‐based FLP counterparts prepared under identical calcination conditions. This work offers an instructive strategy for the rational design of dual‐functional FLPs materials toward targeted small‐molecule activation and efficient photocatalytic CO 2 conversion.",
+   "authors": [
+    "Na Li",
+    "Sida Chen",
+    "Yuhao Guo",
+    "Wei Gao",
+    "Hongzhen Zhang",
+    "Jiawen Qin",
+    "Jiani Qin",
+    "Bao Pan",
+    "Jing Li",
+    "Tingjiang Yan"
+   ],
+   "doi": "10.1002/adfm.77810",
+   "keywords": [
+    "tandem"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "X‐Ray Penetrable Photopolymerization Molding Using Lead‐Free Perovskite Scintillators",
+   "link": "https://doi.org/10.1002/adfm.77763",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-20",
+   "abstract": "ABSTRACT Photopolymerization‐based 3D printing is widely utilized in biomedicine and precision manufacturing due to its rapid prototyping capabilities and high spatial resolution. Significant light loss during the penetration process complicates achieving deep‐layer photopolymerization molding. We develop an in vivo molding technique that utilizes the strong penetrating power of X‐rays. High‐performance scintillator materials convert X‐rays into broad emissions in the range of 350–600 nm, which overlap with the absorption spectrum of photoinitiators, thereby triggering the photopolymerization of liquid photosensitive resins in deep biological tissues. This technology enables curing of photosensitive ink through 50 mm thick biological tissue. Spatially selective in situ three‐dimensional curing of predefined patterns is achieved in mice. This technology enhances the penetration capability of photopolymerization and establishes a technical foundation for non‐invasive in situ manufacturing within living organisms.",
+   "authors": [
+    "Xingyu Liu",
+    "Peng Zhang",
+    "Jie Yu",
+    "Zhuoran Hu",
+    "Jinkang Lu",
+    "Xuhui Xu"
+   ],
+   "doi": "10.1002/adfm.77763",
+   "keywords": [
+    "perovskite",
+    "scintillator"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Benzothiadiazole Suppresses Hydrogen Bond‐Driven Aggregation to Enable Highly Uniform SAMs for 26.67%‐Efficient Perovskite Solar Cells",
+   "link": "https://doi.org/10.1002/adfm.77750",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-20",
+   "abstract": "ABSTRACT Inverted perovskite solar cells (PSCs) employing self‐assembled monolayers (SAMs) as hole‐selective contacts have achieved remarkable power conversion efficiencies. However, the inherent amphiphilicity of SAM molecules and persistent intermolecular O─H···O hydrogen bonding interactions stimulate molecular clustering, compromising monolayer uniformity and device performance. Herein, we introduce 5‐fluorobenzo[2,1,3]thiadiazole (5FBT), a planar molecule devoid of oxyacid groups, as a co‐adsorbent to modulate the 4‐(7H‐dibenzo[c,g]carbazol‐7‐yl)butyl)phosphonic acid (4PADCB) self‐assembled monolayer. The electron‐withdrawing benzothiadiazole core of 5FBT promotes π‐π coupling with 4PADCB, while its planar geometry disrupts O─H···O hydrogen bonding networks, suppressing molecular aggregation. Additionally, rigid 5FBT molecules adopt a tilted vertical orientation on ITO, serving as structural pillars that template 4PADCB assembly. This co‐adsorbent‐modulated SAM strategy improves monolayer uniformity and energy level alignment, constructing a high‐quality perovskite/SAMs interface. Consequently, the resulting PSCs achieve a champion efficiency of 26.67% and demonstrate superior operational stability, retaining 94.6% of their initial performance after 1000 h. The strategy is also readily scalable, delivering efficiency of 22.78% for 12.87 cm 2 mini‐module. This work highlights mitigating hydrogen bond‐driven aggregation as a key design principle for efficient and stable SAM‐based PSCs.",
+   "authors": [
+    "Yuxin Dai",
+    "Qing Zhong",
+    "Jinbo Chen",
+    "Luyao Hao",
+    "Yajie Lei",
+    "Haoran Hu",
+    "Xianyong Zhou",
+    "Bin‐Bin Yu",
+    "Hanjian Lai",
+    "Xingzhu Wang",
+    "Chang Liu"
+   ],
+   "doi": "10.1002/adfm.77750",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Synergistic Sulfide–Alkali Surface Reconstruction Engineering Enables High‐Efficiency Cadmium‐Free Kesterite Thin Film Solar Cells",
+   "link": "https://doi.org/10.1002/adfm.77742",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-20",
+   "abstract": "ABSTRACT Sulfide kesterite Cu 2 ZnSnS 4 (CZTS) solar cells offer a sustainable route toward thin film photovoltaics, yet their efficiency remains limited by severe open‐circuit voltage loss associated with defective absorber surfaces and unfavorable heterojunction energetics. Here, a K 2 S post‐deposition treatment is reported, which targets the crystallized CZTS surface and simultaneously regulates surface chemistry and interfacial band alignment. Unlike conventional alkali treatments, K 2 S provides a dual‐function chemical environment in which alkaline surface cleaning removes detrimental secondary phases, while K + and S 2− ions participate in defect passivation and surface electronic reconstruction at the CZTS/ZTO interface. This process reduces surface potential fluctuations and alleviates Fermi‐level pinning, leading to a reduced electron‐transport barrier at the CZTS/ZTO junction. These synergistic effects suppress trap‐assisted recombination and facilitate carrier extraction. As a result, the cadmium‐free CZTS device achieves a champion efficiency of 12.10%, with a large‐area (1.02 cm 2 ) device delivering 10.27%. This work highlights sulfide alkali post‐treatment as an effective strategy for interface engineering in pure‐sulfide kesterite photovoltaics.",
+   "authors": [
+    "Haojia Zheng",
+    "Yixiong Ji",
+    "Hongbo Li",
+    "Jiahui Zhou",
+    "Jun Zhao",
+    "Muhammad Abbas",
+    "Shuo Chen",
+    "Zhuanghao Zheng",
+    "Zhenghua Su",
+    "Guangxing Liang"
+   ],
+   "doi": "10.1002/adfm.77742",
+   "keywords": [
+    "photovoltaics",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "High‐Performance Perovskite/Silicon Tandem Solar Cells via Ion Modulation",
+   "link": "https://doi.org/10.1002/adfm.77637",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-20",
+   "abstract": "ABSTRACT Low ion migration activation energy in perovskites leads to severe phase separation and structural instability, damaging the perovskite film uniformity and performance of perovskite/silicon tandem solar cells. Here, we demonstrate that ion modulation can elevate the ion migration energy barrier and improve the local structural stability of perovskite at the atomic level via density functional theory calculations and molecular dynamics simulations. High‐resolution transmission electron microscopy (HRTEM) further revealed the correlation between the ion migration activation energy and the lattice, atomic, and crystalline structure of perovskites. Consequently, we achieved multi‐dimensional (horizontal/ vertical/ microscale) uniform deposition of perovskite films through ion modulation. The target device achieved a champion power conversion efficiency of 33.02% compared with 31.12% for control. Notably, the unencapsulated target device demonstrated negligible efficiency degradation over a 1200 s maximum power point tracking test and retained more than 90% of its initial efficiency following 1000 h of ambient air storage.",
+   "authors": [
+    "Zhenzhu Zhao",
+    "Fei Wang",
+    "Hong Liu",
+    "Jiahe Ru",
+    "Yuhui Ji",
+    "Fan Xu",
+    "Junjun Li",
+    "Pengxu Chen",
+    "Yutao Wang",
+    "Shuangbiao Xia",
+    "Na Wang",
+    "Jian Yu",
+    "Kexin Yao",
+    "Tinglu Song",
+    "Juntao Hu",
+    "Zhenghong Lu",
+    "Chen Yang",
+    "Jiakai Liu",
+    "Liping Zhang",
+    "Zhengxin Liu",
+    "Pengyi Tang",
+    "Wenzhu Liu",
+    "Qin Hu"
+   ],
+   "doi": "10.1002/adfm.77637",
+   "keywords": [
+    "ion migration",
+    "perovskite",
+    "perovskites",
+    "solar cells",
+    "tandem"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Direct Integration of Conductive, Emissive Perovskite Nanocrystals Into Efficient Light‐Emitting Diodes Without Post‐Synthetic Ligand Exchange",
+   "link": "https://doi.org/10.1002/adfm.77751",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-20",
+   "abstract": "ABSTRACT Colloidal perovskite nanocrystals (PNCs) have emerged as promising candidates for optoelectronic applications, leveraging their excellent optical, photophysical, and electrical properties combined with solution processability. However, the electrically insulating nature of conventional long‐chain ligands necessitates post‐synthetic ligand exchange for practical device integration. Here, we demonstrate that a synthetically engineered surface chemistry, featuring a low ligand density and robust halide passivation, enables the direct integration of colloidal PNCs into optoelectronic devices without a ligand exchange process. This is achieved by synthesizing CsPbBr 3 PNCs stabilized with Br – instead of anionic oleate ligands. Due to the stronger binding of the OAM/Br − ligand system to the CsPbBr 3 surface, compared to the OAM/oleate system, the resultant PNCs show suppressed surface defect formation and improved optical properties. The reduced surface ligand density allows for higher charge carrier mobility in the PNC thin films relative to their oleate‐capped counterparts. Without post‐synthetic ligand exchange, the colloidal PNCs are directly integrated into light‐emitting diodes, achieving enhanced charge carrier injection and a higher maximum external quantum efficiency of 11.4%, compared to 2.7% for conventional PNC‐based devices.",
+   "authors": [
+    "Jigeon Kim",
+    "Yubin Lee",
+    "Gyeong Eun Seok",
+    "Dong Gyu Lee",
+    "Seongwon Lee",
+    "Huieun Kim",
+    "Sung Woo Jang",
+    "Wooyeon Kim",
+    "Wondo Choi",
+    "Woo Hyeon Jeong",
+    "Donghun Lee",
+    "Min Jae Ko",
+    "Won Bin Im",
+    "Jinhan Cho",
+    "Tae Kyung Lee",
+    "Bo Ram Lee",
+    "Younghoon Kim"
+   ],
+   "doi": "10.1002/adfm.77751",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "article",
    "oa_type_tried": 1
   },
   {
@@ -88,6 +873,76 @@
     "photovoltaic"
    ],
    "type": "article",
+   "oa_type_tried": 2
+  },
+  {
+   "title": "Surface-Engineered Poly(ethylene oxide)-Grafted Quantum Dot Inks for Green-Solvent-Processed Electroluminescent Devices",
+   "link": "https://doi.org/10.1021/acsami.6c10538",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-08-20",
+   "abstract": "Abstract Quantum dots (QDs) are promising emissive materials for next-generation optoelectronics, but conventional oleic acid (OA) capping necessitates toxic, nonpolar solvents such as toluene and chloroform, hindering environmentally sustainable solvent-based processing. Here, we report a green, solution-processable ligand-exchange strategy in which thiol-terminated poly(ethylene oxide) (PEO-SH) replaces OA on QDs, enabling stable dispersion in ethanol and water. By tuning the molecular weight of PEO, we identify PEO with Mn ≈ 2000 g/mol as an optimal ligand that provides a balanced combination of chain length and surface coverage, resulting in long-term colloidal stability and high photoluminescence quantum yield in polar media. Using these QD-PEO2k inks, we fabricate multilayer quantum dot light-emitting diodes (QLEDs) from ethanol and water/ethanol co-solvents, achieving a maximum external quantum efficiency of 2.12% and a current efficiency of 9.19 cd A–1. These results successfully serve as a proof-of-concept for generating functional electroluminescence from water/alcohol-based QD inks. Ultimately, this work establishes a foundational step toward reducing toxic solvent dependency and advancing sustainable manufacturing in solution-processed optoelectronics.",
+   "authors": [
+    "Moon-Chul Ryu",
+    "Gyu Jin Shin",
+    "Ho Seok Heo",
+    "Seung Ah Lee",
+    "Tae-Young Heo",
+    "Kangtaek Lee",
+    "Jun Hyup Lee",
+    "Soo-Hyung Choi"
+   ],
+   "doi": "10.1021/acsami.6c10538",
+   "keywords": [
+    "light-emitting"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Effect of Light Scattering in Transparent Wood Luminescent Solar Concentrators for Improved Performance and Photostability",
+   "link": "https://doi.org/10.1021/acsami.6c12150",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-08-20",
+   "abstract": "Abstract Transparent wood (TW) is a promising candidate for sustainable building-integrated photovoltaics, yet its complex anisotropic light transport behavior remains poorly understood. This work clarifies the roles of scattering and light guiding in TW and provides the necessary framework for sustainable, efficient wood-based luminescent solar concentrators (LSCs). We report on a Rhodamine 6G-functionalized TW-LSC whose cellulose scaffold has a protective effect on the fluorophore, enhancing its photostability. We challenge the prevailing assumption that longitudinal guided emission dominates performance by resolving the interplay between anisotropic scattering and light guidance. This work also demonstrates that for small device dimensions, light is mainly directed perpendicular to the fiber axis as transverse scattering outcompetes longitudinal waveguiding of emission and yields a power conversion efficiency of 1.3%. For longer light path lengths, guided emission dominates over scattering. Beyond optical performance, a critical life cycle assessment estimated a global warming potential of 17 kg CO2 equiv·kg–1 TW, highlighting the burdens posed by the fossil-based matrix in TW.",
+   "authors": [
+    "Dan Vivas Glaser",
+    "Simon Clemens",
+    "Maximilian Ritter",
+    "Jonas Garemark",
+    "Robert Kindler",
+    "Matteo De Marzi",
+    "Sergei Popov",
+    "Ingo Burgert",
+    "Guido Panzarasa"
+   ],
+   "doi": "10.1021/acsami.6c12150",
+   "keywords": [
+    "photovoltaics"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "“Shadow Mask‐Based RGB Color Patterning in QLED Panels via Selective Quenching by Metals”",
+   "link": "https://doi.org/10.1002/smtd.70987",
+   "journal": "Small Methods",
+   "publisher": "Wiley",
+   "date": "2026-08-19",
+   "abstract": "ABSTRACT High‐resolution color patterning of Quantum Dot Light‐Emitting Devices (QLEDs) remains a challenge, since solution‐based methods lack the resolution for subpixel patterning and other strategies often reduce scalability or device performance. In this work, we introduce and present results from a new shadow mask‐based RGB color‐patterning approach for QLED panels. This approach uses very thin metal layers, only 1–2 nm thick, that can be readily deposited through shadow masks to selectively quench luminescence from areas of a tandem stack containing multiple QD layers, enabling different regions of the stack to emit different colors when bias is applied. Photoluminescence, optical transmittance, and topographic measurements are used to study the effect of depositing ultrathin metal layers on the luminescence properties of QD films. Results from red‐ and green‐emitting QLEDs formed side by side on the same substrate using this approach are presented, demonstrating its feasibility for color patterning. Because the patterning is realized through thermal evaporation of metals using shadow masks, the approach is inherently compatible with established fine metal mask (FMM) RGB patterning processes used in OLED manufacturing, indicating that pixel resolutions similar to those of OLED displays can be readily obtained in QLED displays without necessitating alternative patterning strategies.",
+   "authors": [
+    "Bhuiyan Saad Bin Mobarak",
+    "Fatemeh Samaeifar",
+    "Atefeh Ghorbani",
+    "Tiancheng Xu",
+    "Hany Aziz"
+   ],
+   "doi": "10.1002/smtd.70987",
+   "keywords": [
+    "tandem"
+   ],
+   "type": "article",
    "oa_type_tried": 1
   },
   {
@@ -107,7 +962,7 @@
     "photoelectrochemical"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Research Progress in Photoelectrochemical Photodetectors Based on Integrated Self‐Supporting Photoelectrodes: Design, Fabrication, and Applications",
@@ -137,6 +992,36 @@
     "photoelectrochemical"
    ],
    "type": "review",
+   "oa_type_tried": 2
+  },
+  {
+   "title": "Structural Compensation Strategy: Composite NiO x Hole Transport Layers Enabling High‐Efficiency and Scalable Inverted Perovskite Solar Cells",
+   "link": "https://doi.org/10.1002/smll.75056",
+   "journal": "Small",
+   "publisher": "Wiley",
+   "date": "2026-08-19",
+   "abstract": "ABSTRACT Sputtered nickel oxide (NiO x ) integrated with a self‐assembled monolayer (SAM) as a hole‐transport layer represents a promising strategy for the scalable application of inverted (p‐i‐n) perovskite solar cells. However, the inherent limitations of sputtered NiO x , characterized by insufficient surface functionality, hinder the ordered deposition of SAMs, thereby constraining device performance. Here, we demonstrate a method to achieve uniform NiO x films by controlling the oxygen cooling pressure during the magnetron sputtering process. To further enhance the quality of the interface, we introduce a structural‐compensation strategy comprising a sputtered underlayer complemented by a solution‐processed hydroxyl‐rich overlayer. The magnetron‐sputtered bottom layer provides a compact, low‐defect contact, while the solution‐processed top layer creates a hydroxyl‐rich surface, facilitating effective SAM anchoring and decoupling SAM deposition from charge extraction processes. This interfacial engineering not only enhances hole extraction, but also promotes perovskite crystallization, leading to enlarged grain sizes, reduced strain, and suppressed non‐radiative recombination. Consequently, the resulting inverted devices deliver high performance across bandgaps and scales: 24.86% and 21.78% for small‐area 1.55 and 1.68 eV cells, respectively, and 21.38% for a 12.4 cm 2 module based on the 1.55 eV absorber, all with robust operational stability. This work provides a practical and scalable pathway toward high‐performance perovskite photovoltaics.",
+   "authors": [
+    "Yanfeng Li",
+    "Bingbing Chen",
+    "Chunjie Huang",
+    "Xuan Chang",
+    "Xueliang Yang",
+    "Lijie Yu",
+    "Mengqi Li",
+    "Kaining Ding",
+    "Dongmei Li",
+    "Qingbo Meng",
+    "Jianhui Chen"
+   ],
+   "doi": "10.1002/smll.75056",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "photovoltaics",
+    "solar cells"
+   ],
+   "type": "article",
    "oa_type_tried": 1
   },
   {
@@ -164,7 +1049,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Rudolph A. Marcus obituary: theoretical chemist who explained how electrons jump between molecules",
@@ -182,8 +1067,8 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Hierarchical Interfacial Engineering of Gas Diffusion Electrodes for Acidic CO2 Electroreduction in Membrane Electrode Assemblies",
@@ -206,7 +1091,7 @@
     "co2 electroreduction"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Stabilizing Ru-Formyl CO2 Reduction Intermediates by Formation of Lewis Acid–Base Adducts: A Combined 2DIR and NMR Study",
@@ -230,7 +1115,7 @@
     "co2 reduction"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Taming Molecular Boron Nitride through a Tandem Donor–Acceptor Stabilization/Arene Release Strategy",
@@ -248,7 +1133,7 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "σ3-Endo 1,4-Azaphosphinine-Embedded Polycyclic Aromatic Hydrocarbons: P-Hyperconjugation-Regulated Excited-State Symmetry and Thermally Activated Delayed Fluorescence",
@@ -273,7 +1158,7 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Ordered liquid crystal-SAM supramolecules stabilize perovskite interfaces",
@@ -299,8 +1184,8 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Buried-Junction Reinforcement through Dual-Sided Interfacial Anchoring in Inverted Perovskite Solar Cells",
@@ -327,8 +1212,8 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Activating Triplet Excitons in COFs via Layer‐Bridging Co Single Atoms for Photocatalytic H 2 O 2 Production and Tandem C─N Coupling",
@@ -351,7 +1236,7 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Zn─F Diatomic Sites Promote Electrochemical C─N Coupling for the Synthesis of Amino Acids",
@@ -371,7 +1256,7 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "A Narrow‐Bandgap Fused‐Ring Acceptor for Organic Short‐Wavelength Infrared Imager",
@@ -392,7 +1277,7 @@
     "photodetector"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "High‐Entropy Rare‐Earth Halide Double Perovskites Convert Compositional Disorder Into Ion‐Transport‐Stabilized Broadband Near‐Infrared Emission for LEDs",
@@ -426,7 +1311,7 @@
     "perovskites"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Excitation‐Wavelength‐Controlled Spin Injection in Core–Shell Chiral Perovskite Nanocrystals for Amplified Circularly Polarized Luminescence",
@@ -451,7 +1336,7 @@
     "perovskites"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Transient Interfacial Electron Transfer: The Hidden Kinetic Driver of Graphite Lithiation",
@@ -475,7 +1360,7 @@
     "ion migration"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Orientation‐Engineered Interfacial Bi‐Anchoring Molecules for Efficient and Stable Perovskite Solar Cells",
@@ -504,7 +1389,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Self‐Assembled Molecules Based on a Spiro‐Core and Conjugated Linkers Enable 21% Efficiency in Organic Solar Cells",
@@ -533,7 +1418,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Streamlined One‐Step Dimerization of Small‐Molecule Acceptors for High‐Performance Organic Solar Cells",
@@ -562,7 +1447,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Synergistic Regulation of Crystallization Kinetics and Thermodynamics by Liquid Crystal Engineering Enables Efficient and Stable Organic Solar Cells",
@@ -590,7 +1475,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Geometrically Asymmetric Phosphonium Zwitterions Enable Efficient Printable Mesoscopic Perovskite Solar Cells",
@@ -621,7 +1506,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Graded Supramolecular Frameworks for Extending Space‐Charge Modulation Regions and Boosting Carrier Dynamics in Perovskite Solar Cells",
@@ -653,7 +1538,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Multidentate Anion [C 6 H 6 NO 6 ] 3− Coordinated Hybrid Bismuth Complex Single Crystal for Stable X‐Ray Detection With High Sensitivity",
@@ -678,7 +1563,7 @@
     "ion migration"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Reconstruction of Hole‐Selective Perovskite Contact Enables Highly Efficient Two‐Step Perovskite Solar Cells via Improved Energetics",
@@ -720,7 +1605,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Large‐Scale Perovskite Photovoltaics: Mitigating Defect Challenges in Upscaled Modules and Monolithic Tandem Cells",
@@ -751,7 +1636,7 @@
     "tandem"
    ],
    "type": "review",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Suppressing Non‐Radiative Recombination in Perovskite Solar Cells Through Integrated Tuning of Out‐of‐Plane Lattice Texture and Strain",
@@ -776,7 +1661,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "A Practical, Technology‐Agnostic Framework For Shockley–Queisser Benchmarking of Solar Cells: Robust Bandgap Definitions and Loss Decomposition From EQE, Electroluminescence, and J – V Data",
@@ -795,7 +1680,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Cu@Cr 2 O 3 Noble‐Metal‐Free Hydrogen‐Evolving Cocatalyst on Al‐Doped SrTiO 3 for Photocatalytic Overall Water Splitting",
@@ -825,6 +1710,54 @@
     "water splitting"
    ],
    "type": "article",
+   "oa_type_tried": 2
+  },
+  {
+   "title": "Indoor NFA‐Organic Photovoltaic for Grid‐Free Water Electrolysis",
+   "link": "https://doi.org/10.1002/aenm.71363",
+   "journal": "Advanced Energy Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-19",
+   "abstract": "ABSTRACT Off‐grid hydrogen production via water electrolysis is gaining traction for decentralized energy; however, outdoor solar dependence limits indoor operation. Indoor organic photovoltaics (iOPVs) exhibit high efficiency under artificial illumination and offer a promising power source for such applications. We demonstrate a PM6:Y6‐ based photovoltaic–driven water electrolysis (iOPV–WE) system by integrating optimized OPV devices with a high‐performance oxygen evolution reaction (OER) catalyst. The iOPV devices were engineered using PDINO as the electron transport layer, where thickness optimization (∼6–8 nm) significantly improved charge extraction and reduced interfacial recombination. As a result, the PM6:Y6‐based iOPVs achieved power conversion efficiencies of 12.2% under halogen illumination (1000 lux), while maintaining stable operation in a 30 cm 2 large‐area device. For efficient electrolysis, a Co‐ and Fe‐doped Ni(OH) 2 nanosheet catalyst supported on CuO nanowires (NCF–CuO) was developed, exhibiting a low overpotential of 291 mV at 100 mA cm − 2 and excellent stability. By coupling the optimized iOPV with the NCF–CuO electrode, the integrated system delivered a stable output of ∼1.5 V and 35 mA under halogen illumination (1000 lux), enabling continuous water electrolysis with a Faradaic efficiency of ∼99.2% for O 2 . These results demonstrate the feasibility of indoor solar‐to‐hydrogen conversion using organic photovoltaics.",
+   "authors": [
+    "Hyojeong Choi",
+    "Ashish Gaur",
+    "Swarup Biswas",
+    "Min Gi Kim",
+    "HyukSu Han",
+    "Hyeok Kim"
+   ],
+   "doi": "10.1002/aenm.71363",
+   "keywords": [
+    "photovoltaic",
+    "photovoltaics"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Fluoride‐Driven Interfacial Engineering: Architecting Functional Layers for High‐Performance Dendrite‐Free Li Metal Batteries",
+   "link": "https://doi.org/10.1002/aenm.71463",
+   "journal": "Advanced Energy Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-19",
+   "abstract": "ABSTRACT High‐capacity lithium metal anodes are essential for high‐energy‐density batteries. However, their practical deployment is hindered by notorious dendritic growth, severe volume variation and an unstable solid electrolyte interphase (SEI), giving rise to poor cyclic stability and serious safety hazards. Much effort has been devoted to exploring interfacial functional layers to enable dendrite‐free and reversible plating/stripping. Metal fluorides (M x Fᵧ) are being actively exploited due to their high ionic conductivity, mechanical robustness and favorable reactivity with Li. Importantly, conversion and alloying reactions generate favorable interphases containing conductive LiF and alloying species, which effectively regulate Li + flux and facilitate fast ion migration and uniform deposition, thereby enhancing both cycle life and energy density of Li metal batteries (LMBs). This review systematically summarizes the applications of M x Fᵧ in LMBs, including artificial interphase layers, lithiophilic 3D hosts, separator modification layers and electrolyte additives. Particular emphasis is placed on clarifying the role of M x Fᵧ for building a robust SEI and providing host framework that accelerates kinetics and guides homogeneous nucleation for dendrite‐free deposition. Meanwhile, the performance of LMBs from a practical application viewpoint is discussed, especially in pouch cells. Finally, future directions and prospects for M x Fᵧ are presented to stimulate their commercialization and extension to other metal batteries.",
+   "authors": [
+    "Ao Liu",
+    "Jinlun Wu",
+    "Yimeng Han",
+    "Ihar Razanau",
+    "Artem Okulov",
+    "Jiangan Wang",
+    "Zhe Liu",
+    "Fei Xu",
+    "Hongqiang Wang"
+   ],
+   "doi": "10.1002/aenm.71463",
+   "keywords": [
+    "ion migration"
+   ],
+   "type": "article",
    "oa_type_tried": 1
   },
   {
@@ -851,7 +1784,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "PVA-Mediated Transfer of MoS2 and Au Electrodes: A Lithography-Free Route to Ultraclean van der Waals Interfaces for High-Performance Electronics and Optoelectronics",
@@ -875,7 +1808,7 @@
     "photodetector"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Carbazolyl-Substituted Benzoic Anhydrides as Efficient Triplet Harvesters for High-Brightness Blue Organic Light-Emitting Diodes",
@@ -929,7 +1862,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Ultrathin Freestanding BiFeO 3 Membranes Grown by Pulsed Laser Deposition",
@@ -1003,7 +1936,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -1095,7 +2028,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -1179,7 +2112,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -1354,7 +2287,7 @@
     "wide bandgap"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Overcoming Uncontrolled Nucleation and Cesium Salt Solubility Limits in Scalable Perovskite Deposition through All-Inorganic Perovskite Nanocrystal Seeding",
@@ -1492,7 +2425,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1525,7 +2458,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1691,7 +2624,7 @@
     "triple-junction"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -2005,7 +2938,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type_tried": 2
   },
   {
