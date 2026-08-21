@@ -1,7 +1,7 @@
 {
  "year": "2026",
- "count": 3572,
- "generated": "2026-08-20 22:35 UTC",
+ "count": 3582,
+ "generated": "2026-08-21 22:36 UTC",
  "papers": [
   {
    "title": "Lattice engineering of thermally evaporated perovskite enables monolithically integrated micro-display",
@@ -67,6 +67,212 @@
    "oa_type_tried": 2
   },
   {
+   "title": "Molecular-driven lead-free halide photoferroelectric solid solution for high-temperature sensitive self-powered x-ray detection",
+   "link": "https://doi.org/10.1126/sciadv.aef7693",
+   "journal": "Science Advances",
+   "publisher": "Science",
+   "date": "2026-08-21",
+   "abstract": "Halide double perovskite ferroelectrics have recently emerged as an environmentally friendly candidate in radiation detection, photovoltaics, and optoelectronic memory devices due to their unique spontaneous polarization and semiconductor properties. However, it is a huge challenge to achieve efficient carrier transport and high Curie temperature ( T c ) in double perovskite ferroelectrics, owing to the limitations of twisted frameworks and structural construction. Here, we present a high- T c heterovalent metal solid solution double perovskite ferroelectric, (4Br2FBZ) 2 CsAgBiBr 7 (4Br2FBZ-CAB, 4Br2FBZ = 4-bromo-2-fluorobenzylammonium), through a strategy of cation-engineered symmetry regulation. The metal ions Ag and Bi transitioned from an alternating arrangement to a mixed-site solid solution pattern, effectively optimizing the electronic band structure to enhance carrier transport. Meanwhile, 4Br2FBZ-CAB exhibits a high T c of 484 kelvin, substantially expanding the family of high- T c lead-free ferroelectrics. Benefiting from its remarkable photoelectric and ferroelectric properties, a high self-powered x-ray detection sensitivity of 273.8 microcoulomb per gray per square centimeter (μC Gy air −1 cm −2 ) was achieved at room temperature. In addition, this exceptionally high T c enables the detector to operate self-powered at high temperatures, resulting in an excellent sensitivity of 896.9 μC Gy air −1 cm −2 and a low detection limit of 13.9 nGy air s −1 at 425 kelvin. This work opens an avenue for expanding the family of high- T c lead-free perovskite ferroelectrics with superior semiconducting properties.",
+   "authors": [
+    "Lijun Xu",
+    "Yao Li",
+    "Qianwen Guan",
+    "Hang Li",
+    "Chengshu Zhang",
+    "Huang Ye",
+    "Haiqing Zhong",
+    "Chengmin Ji",
+    "Zhenyue Wu",
+    "Lina Li",
+    "Junhua Luo"
+   ],
+   "doi": "10.1126/sciadv.aef7693",
+   "keywords": [
+    "perovskite",
+    "photovoltaics",
+    "x-ray detection"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Resolving carrier kinetics in perovskite through deep-learning-assisted photoluminescence analysis",
+   "link": "https://doi.org/10.1038/s41467-026-77052-8",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-08-21",
+   "abstract": "",
+   "authors": [
+    "Wenning Chen",
+    "Hui Chan Ahn",
+    "Bonghyun Jo",
+    "Sijia Li",
+    "Zheyu Zhang",
+    "Kelvian T. Mularso",
+    "Jong In Huh",
+    "Sae Byeok Jo",
+    "Hyun Suk Jung"
+   ],
+   "doi": "10.1038/s41467-026-77052-8",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Breaking the Porosity‐Property Trade‐Off in Piezoceramics Via Self‐Assembled Pore Engineering",
+   "link": "https://doi.org/10.1002/adfm.77890",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-21",
+   "abstract": "ABSTRACT The practical applications of porous piezoelectric ceramics have long been constrained by the intrinsic trade‐off between porosity and their piezoelectric and mechanical properties. Existing pore‐forming techniques, such as burnt‐out polymer spheres, still fail to achieve synergistic optimization of these properties. Here, we propose a self‐assembled pore engineering (SAP), which utilizes the density difference between reactants and products during chemical reactions to enable spontaneous pore formation. Benefiting from the synergy of SAP‐induced lattice softening, domain refinement, and significant residual stress, the fabricated porous bismuth layer‐structured Ca 0.94 Bi 4.06 Ti 4 O 15 (Bi‐CBT) ceramics with 30% porosity exhibit excellent comprehensive performance. The piezoelectric coefficient d 33 reaches 23.1 pC/N and shows a variation within ±15% over a broad temperature range of 25°C–525°C, while simultaneously possessing excellent compressive strength (558 MPa at 25°C, 276 MPa at 600°C) and low thermal conductivity (0.57 W m−1 K−1 at 25°C). More importantly, this method demonstrates broad universality across different material systems. Porous perovskite‐structured BaTiO 3 prepared via SAP achieves an ultrahigh effective electrostrictive coefficient Q eff of 0.32 m 4 /C 2 . These findings establish a versatile, low‐cost route for the scalable production of structural‐functional integrated ceramics.",
+   "authors": [
+    "Yangyang Zhou",
+    "Xinge Sun",
+    "Zhi Tan",
+    "Zhiyong Zhou"
+   ],
+   "doi": "10.1002/adfm.77890",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Diminishing Defect and Ion Migration in Perovskite‐Organic Tandem Solar Cells by Ordered Anion‐Cation Modification Approach",
+   "link": "https://doi.org/10.1002/adfm.77855",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-21",
+   "abstract": "ABSTRACT The efficency and stability of perovskite/organic tandem solar cells are fundamentally limited by two interconnected challenges in wide bandgap (WBG) perovskite top cells, namely high‐density surface defects and photo‐induced halide phase segregation. Both issues originate from anionic vacancies—specifically halogen vacancies—which act as shallow traps and serve as sites for ion migration, undermining device performance and stability. Herein, we demonstrate a novel ordered anion‐cation modification (OACM) approach—anionic vacancies are repaired before cation passivation. This order is determined by kinetic accessibility, where small and mobile Br − ions can easily diffuse into the lattice to fill vacancies. If a molecular passivation layer is deposited first (reversed sequence), a uniform barrier forms that blocks subsequent anion repair, significantly degrading device efficiency. By applying the OACM approach, we fabricated a 1.83 eV WBG perovskite solar cell that achieves an open‐circuit voltage of 1.33 V and a stabilized efficiency of 19.21%, while suppressing photo‐induced phase segregation. When integrated into perovskite/organic tandem devices, the stabilized top cell yields a champion efficiency of 26.20% with an improvement in storage stability. This work contributes to developing a sequence‐defined design principle for defect management in perovskite photovoltaics, transforming interface engineering from empirical trial‐and‐error into a rational, kinetically guided strategy.",
+   "authors": [
+    "Dan Ouyang",
+    "Qiumin Kong",
+    "Tianman Wu",
+    "Xinyue Cui",
+    "Biao Zhou",
+    "Jiayun Sun",
+    "Yuqi Wang",
+    "Yuqiang Liu",
+    "Zhishan Bo",
+    "Wallace C. H. Choy"
+   ],
+   "doi": "10.1002/adfm.77855",
+   "keywords": [
+    "ion migration",
+    "perovskite",
+    "perovskite solar cell",
+    "phase segregation",
+    "photovoltaics",
+    "solar cell",
+    "solar cells",
+    "tandem",
+    "wide bandgap"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Engineering Tandem Catalysis for Amino Acid Synthesis From Nitrogen Oxides",
+   "link": "https://doi.org/10.1002/adfm.77858",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-21",
+   "abstract": "ABSTRACT Amino acid synthesis from nitrogen oxides (NO x ) represents a transformative frontier in sustainable C─N bond formation, converting abundant small molecules into value‐added chemicals under mild conditions. However, this process faces significant challenges due to the complex orchestration of multistep proton/electron transfers, intermediate stabilization, and selective coupling within complex reaction networks. Tandem catalysis emerges as a powerful strategy to overcome these limits by spatially integrating distinct catalytic functions for the sequential conversion of reactive intermediates. In this review, we situate NO x to amino acid synthesis within the broader landscape of chemical, microbial, and electrocatalytic routes, emphasizing the unique merits of tandem systems. It summarizes the evolution of tandem catalysts, electrodes and systems while dissecting fundamental mechanistic pathways that govern intermediates transformation. Particular emphasis is placed on rational materials engineering strategies, including alloying, defect engineering, metal‐support interactions, metal‐semiconductor coupling, and heterostructure construction, which together regulate intermediate adsorption, charge/proton transfer, and interfacial coupling kinetics. Finally, we identify persistent challenges in activity and selectivity, highlighting opportunities in operando characterization, multiscale theory, and artificial intelligence assisted discovery. By bridging fundamental mechanisms with advanced materials design, this work establishes a forward‐looking framework for efficient amino acid production via tandem catalysis.",
+   "authors": [
+    "Bingbing Li",
+    "Jixiang Wang",
+    "Chang Gao",
+    "Min Kuang",
+    "Jianping Yang"
+   ],
+   "doi": "10.1002/adfm.77858",
+   "keywords": [
+    "tandem"
+   ],
+   "type": "review",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Two Birds With One Stone: Modifier Interfacial Engineering for High‐Efficiency Stable p‐i‐n All‐Inorganic Perovskite/Organic Tandem Solar Cells",
+   "link": "https://doi.org/10.1002/adfm.77805",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-21",
+   "abstract": "ABSTRACT All‐inorganic perovskite solar cells are photovoltaic research hotspots due to their excellent thermal stability. To boost efficiency, ZnO is used as an electron transport material for its high mobility and energy level matching with inorganic perovskites. However, abundant surface defects on CsPbI 2 Br trigger undesirable interfacial reactions with ZnO, seriously limiting device performance and long‐term stability. Herein, a two‐birds‐with‐one‐stone interfacial modifier based on HTPT (4‐hydroxy‐6‐(trifluoromethyl)pyrimidine‐2‐thiol) is utilized. S, O, and N heteroatoms in HTPT passivate defects via multi‐site coordination, reducing reactive sites. The steric effect of CF 3 partially reduces direct contact between perovskite and ZnO, and various interfacial effects, including surface energy variation, interfacial dipole modulation, wettability, and hydrophobicity, jointly regulate the overall interface properties, constructing an effective strategy for suppressing interfacial interdiffusion and slowing interfacial degradation rates. Modified single‐junction p‐i‐n devices reach a record 17.34% efficiency with 1.32 V open‐circuit voltage and robust stability (T 80 = 864 h at 85°C, T 92 = 1000 h under maximum power point tracking (MPPT) at 30°C). P‐i‐n CsPbI 2 Br/PM6:eC9:PC61BM two‐terminal tandem cells were fabricated. The fabricated CsPbI 2 Br/organic tandem cells yield top efficiencies of 24.25% (0.08 cm 2 ) and 22.81% (1.02 cm 2 ) among p‐i‐n all‐inorganic perovskite/organic tandems and maintain decent thermal and MPPT stability.",
+   "authors": [
+    "Ning Liu",
+    "Honggang Chen",
+    "Jianwei Chen",
+    "Kun Li",
+    "Shibing Zou",
+    "Qiliang Zhu",
+    "Yongmin Luo",
+    "Jiaying Wu",
+    "Jianhang Qiu",
+    "Ruijia Tang",
+    "Zhuojia Lin",
+    "Ke Wang",
+    "Qi Yang",
+    "Keyou Yan"
+   ],
+   "doi": "10.1002/adfm.77805",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "perovskites",
+    "photovoltaic",
+    "solar cells",
+    "tandem"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Tailoring Light Management in All‐Perovskite Tandem Solar Cells: The Impact of Nanotextures",
+   "link": "https://doi.org/10.1002/adfm.77815",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-21",
+   "abstract": "ABSTRACT All‐perovskite tandem solar cells (APTSCs) emerge as promising low‐cost and high‐efficiency next‐generation photovoltaics. To further increase the power conversion efficiencies (PCEs), a deeper understanding and fine‐tuned optimization of the optics is required, since most reports fall below 90% of the theoretical limit in photocurrent. Here, we demonstrate a synergistic multi‐faceted approach to overcome the optical constraints: incorporation of front‐sided nanotextures into APTSCs yields a broadband improvement of light in‐coupling, which eliminates thin‐film interference effects in reflectance, equivalent to a gain of 0.45 mA∙cm −2 in photocurrent. On the material level, parasitic absorption is reduced by optimizing the front ITO layer and replacing PEDOT:PSS for the bottom subcell with a graphene oxide/self‐assembled monolayer (GO/SAM) bilayer, improving the overall current gain to 1 mA∙cm −2 in each subcell. The resulting APTSC achieves a power conversion efficiency (PCE) of 27.98% with a short‐circuit current density ( J SC ) of 17.18 mA∙cm −2 , one of the highest reported values for this technology to date. Through comprehensive optical simulations, we explore the optical potential of APTSCs and further highlight upper limits of the subcell photocurrents in various tandem architectures. This work provides experimental and theoretical insights into optical optimization routes to increase the PCE of APTSCs well beyond 30%.",
+   "authors": [
+    "Sebastian Berwig",
+    "Yeonghun Yun",
+    "Doyun Im",
+    "Isabella Taupitz",
+    "Alexandros Cruz",
+    "Marlene Härtel",
+    "Bor Li",
+    "Kevin J. Prince",
+    "Hanifah Winarto",
+    "Thomas W. Gries",
+    "Klaus Jäger",
+    "Florian Riesebeck",
+    "Daniele Mantione",
+    "Sharon Monaci",
+    "Silvia Mariotti",
+    "Vishnu Vijayakumar",
+    "René A. J. Janssen",
+    "Sangwook Lee",
+    "Bernd Stannowski",
+    "Christiane Becker",
+    "Philipp Tockhorn",
+    "Steve Albrecht"
+   ],
+   "doi": "10.1002/adfm.77815",
+   "keywords": [
+    "perovskite",
+    "photovoltaics",
+    "solar cells",
+    "tandem"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
    "title": "Photon-Transport Interface Optimization of GAGG:Ce Scintillating Waveguides for Radio-Photovoltaic Cells",
    "link": "https://doi.org/10.1021/acsami.6c12790",
    "journal": "ACS Applied Materials & Interfaces",
@@ -87,7 +293,7 @@
     "scintillator"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Mitigating Residual FAI for Air‐Stable FAPbI 3 LEDs",
@@ -113,7 +319,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Genomes of Poaceae relatives reveal key metabolic innovations preceding the evolution of grasses",
@@ -154,7 +360,7 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "China’s solar expansion policy reduces bird diversity",
@@ -180,7 +386,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Redirecting wet–interfacial redox pathways for efficient inverted perovskite solar cells",
@@ -222,7 +428,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "In situ dry repair and passivation unlocks size-independent performance in Ⅲ-nitride micro-LEDs",
@@ -255,8 +461,8 @@
     "light-emitting"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Alternative tandem transcription initiation links noncoding variants to human disease through translational control",
@@ -283,8 +489,8 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Germanium-integrated exciplex host for high-performance narrowband OLEDs with mitigated efficiency roll-off",
@@ -310,7 +516,7 @@
     "light-emitting"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "High-performance CsSnI3 quadrant photodetector enabled by a competitive molecular strategy for precision light-spot tracking",
@@ -340,8 +546,8 @@
     "photodetector"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Symmetry-breaking co-assembly of conjugated molecules boosts perovskite photovoltaics",
@@ -376,8 +582,8 @@
     "photovoltaics"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Molecular-Ionic Hybrid Modulates Intermediate Evolution from CO2 to Methanol at High Current Density",
@@ -404,7 +610,7 @@
     "co2 electroreduction"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Scalable dual-step deposition of cascaded nickel oxide enables high-efficiency inverted perovskite solar cells and mini-modules",
@@ -432,7 +638,31 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1,
+   "ab_tried": 2,
+   "oa_type": "preprint"
+  },
+  {
+   "title": "Recent Advances and Future Perspectives of Proton-Conducting Electrolytes for Reversible Solid Oxide Cells",
+   "link": "https://doi.org/10.1021/acs.chemrev.5c00529",
+   "journal": "Chemical Reviews",
+   "publisher": "ACS",
+   "date": "2026-08-20",
+   "abstract": "Abstract Proton-conducting reversible solid oxide cells (P-RSOCs) are emerging as a transformative platform for efficient and flexible conversion between electricity and chemical fuels, including hydrogen and syngas. Their intermediate-temperature operation (400–600 °C) offers a compelling combination of high energy efficiency, rapid reaction kinetics, and strong compatibility with renewable electricity and industrial waste heat, positioning P-RSOCs as a promising technology for a carbon-neutral energy future. At the heart of these devices lies the proton-conducting electrolyte, which governs proton transport, chemical stability, interfacial compatibility, and long-term durability. Despite remarkable advances in electrolyte development, fundamental challenges in understanding and controlling proton transport, chemical stability, and electrode-electrolyte interactions continue to constrain practical deployment. This review presents a comprehensive and critical assessment of the current state of proton-conducting electrolytes for P-RSOCs, with emphasis on proton transport mechanisms, composition–structure–property relationships, stability limitations, and interfacial compatibility. We examine advances in perovskite-based and emerging alternative electrolyte families, while highlighting key strategies─including aliovalent doping, interfacial engineering, microstructure design, and advanced fabrication─for overcoming persistent limitations. Emerging operando characterization and computational approaches are further discussed as powerful tools for uncovering dynamic transport and degradation mechanisms and accelerating materials discovery. By integrating fundamental insights with materials-design strategies, this review identifies critical knowledge gaps and opportunities to guide the development of robust, high-performance electrolytes. Ultimately, we envision that such advances will help unlock the full potential of P-RSOCs as a versatile platform for sustainable energy conversion, storage, and renewable-fuel production.",
+   "authors": [
+    "Zheyu Luo",
+    "Chenhui Yang",
+    "Xueyu Hu",
+    "Haoyu Li",
+    "Zhijun Liu",
+    "Weining Wang",
+    "Yuefeng Song",
+    "Meilin Liu"
+   ],
+   "doi": "10.1021/acs.chemrev.5c00529",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "review",
    "oa_type_tried": 1
   },
   {
@@ -453,8 +683,8 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Chemical Bonding and Crystal Structure Design for Low Thermal Conductivity in Inorganic Solids",
@@ -474,7 +704,7 @@
     "perovskites"
    ],
    "type": "review",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Pathways to High‐Efficiency Perovskite‐Organic Tandem Solar Cells",
@@ -503,7 +733,7 @@
     "tandem"
    ],
    "type": "review",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Local Atom Clusters Drive Supercritical Relaxor State in Lead‐Free Dielectrics for Giant Energy Storage",
@@ -529,6 +759,60 @@
     "perovskite"
    ],
    "type": "article",
+   "oa_type_tried": 2
+  },
+  {
+   "title": "Geometric Complementarity and Electrostatic Fluctuation Control in Dual‐Asymmetric Acceptors for Efficient Organic Solar Cells",
+   "link": "https://doi.org/10.1002/adma.74732",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-20",
+   "abstract": "ABSTRACT Asymmetric molecular design has emerged as an effective strategy for developing high‐performance acceptors for organic solar cells (OSCs). Here, we introduce a dual‐asymmetric topology strategy, in which the stereochemical configurations of both the central core and terminal groups are co‐engineered. Using this approach, we synthesized an isomeric pair, Th2Cl‐a‐2Cl and Th2Cl‐b‐2Cl and benchmarked them against the singly asymmetric a‐CH‐Th2Cl and Th2Cl‐4Cl. We find that the distinctive steric conformation of Th2Cl‐a‐2Cl promotes a geometrically complementary, interlocked packing motif within the crystal lattice. This not only reinforces the three‐dimensional network connectivity but, more importantly, gives rise to a more uniform local electrostatic environment at the molecular‐skeleton scale. As a result, Th2Cl‐a‐2Cl exhibits weaker and more balanced environment‐induced electrostatic fluctuations along the backbone, which helps reduce local electrostatic perturbations during charge transport. Consequently, PM6:Th2Cl‐a‐2Cl devices deliver a champion PCE of 20.18% with a high fill factor (FF) of 80.88%, while significantly suppressing the non‐radiative recombination loss (Δ E 3 ) to 0.190 eV. These results establish geometric complementarity and electrostatic homogeneity, achieved through topological engineering, as an effective route to improve the efficiency of OSCs.",
+   "authors": [
+    "Jiye Chen",
+    "Ruohan Wang",
+    "Peiran Wang",
+    "Hanzhe Shi",
+    "Wenkai Zhao",
+    "Longyu Li",
+    "Jian Liu",
+    "Zhaoyang Yao",
+    "Chenxi Li",
+    "Xiangjian Wan",
+    "Yongsheng Chen"
+   ],
+   "doi": "10.1002/adma.74732",
+   "keywords": [
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Vacuum‐Based Monolithically In Situ Integration of Quantum‐Confined CsPbBr 3 Nanocrystals for Spectrally Stable Blue Electroluminescence",
+   "link": "https://doi.org/10.1002/adma.74731",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-20",
+   "abstract": "ABSTRACT Spectrally stable blue emission represents one of the most critical components of full‐color perovskite displays, which are highly attractive for display technologies. However, vapor‐deposited blue perovskite light‐emitting diodes have so far relied predominantly on Br/Cl mixed‐halide bandgap engineering, which is prone to halide migration and phase segregation under operation and therefore suffers from spectral instability. Here, we report spectrally stable vapor‐deposited, pure‐bromide blue perovskite light‐emitting diodes with spectrally stable emission achieved via a ligand‐buffered delayed nucleation (LBDN) strategy. In this method, p‐Br‐MBABr is co‐deposited as a kinetic buffer to create a ligand‐coordinated precursor state that suppresses immediate crystallization, delays nucleation, and confines subsequent crystal growth. As a result, we obtain quantum‐confined CsPbBr 3 nanocrystal films with tunable blue emission. Fully vapor‐deposited PeLEDs based on these films deliver spectrally stable pure‐blue electroluminescence. These results establish kinetic buffering as an effective route to quantum‐confined perovskites under vapor deposition and spectrally stable blue emitters for monolithically integrated full‐color perovskite displays.",
+   "authors": [
+    "Jianfeng Ou",
+    "Zixi Shen",
+    "Dongying Hou",
+    "Jinghui Li",
+    "Kai Feng",
+    "Liang Wang",
+    "Jiajun Luo",
+    "Juan Du",
+    "Jiang Tang"
+   ],
+   "doi": "10.1002/adma.74731",
+   "keywords": [
+    "perovskite",
+    "perovskites",
+    "phase segregation"
+   ],
+   "type": "article",
    "oa_type_tried": 1
   },
   {
@@ -551,7 +835,7 @@
     "perovskites"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Buried‑Interface Seeded Bottom‑Up Growth for Universal High‑Efficiency p–i–n Perovskites",
@@ -583,7 +867,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Aromatic Interaction Tailored Interfacial Chemical Reactivity of the Perovskite/Self‐Assembled Monolayers for Efficient and Stable Perovskite Solar Cells",
@@ -612,7 +896,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Dual‐Group Surface Functionalization of TiO 2 Enabling Efficient Cd‐free Sb 2 (S,Se) 3 Solar Cells",
@@ -640,7 +924,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Defect Healing of Electron Transport Layers Using Multifunctional Carboxyl Acid for Carbon‐Based Flexible Perovskite Solar Cells",
@@ -668,7 +952,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Dual‐Functional Frustrated Lewis Pairs‐Regulated GaOOH/Ga 2 O 3 Heterojunctions: Targeted Molecular Activation for Boosted Photocatalytic Tandem CO 2 Hydrogenation",
@@ -694,7 +978,7 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "X‐Ray Penetrable Photopolymerization Molding Using Lead‐Free Perovskite Scintillators",
@@ -717,7 +1001,7 @@
     "scintillator"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Benzothiadiazole Suppresses Hydrogen Bond‐Driven Aggregation to Enable Highly Uniform SAMs for 26.67%‐Efficient Perovskite Solar Cells",
@@ -746,7 +1030,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Synergistic Sulfide–Alkali Surface Reconstruction Engineering Enables High‐Efficiency Cadmium‐Free Kesterite Thin Film Solar Cells",
@@ -773,7 +1057,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "High‐Performance Perovskite/Silicon Tandem Solar Cells via Ion Modulation",
@@ -816,7 +1100,7 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Direct Integration of Conductive, Emissive Perovskite Nanocrystals Into Efficient Light‐Emitting Diodes Without Post‐Synthetic Ligand Exchange",
@@ -849,7 +1133,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Hydroxymethylated EDOT/ProDOT Copolymer-Ratio Regulation of Hole-Transport Pathways Coupled with BiOIO3 Polar-Interphase Engineering for Flexible Self-Powered UV Photodetectors",
@@ -897,7 +1181,7 @@
     "light-emitting"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Effect of Light Scattering in Transparent Wood Luminescent Solar Concentrators for Improved Performance and Photostability",
@@ -922,7 +1206,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "“Shadow Mask‐Based RGB Color Patterning in QLED Panels via Selective Quenching by Metals”",
@@ -943,7 +1227,7 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Ammonia Oxidation for Energy Conversion and Environmental Remediation: Mechanism‐Guided Catalyst Design for Electrochemical, Photocatalytic, and Photoelectrochemical Systems",
@@ -1022,7 +1306,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Antimony sulfide photovoltaics with high open-circuit voltage not limited by self-trapped excitons",
@@ -1067,7 +1351,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type_tried": 2
   },
   {
@@ -1184,7 +1468,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type_tried": 2
   },
   {
@@ -1212,7 +1496,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type_tried": 2
   },
   {
@@ -1733,7 +2017,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Fluoride‐Driven Interfacial Engineering: Architecting Functional Layers for High‐Performance Dendrite‐Free Li Metal Batteries",
@@ -1758,7 +2042,7 @@
     "ion migration"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Oxygen-Mediated Electronic Reconstruction and Element-Selective Magnetism in Sr-Based High-Entropy Perovskite Oxide Thin Films",
@@ -1936,7 +2220,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -2028,7 +2312,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -2112,7 +2396,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -2425,7 +2709,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -2458,7 +2742,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -2624,7 +2908,7 @@
     "triple-junction"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -2938,7 +3222,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type_tried": 2
   },
   {
