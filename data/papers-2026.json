@@ -1,7 +1,7 @@
 {
  "year": "2026",
- "count": 3680,
- "generated": "2026-08-28 06:06 UTC",
+ "count": 3684,
+ "generated": "2026-08-29 03:37 UTC",
  "papers": [
   {
    "title": "Rapid and robust diagnosis of bloodstream infections by single-cell analysis",
@@ -76,6 +76,112 @@
    "oa_type": "article"
   },
   {
+   "title": "Ferroelastic hysteresis, shear modulus softening, and the tetragonal↔cubic transition in davemaoite",
+   "link": "https://doi.org/10.1126/sciadv.aed7601",
+   "journal": "Science Advances",
+   "publisher": "Science",
+   "date": "2026-08-28",
+   "abstract": "Abstract Cubic CaSiO 3 -perovskite (davemaoite), the third most abundant mineral in Earth’s lower mantle, remains a key uncertainty in deep-Earth models. Using machine learning interatomic potentials and molecular dynamics simulations, we present a direct evidence of pronounced ferroelastic hysteresis near its tetragonal↔cubic transition. By isolating the intrinsic elastic response from anelastic relaxation and nonhydrostatic stress, we establish a robust upper-bound benchmark for sound velocities and elasticity models while revealing pronounced shear modulus softening across the transition. The confirmed ferroelasticity suggests substantial strain memory, seismic wave scattering, and strong attenuation if the transition is activated in regions of deeply subducted mid-ocean ridge basalt (MORB) accumulation. While pure CaPv may not undergo this transition at relevant conditions, it could occur in Ca(Si,Ti)O 3 , contributing to the low shear velocity regions in the deep mantle and above the core-mantle boundary.",
+   "authors": [
+    "Tianqi Wan",
+    "Chenxing Luo",
+    "Zhen Zhang",
+    "Yang Sun",
+    "Renata M. Wentzcovitch"
+   ],
+   "doi": "10.1126/sciadv.aed7601",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Toward high-performance and stable blue perovskite light-emitting diodes via optimized fluorinated polymer blend hole transport layers",
+   "link": "https://doi.org/10.1126/sciadv.aec7056",
+   "journal": "Science Advances",
+   "publisher": "Science",
+   "date": "2026-08-28",
+   "abstract": "Abstract Perovskite light-emitting diodes (PeLEDs) are promising low-cost, solution-processable, and color-pure optoelectronic devices for display and lighting applications. However, blue PeLEDs continue to lag their green and red counterparts in terms of luminance and operational lifetime, limiting their practical implementation. The performance disparity primarily arises from charge injection imbalance, which accelerates degradation at the perovskite/hole transport layer (HTL) interface under electrical bias. Here, we design a polymer blend HTL comprising poly( N -vinyl-2,7-difluoro-carbazole) (PVK-F) and poly(bis(4-phenyl)(2,4,6-trimethylphenyl)amine) (PTAA), in which strengthened van der Waals interactions promote denser molecular packing. This optimized microstructure simultaneously enhances hole mobility and wettability, enabling high-quality perovskite film formation. Consequently, PeLEDs emitting at 485 nanometers achieve an external quantum efficiency of 24.1% and luminance exceeding 26,000 candela per square meter. Moreover, the improved hole injection mitigates interfacial degradation, yielding an operational half-lifetime exceeding 700 minutes at an initial luminance of 100 candela per square meter. This work establishes polymer blending as an effective strategy for advancing the performance and stability of blue PeLEDs.",
+   "authors": [
+    "Qichun Gu",
+    "Tianjun Liu",
+    "Yucheng Xu",
+    "Xinjuan Li",
+    "Yunzhou Deng",
+    "Yang Lu",
+    "Youcheng Zhang",
+    "Zimu Wei",
+    "Xinyu Bai",
+    "Capucine Mamak",
+    "Yutong Han",
+    "Alessandro J. Mirabelli",
+    "Weidong Xu",
+    "Jian Mao",
+    "Caterina Ducati",
+    "Henning Sirringhaus",
+    "Samuel D. Stranks",
+    "Miguel Anaya"
+   ],
+   "doi": "10.1126/sciadv.aec7056",
+   "keywords": [
+    "light-emitting",
+    "perovskite"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Non-Hermitian trapping of Dirac exciton-polariton condensates in a perovskite metasurface",
+   "link": "https://doi.org/10.1126/sciadv.aeg5986",
+   "journal": "Science Advances",
+   "publisher": "Science",
+   "date": "2026-08-28",
+   "abstract": "Massless Dirac particles avoid trapping because of their exceptional tunneling properties manifested in the so-called Klein paradox. This conclusion stems from the conservative treatment, but so far, it has not been extended to a non-Hermitian framework. Recently, driven-dissipative bosonic condensation of exciton-polaritons featuring Dirac dispersion was demonstrated in metasurface waveguides—a platform rich in non-Hermitian effects. Here, we report an experimental observation of spatial binding and energy quantization of Dirac polaritons in a halide perovskite metasurface. A combination of spatially profiled nonresonant optical excitation and exciton-polariton interaction forms an effective non-Hermitian complex potential responsible for the observed effect. In the case of tightly focused pump spots spanning from 9 to 17 micrometers, several bound states simultaneously achieve macroscopic occupation, constituting a multimode bosonic condensation of exciton-polaritons. Our theoretical analysis based on the driven-dissipative extension of the Dirac equation reveals a non-Hermitian confinement mechanism that bypasses the Klein paradox. Unlike previous observations limited to massive Dirac gaps, the non-Hermitian trap confines particles even in a gapless spectrum on both sides of the Dirac point.",
+   "authors": [
+    "Mikhail Masharin",
+    "Igor Chestnov",
+    "Andrey Bochin",
+    "Pavel Kozhevin",
+    "Vanik Shahnazaryan",
+    "Alexey Yulin",
+    "Ivan Iorsh",
+    "Xuekai Ma",
+    "Stefan Schumacher",
+    "Sergey Makarov",
+    "Anton Samusev",
+    "Anton Nalitov"
+   ],
+   "doi": "10.1126/sciadv.aeg5986",
+   "keywords": [
+    "halide perovskite",
+    "perovskite"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Intrinsic polarization superjunctions in III-nitride heterostructures for efficient power electronics",
+   "link": "https://doi.org/10.1038/s41928-026-01691-4",
+   "journal": "Nature Electronics",
+   "publisher": "Nature",
+   "date": "2026-08-28",
+   "abstract": "Abstract III-nitride semiconductors combine a wide bandgap with low sheet resistance and, thus, can be used for efficient power electronics. Their lateral architecture also enables monolithic integration on cost-effective silicon. However, electric-field crowding, as well as surface and buffer trapping, limit the breakdown voltage, degrade dynamic performance and reduce reliability. Here we report intrinsic polarization superjunctions in III-nitride heterostructures for efficient power electronics. We use the spontaneous and piezoelectric polarization fields to induce matched mobile electrons in a two-dimensional electron gas and mobile holes in a two-dimensional hole gas, forming an intrinsically charge-balanced superjunction without intentional doping. With an ohmic contact to the two-dimensional hole gas, both carrier types can be dynamically depleted during switching, which preserves drift-region charge neutrality, producing a nearly uniform electric field and increasing the breakdown voltage under operating conditions. We use the approach to create gallium-nitride-on-silicon polarization superjunction Schottky barrier diodes with a breakdown voltage exceeding 3.9 kV and a specific ON resistance as low as 4.7 mΩ cm 2 , as well as polarization superjunction transistors with a breakdown voltage exceeding 3.4 kV. The devices exhibit a near-ideal dynamic ON-resistance degradation of less than 15% up to 3 kV, as well as repeatable, temperature-stable and avalanche-like breakdown.",
+   "authors": [
+    "Luca Mazzone",
+    "Yuan Zong",
+    "Hongkeng Zhu",
+    "Alessandro Mauro",
+    "Elison Matioli"
+   ],
+   "doi": "10.1038/s41928-026-01691-4",
+   "keywords": [
+    "wide bandgap"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
    "title": "Cell-inspired dual-tandem catalytic nanoreactors drive targeted hearing protection",
    "link": "https://doi.org/10.1038/s41467-026-76994-3",
    "journal": "Nature Communications",
@@ -99,8 +205,8 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type": "article"
   },
   {
    "title": "High‐Resolution Patterning of Perovskite Quantum Dots and PEDOT:PSS Using a Solvent‐Free Dry Lift‐Off",
@@ -127,7 +233,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "UV‐Assisted Interfacial Oxygen Desorption for High‐Performance Hole‐Conductor‐Free, Printable Mesoscopic Sn‐Pb Perovskite Solar Cells",
@@ -163,7 +269,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Thermal‐Regulated Crystal Directional Growth for Efficient Sn‐Based NIR‐II Perovskite Light‐Emitting Diodes",
@@ -188,7 +294,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Photocorrosion, Protection, and Predictive Design in Solar Water Splitting",
@@ -214,7 +320,7 @@
     "water splitting"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "High-efficiency, long-lived lead-free perovskite light-emitting diodes",
@@ -241,7 +347,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Nanoconfined electrocatalytic CO2 reduction",
@@ -258,8 +364,8 @@
     "co2 reduction"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type": "article"
   },
   {
    "title": "Fluid motion and crystallization control enable air-processed fully screen-printed perovskite solar cells",
@@ -286,8 +392,8 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type": "article"
   },
   {
    "title": "Direct observation of shock-induced formation of davemaoite, Ca-perovskite",
@@ -323,8 +429,8 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type": "article"
   },
   {
    "title": "Brittle materials-based fully stretchable organic light-emitting diodes",
@@ -352,8 +458,8 @@
     "light-emitting"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type": "article"
   },
   {
    "title": "Machine-learning prediction accelerates the discovery of phase-stable formamidinium-based perovskites",
@@ -378,8 +484,8 @@
     "perovskites"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type": "article"
   },
   {
    "title": "Kinetically Trapped High‐Density Interstitial Mn 2+ Enables Concentration‐Quenching‐Free Persistent Luminescence in CsCdCl 3 Perovskites",
@@ -405,7 +511,7 @@
     "perovskites"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Ion‐Pair Confinement Enables Through‐Space Charge Transfer for Negative Thermal Quenching Blue‐Emitting Scintillators in High‐Resolution X‐Ray Imaging",
@@ -428,7 +534,7 @@
     "scintillator"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Ultralow‐Noise Blue‐Green‐Light CsPbBr 3 Photodetectors Enabled by CuSCN Selective Coverage Toward Long‐Distance Underwater Wireless Optical Communication",
@@ -453,7 +559,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Extremely Long Electron Lifetime in Spontaneously Passivated Polycrystalline Perovskite Layers via Illumination‐Assisted Trap Filling (Adv. Funct. Mater. 69/2026)",
@@ -461,7 +567,7 @@
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-08-27",
-   "abstract": "",
+   "abstract": "Spontaneous Heterointerface Modulation in Perovskite Solar Cells The cover highlights the extended electron lifetime achieved via illumination-assisted trap filling in a perovskite layer spontaneously passivated by an n-octylammonium bis(trifluoromethanesulfonyl)imide (OA-TFSI) additive incorporated into the spiro-OMeTAD hole-transport layer. During carrier lifetime measurements, following carrier generation by pulsed green excitation (from the left), continuous red illumination (from the right) effectively prolongs the electron lifetime to the sub-millisecond regime. More details can be found in the Research Article by Naoyuki Nishimura and co-workers (DOI: 10.1002/adfm.76273).",
    "authors": [
     "Naoyuki Nishimura",
     "Ryuzi Katoh",
@@ -472,8 +578,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Gradient Defect Architecture for Ultrahigh Energy Storage in Lead‐Free Relaxor Ferroelectrics",
@@ -496,7 +601,7 @@
     "perovskites"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Photon‐Resilient CsPbBr 3 Nanocrystals Achieved Through Cation‐Ligand Synergistic Surface Engineering for Cocatalyst‐Free High‐Performance CO 2 Photoreduction",
@@ -546,7 +651,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Solution‐Processed Lead Sulfide Quantum Dots‐Based Self‐Powered Transient Photodetectors for Bidirectional Weak‐Light Communication up to 1550 nm",
@@ -566,7 +671,7 @@
     "photodetector"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Single-device in-sensor computing for multi-channel multiply-accumulate operations",
@@ -609,7 +714,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -739,7 +844,7 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "An X‑Shaped Chiral Non‑Fullerene n‐Type Semiconductor: Application in Perovskite Solar Cells and Chirality‑Induced Spin Selectivity",
@@ -773,7 +878,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Halogen‐Free Solvent and Additive‐Processed Organic Solar Cells Achieving 20.50% Binary Efficiency",
@@ -929,7 +1034,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Interface Engineered Perovskite‐Oxide Heterojunction All‐Photonic Synapses for Multibit Memory, Optical Logic, and Wearable Neuromorphic Vision",
@@ -1018,7 +1123,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1537,7 +1642,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -3321,7 +3426,7 @@
    ],
    "type": "article",
    "oa_type_tried": 2,
-   "ab_tried": 5
+   "ab_tried": 6
   },
   {
    "title": "Chemical Bonding and Crystal Structure Design for Low Thermal Conductivity in Inorganic Solids",
