@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-29 03:37 UTC",
- "count": 22,
+ "generated": "2026-08-30 00:01 UTC",
+ "count": 21,
  "pending": [
   {
    "doi": "10.1021/acsami.6c15259",
@@ -17,7 +17,7 @@
     "Xiaowu Lei",
     "Lingqiang Meng"
    ],
-   "tries": 4
+   "tries": 5
   },
   {
    "doi": "10.1016/j.joule.2026.102641",
@@ -34,7 +34,7 @@
     "Jia-Xin Zheng",
     "Qiang Zhang"
    ],
-   "tries": 4
+   "tries": 5
   },
   {
    "doi": "10.1038/d41586-026-02581-7",
@@ -46,7 +46,7 @@
    "authors": [
     "Jacob Smith"
    ],
-   "tries": 4
+   "tries": 5
   },
   {
    "doi": "10.1038/s41563-026-02704-5",
@@ -59,7 +59,7 @@
     "Alessandro Molle",
     "Yi Du"
    ],
-   "tries": 4
+   "tries": 5
   },
   {
    "doi": "10.1016/j.joule.2026.102640",
@@ -87,7 +87,7 @@
     "Benzhong Zhao",
     "Drew Higgins"
    ],
-   "tries": 3
+   "tries": 4
   },
   {
    "doi": "10.1016/j.joule.2026.102628",
@@ -104,7 +104,7 @@
     "Wei Wei",
     "Nannan Sun"
    ],
-   "tries": 3
+   "tries": 4
   },
   {
    "doi": "10.1016/j.joule.2026.102631",
@@ -121,7 +121,7 @@
     "Xiaoxia Chang",
     "Bingjun Xu"
    ],
-   "tries": 3
+   "tries": 4
   },
   {
    "doi": "10.1038/s41567-026-03398-x",
@@ -147,7 +147,7 @@
     "Atac Imamoglu",
     "You Zhou"
    ],
-   "tries": 3
+   "tries": 4
   },
   {
    "doi": "10.1039/d6ee03902b",
@@ -167,7 +167,7 @@
     "Meilin Liu",
     "Le Shi"
    ],
-   "tries": 3
+   "tries": 4
   },
   {
    "doi": "10.1038/d41586-026-02373-z",
@@ -179,7 +179,7 @@
    "authors": [
     "Filip Podjaski"
    ],
-   "tries": 2
+   "tries": 3
   },
   {
    "doi": "10.1038/s44160-026-01154-w",
@@ -191,22 +191,26 @@
    "authors": [
     "Thomas West"
    ],
-   "tries": 1
+   "tries": 2
   },
   {
-   "doi": "10.1038/s41467-026-77296-4",
-   "title": "Regulated liquid metal via semiconductor valve toward highly stretchable topological circuits",
-   "link": "https://doi.org/10.1038/s41467-026-77296-4",
-   "journal": "Nature Communications",
+   "doi": "10.1038/s41563-026-02717-0",
+   "title": "Degradation-assisted doping of organic semiconductors enabled by Lewis acids",
+   "link": "https://doi.org/10.1038/s41563-026-02717-0",
+   "journal": "Nature Materials",
    "publisher": "Nature",
-   "date": "2026-08-27",
+   "date": "2026-08-14",
    "authors": [
-    "Jiangli Wei",
-    "Zhenghao Kou",
-    "Yan Peng",
-    "Zhiwei Li",
-    "Yue Zhang",
-    "Jiuyang Zhang"
+    "Melissa Berteau-Rainville",
+    "Taylor P. L. Cosby",
+    "Shubham Bhagat",
+    "Amy E. Laturski",
+    "Myles Creran",
+    "Zuchong Yang",
+    "Emanuele Orgiu",
+    "Thomas Baumgartner",
+    "Christopher B. Caputo",
+    "Ingo Salzmann"
    ],
    "tries": 1
   },
@@ -365,43 +369,19 @@
    "tries": 0
   },
   {
-   "doi": "10.1038/s41563-026-02717-0",
-   "title": "Degradation-assisted doping of organic semiconductors enabled by Lewis acids",
-   "link": "https://doi.org/10.1038/s41563-026-02717-0",
-   "journal": "Nature Materials",
-   "publisher": "Nature",
-   "date": "2026-08-14",
-   "authors": [
-    "Melissa Berteau-Rainville",
-    "Taylor P. L. Cosby",
-    "Shubham Bhagat",
-    "Amy E. Laturski",
-    "Myles Creran",
-    "Zuchong Yang",
-    "Emanuele Orgiu",
-    "Thomas Baumgartner",
-    "Christopher B. Caputo",
-    "Ingo Salzmann"
-   ],
-   "tries": 0
-  },
-  {
-   "doi": "10.1038/s41467-026-77258-w",
-   "title": "Unlocking High-Valent Chalcogen Redox with Halide-Rich Electrolytes for High-Energy Lithium Batteries",
-   "link": "https://doi.org/10.1038/s41467-026-77258-w",
+   "doi": "10.1038/s41467-026-77296-4",
+   "title": "Regulated liquid metal via semiconductor valve toward highly stretchable topological circuits",
+   "link": "https://doi.org/10.1038/s41467-026-77296-4",
    "journal": "Nature Communications",
    "publisher": "Nature",
-   "date": "2026-08-26",
+   "date": "2026-08-27",
    "authors": [
-    "Yinlin Shen",
-    "Hao Zhang",
-    "Yuxuan Wu",
-    "Mingzi Sun",
-    "Doudou Feng",
-    "Jiaqian Qin",
-    "Zhengyu Shi",
-    "Bolong Huang",
-    "Jijian Xu"
+    "Jiangli Wei",
+    "Zhenghao Kou",
+    "Yan Peng",
+    "Zhiwei Li",
+    "Yue Zhang",
+    "Jiuyang Zhang"
    ],
    "tries": 0
   }
