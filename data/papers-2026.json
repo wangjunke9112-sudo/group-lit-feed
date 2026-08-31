@@ -1,8 +1,38 @@
 {
  "year": "2026",
- "count": 3699,
- "generated": "2026-08-30 00:01 UTC",
+ "count": 3702,
+ "generated": "2026-08-31 00:23 UTC",
  "papers": [
+  {
+   "title": "Clean Tin Oxide via Volatile Additive Engineering for High‐performance Perovskite Photovoltaics",
+   "link": "https://doi.org/10.1002/aenm.71514",
+   "journal": "Advanced Energy Materials",
+   "publisher": "Wiley",
+   "date": "2026-08-30",
+   "abstract": "ABSTRACT SnO 2 is a benchmark electron transport material for perovskite solar cells (PSCs). However, SnO 2 films from the conventional chemical bath deposition (CBD) are limited by impurities and defects that accelerate non‐radiative recombination and compromise device stability. Here, we present a volatile additive engineering strategy using pyruvic acid (PA) as a dual‐functional nucleation promoter and surface modulator during SnO 2 deposition. Owing to its volatility (sublimation at 145°C), PA can be effectively removed during annealing, resulting in cleaner SnO 2 surfaces with reduced residual groups. This is accompanied by a decrease in oxygen‐related defect densities in the SnO 2 layer. This improvement leads to enhanced charge recombination and improved thermal stability at the buried interface. Consequently, PA‐engineered PSCs achieve a power conversion efficiency of 26.17%, together with improved device stability, retaining >80% of their initial efficiency after 900 h of continuous operation, 1000 h at 65°C, and 30 days under 30% relative humidity. Furthermore, this approach is compatible with large‐area fabrication, yielding efficiencies of 24.83% for 1 cm 2 lab‐scale cells and 20.21% for 30 cm × 30 cm industrial‐scale solar modules. These results suggest that controlling additive volatility improves CBD‐SnO 2 quality and offers a promising route for stable, scalable perovskite solar cells.",
+   "authors": [
+    "Xin Wang",
+    "Ziang Pan",
+    "Jingyao Feng",
+    "Lifei Chen",
+    "Yuchen Song",
+    "Wenkai Liao",
+    "Peng Huang",
+    "Yifan Li",
+    "Jianguang Xu",
+    "Feng Wang",
+    "Xiaoming Zhao"
+   ],
+   "doi": "10.1002/aenm.71514",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "photovoltaics",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
   {
    "title": "Silver‐Modulated Copper Dynamics Under Pulsed Tandem Electrochemical CO 2 Reduction",
    "link": "https://doi.org/10.1002/smll.75324",
@@ -34,7 +64,7 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Hydrogen Bond-Enabled Carbon Dot-Based Network for Efficient Inverted Organic Solar Cells with Prolonged Photoelectrical-Mechanical-Moist Stability",
@@ -42,7 +72,7 @@
    "journal": "Nature Communications",
    "publisher": "Nature",
    "date": "2026-08-29",
-   "abstract": "Long-lasting organic solar cells require transport layers stable in electrical, mechanical and chemical aspects. Cui et al. fabricated a fluorinated carbon dot/polymer electron transport layer, which delivers high efficiency together with excellent humidity and bending stability.",
+   "abstract": "Achieving long operational stability is critical for advancing high-performance organic solar cells (OSCs) towards commercialization. Designing a charge transport layer with optimal electrical-physical-chemical compatibility is a pivotal strategy. Herein, we demonstrate an electron transport layer (ETL) by incorporating in-situ fluorinated carbon dots (FCDs) in a coherent polymer to construct the crystallinity-enhanced FCD network (netFCD) via strong hydrogen bonding. Uniquely, netFCD-based ETLs offer very strong electrical and mechanical contact with their all-sided (cathode and active layer) interfaces. The reduced basicity feature of netFCD prevents unexpected interfacial reactions with non-fullerene acceptors. Meanwhile, netFCD-based ETLs enable barrier-free devices with high electron mobility and hole blocking. Using the strategically designed netFCD with the interesting features as “all-in-one” ETL, the inverted OSCs (i-OSCs) achieve 20.01% PCE (Certified PCE: 19.78%). The OSCs maintained 85% of their initial PCE after 1800 hours of operation under 80 ± 5% humidity while the flexible i-OSCs realized 95% of the initial PCEs after 10,000 bending cycles, advancing the operational (i.e., photoelectrical), mechanical, and environmental stability in OSCs with different structures. This work contributes to developing not only feasible bulk-to-interface interlayer designs but also green and low-cost materials to promote OSCs as sustainable and green energy sources. Long-lasting organic solar cells require transport layers stable in electrical, mechanical and chemical aspects. Cui et al. fabricated a fluorinated carbon dot/polymer electron transport layer, which delivers high efficiency together with excellent humidity and bending stability.",
    "authors": [
     "Mengqi Cui",
     "Yi Yang",
@@ -59,8 +89,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Ionic gel-mediated synthesis of nanostructured chiral 2D halide perovskites with amplified chiroptical response",
@@ -90,7 +119,7 @@
     "perovskites"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Unraveling the Synergistic Catalysis Effect in MOF‐Based Photocatalysts",
@@ -109,7 +138,7 @@
     "water splitting"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Chloroplast‐Mimicking Interfaces on In Situ Derived La‐Ni Based Perovskite for Solar‐Driven CO 2 Reduction to CH 4",
@@ -134,7 +163,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Halide‐Gradient Sidewall Heterojunctions for Lateral Charge Confinement in Perovskite Single Crystal x‐ray Detectors",
@@ -161,7 +190,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Constructing Vertically Oriented 2D Perovskite Passivation Layer by Surface Chemical Polishing for Efficient Carbon‐Based Perovskite Solar Cells",
@@ -192,7 +221,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Solvent Engineering in PbS Colloidal Quantum Dot Inks: Enabling Colloidal Stability, Ligand Versatility, Large–Area Film Fabrication, and Multilayer Processing",
@@ -215,7 +244,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Molecular Cross‐Linking of Perovskites by Boronic Acid for Ambient‐Air Fabrication of Stable and Scalable MA‐Free Solar Cells",
@@ -243,7 +272,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Rapid and robust diagnosis of bloodstream infections by single-cell analysis",
@@ -467,7 +496,7 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Odd‐Even Alkyl Chain Effect of Aromatic Monoammoniums on the Interlayer Architecture and Stability of Ruddlesden–Popper 2D Perovskites",
@@ -493,7 +522,7 @@
     "perovskites"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Laser‐Defined Reaction Topology Enables Controllable Solid‐State Transformations for Scalable Perovskite Photovoltaics",
@@ -524,7 +553,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Non‐Destructive and High‐Fidelity Sensing of Plant Water Content Enabled by Near‐Infrared Luminescent Metal Halides",
@@ -551,7 +580,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Superspace Architecture‐Driven Energy Funneling in Layered Halide Perovskite Nanoplatelets",
@@ -576,7 +605,7 @@
     "perovskites"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Olefin‐Linked Ionic Covalent Organic Frameworks with Carbenium Backbones for High‐Performance Neuromorphic Computing",
@@ -610,7 +639,7 @@
     "narrow bandgap"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "High‐Resolution Patterning of Perovskite Quantum Dots and PEDOT:PSS Using a Solvent‐Free Dry Lift‐Off",
@@ -768,7 +797,7 @@
     "co2 reduction"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -796,7 +825,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -886,7 +915,7 @@
     "perovskites"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1116,7 +1145,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -1525,7 +1554,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -2013,6 +2042,61 @@
    "oa_type": "article"
   },
   {
+   "title": "Probing the Role of Copper Dislocation Density in Electrochemical CO2 Conversion",
+   "link": "https://doi.org/10.1021/jacs.6c05565",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2026-08-24",
+   "abstract": "Abstract The electrochemical CO2 reduction reaction (CO2RR) is a promising pathway for sustainable carbon utilization with the potential to produce valuable multicarbon (C2+) products, including platform chemicals, like ethanol and ethylene, to replace fossil-fuel-derived sources. While structural defects on catalysts, such as dislocations, have been linked to enhanced CO2RR activity, a deep understanding of the connection between defect structure and selectivity remains elusive. In this work, we directly observe the relationship between dislocation density, catalytic activity, and selectivity in CO2RR on Cu. To investigate this, we synthesized (100)-oriented Cu thin films with systematically controlled dislocation densities spanning a 9-fold range (6.40 × 1014 m–2 to 58.56 × 1014 m–2), measured over the bulk catalyst via X-ray diffraction θ/2θ scans. Dislocation densities were quantified via the Scherrer equation in combination with Le Bail full profile decomposition. In our carefully controlled thin-film samples, the CO2RR and C2 partial current densities did not increase with dislocation density under H-cell testing conditions, indicative of a null result. Overall, we suggest that these findings clarify that higher dislocation density alone does not guarantee greater C2+ activity or selectivity on copper. Our findings suggest that C2+ production may depend on the combination of copper defect structure together with other factors, such as local microenvironment conditions or specific active-site features, which together influence C2+ selectivity. These insights clarify to what extent lattice dislocations alone can influence reaction pathways, resolve discrepancies in the existing literature, and guide the design of CO2RR systems to produce desirable C2+ products.",
+   "authors": [
+    "Caiwei Zhang",
+    "Usha Bhat",
+    "Jianye Hong",
+    "Guangxin Sun",
+    "Zhi S. Lim",
+    "Chao Wu",
+    "Toshihiro Okajima",
+    "Chaolong Wei",
+    "Nazila Hamidi",
+    "Ge Yan",
+    "Erin Iski",
+    "Shibo Xi",
+    "Michel Bosman",
+    "Andrew B. Wong"
+   ],
+   "doi": "10.1021/jacs.6c05565",
+   "keywords": [
+    "co2 reduction"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Chemical Tuning of Charge Transport Polarity in Light-Emitting Transistors Enabling Neuromorphic Display, Computing, and Optocoupler",
+   "link": "https://doi.org/10.1021/jacs.6c10068",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2026-08-24",
+   "abstract": "Abstract Long-afterglow light-emitting transistors (LALETs) represent an efficient platform for neuromorphic computing by integrating in-memory processing, optical output, and noise-filtering functionality within a single device. Here, we have synthesized a series of donor–acceptor (D–A) conjugated copolymers comprising a diketopyrrolopyrrole (DPP) acceptor and oligo-thiophene (T) donors of tunable length to investigate the impact of charge-transport polarity on LALET performance. By terpolymerization, the D:A ratio was adjusted from 4:1 to 6:1, 8:1, and 12:1, yielding DPP4T, DPP6T, DPP8T, and DPP12T copolymers, respectively. Among them, DPP8T exhibited a favorable combination of high hole mobility (0.42 cm2 V–1 s–1) and strongly suppressed electron mobility, enabling high electroluminescence of 1189 cd m–2 while maintaining programming currents below 10 μA. The resulting LALET displayed dual operation mode, long-afterglow, and click-on upon employing the opposite gate stimuli. In long-afterglow mode, both electrical and optical postsynaptic signals enabled reservoir computing system with Fashion-MNIST recognition accuracies exceeding 90%. Furthermore, the intrinsic noise-filtering function of LALET emulated neuronal all-or-none firing, allowing a neuromorphic optocoupler to implement complex “stimulus-computing-decision-action” logic and to be used as the output layer for a reservoir computing framework toward a noise-filtering display. These results highlight the importance of the chemical modulation of the polarity in charge transport for high-performance neuromorphic devices.",
+   "authors": [
+    "Yusheng Chen",
+    "Zhongshi Ju",
+    "Zheng Chen",
+    "Boyuan Yu",
+    "Yun Wang",
+    "Jin Li",
+    "Peng Li",
+    "Jiangang Ma",
+    "Paolo Samorì"
+   ],
+   "doi": "10.1021/jacs.6c10068",
+   "keywords": [
+    "light-emitting"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
    "title": "Electronic Homogenization of SnO2 enables High-Efficiency and Scalable Perovskite Solar Cells",
    "link": "https://doi.org/10.1039/d6ee02787c",
    "journal": "Energy & Environmental Science",
@@ -2301,8 +2385,8 @@
    "authors": [
     "Jihyeon Kim",
     "Xin Zhou",
-    "Dmitry E. Doronkinb",
-    "Bidyut Bikash Sarmac",
+    "Dmitry E. Doronkin",
+    "Bidyut Bikash Sarma",
     "Ana S. Dobrota",
     "Natalia V. Skorodumova",
     "Igor A. Pašti",
@@ -8392,7 +8476,7 @@
    "abstract": "ABSTRACT Electrocatalytic water splitting is central to the emerging hydrogen economy, yet its translation from laboratory discovery to industrial deployment remains constrained by the absence of catalytic systems that can sustain ampere‐level current densities with high efficiency, durability and acceptable cost. This Review presents a principle‐driven framework for the rational design of electrocatalysts for industrial‐scale water electrolysis, beginning with the fundamentals of hydrogen production, the persistent lab‐to‐industry gap and the technical barriers associated with high‐current operation. Descriptor‐guided design concepts for hydrogen and oxygen evolution are first examined to clarify how electronic structure governs catalytic activity, followed by a systematic overview of transition‐metal‐based electrocatalysts and the major strategies used to regulate their performance, including defect, doping, high‐entropy, phase, strain and heterostructure engineering, reconstruction, support, built‐in electric fields and surface micro‐environment modulation. These advances are further distilled into four overarching design principles for ampere‐scale catalysis: intrinsic active‐site and electronic‐structure engineering, mass‐transport optimization, robust catalyst–support integration and durability under extreme operating conditions. State‐of‐the‐art cathodic, anodic, bifunctional and seawater‐compatible systems are then assessed alongside integrated electrolyser platforms. Finally, operando characterization methods and industrial translation challenges, including scalability, device integration, long‐term stability and policy alignment, are discussed to outline a roadmap toward truly industrial electrocatalysts.",
    "authors": [
     "Hong Tang",
-    "Cui Ce",
+    "Ce Cui",
     "John Wang"
    ],
    "doi": "10.1002/aenm.71379",
