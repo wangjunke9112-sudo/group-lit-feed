@@ -1,7 +1,7 @@
 {
  "year": "2026",
- "count": 3852,
- "generated": "2026-09-04 23:55 UTC",
+ "count": 3857,
+ "generated": "2026-09-05 23:44 UTC",
  "papers": [
   {
    "title": "Engineering Redox–Transport Balance in Cobalt-Metalated Al-PMOFs for CO2 Photoreduction",
@@ -24,6 +24,159 @@
    "doi": "10.1021/acsami.6c07492",
    "keywords": [
     "co2 reduction"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Flexible Ammonium Salts Induce Dipole Field-Effect Passivation in Inverted Perovskite Solar Cells",
+   "link": "https://doi.org/10.1021/acsami.6c11567",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-09-07",
+   "abstract": "Abstract Ammonium salt-based top-interface passivation is effective for inverted perovskite solar cells, yet how the head-group conformation governs the passivation mechanism remains unresolved. Herein, using 9H-fluoren-9-amine hydrochloride (FAMACl) and aminodiphenylmethane hydrochloride (DPMACl) as a comparative pair, we reveal that structural differences in the head groups drive fundamentally distinct passivation pathways. The rigid, conjugated structure of FAMACl enables strong chemical passivation through coordination with undercoordinated Pb2+ defects, but introduces unfavorable energy level alignment that limits efficiency gains. In contrast, the flexible DPMACl architecture generates a substantial molecular dipole moment, which induces a strong interfacial electric field that optimizes energy level alignment and suppresses nonradiative recombination via field-effect passivation, delivering a champion power conversion efficiency of 26.02%. This work establishes a direct link between the conformational flexibility of ammonium head-groups and their passivation functionality, offering a new molecular design principle for high-performance perovskite photovoltaics.",
+   "authors": [
+    "Hongfei Liu",
+    "Chenghao Duan",
+    "Xiao Wu",
+    "Yalin Gao",
+    "Xinhui Lu",
+    "Guilong Cai"
+   ],
+   "doi": "10.1021/acsami.6c11567",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "photovoltaics",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Managing Crystallization of CsPbI2Br Films for High-Performance Indoor and Outdoor Photovoltaics",
+   "link": "https://doi.org/10.1021/acsami.6c10460",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-09-07",
+   "abstract": "Abstract The all-inorganic CsPbI2Br material shows promise for indoor photovoltaics but suffers from a severe open-circuit voltage (Voc) deficit under low light due to defect-mediated recombination. Here, we introduce 3,4-thiophenedicarboxylic anhydride (TDA) into the precursor solution to synergistically retard crystallization and passivate defects. Density functional theory and synergistic experiments confirm that TDA strongly coordinates with PbI2, outcompeting DMSO and increasing the activation energy for CsPbI2Br nucleation. This yields CsPbI2Br films with larger grains, enhanced crystallinity, and reduced trap density. Residual TDA molecules can passivate uncoordinated Pb2+ at grain boundaries, suppressing nonradiative recombination. Using a dopant-free P3HT hole-transport layer, the optimized device achieves a champion power conversion efficiency (PCE) of 17.33% with a remarkable Voc of 1.42 V under standard illumination. Under 1000 lux LED indoor light, the device delivers a PCE of 36.22%. More importantly, TDA-optimized devices can retain 90% of initial efficiency after 1500 h in ambient air and 90% after 1000 h at 85 °C. This work provides a facile strategy to overcome the Voc deficit and instability of CsPbI2Br indoor photovoltaics.",
+   "authors": [
+    "Fazheng Qiu",
+    "Jiayi Sun",
+    "Qi Li",
+    "Bokai Liu",
+    "Hai-Qiao Wang"
+   ],
+   "doi": "10.1021/acsami.6c10460",
+   "keywords": [
+    "open-circuit voltage",
+    "photovoltaics"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Decoupled Synthesis Pathway via Precursor Functionalization Stabilizes High‐Voltage Nickel‐Based Cathodes",
+   "link": "https://doi.org/10.1002/adma.74909",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-09-05",
+   "abstract": "ABSTRACT Nickel‐based layered cathodes are promising candidates for high‐performance, high‐energy lithium‐ion batteries, yet their high‐voltage application is jointly limited by synthesis‐inherited structural defects and an unstable lattice oxygen framework. Here, we show that both limitations can be overcome by decoupled synthesis pathway (DSP) via La/Nb oxalate functionalization of the Ni 0.6 Co 0.1 Mn 0.3 (OH) 2 precursor. Unlike the conventional coupled synthesis pathway (CSP) where precursor dehydration and Li 2 CO 3 decomposition overlap in temperature, the DSP introduces a low‑temperature decomposition of La/Nb oxalates at 200°C, which effectively avoids localized contact between the precursor and Li 2 CO 3 and shifts Li 2 CO 3 ‐related reactions to high temperatures. This allows sequential precursor dehydroxylation, rock‑salt (RS) intermediate formation, and layered‑phase transformation over a broad temperature window. The resulting LiNi 0.6 Co 0.1 Mn 0.3 O 2 cathode with La/Nb functionalization (NCM‐LN) features a uniform surface LaNiO 3 perovskite heterostructure and a Nb‑doped layered bulk with suppressed RS and spinel defects. Consequently, under 4.5 V operation (vs. Li + /Li), NCM‐LN exhibits homogeneous Li + (de)intercalation, and a stabilized oxygen framework. In graphite||NCM‐LN full cells, NCM‐LN retains 80.1% of its capacity after 2000 cycles at 1C, substantially outperforming the pristine cathode. This decoupling strategy is broadly effective across various Ni‑based systems, providing a generalizable route toward high‑energy, long‑life cathode materials.",
+   "authors": [
+    "Chunyu Xu",
+    "Hengyu Ren",
+    "Xiaohu Wang",
+    "Zijin Xu",
+    "Haocheng Ji",
+    "Haocong Yi",
+    "Funing Yu",
+    "Wenguang Zhao",
+    "Wenzhe Bao",
+    "Qinghao Lai",
+    "Zizheng Tong",
+    "Bowen Nan",
+    "Shiming Chen",
+    "Zhaohuang Zhan",
+    "Zhongzhe Li",
+    "Tao Zeng",
+    "Hui Chen",
+    "Weiyuan Huang",
+    "Jiajie Liu",
+    "Qinghe Zhao",
+    "Feng Pan"
+   ],
+   "doi": "10.1002/adma.74909",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Aromatic Heterocycle Ligands for Perovskite Photovoltaics: Balancing Defect Passivation and Heterostructure Formation",
+   "link": "https://doi.org/10.1002/adma.74912",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-09-05",
+   "abstract": "ABSTRACT Inverted perovskite solar cells (PSCs) possess great potential for improving efficiency and operating stability, but parasitic charge recombination at the interfaces still limits their performance. As additives and surface treatment agents, ammonium ligands have been reported to form either two/three‐dimensional (2D/3D) heterojunctions or passivation layers. In this work, we first conduct a comprehensive, large language model (LLM)‐enabled literature mining to systematically enumerate ligand molecules reported over the past decade, through which we identify a pronounced knowledge gap concerning thiazole‐based ligands. Then, in a comparative case study, perovskite films are treated with two thiazole‐ and thiophen‐based ligands, which are small rigid aromatic heterocycles with similar molecular conformation. Thiophen‐2‐ylmethanamine hydrochloride (TPMA) induces 2D phase formation within 3D perovskite films. In comparison, 1,3‐thiazol‐2‐ylmethanamine hydrochloride (TMA), with enhanced charge‐transfer interactions associated with the S ions on the aromatic rings, demonstrates a stronger defect passivation capability. Overall, the TMA‐based counterpart exhibits lower defect density, extended carrier lifetime, and a more favorable band offset. With the thiazole‐based ligand, the resulting inverted PSC achieves an efficiency of 26.81% (certified 26.43%) and retains 96.4% of its initial performance after 1000 h tracking under continuous illumination at the maximum power point.",
+   "authors": [
+    "Yulan Huang",
+    "Muchen Li",
+    "Qingbin Cai",
+    "Zhuoqiong Zhang",
+    "Qiang Weng",
+    "Xicheng Tang",
+    "Bingzhe Wang",
+    "Fei Wang",
+    "Tanghao Liu",
+    "Jiafeng Zhang",
+    "Yuhan Guo",
+    "Xianfang Zhou",
+    "Xinjiang Wang",
+    "Xiaoyu Wang",
+    "Yunfan Wang",
+    "Mingzhu Long",
+    "Shu Kong So",
+    "Sai‐Wing Tsang",
+    "Hanlin Hu",
+    "Guichuan Xing",
+    "Lijun Zhang",
+    "Tom Wu"
+   ],
+   "doi": "10.1002/adma.74912",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "photovoltaics",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Dynamic “On‐Demand and Sustainable” Passivation: Light‐Heat–Humidity Driven Molecular Isomerization for High‐Performance Perovskite Solar Cells",
+   "link": "https://doi.org/10.1002/adma.74933",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-09-05",
+   "abstract": "ABSTRACT Light, temperature, and humidity are critical external factors triggering phase separation in wide‐bandgap (WBG) perovskite solar cells (PSCs). Conventional passivators only achieve static and short‐term defect passivation and cannot address the continuously generated dynamic defects and ion migration during device operation. In this work, 1,3,3‐trimethylindolino‐6‐bromobenzopyrylospiropyran (TBS) was introduced into the perovskite bulk. This molecule isomerized into the ring‐opened O‐TBS structure with abundant active sites under light, heat, and humidity stimuli, thereby enabling on‐demand passivation of the device under various environments, ultimately achieving a synergistic balance between static passivation of pristine defects and dynamic repair of newly formed defects. Meanwhile, as a built‐in dipole, O‐TBS can accelerate carrier extraction and separation, and inhibit phase separation by optimizing the phase structure at the initial stage of nucleation and crystallization. Based on this strategy, a photoelectric conversion efficiency (PCE) of 23.83% was achieved in PSCs with a bandgap of 1.67 eV. Unencapsulated devices retained 91% of their initial efficiency after 1000 h of maximum power point tracking (MPPT) under AM 1.5G illumination, and maintained 88% and 87% of their efficiency after continuous testing for 1000 h at 85°C and 60% humidity, respectively, significantly enhancing the optoelectronic performance and long‐term stability of the devices.",
+   "authors": [
+    "Chao Liu",
+    "Yingchen Li",
+    "Hongkun Cai",
+    "Jifeng Liu",
+    "Qinwen Guo",
+    "Zhiwen Xu",
+    "Juan Li",
+    "Jian Ni",
+    "Jianjun Zhang"
+   ],
+   "doi": "10.1002/adma.74933",
+   "keywords": [
+    "ion migration",
+    "perovskite",
+    "perovskite solar cells",
+    "solar cells"
    ],
    "type": "article",
    "oa_type_tried": 1
@@ -91,7 +244,7 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "A‐Site Engineering of Aurivillius Bi 4 Ti 3 O 12 for Enhanced Ferroelectric Polarization and Photocatalytic Overall Water Splitting",
@@ -114,7 +267,7 @@
     "water splitting"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Operando X‐ray Spectroscopy Unveils Light‐Driven Redox Selectivity for Photo‐Assisted Li–S Batteries",
@@ -139,7 +292,7 @@
     "photoelectrochemical"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Linker‐Mediated Trade‐Off Between Acceptor Aggregation and Donor–Acceptor Mixing Enables Organic Solar Cells With Efficiencies Exceeding 20.5%",
@@ -167,7 +320,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Regulating H‐Aggregation via a Thiazole‐Modified Acceptor‐Based Packing Reshaper Toward Highly Efficient and Stable Organic Solar Cells",
@@ -202,7 +355,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Suppressing Intermediate‐Phase Heterogeneity Enables Efficient and Stable CsPbI 3 Solar Cells",
@@ -241,7 +394,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "2D Halide Perovskite Single Crystals Constructed by Aromatic Diammonium for High Sensitivity and Low Detection Limit X‐Ray Detectors",
@@ -272,7 +425,7 @@
     "perovskites"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Kinetic Management of Vertical Phase Separation via Thermal Annealed Donor‐Assisted Sequential Deposition Enables 20.81% Efficiency in Organic Solar Cells",
@@ -304,7 +457,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Ordered J‐Aggregation Directed by Inner Alkyl Chains Enables Additive‐ and Annealing‐Free Organic Solar Cells With 20.73% Efficiency",
@@ -336,7 +489,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Balancing Interfacial Adsorption and Ion Migration Through a High‐Entropy‐Engineered Oxide for Durable Zinc Anodes",
@@ -365,7 +518,7 @@
     "ion migration"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Work Function‐Driven Synthesis of Electron Deficient Ruthenium‐Copper Cluster on Oxygenated Carbon for Pure‐Water Electrolysis",
@@ -391,7 +544,7 @@
     "water splitting"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Tailoring Guest Symmetry for Efficient Charge Transport via Pre-structuring in Ternary Organic Solar Cells",
@@ -418,7 +571,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Cesium Acetate Passivation Enables Efficient Electrodeposited Wide-Bandgap Perovskite Solar Cells",
@@ -446,7 +599,7 @@
     "wide-bandgap"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Fantastic Magnetic Regulation via Vapor-Modulation in Layered Perovskite Oxides",
@@ -479,7 +632,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Eco‐Friendly Aqueous Electrophoretic Deposition of TiO 2– AgBiS 2 Heterojunctions for Photoelectrochemical Hydrogen Production",
@@ -598,7 +751,7 @@
     "water splitting"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Defect Polarization‐Metal Anchoring Coupling Enables Ni 2+ /Ti 3+ Dual Active Sites and TiO 6 Octahedral Distortion for Efficient Piezo‐PEC Water Splitting of BaTiO 3",
@@ -620,7 +773,7 @@
     "water splitting"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Homogenizing Self‐Assembled Monolayers via Alkali Modulation: Toward Efficient and Reproducible Organic Nonfullerene Solar Cells",
@@ -647,7 +800,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Octahedral connectivity reconfigures interfacial carrier-selective properties for efficient perovskite solar cells",
@@ -788,7 +941,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -810,7 +963,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -843,7 +996,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -876,7 +1029,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -1017,7 +1170,7 @@
     "perovskites"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -1043,7 +1196,7 @@
     "water splitting"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Integrating Machine Learning and High‐Throughput Calculations for the Rational Design of Photocatalytic 2D‐COFs on Overall Water Splitting",
@@ -1063,7 +1216,7 @@
     "water splitting"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Stabilizing Grain Boundaries by Flexible Bidirectional Multisite Hydrazide Cations toward High-Performance Inverted Perovskite Solar Cells",
@@ -1711,7 +1864,7 @@
     "perovskites"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -1901,7 +2054,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -1925,7 +2078,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -3863,7 +4016,7 @@
     "solar cells"
    ],
    "type": "comment",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "erratum"
   },
   {
