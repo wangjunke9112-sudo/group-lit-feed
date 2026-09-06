@@ -1,7 +1,7 @@
 {
  "year": "2026",
- "count": 3857,
- "generated": "2026-09-05 23:44 UTC",
+ "count": 3860,
+ "generated": "2026-09-06 23:42 UTC",
  "papers": [
   {
    "title": "Engineering Redox–Transport Balance in Cobalt-Metalated Al-PMOFs for CO2 Photoreduction",
@@ -51,7 +51,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Managing Crystallization of CsPbI2Br Films for High-Performance Indoor and Outdoor Photovoltaics",
@@ -73,7 +73,60 @@
     "photovoltaics"
    ],
    "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Spatial Programming of Redox Pathways for Z-Scheme Photocatalytic Water Splitting",
+   "link": "https://doi.org/10.1021/jacs.6c09932",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2026-09-06",
+   "abstract": "Abstract Particulate Z-scheme overall water splitting holds considerable promise for solar hydrogen production, yet its potential is persistently constrained by mediator-involved reverse reactions and related interfacial charge loss. Here we show that water-splitting reactions and parasitic mediator redox can be spatially decoupled across microscale surface domains, thereby suppressing reverse chemistry at its origin. Using facet-engineered Y2Ti2O5S2 and BiVO4 microcrystals as H2-evolving and O2-evolving photocatalysts, respectively, anisotropic charge separation together with facet-selective mediator adsorption directs mediator redox to specific facets, while H2 and O2 evolution proceed on the lateral facets of both photocatalysts. This spatially organized interfacial architecture separates forward and parasitic pathways within individual particles, suppressing mediator self-cycling and H2/O2 recombination without hindering productive interparticle charge transfer. Consequently, visible-light-driven overall water splitting activity is enhanced by over 60-fold relative to the nonfaceted counterpart, delivering an apparent quantum yield of 17.1% at 420 nm, a solar-to-hydrogen efficiency exceeding 1.0%, and sustained activity near atmospheric pressure. These findings establish spatial decoupling of interfacial redox sites as a general design principle for mitigating reverse reactions in Z-scheme artificial photosynthesis for solar hydrogen production.",
+   "authors": [
+    "Jiaming Zhang",
+    "Ming Shi",
+    "Yue Zhao",
+    "Tianyou Chen",
+    "Jifang Zhang",
+    "Meng Liu",
+    "Yao Xu",
+    "Haifeng Wang",
+    "Zihao Zhang",
+    "Yongfa Zhu",
+    "Can Li",
+    "Rengui Li",
+    "Guijun Ma"
+   ],
+   "doi": "10.1021/jacs.6c09932",
+   "keywords": [
+    "water splitting",
+    "water-splitting"
+   ],
+   "type": "article",
    "oa_type_tried": 1
+  },
+  {
+   "title": "Interfacial engineering strategies and sustainability assessment for direct electrolysis of dilute CO2 streams",
+   "link": "https://doi.org/10.1038/s41467-026-77516-x",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-09-05",
+   "abstract": "The continuous decreasing in the levelized cost of renewable electricity has promoted the accelerated development of electrocatalysis, particularly electrochemical CO2 reduction (CO2R) using dilute CO2 concentrations (5-15%), which offers a sustainable pathway to convert waste CO2 into fuels and chemicals. However, dilute CO2 introduces substantial concentration overpotentials, leading to unsatisfactory selectivity and energy efficiency. Here, we develop effective approaches (pH control, amine addition, gas compression) to enrich the interfacial CO2 availability, steering the CO2R selectivity towards the desired products. We further conduct techno-economic analysis and cradle-to-gate life cycle assessments to evaluate their economic and environmental performance. For instance, HCOOH production cost drops from 1.11 to 0.47 $ kg-1, lower than the 0.58 $ kg-1 of the pure CO2 scenario. Moreover, environmental burdens such as climate change and cumulative energy demand decrease by 38.2%-72.0% relative to the flue-gas scenario without these strategies. Overall, although variations in the electricity mix influence the absolute values reported in this study, our work provides critical implications and design principles for dilute CO2R. Direct electrochemical upgrading of dilute CO2 from flue gas is attractive but limited by poor local CO2 availability and selectivity. Here, the authors report interfacial engineering strategies to enrich local CO2 and improve selectivity, supported by technoeconomic and life-cycle assessments.",
+   "authors": [
+    "Qi-Fa Chen",
+    "Bingzheng Wang",
+    "Lei Chen",
+    "Haoran Qiu",
+    "Jiayi Chen",
+    "Fengqi You",
+    "Lei Wang"
+   ],
+   "doi": "10.1038/s41467-026-77516-x",
+   "keywords": [
+    "co2 reduction"
+   ],
+   "type": "article",
+   "oa_type": "article"
   },
   {
    "title": "Decoupled Synthesis Pathway via Precursor Functionalization Stabilizes High‐Voltage Nickel‐Based Cathodes",
@@ -110,7 +163,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Aromatic Heterocycle Ligands for Perovskite Photovoltaics: Balancing Defect Passivation and Heterostructure Formation",
@@ -151,7 +204,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Dynamic “On‐Demand and Sustainable” Passivation: Light‐Heat–Humidity Driven Molecular Isomerization for High‐Performance Perovskite Solar Cells",
@@ -179,7 +232,26 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
+  },
+  {
+   "title": "Toward Precision Nanochemistry in Halide Perovskite Quantum Dots",
+   "link": "https://doi.org/10.1021/acsenergylett.6c02167",
+   "journal": "ACS Energy Letters",
+   "publisher": "ACS",
+   "date": "2026-09-05",
+   "abstract": "Abstract Halide perovskite nanochemistry is evolving at an unprecedented pace, rapidly expanding the scope of these materials from fundamental model systems to platforms with growing impact across both classical and quantum light technologies. In this perspective, we follow perovskite quantum dots (pQDs) from their birth in solution to their fully developed structural and photophysical complexity, highlighting recent advances, offering a critical view on current limitations, and discussing open questions together with possible paths forward. We hope this perspective helps inspire the next generation of ideas, tools, and design principles needed to unlock the full potential of pQDs.",
+   "authors": [
+    "Kushagra Gahlot",
+    "Quinten A. Akkerman"
+   ],
+   "doi": "10.1021/acsenergylett.6c02167",
+   "keywords": [
+    "halide perovskite",
+    "perovskite"
+   ],
+   "type": "review",
+   "oa_type": "article"
   },
   {
    "title": "Light-tunable charge dynamics enable ultralow-power bidirectional lead-free perovskite synapses for intelligent vision",
@@ -941,7 +1013,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -963,7 +1035,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -996,7 +1068,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1029,7 +1101,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1170,7 +1242,7 @@
     "perovskites"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1864,7 +1936,7 @@
     "perovskites"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -2054,7 +2126,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -2078,7 +2150,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -4016,7 +4088,7 @@
     "solar cells"
    ],
    "type": "comment",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "erratum"
   },
   {
