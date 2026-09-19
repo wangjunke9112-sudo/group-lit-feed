@@ -1,21 +1,7 @@
 {
- "generated": "2026-09-18 00:06 UTC",
- "count": 23,
+ "generated": "2026-09-19 00:07 UTC",
+ "count": 22,
  "pending": [
-  {
-   "doi": "10.1038/s41928-026-01693-2",
-   "title": "How we discovered ferroelectricity in hafnium oxide thin films",
-   "link": "https://www.nature.com/articles/s41928-026-01693-2",
-   "journal": "Nature Electronics",
-   "publisher": "Nature",
-   "date": "2026-09-04",
-   "authors": [
-    "Tim S. Böscke",
-    "Ulrich Böttger",
-    "Uwe Schroeder"
-   ],
-   "tries": 6
-  },
   {
    "doi": "10.1038/s41565-026-02278-y",
    "title": "Stretchable quantum dot displays achieve high definition",
@@ -26,7 +12,7 @@
    "authors": [
     "Feng Wang"
    ],
-   "tries": 3
+   "tries": 4
   },
   {
    "doi": "10.1038/s41563-026-02720-5",
@@ -38,7 +24,7 @@
    "authors": [
     "Ying Diao"
    ],
-   "tries": 3
+   "tries": 4
   },
   {
    "doi": "10.1039/d5cs01156f",
@@ -57,7 +43,7 @@
     "Goutam Kumar Lahiri",
     "Arnab Dutta"
    ],
-   "tries": 3
+   "tries": 4
   },
   {
    "doi": "10.1038/s41893-026-01934-4",
@@ -86,7 +72,7 @@
     "Qin Li",
     "Dewei Chu"
    ],
-   "tries": 2
+   "tries": 3
   },
   {
    "doi": "10.1038/s41565-026-02276-0",
@@ -109,7 +95,7 @@
     "Haitong Li",
     "Peide D. Ye"
    ],
-   "tries": 2
+   "tries": 3
   },
   {
    "doi": "10.1021/jacs.6c17620",
@@ -139,7 +125,7 @@
     "James Durrant",
     "Iain McCulloch"
    ],
-   "tries": 2
+   "tries": 3
   },
   {
    "doi": "10.1038/s41560-026-02113-7",
@@ -157,7 +143,7 @@
     "Paul J. Corbett",
     "David Sinton"
    ],
-   "tries": 2
+   "tries": 3
   },
   {
    "doi": "10.1038/s41565-026-02275-1",
@@ -180,7 +166,7 @@
     "Xuehua Wang",
     "Jin Liu"
    ],
-   "tries": 2
+   "tries": 3
   },
   {
    "doi": "10.1002/smtd.70942",
@@ -213,29 +199,33 @@
     "Udomsilp Pinsook",
     "Joongjai Panpranot"
    ],
+   "tries": 2
+  },
+  {
+   "doi": "10.1039/d6ee03881f",
+   "title": "Redox-active halide materials for cathode applications",
+   "link": "https://doi.org/10.1039/d6ee03881f",
+   "journal": "Energy & Environmental Science",
+   "publisher": "RSC",
+   "date": "2026-09-03",
+   "authors": [
+    "Zhuohan Li",
+    "Gerbrand Ceder"
+   ],
    "tries": 1
   },
   {
-   "doi": "10.1002/adfm.77987",
-   "title": "Lignin‐Metal Coordination Enables Rapid and Scalable Assembly of Efficient Solar Evaporators (Adv. Funct. Mater. 73/2026)",
-   "link": "https://doi.org/10.1002/adfm.77987",
-   "journal": "Advanced Functional Materials",
-   "publisher": "Wiley",
-   "date": "2026-09-15",
+   "doi": "10.1126/science.aee8320",
+   "title": "How the hunt for human retroviruses led to the discovery of interleukin-2 and a path to immunotherapy",
+   "link": "https://doi.org/10.1126/science.aee8320",
+   "journal": "Science",
+   "publisher": "Science",
+   "date": "2026-09-10",
    "authors": [
-    "Wei Li",
-    "Guanhua Wang",
-    "Zijie Zhang",
-    "Yixuan Wang",
-    "Tiantian Li",
-    "Tairan Pang",
-    "Wenjie Sui",
-    "Ying Xu",
-    "Ting Xu",
-    "Wenshuai Chen",
-    "Chuanling Si"
+    "Rafi Ahmed",
+    "Steven Rosenberg"
    ],
-   "tries": 0
+   "tries": 1
   },
   {
    "doi": "10.1002/smtd.70872",
@@ -391,26 +381,24 @@
    "tries": 0
   },
   {
-   "doi": "10.1038/s41467-026-77080-4",
-   "title": "Data-driven massive reaction networks reveal mechanistic pathways underlying catalytic CO2 hydrogenation",
-   "link": "https://doi.org/10.1038/s41467-026-77080-4",
+   "doi": "10.1038/s41467-026-77849-7",
+   "title": "Coordination-mediated cold quenching for the synthesis of strongly quantum-confined FAPbI3 quantum dots",
+   "link": "https://doi.org/10.1038/s41467-026-77849-7",
    "journal": "Nature Communications",
    "publisher": "Nature",
-   "date": "2026-09-17",
+   "date": "2026-09-18",
    "authors": [
-    "Anand M. Verma",
-    "Shivam Chaturvedi",
-    "Swastik Paul",
-    "Srinibas Nandi",
-    "Rahul Sheshanarayana",
-    "Kotni Santhosh",
-    "G. Valavarasu",
-    "Ambedkar Dukkipati",
-    "Chuandayani Gunawan Gwie",
-    "Pei Ying Moo",
-    "Chun Qi Joy Ng",
-    "Amol Amrute",
-    "Ananth Govind Rajan"
+    "Haoyu You",
+    "Xuemeng Wang",
+    "Denglin Zhao",
+    "Guangyan Li",
+    "Huifang Yang",
+    "Jiangxiao Bai",
+    "Yatao Zou",
+    "Fei Zhang",
+    "Elke Debroye",
+    "Gaoyu Chen",
+    "Weidong Xu"
    ],
    "tries": 0
   },
@@ -438,28 +426,16 @@
    "tries": 0
   },
   {
-   "doi": "10.1039/d6ee03881f",
-   "title": "Redox-active halide materials for cathode applications",
-   "link": "https://doi.org/10.1039/d6ee03881f",
-   "journal": "Energy & Environmental Science",
-   "publisher": "RSC",
-   "date": "2026-09-03",
+   "doi": "10.1038/s41928-026-01693-2",
+   "title": "How we discovered ferroelectricity in hafnium oxide thin films",
+   "link": "https://doi.org/10.1038/s41928-026-01693-2",
+   "journal": "Nature Electronics",
+   "publisher": "Nature",
+   "date": "2026-09-04",
    "authors": [
-    "Zhuohan Li",
-    "Gerbrand Ceder"
-   ],
-   "tries": 0
-  },
-  {
-   "doi": "10.1126/science.aee8320",
-   "title": "How the hunt for human retroviruses led to the discovery of interleukin-2 and a path to immunotherapy",
-   "link": "https://doi.org/10.1126/science.aee8320",
-   "journal": "Science",
-   "publisher": "Science",
-   "date": "2026-09-10",
-   "authors": [
-    "Rafi Ahmed",
-    "Steven Rosenberg"
+    "Tim S. Böscke",
+    "Ulrich Böttger",
+    "Uwe Schroeder"
    ],
    "tries": 0
   }
