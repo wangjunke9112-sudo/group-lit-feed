@@ -1,8 +1,38 @@
 {
  "year": "2026",
- "count": 4092,
- "generated": "2026-09-19 00:07 UTC",
+ "count": 4094,
+ "generated": "2026-09-20 00:05 UTC",
  "papers": [
+  {
+   "title": "Interfacial Conditioning for High-Brightness 28 mm2 Active-Area Phenylpropylamine-Capped CsPbBr3 Perovskite Nanocrystal Light-Emitting Diodes Synthesized by a Modified Ligand-Assisted Reprecipitation Method",
+   "link": "https://doi.org/10.1021/acsami.6c13884",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-09-21",
+   "abstract": "Abstract Processing-induced interfacial losses limit perovskite nanocrystal light-emitting diodes (PeLEDs) at display-relevant device areas, yet the steps responsible are rarely identified with statistical confidence beyond champion-device reporting. Here, we combine an all-inorganic CsPbBr3 emitter with a replicated factorial study at 28 mm2 active area. Nanocrystals capped with phenylpropylamine (PPA) by a room-temperature modified ligand-assisted reprecipitation (MLARP) route are deposited as two sequential films separated by a ∼2.8 nm polyvinylpyrrolidone (PVP) interlayer, with mild vacuum conditioning before the top layer. Seven of thirteen architectures were replicated over two fabrication sessions, giving 71 functional devices from 84 (84.5% yield). A matched 2 × 2 factorial ANOVA identifies vacuum conditioning as the dominant factor for EQE (partial η2 = 0.90), with a smaller but significant PVP contribution (p = 0.006) and a significant PVP × vacuum interaction for maximum luminance (p < 0.001). The combined route gives a median EQEmax of 12.2% (IQR 0.5%) at 12/12 yield and a champion device with EQEmax = 13.23% at 520 nm, 21,537 cd.m–2, 30.8 lm.W–1 at 100 cd.m–2, 1.7% roll-off at 10 mA.cm–2, and encapsulated τ50 = 3 h at 200 cd.m–2, measured in an integrating sphere. Photoluminescence lifetimes recover from 5.0 to 14.9 ns in the bilayer and the corresponding photoluminescence quantum yield from 8.9% to 28.7%. Across solution, film and both half-device stacks the quantum yield scales linearly with the amplitude-weighted lifetime at a common radiative rate, placing these losses in nonradiative channels and consistent with reduced interfacial quenching. At the same time, transfer-matrix modeling shows outcoupling to be emitter-position dependent (10.4% vs 13.3%), so radiative, transport, and optical contributions remain unseparated. The PVP/vacuum route defines a statistically robust processing window for nanocrystal PeLEDs at a 28 mm2 active area.",
+   "authors": [
+    "Ernest Ruby",
+    "Rafa Alamri",
+    "Rakan Alaneazi",
+    "Gaëlle Trippé-Allard",
+    "Nicolas Guiblin",
+    "Jacqueline Tran",
+    "Maxime Vallet",
+    "Kassiogé Dembélé",
+    "Martin Foldyna",
+    "Emmanuelle Deleporte",
+    "Yvan Bonnassieux",
+    "Denis Tondelier",
+    "Cédric R Mayer"
+   ],
+   "doi": "10.1021/acsami.6c13884",
+   "keywords": [
+    "light-emitting",
+    "perovskite"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
   {
    "title": "A suite of fluorescent timers for visualizing protein spatiotemporal dynamics in plants",
    "link": "https://doi.org/10.1126/sciadv.aef3538",
@@ -63,7 +93,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Extremely low thermal conductivity in rigid layered hybrid perovskites",
@@ -105,7 +135,7 @@
     "perovskites"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Gas-permeable and stretchable nanoscale anisotropic conductive film for room-temperature, pressure-free interconnections",
@@ -130,7 +160,7 @@
     "light-emitting"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Kinetic hindrance of phase transformations in dense MgSiO 3 polymorphs under shock compression",
@@ -150,7 +180,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Large strain and high reversible dielectric tunability in Sm-modified PMN-PT ceramics",
@@ -167,6 +197,34 @@
    ],
    "doi": "10.1038/s41467-026-77914-1",
    "keywords": [
+    "perovskite"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Coordination-mediated cold quenching for the synthesis of strongly quantum-confined FAPbI3 quantum dots",
+   "link": "https://doi.org/10.1038/s41467-026-77849-7",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-09-18",
+   "abstract": "Strong quantum confinement can fundamentally reshape excitonic processes and radiative recombination in perovskite quantum dots (QDs), yet accessing this regime remains challenging in organic-inorganic hybrid FAPbI3 nanocrystals because of their low crystallization barrier and rapid growth. Here, we report a coordination-mediated cold quenching strategy for synthesizing strongly quantum-confined FAPbI3 QDs with tunable emission from 696 to 759 nm. The key step involves the injection of a precooled ethyl methacrylate (EMA, –70 °C), which rapidly lowers the reaction temperature while simultaneously retarding precursor conversion and suppressing QD regrowth. Such a strategy enables small QDs with an average size of 6.4 nm and a near-unity photoluminescence quantum yield. Representative light-emitting diodes based on these QDs deliver electroluminescence at 715 nm with a peak external quantum efficiency of 16.3%. This work provides a viable strategy for accessing ultrasmall hybrid perovskite QDs and advances the rational control of quantum confinement in soft ionic semiconductors. Strong quantum confinement could improve hybrid perovskite nanocrystals, but producing ultrasmall, uniform particles is difficult. You, Wang et al. used coordination-assisted cold quenching to create efficient emitters for light-emitting diodes and optical communication.",
+   "authors": [
+    "Haoyu You",
+    "Xuemeng Wang",
+    "Denglin Zhao",
+    "Guangyan Li",
+    "Huifang Yang",
+    "Jiangxiao Bai",
+    "Yatao Zou",
+    "Fei Zhang",
+    "Elke Debroye",
+    "Gaoyu Chen",
+    "Weidong Xu"
+   ],
+   "doi": "10.1038/s41467-026-77849-7",
+   "keywords": [
+    "light-emitting",
     "perovskite"
    ],
    "type": "article",
@@ -195,7 +253,7 @@
     "light-emitting"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Constructing a Dynamic Interface via Thermoresponsive Polymers to Promote CO2 Electroreduction in a Strongly Acidic Electrolyte",
@@ -222,7 +280,7 @@
     "co2 reduction"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Correction to “Achieving over 20% Efficiency in Laminated HTM‐Free Carbon Electrode Perovskite Solar Cells through In Situ Interface Reconstruction”",
@@ -238,9 +296,9 @@
     "perovskite solar cells",
     "solar cells"
    ],
-   "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "type": "comment",
+   "ab_tried": 2,
+   "oa_type": "erratum"
   },
   {
    "title": "Single‐Particle FRET Probes Heterogeneity in the Ligand Shell of Colloidal Perovskite Quantum Dots",
@@ -264,7 +322,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Strong Coupling in Bulk Nanoplasmonic Nanoplatelet Perovskite Scintillators",
@@ -294,7 +352,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Ultra‐Wide Bandgap Semiconductor of Cubic‐Phase AlN/Diamond Heterojunction for Radio Frequency Electronics",
@@ -325,7 +383,7 @@
     "wide bandgap"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Non‐Stoichiometric AlO x– Modified Al‐Doped MoO x Passivating Contacts Enabled High‐Efficiency Dopant‐Free Silicon Solar Cells",
@@ -351,7 +409,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Selectivity in CO2 Reduction: Beyond Two Electrons",
@@ -371,7 +429,7 @@
     "co2 reduction"
    ],
    "type": "review",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Interfacial Electronic Reconstruction in SnS2/CoS Heterostructure for Efficient Electrochemical Nitrate-to-Ammonia Conversion and Energy–Environment Integration",
@@ -392,7 +450,7 @@
     "open-circuit voltage"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Sodium‐Induced Process Window Expansion Enables High‐Performance Solution‐Processed CISSe Thin‐Film Solar Cells for Tandem Applications",
@@ -599,7 +657,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -628,7 +686,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -655,7 +713,7 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Piezoelectric Field‐Derived Mechano–Electrochemical Regulation for Durable SiO Anode",
@@ -678,7 +736,7 @@
     "ion migration"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Multiple‐Active‐Site Additives Enable Synergistic Surface Passivation and Defect Healing for High‐Efficiency and Durable Inverted Perovskite Solar Cells",
@@ -774,7 +832,7 @@
     "photodetector"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Radiation Resistance of Organic Solar Cells for Space Applications: Conventional vs. Inverted Device Architecture",
@@ -797,7 +855,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Record Performance Unlocked by Tailored Polymer Donors in All‐Narrow‐Bandgap Semitransparent Organic Solar Cells",
@@ -821,7 +879,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Photoinduced Charge Separation in Single‐Component Squaraine Films: The Key Role of Electrostatic Disorder",
@@ -851,7 +909,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Monolithic Te 1‐x Se x ‐on‐Si Photodiodes for Real‐Time Short‐Wave Infrared Trajectory Tracking",
@@ -881,7 +939,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Large‐Grained Antimony Selenosulfide Thin Films With V‐Shaped Bandgap Enable High‐Efficiency Planar Heterojunction Solar Cells",
@@ -908,7 +966,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Forward‐Biased Perovskite Photodiodes for In‐Sensor Optical Change Sensing",
@@ -941,7 +999,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Regulating Interfacial Recombination in Cd‐Free Sb 2 Se 3 Solar Cells via an Ultrathin Al 2 O 3 Layer",
@@ -967,7 +1025,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Stretchable Liquid-Metal PDMS Encapsulation with Enhanced Water/Oxygen Barrier Properties for Perovskite Light-Emitting Diodes",
@@ -1266,7 +1324,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1315,7 +1373,7 @@
     "perovskites"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1355,7 +1413,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1381,7 +1439,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1740,7 +1798,7 @@
     "solar cells"
    ],
    "type": "comment",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "erratum"
   },
   {
@@ -1947,7 +2005,7 @@
     "light-emitting"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -2481,7 +2539,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -2523,7 +2581,7 @@
     "light-emitting"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
