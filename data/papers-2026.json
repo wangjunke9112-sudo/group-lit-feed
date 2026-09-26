@@ -1,8 +1,136 @@
 {
  "year": "2026",
- "count": 4188,
- "generated": "2026-09-25 00:26 UTC",
+ "count": 4205,
+ "generated": "2026-09-26 00:32 UTC",
  "papers": [
+  {
+   "title": "Liquid Crystals as Functional Ordered Media for Energy Devices: Bridging Ionics, Electronics, and Photonics",
+   "link": "https://doi.org/10.1002/smtd.71065",
+   "journal": "Small Methods",
+   "publisher": "Wiley",
+   "date": "2026-09-25",
+   "abstract": "ABSTRACT Liquid crystals (LCs) combine fluid‐like processability with programmable orientational and positional order, enabling molecular organization to be translated into directional transport pathways, adaptive interfaces, and field‐responsive optical states. This review examines thermotropic and lyotropic LCs as functional ordered media for energy storage, photovoltaic conversion, and adaptive optical/thermal management. A mechanistic framework is established around mesophase topology, local chemical environment, and processing‐dependent structural persistence, with particular emphasis on distinguishing experimentally demonstrated mechanisms from interpretation based primarily on modeling or indirect correlations. In electrochemical storage, LC architectures regulate ion‐pathway connectivity, solvation, water activity, electrodeposition, and interphase evolution. In perovskite and organic photovoltaics, LC additives, interlayers, and elastomeric networks influence defect chemistry, crystallization, molecular packing, energetic losses, and mechanical stability. Dye‐sensitized solar cells provide a distinct case in which ordered electrolytes regulate redox‐ion transport, whereas smart windows and related adaptive systems exploit LC reorientation, scattering, absorption, and phase transitions to control light and heat. Across these applications, performance is governed by recurring trade‐offs among transport, structural fixation, interfacial selectivity, optical loss, and processing tolerance. By combining mechanistic evidence with standardized performance metrics and application‐specific selection criteria, this review provides a practical framework for designing LC‐enabled energy materials beyond device‐specific empirical optimization.",
+   "authors": [
+    "Cong Chen",
+    "Fangyu Tan",
+    "Dongdong Xu",
+    "Xusheng Wang",
+    "Huanan Yu"
+   ],
+   "doi": "10.1002/smtd.71065",
+   "keywords": [
+    "perovskite",
+    "photovoltaic",
+    "photovoltaics",
+    "solar cells"
+   ],
+   "type": "review",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Hydrothermal Growth‐Pathway Engineering Enables Suppressed Reverse Compositional Gradients for High‐Efficiency Sb 2 (S,Se) 3 Solar Cells",
+   "link": "https://doi.org/10.1002/smtd.71068",
+   "journal": "Small Methods",
+   "publisher": "Wiley",
+   "date": "2026-09-25",
+   "abstract": "ABSTRACT Antimony chalcogenide (Sb 2 (S,Se) 3 ) is a promising low‐cost thin‐film photovoltaic absorber, yet hydrothermal deposition is often limited by mismatched S/Se reaction kinetics, which induce reverse compositional and bandgap gradients that impede carrier transport. Herein, ramp‐heating (RH) and hot‐insertion (HI) routes are compared to regulate the hydrothermal film‐formation pathway. Compared with RH, HI promotes a more balanced chalcogen supply by modulating the relative reaction kinetics of sulfur‐ and selenium‐containing species, thereby homogenizing the vertical S/Se distribution and bandgap profile. The balanced reaction pathway favors film densification, more complete grain coalescence, and improved vertical structural uniformity, yielding compact and smooth films with more balanced local bonding. Band‐structure and electrical analyses reveal optimized interfacial energetics, reduced series resistance, enhanced recombination resistance, widened depletion regions, and a defect transition from deep V S(e)1 to shallower Sb S(e)1 states with reduced trap density. Consequently, the power conversion efficiency (PCE) increases from 9.65% to 10.48%, with simultaneous improvements in open‐circuit voltage, short‐circuit current density, and fill factor (FF). These findings identify balanced chalcogen‐supply‐mediated film formation as an effective mechanism for mitigating vertical inhomogeneity in Sb 2 (S,Se) 3 solar cells.",
+   "authors": [
+    "Yiming Zhong",
+    "Rong Tang",
+    "Tianhua Zou",
+    "Muhammad Ishaq",
+    "Muhammad Abbas",
+    "Boyang Fu",
+    "Jun Zhao",
+    "Zhenghua Su",
+    "Shuo Chen",
+    "Guangxing Liang",
+    "Zhuanghao Zheng"
+   ],
+   "doi": "10.1002/smtd.71068",
+   "keywords": [
+    "photovoltaic",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Chiral Quasi‐2D Hybrid Perovskite p–n Junction Arrays for High‐Performance Self‐Powered Visible‐Band Circularly Polarized Light Detection",
+   "link": "https://doi.org/10.1002/smll.75946",
+   "journal": "Small",
+   "publisher": "Wiley",
+   "date": "2026-09-25",
+   "abstract": "ABSTRACT Highly sensitive circularly polarized light (CPL) detectors are essential for optical communication and sensing. Nevertheless, while certain CPL detectors employing single‐component and polycrystalline perovskite active layers are capable of broad‐spectrum detection range, the majority of such devices still suffer from substantial carrier recombination, leading to high energy consumption. The rational design of high‐quality p–n junctions provide a promising strategy for achieving efficient carrier separation and self‐powered operation. Here, we present a high‐performance, self‐powered CPL detector based on quasi‐two‐dimensional (quasi‐2D) chiral hybrid perovskite (CHP) p–n junction microwire (MW) arrays constructed from [(R)/(S)‐β‐MPA] 2 (MA) n‐1 Pb n Br 3n+1 and [(R)/(S)‐β‐MPA] 2 (MA) n‐1 Pb n Br 3n+1‐x I x (MPA = methylphenylethylamine, MA = methylammonium). The built‐in electric field of the p–n junction, the chiral‐induced spin selectivity (CISS) effect of the CHPs, and the high crystallinity with ordered crystallographic alignment of the arrays collectively enable high‐performance self‐powered CPL detection. The device exhibits excellent CPL sensitivity across a broad spectral range of 405–556 nm, with a maximum photoresponsivity ( R max ) of 37.7 A W −1 under 510 nm illumination, an anisotropy factor ( g Iph ) of 0.37, and a high photocurrent on/off ratio (I on / I off ) of 1.29 × 10 4 under 0 V bias. These superior performances highlight the device's great potential for polarization‐based optical communication and encryption applications.",
+   "authors": [
+    "Jiachen Wang",
+    "Yiman Zhao",
+    "Jinxin Sun",
+    "Yifan Zhou",
+    "Lin Xiong",
+    "Fengqin Hu",
+    "Yong Sheng Zhao"
+   ],
+   "doi": "10.1002/smll.75946",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Interfacial Photophysics and Solvent‐triggered Phase Reconstruction in Cs 4 PbBr 6 Quantum Dots for Optical/Electrical Dual‐Mode Sensing",
+   "link": "https://doi.org/10.1002/smll.75924",
+   "journal": "Small",
+   "publisher": "Wiley",
+   "date": "2026-09-25",
+   "abstract": "ABSTRACT While all‐inorganic lead halide perovskite quantum dots offer tunable pathways toward programmable optoelectronics, the origin of stimulus‐activated phase transformation and its underlying photophysics remain controversial. Here, by constructing a composition‐tunable dual‐phase Cs 4 PbBr 6 ‐CsPbBr 3 quantum dots platform with direct interfacial contact, we have identified key factors that regulate the emission behavior through careful structural and spectroscopic analyses, including interfacial strain and localized‐states‐induced changes of carrier trapping and recombination pathways. Furthermore, in situ solvent treatment uncovers the hydroxyl‐triggered, polarity‐modulated CsBr extraction mechanism that drives the localized conversion from non‐emissive Cs 4 PbBr 6 to green emissive CsPbBr 3 . Such solvent‐programmable optical activation is further converted into an optical/electrical dual‐mode readout using a planar photoconductor. The dual‐mode response enables discrimination between hydroxyl‐containing and hydroxyl‐free solvents, identification of various protic solvents, and semi‐quantitative analysis of water content in ethanol‐water mixtures. This work provides synthetic and mechanistic strategies for regulating the structure‐property relationships of interphase perovskite quantum dots and establishes a dual‐mode sensing platform that couple photoluminescence activation with photoconductive signatures for solvent identification and discrimination.",
+   "authors": [
+    "Tongyun Hu",
+    "Haochuan Yang",
+    "Zhiyuan Li",
+    "Jiheng Zhu",
+    "Yuncai Liang",
+    "Jun Shi",
+    "Zheng Xing",
+    "Qiang Chen",
+    "Peixin Du",
+    "Weilin Zheng",
+    "Liang Li",
+    "Xuejing Wang"
+   ],
+   "doi": "10.1002/smll.75924",
+   "keywords": [
+    "halide perovskite",
+    "perovskite"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Doping Stabilizing Isolated Active Sites in Perovskite Lattice for Stable H 2 O 2 Electroproduction",
+   "link": "https://doi.org/10.1002/smll.75963",
+   "journal": "Small",
+   "publisher": "Wiley",
+   "date": "2026-09-25",
+   "abstract": "ABSTRACT Developing the efficient catalysts with both high 2e − selectivity and stability remains challenging for on‐site hydrogen peroxide (H 2 O 2 ) synthesis. Perovskite oxides possess dense isolated active sites to convert O 2 into H 2 O 2 , yet their intrinsic structural instability is also equally noteworthy. In this work, one kind of silver‐based perovskites, AgNbO 3 , and the structure stabilization approach are proposed for H 2 O 2 electrosynthesis. The Ag exsolution from the perovskite phase, which triggers the metallic Ag assemblies on surface, is identified as a key origin of electrochemical destabilization for the 2e − ORR process. Simultaneously, the Zr‐doping‐induced stabilization approach is put forward. The introduction of high‐oxyphilic Zr 4+ leads charge delocalization of oxygen in the [NbO 6 ] octahedra toward Ag‐site region, thereby enhancing Ag–O covalency as evidenced by the increased integrated crystal orbital Hamilton population values and the suppressed exsolution thermodynamics, while the sharply declined phase‐transition constant reconfirms that the Zr incorporation retards the Ag‐migration kinetics in terms of experimentation. The resulting Zr‐doped AgNbO 3 shows outstanding structural stability maintaining the above 90% Faradaic efficiency even at high‐current and long‐term operation. This work unveils the origination of perovskite destabilization during the 2e − ORR process, and offers a general strategy for stabilizing isolated active sites in electrochemical application.",
+   "authors": [
+    "Jianqi Zhang",
+    "Yanzong Huang",
+    "Yajing Di",
+    "Guocheng Hu",
+    "Tongtong Liu",
+    "Zhengping Zhang",
+    "Feng Wang"
+   ],
+   "doi": "10.1002/smll.75963",
+   "keywords": [
+    "perovskite",
+    "perovskites"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
   {
    "title": "Engineering plant tandem kinase immune receptors expands effector recognition profiles",
    "link": "https://doi.org/10.1126/sciadv.aef2426",
@@ -29,6 +157,181 @@
    "oa_type": "article"
   },
   {
+   "title": "Observation of thermally stable polar metallic state in perovskite nitride CeWN 3",
+   "link": "https://doi.org/10.1126/sciadv.aeh6191",
+   "journal": "Science Advances",
+   "publisher": "Science",
+   "date": "2026-09-25",
+   "abstract": "Polar metals offer substantial potential for exotic quantum phenomena and multifunctional applications. However, the existence of a polar metal is fundamentally challenging owing to the screening of dipole-dipole interactions by conducting electrons. Specifically, a high-temperature–stabilized polar metal remains to be discovered. In this study, we report a thermally stable polar-metal state in perovskite cerium tungsten nitride. Synchrotron x-ray diffraction and electron microscopy reveal a polar Pna 2 1 structure, while second-harmonic generation demonstrates that the polar response persists up to 850 kelvins in argon. Electrical resistivity and optical conductivity measurements demonstrate metallic transport behavior, consistent with the itinerant electronic contribution derived from specific heat analysis. First-principles calculations reveal that the polar distortion and metallic conductivity originate from tungsten-centered nitrogen octahedra, where the off-center displacements of hexavalent tungsten ions govern polarity and hybridization between tungsten 5d and nitrogen 2p states contributes to itinerant carriers. This study establishes a record-high-temperature polar metal, opening a promising avenue for exploring robust polar and metallic materials in perovskite nitrides.",
+   "authors": [
+    "Xubin Ye",
+    "Shaoxuan Zheng",
+    "Zhaoliang Chen",
+    "Zunyi Deng",
+    "Zhiyu Liao",
+    "Xianggang Qiu",
+    "Xiao Wang",
+    "Zhiwei Hu",
+    "Chang-Yang Kuo",
+    "Chien-Te Chen",
+    "Chih-Wen Pao",
+    "Cheng Dong",
+    "Zhao Pan",
+    "Jiawang Hong",
+    "Lin Gu",
+    "Zhen Chen",
+    "Youwen Long"
+   ],
+   "doi": "10.1126/sciadv.aeh6191",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Dangling-bond-free, chemically anisotropic semiconductors for ultrahigh-resolution X-ray imaging",
+   "link": "https://www.nature.com/articles/s41566-026-02013-y",
+   "journal": "Nature Photonics",
+   "publisher": "Nature",
+   "date": "2026-09-25",
+   "abstract": "Zero-dimensional structured materials are proposed to eliminate dangling bonds in all crystallographic directions while driving one-dimensional columnar crystal growth without compromising electronic isotropy. An X-ray scintillator based on zero-dimensional structured Cs2UO2Cl4 exhibits a spatial resolution of 34 lp mm−1.",
+   "authors": [
+    "Jiaqi Liu",
+    "Mingquan Liao",
+    "Xiaoqing Liu",
+    "Ning Ma",
+    "Hong Li",
+    "Wei Wang",
+    "Yue Lu",
+    "Yinsheng Xu",
+    "Guoqiang Luo",
+    "Jiang Tang",
+    "Mengling Xia",
+    "Guangda Niu"
+   ],
+   "doi": "10.1038/s41566-026-02013-y",
+   "keywords": [
+    "scintillator"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Balanced Coordination Chemistry for Architecture-Universal Perovskite Solar Cells",
+   "link": "https://doi.org/10.1021/jacs.6c14275",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2026-09-25",
+   "abstract": "Abstract Lewis base additives are a ubiquitous tool for enhancing the performance of solution-processed perovskite solar cells (PSCs). However, their development has largely relied on empirical selection, limiting universal applicability across different device architectures. A fundamental understanding of how coordination chemistry governs crystallization, and thus performance, remains elusive. Here, we demonstrate that superior performance in FAPbI3-based PSCs is dictated by a principle of balanced coordination strength. Through systematic investigation of a representative panel of structurally diverse molecules, we reveal that an intermediate Lewis basicity, striking a balance between excessively strong and weak coordination, establishes a thermodynamically and kinetically favorable pathway that promotes the formation of the α-phase while effectively suppressing defect formation. This “balanced coordination” strategy yields high-quality perovskite films and enables universal high performance across both n-i-p and p-i-n architectures, achieving a power conversion efficiency (PCE) of 26.12% (certified 25.62%) in n-i-p devices and 26.56% in p-i-n devices, along with significantly improved operational stability. This work provides microscopic insight into the coordination chemistry of additive design, offering a rational pathway toward high-performance, stable, and architecture-universal perovskite photovoltaics.",
+   "authors": [
+    "Xiangru Zhao",
+    "Qingyun He",
+    "Junbo Wang",
+    "Lei Li",
+    "Mengzhu Ding",
+    "Qiushuang Tian",
+    "Shuaijun Yan",
+    "Zhixian Sun",
+    "Mengyang Wu",
+    "Chongyu Zhong",
+    "Tianshi Qin",
+    "Wei Huang",
+    "Renzhi Li",
+    "Fangfang Wang"
+   ],
+   "doi": "10.1021/jacs.6c14275",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "photovoltaics",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Long-Lived Polarization Memory from Piezoelectric Electron-Acoustic Phonon Coupling in Symmetric Spherical-like Cesium Lead Bromide Nanocrystals",
+   "link": "https://doi.org/10.1021/jacs.6c12627",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2026-09-25",
+   "abstract": "Abstract The anisotropic nature of halide perovskite nanostructures gives rise to intriguing polarized optical transitions. While shape-induced anisotropy in halide perovskites is well-documented, the role of intrinsic structural symmetry remains elusive. Using symmetric spherical-like cesium lead bromide nanocrystals to isolate shape effects, we correlate intrinsic symmetry with polarized optical transitions via polarization-selective ultrafast transient absorption spectroscopy and 8-band k·p modeling. We demonstrate that polarization anisotropy in an ensemble of photoexcited perovskite nanocrystals arises from transition dipole moment asymmetry inherent to the orthorhombic structure. This anisotropy persists for ∼2 ps─exceeding conventional semiconductors─owing to piezoelectric electron-transverse acoustic phonon coupling, which results in an unusual temperature dependence following τ ∝ T–0.6. Furthermore, the anisotropy amplitude and lifetime show a strong size dependence driven by internal shear strain. Reducing the nanocrystal size enhances the shear strain, leading to a concomitant enhancement in both the anisotropy amplitude and lifetime. Collectively, our findings provide deep insights into the role of intrinsic structural symmetry in polarized transitions, which is crucial for engineering polarization-sensitive perovskite light-emitting devices.",
+   "authors": [
+    "Jianhui Fu",
+    "Zengshan Xing",
+    "Yue Yu",
+    "Jia Wei Melvin Lim",
+    "Zhi-Gang Yu",
+    "Xinfeng Liu",
+    "Tze Chien Sum"
+   ],
+   "doi": "10.1021/jacs.6c12627",
+   "keywords": [
+    "halide perovskite",
+    "light-emitting",
+    "perovskite",
+    "perovskites"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Oxygen Atoms in Pd Single‐Atom Loaded Cs 2 SnCl 6 Perovskite as Electron–Hole Separated Channel for Efficient Photo‐Assisted Electrocatalytic Oxygen Evolution Reaction",
+   "link": "https://doi.org/10.1002/aenm.71639",
+   "journal": "Advanced Energy Materials",
+   "publisher": "Wiley",
+   "date": "2026-09-25",
+   "abstract": "ABSTRACT Studies on halide perovskites for electrocatalysis remain in their infancy, largely limited to preliminary attempts at inducing oxygen atoms and improving stability. A key challenge lies in the lack of effective strategies for controlled oxygen atom introduction. Herein, we design a facile method to generate oxygen atoms in Pd single‐atom‐loaded Cs 2 SnCl 6 (O‐Cs 2 SnCl 6 @Pd) by using hydrogen peroxide. Under Xe light irradiation, it exhibits a low overpotential (135 mV at 10 mA cm −2 ) during the oxygen evolution reaction (OER) with long stability for 100 h. DFT calculations illustrate that the incorporation of oxygen atoms in O‐Cs 2 SnCl 6 @Pd modulates the electronic structure, as evidenced by a lowered overpotential for key intermediate species. This modulation further increases electron density, promoting the adsorption and activation of OER intermediates, as well as enabling the population of a new excited state. Femtosecond transient absorption spectroscopy further evidences that O atoms reduce the recombination of electron–hole, thereby significantly facilitating charge‐transfer to active sites that promote electrocatalytic reactions. This study introduces a novel strategy for the rational design and synthesis of high‐performance photo‐assisted electrocatalytic materials, offering a pathway to enhanced catalytic efficiency and functionality.",
+   "authors": [
+    "Qingkun Kong",
+    "Baoyi Liu",
+    "Zhenghao Gong",
+    "Siyu Liu",
+    "Shuchao Jiang",
+    "Dongxing Tan",
+    "Bin Yang",
+    "Weiliu Fan",
+    "Junsheng Chen",
+    "Jing Wang",
+    "Yuanyuan Feng",
+    "William W. Yu"
+   ],
+   "doi": "10.1002/aenm.71639",
+   "keywords": [
+    "perovskite",
+    "perovskites"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Novel UV‐Shielding Ionic Liquid Enables All‐Air‐Processed Flexible Perovskite Solar Cell",
+   "link": "https://doi.org/10.1002/aenm.71602",
+   "journal": "Advanced Energy Materials",
+   "publisher": "Wiley",
+   "date": "2026-09-25",
+   "abstract": "ABSTRACT Flexible perovskite solar cells ( f ‐PSCs) are highly susceptible to ultraviolet (UV) degradation and mechanical brittleness during ambient‐air fabrication, hindering their commercialization. Herein, we engineer an anti‐UV ionic liquid (1‐vinyl‐3‐[3‐(trimethoxysilyl)propyl]imidazolium chloride, IL‐SiO‐2) featuring a tailored C═C‐imidazolium hybrid architecture to address these challenges. The conjugated C═C bonds effectively enable UV shielding to suppress precursor degradation while retarding PbI 2 segregation and I 3 − generation in perovskite film, thereby preventing f ‐PSC device deterioration. Simultaneously, the ionic liquid IL‐SiO‐2's adaptive molecular structure enhances mechanical compliance, enabling robust integration with flexible substrates under bending stress. Ultimately, IL‐SiO‐2 synergistically enables UV‐resistant fabrication of defect‐suppressed perovskite films and stabilized f ‐PSC in air, reducing Young's modulus to 2.58 GPa and grain boundary density by ∼10%, achieving exceptional mechanical durability with 92% power conversion efficiency (PCE) retention after 3,000 bends at R = 2 mm. Remarkable ambient‐air stability and humidity resistance are also attained. The fully air‐processed f ‐PSC delivers a negligible hysteresis (0.004) and retains 80.0 ± 1.1% PCE after 360 h in a damp heat test. This work pioneers a multifunctional ionic liquid strategy to concurrently boost UV tolerance, mechanical resilience, and efficiency of f ‐PSC, charting new pathways for air‐compatible fabrication of durable flexible photovoltaics.",
+   "authors": [
+    "Lingling Wen",
+    "Wei Tan",
+    "Desheng Guo",
+    "Xin Li"
+   ],
+   "doi": "10.1002/aenm.71602",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cell",
+    "perovskite solar cells",
+    "photovoltaics",
+    "solar cell",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
    "title": "Bioinspired Cicada Wing Triboelectric Nanogenerator for Human Motion Monitoring and Mechanical Energy Harvesting",
    "link": "https://doi.org/10.1021/acsami.6c12354",
    "journal": "ACS Applied Materials & Interfaces",
@@ -49,7 +352,54 @@
     "open-circuit voltage"
    ],
    "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Suppressing Molecular Aggregation via Alkyl Chain Steric Hindrance Enabled High-Performance Self-Assembly Monolayer-Based Organic Solar Cells",
+   "link": "https://doi.org/10.1021/acsami.6c14029",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-09-25",
+   "abstract": "Abstract Interfacial inhomogeneity and carrier recombination caused by molecular aggregation in self-assembled monolayers (SAMs) remain critical challenges for organic solar cells. Herein, we report an interfacial engineering strategy utilizing octylphosphonic acid (8PA) as a morphology-modulating additive. By blending 8PA with [4-(3,6-diphenyl-9H-carbazol-9-yl)butyl]phosphonic acid (Ph-4PACz), we achieve molecular-level miscibility via compatible phosphonic acid anchoring groups, while the extended alkyl chain of 8PA introduces steric hindrance that effectively suppresses π–π molecular aggregation. Experimental results demonstrate that this strategy significantly inhibits the self-agglomeration of Ph-4PACz, thereby enhancing the homogeneity and surface coverage of the resultant monolayer and optimizing molecular ordering. Devices incorporating the 8PA-modified SAM exhibit uniform phase separation morphology, reduced recombination centers, and facilitated charge transport. Consequently, the optimized device achieves a champion power conversion efficiency (PCE) of 19.8%, representing a significant improvement over the 18.2% observed in control devices. This work provides an effective pathway for enhancing the performance of organic photovoltaic devices through additive-driven SAM morphology control.",
+   "authors": [
+    "Wei Tang",
+    "Huizhen Xu",
+    "Lei Wu",
+    "Shiying Sun",
+    "Chen Yang",
+    "Qingqing Dai",
+    "Xin Song",
+    "Weiguo Zhu"
+   ],
+   "doi": "10.1021/acsami.6c14029",
+   "keywords": [
+    "photovoltaic",
+    "solar cells"
+   ],
+   "type": "article",
    "oa_type_tried": 1
+  },
+  {
+   "title": "Complementary Hydrogel-Based Ionic Thermoelectric Systems for Photovoltaic Waste Heat Harvesting and Energy Storage",
+   "link": "https://doi.org/10.1021/acsami.6c12447",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-09-25",
+   "abstract": "Abstract Photovoltaic (PV) operation generates substantial low-grade waste heat, motivating energy-recovery strategies that can accommodate dynamically varying thermal conditions. Here, thermogalvanic and thermodiffusive hydrogel-based ionic thermoelectric (iTE) devices were separately integrated with the same PV-phase change composite (PCC) platform to compare their energy-conversion and energy-delivery characteristics. The PAM-F thermogalvanic cell (TC) exhibited an ionic Seebeck coefficient of 1.37 mV K–1 and a maximum power density of 4.16 mW m–2 at ΔT = 10 K, while maintaining electrical output under an external load for over 1 h. In contrast, the thermodiffusive PVA-K iTE supercapacitor exhibited a larger negative ionic Seebeck coefficient of –4.28 mV K–1 and enabled thermal charging followed by time-shifted electrical discharge. The PCC suppressed the cold-side temperature rise during irradiation and maintained a larger temperature gradient across the iTE layer, while releasing stored latent heat after irradiation to reverse the thermal gradient. Under simulated PV operation, the PVA-K-based system generated –36.8 mV at a temperature difference of approximately 11 K and subsequently developed a reversed open-circuit voltage of 21.4 mV, delivering 12.65 mJ m–2 of electrical energy during post-irradiation discharge. These results reveal two complementary modes for PV waste-heat utilization: sustained thermogalvanic energy generation and thermodiffusive charge storage with time-shifted release, highlighting the importance of coordinating ionic transport and thermal management. This complementary strategy provides a promising route toward distributed low-power energy harvesting, self-powered sensing, and storage-assisted monitoring in PV systems.",
+   "authors": [
+    "Hao Gao",
+    "Changsheng Ye",
+    "Junxia Li",
+    "Dong Zhang",
+    "Xin Shan"
+   ],
+   "doi": "10.1021/acsami.6c12447",
+   "keywords": [
+    "open-circuit voltage",
+    "photovoltaic"
+   ],
+   "type": "article",
+   "oa_type": "article"
   },
   {
    "title": "Unraveling the Bimetallic Synergy: A Unified Framework for Synthesis, Dynamic Evolution, and Multi‐Electron Electrocatalysis",
@@ -71,7 +421,7 @@
     "water splitting"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Solution Processed Tellurium Single‐Crystal Nanocubes and Polycrystalline Films for 2 µm Wavelength Infrared Photodetection",
@@ -94,7 +444,7 @@
     "narrow bandgap"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Prussian blue regulates ion dynamics in perovskite solar cells",
@@ -140,7 +490,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Conformal oxides decouple chemical stability and energetics at NiO x /perovskite interfaces",
@@ -182,7 +532,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Metformin Spacer Conformation Is a Structure-Directing Element in a 2D Perovskite with Strong X-ray Response",
@@ -212,7 +562,7 @@
     "x-ray detector"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Illuminated Semiconducting Electrodes Show Saturation Kinetics under Conditions of Inversion",
@@ -231,7 +581,7 @@
     "photoelectrochemical"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Electrohydrodynamic-Mediated Molecular Coordination for Stabilizing α-Phase Perovskite Solar Cells",
@@ -278,6 +628,63 @@
     "solar cells"
    ],
    "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Regulating Surface Electron Dynamics Enables Selective C─N Coupling in Photoelectrochemical Oxime Synthesis",
+   "link": "https://doi.org/10.1002/anie.8769472",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2026-09-24",
+   "abstract": "ABSTRACT A central challenge in photoelectrochemical multi‐electron transformations is simultaneously achieving efficient charge separation and precise control over reaction selectivity. Herein, we construct a p–n junction photocathode composed of an atomic‐layer‐deposited ZnO x layer and black silicon (b‐Si) to regulate interfacial electron dynamics and reaction selectivity. Upon illumination, oxygen vacancies in the ZnO x surface serve as electron‐buffering sites that facilitate reversible charge storage and release, as confirmed by in situ Kelvin probe force microscopy. This modulation of electron chemical potential suppresses competing hydrogen evolution and over‐reduction pathways, while directing nitrogen‐centered intermediates toward selective hydroxylamine formation and subsequent C─N coupling. The optimized photocathode delivers a photocurrent density of 38.6 mA cm −2 with a Faradaic efficiency of 94.6% for cyclohexanone oxime production and a cyclohexanone‐to‐oxime selectivity of 99.9%. Mechanistic studies combining operando spectroscopy, density functional theory, and microkinetic analysis reveal that coverage‐dependent site competition governs surface site availability, thereby inhibiting the further reduction of hydroxylamine and promoting its desorption for solution‐phase coupling. Integration of the microkinetic model with the photovoltaic response establishes a quantitative design principle based on the matching between semiconductor photoresponse and interfacial catalytic kinetics, providing a general framework for selectivity control in photoelectrochemical systems.",
+   "authors": [
+    "Zilong Li",
+    "Tianhao Wang",
+    "Fu Zhang",
+    "Junchi Xu",
+    "Wenmin Ma",
+    "Guangtao Ma",
+    "Jinlong Wang",
+    "Ning Zhang",
+    "Huijun Jiang",
+    "Yujie Xiong",
+    "Chao Gao"
+   ],
+   "doi": "10.1002/anie.8769472",
+   "keywords": [
+    "photoelectrochemical",
+    "photovoltaic"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Spiro‐Linked Bisphosphonate Self‐Assembled Monolayers for Efficient and Stable Perovskite Solar Cells",
+   "link": "https://doi.org/10.1002/anie.3377029",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2026-09-24",
+   "abstract": "ABSTRACT Bisphosphonate‐anchored self‐assembled monolayers (SAMs) play a pivotal function in the development of high‐performance inverted perovskite solar cells (PSCs). However, the strong aggregation tendency of SAM molecules on substrates significantly limits the power conversion efficiency (PCE) of the devices. In this study, a spirocyclic linkage strategy is introduced for the first time into the molecular design of bisphosphonate‐based SAM hole‐transporting materials, and three target compounds, SCF‐4PADCB, SF‐4PADCB, and SFT‐4PADCB, are successfully synthesized. The twisted spiro‐conformation effectively suppresses intermolecular π–π stacking aggregation. In addition, SCF‐4PADCB hole‐transporting layer optimizes the interfacial energy level alignment, and passivates the defects of perovskite. Consequently, the inverted PSCs based on SCF‐4PADCB achieve a champion PCE of 26.58%. Moreover, the unencapsulated device retains 91.26% of its initial PCE after 1200 h of maximum power point tracking and exhibits outstanding ultraviolet stability. Impressively, SCF‐4PADCB also demonstrates excellent versatility, delivering a PCE of 23.46% in 1.68 eV wide‐bandgap PSCs and a superior indoor PCE of 43.65% under 1000 lux LED illumination. This work provides a promising molecular design strategy for developing novel SAMs toward highly efficient and stable PSCs.",
+   "authors": [
+    "Fan Wu",
+    "Kai Chen",
+    "Yuanyuan Pan",
+    "Xiangwen Guo",
+    "Liwei Zhou",
+    "Zedong Lin",
+    "Desheng Li",
+    "Jianing Wei",
+    "Dongxu Lin",
+    "Cong Liu",
+    "Xiaotian Hu"
+   ],
+   "doi": "10.1002/anie.3377029",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "solar cells"
+   ],
+   "type": "article",
    "oa_type_tried": 1
   },
   {
@@ -306,7 +713,7 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Synergy of Low‐ and High‐Polarity Cations for Stabilizing 2D Perovskites",
@@ -347,6 +754,59 @@
     "solar cells"
    ],
    "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Upright Orientation of Asymmetric Conjugated SAM Enables High‐Performance Perovskite Solar Cells",
+   "link": "https://doi.org/10.1002/adma.75147",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-09-24",
+   "abstract": "ABSTRACT Self‐assembled monolayers (SAMs) are promising hole‐transporting interlayers for inverted perovskite solar cells (PSCs) owing to their ultrathin thickness and tunable work function. However, conventional SAMs such as Me‐4PACz tend to adopt lying‐down or tilted conformations on substrates, leading to disordered dipole orientation, inadequate substrate coverage, and buried terminal groups that are unable to passivate interface defects. In this study, we design an asymmetric conjugated SAM molecule, BCPA‐Ph, to address these limitations. Its vertically oriented π‐conjugated backbones build direct hole transport pathways, thereby accelerating carrier extraction, while the fully exposed terminal carbazole N─H groups form intermolecular hydrogen bonds with perovskite surface iodine species and eliminate iodide vacancy traps. As a result, the inverted PSCs based on BCPA‐Ph achieve a certified power conversion efficiency (PCE) of 27.21%, along with markedly enhanced thermal and operational stability. Moreover, BCPA‐Ph presents outstanding universality for large‐area and wide‐bandgap perovskite devices, yielding a high PCE of 26.34% for 1 cm 2 devices and 23.77% for 1.68 eV wide‐bandgap PSCs. This work underscores the critical importance of molecular configuration engineering in the rational design of SAMs for high‐performance PSCs.",
+   "authors": [
+    "Xinyu Gu",
+    "Siyuan Zhu",
+    "Chunhui Su",
+    "Can Cheng",
+    "Jiarui Tao",
+    "Shengqi Wang",
+    "Yunjie Wang",
+    "Lingfang Zheng",
+    "Zhenhuang Su",
+    "Wei Zhou",
+    "Jionghua Wu",
+    "Zhijun Ning",
+    "Jian Fan",
+    "Hao Chen"
+   ],
+   "doi": "10.1002/adma.75147",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Hydrophobic Group‐Directed Self‐Assembly of Gradient Porous Antireflective and Superhydrophilic Coatings on Photovoltaic Glass",
+   "link": "https://doi.org/10.1002/adma.75150",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-09-24",
+   "abstract": "ABSTRACT Coatings for photovoltaic glass urgently require antireflection, self‐cleaning, and durability. Herein, we leveraged the surface free energy minimization effect of n ‐butyl hydrophobic groups in n ‐butyl glycidyl ether (BGE) to design a directed induction strategy, and successfully fabricated a gradient porous superhydrophilic and antireflective coating (BTKS‐3). This effect drove the spontaneous migration of hydrophobic groups to the surface, creating a vertical concentration gradient that modulated the local chemical environment and solvent evaporation behavior during film formation, ultimately directing the formation of a gradient porous architecture. As a result, a gradient porous architecture formed spontaneously, going from a dense bottom layer to a porous top layer. Such a gradient enables stepwise refractive index matching from the glass substrate to air, boosting transmittance to 94.61%, which significantly outperforms bare glass and commercial antireflective coatings. Meanwhile, surface hydroxyl groups and nanoscale roughness endow the coating with superhydrophilicity (contact angle",
+   "authors": [
+    "Ran Chen",
+    "Sifan Chen",
+    "Xiaoli Zhan",
+    "Ziqiang Liu",
+    "Qinghua Zhang"
+   ],
+   "doi": "10.1002/adma.75150",
+   "keywords": [
+    "photovoltaic"
+   ],
+   "type": "article",
    "oa_type_tried": 1
   },
   {
@@ -373,7 +833,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Atomic Samarium Doping Reinforces Ir/IrO 2 Heterointerface for Efficient Acidic Overall Water Splitting",
@@ -398,7 +858,7 @@
     "water splitting"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Vacuum Flash Evaporation‐Assisted Processing in Perovskite Photovoltaics",
@@ -422,7 +882,7 @@
     "tandem"
    ],
    "type": "review",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Regenerative Interfacial Passivation of Inorganic Perovskite via Redox Mediator for High Performance Solar Cells",
@@ -455,7 +915,7 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Optimizing Aggregation of A‐D‐A‐Type Acceptors via an Organic‐Metal Complex for High‐Performance Organic Solar Cells",
@@ -481,7 +941,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Experimental and Atomic-Scale Insights into Defects in Ferro- and Non-Ferroelectric Perovskite Solar Cells",
@@ -585,7 +1045,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Synergistic Dual Built‐In Electric Fields Empower Mixed‐Dimensional 1T'‐MoTe 2 /WS 2 /p‐GaAs Photodetectors with Field‐Enhanced High Polarization Sensitivity for Intelligent Polarization‐Encoded System",
@@ -746,7 +1206,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -1021,7 +1481,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Stepped‐Dimensional 2D/3D Tin‐Based Perovskites for High‐Efficiency Light‐Emitting Diodes",
@@ -1321,7 +1781,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -2833,7 +3293,7 @@
    ],
    "type": "comment",
    "oa_type": "erratum",
-   "ab_tried": 3
+   "ab_tried": 4
   },
   {
    "title": "Single‐Particle FRET Probes Heterogeneity in the Ligand Shell of Colloidal Perovskite Quantum Dots",
