@@ -1,7 +1,7 @@
 {
  "year": "2026",
- "count": 4219,
- "generated": "2026-09-27 00:28 UTC",
+ "count": 4232,
+ "generated": "2026-09-28 00:28 UTC",
  "papers": [
   {
    "title": "Atmosphere-Engineered PbO x -Mediated Phase Evolution in PZT Thin Films for Enhanced Ferroelectric Performance",
@@ -30,7 +30,7 @@
     "phase segregation"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Multi-site Molecular Regulation Enables Efficient Low-Dimensional Metal Halide/Organic Nano-Interdigitated Heterojunction Solar Cells",
@@ -50,6 +50,376 @@
    "doi": "10.1021/acsami.6c12697",
    "keywords": [
     "photovoltaics",
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Anisotropic Defect Diffusion in Layered CsPbBr x I3– x Perovskites",
+   "link": "https://doi.org/10.1021/acsami.6c09668",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-09-28",
+   "abstract": "Abstract Mixed-halide perovskites offer a route to enhance phase stability and modify optoelectronic properties. Here, we use large-scale molecular dynamics simulations with a reactive force field to investigate defects in CsPbBrxI3–x perovskites, focusing on how defect mobility can be controlled and the stability of the material improved by layered ordering of Br and I anions. Our results show that layered halide ordering induces strongly anisotropic defect diffusion: migration proceeds readily along the layers, whereas diffusion across them is strongly suppressed. For Cs defects, this anisotropy originates from directional lattice strain and the associated octahedral tilting, whereas halide migration is governed by an interplay between strain and preferential local halide bonding configurations.",
+   "authors": [
+    "Konrad Wilke",
+    "Mike Pols",
+    "Titus S. van Erp",
+    "Geert Brocks",
+    "Shuxia Tao"
+   ],
+   "doi": "10.1021/acsami.6c09668",
+   "keywords": [
+    "perovskites"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Direct Silicon/Perovskite Heterojunction Solar Cells Enabled by Interfacial Energetics and Charge-Selective Contact Engineering",
+   "link": "https://doi.org/10.1021/acsami.6c12947",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-09-28",
+   "abstract": "Abstract Single-junction crystalline silicon (Si) and perovskite solar cells are approaching their fundamental efficiency limits, while the prevailing Si/perovskite tandem architecture requires complex sub-cell interconnection and current matching. Here, we developed a Si/perovskite heterojunction architecture by integrating semi-transparent perovskite solar cells with both N-type and P-type crystalline Si substrates. By systematically tuning the resistivity of the Si substrates, favorable interfacial energy-level alignment and low-resistivity P-type Si exhibiting the most suitable band configuration for efficient charge transfer were obtained. A 1,4-bis(trifluoromethyl)benzene (C8H4F6) passivation treatment together with a NiOx + self-assembled monolayer (SAM) bilayer hole-transport interface was employed to suppress interfacial recombination and improve charge extraction. A graded SnO2/ITO/NiOx + SAM interface synergistically delivers electron selectivity, low-resistance charge extraction, and defect passivation coupled with energy-level modulation, enabling the direct Si/perovskite heterojunction solar cell to reach a champion power conversion efficiency of 14.23%. This work opens an alternative, structurally simplified pathway for Si/perovskite integration and provides a foundational design framework for this new class of photovoltaics.",
+   "authors": [
+    "Xiaoxu Sun",
+    "Shuyi Liu",
+    "Longfei Yan",
+    "Shuyuan Fan",
+    "Anping Zhang",
+    "Yiren Zhou",
+    "Xiao Tian",
+    "Xianggang Chen",
+    "Hova Hoavo",
+    "Hongjiang Li",
+    "Savas Sonmezoglu",
+    "Jiyu Zhou",
+    "Molang Cai"
+   ],
+   "doi": "10.1021/acsami.6c12947",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "photovoltaics",
+    "single-junction",
+    "solar cell",
+    "solar cells",
+    "tandem"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Heterovalent Cd2+-Doped Cs3Cu2I5 Scintillators with Modulated Exciton–Phonon Coupling for High-Resolution X-ray Imaging",
+   "link": "https://doi.org/10.1021/acsami.6c14689",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-09-28",
+   "abstract": "Abstract Zero-dimensional (0D) copper-based halides have demonstrated significant potential in the field of high-performance X-ray detection owing to their exceptional optical properties, low toxicity, and structural stability. However, their photoluminescence (PL) efficiency and imaging resolution are limited by intrinsic defects that induce non-radiative recombination and strong exciton–phonon coupling. In this work, millimeter-scale Cd2+-doped Cs3Cu2I5 single crystals were prepared via a room-temperature solvent-assisted evaporation method. Heterovalent Cd2+ doping effectively suppressed non-radiative recombination and facilitated the radiative relaxation of self-trapped excitons (STEs). Temperature-dependent PL analysis revealed a reduction in the Huang-Rhys factor from 44.56 to 37.23, indicating weakened exciton–phonon coupling. As a result, the photoluminescence quantum yield (PLQY) increased from 84.6 to 96.2%. First-principles calculations revealed that Cd2+ doping altered the local electronic environment via a heterovalent charge-compensation mechanism. Furthermore, scintillator films fabricated from the doped single crystals demonstrated a spatial resolution of 26.5 lp/mm at MTF = 0.2, representing competitive imaging performance among reported copper-based halide scintillators. This work provides an effective heterovalent doping strategy for improving the luminescence and imaging performance of copper-based halide scintillators and offers useful insights into the influence of heterovalent doping on STE-mediated radiative processes.",
+   "authors": [
+    "Xiaonan Hu",
+    "Yingmiao Lin",
+    "Gaolei Dong",
+    "Hao Yan",
+    "Chunlin Zhao",
+    "Xiao Wu",
+    "Xiangdong Huang",
+    "Min Gao",
+    "Cong Lin"
+   ],
+   "doi": "10.1021/acsami.6c14689",
+   "keywords": [
+    "non-radiative recombination",
+    "scintillator",
+    "x-ray detection"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "In Situ‐Grown Graphdiyne Interfaces on Cu‐Retained CoCuFe Phosphide‐Like Octahedra for Overall Water Splitting",
+   "link": "https://doi.org/10.1002/smll.76022",
+   "journal": "Small",
+   "publisher": "Wiley",
+   "date": "2026-09-27",
+   "abstract": "ABSTRACT A Cu‐retention‐assisted precursor‐conversion strategy is developed to construct a graphdiyne (GDY)‐coupled CoCuFe phosphide‐like heterostructure for alkaline water electrolysis. Octahedral Cu 2 O directs the particle morphology and serves as a Cu source, whereas the CoFe Prussian blue analogue (PBA) shell supplies the Co and Fe species required to form the multimetal phosphide‐like framework. In situ growth of GDY preserves the precursor‐derived architecture and establishes interfacial contact between the π‐conjugated GDY layer and the phosphide‐like domain. The resulting GDY@P‐CoCuFe requires overpotentials of 211 and 88.5 mV to reach 10 mA cm −2 for the oxygen and hydrogen evolution reactions, respectively, in 1.0 M KOH. When employed as both the anode and cathode in a symmetric electrolyzer, GDY@P‐CoCuFe delivers 10 mA cm −2 at a cell voltage of 1.45 V and maintains stable operation for 100 h. Spectroscopic analyses and density functional theory calculations suggest that interfacial charge redistribution and the formation of Cu‐adjacent P sites contribute to favorable hydrogen adsorption. Post‐operation characterization further reveals partial oxyhydroxide‐like surface reconstruction during OER, while the underlying phosphide‐like framework and GDY structure remain largely preserved. These findings demonstrate that combining controlled Cu retention with direct GDY interfacial growth provides an effective route for developing efficient and durable bifunctional electrocatalysts.",
+   "authors": [
+    "Nahyun Lee",
+    "Sangwoo Kim",
+    "Jinhyun Park",
+    "Pei‐Chen Su",
+    "Jooheon Kim"
+   ],
+   "doi": "10.1002/smll.76022",
+   "keywords": [
+    "water splitting"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Local Coordination and Electronic Coupling Governs Charge Dynamics in BiVO 4 Photoanodes",
+   "link": "https://doi.org/10.1002/anie.3499350",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2026-09-27",
+   "abstract": "ABSTRACT Transition‐metal incorporation is widely employed to enhance the photoelectrochemical performance of BiVO 4 photoanodes, yet how the local incorporation environment governs charge‐carrier dynamics remains poorly understood. Here, we establish a structure‐function relationship between the local environments of Fe, Co, and Ni and the resulting charge‐dynamics in BiVO 4 . Combining synchrotron‐based x‐ray spectroscopies with femtosecond‐to‐microsecond photophysical measurements, we show that all transition metals improve water oxidation activity relative to pristine BiVO 4 , following the trend (Ni > Fe > Co) > BiVO 4 . Fe and Co predominantly adopt heterogeneous, oxide‐like local environments associated with weaker and more spatially heterogeneous coupling to the BiVO 4 framework, resulting in moderate improvements in charge separation. In contrast, Ni forms highly oxidized, locally octahedrally coordinated Ni–O units that exhibit stronger electronic coupling with the BiVO 4 framework, modifying the V–O electronic structure, suppressing charge localization and recombination, and extending carrier lifetimes across multiple timescales. Operando x‐ray absorption further reveals that incorporated Ni species remain electronically responsive under working conditions, linking their local electronic structure to photogenerated charge accumulation. These findings demonstrate that the photoelectrochemical behavior of transition‐metal‐modified BiVO 4 is governed by the nature of metal–host electronic coupling rather than metal identity alone, providing a general design principle for oxide photoanodes.",
+   "authors": [
+    "Alejandro García‐Eguizábal",
+    "Camilo A. Mesa",
+    "Mariam Barawi",
+    "Miguel Gomez‐Mendoza",
+    "Ignacio J. Villar‐García",
+    "Felipe A. Garcés‐Pineda",
+    "Soranyel Gonzalez‐Carrero",
+    "Alejandro García‐Cañas",
+    "James R. Durrant",
+    "Marta Liras",
+    "Víctor A. de la Peña O'Shea",
+    "Miguel García‐Tecedor"
+   ],
+   "doi": "10.1002/anie.3499350",
+   "keywords": [
+    "photoelectrochemical"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Over 20% Efficiency in As–Cast Organic Solar Cells Enabled by Flory–Huggins Parameter Engineering",
+   "link": "https://doi.org/10.1002/adma.75152",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-09-27",
+   "abstract": "ABSTRACT The realization of high–efficiency as–cast organic solar cells (OSCs) represents a key step toward simplified processing and scalable fabrication for commercialization. However, achieving high–performance as–cast devices remains challenging because it demands delicate balance between donor–acceptor self–aggregation and miscibility. Herein, we fabricate as–cast OSCs through Flory–Huggins parameter (χ) engineering that precisely regulates donor–acceptor miscibility during solution casting. The chloroform–carbon disulfide (CF:CS 2 ) mixed solvent, with tailored solubility and evaporation kinetics, dynamically modulates χ to form an optimized bulk heterojunction featuring desirable phase separation and a well–balanced fibrillar network. This design affords efficient exciton dissociation, facilitated charge transport, and suppressed recombination in the blend. Consequently, as–cast D18:L8–BO device processed with the CF:CS 2 solvent system attained a PCE of 20.11% (certified as 19.69%) alongside enhanced photostability, representing the highest efficiency reported for as–cast devices. Besides, high PCEs of 18.89% and 15.12% are achieved in thick–film (300 nm) and large–area (20.17 cm 2 ) as–cast devices. Moreover, a quantitative correlation between PCE and the interaction parameter χ is established, providing a quantitative guide for narrowing the miscibility window and identifying the optimal composition. These findings validate the efficacy of χ–parameter–mediated miscibility engineering in regulating blend phase behavior and provide a framework for advancing efficient as–cast OSCs.",
+   "authors": [
+    "Zhengqi Liu",
+    "Mingyan Zhan",
+    "Yanan Wei",
+    "Mingxu Zhou",
+    "Jiali Weng",
+    "Yongni Su",
+    "Xingjie Liu",
+    "Xubing Bai",
+    "Xiaotao Hao",
+    "Zheng Tang",
+    "Laju Bu",
+    "Guanghao Lu",
+    "Yinhua Zhou",
+    "Jianqi Zhang",
+    "Xin Zhang",
+    "Yunhao Cai",
+    "Hui Huang"
+   ],
+   "doi": "10.1002/adma.75152",
+   "keywords": [
+    "solar cells"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Precursor‐Level Molecular Coupling Enables High‐Fill‐Factor Wide‐Bandgap Perovskite Solar Cells and 29.63% All‐Perovskite Tandems",
+   "link": "https://doi.org/10.1002/adma.75165",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-09-27",
+   "abstract": "ABSTRACT Wide‐bandgap (WBG) perovskites with a ∼1.78 eV bandgap are essential for monolithic all‐perovskite tandem cells, yet their efficiency and stability are limited by complex precursor chemistry, uncontrolled crystallization, defect formation, and photoinduced halide segregation. Here, we report 4‐(3‐Carbamimidoylguanidino)benzoic acid hydrochloride (CGBA) as a precursor‐level regulator for Cs/formamidinium (CsFA)‐based Br‐rich WBG perovskites. Through dynamic associations with lead–halide species and organic cations, CGBA modifies the local precursor environment and alters the stage‐dependent film‐formation behavior during spin coating and annealing. This regulation moderates crystallization, promotes texture development, reduces trap‐mediated nonradiative recombination, and suppresses photoinduced halide segregation. Consequently, the optimized 1.78 eV single‐junction device achieves a power conversion efficiency (PCE) of 21.43% and a fill factor (FF) of 85.89%, placing it among the highest reported FF values for 1.75–1.79 eV single‐junction WBG perovskite solar cells. The strategy is also transferable across multiple compositions and conditions, yielding efficiencies of 27.32% (1.53 eV), 23.91% (1.68 eV), 18.75% (1.85 eV), and 26.08% (1.58 eV, antisolvent‐free). Unencapsulated target devices retain 93% of their initial efficiency after 4500 h in N 2 . When integrated into a monolithic all‐perovskite tandem, the CGBA‐optimized WBG subcell enables a laboratory‐measured PCE of 29.63%. This work establishes precursor‐level regulation as a transferable strategy for efficient and stable WBG perovskites and all‐perovskite tandems.",
+   "authors": [
+    "Kaixin Huang",
+    "Xianyong Zhou",
+    "Yintai Xu",
+    "Chao Xu",
+    "Hu Shen",
+    "Yajie Lei",
+    "Kai Yuan",
+    "Minhang Liu",
+    "Qing Zhong",
+    "Sheng Yuan",
+    "Jinbo Chen",
+    "Binbin Yu",
+    "Jing Li",
+    "Hanjian Lai",
+    "Zhixin Liu",
+    "Qifa Zheng",
+    "Lei Yan",
+    "Baomin Xu",
+    "Xingzhu Wang",
+    "Chang Liu"
+   ],
+   "doi": "10.1002/adma.75165",
+   "keywords": [
+    "halide segregation",
+    "perovskite",
+    "perovskite solar cells",
+    "perovskites",
+    "solar cells",
+    "tandem"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Atmosphere‐Controlled Valence Engineering of Eu in Aluminate Crystals Enabling High‐Performance Temperature Sensing and Flexible X‐Ray Imaging",
+   "link": "https://doi.org/10.1002/adma.75153",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-09-27",
+   "abstract": "ABSTRACT Developing scintillators that simultaneously deliver high light yield, radiation stability, flexibility, and environmental sustainability remains a long‐standing challenge, while optical thermometry is further limited by narrow working ranges and insufficient sensitivity. Here, we propose a buried‐carbon reduction concept that enables precise regulation of Eu valence states through controlled carbon burial depth from a single precursor, thereby unlocking multifunctionality within one material system. By such strategy, fully reduced SrMgAl 10 O 17 :Eu 2+ is utilized in x‐ray detection and imaging. High‐energy irradiation activates defect‐mediated electron release, substantially increasing the effective concentration of luminescent centers. Remarkably, its radioluminescence intensity retains 117.5% after over 150 on‐off irradiation cycles, showing a long‐term working light yield of up to 55917 ± 573 photons MeV −1 , together with excellent linear dose response and a low detection limit. Flexible scintillator films achieve a spatial resolution of 11.7 lp mm −1 (at 20% MTF). These characteristic makes the material with low cost, flexibility, environmental protection, chemically stable, and excellent radiation resistance. Moreover, partially reduced SrMgAl 10 O 17 :Eu 2+ /Eu 3+ exhibits rare multimodal synergistic optical thermometry performance in the high‐temperature region owing to distinct thermal quenching behaviors. In the temperature range of 550–625 K, the FIR‐based S a and S r reach 0.226 K −1 and 0.97 %K −1 , respectively; the FWHM‐based thermometric mode achieves a maximum sensitivity of 0.238 nm/K, while also enabling visual discrimination of the temperature. This work establishes a versatile concept for designing advanced optical materials for radiation detection and temperature sensing.",
+   "authors": [
+    "Ci'an Xie",
+    "Yan‐gai Liu",
+    "Lefu Mei",
+    "Chenguang Yang",
+    "Yukun Liu",
+    "Yicen Liu",
+    "Hui Li",
+    "Liming Wu",
+    "Zekun Wang"
+   ],
+   "doi": "10.1002/adma.75153",
+   "keywords": [
+    "scintillator"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "CO‐Tolerant Ethylene Glycol Oxidation on p–d Hybridized Platinum Ditelluride for Seawater Artificial Leaves",
+   "link": "https://doi.org/10.1002/aenm.71637",
+   "journal": "Advanced Energy Materials",
+   "publisher": "Wiley",
+   "date": "2026-09-27",
+   "abstract": "ABSTRACT Seawater‐based artificial leaves are fundamentally constrained by anodic surface poisoning and insufficient photovoltage for bias‐free reaction under complex electrolytes. Here we report a pH‐gradient photoelectrochemical–electrochemical (PEC–EC) system that couples photoelectrochemical hydrogen evolution reaction (HER) and electrochemical ethylene glycol oxidation reaction (EGOR) enabled by CO‐tolerant 1T‐PtTe 2 in both fresh water and natural seawater. As an anodic electrocatalyst for EGOR, platinum ditelluride exhibits a low onset potential of 0.42 V vs. RHE, achieves highly selective production of the value‐added product glycolate (GA) with a Faradaic efficiency of 96.4% at 0.9 V vs. RHE, and maintains high stability in natural seawater. Electronic structure analysis reveals that tellurium incorporation induces a downshift of the platinum d band center, weakening the adsorption of CO‐derived intermediates and suppressing surface poisoning without compromising reactant activation. Our PEC–EC device delivers bias‐free current densities of 37.85 mA cm −2 in fresh water and 37.18 mA cm −2 in natural seawater and sustains continuous hydrogen and glycolate production for 120 h. The demonstration of this PEC–EC system provides a general framework for designing bias‐free photoelectrochemical devices operating at appreciable current densities and advances the practical implementation of seawater‐based artificial leaves.",
+   "authors": [
+    "Yung‐Hung Huang",
+    "Tsung‐Hsin Liu",
+    "Ya‐Wen Tang",
+    "Meng‐Chi Hsieh",
+    "Tzu‐Chin Huang",
+    "Chih‐Ying Huang",
+    "Shao‐Ku Huang",
+    "Po‐Hsien Wu",
+    "Fang Yu Shen",
+    "Ya‐Lun Ho",
+    "Chun‐Chih Chang",
+    "Raman Sankar",
+    "Chun‐Wei Chen",
+    "Di‐Yan Wang"
+   ],
+   "doi": "10.1002/aenm.71637",
+   "keywords": [
+    "photoelectrochemical"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Best Practices in Nanocrystal Synthesis and Characterization",
+   "link": "https://doi.org/10.1021/acs.accounts.6c00456",
+   "journal": "Accounts of Chemical Research",
+   "publisher": "ACS",
+   "date": "2026-09-27",
+   "abstract": "Conspectus Colloidal nanocrystals exhibit quantum-mechanical phenomena inaccessible in bulk matter, and their properties can be tuned via chemically manipulating their composition, size, shape, and surface chemistry. Decades of development have produced a remarkable synthetic library spanning quantum dots, metal and metal oxide nanocrystals, halide perovskites, and complex multicomponent heterostructures. Yet, the field faces a persistent tension between the sophistication of what can be made and the rigor with which it is reported. Batch-to-batch variability, incomplete characterization, and poorly documented protocols challenge reproducibility and slow the translation of laboratory discoveries into reliable technologies or emerging autonomous workflows. This Tutorial offers guidance across four themes that highlight best practices in colloidal nanochemistry with the aim of fostering rigorous reporting in the field. The first theme concerns synthesis. Every nanocrystal synthesis is, at its most fundamental level, a set of chemical reactions and, therefore, should be communicated with explicit stoichiometries, including by-products where known, and with experimental sections detailed enough for an independent researcher to reproduce the outcome. Attention to hidden variables such as heating rates, reagent purity, atmosphere, and order of addition is essential, and we provide practical guidance on identifying and reporting them. The second theme is surface chemistry, where the influence of ligands on nanocrystal stability, functional properties, and device performance is profound. We discuss ligand coordination across nanocrystal families, from II–VI quantum dots to lead halide perovskites. We also describe how complementary techniques, such as infrared and nuclear magnetic resonance spectroscopy, thermogravimetric analysis, isothermal titration calorimetry, and elemental analysis, can together provide a quantitative picture of the ligand shell. The third theme addresses ex situ characterization, with an emphasis on the minimum suite of measurements needed to unambiguously establish nanocrystal identity. We discuss transmission electron microscopy, powder X-ray diffraction, and X-ray photoelectron spectroscopy as complementary and mutually reinforcing tools while highlighting the statistical and analytical rigor required to extract meaningful information…",
+   "authors": [
+    "Raffaella Buonsanti",
+    "Brandi M. Cossairt",
+    "Jonathan De Roo",
+    "Raymond E. Schaak"
+   ],
+   "doi": "10.1021/acs.accounts.6c00456",
+   "keywords": [
+    "perovskites"
+   ],
+   "type": "review",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Before You Submit Another Perovskite Additive Paper",
+   "link": "https://doi.org/10.1021/acsenergylett.6c02887",
+   "journal": "ACS Energy Letters",
+   "publisher": "ACS",
+   "date": "2026-09-27",
+   "abstract": "",
+   "authors": [
+    "Filippo De Angelis"
+   ],
+   "doi": "10.1021/acsenergylett.6c02887",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Selective Photoelectrochemical Water Oxidation to Hydrogen Peroxide via Tip-Induced Interfacial Regulation",
+   "link": "https://doi.org/10.1021/acsenergylett.6c02324",
+   "journal": "ACS Energy Letters",
+   "publisher": "ACS",
+   "date": "2026-09-27",
+   "abstract": "Abstract Bicarbonate (HCO3–) electrolytes have significantly promoted photoelectrochemical water oxidation to H2O2 production over the competitive O2 evolution. However, the selectivity and efficiency are still fundamentally constrained by the limited solubility of the HCO3–, the severe charge recombination, and the parasitic decomposition of as-formed H2O2. Here, we construct a BiVO4 nanocone photoanode to simultaneously address these critical challenges via tip-induced interfacial regulations. The spatial charge separation directs photogenerated holes toward the cone vertices, effectively suppressing charge recombination and enhancing photoactivity. The high-curvature tips generate localized electric fields that enrich interfacial HCO3– beyond its solubility limit and decrease the energy barrier of HCO3–-mediated H2O-to-H2O2 conversion. In addition, the tip-induced hydrophobic surface and enhanced mass transport promote rapid H2O2 desorption, mitigating its self-decomposition. As a result, these effects boost the H2O2 faradaic efficiency to 72.0% at 1.6 V vs RHE under AM 1.5G illumination, yielding an 8.6-fold increase in production rate compared to its planar counterparts.",
+   "authors": [
+    "Songying Qu",
+    "Qili Xu",
+    "Zhirun Xie",
+    "Steven Wang",
+    "Huiqiang Liang",
+    "Guosong Zeng",
+    "Rui Zhao",
+    "Zhanghong Zhou",
+    "Baiyi Li",
+    "Hao Wu",
+    "Yun Hau Ng"
+   ],
+   "doi": "10.1021/acsenergylett.6c02324",
+   "keywords": [
+    "photoelectrochemical"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Enhanced Operational Stability in Tin-Based Perovskite Solar Cells via a Natural Antioxidant",
+   "link": "https://doi.org/10.1021/acsenergylett.6c01792",
+   "journal": "ACS Energy Letters",
+   "publisher": "ACS",
+   "date": "2026-09-27",
+   "abstract": "Abstract In tin-based perovskite solar cells (TPSCs), Sn(II) oxidation and illumination-induced lattice instability are primary drivers of device degradation. In this study, we introduce ellagic acid (EA), a natural antioxidant, into DMSO-free fabricated tin perovskites. Computational simulations show that EA stabilizes formamidinium sites within the perovskite lattice and effectively inhibits Sn(II) oxidation. Besides, this incorporation greatly improves film homogeneity and passivates defect traps, increasing the champion power conversion efficiency from 9.3 to 10.2%. Consequently, unencapsulated EA-incorporated devices exhibit a sixfold increase in T80 lifetime (in a nitrogen atmosphere) and a threefold increase in T60 lifetime (in dry air) at the maximum power point tracking under continuous illumination. Moreover, an EA-incorporated device achieves a 16% increment over 1000 h of day/night cycling, significantly outperforming the 7% rise of the control. These results demonstrate that natural antioxidants are a highly effective and sustainable strategy for enhancing the operational stability of lead-free TPSCs.",
+   "authors": [
+    "Shengnan Zuo",
+    "Kazuki Morita",
+    "Yuan Zhang",
+    "Arman Mahboubi Soufiani",
+    "Thomas W. Gries",
+    "Mailis Lounasvuori",
+    "Fan Hu",
+    "Andrea Cabrera-Espinoza",
+    "Pedro B. Groszewicz",
+    "Yeonghun Yun",
+    "Wentao Liu",
+    "Chiara Frasca",
+    "Yuxin Liu",
+    "Siddha Hill",
+    "Alwani Imanah Rafieh",
+    "Fengshuo Zu",
+    "Martin D. Hager",
+    "Ulrich S. Schubert",
+    "Steve Albrecht",
+    "Norbert Koch",
+    "Klaus Lips",
+    "Meng Li",
+    "Artem Musiienko",
+    "Eva Unger",
+    "Antonio Abate"
+   ],
+   "doi": "10.1021/acsenergylett.6c01792",
+   "keywords": [
+    "perovskite",
+    "perovskite solar cells",
+    "perovskites",
     "solar cells"
    ],
    "type": "article",
@@ -82,7 +452,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Coordination‐Driven Neutralization of SnO 2 Colloids for Suppressing Buried Interfacial Deprotonation in Perovskite Solar Cells",
@@ -107,7 +477,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "High‐Current‐Density and Photo‐Enhanced Direct‐Current Triboelectric Nanogenerator Based on Lead‐Free Air‐Stable Sb 3+ doped CsBi 3 I 10 Perovskite",
@@ -129,7 +499,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Linking Oxygen Evolution Selectivity to Water Oxidation Reaction Order on Hematite Photoanodes by Operando Photoelectrochemical Mass Spectrometry",
@@ -157,7 +527,7 @@
     "photoelectrochemical"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Photoelectrochemical Fiber Cytometry With 60 nm Tip Size for Measuring Serotonin Dynamics at Edges of Cleft and Varicosities",
@@ -182,7 +552,7 @@
     "photoelectrochemical"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Support‐Mediated Electronic Modulation of Ru Sites with Interfacial Water Network Reconstruction Toward High‐Efficiency Water Electrolysis",
@@ -205,7 +575,7 @@
     "water splitting"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Descriptor‐Guided Computational Screening of Non‐Fullerene Acceptor Cores for Organic Solar Cells",
@@ -232,7 +602,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Managing Electron–Phonon Coupling for Single-Photon Upconversion in Perovskite Quantum Dots",
@@ -256,7 +626,7 @@
     "photovoltaics"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Phenoxazine or Phenothiazine: From Heteroatom Substitution to Conformational Change and Interfacial Effects of π-Conjugated Ligands in 2D/3D Perovskite Solar Cells",
@@ -285,7 +655,7 @@
     "solar cells"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Liquid Crystals as Functional Ordered Media for Energy Devices: Bridging Ionics, Electronics, and Photonics",
@@ -499,7 +869,7 @@
     "scintillator"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -610,7 +980,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Oxygen Atoms in Pd Single‐Atom Loaded Cs 2 SnCl 6 Perovskite as Electron–Hole Separated Channel for Efficient Photo‐Assisted Electrocatalytic Oxygen Evolution Reaction",
@@ -1566,7 +1936,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -2141,7 +2511,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -3653,7 +4023,7 @@
    ],
    "type": "comment",
    "oa_type": "erratum",
-   "ab_tried": 5
+   "ab_tried": 6
   },
   {
    "title": "Single‐Particle FRET Probes Heterogeneity in the Ligand Shell of Colloidal Perovskite Quantum Dots",
