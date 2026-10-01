@@ -1,7 +1,7 @@
 {
  "year": "2025",
- "count": 5068,
- "generated": "2026-09-30 01:14 UTC",
+ "count": 5067,
+ "generated": "2026-10-01 01:14 UTC",
  "papers": [
   {
    "title": "Highly Efficient Printed Tin‐Based Perovskite Solar via Crystallization Kinetics Regulation",
@@ -48024,25 +48024,6 @@
     "Mahesh K Gangishetty"
    ],
    "doi": "10.1002/adma.202509959",
-   "keywords": [
-    "perovskite"
-   ],
-   "type": "article",
-   "oa_type": "article"
-  },
-  {
-   "title": "Surface Trap Dynamics and Gamma‐Ray Detection Enhancement in Passivated FAPbBr 3 Perovskite Crystals",
-   "link": "https://doi.org/10.1002/adfm.202425277",
-   "journal": "Advanced Functional Materials",
-   "publisher": "Wiley",
-   "date": "2025-08-22",
-   "abstract": "Abstract Perovskite‐based direct radiation detectors offer a compelling platform for room‐temperature gamma spectroscopy due to their high sensitivity, tunable optoelectronic properties, and compatibility with solution processing. While prior studies on formamidinium lead tribromide (FAPbBr 3 ) have shown that surface passivation mitigates deep trap state impact on the charge collection efficiency (CCE), the influence of surface‐based shallow traps on time‐resolved detector response remains largely unexplored. In this work, a digital signal processing (DSP) method is applied to analyze waveform rising edge dynamics in FAPbBr 3 single‐crystal detectors, identifying prompt and delayed charge collection components. Using the second derivative of the collected charge signal, the onset of shallow trap reemission is isolated, occurring 1.1 µs after carrier generation. Surface passivation suppressed deep trap states, shifting carrier occupancy toward shallower traps and extending the temporal window of delayed charge collection. This delayed contribution correlates with measurable changes in the temporal and amplitude distributions of detector events. By leveraging time‐domain filtering informed by these dynamics, a selective enhancement in signal quality and gamma peak‐to‐Compton ratio (PCR) is achieved, while preserving over 90% of photoelectric events. An improvement in the PCR to 1.80, from the original 1.09, is enabled by focusing on high collection efficiency events corresponding to reemitted carriers in the 1.1 to 3 µs range after the generation event. These results demonstrate a pathway for leveraging shallow trap dynamics to enhance spectral fidelity in time‐resolved perovskite detectors.",
-   "authors": [
-    "Allen Wood",
-    "Mingze Li",
-    "Jinsong Huang"
-   ],
-   "doi": "10.1002/adfm.202425277",
    "keywords": [
     "perovskite"
    ],
