@@ -1,7 +1,7 @@
 {
  "year": "2026",
  "count": 6833,
- "generated": "2026-10-03 10:05 UTC",
+ "generated": "2026-10-03 17:16 UTC",
  "papers": [
   {
    "title": "Overcoming the Resistance Penalty in Large-Bandgap Carbon Nanotube Electronics via Synergistic Interfacial Engineering",
@@ -1050,7 +1050,8 @@
    "keywords": [
     "solar cell"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Wide-bandgap perovskite with homogeneous crystallization and suppressed halogen segregation for efficient perovskite-organic tandem solar cells",
@@ -1087,7 +1088,7 @@
    "journal": "Nature Communications",
    "publisher": "Nature",
    "date": "2026-10-01",
-   "abstract": "",
+   "abstract": "Two-dimensional ferroelectric materials offer opportunities for ultrathin non-volatile electronics, but their development is limited by stringent structural requirements for intrinsic polarity. Here we show that high-entropy engineering can induce switchable polarization in centrosymmetric van der Waals materials. By introducing configurational disorder into layered metal phosphorus trisulfides, we synthesize (MnFeCoNi)1−xCdxPS3 single crystals exhibiting electric-field-induced polar states and ferroelectric-like switching at ±0.5 V, with a transition temperature up to 523 K. Combined calculations and characterizations reveal that polarization originates from electric-field-driven Cd2+ migration enabled by lattice distortions and heterogeneous coordination environments. This migration-mediated mechanism differs from conventional ferroelectric models and enables non-volatile neuromorphic functions, including long-term potentiation and bidirectional weight modulation. This work establishes high-entropy engineering as a strategy for manipulating ion migration dynamics in two-dimensional layered materials, opening a pathway toward emergent ferroelectric-like states beyond the conventional requirement of non-centrosymmetric structures. Two-dimensional ferroelectrics are often constrained by stringent structural requirements for intrinsic polarity. Sun et al. demonstrate that high-entropy engineering enables switchable polarization in centrosymmetric van der Waals materials, offering a potential pathway toward emergent ferroelectric-like states.",
    "authors": [
     "Ning Sun",
     "Xu Han",
@@ -1113,7 +1114,6 @@
     "memristive"
    ],
    "type": "article",
-   "ab_tried": 2,
    "oa_type": "article"
   },
   {
@@ -2008,7 +2008,7 @@
     "quantum dot"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -3393,7 +3393,7 @@
    "journal": "Nature Photonics",
    "publisher": "Nature",
    "date": "2026-09-29",
-   "abstract": "",
+   "abstract": "Recent advancements in high-capacity storage technologies, especially solid-state drives, have made progress by employing multilevel encoding schemes that increase data density. In contrast, optical data storage systems face difficulties in achieving similar multilevel recording due to the limited dynamic range of photo-responsive materials and inherent signal-to-noise challenges. These material-level constraints limit optical encoding fidelity, preventing traditional optical platforms from achieving the rapid capacity growth seen in electronic storage. Here, to address these challenges, we present an approach utilizing giant anti-Stokes phonon-assisted upconversion photoluminescence via in situ laser writing and reading of upconversion carbonized polymer dots. This method enables high-capacity three-dimensional optical data storage with exceptional efficiency. Unlike conventional Stokes photoluminescence media, our approach maximizes near-infrared light utilization, achieving high resolution with ultralow noise. Our experimental demonstration showcases three-dimensional multilayer encoding with 1,024 distinct greyscale levels, reaching an estimated storage capacity of approximately 400 Tb on a DVD-sized disk while maintaining >99.99% reliability. Additionally, our methodology introduces a scalable pathway for extending greyscale encoding beyond 10,000 levels through optimized phonon–photon coupling, surpassing current petabit-scale optical storage capabilities and potentially laying the foundation for next-generation archival storage solutions with unprecedented density and fidelity. Researchers demonstrate high-capacity 3D optical data storage with high efficiency enabled by anti-Stokes phonon-assisted upconversion photoluminescence via in situ laser writing and reading of upconversion carbonized polymer dots.",
    "authors": [
     "Hui Zhang",
     "Simone Lamon",
@@ -3410,7 +3410,6 @@
     "upconversion"
    ],
    "type": "article",
-   "ab_tried": 2,
    "oa_type": "article"
   },
   {
@@ -3769,7 +3768,7 @@
     "co2 reduction"
    ],
    "type": "comment",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "erratum"
   },
   {
@@ -5817,7 +5816,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type": "article"
   },
   {
@@ -9325,7 +9324,7 @@
     "photodiode"
    ],
    "type": "comment",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "erratum"
   },
   {
@@ -12199,7 +12198,7 @@
    ],
    "type": "comment",
    "oa_type": "erratum",
-   "ab_tried": 6
+   "ab_tried": 7
   },
   {
    "title": "Geometric Accommodation of Atom Repulsions Enables Sub‐10 nm Ultra‐Narrowband Multi‐Resonance Blue Emitters",
@@ -14128,7 +14127,7 @@
     "wide band gap"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type": "article"
   },
   {
@@ -14168,7 +14167,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type": "article"
   },
   {
@@ -14216,7 +14215,7 @@
     "circularly polarized"
    ],
    "type": "review",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "review"
   },
   {
@@ -14832,7 +14831,7 @@
     "solar cell"
    ],
    "type": "comment",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type": "erratum"
   },
   {
@@ -15106,7 +15105,7 @@
    "journal": "Nature Photonics",
    "publisher": "Nature",
    "date": "2026-09-15",
-   "abstract": "The introduction of a layer of quantum dots reduces plasmonic losses in organic light-emitting diodes.",
+   "abstract": "The efficiency and operational stability of phosphorescent organic light-emitting diodes are fundamentally limited by photonic losses arising from waveguide and surface plasmon polariton modes. Here we introduce a colloidal quantum dot (QD) interlayer as a plasmonic coupling medium in an inverted phosphorescent organic light-emitting diode architecture to mitigate these losses. Time-resolved photoluminescence measurements reveal an efficient plasmonic coupling between the emissive layer and the QD interlayer, enabling the recovery of energy that would otherwise be dissipated through surface plasmon polariton modes. Three-dimensional finite-difference time-domain simulations further demonstrate that the QD interlayer modifies the local density of optical states, redistributes the trapped optical energy and enhances outcoupling into air modes. Quantitative analysis indicates that the QD interlayer intercepts approximately 30.7% of the energy initially coupled to surface plasmon polariton modes. Consequently, the QD-integrated inverted phosphorescent organic light-emitting diode achieves an external quantum efficiency of 20.95%, representing a 1.3-fold improvement over the reference device (15.67%). These findings establish QD interlayers as an effective and versatile strategy for suppressing plasmonic losses and improving light extraction in high-performance OLEDs. The introduction of a layer of quantum dots reduces plasmonic losses in organic light-emitting diodes.",
    "authors": [
     "Thi Thuy Truong",
     "Hai Truyen Dang",
@@ -15119,7 +15118,6 @@
     "quantum dot"
    ],
    "type": "article",
-   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -16320,7 +16318,7 @@
     "quantum dot"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -17927,7 +17925,7 @@
     "wide band gap"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type_tried": 2
   },
   {
@@ -17987,7 +17985,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 1,
+   "ab_tried": 2,
    "oa_type": "article"
   },
   {
@@ -18726,7 +18724,8 @@
     "lasing"
    ],
    "type": "comment",
-   "oa_type": "erratum"
+   "oa_type": "erratum",
+   "ab_tried": 1
   },
   {
    "title": "Ironing out the wrinkles",
@@ -18757,7 +18756,7 @@
    "journal": "Nature Energy",
    "publisher": "Nature",
    "date": "2026-09-10",
-   "abstract": "Integrated photovoltaics need design innovation and cross-sector collaboration",
+   "abstract": "Nature Energy - Integrated photovoltaics need design innovation and cross-sector collaboration",
    "authors": [
     "Angèle Reinders",
     "Kaining Ding",
@@ -18772,7 +18771,6 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -19002,7 +19000,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 1,
+   "ab_tried": 2,
    "oa_type": "article"
   },
   {
@@ -19028,7 +19026,7 @@
     "photoluminescence"
    ],
    "type": "article",
-   "ab_tried": 1,
+   "ab_tried": 2,
    "oa_type": "article"
   },
   {
@@ -20207,7 +20205,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type": "article"
   },
   {
@@ -21135,7 +21133,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type": "article"
   },
   {
@@ -24944,7 +24942,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type": "article"
   },
   {
@@ -26955,7 +26953,7 @@
     "perovskites"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type": "article"
   },
   {
@@ -27218,7 +27216,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type": "article"
   },
   {
@@ -30596,7 +30594,7 @@
     "solar cells"
    ],
    "type": "comment",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type": "erratum"
   },
   {
@@ -30852,7 +30850,7 @@
     "co2 reduction"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type": "article"
   },
   {
@@ -31109,7 +31107,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type": "article"
   },
   {
@@ -31566,7 +31564,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type": "article"
   },
   {
@@ -32692,7 +32690,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type": "article"
   },
   {
@@ -36762,7 +36760,7 @@
     "chiroptical"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -36818,7 +36816,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type": "preprint"
   },
   {
@@ -37992,7 +37990,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type_tried": 2
   },
   {
@@ -38161,7 +38159,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type_tried": 2
   },
   {
@@ -39372,7 +39370,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 1,
+   "ab_tried": 2,
    "oa_type": "article"
   },
   {
@@ -39913,7 +39911,7 @@
    "journal": "Nature Materials",
    "publisher": "Nature",
    "date": "2026-08-17",
-   "abstract": "A bionic eye system based on a hemispherical tandem retina combines practical resolution, wide-band colour vision, self-powered motion detection and computational efficiency.",
+   "abstract": "Vision sensors are central to machine vision and intelligence. However, conventional planar devices rely on multielement optics and external processors to correct optical aberrations. This approach constrains miniaturization, reduces power efficiency and generally limits the field of view. Curved sensors can provide compact, aberration-corrected imaging, but their resolution has been below practicable levels. Here we present a bioinspired bionic eye system based on a hemispherical tandem artificial retina. This high curvature image sensor achieves a pixel density of 1,905 ppi with 367,500 total pixels, providing full-colour imaging across 300–800 nm and an aberration-corrected field of view exceeding 160°. Furthermore, the tandem design enables in-sensor, event-driven motion detection. Compared with frame-based imaging, this approach reduces the demand for bandwidth by over 99.95% and achieves a motion recognition accuracy of 98.6%. This work addresses the resolution bottleneck of hemispherical sensors and highlights their promise as compact, multifunctional vision applications. A bionic eye system based on a hemispherical tandem retina combines practical resolution, wide-band colour vision, self-powered motion detection and computational efficiency.",
    "authors": [
     "Zhenghao Long",
     "Kaichen Wang",
@@ -39937,7 +39935,6 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -40082,7 +40079,7 @@
    "journal": "Nature",
    "publisher": "Nature",
    "date": "2026-08-17",
-   "abstract": "Defect passivation and optical management of triple-junction solar cells",
+   "abstract": "Perovskite/perovskite/silicon-based triple-junction solar cells are a promising low-cost route to surpass the Shockley–Queisser efficiency limit of single-junction photovoltaics, but their performance is constrained by non-radiative losses in wide-bandgap perovskites and sub-optimal light management across the multilayer stack1–3. Here we introduce a passivating molecule, 2,2′-((perfluoro-1,4-phenylene)bis(oxy))bis(ethan-1-aminium) dibromide (4F-POEABr), that strongly suppresses surface-defect-mediated recombination in wide-bandgap perovskite films. The ammonium-attached and electron-deficient structure of 4F-POEABr provides combined chemical and field-effect passivation, enabling a quasi-Fermi-level splitting of 1.53 eV and an open-circuit voltage of 1.413 V in the wide-bandgap sub-cell. In parallel, systematic interference management is used to optimize the current density of the current-limited middle sub-cell, yielding a gain of 0.5 mA cm−2 using a tailored tin oxide/indium zinc oxide bilayer structure. As a result, the triple-junction devices achieve certified steady-state power conversion efficiencies of 32.22% for a 1.046 cm2 aperture area and 26.97% for a 15.62 cm2 aperture area, with negligible hysteresis. Robust interconnection layers and engineered perovskite interfaces further enhance operational stability and reduce device-to-device variation. This work demonstrates a synergistic strategy for pushing perovskite/silicon triple-junction solar cells towards their theoretical efficiency limits, enabling scalable, high-performance photovoltaic technologies. A passivating molecule and optimized light management enable perovskite/perovskite/silicon triple-junction solar cells to achieve certified efficiencies up to 32.22%, advancing scalable high-performance photovoltaics.",
    "authors": [
     "Ye Xu",
     "Zhijie Wang",
@@ -40128,7 +40125,6 @@
     "triple-junction"
    ],
    "type": "article",
-   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -40970,7 +40966,7 @@
     "solar module"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type_tried": 2
   },
   {
@@ -41478,7 +41474,7 @@
    "journal": "Nature Energy",
    "publisher": "Nature",
    "date": "2026-08-14",
-   "abstract": "Author Correction: High-performance perovskite/silicon tandem solar cells enabled by multifunctional titanium oxynitride recombination layers",
+   "abstract": "Nature Energy - Author Correction: High-performance perovskite/silicon tandem solar cells enabled by multifunctional titanium oxynitride recombination layers",
    "authors": [
     "Fengxian Cao",
     "Yao Li",
@@ -41516,7 +41512,6 @@
     "tandem"
    ],
    "type": "comment",
-   "ab_tried": 6,
    "oa_type": "erratum"
   },
   {
@@ -41677,7 +41672,7 @@
     "wide band gap"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type": "article"
   },
   {
@@ -42544,7 +42539,8 @@
     "circularly polarized luminescence"
    ],
    "type": "comment",
-   "oa_type": "erratum"
+   "oa_type": "erratum",
+   "ab_tried": 1
   },
   {
    "title": "Analyte‐Gated Plasmonic Hot‐Carrier Current for Ultrasensitive Biosensing",
@@ -42943,7 +42939,7 @@
    "journal": "Nature",
    "publisher": "Nature",
    "date": "2026-08-12",
-   "abstract": "Lead carboxylates passivation for meter-scale perovskite solar modules",
+   "abstract": "Environmentally sensitive ammonium halides have emerged as indispensable surface passivators for perovskite solar cells, demonstrating broadly effective performance at the laboratory scale1–4. However, the sensitivity of ammonium halides to humidity typically necessitates operation under an inert atmosphere5. Coupled with the heterogeneous distribution of passivators during large-area slot-die coating, applying such surface treatment techniques to the fabrication of metre-scale perovskite solar modules (PSMs) under ambient conditions remains challenging. Here we instead use chemically stable lead carboxylates as passivators on perovskite films engineered to have a naturally formed formamidinium iodide (FAI)-enriched surface by means of a high-saturated vapour pressure (SVP) solvent system (2-methoxyethanol (2-Me), 1,3-dioxolane (DOL) and dimethyl sulfoxide (DMSO)). By treating the tailored surface with lead dioleate (Pb(OA)2) to enhance carrier transport and surface passivation, we fabricated PSMs that achieved certified efficiencies of 24.0% (aperture area of 810 cm2) and 22.0% (total area 0.72 m2) and passed all International Electrotechnical Commission (IEC) 61215 reliability tests. These results represent the highest reported performance for scalable, industrially viable perovskite photovoltaics (PVs). Chemically stable lead carboxylates are used as surface passivators for engineered perovskite films to manufacture metre-scale solar modules that can achieve record-high certified efficiencies, as well as passing all IEC 61215 reliability tests.",
    "authors": [
     "Dongdong Xu",
     "Ke Xiao",
@@ -42979,7 +42975,6 @@
     "solar module"
    ],
    "type": "article",
-   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -43516,7 +43511,7 @@
     "tandem"
    ],
    "type": "comment",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type": "erratum"
   },
   {
@@ -43561,7 +43556,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type": "article"
   },
   {
@@ -43703,7 +43698,7 @@
     "solar cells"
    ],
    "type": "comment",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type": "erratum"
   },
   {
@@ -44674,7 +44669,7 @@
    "journal": "Nature",
    "publisher": "Nature",
    "date": "2026-08-10",
-   "abstract": "Author Correction: Durable all-inorganic perovskite tandem photovoltaics",
+   "abstract": "Nature - Author Correction: Durable all-inorganic perovskite tandem photovoltaics",
    "authors": [
     "Chenghao Duan",
     "Kaicheng Zhang",
@@ -44701,7 +44696,6 @@
     "tandem"
    ],
    "type": "comment",
-   "ab_tried": 6,
    "oa_type": "erratum"
   },
   {
@@ -45945,7 +45939,7 @@
     "thin-film transistor"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -46567,7 +46561,7 @@
     "quantum dot"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -47083,7 +47077,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type_tried": 2
   },
   {
@@ -47982,7 +47976,7 @@
     "solar cells"
    ],
    "type": "comment",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type": "erratum"
   },
   {
@@ -48015,7 +48009,7 @@
     "photoelectrochemical"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type_tried": 2
   },
   {
@@ -48478,7 +48472,7 @@
    "journal": "Nature",
    "publisher": "Nature",
    "date": "2026-08-05",
-   "abstract": "Thermally evaporated perovskite/silicon tandems via formamidinium eutectic",
+   "abstract": "Solution processing remains the dominant route to high-performance perovskite/silicon tandems, but it remains challenging to simultaneously achieve industrial scalability and long-term reliability1–3. Thermal evaporation is more industrially viable, yet it has not been successfully demonstrated for large-area perovskite/silicon tandems, largely due to the thermal degradation of formamidinium iodide (FAI) during high-temperature evaporation. Here we synthesize a formamidinium-based eutectic that lowers the effective evaporation temperature of FAI by an average of 36 °C—below its degradation threshold—thereby enabling stable FAI evaporation without thermal degradation. As a result, the evaporated perovskite films have enhanced crystallinity and atomic-scale compositional homogeneity. Sequentially evaporated perovskite/silicon tandems achieve a steady-state efficiency of 31.5% (1 cm2). Benefiting from the uniformity of evaporation, we further demonstrate a thermally evaporated large-area perovskite/silicon tandem on a commercial half-cut G12 wafer, delivering a steady-state efficiency of 30% (200 cm2). Scaling the device area from 1 cm2 to 200 cm2 incurs only a 3.99% relative efficiency loss, representing, to our knowledge, the lowest reported efficiency penalty for area scaling in perovskite-based tandems. The eutectic-based tandem retains 95% of its initial efficiency after 2,000 h of damp-heat ageing (85 °C and 85% relative humidity) and has negligible power loss after 2 months of real-world outdoor operation. A formamidinium-based eutectic enables low-temperature perovskite evaporation, producing efficient, scalable and durable perovskite/silicon tandem solar cells with minimal efficiency loss over large areas.",
    "authors": [
     "Chao Luo",
     "Rui He",
@@ -48528,7 +48522,6 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -50777,7 +50770,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type": "article"
   },
   {
@@ -50808,7 +50801,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type": "article"
   },
   {
@@ -50817,7 +50810,7 @@
    "journal": "Joule",
    "publisher": "Cell",
    "date": "2026-08-03",
-   "abstract": "",
+   "abstract": "Monolithic perovskite/silicon tandem solar cells require fast, inline-capable metrology to control subcell current matching during production. Here, we present an electrical transient method that extracts both subcell photocurrents from a single measurement on a finished tandem within milliseconds, without spectral modification. The approach exploits the silicon subcell’s capacitive charge reservoir and millisecond carrier lifetime—a brief forward pre-bias charges the reservoir, and a voltage step triggers a current overshoot. This overshoot reveals a perovskite-limited plateau followed by steady-state silicon limitation upon reservoir depletion, yielding both currents from one transient. An analytical model and Sentaurus TCAD simulations quantitatively predict the transient behavior. Validation on laboratory-scale and full-size industrial cells shows excellent agreement with spectrometric characterization while reducing measurement time from hours to milliseconds. The method integrates into standard high-throughput inline reverse j - V routines, minimally perturbs the perovskite subcell, and extends to other multijunction architectures combining direct and indirect semiconductors.",
    "authors": [
     "Christoph Messmer",
     "Alexander J. Bett",
@@ -50833,7 +50826,6 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -50883,7 +50875,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 1,
+   "ab_tried": 2,
    "oa_type": "article"
   },
   {
@@ -52312,7 +52304,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 1,
+   "ab_tried": 2,
    "oa_type": "article"
   },
   {
@@ -52825,7 +52817,7 @@
     "neuromorphic"
    ],
    "type": "comment",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "erratum"
   },
   {
@@ -53223,7 +53215,7 @@
     "solar cells"
    ],
    "type": "comment",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type": "editorial"
   },
   {
@@ -53358,7 +53350,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type_tried": 2
   },
   {
@@ -53390,7 +53382,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 6,
+   "ab_tried": 7,
    "oa_type_tried": 2
   },
   {
@@ -55142,7 +55134,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 7,
+   "ab_tried": 8,
    "oa_type_tried": 2
   },
   {
@@ -55317,7 +55309,7 @@
     "wide bandgap"
    ],
    "type": "article",
-   "ab_tried": 7,
+   "ab_tried": 8,
    "oa_type_tried": 2
   },
   {
@@ -55647,7 +55639,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 7,
+   "ab_tried": 8,
    "oa_type": "article"
   },
   {
@@ -55673,7 +55665,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 7,
+   "ab_tried": 8,
    "oa_type": "article"
   },
   {
@@ -55702,7 +55694,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 7,
+   "ab_tried": 8,
    "oa_type": "article"
   },
   {
@@ -58307,7 +58299,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 7,
+   "ab_tried": 8,
    "oa_type": "article"
   },
   {
@@ -58338,7 +58330,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 7,
+   "ab_tried": 8,
    "oa_type": "article"
   },
   {
@@ -59270,7 +59262,7 @@
     "co2 electroreduction"
    ],
    "type": "article",
-   "ab_tried": 7,
+   "ab_tried": 8,
    "oa_type_tried": 2
   },
   {
@@ -59491,7 +59483,7 @@
     "solar module"
    ],
    "type": "article",
-   "ab_tried": 7,
+   "ab_tried": 8,
    "oa_type_tried": 2
   },
   {
@@ -59557,7 +59549,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 1,
+   "ab_tried": 2,
    "oa_type": "article"
   },
   {
@@ -60588,7 +60580,7 @@
    ],
    "type": "comment",
    "oa_type": "erratum",
-   "ab_tried": 6
+   "ab_tried": 7
   },
   {
    "title": "High-resolution full-colour displays from cracking-assisted transfer printing of quantum dot light-emitting diodes",
@@ -64033,7 +64025,7 @@
    "journal": "ACS Energy Letters",
    "publisher": "ACS",
    "date": "2026-07-18",
-   "abstract": "",
+   "abstract": "sponsorship: The authors are grateful to Fukamatsugumi Co., Ltd., Sendai, Japan, for financial support to the Endowed Research Laboratory of Dimensional Integrated Nanomaterials, Graduate School of Science, Tohoku University. The authors are indebted to Mr. Fuyuki Sakamoto at the Institute for Materials Research, Tohoku University, for conducting ICP-MS/OES chemical analysis. H.F. would like to thank Mr. Katsuo Morita at MSH Systems, Inc. for providing access to a NIR imaging camera. H.F. also acknowledges Prof. Hiroshi Uji-i at Hokkaido University and Associate Prof. Yutaka Shibata at Tohoku University for their technical supports. J.H. and E.D. acknowledge funding from the Research Foundation-Flanders (FWO, grant number G0AHQ25N). E.D. acknowledges funding from the KU Leuven Internal Funds (grant numbers C14/23/090) and the European Union (ERC Starting Grant, 101117274 X-PECT). However, the views and opinions expressed are those of the authors only and do not necessarily reflect those of the European Union or the European Research Council. Neither the European Union nor the granting authority can be held responsible for them. (KU Leuven|C14/23/090, Fonds Wetenschappelijk Onderzoek|G0AHQ25N, European Commission|101117274 X-PECT)",
    "authors": [
     "Hiroshi Fukumura",
     "Yasuyuki Araki",
@@ -64053,7 +64045,6 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 7,
    "oa_type": "article"
   },
   {
@@ -65425,7 +65416,7 @@
    ],
    "type": "article",
    "oa_type_tried": 2,
-   "ab_tried": 7
+   "ab_tried": 8
   },
   {
    "title": "Ultrafast non-volatile charge storage and mid-infrared photoluminescence in LuminoMem tellurium devices for in-memory computing",
@@ -65933,7 +65924,7 @@
     "memristor"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -66041,7 +66032,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 7,
+   "ab_tried": 8,
    "oa_type": "article"
   },
   {
@@ -67100,7 +67091,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 7,
+   "ab_tried": 8,
    "oa_type": "article"
   },
   {
@@ -67134,7 +67125,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 7,
+   "ab_tried": 8,
    "oa_type": "article"
   },
   {
@@ -70674,7 +70665,7 @@
     "field-effect transistor"
    ],
    "type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Robust Interlayer Exciton Interplay in a Twisted van der Waals Heterotrilayer on a Broadband Bragg Reflector up to Room Temperature",
@@ -71163,7 +71154,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 7,
+   "ab_tried": 8,
    "oa_type": "article"
   },
   {
@@ -72093,7 +72084,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 7,
+   "ab_tried": 8,
    "oa_type": "article"
   },
   {
@@ -72771,7 +72762,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 7,
+   "ab_tried": 8,
    "oa_type": "article"
   },
   {
@@ -72807,7 +72798,7 @@
     "solar cells"
    ],
    "type": "article",
-   "ab_tried": 7,
+   "ab_tried": 8,
    "oa_type": "article"
   },
   {
@@ -72881,7 +72872,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 7,
+   "ab_tried": 8,
    "oa_type": "article"
   },
   {
@@ -75371,7 +75362,7 @@
    ],
    "type": "comment",
    "oa_type": "erratum",
-   "ab_tried": 7
+   "ab_tried": 8
   },
   {
    "title": "Single-crystal-like polymer semiconductors via self-templated gradient assembly for ultrahigh charge carrier mobility",
@@ -76643,7 +76634,7 @@
     "upconversion"
    ],
    "type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Acceptor Backbone Cationization via B ← N Functionalization Enables High‐Performance Porous n‐Type Organic Mixed Ionic‐Electronic Conductors for Biosensors",
@@ -76786,7 +76777,7 @@
     "memristor"
    ],
    "type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Nanoscale Compositional and Strain Gradients Enable High‐Speed and Amplitude‐Resolved Pyroelectric Sensing",
@@ -77655,7 +77646,8 @@
    "keywords": [
     "memristor"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Scalable ampere-level CO2 electroreduction to ethylene enabled by descriptor-guided oxygen affinity engineering",
@@ -77760,7 +77752,7 @@
     "quantum dot"
    ],
    "type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Correction to “Unraveling the Effects of Fe Incorporation on High-Performance Water-Splitting Photoanodes”",
@@ -77789,7 +77781,7 @@
     "water-splitting"
    ],
    "type": "comment",
-   "ab_tried": 7,
+   "ab_tried": 8,
    "oa_type": "erratum"
   },
   {
@@ -80309,7 +80301,7 @@
     "perovskite"
    ],
    "type": "comment",
-   "ab_tried": 7,
+   "ab_tried": 8,
    "oa_type": "erratum"
   },
   {
@@ -80816,7 +80808,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 7,
+   "ab_tried": 8,
    "oa_type": "article"
   },
   {
@@ -81505,7 +81497,7 @@
     "thin-film transistor"
    ],
    "type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Dual‐Functional Ionic Liquid Additive Enables High‐Performance Perovskite Solar Cells by Suppressing Ion Migration and Passivating Defects",
@@ -82474,7 +82466,7 @@
     "co2 reduction"
    ],
    "type": "comment",
-   "ab_tried": 7,
+   "ab_tried": 8,
    "oa_type": "erratum"
   },
   {
@@ -82506,7 +82498,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 7,
+   "ab_tried": 8,
    "oa_type": "article"
   },
   {
@@ -82529,7 +82521,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 7,
+   "ab_tried": 8,
    "oa_type": "article"
   },
   {
@@ -82583,7 +82575,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 7,
+   "ab_tried": 8,
    "oa_type": "article"
   },
   {
@@ -83024,7 +83016,8 @@
    "keywords": [
     "quantum dot"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Synthesis of a Butterfly‐Shaped π‐Extended Dibenzazepine and Its Application in Interfacial Engineering for High‐Performance Perovskite Solar Cells",
@@ -83610,7 +83603,7 @@
     "memristor"
    ],
    "type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Design of Well‐Defined Meso‐ or Macroporous Carbon Nitride with an Amorphous Framework via Perovskite Fluoride Templating",
@@ -86602,7 +86595,7 @@
     "solar cells"
    ],
    "type": "comment",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "erratum"
   },
   {
@@ -86868,7 +86861,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -86905,7 +86898,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -88259,7 +88252,7 @@
     "charge transport"
    ],
    "type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Self-Assembled Monolayers at Photovoltaic Interfaces: Unveiling Structure–Property Relationships to Applications in Perovskite and Organic Solar Cells",
@@ -89771,7 +89764,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -90349,7 +90342,7 @@
     "tandem"
    ],
    "type": "comment",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "erratum"
   },
   {
@@ -91846,7 +91839,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -105472,7 +105465,8 @@
    "keywords": [
     "quantum dot"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Structural exciton localization drives efficient solid-state sensitized triplet fusion upconversion",
@@ -117230,7 +117224,8 @@
    "keywords": [
     "circularly polarized"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Oxygen‐Vacancy‐Engineered Y 2 O 3 /CeO 2 Nanobrush Superlattices via Laser Heteroepitaxy: Toward High‐Performance Memristors",
@@ -117827,7 +117822,8 @@
    "keywords": [
     "ferroelectric"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "From Proximity to Contact Perception of Piezoelectric Extended-Gate Amorphous Oxide Thin Film Transistors",
@@ -138618,7 +138614,7 @@
     "quantum dot"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Ultrafast Electron Transfer at BiVO 4 ‐VO x Z‐Scheme Interface for Enhanced Selective Oxidation of Glycerol to Dihydroxyacetone",
@@ -142169,7 +142165,8 @@
    "keywords": [
     "neuromorphic"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Significant stability enhancement in photocatalytic CO2 reduction via flow-driven strategies",
@@ -143122,7 +143119,7 @@
     "scintillator"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Bifunctional D−π–A Ligand Directs Self-Organized Interface Passivation for Efficient Perovskite Photovoltaics",
@@ -143858,7 +143855,8 @@
    "keywords": [
     "field-effect transistor"
    ],
-   "type": "review"
+   "type": "review",
+   "ab_tried": 1
   },
   {
    "title": "Synergistic Ion Engineering for Wide-Bandgap Perovskite Enables Perovskite–Organic Tandem Solar Cells with a Record Certified Voltage",
@@ -144054,7 +144052,8 @@
    "keywords": [
     "neuromorphic"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Robust Strong Coupling in Both Monolayer and Bilayer WS 2 with Plasmonic Nanocavities Revealed by Scattering and Photoluminescence Spectroscopy",
@@ -150326,7 +150325,7 @@
     "organic semiconductor"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Enhanced Green Hydrogen Generation via Photocatalytic Water Splitting Using V-Doped Ti-Squarate MOFs",
@@ -152585,7 +152584,8 @@
    "keywords": [
     "memristor"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "The dynamic distribution of genetic tandem amplifications in a heteroresistant Escherichia coli population revealed by ultra-deep long read sequencing",
@@ -152740,7 +152740,8 @@
     "open-circuit voltage",
     "solar cell"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Reconfiguring Band‐Edge States in 2D Metal Halide Perovskites via Electron‐Donating and ‐Withdrawing Organic Cations",
@@ -156340,7 +156341,7 @@
     "nanocrystal"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "In situ inorganic passivation strategy for high-performance perovskite solar cells",
@@ -161884,7 +161885,8 @@
     "perovskite",
     "solar cell"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Selective Upcycling of Polycarbonate Waste to Cyclohexanol via RuLa Dual‐Atom Catalysis",
@@ -164751,7 +164753,7 @@
     "organic semiconductor"
    ],
    "type": "article",
-   "ab_tried": 1
+   "ab_tried": 2
   },
   {
    "title": "Ultrafast Carrier Self-Trapping Driven by Strong Exciton–Phonon Coupling in 2D MA 3 Bi 2 I 6 Cl 3 Perovskite",
@@ -165760,7 +165762,8 @@
     "solar cell",
     "triple-junction"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Electrocatalytic Nitrate Reduction to Hydroxylamine: Breaking the Activity‐Selectivity Trade‐Off by Designer Bifunctional Metal‐Organic Frameworks",
@@ -169016,7 +169019,8 @@
    "keywords": [
     "ferroelectric"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Crystallization suppression of mixed-halide intermediates for perovskite/Cu(In,Ga)Se2 tandem solar cells with improved efficiency",
@@ -180424,7 +180428,8 @@
     "perovskite",
     "solar cell"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Perovskite Fluoride Anode Stabilized via Ligand‐Field Engineering for High‐Performance Lithium‐Ion Batteries",
@@ -181631,7 +181636,8 @@
     "solar cell",
     "tandem"
    ],
-   "type": "article"
+   "type": "article",
+   "ab_tried": 1
   },
   {
    "title": "Tetraaza[7]–[15]helicenes Synthesized by Two‐Step Strategy: Length‐Controlled Chiral π‐Systems Exhibiting Amplified Circularly Polarized Luminescence",
