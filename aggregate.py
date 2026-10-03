@@ -27,10 +27,25 @@ def clean_text(value):
     return text
 
 
+# A space, hyphen, en dash or em dash are interchangeable, so "wide bandgap"
+# also finds "wide-bandgap" and "wide–bandgap".
+_KW_SEP = r"[\s\u2010-\u2015-]+"
+
+
 def _kw_pattern(keyword):
+    """Whole-word / phrase regex for a keyword.
+
+    Tolerates a trailing plural "s" and interchangeable space/hyphen/dash, so one
+    entry covers "photodetector"/"photodetectors" and "thin-film transistor"/
+    "thin film transistors". Alphabetic word boundaries still apply, so
+    "ion migration" cannot match inside "champion".
+    """
     kw = re.escape(keyword.lower().strip())
-    kw = kw.replace(r"\ ", r"\s+")
-    return re.compile(r"(?<![a-z])" + kw + r"(?![a-z])", re.IGNORECASE)
+    # Sentinel first: the separator class itself contains "\-", so replacing
+    # escaped hyphens directly afterwards would corrupt it.
+    kw = kw.replace(r"\ ", "\x00").replace(r"\-", "\x00")
+    kw = kw.replace("\x00", _KW_SEP)
+    return re.compile(r"(?<![a-z])" + kw + r"s?(?![a-z])", re.IGNORECASE)
 
 
 _KW_PATTERNS = [(k, _kw_pattern(k)) for k in KEYWORDS]
