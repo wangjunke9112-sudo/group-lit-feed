@@ -76,40 +76,85 @@ FEEDS = [
 # Grouped only for readability -- matching treats them as one flat list.
 # ---------------------------------------------------------------------------
 KEYWORDS = [
-    # --- core material ---
-    "perovskite", "perovskites",
-    "halide perovskite", "metal halide perovskite",
-    # --- device / architecture ---
-    "perovskite solar cell", "perovskite solar cells",
-    "solar cell", "solar cells", "photovoltaic", "photovoltaics",
-    "tandem", "multijunction", "multi-junction", "triple-junction", "triple junction",
-    "wide-bandgap", "wide bandgap", "narrow-bandgap", "narrow bandgap",
-    "single-junction", "single junction",
+    # --- core materials ---
+    "perovskite", "halide perovskite", "metal halide perovskite",
+    "lead halide", "tin halide", "metal halide", "double perovskite",
+    "2D perovskite", "quasi-2D perovskite", "Ruddlesden-Popper", "Dion-Jacobson",
+    "quantum dot", "nanocrystal", "chalcogenide", "organic semiconductor",
+    "wide bandgap", "wide band gap", "narrow bandgap", "narrow band gap",
+    # --- photovoltaics / tandems ---
+    "solar cell", "photovoltaic", "tandem", "multijunction", "multi-junction",
+    "triple-junction", "single-junction", "solar module",
+    "indoor photovoltaic", "indoor pv", "space photovoltaic", "space PV"
+    # --- light emission / LEDs / lasing ---
+    "light-emitting", "light-emitting diode", "electroluminescence",
+    "electroluminescent", "photoluminescence", "photoluminescence quantum yield",
+    "plqy", "radiative recombination", "lasing", "laser diode",
+    "amplified spontaneous emission", "optical gain",
+    "phosphor", "upconversion", "down-conversion", "colour conversion",
+    # --- chirality / CPL ---
+    "circularly polarized luminescence", "circularly polarised luminescence",
+    "circularly polarized", "circularly polarised",
+    "chiral perovskite", "chiral semiconductor", "chiroptical",
+    "spin-polarized", "spin-polarised",
+    # --- detectors ---
+    "photodetector", "photodiode", "photoconductor", "image sensor",
+    "x-ray detection", "x-ray detector", "x-ray imaging", "gamma-ray detector",
+    "radiation detector", "scintillator", "photon counting", "photovoltage",
+    # --- sensors ---
+    "gas sensor", "chemical sensor", "humidity sensor", "pressure sensor",
+    "strain sensor", "temperature sensor", "optical sensor", "photonic sensor",
+    "wearable sensor", "flexible sensor", "sensor array", "sensing platform",
+    "ion-sensitive", "biosensor",
+    # --- electronics / neuromorphic ---
+    "thin-film transistor", "field-effect transistor", "memristor", "memristive",
+    "artificial synapse", "neuromorphic", "resistive switching",
+    "ferroelectric", "piezoelectric", "flexible electronic",
     # --- loss / stability physics ---
     "ion migration", "halide segregation", "phase segregation",
     "open-circuit voltage", "non-radiative recombination",
-    # --- applications ---
-    "water-splitting", "water splitting", "photoelectrochemical",
-    "indoor pv", "indoor photovoltaic",
+    "quasi-fermi level splitting", "defect passivation", "trap density",
+    "charge transport", "carrier mobility", "carrier lifetime",
+    "energy level alignment", "band alignment", "operational stability",
+    # --- solar fuels ---
+    "water splitting", "photoelectrochemical", "solar fuel",
     "co2 reduction", "co2 electroreduction",
-    "x-ray detection", "x-ray detector", "scintillator", "radiation detector",
-    "photodetector",
-    "light-emitting", "perovskite led",
 ]
 
 # ---------------------------------------------------------------------------
 # 3. SETTINGS
 # ---------------------------------------------------------------------------
 SETTINGS = {
-    # If True, a paper must ALSO mention a perovskite-family term to be kept.
-    # This sharply cuts noise from broad journals (Nature, Science, JACS,
-    # Angewandte) where "tandem", "photovoltaic" or "CO2 reduction" alone
-    # would pull in silicon, organic, or biology papers.
-    # If False, ANY keyword above is enough (maximum recall).
-    "require_perovskite": False,
+    # Relevance is a two-step test:
+    #   1. the paper must match a term in KEYWORDS (what it's about), AND
+    #   2. it must mention one of the families/devices below (what it's made of).
+    # Step 2 is what lets KEYWORDS stay broad (sensors, LEDs, CPL, electronics)
+    # without pulling in tandem mass spectrometry, glucose biosensors or bulk
+    # ceramics. It is NOT perovskite-only: non-perovskite device work (organic
+    # LEDs, quantum-dot photodiodes, oxide memristors, silicon tandems) passes.
+    # Set to False for maximum recall at the cost of a lot of off-topic noise.
+    "require_perovskite": True,
 
-    # Terms that count as "perovskite-family" for the option above.
-    "perovskite_terms": ["perovskite", "perovskites"],
+    # The gate list. Two kinds of entry:
+    #   - material families (perovskite, quantum dot, silicon, chalcogenide...)
+    #   - device terms specific enough to stand on their own (photodetector,
+    #     memristor, light-emitting...), which are self-gating by design.
+    # Generic terms deliberately NOT here -- biosensor, ferroelectric,
+    # piezoelectric, sensor array, tandem -- must co-occur with something above.
+    # Widening scope later = add one line here.
+    "perovskite_terms": [
+        # material families -- these gate the generic keywords
+        "perovskite", "halide", "quantum dot", "nanocrystal", "chalcogenide",
+        "semiconductor", "organic semiconductor", "silicon", "thin film",
+        "2D material", "van der Waals", "optoelectronic",
+        # devices specific enough to stand alone (self-gating)
+        "solar cell", "photovoltaic", "light-emitting",
+        "electroluminescence", "electroluminescent",
+        "photoluminescence", "photoluminescent",
+        "photodetector", "photodiode", "scintillator", "x-ray detector",
+        "transistor", "memristor", "neuromorphic", "lasing",
+        "circularly polarized", "circularly polarised", "chiroptical",
+    ],
 
     # Keep every paper published on/after this date. Nothing is auto-deleted.
     # This is also the date the historical backfill (backfill.py) reaches back to.
@@ -118,6 +163,7 @@ SETTINGS = {
     # Crossref is used for the one-time historical backfill. Putting a real email
     # here joins Crossref's faster "polite pool" and is good etiquette. Optional.
     "crossref_mailto": "wangjunke9112@gmail.com",
+
     # Max characters of abstract to store per paper (keeps the data files small).
     "abstract_max_chars": 2400,
 
