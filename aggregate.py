@@ -897,6 +897,13 @@ def _better_record(old, new):
         return old
     merged = dict(old)
     merged.update(new)
+    # Keep the date already stored. A re-fetch of the same paper (backfill or
+    # the Crossref sweep) often carries a DIFFERENT date -- frequently the issue
+    # date rather than the online-first date the feed gave us. Letting it
+    # overwrite silently shifts papers in and out of recency windows, so the
+    # first date we recorded wins unless we never had one.
+    if old.get("date"):
+        merged["date"] = old["date"]
     old_abs = old.get("abstract") or ""
     new_abs = new.get("abstract") or ""
     if len(old_abs) > len(new_abs):
