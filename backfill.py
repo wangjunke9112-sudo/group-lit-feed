@@ -1,25 +1,10 @@
 #!/usr/bin/env python3
 """
 backfill.py -- one-time historical fill of the archive from Crossref.
-
-Why this exists
----------------
-RSS feeds only carry recent papers, so the daily job (aggregate.py) can't reach
-back in time. Crossref indexes the full back-catalogue of every journal, so this
-script pulls everything from SETTINGS["start_date"] to today, filters it with the
-SAME keyword rules as the daily job, and merges the hits into the same per-year
-files (data/papers-YYYY.json). Run it once; the daily job takes over from there.
-
-Usage
------
-    python backfill.py --verify-issns     # check every ISSN resolves correctly
-    python backfill.py --dry-run          # fetch + filter, report counts, write nothing
-    python backfill.py                     # full backfill, writes data files
-
-It is safe to re-run: results merge and de-duplicate against what's already there.
 """
 
 import argparse
+import datetime as dt
 import html
 import re
 import sys
@@ -30,17 +15,14 @@ import urllib.parse
 import requests
 
 from feeds import ISSNS, CORE_QUERIES, SETTINGS
-# reuse the daily job's helpers so filtering/merging behave identically
 from aggregate import (clean_text, is_relevant, merge, load_archive,
                        write_archive, _key, pick_crossref_date, classify_type,
                        fetch_abstract, _better_record)
 
 CROSSREF = "https://api.crossref.org/works"
-WORK = "https://api.crossref.org/works/{}"   # single-DOI lookup (no `select`, full record)
 JOURNALS = "https://api.crossref.org/journals/{}"
 
-# reverse map: every ISSN -> (journal name, publisher)
-_PUB_OF = {}  # name -> publisher, filled from feeds.FEEDS
+_PUB_OF = {}
 from feeds import FEEDS as _FEEDS
 for _n, _p, _u in _FEEDS:
     _PUB_OF[_n] = _p
@@ -48,8 +30,6 @@ ISSN_TO_JOURNAL = {}
 for _name, _issns in ISSNS.items():
     for _i in _issns:
         ISSN_TO_JOURNAL[_i] = (_name, _PUB_OF.get(_name, ""))
-
-ALL_ISSNS = sorted({i for v in ISSNS.values() for i in v})
 
 
 def _headers():
@@ -63,14 +43,6 @@ def _headers():
 def _mailto_param():
     mail = SETTINGS.get("crossref_mailto", "")
     return {"mailto": mail} if mail and "example.com" not in mail else {}
-
-
-# ---------------------------------------------------------------------------
-# Crossref record -> our flat schema
-# ---------------------------------------------------------------------------
-def _date(item):
-    """Most precise ISO date for a Crossref item (shared logic, see aggregate.py)."""
-    return pick_crossref_date(item)
 
 
 def _journal_and_pub(item):
@@ -87,32 +59,27 @@ def normalise(item):
     doi = (item.get("DOI") or "").strip()
     if not title or not doi:
         return None
-
     abstract = clean_text(item.get("abstract", ""))
     cap = SETTINGS.get("abstract_max_chars", 1600)
     if len(abstract) > cap:
         abstract = abstract[:cap].rsplit(" ", 1)[0] + "\u2026"
-
     keep, hits = is_relevant(title + " \n " + abstract)
     if not keep:
         return None
-
     journal, publisher = _journal_and_pub(item)
     authors = []
     for a in item.get("author", []) or []:
         name = " ".join(p for p in (a.get("given"), a.get("family")) if p)
         if name:
             authors.append(name)
-
     sub = item.get("subtype")
     hint = (item.get("type", "") or "") + " " + (sub if isinstance(sub, str) else " ".join(sub or []))
-
     return {
         "title": title,
         "link": item.get("URL") or f"https://doi.org/{doi}",
         "journal": journal,
         "publisher": publisher,
-        "date": _date(item),
+        "date": pick_crossref_date(item),
         "abstract": abstract,
         "authors": authors,
         "doi": doi,
@@ -121,17 +88,10 @@ def normalise(item):
     }
 
 
-# ---------------------------------------------------------------------------
-# Crossref querying (cursor pagination)
-# ---------------------------------------------------------------------------
-# Crossref `select` only accepts specific field names; `type`/`subtype` are NOT
-# selectable and 400 the whole request. Keep to the known-good list. (Paper type
-# is still derived from title + journal in classify_type.)
 SELECT = "DOI,title,author,issued,published,published-online,published-print,created,container-title,ISSN,URL,abstract"
 
 
 def _get_with_retry(params, label, tries=5):
-    """GET Crossref, backing off on 429 (Too Many Requests) and transient errors."""
     delay = 5
     for attempt in range(tries):
         try:
@@ -144,41 +104,23 @@ def _get_with_retry(params, label, tries=5):
             return r
         except requests.HTTPError:
             raise
-        except Exception as exc:  # transient network error -> brief backoff
+        except Exception as exc:
             print(f"      .. {type(exc).__name__} on {label}; retry in {delay}s")
             time.sleep(delay); delay = min(delay * 2, 60)
     return None
 
 
 def _enumerate_issn(issn, start_date, on_gap, progress=None):
-    """Page through EVERY Crossref record for one ISSN in the window.
-
-    No `query.bibliographic` seed term: relevance is decided locally by
-    is_relevant(), not by Crossref's relevance ranking. A seed-term search only
-    returns what the ranking surfaces, so papers it does not rank highly were
-    silently never seen. Enumeration removes that dependency entirely.
-
-    Both date filters are used and unioned: publishers stamp dates
-    inconsistently, and RSC records in particular fall outside `from-pub-date`,
-    so a pub-date-only query returns nothing for them.
-
-    A request that cannot be recovered calls on_gap(...) instead of silently
-    truncating the stream, so incomplete coverage is reported, not hidden.
-    """
     kept, seen_dois = [], set()
     scanned = 0
     for dfilter in ("from-created-date", "from-pub-date"):
-        params = {
-            "filter": f"{dfilter}:{start_date},issn:{issn}",
-            "rows": 1000,
-            "cursor": "*",
-            "select": SELECT,
-        }
+        params = {"filter": f"{dfilter}:{start_date},issn:{issn}",
+                  "rows": 1000, "cursor": "*", "select": SELECT}
         params.update(_mailto_param())
         while True:
             try:
                 r = _get_with_retry(params, f"{issn}/{dfilter}")
-            except Exception as exc:  # noqa: BLE001
+            except Exception as exc:
                 on_gap(issn, dfilter, f"{type(exc).__name__}: {exc}")
                 break
             if r is None:
@@ -186,7 +128,7 @@ def _enumerate_issn(issn, start_date, on_gap, progress=None):
                 break
             try:
                 msg = r.json().get("message", {})
-            except Exception as exc:  # noqa: BLE001
+            except Exception as exc:
                 on_gap(issn, dfilter, f"bad JSON: {type(exc).__name__}")
                 break
             items = msg.get("items", [])
@@ -199,7 +141,7 @@ def _enumerate_issn(issn, start_date, on_gap, progress=None):
                     continue
                 if doi:
                     seen_dois.add(doi)
-                rec = normalise(it)          # local keyword gate
+                rec = normalise(it)
                 if rec:
                     kept.append(rec)
             if progress:
@@ -208,19 +150,12 @@ def _enumerate_issn(issn, start_date, on_gap, progress=None):
             if not cursor or len(items) < params["rows"]:
                 break
             params["cursor"] = cursor
-            time.sleep(1)  # polite
+            time.sleep(1)
         time.sleep(0.3)
     return kept, scanned
 
 
 def backfill_all(start_date):
-    """Enumerate every journal by ISSN and filter locally.
-
-    Replaces the previous seed-query approach, under which a paper entered the
-    archive only if Crossref's relevance search for one of ten broad terms
-    happened to return it -- an assumption that was never measured and that
-    silently omitted papers.
-    """
     by_key, per_journal = {}, {}
     gaps = []
 
@@ -253,7 +188,6 @@ def backfill_all(start_date):
 
 
 def verify_issns():
-    """Print what journal each configured ISSN resolves to in Crossref."""
     print("Checking ISSNs against Crossref ...\n")
     ok = True
     for name, issns in ISSNS.items():
@@ -275,63 +209,56 @@ def verify_issns():
     print("\nAll ISSNs resolved." if ok else "\nSome ISSNs did not resolve - edit ISSNS in feeds.py.")
 
 
-def _clean_abstract_candidate(text):
-    """Clean and reject obvious non-abstract snippets."""
-    text = clean_text(html.unescape(text or ""))
-    if not text:
-        return ""
-
-    # Reject very generic landing-page descriptions.
-    low = text.lower()
-    bad_bits = [
-        "read the latest articles",
-        "browse articles",
-        "nature portfolio",
-        "springer nature",
-        "official journal",
-        "science family of journals",
-        "this journal publishes",
-        "learn about",
-        "submit your article",
-    ]
-    if any(b in low for b in bad_bits):
-        return ""
-
-    # Very short snippets are usually teasers, not useful abstracts.
-    if len(text) < 80:
-        return ""
-
-    return text
-
-
 def _fetch_abstract(doi):
-    """Multi-source abstract via the shared chain in aggregate
-    (Crossref -> OpenAlex -> Semantic Scholar if keyed -> publisher page)."""
     return fetch_abstract((doi or "").strip())
 
 
-def repair_abstracts(limit=0, dry_run=False, repair_all=False, min_len=200,
-                     max_tries=2, count_only=False):
-    """Fill in missing/short abstracts from multiple sources (Crossref ->
-    Semantic Scholar -> OpenAlex if keyed -> publisher page).
+def _days_old(p):
+    """Age of a paper in days, or a huge number if its date is unparseable."""
+    try:
+        return (dt.date.today() - dt.date.fromisoformat((p.get("date") or "")[:10])).days
+    except Exception:
+        return 10 ** 6
 
-    By default only papers whose stored abstract is shorter than `min_len` are
-    re-fetched. Papers already tried `max_tries` times with no result are skipped
-    (so re-runs don't re-check dead ends) unless repair_all=True. Checkpoints
-    every 100 and is resumable."""
+
+def repair_abstracts(limit=0, dry_run=False, repair_all=False, min_len=200,
+                     max_tries=2, count_only=False, recent_grace_days=120):
+    """Fill in missing/short abstracts from multiple sources (full chain:
+    Crossref -> OpenAlex -> Semantic Scholar if keyed -> publisher page).
+
+    A paper is eligible for a (re)try if its abstract is shorter than min_len AND
+    either it has not yet used its `max_tries` attempts, OR it was published within
+    the last `recent_grace_days` days. The recency grace matters because a
+    just-published paper often has no abstract in any API for a week or two: it
+    burns its attempts immediately, then the abstract appears later and the normal
+    rule would skip it forever. Older papers keep the hard limit so genuinely empty
+    back-catalogue items are not re-fetched endlessly. Repairs newest-first, so the
+    recent papers you actually browse are filled first. Checkpoints every 100;
+    resumable."""
     papers = load_archive()
     cap = SETTINGS.get("abstract_max_chars", 1600)
     short = [p for p in papers if len(p.get("abstract") or "") < min_len]
-    untried = [p for p in short if p.get("doi") and int(p.get("ab_tried", 0)) < max_tries]
-    exhausted = sum(1 for p in short if p.get("doi") and int(p.get("ab_tried", 0)) >= max_tries)
+
+    def eligible(p):
+        if not p.get("doi"):
+            return False
+        if int(p.get("ab_tried", 0)) < max_tries:
+            return True
+        return _days_old(p) <= recent_grace_days      # exhausted but recent -> retry
+
+    untried = [p for p in short if eligible(p)]
+    recent_exhausted = sum(1 for p in short if p.get("doi")
+                           and int(p.get("ab_tried", 0)) >= max_tries
+                           and _days_old(p) <= recent_grace_days)
     no_doi = sum(1 for p in short if not p.get("doi"))
     print(f"Total papers: {len(papers)} | missing/short: {len(short)} "
-          f"| still worth trying: {len(untried)} | tried-out: {exhausted} | no DOI: {no_doi}")
+          f"| to try: {len(untried)} (incl. {recent_exhausted} recent retries) "
+          f"| no DOI: {no_doi}")
     if count_only:
         return
 
-    targets = papers if repair_all else untried
-    targets = sorted(targets, key=lambda p: len(p.get("abstract") or ""))
+    targets = short if repair_all else untried
+    targets = sorted(targets, key=lambda p: p.get("date", ""), reverse=True)  # newest first
     if limit:
         targets = targets[:limit]
     print(f"Repairing {len(targets)} this run ({'dry run' if dry_run else 'will write'})\n")
@@ -344,21 +271,21 @@ def repair_abstracts(limit=0, dry_run=False, repair_all=False, min_len=200,
             if len(ab) > cap:
                 ab = ab[:cap].rsplit(" ", 1)[0] + "\u2026"
             p["abstract"] = ab
-            p.pop("ab_tried", None)            # success -> clear counter
+            p.pop("ab_tried", None)
             fixed += 1
         else:
-            p["ab_tried"] = int(p.get("ab_tried", 0)) + 1   # dead end -> remember
+            p["ab_tried"] = int(p.get("ab_tried", 0)) + 1
         if checked % 100 == 0:
             print(f"  {checked}/{len(targets)} checked, {fixed} filled")
             if not dry_run:
-                write_archive(papers, report=[])          # checkpoint
-        time.sleep(0.25)                                   # polite pacing
+                write_archive(papers, report=None)
+        time.sleep(0.25)
 
     print(f"\nDone: {fixed} abstracts filled out of {checked} checked.")
     if dry_run:
         print("(dry run - nothing written)")
     else:
-        manifest = write_archive(papers, report=[])
+        manifest = write_archive(papers, report=None)
         print(f"Archive holds {manifest['count']} papers.")
 
 
@@ -381,8 +308,7 @@ def run(dry_run=False):
 
     existing = load_archive()
     merged = merge(existing, fresh, start)
-    # backfill has no live feed report; pass an empty status list
-    manifest = write_archive(merged, report=[])
+    manifest = write_archive(merged, report=None)
     print(f"\nArchive now holds {manifest['count']} papers.")
     print("By year: " + ", ".join(f"{y}:{c}" for y, c in manifest["year_counts"].items()))
     print("Done. The daily job will keep it current from here.")
@@ -395,11 +321,14 @@ if __name__ == "__main__":
     ap.add_argument("--repair-abstracts", action="store_true",
                     help="fill missing/short abstracts from multiple sources (resumable)")
     ap.add_argument("--repair-limit", type=int, default=0,
-                    help="cap how many papers to repair this run (shortest first; resumable)")
+                    help="cap how many papers to repair this run (newest first; resumable)")
     ap.add_argument("--repair-all", action="store_true",
-                    help="re-check EVERY paper, not just short/missing ones (slow)")
+                    help="re-check every short paper, ignoring the retry counter (slow)")
     ap.add_argument("--repair-min-len", type=int, default=200,
                     help="treat abstracts shorter than this many chars as needing repair")
+    ap.add_argument("--repair-recent-days", type=int, default=120,
+                    help="always retry papers newer than this many days, even if their "
+                         "retry attempts are used up (default 120)")
     ap.add_argument("--count-only", action="store_true",
                     help="just report how many abstracts are still missing, then exit")
     args = ap.parse_args()
@@ -408,6 +337,6 @@ if __name__ == "__main__":
     elif args.repair_abstracts:
         repair_abstracts(limit=args.repair_limit, dry_run=args.dry_run,
                          repair_all=args.repair_all, min_len=args.repair_min_len,
-                         count_only=args.count_only)
+                         count_only=args.count_only, recent_grace_days=args.repair_recent_days)
     else:
         run(dry_run=args.dry_run)
