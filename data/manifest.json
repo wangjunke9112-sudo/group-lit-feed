@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-03 01:03 UTC",
- "count": 41762,
+ "generated": "2026-10-03 05:57 UTC",
+ "count": 41936,
  "years": [
   "2026",
   "2025",
@@ -22,8 +22,8 @@
   "2009"
  ],
  "year_counts": {
-  "2026": 4384,
-  "2025": 5067,
+  "2026": 4557,
+  "2025": 5068,
   "2024": 4723,
   "2023": 3795,
   "2022": 3014,
@@ -45,7 +45,7 @@
   {
    "journal": "Nature",
    "found": 75,
-   "kept": 1,
+   "kept": 0,
    "error": null,
    "note": null
   },
@@ -59,7 +59,7 @@
   {
    "journal": "Nature Materials",
    "found": 8,
-   "kept": 0,
+   "kept": 2,
    "error": null,
    "note": null
   },
@@ -73,42 +73,42 @@
   {
    "journal": "Nature Synthesis",
    "found": 8,
-   "kept": 2,
+   "kept": 1,
    "error": null,
    "note": null
   },
   {
    "journal": "Nature Sustainability",
    "found": 8,
-   "kept": 1,
+   "kept": 0,
    "error": null,
    "note": null
   },
   {
    "journal": "Nature Photonics",
    "found": 8,
-   "kept": 0,
+   "kept": 2,
    "error": null,
    "note": null
   },
   {
    "journal": "Nature Nanotechnology",
    "found": 8,
-   "kept": 1,
+   "kept": 2,
    "error": null,
    "note": null
   },
   {
    "journal": "Nature Communications",
    "found": 8,
-   "kept": 1,
+   "kept": 3,
    "error": null,
    "note": null
   },
   {
    "journal": "Nature Electronics",
    "found": 8,
-   "kept": 0,
+   "kept": 1,
    "error": null,
    "note": null
   },
@@ -136,7 +136,7 @@
   {
    "journal": "Nature Physics",
    "found": 8,
-   "kept": 0,
+   "kept": 1,
    "error": null,
    "note": null
   },
@@ -148,44 +148,51 @@
    "note": null
   },
   {
-   "journal": "Journal of the American Chemical Society",
-   "found": 7,
-   "kept": 7,
+   "journal": "Nature Sensors",
+   "found": 8,
+   "kept": 0,
    "error": null,
-   "note": "RSS failed; Crossref fallback recovered 7 relevant paper(s)"
+   "note": null
+  },
+  {
+   "journal": "Journal of the American Chemical Society",
+   "found": 15,
+   "kept": 15,
+   "error": null,
+   "note": "RSS failed; Crossref fallback recovered 15 relevant paper(s)"
   },
   {
    "journal": "Chemical Reviews",
+   "found": 6,
+   "kept": 6,
+   "error": null,
+   "note": "RSS failed; Crossref fallback recovered 6 relevant paper(s)"
+  },
+  {
+   "journal": "Accounts of Chemical Research",
    "found": 4,
    "kept": 4,
    "error": null,
    "note": "RSS failed; Crossref fallback recovered 4 relevant paper(s)"
   },
   {
-   "journal": "Accounts of Chemical Research",
-   "found": 5,
-   "kept": 5,
-   "error": null,
-   "note": "RSS failed; Crossref fallback recovered 5 relevant paper(s)"
-  },
-  {
    "journal": "ACS Energy Letters",
-   "found": 35,
-   "kept": 35,
+   "found": 37,
+   "kept": 37,
    "error": null,
-   "note": "RSS failed; Crossref fallback recovered 35 relevant paper(s)"
+   "note": "RSS failed; Crossref fallback recovered 37 relevant paper(s)"
   },
   {
    "journal": "ACS Applied Materials & Interfaces",
-   "found": 21,
-   "kept": 21,
+   "found": 30,
+   "kept": 30,
    "error": null,
-   "note": "RSS failed; Crossref fallback recovered 21 relevant paper(s)"
+   "note": "RSS failed; Crossref fallback recovered 30 relevant paper(s)"
   },
   {
    "journal": "Chemical Society Reviews",
    "found": 47,
-   "kept": 2,
+   "kept": 5,
    "error": null,
    "note": null
   },
@@ -197,44 +204,51 @@
    "note": null
   },
   {
+   "journal": "EES Solar",
+   "found": 35,
+   "kept": 28,
+   "error": null,
+   "note": null
+  },
+  {
    "journal": "Advanced Materials",
    "found": 137,
-   "kept": 29,
+   "kept": 35,
    "error": null,
    "note": null
   },
   {
    "journal": "Advanced Energy Materials",
    "found": 202,
-   "kept": 48,
+   "kept": 40,
    "error": null,
    "note": null
   },
   {
    "journal": "Advanced Functional Materials",
    "found": 128,
-   "kept": 22,
+   "kept": 27,
    "error": null,
    "note": null
   },
   {
    "journal": "Angewandte Chemie Int. Ed.",
    "found": 221,
-   "kept": 20,
+   "kept": 24,
    "error": null,
    "note": null
   },
   {
    "journal": "Small",
    "found": 134,
-   "kept": 17,
+   "kept": 21,
    "error": null,
    "note": null
   },
   {
    "journal": "Small Methods",
    "found": 163,
-   "kept": 19,
+   "kept": 35,
    "error": null,
    "note": null
   },
@@ -248,7 +262,7 @@
   {
    "journal": "Science Advances",
    "found": 30,
-   "kept": 1,
+   "kept": 2,
    "error": null,
    "note": null
   },
@@ -262,7 +276,7 @@
   {
    "journal": "Matter",
    "found": 23,
-   "kept": 4,
+   "kept": 5,
    "error": null,
    "note": null
   }
