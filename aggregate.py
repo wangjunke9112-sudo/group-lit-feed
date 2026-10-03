@@ -546,7 +546,10 @@ _LOOSE_HINT_RE = re.compile(
     r"(perovskite|photovolt|solar|tandem|optoelectron|semiconduct|bandgap|band gap|"
     r"halide|light[- ]emitting|\bled\b|photodetector|photodiode|scintillat|"
     r"photocatal|photoelectro|water[- ]splitting|\bco2\b|quantum dot|"
-    r"thin[- ]film|charge transport|passivat|ion migration)", re.I)
+    r"thin[- ]film|charge transport|passivat|ion migration|"
+    r"luminesc|electrolumin|photolumin|lasing|chiral|circularly polari|"
+    r"sensor|sensing|memrist|neuromorph|synapse|transistor|ferroelectric|"
+    r"piezoelectric|nanocrystal|detector)", re.I)
 
 
 def _build_record(title, link, journal, publisher, date, abstract, authors, doi, hits, hint=""):
