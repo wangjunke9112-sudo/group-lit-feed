@@ -37,6 +37,7 @@ FEEDS = [
     ("Nature Reviews Methods Primers",  "Nature",  "https://www.nature.com/nrmp.rss"),
     ("Nature Physics",                  "Nature",  "https://www.nature.com/nphys.rss"),
     ("Nature Reviews Chemistry",        "Nature",  "https://www.nature.com/natrevchem.rss"),
+    ("Nature Sensors",                  "Nature", "https://www.nature.com/natsensors.rss"),
 
     # ---- ACS --------------------------------------------------------------
     ("Journal of the American Chemical Society", "ACS", "https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=jacsat"),
@@ -48,6 +49,7 @@ FEEDS = [
     # ---- RSC --------------------------------------------------------------
     ("Chemical Society Reviews",        "RSC",     "http://feeds.rsc.org/rss/cs"),
     ("Energy & Environmental Science",  "RSC",     "http://feeds.rsc.org/rss/ee"),
+    ("EES Solar",                       "RSC",    "http://feeds.rsc.org/rss/el"),
 
     # ---- Wiley ------------------------------------------------------------
     ("Advanced Materials",              "Wiley",   "https://onlinelibrary.wiley.com/feed/15214095/most-recent"),
@@ -152,6 +154,7 @@ ISSNS = {
     "Nature Reviews Methods Primers":           ["2662-8449"],
     "Nature Physics":                           ["1745-2473", "1745-2481"],
     "Nature Reviews Chemistry":                 ["2397-3358"],
+    "Nature Sensors":                           ["3059-4499"],
     "Journal of the American Chemical Society": ["0002-7863", "1520-5126"],
     "Chemical Reviews":                         ["0009-2665", "1520-6890"],
     "Accounts of Chemical Research":            ["0001-4842", "1520-4898"],
@@ -159,6 +162,7 @@ ISSNS = {
     "ACS Applied Materials & Interfaces":       ["1944-8244", "1944-8252"],
     "Chemical Society Reviews":                 ["0306-0012", "1460-4744"],
     "Energy & Environmental Science":           ["1754-5692", "1754-5706"],
+    "EES Solar":                                ["3033-4063"],
     "Advanced Materials":                       ["0935-9648", "1521-4095"],
     "Advanced Energy Materials":                ["1614-6832", "1614-6840"],
     "Advanced Functional Materials":            ["1616-301X", "1616-3028"],
