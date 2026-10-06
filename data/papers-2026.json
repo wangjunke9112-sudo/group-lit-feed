@@ -1,8 +1,519 @@
 {
  "year": "2026",
- "count": 6843,
- "generated": "2026-10-05 00:47 UTC",
+ "count": 6862,
+ "generated": "2026-10-06 02:21 UTC",
  "papers": [
+  {
+   "title": "LED Photoactive Antibacterial Carbon Nanomaterial Surfaces",
+   "link": "https://doi.org/10.1021/acsami.6c19229",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-10-06",
+   "abstract": "Abstract Carbon-based nanomaterials are potentially antimicrobial in water treatment, healthcare, and environmental applications. The antibacterial properties of various carbon nanomaterial surfaces have been investigated; however, studies including direct comparisons between carbon nanomaterials with different morphology, chemistry, and wettability are few. Moreover, photoenhanced surface antibacterial activity is not fully understood. Here, we show that simple light-emitting diodes (LEDs) can enhance the antibacterial surface activity of three carbon nanomaterials with diverse surface morphologies, including laser-induced graphene (LIG), vertically aligned carbon nanotubes (VACNT), and carbon nanofibers (CNF). After 40 min of exposure to low-energy LED light, VACNTs showed the highest bacterial killing activity (93.4%), followed by CNFs (72.5%) and then LIG surfaces (69.0%). Moreover, when hydrophilicity was increased using atmospheric plasma treatment, the LED-activated antibacterial activity of all surfaces was further enhanced, with only 20 min of LED exposure resulted in 99.1%, 92.6%, and 46.1% bacterial killing efficacies for CNF, VACNT, and LIG surfaces, respectively. The LED treatment was the predominant activator of cell toxicity, resulting in reactive oxygen species and bacterial membrane permeability, although morphological factors were also seen, including an increased antibacterial efficacy of VACNT surfaces as the length of the CNTs increased and differences between the various carbon surfaces. These findings provide valuable insights into the roles of various parameters in carbon nanomaterial surfaces in antimicrobial applications.",
+   "authors": [
+    "Tekleweini H. Welemichael",
+    "Chetan Prakash Sharma",
+    "Keren Sobol",
+    "Lev Rovinsky",
+    "Alina Yarmolenko",
+    "Efrat Shawat Avraham",
+    "Raifu Tolulope Adebisi",
+    "Aeid Igbaria",
+    "Noa Lachman",
+    "Gilbert Daniel Nessim",
+    "Christopher J. Arnusch"
+   ],
+   "doi": "10.1021/acsami.6c19229",
+   "keywords": [
+    "light-emitting diode"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Spatial Oxygen-Vacancy Engineering for Enhanced Ferroelectricity in Flexible Hf0.5Zr0.5O2 Devices",
+   "link": "https://doi.org/10.1021/acsami.6c14143",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-10-06",
+   "abstract": "Abstract HfO2-based ferroelectrics are promising for scalable memories, neuromorphic systems, and flexible electronics, but their performance is governed by oxygen vacancies that affect phase stability, leakage, wake-up behavior, and domain switching. Existing strategies mainly focus on tuning the overall oxygen-vacancy concentration, making it difficult to balance polarization and stability, especially in flexible devices where the low thermal budget and mechanically compliant stack complicate vacancy distribution and interfacial reactions. Here, we develop a growth-compatible spatial oxygen-vacancy engineering strategy by adjusting oxidant exposure during Hf0.5Zr0.5O2 (HZO) film growth. This method regulates the bottom-interface, bulk, and top-interface oxygen environments without post-treatment. Depth-resolved defect analyses verify position-selective regulation of the oxygen environment and reveal the depth-dependent effects of oxygen vacancies. Reducing oxygen vacancies near the top interface improves reversible polarization switching, whereas excessive oxygen regulation in the bulk or bottom-interface region weakens the ferroelectric response. The top-enhanced device achieves the highest remanent polarization of 31.82 μC cm–2, 41.0% higher than that of the bottom-enhanced device, and exhibits the weakest wake-up effect and the smallest long-term fatigue degradation after 1010 cycles. This work reveals the influence and underlying mechanism of spatial oxygen-vacancy distribution on HZO ferroelectricity, providing a practical design principle for high-performance HfO2-based ferroelectric devices.",
+   "authors": [
+    "Qimiao Zeng",
+    "Jindong Liu",
+    "Yucheng Ou",
+    "Feixiang Li",
+    "Shuo Han",
+    "Lidan Wang",
+    "Wei Wang",
+    "Jie Fu",
+    "Hui Xu",
+    "Qingjiang Li",
+    "Rongrong Cao",
+    "Shukai Duan"
+   ],
+   "doi": "10.1021/acsami.6c14143",
+   "keywords": [
+    "ferroelectric",
+    "flexible electronic",
+    "neuromorphic"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Electrostatic Attraction of Cationic Carbon Quantum Dots Regulates Palladium Nanocrystal Distribution for Enhanced Ethanol Oxidation",
+   "link": "https://doi.org/10.1021/acsami.6c15786",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-10-06",
+   "abstract": "Abstract Cationic carbon quantum dots (CQD) produced by thermal polymerization of citric acid with an ionic liquid exhibit a unique synergy of electrostatic anchoring, hydrogen-bond enrichment, and electronic modulation. In this study, the electrostatic attraction between cationic CQD and the chloropalladate precursor is exploited to significantly enhance the dispersion and density of palladium nanocrystals (Pd NCs). Meanwhile, the functional groups and defect sites on the CQD establish strong metal-support interactions with the Pd NCs, which modulate the electronic state of Pd, weaken the adsorption of toxic intermediates generated during ethanol oxidation reaction (EOR), thereby enhancing the anti-poisoning ability and durability of the catalyst. Furthermore, the oxygen- and nitrogen-containing functional groups on the CQD can form strong hydrogen bonds with ethanol molecules and the reduced graphene oxide (RGO) support, enriching ethanol molecules on the catalyst surface and creating a unique reaction microenvironment that facilitates the EOR. By synergistically modulating electrostatic attraction and the microenvironment, the obtained catalyst (Pd/CQD-RGO) is strategically designed in this work, which exhibits outstanding anti-poisoning capability and catalytic performance (3234.3 mA mg–1, 8.1 mA cm–2) in the EOR, providing a theoretical basis and practical reference for the rational design of carbon-based composite catalysts and their applications in energy conversion.",
+   "authors": [
+    "Bilong Li",
+    "Sizhuo Ma",
+    "Jinjuan Zhao",
+    "Yuner Xu",
+    "Mengjie Li",
+    "Honglei Yang",
+    "Shuwen Li"
+   ],
+   "doi": "10.1021/acsami.6c15786",
+   "keywords": [
+    "nanocrystal",
+    "quantum dot"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Speed-Adaptive In-Sensor Reservoir Computing via Gate-Tunable MoS2– x /MoTe2 Heterojunction Dynamics",
+   "link": "https://doi.org/10.1021/acsami.6c14718",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-10-06",
+   "abstract": "Abstract Compact, low-power optoelectronic devices that integrate sensing, memory, and computing have shown substantial potential for realizing software–hardware co-design in artificial intelligence systems. However, existing optoelectronic devices integrating multiple functions typically suffer from fixed carrier dynamics that cannot be reconfigured after fabrication, which imposes a significant challenge on machine vision. Here, we overcome this challenge with a single MoS2–x/MoTe2 van der Waals heterojunction that delivers both self-powered broadband photodetection with superb performance and gate-tunable synaptic plasticity in one device. By modulating the Fermi level across sulfur vacancy defect states, we achieve continuous control of photocurrent decay dynamics over a 25-fold range—enabling speed-adaptive in-sensor reservoir computing that matches relaxation kinetics to human motion, attaining 100% recognition accuracy for running, side-jumping, and walking. A random pruning strategy further reduces computational cost by three orders of magnitude while preserving 95% accuracy, demonstrating the system’s potential for edge deployment. This work suggests that defect-engineered van der Waals heterojunctions offer a promising materials platform for speed-adaptive neuromorphic vision systems integrating sensing, memory, and computing capabilities.",
+   "authors": [
+    "Dongyue Li",
+    "Wenbo Zhang",
+    "Jie Xing",
+    "Yehua Yang",
+    "Jinsong Li",
+    "Lu Wang",
+    "Huiying Hao",
+    "Hao Liu",
+    "Jingjing Dong",
+    "Dashan Shang"
+   ],
+   "doi": "10.1021/acsami.6c14718",
+   "keywords": [
+    "neuromorphic"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Balancing Aesthetics and Performance: An RGB-Based Coloring Strategy for Building-Integrated Photovoltaics",
+   "link": "https://doi.org/10.1021/acsami.6c16045",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-10-06",
+   "abstract": "Abstract Building-integrated photovoltaics (BIPV) represents a promising approach for energy generation in urban environments, although balancing aesthetics and photovoltaic performance remains challenging. This work presents and validates a novel tunable coloring strategy for flexible Cu(In,Ga)Se2 (CIGS) solar cells that allows to balance optical induced losses with gains while reducing color angle dependence. Inspired by the light-emitting diode display technology, the strategy combines micropatterned Red, Green, and Blue Bragg reflector (BR) coatings in adjustable proportions to achieve tailored colors. Two line-based microarchitectures were fabricated on soda lime glass and flexible CIGS solar cells. White coloration was selected due to its compatibility with common building facades, with patterns designed to appear visually uniform at distances higher than a 1 m viewing distance. The developed process demonstrated reproducible defect-free microfabrication and successful color perception. Compared to conventional uniform BRs, the RGB pixel coloration strategy significantly reduced color angle dependence and improved optical performance, limiting short-circuit current density losses to below 1.5 mA·cm–2. Moreover, individual color BR led to a short-circuit current loss of 1% to 4% or an enhancement of nearly 10% depending on the final color. The proposed strategy demonstrates strong potential for efficient, aesthetically integrated colored BIPV applications.",
+   "authors": [
+    "Xavier L. Pinheiro",
+    "António J.N. Oliveira",
+    "André F. Violas",
+    "Enzo J. Ribeiro",
+    "José Fernandes",
+    "Mauro Costa",
+    "Paulo A. Fernandes",
+    "Rute A.S. Ferreira",
+    "Pedro M.P. Salomé",
+    "Jennifer P. Teixeira"
+   ],
+   "doi": "10.1021/acsami.6c16045",
+   "keywords": [
+    "light-emitting diode",
+    "photovoltaic",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Elastically bendable chiral metal halide crystals",
+   "link": "https://doi.org/10.1038/s41467-026-77915-0",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-10-05",
+   "abstract": "",
+   "authors": [
+    "Ying Zhang",
+    "Cheng Qian",
+    "Yong-Ji Gong",
+    "Haixing Fang",
+    "Chen Zhao",
+    "Qian Zhang",
+    "Susanne C. Müller",
+    "Katarzyna Skrzynska",
+    "Ilya Kupenko",
+    "Gaston Garbarino",
+    "Jonathan Wright",
+    "Xiang Li",
+    "Xiang Wu",
+    "Wei Li",
+    "Xian-He Bu"
+   ],
+   "doi": "10.1038/s41467-026-77915-0",
+   "keywords": [
+    "metal halide"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Superlattice Engineering in Relaxor Ferroelectric-based Capacitors for Ultra-Highly Efficient Recoverable Energy Storage Density",
+   "link": "https://doi.org/10.1038/s41467-026-77971-6",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-10-05",
+   "abstract": "Abstract In this work, we show that superlattice engineering, through the combination of relaxor ferroelectric 0.5Ba(Zr 0.2 Ti 0.8 )O 3 −0.5(Ba 0.7 Ca 0.3 )TiO 3 and paraelectric SrTiO 3 layers, is a powerful approach to simultaneously optimize energy density and efficiency of recoverable energy storage at low applied electric fields, outperforming both single layer 0.5Ba(Zr 0.2 Ti 0.8 )O 3 −0.5(Ba 0.7 Ca 0.3 )TiO 3 thin film and other lead-free ferroelectric and relaxor ferroelectric thin film capacitors. The mechanisms responsible are a) decreasing the size of polar nanoregions which promote relaxor behavior by superlattice confinement and b) formation of a strain gradient in the superlattice which plays a significant role in modification of the built-in electric field, to enhance imprint, allowing for further enhancement of the energy storage performance. Overall, our interface-engineered Pb-free 0.5Ba(Zr 0.2 Ti 0.8 )O 3 −0.5(Ba 0.7 Ca 0.3 )TiO 3 /SrTiO 3 superlattices show record dielectric energy storage efficiency close to 99% at 920 kV/cm, with high recoverable energy storage density of 12.6 J/cm 3 , significantly outperforming other lead-free ferroelectric and relaxor ferroelectric thin film capacitors. Our thin film system meets the performance requirements for environmentally friendly energy storage devices for future self-powered electronics.",
+   "authors": [
+    "Matilde M. G. S. Oliveira",
+    "Ampattu R. Jayakrishnan",
+    "Duarte J. M. Ribeiro",
+    "Tiago Rodrigues",
+    "Jingye Zou",
+    "Surya K. P. Nair",
+    "Raluca Negrea",
+    "Marian C. Istrate",
+    "Manuel J. L. F. Rodrigues",
+    "Michael Belsley",
+    "Bernardo G. Almeida",
+    "Mario Pereira",
+    "Judith L. MacManus-Driscoll",
+    "Ignasi Fina",
+    "Florencio Sánchez",
+    "Luís Marques",
+    "José P. B. Silva"
+   ],
+   "doi": "10.1038/s41467-026-77971-6",
+   "keywords": [
+    "ferroelectric"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Mixed-Anion Mischief: Lone Pairs Meet Ionic Bonds to Suppress Thermal Transport in Quasi-1D Bi3Se4Br",
+   "link": "https://doi.org/10.1021/jacs.6c13351",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2026-10-05",
+   "abstract": "Abstract Understanding thermal transport requires exploring materials with unconventional atomic arrangements and emergent bonding motifs. Mixed-framework halogeno-chalcogenides, with their structural anisotropy and unusual bonding connectivity, provide a versatile platform for tuning lattice dynamics and transport properties. Here, we report the transport behavior of the halogeno-chalcogenide Bi3Se4Br, a member of the quasi-binary nM2Q3-mMX3 phase space (n/m = 4:1; M = Bi, Q = Se, X = Br). Its structure consists of edge-sharing Bi–Se polyhedra forming quasi-one-dimensional [010] ribbons, weakly coupled through Br atoms. Unlike Bi2Se3, where Bi adopts homoleptic Se coordination, Bi3Se4Br features heteroleptic Bi environments with hemidirected off-center geometries driven by stereochemically active 6s2 lone pairs. Interactions among these lone pairs within the ribbons amplify structural anisotropy, while antibonding Bi–Se and Bi···Br interactions soften the lattice, reducing elastic moduli and acoustic phonon cutoff frequencies. The interplay of active lone pairs and mixed covalent-ionic bonding generates moderate lattice anharmonicity, giving rise to low-energy optical phonons and enhanced phonon scattering. Density functional theory (DFT)-derived phonon density of states (DOS), neutron-weighted phonon DOS, and Raman measurements collectively confirm these low-lying vibrational modes. Inelastic neutron scattering measurements reveal predominantly quasi-harmonic phonon behavior with moderate temperature-induced softening, while also exposing anharmonic effects through selective peak broadening and nonuniform intensity changes. Consequently, Bi3Se4Br exhibits an ultralow lattice thermal conductivity of 0.64 and 0.39 W m–1 K–1 at 320 and 623 K, respectively, ∼70% lower than that of Bi2Se3 It also displays semiconducting n-type transport, highlighting Bi3Se4Br as a promising platform for combining ultralow thermal conductivity with tunable electronic functionality.",
+   "authors": [
+    "Minati Tiadi",
+    "Animesh Bhui",
+    "Takuya Naruse",
+    "Susumu Fujii",
+    "Tristan Barbier",
+    "Oleg I. Lebedev",
+    "Gaëlle Riou",
+    "Carmelo Prestipino",
+    "Bernard Raveau",
+    "Christophe Candolfi",
+    "Prithwija Mandal",
+    "Ajay Soni",
+    "Adèle Renaud",
+    "Michael Marek Koza",
+    "Emmanuel Guilmeau"
+   ],
+   "doi": "10.1021/jacs.6c13351",
+   "keywords": [
+    "chalcogenide"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Mechanism of Ferroelectric Driven Suppression of Interfacial Recombination in Perovskite Solar Cells",
+   "link": "https://doi.org/10.1039/d6el00073h",
+   "journal": "EES Solar",
+   "publisher": "RSC",
+   "date": "2026-10-05",
+   "abstract": "Despite a rapid rise in the power conversion efficiency of organic-inorganic perovskite solar cells, achieving the theoretical Shockley-Queisser limit is severely challenged by interfacial non-radiative recombination. The asymmetric electric field...",
+   "authors": [
+    "Chandrodoy Bora",
+    "Ramkrishna Das Adhikari",
+    "Himangshu Baishya",
+    "Ritupan Sarmah",
+    "Parameswar Krishnan Iyer",
+    "Pranjal Kumar Kumar Gogoi"
+   ],
+   "doi": "10.1039/d6el00073h",
+   "keywords": [
+    "ferroelectric",
+    "non-radiative recombination",
+    "perovskite",
+    "radiative recombination",
+    "solar cell"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Efficient and Robust Organic Solar Cells Enabled by Nanofibrillar Electron Transport Layer via Seed‐Initiated Epitaxial Growth",
+   "link": "https://doi.org/10.1002/anie.7455224",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2026-10-05",
+   "abstract": "ABSTRACT In organic solar cells (OSCs), the morphology of charge transport layers (CTLs) is as critical as that of the active layer, directly governing charge transport and collection efficiency as well as overall device performance. However, current CTL design predominantly focuses on molecular structure engineering, while systematic morphological control of CTLs remains largely underexplored. Herein, we report a seed‐initiated epitaxial growth strategy to construct well‐ordered fibrillar electron transport layers (ETLs) with tunable fiber lengths and narrow dispersity. This nanofiber‐textured ETL provides dedicated pathways for efficient electron transport and extraction, while its enlarged contact area strengthens interlayer adhesion, improving both interfacial charge transport and mechanical integrity. Using this ETL, power conversion efficiencies of 20.6% in rigid binary OSCs and 19.1% in flexible ones are achieved. The nanofibrillar ETL also exhibits broad active layer compatibility, excellent thickness tolerance, and outstanding mechanical stability. This work provides new insights into ETL morphological engineering as a strategy to overcome interfacial bottlenecks, unlocking significant efficiency gains in OSCs.",
+   "authors": [
+    "Lei Yang",
+    "Yanan Wei",
+    "Yanjie Sun",
+    "Zhengqi Liu",
+    "Baoze Liu",
+    "Jiarui Wang",
+    "Jiali Weng",
+    "Cong Shan",
+    "Jikai Lv",
+    "Zheng Tang",
+    "Yanhou Geng",
+    "Huibin Qiu",
+    "Hui Huang"
+   ],
+   "doi": "10.1002/anie.7455224",
+   "keywords": [
+    "charge transport",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Intrinsically Stretchable Neuromorphic Vision Arrays for Conformal Polarization Imaging and Adaptive Perception",
+   "link": "https://doi.org/10.1002/adma.75254",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-05",
+   "abstract": "ABSTRACT Micro‑unmanned aerial vehicles urgently require compact, lightweight, and low‑power conformal vision modules capable of wide‑field imaging, polarization perception, and illumination‑adaptive processing. However, the monolithic integration of intrinsic stretchability, polarization sensitivity, and neuromorphic adaptation within a single deformable optoelectronic platform has remained a major challenge. Here, we report an intrinsically stretchable neuromorphic vision transistor array based on a semiconducting composite film consisting of an organic conjugated polymer (TDPP‑Se), CdSe/ZnS quantum dots (QDs), and an elastomeric SEBS matrix. The QDs significantly enhance photoresponsivity and enable gate‑tunable light adaptation, while shear‑aligned polymer chains yield strong polarization sensitivity with a high polarization ratio. The devices integrate sensing, memory, and in‑sensor computing with an ultralow energy consumption of ∼0.56 pJ per synaptic event, and retain stable multimodal performance under tensile strains up to 50%. When conformally laminated onto hemispherical substrates, the system achieves a mechanically tunable FOV from 53° to 149°. When the experimentally measured array responses are computationally mapped onto image preprocessing, the resulting vision framework achieves a classification accuracy of 95.6% under dynamic illumination, strong background interference, and large mechanical deformation. This work establishes a conformal neuromorphic vision platform for robust and energy‐efficient artificial vision in micro‐autonomous systems.",
+   "authors": [
+    "Xiangxiang Li",
+    "Shanshuo Liu",
+    "Xianfeng Shen",
+    "Haorui Zhang",
+    "Xin Gao",
+    "Xiaoying Zhang",
+    "Weiyu Wang",
+    "Huiqi Yang",
+    "Haifeng Ling",
+    "Deyang Ji",
+    "Hui Yang",
+    "Wenping Hu"
+   ],
+   "doi": "10.1002/adma.75254",
+   "keywords": [
+    "neuromorphic",
+    "quantum dot"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Donor‐Selective NiCo‐LDH Templating Directs Polymer Assembly for Enhanced Exciton Transport in Efficient Organic Solar Cells",
+   "link": "https://doi.org/10.1002/adma.75208",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-05",
+   "abstract": "ABSTRACT Organic solar cells (OSCs) have achieved remarkable progress, yet improving exciton utilization in polymer donors remains challenging due to their intrinsically limited exciton diffusion length ( L D ). Here, we report a donor‐selective templating strategy based on few‐layer‐like nickel–cobalt layered double hydroxide (NiCo‐LDH) nanosheets to regulate polymer donor assembly in OSCs. The hydroxyl‐rich NiCo‐LDH surface exhibits preferential affinity toward polymer donors and promotes ordered donor‐chain organization during film formation, while exerting limited influence on the acceptor component. This templating strategy enhances the molecular ordering of the donor phase and increases the L D of D18 from 10.7 to 18.9 nm, accompanied by the formation of more ordered donor fibrillar structures. The coordinated improvements in donor organization and exciton transport are further associated with enhanced exciton‐to‐charge conversion, more balanced carrier transport, and suppressed recombination. Consequently, D18:L8‐BO‐based OSCs achieve a maximum power conversion efficiency (PCE) of 21.36%, independently certified at 21.09%, together with improved stability under continuous illumination. Analogous donor‐biased interactions, enhanced exciton diffusion, regulated fibrillar organization, and improved photovoltaic performance are also observed in PM6 and D18‐Cl systems. These results highlight the broader applicability of chemically active 2D templating for coordinating polymer donor assembly and exciton transport toward high‐performance OSCs.",
+   "authors": [
+    "Yingjie He",
+    "Deqian Zeng",
+    "Yimin Liu",
+    "Wei Lin",
+    "Yintao Yang",
+    "Wei Zhang",
+    "Yuang Fu",
+    "Xinyu Pu",
+    "Huanyan Jiang",
+    "Ziying Zhao",
+    "Qifa Zheng",
+    "Xinhui Lu",
+    "Chang Liu",
+    "Hanjian Lai",
+    "Zhenye Li"
+   ],
+   "doi": "10.1002/adma.75208",
+   "keywords": [
+    "photovoltaic",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Wafer‐Scale Multidimensional‐Topology COFs for Highly Reliable Neuromorphic Electronics",
+   "link": "https://doi.org/10.1002/adma.75275",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-05",
+   "abstract": "ABSTRACT The rapid synthesis and scalable design strategies of high‐reliability multi‐dimensional and multi‐topological covalent organic frameworks (MDT COFs) are of great significance for meeting the diverse technological application requirements with highly differential specific demands, especially in neuromorphic electronics. Here, we introduce aniline into a sonochemical synthesis platform, where thermodynamic‐kinetic synergistic control expands topological diversity and substrate compatibility. We synthesized 37 COFs covering 1D to 3D, including 10 previously unreported frameworks. Relying on a parallel optimization strategy involving geometric‐electronic co‐engineering, a 3D TAPPFe‐Cu 3 COF‐based wafer‐scale memristor incorporating multiple metal and redox centers is designed and applied to shortest‐path optimization in the Shanghai metro network, exhibiting an 80.1% reduction in energy consumption, 78.6% faster synaptic weight reset, and a 9.36‐fold improvement in TDDB lifetime compared with state‐of‐the‐art COF‐based devices. This synthetic methodology and material design strategy provide a robust foundation for application‐tailored high‐reliability COFs, while opening new avenues for diversified utilization of MDT COFs.",
+   "authors": [
+    "Zhang Qiongshan",
+    "Che Qiang",
+    "Zhao Lei",
+    "Wang Hao",
+    "Xuan Fuzhen",
+    "Zhang Bin"
+   ],
+   "doi": "10.1002/adma.75275",
+   "keywords": [
+    "memristor",
+    "neuromorphic"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Correction to “Short‐Wave Infrared Organic Photodetectors With Ultralow Dark Current Density Under Biased Operating Conditions”",
+   "link": "https://doi.org/10.1002/adma.75292",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-05",
+   "abstract": "",
+   "authors": [],
+   "doi": "10.1002/adma.75292",
+   "keywords": [
+    "photodetector"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Correction to “Silicon‐Rivalling Large‐Area Flexible Broadband Organic Photodetectors”",
+   "link": "https://doi.org/10.1002/adma.75281",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-05",
+   "abstract": "",
+   "authors": [],
+   "doi": "10.1002/adma.75281",
+   "keywords": [
+    "photodetector"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "A Zero‐Dimensional Hybrid Tin Halide with Efficient Near‐Infrared Luminescence for Intelligent Defect Inspection",
+   "link": "https://doi.org/10.1002/adfm.78761",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-05",
+   "abstract": "ABSTRACT Near‐infrared (NIR) luminescent materials have attracted considerable attention for biomedical imaging and industrial inspection because of their deep penetration capability and strong technical adaptability. Coupling NIR luminescence with deep‐learning algorithms further offers a promising route toward intelligent inspection with enhanced automation and accuracy. Here, we report a 0D, Sn halide (MBI) 2 SnCl 6 (MBI = 2‐methylbenzimidazole), composed of organic MBI + cations and isolated [SnCl 6 ] 2− octahedra, and Sb substitution yields broadband NIR emission with a highest photoluminescence quantum yield of 59.19%. On this basis, subvisible defects on silicon wafer surfaces can be clearly visualized. When integrated with a U‐Net‐based convolutional neural network, the NIR imaging output enables rapid and automated defect identification, allowing accurate discrimination between qualified and defective wafers as well as subclassification of defective samples, with an average accuracy of 90.92% and an average recall of 92.92%. This work establishes an effective strategy for integrating lead‐free NIR‐emissive halides with artificial intelligence for intelligent inspection and highlights the potential of hybrid halide luminescent materials in advanced industrial imaging applications.",
+   "authors": [
+    "Qian Yang",
+    "Yunluo Wang",
+    "Futing Sun",
+    "Jiaxin Hu",
+    "Zhiyu Qin",
+    "Zesen Gao",
+    "Wen Chen",
+    "Xiaoyan Li",
+    "Yan Yang",
+    "Xun Yao",
+    "Yongzhe Wang",
+    "Jingshan Hou",
+    "Yongzheng Fang",
+    "Minghui Wang",
+    "Wan Jiang",
+    "Lianjun Wang",
+    "Haijie Chen"
+   ],
+   "doi": "10.1002/adfm.78761",
+   "keywords": [
+    "photoluminescence",
+    "photoluminescence quantum yield",
+    "tin halide"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Crystal Pre‐Dissolved Method Fabricates Diverse Phase‐Pure Q‐2D and FA‐3D Tin‐Based Perovskite Heterojunctions",
+   "link": "https://doi.org/10.1002/adfm.78828",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-05",
+   "abstract": "ABSTRACT Compared with 3D lead halide perovskites, tin‐based ones (especially that composed of MA cation, MA‐3D), have many merits, including eco‐friendly characters and superior optoelectronic properties. However, its stability and repeatability remain great concerns compared with the FA cation‐based one (FA‐3D). Quasi‐2D (Q‐2D) tin‐based perovskites surpass the 3D counterpart in this aspect; nevertheless, the fabrication of those phase‐pure films is still challenging due to similar formation energies of different n values, thus making their photovoltaic device performance inferior to 3D analogs. Here, we intentionally designed, fabricated, and systematically studied diverse phase‐pure Q‐2D/3D heterogeneous tin‐based perovskites for enhancing the optoelectronic performance. Exploiting the developed temperature‐lowering method with pre‐synthesized polycrystalline materials, we successfully fabricated bulk crystals of 3D and Q‐2D tin‐based perovskites. With these crystals, we prepared highly pure and stable precursor solutions, which are used for producing Q‐2D tin perovskite films with a determined n value, aligned growth orientation, and enhanced stability. Furthermore, we fabricated phase‐pure Q‐2D/FA‐3D heterojunctions for optoelectronic properties, which benefit for achieving low‐cost heterojunction solar devices with boosted PCE, outstanding repeatability, and long‐term stability, thus providing an avenue for the development of MA‐based tin perovskite devices.",
+   "authors": [
+    "Ru Li",
+    "Jingfu Chen",
+    "Jiewu Song",
+    "Yingxuan Wu",
+    "Jinwei Jiang",
+    "Yusheng Ma",
+    "Haohang Song",
+    "Fenqi Du",
+    "Shengchun Yang",
+    "Zhimao Yang",
+    "Yangyang Dang",
+    "Tao He",
+    "Tongling Liang",
+    "Zhanhua Wei",
+    "Chengbo Tian",
+    "Xiaolong Liu",
+    "Xutang Tao"
+   ],
+   "doi": "10.1002/adfm.78828",
+   "keywords": [
+    "halide perovskite",
+    "lead halide",
+    "perovskite",
+    "photovoltaic"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Wireless Monolithic Tandem Leaf for Semi-Artificial Photosynthesis",
+   "link": "https://doi.org/10.1021/acsenergylett.6c01999",
+   "journal": "ACS Energy Letters",
+   "publisher": "ACS",
+   "date": "2026-10-05",
+   "abstract": "Abstract Biocatalytic semi-artificial photosynthesis enables selective solar-to-chemical conversion by harnessing photoelectrocatalytic platforms to drive redox biocatalysis. However, the reliance of most photoelectrochemical (PEC)-based devices on transparent conductive oxides (TCOs) or wired configurations introduces resistive losses and architectural complexity, limiting the translation of biosolar conversion beyond laboratory-scale systems. Here, we report a wireless, monolithic semi-artificial leaf device toward scalable and practical solar biosynthesis. The PEC tandem, composed of a poly(ethylene glycol) (PEG)-modified BiVO4 (PEG:BiVO4) photoanode and a tunnel-oxide-passivated-contact (TOPCon) Si photovoltaic (PV), supplies sufficient photovoltage to reduce O2 to H2O2 on an anthraquinone-2-carboxylic acid (AQC)-functionalized carbon-fiber paper (CFP) cathode under solar light, sustaining over 100 h of stable operation. The photogenerated H2O2 reacts with peroxygenases to catalyze the oxyfunctionalization of substituted benzenes, alkanes, and fatty acids with record-high total turnover numbers of 166,100 (unspecific peroxygenase) and 3,700 (cytochrome P450). Furthermore, the scaling of the PEC device allows the direct conversion of natural light into enantiopure alcohols.",
+   "authors": [
+    "Minah Kim",
+    "Jihong Min",
+    "Chang Hyun Kim",
+    "Hyun-Woo Kim",
+    "Donggu Kim",
+    "Yire Han",
+    "Yonghoon Jung",
+    "Hanseul Choi",
+    "Hoyoung Song",
+    "Hyewon Park",
+    "Soo-Jin Yeom",
+    "Kwanyong Seo",
+    "Yun Seog Lee",
+    "Yoonmook Kang",
+    "Jeong Young Park",
+    "Byungha Shin",
+    "Chan Beum Park"
+   ],
+   "doi": "10.1021/acsenergylett.6c01999",
+   "keywords": [
+    "photoelectrochemical",
+    "photovoltage",
+    "photovoltaic",
+    "tandem"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
   {
    "title": "Overcoming the Resistance Penalty in Large-Bandgap Carbon Nanotube Electronics via Synergistic Interfacial Engineering",
    "link": "https://doi.org/10.1021/acsami.6c10272",
@@ -53,6 +564,32 @@
     "thin-film transistor"
    ],
    "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "A Low-Power, Self-Sustained Acoustic Node for Always-On Voice-Command Detection and Recognition Based on Triboelectric Nanogenerators and Edge Artificial Intelligence",
+   "link": "https://doi.org/10.1021/acsami.6c16840",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-10-05",
+   "abstract": "Abstract Always-on voice-command recognition is important for smart-home control and human–machine interaction, but continuous acoustic sensing, edge inference, and wireless transmission can rapidly drain batteries. Here, we report a low-power, self-sustained acoustic node for always-on voice-command detection and recognition that integrates triboelectric acoustic wake-up and sensing, hierarchical edge artificial intelligence (edge AI), on-demand Bluetooth transmission, photovoltaic energy harvesting and energy storage. Rather than keeping all modules continuously active, the system reduces energy consumption through module-level power optimization and system-level event-driven control of module operating time. It remains in near-zero-power monitoring until acoustic activity crosses a preset threshold, then enters a low-power stage for wake-word screening. Command recognition and Bluetooth transmission are activated only after wake-word confirmation. The system achieved real-time accuracies of 96.0% for wake-word screening and 95.64% for 11-class command-word recognition on the microcontroller. The system consumed 8.04 J over 24 h, corresponding to an average power of 93 μW. During a separate 24 h test of the complete system with direct photovoltaic charging, approximately 1.72 kJ of net electrical energy was delivered to the battery terminals. This architecture integrates always-on event capture, on-device recognition, and local energy supply, and may support the development of long-term unattended voice-interaction nodes.",
+   "authors": [
+    "Zefang Dong",
+    "Likun Gong",
+    "Shuai Yang",
+    "Xianpeng Fu",
+    "Feiling Luo",
+    "Zhihao Wang",
+    "Jinhu Wang",
+    "Tingshan Liu",
+    "Jie Cao",
+    "Chi Zhang"
+   ],
+   "doi": "10.1021/acsami.6c16840",
+   "keywords": [
+    "photovoltaic"
+   ],
+   "type": "article",
    "oa_type_tried": 1
   },
   {
@@ -83,7 +620,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Selenium Vacancy‐Enabled 2D Bi 2 O 2 Se Optoelectronic Synapses for Neuromorphic Vision Processing",
@@ -118,7 +655,7 @@
     "neuromorphic"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Self‐Assembly of a Colloidal Honeycomb Crystal in Silico for Topological Valley Photonics",
@@ -140,7 +677,7 @@
     "circularly polarized"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Seawater‐Operable Photoelectrochemical Solar‐Blind UV Detectors Enabled by Epitaxial Perovskite Oxide Heterostructures",
@@ -167,7 +704,7 @@
     "photoelectrochemical"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Conducting Flexible Single Crystalline Silver Nanocluster Chain",
@@ -193,7 +730,7 @@
     "charge transport"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Pyridine‐Carboxamide Bicyclic Molecules with Multi‐Site Anchoring for Flexible Perovskite Photovoltaics with Long Operational Lifetimes",
@@ -222,7 +759,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Vertical Quasi‐2D Perovskite on ZnMgO Enables High‐Performance Pure‐Red PeLEDs",
@@ -253,7 +790,7 @@
     "quasi-2D perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Monolithic three-dimensionally integrated memristor-thin-film transistor for electrically programmable multimode reservoir computing",
@@ -671,7 +1208,7 @@
     "neuromorphic"
    ],
    "type": "review",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type_tried": 2
   },
   {
@@ -2269,7 +2806,7 @@
     "lasing"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -2289,7 +2826,7 @@
     "quantum dot"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -2481,7 +3018,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -9605,7 +10142,7 @@
     "photodiode"
    ],
    "type": "comment",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "erratum"
   },
   {
@@ -12025,7 +12562,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -14496,7 +15033,7 @@
     "circularly polarized"
    ],
    "type": "review",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "review"
   },
   {
@@ -16586,7 +17123,7 @@
   },
   {
    "title": "Stretchable quantum dot displays achieve high definition",
-   "link": "https://doi.org/10.1038/s41565-026-02278-y",
+   "link": "https://www.nature.com/articles/s41565-026-02278-y",
    "journal": "Nature Nanotechnology",
    "publisher": "Nature",
    "date": "2026-09-14",
@@ -16599,7 +17136,7 @@
     "quantum dot"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -18266,7 +18803,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -19006,7 +19543,7 @@
    ],
    "type": "comment",
    "oa_type": "erratum",
-   "ab_tried": 3
+   "ab_tried": 4
   },
   {
    "title": "Ironing out the wrinkles",
@@ -19053,7 +19590,7 @@
    ],
    "type": "article",
    "oa_type": "article",
-   "ab_tried": 2
+   "ab_tried": 3
   },
   {
    "title": "Crystallization control of 2.0-eV bandgap perovskites for all-perovskite triple-junction solar cells",
@@ -19282,7 +19819,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -19308,7 +19845,7 @@
     "photoluminescence"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -19333,7 +19870,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -19364,7 +19901,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
