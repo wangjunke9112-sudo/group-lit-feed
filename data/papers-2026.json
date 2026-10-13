@@ -1,8 +1,843 @@
 {
  "year": "2026",
- "count": 6994,
- "generated": "2026-10-12 01:18 UTC",
+ "count": 7026,
+ "generated": "2026-10-13 03:11 UTC",
  "papers": [
+  {
+   "title": "Solid-state emissive acceptors enable thermally accessible radiative pathways for efficient organic solar cells",
+   "link": "https://doi.org/10.1038/s41566-026-02009-8",
+   "journal": "Nature Photonics",
+   "publisher": "Nature",
+   "date": "2026-10-12",
+   "abstract": "Solid-state emissive guest acceptors enhance organic solar cells by establishing thermally accessible radiative pathways, significantly reducing non-radiative voltage loss end enabling ternary blend devices with a certified power conversion efficiency of 20.84%.",
+   "authors": [
+    "Yingze Zhang",
+    "Fei Han",
+    "Rongkun Zhou",
+    "Zihao Deng",
+    "Jiehao Fu",
+    "Mingjie Rong",
+    "Ho Ming Ng",
+    "Yuang Fu",
+    "Xin Ding",
+    "Xianghao Zeng",
+    "Jichen Yi",
+    "Hao Xia",
+    "Joshua Yuk Lin Lai",
+    "Ruijie Ma",
+    "Chao Li",
+    "Xinhui Lu",
+    "Jinyang Yu",
+    "Haiming Zhu",
+    "Jun Liu",
+    "Feng Liu",
+    "Zilong Zheng",
+    "Feng He",
+    "Lei Zhu",
+    "He Yan",
+    "Gang Li",
+    "Sai Ho Pun"
+   ],
+   "doi": "10.1038/s41566-026-02009-8",
+   "keywords": [
+    "solar cell"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Stable deep-blue organic light-emitting diodes with reduced efficiency roll-off via accelerated exciton utilization",
+   "link": "https://doi.org/10.1038/s41566-026-02029-4",
+   "journal": "Nature Photonics",
+   "publisher": "Nature",
+   "date": "2026-10-12",
+   "abstract": "Deep-blue organic light-emitting diodes leveraging phosphor-assisted TADF-sensitized fluorescence enable accelerated exciton dynamics, resulting in devices with an external quantum efficiency of 35.9% and an LT80 lifetime of 632 h.",
+   "authors": [
+    "Tianyu Huang",
+    "Hai Zhang",
+    "Qi Wang",
+    "Biwen Li",
+    "Minqiang Mai",
+    "Yang Xiao",
+    "Hugo Bronstein",
+    "Richard Friend",
+    "Lian Duan",
+    "Dongdong Zhang"
+   ],
+   "doi": "10.1038/s41566-026-02029-4",
+   "keywords": [
+    "light-emitting diode",
+    "phosphor"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Structural Rigidity Enables Amplified Spontaneous Emission in 2D Alkylammonium Tin Perovskites",
+   "link": "https://doi.org/10.1021/jacs.6c14883",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2026-10-12",
+   "abstract": "Abstract Two-dimensional tin perovskites are attracting increasing attention for coherent light emission, yet the impact of organic cations on their properties remains poorly understood. Here, we compare the Ruddlesden–Popper (RP) butylammonium tin iodide (BA2SnI4) and Dion–Jacobson (DJ) 1,4-diammoniobutane tin iodide (DABSnI4) perovskites to investigate the impact of the two structural types on their photophysical and optical gain properties. Combining X-ray diffraction and solid-state NMR spectroscopy, we reveal the different templating properties of the mono- and ditopic cations on the long-range structural order and local coordination environment, identifying an unreported phase transition for DABSnI4. The constrained molecular motions in the DJ perovskite provide an increased structural rigidity that also suppresses vibrational modes of the inorganic sublattice. The consequent lower exciton–phonon coupling and exciton binding energy, reduced defectivity, and modulation of the exciton recombination dynamics create favorable conditions to stabilize the population inversion and achieve amplified spontaneous emission (ASE) in DABSnI4, in net contrast with BA2SnI4 where ASE could not be obtained. This work highlights that Dion–Jacobson perovskites can create more rigid structural environments with positive feedback on the photophysical properties, providing a simple but effective design strategy for the synthesis of improved materials for optoelectronic applications.",
+   "authors": [
+    "Francesca Canestra",
+    "Nurgul Sarsembek",
+    "Yarong He",
+    "Andrea Pianetti",
+    "Martina Santarelli",
+    "Silvia Contessi",
+    "Ranita Samanta",
+    "Martina Zangari",
+    "Federico Brivio",
+    "Tommaso Salzillo",
+    "Cristina Femoni",
+    "Annamaria Petrozza",
+    "Daniele Cortecchia"
+   ],
+   "doi": "10.1021/jacs.6c14883",
+   "keywords": [
+    "amplified spontaneous emission",
+    "Dion-Jacobson",
+    "optical gain",
+    "perovskite",
+    "Ruddlesden-Popper"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "In Situ Ion-Exchange-Mediated Dynamic Nanointerface Reconfiguration for Polarity-Switchable Photoelectrochemical–Photothermal Biosensing",
+   "link": "https://doi.org/10.1021/jacs.6c18273",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2026-10-12",
+   "abstract": "Abstract Conventional photoelectrochemical (PEC) systems typically rely on static semiconductor interfaces that merely translate biomolecular recognition into amplitude modulation of the pre-existing photocurrent, thus limiting their analytical robustness and self-validation capabilities. Herein, we report in situ ion-exchange-mediated dynamic nanointerface engineering to fabricate an analyte-programmed reconfigurable PEC–photothermal (PT) dual-mode biosensor for the carcinoembryonic antigen (CEA) assay. The Z-scheme heterostructure of a plasmonic Au nanoparticle (NP) layer-supported BiOI/AgI/indium tin oxide glass (BiOI/AgI/Au NPs/ITO) is constructed as the initial photoelectrode. In the sensing process, a CEA recognition event directly reshapes the phase composition of BiOI/AgI, charge-transfer behavior, and photoresponse polarity. The synergistic integration of the BiOI/AgI heterostructure and the close-packed layer of plasmonic Au NPs substantially enhance the light absorption, charge separation, and interfacial charge transfer, making BiOI/AgI/Au NPs/ITO a highly suitable photoelectrode for the PEC mode of the PEC–PT biosensor. This analyte-driven phase evolution reconstructs the semiconductor composition, band alignment, and charge-transfer pathways to switch the photocurrent polarity from cathodic to anodic. In addition, a photothermal imaging mode of the PEC–PT biosensor is triggered by regulating the Bi2S3 formation for intrinsic cross-validation. By integrating an artificial neural network (ANN)-assisted analysis, PEC–PT biosensors enable robust multimodal quantification and improved analytical reliability, achieving > 99.8% prediction accuracy in real-sample analysis. This is the first example of integrating a dynamic nanointerface-driven PEC–PT dual-mode biosensor with artificial intelligence (AI)-enhanced multimodal analysis for CEA detection and provides a dynamic nanointerface-driven strategy for intelligent multimode biosensing.",
+   "authors": [
+    "Hao Cheng",
+    "Zhen Yang",
+    "Dan Yang",
+    "Chuanping Li",
+    "Ren Cai",
+    "Weihong Tan"
+   ],
+   "doi": "10.1021/jacs.6c18273",
+   "keywords": [
+    "band alignment",
+    "biosensor",
+    "photoelectrochemical"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Triplet exciton recycling in organic solar cells enabled by an extrinsic triplet–triplet annihilation dopant",
+   "link": "https://doi.org/10.1039/d6el00075d",
+   "journal": "EES Solar",
+   "publisher": "RSC",
+   "date": "2026-10-12",
+   "abstract": "By doping the triplet–triplet annihilation material rubrene into a PM6:Y6 organic solar cell, the triplet excitons formed via non-geminate charge recombination can be recycled.",
+   "authors": [
+    "Darcy M. L. Unson",
+    "Rachel C. Kilbride",
+    "Jeannine Grüne",
+    "Daniel T. W. Toolan",
+    "Pascal Kaienburg",
+    "Subhrangsu Mukherjee",
+    "Sangcheol Yoon",
+    "Nakul Jain",
+    "Hanbo Yang",
+    "Jarvist M. Frost",
+    "Harald Ade",
+    "Thuc-Quyen Nguyen",
+    "Andreas Sperlich",
+    "Vladimir Dyakonov",
+    "Neil C. Greenham",
+    "Alexander J. Gillett"
+   ],
+   "doi": "10.1039/d6el00075d",
+   "keywords": [
+    "solar cell"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Synergistic Regulation of High Dielectric Constant and H‐Aggregation for Efficient and Thickness‐Tolerant Organic Solar Cells",
+   "link": "https://doi.org/10.1002/anie.2077291",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2026-10-12",
+   "abstract": "ABSTRACT While the power conversion efficiency (PCE) of organic solar cells (OSCs) has advanced rapidly, their sensitivity with respect to active layer thickness hinders industrial fabrication. Herein, a novel acceptor BMD‐6F was synthesized via molecular engineering of L8‐BO, which realizes synergistic optimization of dielectric constant (6.20, 1.5 × that of L8‐BO) and H‐aggregation and thus enriches charge transport pathways, facilitates exciton dissociation, and suppresses recombination. As a result, the PM6:L8‐BO:BMD‐6F ternary OSC delivered a champion PCE of 20.34% at 100 nm, and exhibited excellent thickness tolerance with PCEs of 18.23% (300 nm) and 16.18% (500 nm). This work establishes a design principle for high‐efficiency, thickness‐tolerant OSCs, promising industrial applications.",
+   "authors": [
+    "Peng Zhang",
+    "Yunhan Gao",
+    "Linsen Li",
+    "Shuai Xu",
+    "Shuhan Yang",
+    "Youdi Zhang",
+    "Meifang Zhang",
+    "Nan Ye",
+    "Lixue Zhu",
+    "Tao Jia",
+    "Sha Liu",
+    "Zicheng Ding",
+    "Hongxiang Li",
+    "Lei Zhu",
+    "Qing Jiang",
+    "Tonghui Wang",
+    "Changduk Yang",
+    "Yiwang Chen"
+   ],
+   "doi": "10.1002/anie.2077291",
+   "keywords": [
+    "charge transport",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "UV/X‐Ray‐Induced Reduction of Eu 3+ to Eu 2+ in Rare‐Earth‐Based Halide Double Perovskite for Material‐Discriminative X‐Ray Imaging",
+   "link": "https://doi.org/10.1002/anie.3151373",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2026-10-12",
+   "abstract": "ABSTRACT Stacked scintillators for x‐ray energy discrimination require at least two emission bands with sufficient spectral separation to avoid signal crosstalk. Rare‐earth‐based double perovskites exhibit narrow‐band luminescence at multiple visible wavelengths, which is advantageous for such designs. However, an efficient narrow‐band blue emission has not yet been realized, hindering further development. Here, efficient Eu 2+ blue luminescence is achieved in Cs 2 (Li/Na/K)(Lu/Y/Gd)Cl 6 under ambient conditions via photo‐induced reduction of Eu 3+ to Eu 2+ , eliminating harsh reducing atmospheres. The reduction is driven by 254 nm UV or x‐ray irradiation, while mild heating and x‐ray‐induced lattice distortion assist carrier migration. The unique multi‐cation structure provides cation vacancies that trap holes, stabilizing the reduction. The resulting Eu 2+ emits narrow‐band blue light at 450 nm (FWHM 25 nm, PLQY 84.1%, 19 000 ph/MeV) in Cs 2 NaLuCl 6 , and coexisting Eu 3+ shows narrow‐band red emission, achieving a 144 nm spectral separation. Taking advantage of this well‐separated dual emission, a stacked scintillator device enables highly material‐discriminative x‐ray imaging.",
+   "authors": [
+    "Mingxing Li",
+    "Shuanglai Liu",
+    "Wenwu You",
+    "Huafang Zhang",
+    "Huimin Zhang",
+    "Gencai Pan",
+    "Yanli Mao"
+   ],
+   "doi": "10.1002/anie.3151373",
+   "keywords": [
+    "double perovskite",
+    "perovskite",
+    "plqy",
+    "scintillator",
+    "x-ray imaging"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Dual‐Encrypted Ultraviolet Optical Communication Driven by Opto‐Piezoelectric Coupling in Two‐Dimensional Flexible Ferroelectric Single‐Crystalline Thin‐Films",
+   "link": "https://doi.org/10.1002/adma.75320",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-12",
+   "abstract": "ABSTRACT The rapid development of flexible wearable electronics has triggered an urgent demand for high‐security and miniaturized encrypted optical communication systems. However, conventional optical encryption strategies predominantly rely on dual‐wavelength excitation, tunable light sources, or software‐based algorithms, leading to bulky configurations and vulnerable hardware‐level security. Herein, we report a dual‐encrypted ultraviolet optical communication system based on BA 2 EA 2 Pb 3 Br 10 ( 1 , where BA is n‐butylamine and EA is ethylamine) ferroelectric single‐crystalline thin‐films (SCFs). The 1 ferroelectric SCFs show a photoresponsivity that reaches 230% of the original level under +1.13% tensile strain. Notably, we innovatively define the strain‐ratio key (ε 1 /ε 2 , ε 2 /ε 3 , ε 3 /ε 4 ) induced by distinct bending states as the intrinsic unclonable hardware secret key, and construct a 4‐bit combined coding scheme based on four distinguishable photocurrent levels modulated by these strain ratios to realize secure transmission of the message “FJIRSM.” This strain ratio‐based system avoids complex optical modulation, ensuring ultrahigh security, and expands the application of two‐dimensional ferroelectrics in advanced encrypted optoelectronics.",
+   "authors": [
+    "Hang Li",
+    "Yao Li",
+    "Qianwen Guan",
+    "Ji Qi",
+    "Chengmin Ji",
+    "Huang Ye",
+    "Zhenyue Wu",
+    "Chengshu Zhang",
+    "Lijun Xu",
+    "Haiqing Zhong",
+    "Junhua Luo"
+   ],
+   "doi": "10.1002/adma.75320",
+   "keywords": [
+    "ferroelectric",
+    "piezoelectric"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Sustained‐Release Regulation on FAPbI 3 Crystallization to Enhance Photo‐Thermal Stability of Perovskite Solar Cells",
+   "link": "https://doi.org/10.1002/adma.75359",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-12",
+   "abstract": "ABSTRACT Controlling crystallization kinetics of FAPbI 3 perovskite is crucial for improving crystal quality, device performance and stability. Herein, we report a sustained‐release strategy to regulate the PbI 2 ‐to‐FAPbI 3 conversion. PbI 2 lattice expansion arising from the interaction between PEI (oligomeric poly(ethyleneimine)) and iodide species suppresses nonuniform PbI 2 crystallization and facilitates FAI infiltration. Moreover, the weak interaction between oligomeric PEGDE (poly(ethylene glycol) diglycidyl ether) and FAI slows the reaction between FAI and PbI 2 , leading to homogeneous phase conversion during annealing. Consequently, enlarged FAPbI 3 grains are obtained with improved crystallographic orientation, reduced strain and suppressed nonradiative recombination. Furthermore, released PEI and PEGDE undergo in situ crosslinking to form a three‐dimensional network that passivates grain boundaries, stabilizes microstructure and affords inner encapsulation. The resulting champion n‐i‐p device presents a power conversion efficiency of 26.6% (certified 26.17%). Both films and devices exhibit enhanced photothermal stability. The PEI/PEGDE‐treated device maintains 92% of its initial efficiency at 85 °C for over 1,100 h, 96% after continuous illumination (∼100 mW cm − 2 ) and maximum‐power‐point (MPP) tracking for over 1,500 h, and 89% after MPP tracking at 85 °C over 12 days. This work offers a polymerization‐assisted route for synchronizing crystallization control, defect passivation and inner encapsulation to enhance perovskite solar‐cell stability.",
+   "authors": [
+    "Rui Zhang",
+    "Xiangjin Du",
+    "Hongkun Wei",
+    "Yiming Li",
+    "Chengyu Tan",
+    "Yingxin Ma",
+    "Shiyu Jiang",
+    "Yuqi Cui",
+    "Huijue Wu",
+    "Jiangjian Shi",
+    "Yanhong Luo",
+    "Dongmei Li",
+    "Qingbo Meng"
+   ],
+   "doi": "10.1002/adma.75359",
+   "keywords": [
+    "defect passivation",
+    "perovskite",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Asymmetric‐Isomerization Dimer Acceptors via Modular Molecular Design Enable Highly Efficient Binary Organic Solar Cells",
+   "link": "https://doi.org/10.1002/adma.75370",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-12",
+   "abstract": "ABSTRACT Dimer acceptors are attractive for organic solar cells (OSCs) owing to their combination of stability and high efficiency, yet the efficiency of dimer‐based binary devices has long stagnated below 20%. The limitation stems from weak intramolecular charge transfer (ICT) and poor locally excited/charge‐transfer (LE/CT) state hybridization, which are direct consequences of the canceled dipole moments in symmetric dimer architectures. In this work, we adopt an asymmetric‐isomerization strategy to design two novel dual‐asymmetric isomeric dimer acceptors QCl‐YF and QF‐YCl. Compared with QCl‐YF, QF‐YCl exhibits an enhanced ICT effect as evidenced by a larger electron‐hole spatial separation, which promotes LE/CT hybridization and enables more efficient carrier dynamics. Moreover, the stronger electrostatic potential and dipole moment of QF‐YCl enhances the intermolecular interactions to improve donor/acceptor compatibility and film‐forming process in blend film, consequently leading to more ordered film morphology. Consequently, the QF‐YCl‐based device achieves a record PCE of 20.23% (vs. 19.60% for QCl‐YF), achieving the highest efficiency for dimer‐based binary OSCs. This work demonstrates that asymmetric‐isomerization is a precise and effective design strategy for high‐performance dimer acceptors.",
+   "authors": [
+    "Lei Tang",
+    "Shiyong You",
+    "Jie Zhou",
+    "Chao Yang",
+    "Feiyan Wu",
+    "Sangjin Yang",
+    "Changduk Yang",
+    "Zhi Xing",
+    "Zhuoran Kuang",
+    "Jiabin Liu",
+    "Lie Chen"
+   ],
+   "doi": "10.1002/adma.75370",
+   "keywords": [
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "A Quasi‐n‐i‐p Architecture Realized by Sequential Lamination Delivers 20.58% Efficiency in Inverted Organic Solar Cells",
+   "link": "https://doi.org/10.1002/adma.75355",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-12",
+   "abstract": "ABSTRACT Inverted organic solar cells (OSCs) are promising for their enhanced operational stability; however, their power conversion efficiencies (PCEs) have lagged those of conventional devices, largely due to interfacial losses at the active layer/metal‐oxide interface. Here, we develop a sequential lamination strategy to construct a quasi‐n‐i‐p active layer comprising an acceptor‐rich layer, a bulk heterojunction (BHJ) core, and a donor‐rich layer. This vertically engineered architecture establishes cascade energy‐level alignment and preserves interfacial integrity, thereby facilitating efficient charge extraction and suppressing recombination losses. As a result, the optimal device achieves a PCE of 20.58%, with a certified efficiency of 20.07%, placing it among the highest reported for single‐junction inverted OSCs. This architecture was successfully fabricated with different donor‐rich layers, BHJ cores, and acceptor‐rich layers, demonstrating broader material applicability across multiple material combinations. Interfacial adhesion and vertical compositional control improve electrical continuity, enhance charge generation and transport, and reduce trap‐assisted and bimolecular recombination, leading to higher open‐circuit voltage, short‐circuit current density, and fill factor. This work provides a scalable route to active‐layer engineering in inverted OSCs and offers a general strategy for high‐performance organic photovoltaic fabrication.",
+   "authors": [
+    "Silu Huang",
+    "Guangquan Zhang",
+    "Yongjoon Cho",
+    "Sein Chung",
+    "Zhenmin Zhao",
+    "Jiancheng Zhong",
+    "Xiaoge Huang",
+    "Wuning Wei",
+    "Lixing Tan",
+    "Anhai Liang",
+    "Yufei Wang",
+    "Guangye Zhang",
+    "Kilwon Cho",
+    "Zhipeng Kan"
+   ],
+   "doi": "10.1002/adma.75355",
+   "keywords": [
+    "energy level alignment",
+    "open-circuit voltage",
+    "operational stability",
+    "photovoltaic",
+    "single-junction",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Spatially Complementary In‐Plane Lattice Strain Engineering for Reduced Contact Resistance and Enhanced Ferroelectric Switching in Van Der Waals α‐In 2 Se 3 Ferroelectric Semiconductor Field‐Effect Transistors",
+   "link": "https://doi.org/10.1002/adfm.78912",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-12",
+   "abstract": "ABSTRACT α‐In 2 Se 3 ferroelectric semiconductor field‐effect transistors (FeS‐FETs) offer attractive non‐volatile memory characteristics but are limited by high source/drain (S/D) contact resistance and inefficient ferroelectric polarization switching. Here, we demonstrate a low‐temperature, CMOS‐compatible strain‐engineering strategy based on region‐dependent in‐plane (IP) lattice strain. A silicon nitride stress layer induces tensile strain in the S/D regions and compressive strain in the channel, producing spatially differentiated effects within a single device. The contact‐side tensile strain modifies the interfacial electronic structure and reduces contact resistance, whereas the channel‐side compressive strain facilitates ferroelectric polarization switching. Consequently, the strained α‐In 2 Se 3 FeS‐FET achieves a 12.03‐fold reduction in S/D contact resistance, a 19.21‐fold increase in on‐state current, a 4.4%p increase in normalized memory window, and a 22.4‐fold enhancement in the ferroelectric resistance switching ratio. Raman characterization and finite‐element method simulations establish the region‐dependent strain distribution, while interface‐pinning analysis and first‐principles calculations provide mechanistic support for the distinct contact‐ and channel‐side effects. These results establish region‐dependent IP lattice strain as a unified device‐engineering framework for jointly controlling contact transport and ferroelectric memory functionality in vdW α‐In 2 Se 3 FeS‐FETs.",
+   "authors": [
+    "Jong‐Hyun Kim",
+    "Hyeong‐Kyu Jin",
+    "Soo‐Hyun Lee",
+    "Seung‐Hwan Kim",
+    "Deji Akinwande",
+    "Hyun‐Yong Yu"
+   ],
+   "doi": "10.1002/adfm.78912",
+   "keywords": [
+    "ferroelectric",
+    "field-effect transistor"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Balancing Temperature Stability and Dielectric Loss in Microwave Ceramics via Embedded Polar Nanoregions",
+   "link": "https://doi.org/10.1002/adfm.78578",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-12",
+   "abstract": "ABSTRACT The deployment of 5G/6G communication systems demands microwave dielectric ceramics that simultaneously possess a near‐zero temperature coefficient of resonant frequency and an ultra‐low dielectric loss (tan δ ), which represents a long‑standing challenge that demands effective optimization strategies. Herein, the fundamental limitation is substantially alleviated by a strategy integrating interpretable machine learning with entropy engineering, enabling the reverse design of a medium‐entropy perovskite microwave ceramic composition (Ca 0.7 Sm 0.27 Nd 0.03 )[Ti 0.686 (Mg 1/3 Nb 2/3 ) 0.014 Al 0.3 ]O 3 . This ceramic material delivers a desired combination perfomance of τ f = −0.18 ppm/°C and tan δ = 1.19 × 10 −4 at 4.6 GHz. Multiscale characterization reveals that entropy‐induced chemical disorder creates isolated polar nanoregions that pin charged defects, transforming them from a source of relaxation loss into static structural units, which is different from the conventional defect–loss correlation mechanism. The optimized ceramic is implemented in a dielectric resonator antenna, which demonstrates superior performance: a radiation efficiency of 96.2% and a gain of 6.06 dBi. The findings establish a generalizable framework for navigating complex compositional spaces and resolving conflicting properties in perovskite materials.",
+   "authors": [
+    "Zhihan Zhang",
+    "Hongyu Yang",
+    "Yihang Li",
+    "Linzhuang Xing",
+    "Dongyan Zhang",
+    "Zhimin Li",
+    "Yue Hao"
+   ],
+   "doi": "10.1002/adfm.78578",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Magnetically Reconfigurable Noncollinear Excitonic Polarization in a MoSe 2 /CrOCl/Fe 3 GaTe 2 Heterostructure",
+   "link": "https://doi.org/10.1002/adfm.78979",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-12",
+   "abstract": "ABSTRACT Van der Waals (vdW) heterointerfaces provide a versatile platform for tailoring polarization‐resolved excitonic emission in 2D semiconductors, offering new opportunities for polarization‐encoded photonic functionalities. However, the realization of distinct and externally reconfigurable polarization orientations for coexisting excitonic states within a single magnetic heterostructure remains largely unexplored. Here we demonstrate magnetically reconfigurable exciton polarization in a MoSe 2 /CrOCl/Fe 3 GaTe 2 vdW heterostructure, arising from the combined effects of interfacial symmetry breaking and magnetically mediated interfacial coupling. Polarization‐resolved photoluminescence measurements reveal pronounced in‐plane anisotropy for both neutral excitons (X 0 ) and trions (T), with strongly non‐collinear polarization axes. Near the spin‐flop transition of CrOCl, the emission polarization undergoes an abrupt ∼ 90°rotation under an applied magnetic field, generating bistable polarization states that allow optical readout of magnetic phase evolution and dual‐channel polarization encoding. A further reorientation across the Néel temperature highlights the intimate coupling between magnetic order and lattice symmetry at the heterointerface. First‐principles calculations attribute the emergent anisotropy to anisotropic charge redistribution in MoSe 2 . These findings establish magnetic vdW heterointerfaces as a route to reconfigurable multi‐exciton polarization control and magnetic‐field‐tunable polarization encoding in 2D materials.",
+   "authors": [
+    "Xian Zhang",
+    "Shaofei Li",
+    "Xing Xie",
+    "Siyu Zhang",
+    "Junying Chen",
+    "Shikun Hou",
+    "Yixuan Chen",
+    "Zimeng He",
+    "Jun He",
+    "Zongwen Liu",
+    "Yanping Liu"
+   ],
+   "doi": "10.1002/adfm.78979",
+   "keywords": [
+    "photoluminescence"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "A Multifunctional Molecular Bridge at the Bottom Interface of Perovskite Solar Cells for Crystallization Regulation and Efficient Carrier Extraction",
+   "link": "https://doi.org/10.1002/adfm.78988",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-12",
+   "abstract": "ABSTRACT Perovskite solar cells (PSCs) have attracted widespread attention from researchers worldwide and experienced rapid development in recent years. The bottom interface plays a crucial role in charge transfer and collection, and its status significantly affect the perovskite crystallization and the performance of PSCs. Thus, in this work, potassium trifluoromethanesulfonate (KFMA), was introduced as a multifunctional molecular bridge at the SnO 2 /Perovskite bottom interface to improve the interface status and the efficiency and stability of PSCs. Our results show that KFMA can interact with SnO 2 , passivate its surface defects, and optimize the interface energy level alignment, leading to enhanced charge transfer and promoted carrier extraction. Additionally, KFMA can regulate the growth of PbI 2 and perovskite crystallization, making more thorough transformation from PbI 2 to perovskite, giving a high‐quality perovskite film. As a result, PSCs with a KFMA interface layer achieved an efficiency of 26.08% and long‐term stability. After maximum power point (MPP) tracking under 1 Sun illumination for 500 h, PCE of the KFMA‐based device remained at 82.6% of the initial efficiency, while that of the pristine PSC just was left about 40%.",
+   "authors": [
+    "Man Zhang",
+    "Yuexiang Shi",
+    "Qian Xiao",
+    "Defeng Yan",
+    "Qingwu Huang",
+    "Jian Gao",
+    "Jingyu Ai",
+    "Huanhuan Yang",
+    "Shasha Zhang",
+    "Yiqiang Zhang"
+   ],
+   "doi": "10.1002/adfm.78988",
+   "keywords": [
+    "energy level alignment",
+    "perovskite",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Dual‐Interface Kinetics Activation Through Dipole‐Induced Dynamic Liquid Crystal Interfacial Engineering for Efficient Solar Water Splitting",
+   "link": "https://doi.org/10.1002/adfm.78913",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-12",
+   "abstract": "ABSTRACT Interface engineering is vital for improving the efficiency of semiconductor‐based solar energy devices. Herein, we report a dipole‐induced dynamic interface engineering strategy enabled by the nematic phase of 2‐(4‐((4‐(heptyloxy)phenyl)ethynyl)phenyl)‐5‐methylbenzo[ d ]oxazole (PEMB‐N) liquid crystal molecules. The rationally designed BiVO 4 /PEMB‐N/FeNiOOH photoanode achieves a photocurrent density of 6.4 mA/cm 2 at 1.23 V vs. RHE, alongside a solar‐to‐hydrogen (STH) conversion efficiency of 7.2% and sustained photostability. A combination of density functional theory (DFT) calculations and experimental characterizations (in situ UV/vis spectroelectrochemistry and Kelvin probe force microscopy) elucidates that the enhanced dipole moment arising from benzoxazole functionalization, coupled with the dynamically tunable nematic phase of PEMB‐N, facilitates the directional and multichannel extraction and migration of holes across the BiVO 4 /PEMB‐N interface. Furthermore, at the PEMB‐N/FeNiOOH interface, the well‐ordered nematic phase effectively modulates the Fe d‐band center and boosts the oxygen evolution reaction (OER) kinetics. Importantly, this strategy is universally applicable to Ti‐Fe 2 O 3 /PEMB‐N/FeNiOOH photoanodes, demonstrating its broad compatibility with different photoanodes. These findings provide a “soft” interface engineering concept compared to conventional “rigid” interface modulation strategies for constructing high‐performance solar‐driven water splitting systems.",
+   "authors": [
+    "Li Xu",
+    "Fangming Zhao",
+    "Lan Yao",
+    "Xingming Ning",
+    "Zehua Liu",
+    "Lujie Xiang",
+    "Xurui Li",
+    "Yitong Li",
+    "Rui Ding",
+    "Conghui Li",
+    "Jie Wang",
+    "Kanghuan Meng",
+    "Zhongwei An",
+    "Pei Chen",
+    "Xinbing Chen"
+   ],
+   "doi": "10.1002/adfm.78913",
+   "keywords": [
+    "water splitting"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Correction to “Direct Ink Writing of Single‐Crystal‐Assembled Perovskite Thick Films for High‐Performance X‐Ray Flat‐Panel Detectors”",
+   "link": "https://doi.org/10.1002/adfm.78815",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-12",
+   "abstract": "Advanced Functional Materials, EarlyView.",
+   "authors": [],
+   "doi": "10.1002/adfm.78815",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "comment",
+   "ab_tried": 1,
+   "oa_type": "erratum"
+  },
+  {
+   "title": "Polarization Properties Orientation Coupling Regulates Molecular Packing and Device Performance Beyond Dipole Moment Strength in Organic Solar Cells",
+   "link": "https://doi.org/10.1002/adfm.78955",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-12",
+   "abstract": "ABSTRACT Strong interactions between large dipole moment additives and host materials have been widely used to modulate molecular packing in organic solar cells (OSCs), while most studies focuses on dipole moment magnitude instead of the polarization properties orientation. Here, we challenge this oversimplified view by demonstrating that the polarization properties orientation—determined by both dipole orientation and polarizability anisotropy, rather than dipole magnitude alone – is the important factor. To quantify this, we introduce the “polarization properties orientation coupling degree” ( P ), which quantifies the matching of dipole orientation and polarizability distribution between additives and acceptors. Employing 1,4‐diiodobenzene (DIB) and 1,3,5‐triiodobenzene (TIB) as additives in the PM6:Y6 system with identical dipole moment magnitude but different orientation, we find that TIB exhibits a much higher p value (1.455 vs. 0.191), resulting in stronger intermolecular interactions. Consequently, TIB induces the formation of S‐type and S′‐type dimers of Y6, which optimizes exciton and charge transport behavior, boosting the performance from 17.53% to 18.08%. Furthermore, this principle is validated in high‐performance systems of PM6:L8‐BO (19.33%) and PM6:BTP‐eC9 (19.23%), and shows significant advantages in large‐area fabrication and reproducibility. This study highlights the significant role of polarization properties orientation, offering rational design strategy for high‐performance OSCs.",
+   "authors": [
+    "Yutong Zhang",
+    "Xiao Yang",
+    "Yinxia Chang",
+    "Bin Tang",
+    "Zemin He",
+    "Xingpeng Liu",
+    "Ruyu Yang",
+    "Minjin Xiu",
+    "Yanni Leng",
+    "Yu Liu",
+    "Chunpeng Song",
+    "Jiangang Liu",
+    "Qiuju Liang"
+   ],
+   "doi": "10.1002/adfm.78955",
+   "keywords": [
+    "charge transport",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "In Situ Supramolecular Depolymerization Enables Bifunctional Buried‐Interface Passivation in Inverted Perovskite Solar Cells",
+   "link": "https://doi.org/10.1002/adfm.78948",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-12",
+   "abstract": "ABSTRACT Introducing multidentate organic passivators has emerged as an effective strategy for defect passivation at the buried interface of inverted perovskite solar cells (PSCs). However, the active polar functional groups within these passivators are prone to supramolecular polymerization, which compromises passivation effectiveness. Herein, a supramolecular depolymerization strategy synergistically driven by thermal annealing and heteromolecular interactions is proposed. This approach enables the in situ depolymerization of the Zaltoprofen (Za) supramolecular structures introduced at the buried interface. The resulting depolymerized Za molecules are effectively anchored onto the underlying hole transport layer (HTL), while their molecular orientation is optimized to expose Lewis base coordination sites toward the perovskite layer. Consequently, enhanced coordination interactions with undercoordinated Pb 2+ are achieved, leading to more effective interfacial defect passivation and improved charge extraction. As a result, inverted PSCs based on a 1.57 eV bandgap perovskite exhibit a significantly improved power conversion efficiency ( PCE ), increasing from 24.05% to 25.61%. Moreover, the devices treated with this strategy demonstrate substantially enhanced operational stability compared with the pristine devices. This work provides a simple and effective strategy for activating supramolecular passivators and maximizing their defect‐passivation capability in high‐efficiency inverted PSCs.",
+   "authors": [
+    "Xuyuan Lv",
+    "Xue Zhang",
+    "Yanfei Wang",
+    "Ruixin Zu",
+    "Qixin Zhuang",
+    "Litao Xin",
+    "Can Wang",
+    "Yunpeng Xu",
+    "Lidan Wang",
+    "Guangping Yao",
+    "Yaoming Xiao",
+    "Yan‐Qing Li",
+    "Zisheng Su"
+   ],
+   "doi": "10.1002/adfm.78948",
+   "keywords": [
+    "defect passivation",
+    "operational stability",
+    "perovskite",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Self‐Powered, Ultra‐Sensitive InGaAs/ITO Nanowire Radial Junction Infrared Photodiode for Low Flux Imaging at Room Temperature",
+   "link": "https://doi.org/10.1002/adfm.78931",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-12",
+   "abstract": "ABSTRACT Shortwave infrared (SWIR) photodetection and imaging are of increasing importance for many emerging applications, such as optical and quantum communications, night vision, biomedical imaging and sensing. While planar InGaAs and Ge‐based SWIR photodetectors are the current state‐of‐the‐art, it is challenging to achieve single‐photon level sensitivity at non‐cryogenic temperatures due to their high dark current and thermal noise. Here, we demonstrate a highly sensitive self‐powered InGaAs nanowire photodetector with single‐photon‐level sensitivity at 1310 nm. The device utilizes a p+ InGaAs/Indium Tin Oxide (ITO) radial heterojunction nanowire structure, enabling strong optical confinement and efficient carrier extraction. It demonstrates a detection sensitivity down to 118.1 pW at room temperature and 6.5 pW at 223 K, corresponding to two photons per pulse of a 1310 nm laser excitation at 20 MHz with the noise equivalent powers of 1.59 × 10 −13 W Hz −1/2 and 2.18 × 10 −15 W Hz −1/2 respectively. The photodetector maintains a high signal‐to‐noise ratio of 58 dB at 1550 nm and cut‐off frequency of 15 MHz. Also, single‐pixel imaging under illumination down to ∼580 µW cm − 2 , showcasing the robust imaging capability under extremely low‐light conditions. Our results highlight the potential of nanowire‐based heterojunction photodetectors for the development of next‐generation, low‐cost, high‐performance SWIR photodetection and imaging technology.",
+   "authors": [
+    "Kosala Dhanawansha",
+    "Chaohao Chen",
+    "Zhe Li",
+    "Tuomas Haggren",
+    "Dawei Liu",
+    "Yang Yu",
+    "Baolei Liu",
+    "Sanjay Krishna",
+    "Hark H. Tan",
+    "Chennupati Jagadish",
+    "Lan Fu"
+   ],
+   "doi": "10.1002/adfm.78931",
+   "keywords": [
+    "photodetector",
+    "photodiode"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Cooperative Dual‐Directional π – π Stacking in Self‐Assembled Monolayers for High‐Performance Inverted Perovskite Solar Cells",
+   "link": "https://doi.org/10.1002/adfm.78966",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-12",
+   "abstract": "ABSTRACT The evolution from monomeric to dimeric self‐assembled monolayers (SAMs) opens new opportunities for inverted perovskite solar cells (PSCs), yet stronger π – π interactions in these larger architectures risk inducing aggregation over ordered assembly, making it challenging to maintain a well‐balanced intermolecular packing. We design a symmetric indenocarbazole dimer (DIC) to harness cooperative face‐to‐face and edge‐to‐edge π – π stacking for directing intermolecular attraction into ordered, long‐range assembly rather than uncontrolled aggregation. In stark contrast, its asymmetric indenocarbazole‐carbazole conjugate (ICCB) suffers from random clustering and incomplete passivation. This ordered SAM template provides a homogeneous foundation for perovskite crystallization, delivering a champion PCE of 26.33% with an outstanding FF of 86.62%, significantly outperforming ICCB (24.80%), while retaining over 85% of its initial efficiency after 1600 h. Our findings establish molecular symmetry and dual‐directional π – π interactions as critical design principles for high‐performance dimeric SAMs.",
+   "authors": [
+    "Tao Guo",
+    "Yaning Li",
+    "Zongyuan Yang",
+    "Mengyuan Li",
+    "Zhe Sun",
+    "Jiakai Gu",
+    "Xueping Zong",
+    "Zhihui Wang",
+    "Yang Wang",
+    "Mao Liang"
+   ],
+   "doi": "10.1002/adfm.78966",
+   "keywords": [
+    "perovskite",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Two‐Dimensional Framework Materials as Building Blocks for Next‐Generation Intelligent Biointerfaces",
+   "link": "https://doi.org/10.1002/adfm.78531",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-12",
+   "abstract": "ABSTRACT The convergence of neural interfaces, wearable bioelectronics, and human‐machine interaction is driving intelligent biointerfaces capable of sensing and responding to neural, physiological, and biomechanical signals. Realizing this vision demands a substantial advance in sensing and actuation hardware, which remains constrained by trade‐offs in conventional bulk materials. This review proposes that two‐dimensional framework materials, encompassing intrinsic 2D crystals, heterostructures, composites, and low‐dimensional architectures, provide a transformative platform to overcome these barriers. The application scope is organized into five categories: implantable neural interfaces, non‐invasive neural interfaces, physiological sensing, wearable human‐machine interfaces, and soft actuation or haptic feedback. We establish a three‐tier architecture. First, we catalog the requirements of piezoresistive, piezoelectric, capacitive, electromagnetic, electrostatic, and electrothermal sensors and actuators, identifying performance bottlenecks in bulk materials. Second, we trace these ceilings to microscopic origins: continuous electronic density of states, strong dielectric screening, coupled elastic‐thermal phonon transport, and weakly tunable electron‐phonon coupling that lock sensitivity, compliance, energy efficiency, and thermal safety into trade‐offs. Third, we show how quantum confinement, attenuated screening, and broken symmetry in 2D materials decouple these constraints. We conclude by outlining a co‐design strategy integrating heavy‐element doping, symmetry engineering, interfacial design, and coupling phenomena to tailor 2D materials for next‐generation intelligent biointerfaces.",
+   "authors": [
+    "Huihui Zhao",
+    "Xingwen Zhou",
+    "Hongyun Zhang",
+    "Hongwei Li",
+    "Haibo Huang",
+    "Liguo Chen",
+    "Yongxiang Li",
+    "Xinyi Hu",
+    "David Wei Zhang",
+    "Lining Sun",
+    "Guanyu Chen"
+   ],
+   "doi": "10.1002/adfm.78531",
+   "keywords": [
+    "piezoelectric"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Phase‐Pure 2D/3D Perovskite Heterojunctions Enabled by n ‐Specific Nanocrystal Templates for High‐Efficiency and Stable Solar Cells",
+   "link": "https://doi.org/10.1002/adfm.78996",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-12",
+   "abstract": "ABSTRACT Tailoring phase purity in 2D/3D perovskites is essential for balanced charge transport and long‐term stability. Here, we develop a nanocrystal‐templated epitaxial strategy to construct phase‐pure 2D/3D perovskite heterojunctions. Phase‐pure 2D perovskite nanocrystals with tunable quantum‐well thickness ( n = 1–4) are used as templates to direct lattice‐matched epitaxial growth of 3D perovskites, yielding coherent 2D/3D interfaces. By precisely controlling the 2D quantum‐well thickness, we eliminate the phase‐mixing issues of conventional methods and ensure high interfacial phase purity. A series of well‐defined 2D/3D heterojunctions ( n = 1–4) exhibits balanced charge transport and markedly reduced recombination losses. The optimized 2D ( n = 4)/3D perovskite solar cell delivers a power conversion efficiency of 26.48% and retains over 90% of its initial performance after 1 600 h, demonstrating enhanced efficiency and long‐term stability. Our work provides a versatile route for constructing phase‐pure 2D/3D perovskite heterojunctions, enabling optoelectronic devices with balanced charge transport and long‐term stability.",
+   "authors": [
+    "Ke Guo",
+    "Zhipeng Zhang",
+    "Haobo Tang",
+    "Zexin Zhu",
+    "Xiaosong Qiu",
+    "Guiran Gao",
+    "Runquan Qi",
+    "Menglin Tian",
+    "Zhibo Hou",
+    "Junmin Xia",
+    "Aijie Zhou",
+    "Wenzhen Lv",
+    "Mingguang Li",
+    "Wenhan Yang",
+    "Runfeng Chen",
+    "Guangbao Wu"
+   ],
+   "doi": "10.1002/adfm.78996",
+   "keywords": [
+    "2D perovskite",
+    "charge transport",
+    "nanocrystal",
+    "perovskite",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Navigating the Growth‐Strain Trade‐Off in 2D Perovskite Solar Cells via Surface Self‐Templated Dual‐Anion Synergy",
+   "link": "https://doi.org/10.1002/adfm.78987",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-12",
+   "abstract": "ABSTRACT Two‐dimensional (2D) perovskites are promising candidates for solar cells. However, the processing strategies that promote large, oriented grains often concurrently induce tensile strain and microcracks, creating a critical growth‐strain trade‐off. Herein, we propose a surface self‐templated dual‐anion synergy by partially substituting iodide with low amounts of thiocyanate and chloride (2 mol%) in 2D (AA) 2 (MA) 3 Pb 4 I 13 perovskites ( n = 4), in which SCN anion spontaneously enriches at the top surface as a structure‐directing template that drives oriented grain growth but inevitably introduces tensile strain, and Cl anion concurrently segregates to the top surface as a strain buffer that alleviates this strain without sacrificing grain size. Systematic in situ and depth‐resolved analysis reveals that such synergy effectively navigates the growth‐strain trade‐off of 2D perovskites, yielding enlarged grains, strong vertical orientation, and a crack‐free morphology, which contributes to the suppression of non‐radiative recombination and the enhancement of charge transport in solar cells. As a result, the champion device with dual‐anion engineering achieves a remarkable efficiency of 19.11%, and retains over 95% of its initial efficiency after 1800 h under one‐sun irradiation. This work establishes a fundamental understanding of the growth‐strain dilemma in 2D perovskites, providing a universal design principle for high‐efficiency 2D perovskite solar cells.",
+   "authors": [
+    "Zihao Zhai",
+    "Kai Ye",
+    "Jieyi Chen",
+    "Xiang Li",
+    "Bowen Ruan",
+    "Huaming Liu",
+    "Shengkang Liu",
+    "Wenna Du",
+    "Qi Liu",
+    "Zhenhuang Su",
+    "Xinfeng Liu",
+    "Huiqiong Zhou"
+   ],
+   "doi": "10.1002/adfm.78987",
+   "keywords": [
+    "2D perovskite",
+    "charge transport",
+    "non-radiative recombination",
+    "perovskite",
+    "radiative recombination",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Side‐Chain Terminal Engineering Enables 18% Efficient Non‐Fused Ring Electron Acceptor Organic Solar Cells via Crystallization Control",
+   "link": "https://doi.org/10.1002/adfm.79002",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-12",
+   "abstract": "ABSTRACT Non‐fused ring electron acceptors (NFREAs) provide a low‐cost alternative to fused‐ring electron acceptors for organic solar cells (OSCs). Nevertheless, how terminal substituents on alkyl side chains modulate the crystallization behavior of NFREAs remains largely underexplored. Herein, two NFREAs, namely TTF‐F (fluorine‐terminated side chains) and TTO‐F (methoxy‐terminated side chains), were constructed with identical intramolecular conformational locks and terminal IC acceptor units. Although the two molecules possess nearly identical electronic structures, in situ UV–vis absorption spectroscopy confirms that TTF‐F exhibits much faster crystallization kinetics (completing aggregation within 206 ms) relative to TTO‐F (336 ms). Femtosecond transient absorption measurements demonstrate that the hole‐transfer process in D18: TTF‐F blends proceeds fourfold more rapidly (τ 1 = 0.26 ps) than that in D18: TTO‐F (τ 1 = 1.14 ps), consistent with the more ordered π – π stacking revealed by grazing‐incidence wide‐angle x‐ray scattering (GIWAXS). When paired with the polymer donor D18, TTF‐F delivers an outstanding power conversion efficiency (PCE) of 18.02%, far exceeding the 13.35% efficiency of TTO‐F ‐based devices. This substantial performance discrepancy mainly stems from distinct crystallization dynamics and resultant thin‐film microstructures. This work establishes a structure–kinetics–morphology–performance relationship for NFREAs by tuning side‐chain terminal groups and offers rational molecular design strategies to fabricate high‐efficiency NFREA‐based OSCs.",
+   "authors": [
+    "Jianing Xu",
+    "Yawen Guo",
+    "Zhaoshuang Liu",
+    "Xuelin Wang",
+    "Zihao Gao",
+    "Yuwen Wang",
+    "Guangliu Ran",
+    "Wenkai Zhang",
+    "Cuihong Li",
+    "Yahui Liu",
+    "Zhishan Bo"
+   ],
+   "doi": "10.1002/adfm.79002",
+   "keywords": [
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Photoelectrochemical Nitrate‐to‐Ammonia Conversion: Cocatalyst Design Principles and Mechanistic Insights from Electrocatalysis",
+   "link": "https://doi.org/10.1002/aenm.71692",
+   "journal": "Advanced Energy Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-12",
+   "abstract": "ABSTRACT Photoelectrochemical reduction of nitrate to ammonia (PEC NO 3 RR) offers a solar‐driven route to NH 3 synthesis under ambient conditions, converting an environmental pollutant into a value‐added product. However, the overall performance of a PEC photoelectrode has been largely governed by the cocatalyst deposited on the light absorber since NO 3 RR conversion is kinetically demanding. Electrochemical NO 3 RR research has produced an extensive library of high‐performance catalysts together with a mature mechanistic understanding. Yet this knowledge has rarely been translated into photoelectrode design. This review summarizes recent advances in PEC NO 3 RR, spanning light‐absorber engineering, photoelectrode–cocatalyst integration, intrinsic semiconductor catalytic activity, and architectures that decouple light absorption from catalysis. On this basis, we reframe the electrochemical NO 3 RR catalyst library as a design resource for PEC cocatalysts and identify key evaluation criteria, such as catalytic activity, interfacial charge‐transfer, optical shading, and stability under illumination and electrically biased conditions. By bridging the mechanistic maturity of electrochemistry with the energetic advantages of photoelectrochemistry, this review provides a coherent design framework for advancing PEC NH 3 synthesis.",
+   "authors": [
+    "Seongi Lee",
+    "Wonjin Jeong",
+    "Wan Jae Dong"
+   ],
+   "doi": "10.1002/aenm.71692",
+   "keywords": [
+    "photoelectrochemical"
+   ],
+   "type": "review",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Molecular Architecture of Non‑Fullerene Acceptors Balances Homo‐ and Hetero‐Intermolecular Interactions to Enhance Thermal Stability of Organic Photovoltaics",
+   "link": "https://doi.org/10.1002/aenm.71690",
+   "journal": "Advanced Energy Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-12",
+   "abstract": "ABSTRACT High‐efficiency organic solar cells require optimal donor‐acceptor heterojunctions to facilitate efficient charge generation, separation, and collection. These bulk‐heterojunction (BHJ) blends are typically kinetically quenched in nonequilibrium morphologies, contributing to device degradation over time. Yet how acceptor molecules govern homo‐ and hetero‐intermolecular interactions to confer thermal stability to BHJ blends remains elusive. Herein, we present experimental and theoretical studies of 28 distinct non‐fullerene acceptors (NFAs) to elucidate the relationships between molecular structure, intermolecular interaction, and morphological stability of BHJ blends, covering the well‐known indacenodithieno[3,2‐ b ]thiophene‐based (ITIC‐series) acceptors, indacenodithiophene‐based (IEICO‐series) acceptors, and state‐of‐the‐art Y‐series and dimer/trimer acceptors. We demonstrate that structural modifications of NFAs not only modulate the homo‐interaction energies between acceptor molecules but also fine‐tune their hetero‐interaction energies with donors, thereby governing the stability of BHJ nanostructures. Thermally stable BHJ blends necessitate strong homo‐interactions while minimizing hetero‐interactions to suppress NFA diffusion within the blends. The proposed intermolecular interaction effect on thermal stability is further validated by 13 literature‐reported NFA blends, demonstrating the broad applicability. These findings underscore the pivotal role of NFA structural engineering in regulating intermolecular interactions and offer valuable insights into balancing homo‐ and hetero‐interactions for the rational molecular design of thermally stable organic semiconductor blends.",
+   "authors": [
+    "Jianhua Han",
+    "Han Xu",
+    "Anirudh Sharma",
+    "Sri Harish Kumar Paleti",
+    "Nicolas Ramos",
+    "Jaime Martin",
+    "Derya Baran"
+   ],
+   "doi": "10.1002/aenm.71690",
+   "keywords": [
+    "organic semiconductor",
+    "photovoltaic",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Jahn–Teller Distortion of MnO 6 Octahedra Enhances Piezoelectric Polarization and Lattice Oxygen Activation of BaTiO 3 for Efficient Piezo‐PEC Water Splitting",
+   "link": "https://doi.org/10.1002/aenm.71700",
+   "journal": "Advanced Energy Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-12",
+   "abstract": "ABSTRACT Piezo‐photoelectrochemical (Piezo‐PEC) water splitting enables efficient solar conversion, yet its practical implementation is limited by an insufficient piezoelectric polarization field and sluggish water‐splitting kinetics. Herein, we firstly propose a Jahn–Teller effect‐driven strategy to regulate the local B‐site octahedral structure of perovskite BaTiO 3 for efficient Piezo‐PEC water splitting. By introducing Mn 3+ ions with asymmetric e g orbital occupancy (t 2g 3 e g 1 ), a local MnO 6 octahedral coordination environment is constructed and pronounced Jahn–Teller distortion is induced. Experimental characterizations and density functional theory (DFT) calculations reveal that the Jahn–Teller distortion drives the cooperative displacement of Ti and O atoms and enhances crystal non‐centrosymmetry, thereby generating a stronger piezoelectric polarization field under mechanical stress. Meanwhile, the introduction of Mn 3+ strengthens Ti─O bond covalency, thereby activating lattice oxygen species and promoting the water‐splitting pathway from the conventional adsorbate evolution mechanism (AEM) toward the lattice oxygen mechanism (LOM), thus accelerating reaction kinetics. Under coupled ultrasonic vibration and illumination, the optimized BTMO‐6 photoanode delivers a high photocurrent density of 2.18 mA cm −2 at 1.23 V RHE and exhibits a piezoelectric coefficient (d 33 ) of 52.3 pm V −1 . This work reveals that Jahn–Teller distortion simultaneously enhances piezo‐polarization and tunes reaction pathways, offering new insights for robust Piezo‐PEC water‐splitting systems.",
+   "authors": [
+    "Tianyu Jia",
+    "Mengnan Ruan",
+    "Chengyi Wang",
+    "Li Zhou",
+    "Zhifeng Liu"
+   ],
+   "doi": "10.1002/aenm.71700",
+   "keywords": [
+    "perovskite",
+    "photoelectrochemical",
+    "piezoelectric",
+    "water splitting"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Nickel‐Free Perovskite Solar Cells Enabled by Self‐Assembled Monolayers: A Pathway to Efficient and Recyclable Devices",
+   "link": "https://doi.org/10.1002/aenm.71693",
+   "journal": "Advanced Energy Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-12",
+   "abstract": "ABSTRACT High efficiency inverted perovskite solar cells often rely on nickel‐containing hole‐selective interfaces such as NiOx. However, the use of nickel presents sustainability challenges, as the material is inherently toxic and cross‐contamination during end‐of‐life processing can compromise material recovery and recyclability. Here, we develop a nickel‐free hole‐selective interface material based on phenyl‐substituted phosphonic‐acid carbazole self‐assembled monolayers (Ph‐nPACz). Candidate molecules were identified through rational structure‐property screening of the substituents of the carbazole core, anchoring groups and linkers. Among this molecular family, Ph‐5PACz delivers the best overall performance, offering improved interfacial wettability and enhanced buried‐interface stability compared to the NiOx/Me‐4PACz reference. Devices incorporating Ph‐5PACz achieve a power conversion efficiency of 25.3%, compared to 21.7% for the control, driven by a higher fill factor and efficient charge extraction. The chemical robustness of the nickel‐free interface enables a closed‐loop recycling route unavailable to nickel‐based devices, with recycled‐ITO devices retaining close to 98% of their initial performance. Coupled life‐cycle and techno‐economic analyses further indicate substantial sustainability gains, including reduced energy demand, markedly lower raw metal usage and toxicity‐related impacts, and a generalized reduction of up to 29% across ReCiPe endpoint indicators.",
+   "authors": [
+    "Yanxue Wang",
+    "Roman Kučera",
+    "Sinuhé Perea‐Puente",
+    "Mykhailo Sytnyk",
+    "Andrew Hainer",
+    "Zijian Peng",
+    "Savannah Bennett",
+    "Juan S. Rocha‐Ortiz",
+    "Albert These",
+    "Hakan U Dag",
+    "Qi Fan",
+    "Anastasia Barabash",
+    "Zhenni Wu",
+    "Chaohui Li",
+    "Jens Hauch",
+    "Olga Kasian",
+    "Christoph J. Brabec",
+    "Ian Marius Peters"
+   ],
+   "doi": "10.1002/aenm.71693",
+   "keywords": [
+    "perovskite",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
   {
    "title": "Thermal Stability of Nitrogen-Doped Tunnel Oxide Passivating Contact Structures for Future Chalcogenide/Silicon Tandem Solar Cells",
    "link": "https://doi.org/10.1021/acsami.6c10811",
@@ -69,6 +904,85 @@
    "oa_type": "article"
   },
   {
+   "title": "Triaryl Imidazoles as a Hole-Transporting Interfacial Modifying Layer for Inverted Perovskite Solar Cells",
+   "link": "https://doi.org/10.1021/acsami.6c17763",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-10-12",
+   "abstract": "Abstract The integration of hole-transporting organic interfacial modifying layers (OIMLs) into perovskite solar cells (PSCs) has attracted significant interest due to their ability to improve performance and stability. However, the development of cost-effective and straightforward methods for synthesizing OIMLs remains underexplored. In this work, we present the design and synthesis of two novel bromoaryl-substituted, imidazole-derived OIMLs: 2,4,5-tris(4-bromophenyl)-1H-imidazole (TPIM-Br) and 4,5-bis(4-bromophenyl)–2-(5-bromothiophen-2-yl)-1H-imidazole (DPIM-TBr). We investigated the thermal, optical, and electrochemical properties of the molecules, confirming their potential as OIMLs in PSCs. The computed energy levels and electrostatic surface potentials (ESPs) of these molecules were examined to elucidate the charge distribution and electron density within TPIM-Br and DPIM-TBr. Comprehensive characterization demonstrated that incorporation of the OIMLs enabled more efficient charge extraction and improved perovskite crystallinity. The champion device yielded 25.85% power conversion efficiency for TPIM-Br, compared to the control's 23.32%. This work presents a strategy to enhance the performance of inverted PSCs by incorporating OIMLs, offering a promising pathway for future developments in PSC technology.",
+   "authors": [
+    "Shakil N. Afraj",
+    "Xingnan Qi",
+    "Yu-Qi Li",
+    "Mohanapriya Subramani",
+    "Vishal Yeddu",
+    "Yameen Ahmed",
+    "Mohammed Misbah Uddin",
+    "Praveen B. Managutti",
+    "Bor Kae Chang",
+    "Ming-Chou Chen",
+    "Sergey Dayneko",
+    "Antoine Pavesic Junior",
+    "Makhsud I. Saidaminov",
+    "Ahmed L. Abdelhady"
+   ],
+   "doi": "10.1021/acsami.6c17763",
+   "keywords": [
+    "perovskite",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Phenolic Additive-Doped Cathode Interlayer for High-Efficiency Organic Photovoltaics",
+   "link": "https://doi.org/10.1021/acsami.6c17829",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-10-12",
+   "abstract": "Abstract The cathode interlayer (CIL) is crucial for the development of organic photovoltaics (OPVs). However, the widespread use of CILs based on perylene diimide and naphthalene diimide is constrained by their strong intrinsic aggregation tendency. Herein, benzoic acid (BA) and its derivatives bearing different quantities of hydroxyl groups (BA-OH, BA-2OH, and BA-3OH) are used as additives to modify NDI-Ph, a naphthalene diimide-based cathode interlayer. Systematic studies reveal that the dipole moment of additives rises with the increasing number of hydroxyl groups, which further facilitates intermolecular interactions with interfacial materials. Benefiting from the enhanced electrical conductivity, optimized interfacial contact, and suppressed charge recombination, the NDI-Ph modified by BA-3OH delivers a champion efficiency of 19.20% in D18:L8-BO-based devices, exceeding the 18.25% efficiency of the control device. Furthermore, with 2PACz as the hole transport layer, the device achieves a high PCE of 20.09%. This strategy has also been proven effective for PDINN- and PNDIT-F3N-based CILs. This work verifies that modulating the number of hydroxyl groups in benzoic acid derivatives can rationally regulate the performance of CILs and prescribes a facile and effective strategy to develop high-efficiency OPVs.",
+   "authors": [
+    "Lei Yang",
+    "Xin Liu",
+    "Zongtao Wang",
+    "Jia Yao",
+    "Lin Hu",
+    "Qiang Guo",
+    "Yong Cui",
+    "Jianhui Hou",
+    "Erjun Zhou"
+   ],
+   "doi": "10.1021/acsami.6c17829",
+   "keywords": [
+    "photovoltaic"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "A Pathology-Responsive Hydrogel with On-Demand Ion Release for Microenvironment Remodeling and Diabetic Wound Regeneration",
+   "link": "https://doi.org/10.1021/acsami.6c12232",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-10-12",
+   "abstract": "Abstract The healing of diabetic wounds is often impeded by severe bacterial infections, persistent inflammation, excessive accumulation of reactive oxygen species (ROS), and abnormal matrix degradation. Although conventional free silver nanoparticles (AgNPs) possess broad-spectrum antimicrobial activity, their inherent tendency to aggregate and inactivate, as well as its high cytotoxicity limits their clinical application. Moreover, a single bactericidal strategy is insufficient to completely reverse the complex pathogenic microenvironment of the wound. To address these challenges, this study developed a dual-polyphenol biomimetic extracellular matrix (ECM) composite hydrogel with matrix metalloproteinase-9 (MMP-9) and pH-responsive properties, aimed at achieving spatiotemporal precision intervention and active microenvironment remodeling in diabetic wounds. This system employs caffeic acid-modified gelatin and dopamine-modified sodium alginate as a dynamically cross-linked scaffold, incorporated with AgNPs-anchored zinc–aluminum layered double hydroxide (ZnAl-LDH@Ag), that can precisely match the dynamic pathological evolution of the wound. The hydrogel exhibits pathology-adaptive behavior through two complementary mechanisms: gradual MMP-9-mediated remodeling of the gelatin network and infection-associated pH-responsive ion release. MMP-9-mediated degradation enables sustained exposure of ZnAl-LDH@Ag and prolonged matrix remodeling, whereas the acidic microenvironment promotes on-demand release of antibacterial Ag+ and regenerative Zn2+ ions. Additionally, polyphenol moieties provide antioxidant and anti-inflammatory regulation during wound healing. By integrating two-dimensional inorganic layered materials (ZnAl-LDH) with conventional metal nanocrystals (AgNPs), this strategy resolves the clinical paradox in silver-based therapies: the difficulty of balancing high bactericidal activity with low cytotoxicity. In summary, this pathology-driven therapeutic platform enables multimodal synergistic therapy for antioxidant protection, infection control, and tissue regeneration, providing a theoretical foundation and design perspectives for the development of advanced dressings for complex chronic wounds.",
+   "authors": [
+    "Jiawei Cui",
+    "Yueming Luo",
+    "Ruizhi Kuang",
+    "Xin Li",
+    "Rifang Luo",
+    "Lu Zhang",
+    "Jin Wang"
+   ],
+   "doi": "10.1021/acsami.6c12232",
+   "keywords": [
+    "nanocrystal"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
    "title": "Control of Depletion Interactions in Nanoplatelets via Ligand‐Shell Engineering to Enhance Colloidal Stability and Nanocomposite Uniformity",
    "link": "https://doi.org/10.1002/smll.76199",
    "journal": "Small",
@@ -85,7 +999,7 @@
     "nanocrystal"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Efficient and Polarized Emission From Cs 3 Cu 2 Br 5 Nanorods via Dithiol Ligand Exchange",
@@ -117,7 +1031,7 @@
     "plqy"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Unveiling Carrier‐Mediated Acoustic Leakage as a Hidden Loss Pathway in Piezoelectric‐Semiconductor Heterostructures",
@@ -622,7 +1536,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1319,7 +2233,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -2019,7 +2933,7 @@
     "field-effect transistor"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -2213,7 +3127,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
