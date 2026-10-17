@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-16 00:21 UTC",
- "count": 67044,
+ "generated": "2026-10-17 00:20 UTC",
+ "count": 67074,
  "years": [
   "2026",
   "2025",
@@ -22,7 +22,7 @@
   "2009"
  ],
  "year_counts": {
-  "2026": 7130,
+  "2026": 7160,
   "2025": 8036,
   "2024": 7234,
   "2023": 5978,
@@ -66,14 +66,14 @@
   {
    "journal": "Nature Chemistry",
    "found": 8,
-   "kept": 0,
+   "kept": 1,
    "error": null,
    "note": null
   },
   {
    "journal": "Nature Synthesis",
    "found": 8,
-   "kept": 1,
+   "kept": 2,
    "error": null,
    "note": null
   },
@@ -177,17 +177,17 @@
   },
   {
    "journal": "ACS Energy Letters",
+   "found": 28,
+   "kept": 28,
+   "error": null,
+   "note": "RSS failed; Crossref fallback recovered 28 relevant paper(s)"
+  },
+  {
+   "journal": "ACS Applied Materials & Interfaces",
    "found": 26,
    "kept": 26,
    "error": null,
    "note": "RSS failed; Crossref fallback recovered 26 relevant paper(s)"
-  },
-  {
-   "journal": "ACS Applied Materials & Interfaces",
-   "found": 24,
-   "kept": 24,
-   "error": null,
-   "note": "RSS failed; Crossref fallback recovered 24 relevant paper(s)"
   },
   {
    "journal": "Chemical Society Reviews",
@@ -213,21 +213,21 @@
   {
    "journal": "Advanced Materials",
    "found": 315,
-   "kept": 72,
+   "kept": 73,
    "error": null,
    "note": null
   },
   {
    "journal": "Advanced Energy Materials",
    "found": 133,
-   "kept": 31,
+   "kept": 30,
    "error": null,
    "note": null
   },
   {
    "journal": "Advanced Functional Materials",
    "found": 290,
-   "kept": 81,
+   "kept": 77,
    "error": null,
    "note": null
   },
@@ -262,7 +262,7 @@
   {
    "journal": "Science Advances",
    "found": 30,
-   "kept": 1,
+   "kept": 2,
    "error": null,
    "note": null
   },
