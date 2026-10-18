@@ -1,7 +1,7 @@
 {
  "year": "2026",
- "count": 7160,
- "generated": "2026-10-17 00:20 UTC",
+ "count": 7169,
+ "generated": "2026-10-17 23:59 UTC",
  "papers": [
   {
    "title": "Hydrogen-Bonding-Guided Molecular Pair Suppresses Self-Aggregation for Uniform Passivation of Efficient Inverted Perovskite Solar Cells",
@@ -24,6 +24,234 @@
     "photovoltaic",
     "solar cell",
     "trap density"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Plasmon-Enhanced Ultraviolet–Visible Dual-Band Photodetection in Self-Powered 2D/3D MoS2/ZnO Heterojunctions",
+   "link": "https://doi.org/10.1021/acsami.6c13860",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-10-19",
+   "abstract": "Abstract The intrinsically weak light absorption of monolayer MoS2 limits its photoresponse and remains a major obstacle to its application in high-performance photodetectors. Here, we report a Au-grating-integrated 2D/3D MoS2/ZnO heterojunction photodetector that combines self-powered ultraviolet–visible (UV–Vis) detection with enhanced visible-light response and polarization sensitivity. The MoS2/ZnO heterojunction provides complementary UV–Vis absorption and a built-in electric field for self-powered operation. The integrated 1D Au grating induces localized surface plasmon resonance, selectively enhancing the visible-light absorption of monolayer MoS2, as confirmed by both FDTD simulations and experiments. Under 633 nm illumination, the grating-integrated device achieves a responsivity of 1.85 × 10–1 mA/W, corresponding to a nearly order-of-magnitude enhancement over the pristine heterojunction. The anisotropic grating further enables polarization-dependent photodetection, with a TM/TE responsivity ratio of 3.8. This work demonstrates that plasmonic integration is an effective strategy for enhancing light–matter interaction while enabling additional functionalities in 2D/3D heterojunction photodetectors.",
+   "authors": [
+    "Peiye Yan",
+    "Minju Ying",
+    "Cai Luo",
+    "Yi Wang",
+    "Enbo Gao",
+    "Tianci Hu",
+    "Jian Zhao",
+    "Sen Chen",
+    "Yuan Qi",
+    "Mingfeng Li",
+    "Tong Ye",
+    "Baoli Liu",
+    "Xiaofeng Fan",
+    "Changzhi Gu",
+    "Yang Guo"
+   ],
+   "doi": "10.1021/acsami.6c13860",
+   "keywords": [
+    "photodetector"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Memcapacitive-Dominated Reservoir Computing with Self-Organizing Nanowire Networks",
+   "link": "https://doi.org/10.1021/acsami.6c12382",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-10-19",
+   "abstract": "Abstract Nanowire networks have emerged as a promising platform for physical reservoir computing. However, networks based on memristive switching exhibit inherent limitations in dynamical richness and short-term memory capacity. Memcapacitors are expected to overcome these dynamical constraints through their topology-dependent dynamics. In this work, inspired by the distributed processing of neural systems, we endow Ag nanowire networks with memcapacitive properties via a temperature-modulated fabrication process, realizing a multi-path channel-dependent reservoir system with richer reservoir dynamics and establishing its circuit model. Benefiting from its memcapacitive nature, the system exhibits channel-specific responses and approximate linear superposition, enabling parallel and spontaneous fusion of multi-input signals with controllable and predictable behavior. This allows input states to expand exponentially with channel count. Leveraging this capability, we designed a multi-threshold encoding scheme that generates 256 highly separable states within four time steps while consuming only 18.98 pJ/pulse. This approach reduces the information loss inherent in conventional binarization and delivers over 94% accuracy on a compressed MNIST recognition task, demonstrating a potent strategy for high-performance neuromorphic edge computing.",
+   "authors": [
+    "Haochen Wang",
+    "Zuheng Wu",
+    "Wenbin Guo",
+    "Zihao Wang",
+    "Yunxia Hao",
+    "Wei Wang",
+    "Xumeng Zhang",
+    "Xiaolong Zhao",
+    "Jian Lu",
+    "Rongrong Cao",
+    "Jianxun Zou",
+    "Zhe Feng",
+    "Yunlai Zhu",
+    "Zuyu Xu",
+    "Lihua Xu",
+    "Wendong Lu",
+    "Yuehua Dai"
+   ],
+   "doi": "10.1021/acsami.6c12382",
+   "keywords": [
+    "memristive",
+    "neuromorphic"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Ultra-Sensitive Battery-Free Wireless Humidity Sensor for Real-Time Diaper Monitoring",
+   "link": "https://doi.org/10.1021/acsami.6c13704",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-10-19",
+   "abstract": "Abstract Wearable healthcare systems require humidity sensors that integrate exceptional sensitivity with robust environmental stability and biocompatible materials. However, most reported sensors exhibit compromised response kinetics at high sensitivity. Here, we report a high-performance, lead-free humidity sensing platform based on Cs3Bi2Br9/BaTiO3 composite films, engineered via a solvent-free aerosol deposition method. By modulating the inorganic percolative networks, the optimized 5 wt % Cs3Bi2Br9 sensor achieves remarkable sensitivity of 9002.6 pF/%RH and a rapid recovery time of 5 s. The high-permittivity BaTiO3 matrix enhances interfacial polarization and serves as a robust moisture-barrier framework, extending the sensor’s operational stability to over 15 days. To demonstrate system-level utility, the sensor was integrated with a battery-free NFC platform for real-time, wireless diaper monitoring, showcasing robust signal transduction and reliability in healthcare settings. This study presents a scalable, eco-friendly strategy for developing multifunctional perovskite composites, providing a viable pathway for next-generation, self-powered health-monitoring technologies.",
+   "authors": [
+    "Jun-Woo Lee",
+    "Hyejun Kim",
+    "Jong Ho Won",
+    "Yeonjae Yang",
+    "Jinsu Park",
+    "Sun-Woo Jang",
+    "Seok-Hun Kim",
+    "Minseok Kim",
+    "Sunghoon Kim",
+    "Yuan-Bo Zhang",
+    "Jie Wei",
+    "Weon Ho Shin",
+    "Kanghee Won",
+    "Jeonghyun Kim",
+    "Jong-Min Oh"
+   ],
+   "doi": "10.1021/acsami.6c13704",
+   "keywords": [
+    "humidity sensor",
+    "operational stability",
+    "perovskite",
+    "sensing platform"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Circularly Polarized Phased Array Antenna with a Linear-to-Circular Polarization Conformal Metasurface Superstrate for EnhancedScan Range",
+   "link": "https://doi.org/10.1021/acsami.6c13729",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-10-19",
+   "abstract": "Abstract In this study, we propose a circularly polarized (CP) beam scanning antenna system that integrates a linearly polarized phased array antenna (PAA) with a linear-to-circular polarization conformal metasurface superstrate (CMS). The metasurface is composed of uniform unit cells, the geometry of which is optimized for electromagnetic response under normal incidence. However, when such a uniform cell metasurface is implemented with a planar profile, the wave radiated from the array becomes increasingly obliquely incident on the metasurface as the steering angle increases, inevitably degrading the polarization conversion performance and thereby limiting the achievable beam coverage. To address this issue, conformal curvature profiles are employed to mitigate oblique incidence across different scan angle regions. The transverse aperture dimension of the CMS is optimized, and three curvature profiles are optimized for different steering regions. Next, the antenna system was fabricated and assembled using separate 3D-printed jigs to maintain the respective CMS curvature profiles, and the corresponding jig was manually replaced during measurement. Using the corresponding CMS curvature profiles for different steering regions, the proposed CP PAA experimentally demonstrates CP beam steering to a maximum measured angle of approximately 45°. The measured AR remains below 3 dB at the investigated steering states, and the broadside-referenced scan loss at the maximum measured steering angle is approximately 1.8 dB.",
+   "authors": [
+    "Hyeonji Song",
+    "Minjae Lee",
+    "Seyeon Park",
+    "Sungjoon Lim"
+   ],
+   "doi": "10.1021/acsami.6c13729",
+   "keywords": [
+    "circularly polarized"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Optical-handedness-driven enantioselective synthesis and programmable chirality encoding of covalent organic frameworks",
+   "link": "https://www.nature.com/articles/s41467-026-78524-7",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-10-17",
+   "abstract": "Covalent organic frameworks (COFs) typically require chiral precursors or catalysts to achieve asymmetry. Here, the authors report the enantioselective synthesis of chemically chiral COFs using circularly polarized light as the sole chiral director.",
+   "authors": [
+    "Taewoong Kim",
+    "Jaewon Kim",
+    "Joohee Oh",
+    "Seungyoon Kang",
+    "Song Gyun Kim",
+    "Jee Hyeon Kim",
+    "Min Su Han",
+    "Young Yong Kim",
+    "Chanho Pak",
+    "Jeong-Eun Park",
+    "Hyunseob Lim"
+   ],
+   "doi": "10.1038/s41467-026-78524-7",
+   "keywords": [
+    "circularly polarized"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Dimensional Reduction of Transition Metal Dichalcogenides by Oxide Insertion: Quasi‐1D Oxychalcogenide Semiconductors",
+   "link": "https://doi.org/10.1002/anie.1906484",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2026-10-17",
+   "abstract": "ABSTRACT Heteroanionic solids offer unique levers for tuning structures and properties, but accessing multianion phase space remains challenging due to mismatches in anion reactivity. Here, we describe a new family of A 2 Hf 3 Q 6 O (A = K, Rb, Cs; Q = S, Se) oxychalcogenides, the first reported in the A─Hf─Q─O quaternary space, which are prepared by reacting HfQ 2 with the corresponding alkali carbonate (A 2 CO 3 ). The resulting structures are dimensionally reduced variants of the 1T‐HfQ 2 parent phase, where rows of O atoms insert into the transition metal dichalcogenide (TMD) layers. This yields nanometer‐wide 1D‐[Hf 3 Q 6 ] ribbons that link into step‐like sheets through distinctive Hf─O─Hf bridges, which connect heteroleptic HfQ 5 O polyhedra at the ribbon edges. UV/Vis and photoluminescence spectra reveal tunable absorption and emission features spanning 1.8–2.6 eV. Calculated band structures show direct‐gap transitions and highly dispersive bands along the [Hf 3 Q 6 ] nanoribbons, yielding effective masses more than two orders of magnitude lower than in other crystallographic directions. Charge‐density plots further illustrate quasi‐1D electronic anisotropy, showing frontier orbitals confined to the nanoribbons due to covalent Hf─Q bonding. We anticipate heteroanion‐driven dimensional reduction can be used to engineer anisotropy in semiconductors and offers new routes to synthetically challenging multianion systems.",
+   "authors": [
+    "Ayat Tassanov",
+    "Azamat Yessengazin",
+    "Huiju Lee",
+    "Pedro R. Trinidad‐Pérez",
+    "Daniel G. Chica",
+    "Yi Xia",
+    "James M. Hodges"
+   ],
+   "doi": "10.1002/anie.1906484",
+   "keywords": [
+    "photoluminescence"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Bimetallic Coinage Metal Complexes of Tetradentate ortho ‐Ter‐arylene Ligands",
+   "link": "https://doi.org/10.1002/anie.2267892",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2026-10-17",
+   "abstract": "ABSTRACT We report a series of photoluminescent bimetallic Cu(I), Ag(I), and Au(I) complexes supported by tetradentate donor‐acceptor ligands containing two monoanionic amide donors (D) and two aza‐arene acceptors (A). The metal complexes of the ligand containing carbazolide and pyridyl ligating groups possess high photoluminescence quantum yields (up to 65% in solution) and emission properties consistent with thermally‐activated delayed fluorescence (TADF). Bimetallic Cu(I) complexes of similar ligands containing benzannulated donor (benzo[a]carbazolide) or acceptor (isoquinoline) moieties demonstrate that absorption/emission properties are tunable by modification of D/A groups. Single‐crystal x‐ray diffraction of the bimetallic complexes reveals metal–metal distances shorter than the sum of their van der Waals radii, suggesting metallophilic interactions between the d 10 metal centers. Ultrafast excited‐state kinetic analysis reveals nearly equal exergonic intersystem crossing rates between Cu(I) and Au(I) complexes, contrary to what is expected from each metal's spin–orbit coupling contributions. These findings are corroborated with theoretical modeling, which suggests that the optical transitions of these bimetallic complexes are characterized as metal–ligand‐to‐ligand charge transfer (MLLCT) states.",
+   "authors": [
+    "Darius A. Shariaty",
+    "Thabassum A. Nattikallungal",
+    "Yi‐Jyun Lien",
+    "Peter I. Djurovich",
+    "Stephen E. Bradforth",
+    "Mark E. Thompson"
+   ],
+   "doi": "10.1002/anie.2267892",
+   "keywords": [
+    "photoluminescence",
+    "photoluminescence quantum yield"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Exciplex-Facilitated Charge Extraction and Defect Chelation to Improve Inorganic Perovskite Solar Cells",
+   "link": "https://doi.org/10.1021/acsenergylett.6c01037",
+   "journal": "ACS Energy Letters",
+   "publisher": "ACS",
+   "date": "2026-10-17",
+   "abstract": "Abstract Rational molecular engineering of the perovskite/hole transport layer interface offers a promising route to simultaneously address inefficient charge extraction, defect-mediated recombination, and lead leakage in CsPbI3–xBrx perovskite solar cells. Herein, we introduce 2,2′-dinitro-9,9′-spirobifluorene (DN-SBF) as an interfacial molecular bridge to tackle these challenges. DN-SBF optimizes energy level alignment, establishes π–π interactions, and forms exciplexes with Spiro-OMeTAD, thereby facilitating interfacial charge transport. Meanwhile, DN-SBF passivates undercoordinated Pb2+ through multiple coordination modes, including robust bidentate chelation formed by adjacent nitro groups, effectively passivating defects and suppressing non-radiative recombination. Importantly, multipoint coordination immobilizes leachable Pb2+, substantially mitigating lead leakage and improving film biocompatibility. As a result, DN-SBF-engineered CsPbI3–xBrx devices achieve a champion power conversion efficiency of 22.40% along with significantly enhanced operational and environmental stability. This work highlights the potential of versatile molecular bridges to concurrently enhance performance, stability, and eco-friendliness, which may contribute to the development of more sustainable perovskite photovoltaics.",
+   "authors": [
+    "Tianxiang Zhou",
+    "Wenshi Zhao",
+    "Rui Li",
+    "Qiyong Chen",
+    "Kuo Wang",
+    "Guiyong Yin",
+    "Hongcan Yu",
+    "Qi Zhang",
+    "Xianghan Feng",
+    "Dong Liang",
+    "Yang Liu",
+    "Qingwen Tian",
+    "Shengzhong (Frank) Liu"
+   ],
+   "doi": "10.1021/acsenergylett.6c01037",
+   "keywords": [
+    "charge transport",
+    "energy level alignment",
+    "non-radiative recombination",
+    "perovskite",
+    "photovoltaic",
+    "radiative recombination",
+    "solar cell"
    ],
    "type": "article",
    "oa_type_tried": 1
@@ -51,7 +279,7 @@
     "resistive switching"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Understanding and Mitigating Charge‐Trapping Induced Transfer Curve Drift in Electrolyte‐Gated Graphene Field‐Effect Transistors",
@@ -76,7 +304,7 @@
     "neuromorphic"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Enhanced Efficiency and Thermal Stability in All‐Polymer p‐i‐n Organic Photovoltaics With Synergistically Designed Second Polymer Acceptor",
@@ -103,7 +331,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Distinct Nanohoop Structures and Ratiometric Emissions of Isomeric DPAC‐Based Macrocycles Tuned by Nano‐Twisting of Stiff‐Stilbene Optical‐Switches",
@@ -131,7 +359,7 @@
     "photoluminescence"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Charge-mediated remote epitaxy of Ga 2 O 3 via MoS 2",
@@ -159,7 +387,7 @@
     "wide bandgap"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Hydrogel-confined environment for aqueous-compatible perovskite crystallization",
@@ -185,8 +413,8 @@
     "x-ray detector"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type": "article"
   },
   {
    "title": "Stereochemical preorganization directs triple-helical assembly of Au 4 nanoclusters",
@@ -217,7 +445,7 @@
     "chiroptical"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "One-Pot Chirality-Assisted Synthesis of Shape-Persistent Nanobelts with Very High Dissymmetry Factors",
@@ -247,6 +475,35 @@
    "oa_type": "article"
   },
   {
+   "title": "Supramolecular Mask-Mediated Regioselective bis-Bingel-Functionalization of M3N@I h -C80 (M = Lu, Sc)",
+   "link": "https://doi.org/10.1021/jacs.6c16243",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2026-10-16",
+   "abstract": "Abstract Exohedral functionalization of endohedral metallofullerenes (EMFs) is essential for exploiting these intriguing molecules as novel materials in applications such as biomedicine and organic solar cell device design. In the case of trimetallic nitride template EMFs (TNT-EMFs), many functionalization methods effective for empty fullerenes are inaccessible or less efficient due to the presence of the encapsulated cluster. This inner cluster increases the electron density on the carbon cage surface, reducing its reactivity. Moreover, it has been demonstrated that the inner cluster controls both the reactivity and regioselectivity of bare TNT-EMFs. The supramolecular mask strategy (SMS) has yielded promising results in the functionalization of C60 and C70 and, for the first time, is applied here to endohedral fullerenes to achieve mono- and bis-functionalization of Lu3N@Ih-C80 and Sc3N@Ih-C80. Encapsulation of both TNT-EMFs within a tetragonal prismatic cage host is crucial for enhancing their reactivity, enabling bis-functionalization under milder conditions and with shorter reaction times. Comprehensive spectroscopic and spectrometric characterization, combined with molecular dynamics (MD) simulations and density functional theory (DFT) calculations, identified the most favorable and stable bis-adducts by considering the positive alignment between the geometry imposed by the inner cluster and that allowed by the tetragonal prismatic nanocapsule mask. This resulted in preferential formation of five bis-adducts (out of 27 possible), two of them bearing a 120° angle between the addends and aligning with the inner TNT cluster trigonal geometry.",
+   "authors": [
+    "Valentina Iannace",
+    "Clara Sabrià",
+    "Sheng Zhu",
+    "Olga A. Stasyuk",
+    "Miquel Solà",
+    "Teodor Parella",
+    "Sergio Fernández",
+    "Felipe Gándara",
+    "Inhar Imaz",
+    "Daniel Maspoch",
+    "Jianyuan Zhang",
+    "Ferran Feixas",
+    "Xavi Ribas"
+   ],
+   "doi": "10.1021/jacs.6c16243",
+   "keywords": [
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
    "title": "Hole-selective self-assembled monolayers: a molecular platform for high-performance perovskite photovoltaics",
    "link": "https://doi.org/10.1039/d6cs00198j",
    "journal": "Chemical Society Reviews",
@@ -267,8 +524,8 @@
     "solar cell"
    ],
    "type": "review",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type": "review"
   },
   {
    "title": "Single‐Photon Superradiance in Giant Rhombicuboctahedral CsPbI 3 Nanocrystals (Adv. Mater. 58/2026)",
@@ -276,7 +533,7 @@
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2026-10-16",
-   "abstract": "",
+   "abstract": "Single-Photon Superradiance The cover image illustrates a giant rhombicuboctahedral CsPbI3 nanocrystal exhibiting single-photon superradiance. By employing a novel phenacyl iodide precursor, these weakly confined large nanocrystals maintain an exceptional high photoluminescence quantum yield. At cryogenic temperatures, coherent dipole coupling induces a giant oscillator strength; this quantum effect allows the nanocrystals to emit ultrafast, high-purity superradiance single photons. More details can be found in the Research Article by Ping-Hsun Tsai, Ken-Tsung Wong, Hao-Wu Lin, and co-workers (DOI: 10.1002/adma.74549 ).",
    "authors": [
     "Ping‐Hsun Tsai",
     "Chia‐Hsuan Liang",
@@ -292,11 +549,12 @@
    ],
    "doi": "10.1002/adma.75294",
    "keywords": [
-    "nanocrystal"
+    "nanocrystal",
+    "photoluminescence",
+    "photoluminescence quantum yield"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Tuning N‐Species Adsorption/Desorption Equilibrium by Ni 1 Au n ‐SrTiO 3 for Artificial Urea Photosynthesis",
@@ -324,7 +582,7 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Dual‐Site Defect Passivation and δ ‐Phase Engineering for High‐Efficiency and Stable Perovskite Solar Cells",
@@ -355,7 +613,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Overcoming the Heterointerface Energetics Changes in Perovskite Photovoltaics With Nondestructive Halide Exchange",
@@ -380,7 +638,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Defect Engineering in Cesium Cadmium Perovskites Enables Multi‐Stimuli‐Responsive Luminescence for Temperature‐Resilient X‐Ray Radiography and Mechanosensing",
@@ -402,7 +660,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Hydrogen‐Bond‐Anchored Metal‐Free Cationic TADF Glassy Scintillators for High‐Resolution Dynamic X‐Ray Imaging",
@@ -456,7 +714,7 @@
     "nanocrystal"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Polarity‐Reconfigurable In 1.5 Mn 0.5 Se 3 Photodetectors Enabled by Asymmetric Schottky Barriers Toward Optical‐Electrical Logic Gates and Encryption Communication Application",
@@ -481,7 +739,7 @@
     "photodetector"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Interfacial Band Homogenization and Controlled Nucleation Synergistically Enable Vertical Monolithic Perovskite Films for High‐Efficiency Solar Cells",
@@ -515,7 +773,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Low Hydrogen Crossover Poly(Arylene Quinuclidinium) Anion Exchange Membranes for Renewables‐Compatible Water Electrolysis",
@@ -523,7 +781,7 @@
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-10-16",
-   "abstract": "ABSTRACT Anion exchange membrane water electrolysis (AEMWE) represents a transformative approach to green hydrogen generation, combining the kinetic advantages of alkaline systems with zero‐gap configurations and platinum‐group‐metal‐free catalyst compatibility. Current implementations, however, face major challenges, including device durability, adaptability to fluctuating renewable energy sources, and safety concerns due to hydrogen crossover. In this work, we demonstrate that poly(arylene quinuclidinium) membranes address these challenges through an engineered polymer backbone featuring extended arene units, which effectively enhance dimensional integrity and inhibit gas crossover. Therefore, the hydrogen permeation suppression achieves a remarkably low H 2 ‐in‐O 2 crossover of only 0.53 vol% @0.1 A cm −2 , and delivers a high current density of 8.5 A cm −2 @2.0 V with stable operation over 1250 h. The optimized PQTPQui‐15 membrane demonstrates practical potential in a kilowatt‐level, three‐cell electrolyzer stack. Furthermore, photovoltaic‐integrated systems maintain safe operation (H 2 ‐in‐O 2 −2 . These advancements underscore the critical need to enhance the gas barrier properties of anion exchange membranes and establish a new paradigm for durable, rapidly responsive electrolyzers compatible with intermittent renewables.",
+   "abstract": "Anion exchange membrane water electrolysis (AEMWE) represents a transformative approach to green hydrogen generation, combining the kinetic advantages of alkaline systems with zero-gap configurations and platinum-group-metal-free catalyst compatibility. Current implementations, however, face major challenges, including device durability, adaptability to fluctuating renewable energy sources, and safety concerns due to hydrogen crossover. In this work, we demonstrate that poly(arylene quinuclidinium) membranes address these challenges through an engineered polymer backbone featuring extended arene units, which effectively enhance dimensional integrity and inhibit gas crossover. Therefore, the hydrogen permeation suppression achieves a remarkably low H 2 -in-O 2 crossover of only 0.53 vol% @0.1 A cm −2 , and delivers a high current density of 8.5 A cm −2 @2.0 V with stable operation over 1250 h. The optimized PQTPQui-15 membrane demonstrates practical potential in a kilowatt-level, three-cell electrolyzer stack. Furthermore, photovoltaic-integrated systems maintain safe operation (H 2 -in-O 2 < 0.13 vol%) across 0–190% load fluctuations, and respond to sub-second power transients while sustaining current densities of 0.04−1.91 A cm −2 . These advancements underscore the critical need to enhance the gas barrier properties of anion exchange membranes and establish a new paradigm for durable, rapidly responsive electrolyzers compatible with intermittent renewables.",
    "authors": [
     "Tao Wang",
     "Weijie Chen",
@@ -540,7 +798,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Stacking‐Tuned Phonon Renormalization and Effective Heat Transport in Moiré Semiconductor Superlattices",
@@ -570,7 +828,7 @@
     "photoluminescence"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Ratiometric Copper Iodide Scintillators for Temperature‐Resolved X‐Ray Imaging",
@@ -596,7 +854,7 @@
     "x-ray imaging"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Disrupting Solvent Self‐Association via Dipole–Dipole Interactions for Improved Performance of Perovskite Solar Cell",
@@ -625,7 +883,7 @@
     "solar module"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Coupling Interfacial Defect Regulation With Lattice Relaxation in FACsPbI 3 Perovskite",
@@ -654,7 +912,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Overcoming Indium-Tin-Oxide Optical Losses in InAs Colloidal Quantum-Dot Light-Emitting Diodes at 1550 nm",
@@ -689,7 +947,7 @@
     "quantum dot"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Vacuum-Evaporated Molecules with Giant Spontaneous Orientation Polarization for Inverted Perovskite Solar Cells",
@@ -717,7 +975,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Polarization-Guided Spiral Growth of Chiral Copper Sulfide: From Design Rules to Tunable Chiroptics",
@@ -807,7 +1065,7 @@
     "Ruddlesden-Popper"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "High-Performance Self-Powered PbSe/Ag2Se Heterojunction Photodetector Enabled by Annealing-Induced in Situ Electrode Phase Conversion",
@@ -1041,7 +1299,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -1079,7 +1337,7 @@
     "ferroelectric"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -1140,7 +1398,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -1165,7 +1423,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -2176,7 +2434,7 @@
     "circularly polarized luminescence"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -2265,7 +2523,7 @@
     "photoluminescence quantum yield"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -2297,7 +2555,7 @@
     "photodiode"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -2407,7 +2665,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -2448,7 +2706,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -3172,7 +3430,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -3208,7 +3466,7 @@
     "electroluminescent"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -3301,7 +3559,7 @@
     "wide band gap"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -3354,7 +3612,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -3391,7 +3649,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -3733,7 +3991,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -3761,7 +4019,7 @@
     "phosphor"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -3851,7 +4109,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -24391,7 +24649,7 @@
   },
   {
    "title": "RETRACTION: Doubling Power Conversion Efficiency of Si Solar Cells",
-   "link": "https://doi.org/10.1002/adma.74929",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74929?af=R",
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2026-09-15",
@@ -44286,7 +44544,7 @@
   },
   {
    "title": "Helically Chiral Tetradentate Pt(II) Complexes for Simultaneous Deep‐Blue Electroluminescence and Circularly Polarized Luminescence via Diastereoselective Synthesis",
-   "link": "https://doi.org/10.1002/adma.74664",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74664?af=R",
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2026-08-22",
@@ -45090,7 +45348,7 @@
   },
   {
    "title": "Crystallization‐Resistant Hybrid Scintillator Glass for High‐Resolution and Remote X‐Ray Imaging",
-   "link": "https://doi.org/10.1002/adma.74751",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74751?af=R",
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2026-08-21",
@@ -46157,7 +46415,7 @@
   },
   {
    "title": "Local Atom Clusters Drive Supercritical Relaxor State in Lead‐Free Dielectrics for Giant Energy Storage",
-   "link": "https://doi.org/10.1002/adma.74625",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74625?af=R",
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2026-08-20",
@@ -46184,7 +46442,7 @@
   },
   {
    "title": "Geometric Complementarity and Electrostatic Fluctuation Control in Dual‐Asymmetric Acceptors for Efficient Organic Solar Cells",
-   "link": "https://doi.org/10.1002/adma.74732",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74732?af=R",
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2026-08-20",
@@ -46213,8 +46471,8 @@
    "oa_type": "article"
   },
   {
-   "title": "Vacuum‐Based Monolithically In Situ Integration of Quantum‐Confined CsPbBr 3 Nanocrystals for Spectrally Stable Blue Electroluminescence",
-   "link": "https://doi.org/10.1002/adma.74731",
+   "title": "Vacuum‐Based Monolithically In Situ Integration of Quantum‐Confined CsPbBr3 Nanocrystals for Spectrally Stable Blue Electroluminescence",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74731?af=R",
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2026-08-20",
@@ -46243,7 +46501,7 @@
   },
   {
    "title": "Single‐Cell Metabolic Activity Monitoring With Microcavity Laser Emitting Cytometry",
-   "link": "https://doi.org/10.1002/adma.74541",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74541?af=R",
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2026-08-20",
@@ -46267,7 +46525,7 @@
   },
   {
    "title": "Superelastic Subcrystalline Rare‐Earth Ceramic Nanofiber Aerogels Enable 1300°C‐Stable Upconversion Luminescence",
-   "link": "https://doi.org/10.1002/adma.74748",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74748?af=R",
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2026-08-20",
@@ -46294,7 +46552,7 @@
   },
   {
    "title": "Extreme Bond Ionicity in Mg─Te Chalcogenides for Ultrathin Low Voltage Selector‐Only Memory beyond the Leakage Scaling Limit",
-   "link": "https://doi.org/10.1002/adma.74743",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74743?af=R",
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2026-08-20",
@@ -47564,7 +47822,7 @@
   },
   {
    "title": "Synergistic Regulation of Crystallization Kinetics and Thermodynamics by Liquid Crystal Engineering Enables Efficient and Stable Organic Solar Cells",
-   "link": "https://doi.org/10.1002/adma.74697",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74697?af=R",
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2026-08-19",
@@ -47593,7 +47851,7 @@
   },
   {
    "title": "Geometrically Asymmetric Phosphonium Zwitterions Enable Efficient Printable Mesoscopic Perovskite Solar Cells",
-   "link": "https://doi.org/10.1002/adma.74629",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74629?af=R",
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2026-08-19",
@@ -47625,7 +47883,7 @@
   },
   {
    "title": "Graded Supramolecular Frameworks for Extending Space‐Charge Modulation Regions and Boosting Carrier Dynamics in Perovskite Solar Cells",
-   "link": "https://doi.org/10.1002/adma.74489",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74489?af=R",
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2026-08-19",
@@ -47656,8 +47914,8 @@
    "oa_type_tried": 2
   },
   {
-   "title": "Multidentate Anion [C 6 H 6 NO 6 ] 3− Coordinated Hybrid Bismuth Complex Single Crystal for Stable X‐Ray Detection With High Sensitivity",
-   "link": "https://doi.org/10.1002/adma.74715",
+   "title": "Multidentate Anion [C6H6NO6]3− Coordinated Hybrid Bismuth Complex Single Crystal for Stable X‐Ray Detection With High Sensitivity",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74715?af=R",
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2026-08-19",
@@ -47683,7 +47941,7 @@
   },
   {
    "title": "Membrane‐Bound Multimodal Plasmonic Transducers for Noninvasive, In Situ Monitoring and Control of CAR T Cells Against Heterogeneous Solid Tumors",
-   "link": "https://doi.org/10.1002/adma.74686",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74686?af=R",
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2026-08-19",
@@ -48507,7 +48765,7 @@
   },
   {
    "title": "Ambient‐Processed Organic Solar Cells Achieving Nearly 20.5% Efficiency and Industrially Viable Environmental Stability",
-   "link": "https://doi.org/10.1002/adma.74716",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74716?af=R",
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2026-08-18",
@@ -48541,7 +48799,7 @@
   },
   {
    "title": "Diffusion‐Driven Macromolecular Self‐Organization Enables Conformal Perovskite/Silicon Tandems",
-   "link": "https://doi.org/10.1002/adma.74663",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74663?af=R",
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2026-08-18",
@@ -48605,7 +48863,7 @@
   },
   {
    "title": "Diketopyrrolopyrrole‐Based Cation as a Semiconducting Spacer in Layered Perovskite",
-   "link": "https://doi.org/10.1002/adma.74681",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74681?af=R",
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2026-08-18",
@@ -48632,7 +48890,7 @@
   },
   {
    "title": "Directed Regulation of Intermolecular Excitonic Couplings to Minimize Non‐Radiative Recombination of Excited States in NIR‐Absorbing Non‐Fullerene Acceptors",
-   "link": "https://doi.org/10.1002/adma.74699",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74699?af=R",
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2026-08-18",
@@ -49361,7 +49619,7 @@
   },
   {
    "title": "Data‐Driven Materials Science for Energy‐Sustainable Applications",
-   "link": "https://doi.org/10.1002/adma.74491",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74491?af=R",
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2026-08-17",
@@ -49426,7 +49684,7 @@
   },
   {
    "title": "Engineered Chiroplasmonic Nanointerfaces Enable High‐Dissymmetry Circularly Polarized Electrochemiluminescence From Achiral Luminophores",
-   "link": "https://doi.org/10.1002/adma.74684",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74684?af=R",
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2026-08-17",
@@ -51479,7 +51737,7 @@
   },
   {
    "title": "Low‐Dimensional V–VI van der Waals Compound Photodetectors",
-   "link": "https://doi.org/10.1002/adma.74622",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74622?af=R",
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2026-08-13",
@@ -54739,8 +54997,8 @@
    "oa_type": "article"
   },
   {
-   "title": "Single‐Photon Superradiance in Giant Rhombicuboctahedral CsPbI 3 Nanocrystals",
-   "link": "https://doi.org/10.1002/adma.74549",
+   "title": "Single‐Photon Superradiance in Giant Rhombicuboctahedral CsPbI3 Nanocrystals",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.74549?af=R",
    "journal": "Advanced Materials",
    "publisher": "Wiley",
    "date": "2026-08-08",
