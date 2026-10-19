@@ -1,7 +1,7 @@
 {
  "year": "2026",
- "count": 7169,
- "generated": "2026-10-17 23:59 UTC",
+ "count": 7173,
+ "generated": "2026-10-19 00:11 UTC",
  "papers": [
   {
    "title": "Hydrogen-Bonding-Guided Molecular Pair Suppresses Self-Aggregation for Uniform Passivation of Efficient Inverted Perovskite Solar Cells",
@@ -57,7 +57,7 @@
     "photodetector"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Memcapacitive-Dominated Reservoir Computing with Self-Organizing Nanowire Networks",
@@ -91,7 +91,7 @@
     "neuromorphic"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Ultra-Sensitive Battery-Free Wireless Humidity Sensor for Real-Time Diaper Monitoring",
@@ -125,7 +125,7 @@
     "sensing platform"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Circularly Polarized Phased Array Antenna with a Linear-to-Circular Polarization Conformal Metasurface Superstrate for EnhancedScan Range",
@@ -145,6 +145,119 @@
     "circularly polarized"
    ],
    "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "High‐Performance Nitrate Photoreduction to Ammonia on Organic Photovoltaic Heterojunction Nanoparticles",
+   "link": "https://doi.org/10.1002/smll.76303",
+   "journal": "Small",
+   "publisher": "Wiley",
+   "date": "2026-10-18",
+   "abstract": "ABSTRACT Photocatalytic nitrate reduction to ammonia (NO 3 RR) could alleviate the energy/environmental burdens associated with Haber‐Bosch process, however, still suffers from insufficient visible‐light utilization and low ammonia production rate. Herein, we present the first case of photocatalytic NO 3 RR using a platinum‐loaded organic photovoltaic heterojunction nanoparticle (OPV‐NP) as photocatalysts. The donor/acceptor interpenetrating network inner OPV‐NPs overcomes the limitation of intrinsically short exciton diffusion length of organic photosensitizers. By delicately tuning the chemical/topological structure of near‐infrared acceptors, the intermolecular packing strength and crystalline ordering are improved greatly, thus driving the more efficient generation/transport of charge carriers and ammonia production. As a result, the optimized OPV‐NPs achieves a first‐class photocatalytic ammonia production rate of 6.79 mmol g −1 h −1 and excellent operational stability during 40 h continuous photocatalysis under AM 1.5G simulated sunlight. This work not only highlights the considerable potential of OPV‐NPs in photocatalytic NO 3 RR but also provides valuable insights for rational material design in such a promising photocatalytic system.",
+   "authors": [
+    "Shinuo Guo",
+    "Liping Zhao",
+    "Jiayuan Sun",
+    "Xingqi Bi",
+    "Tao Guo",
+    "Wenkai Zhao",
+    "Guancheng Wu",
+    "Tengshuo Hou",
+    "Yuying Zhang",
+    "Guankui Long",
+    "Yi Liu",
+    "Zhaoyang Yao",
+    "Yaxiao Guo"
+   ],
+   "doi": "10.1002/smll.76303",
+   "keywords": [
+    "operational stability",
+    "photovoltaic"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Isomeric Au 7 Cu 8 Nanoclusters With Identical Building Blocks but Distinct Assembly Modes",
+   "link": "https://doi.org/10.1002/smll.76342",
+   "journal": "Small",
+   "publisher": "Wiley",
+   "date": "2026-10-18",
+   "abstract": "ABSTRACT Isomeric metal nanoclusters composed of identical building blocks provide an ideal platform for probing structure–property relationships at the atomic level; however, their controlled synthesis remains highly challenging. Herein, we report the synthesis and structural characterization of two structurally isomeric AuCu nanoclusters, [Au 7 Cu 8 (L) 2 (TBA) 4 Cl 6 ]PF 6 (L = PNP or PMNP, where PNP is 2,6‐bis(diphenylphosphino)pyridine, PMNP is 2,6‐bis(diphenylphosphinomethyl)pyridine, and TBA is tert ‐butylacetylide), denoted as Au 7 Cu 8 ‐ 1 and Au 7 Cu 8 ‐ 2 , respectively. Single‐crystal X‐ray diffraction analysis reveals that both isomers feature an Au 7 Cu 6 core constructed from two pentagonal bipyramidal Au 4 Cu 3 building blocks fused through a common Au atom. The two isomers differ in the assembly mode of the Au 4 Cu 3 units: in Au 7 Cu 8 ‐ 1 , fusion occurs through a gold atom at a vertex of the equatorial pentagon, whereas in Au 7 Cu 8 ‐ 2 , it occurs through an apical gold atom. Notably, Au 7 Cu 8 ‐ 1 exhibits intense near‐infrared phosphorescence at 752 nm with a photoluminescence quantum yield of 26.2% in solution, whereas Au 7 Cu 8 ‐ 2 is non‐emissive. Theoretical calculations reveal distinct electronic structures and excited‐state relaxation pathways for the two isomers, providing microscopic insight into their different photoluminescence behaviors. These findings deepen our understanding of how structural isomerism influences the electronic structures and photophysical properties of metal nanoclusters.",
+   "authors": [
+    "Guocheng Deng",
+    "Mohit Verma",
+    "Seungwoo Yoo",
+    "Sami Malola",
+    "Xiaolin Liu",
+    "Taeyoung Ki",
+    "Megalamane S. Bootharaju",
+    "Hannu Häkkinen",
+    "Taeghwan Hyeon"
+   ],
+   "doi": "10.1002/smll.76342",
+   "keywords": [
+    "photoluminescence",
+    "photoluminescence quantum yield"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Pulsed‐Laser‐Engineered Cu Single Atoms in δ‐Bi 2 O 3 Nanosheets for Efficient Formate‐Producing Zn–CO 2 Batteries",
+   "link": "https://doi.org/10.1002/smll.76357",
+   "journal": "Small",
+   "publisher": "Wiley",
+   "date": "2026-10-18",
+   "abstract": "ABSTRACT Herein, we report a pulsed laser irradiation in liquid (PLIL) strategy that concurrently induces phase transformation, morphological reconstruction, and single‐atom stabilization in bismuth oxide (Bi 2 O 3 ) for efficient carbon‐dioxide reduction reaction (CO 2 RR). PLIL transforms α‐Bi 2 O 3 microrods to δ‐Bi 2 O 3 nanosheets, while simultaneous anchoring atomically dispersed Cu sites within the δ‐Bi 2 O 3 lattice. The CO 2 RR activity of the PLIL‐derived δ‐Bi 2 O 3 nanosheets substantially exceeds that of α‐Bi 2 O 3 microrods and is further improved in Cu single‐atom‐stabilized δ‐Bi 2 O 3 (Cu SA/δ‐Bi 2 O 3 ) nanosheets, which deliver a high Faradaic efficiency (93.55%) with a formate yield rate of 210 µM·h −1 ·cm −2 at −1.0 V (versus the reversible hydrogen electrode). The key surface intermediates, identified using situ Raman and ex situ Fourier‐transform infrared spectroscopy, confirm the stabilization of *OCHO species during formate formation. Theoretical calculations reveal that Cu single‐atom incorporation electronically modulates the δ‐Bi 2 O 3 matrix, optimizing the intermediate adsorption energies and lowering the reaction barrier of the CO 2 ‐to‐formate pathway. Furthermore, a Zn–CO 2 battery with a Cu SA/δ‐Bi 2 O 3 cathode delivers an output voltage of 1.74 V and converts CO 2 to formate while generating electricity for over 300 h of stable operation. The Zn–CO 2 battery successfully powers light‐emitting diodes and a digital clock, underscoring its potential in real‐world energy–carbon coupling applications.",
+   "authors": [
+    "Chae Eun Park",
+    "Raja Arumugam Senthil",
+    "Anuj Kumar",
+    "Gyeong‐Ah Kim",
+    "Jayachandran Jayakumar",
+    "Ho‐Hsiu Chou",
+    "Myong Yong Choi"
+   ],
+   "doi": "10.1002/smll.76357",
+   "keywords": [
+    "light-emitting diode"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Covalently Locked Donor–Acceptor Block Copolymer Nanoparticles Enable Efficient, Stable and Reproducible Photocatalytic Hydrogen Evolution",
+   "link": "https://doi.org/10.1002/aenm.71708",
+   "journal": "Advanced Energy Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-18",
+   "abstract": "ABSTRACT Organic photocatalysts with tailored properties and unique processability offer a sustainable route to solar hydrogen. To maximize light harvesting and charge generation, donor and acceptor materials are usually physically mixed to form D:A heterojunction nanoparticles (NPs). However, weakly constrained interactions can promote phase segregation, morphological evolution, and limited reproducibility. Here, we introduce an all‐conjugated donor–acceptor block copolymer, PBDB‐T‐ b ‐PYT, in which covalent linkage between PBDB‐T and PYT segments constrains nanoscale donor–acceptor organization and promotes intramolecular charge transfer. Compared with nanoparticles prepared from a physical PBDB‐T:PYT blend, PBDB‐T‐ b ‐PYT nanoparticles exhibit stronger photoluminescence quenching, more persistent charge‐associated transient absorption features, and improved photoelectrochemical charge extraction. As a result, hydrogen evolution reaction (HER) rates exceeding 120 mmol cm −2 g −1 h −1 (>450 µmol h −1 ) are achieved with low Pt loading ( b ‐PYT NPs retained 95% of the initial HER rate after 96 h of photocatalysis. Conversely, NPs prepared from physically mixed PBDB‐T and PYT show lower activity and faster deactivation, consistent with morphology‐driven losses. PBDB‐T‐ b ‐PYT also maintains high performance across polymer batches, improving reproducibility. These results establish all‐conjugated donor–acceptor block copolymers as a promising design strategy for combining high activity, operational stability, and reproducibility in organic nanoparticle photocatalysis.",
+   "authors": [
+    "Alexandre Holmes",
+    "Qiaonan Chen",
+    "Rafael Bicudo Ribeiro",
+    "Leandro R. Franco",
+    "Soumi Roy",
+    "Linnea Lind",
+    "Xiaoman Bi",
+    "Mateus Bergami",
+    "Mathis Mortensen Brette",
+    "Lunjie Zeng",
+    "Eva Olsson",
+    "Bo Albinsson",
+    "Márcio T. do N. Varella",
+    "C. Moyses Araujo",
+    "Ergang Wang"
+   ],
+   "doi": "10.1002/aenm.71708",
+   "keywords": [
+    "operational stability",
+    "phase segregation",
+    "photoelectrochemical",
+    "photoluminescence"
+   ],
+   "type": "article",
    "oa_type_tried": 1
   },
   {
@@ -153,7 +266,7 @@
    "journal": "Nature Communications",
    "publisher": "Nature",
    "date": "2026-10-17",
-   "abstract": "Covalent organic frameworks (COFs) typically require chiral precursors or catalysts to achieve asymmetry. Here, the authors report the enantioselective synthesis of chemically chiral COFs using circularly polarized light as the sole chiral director.",
+   "abstract": "Covalent organic frameworks (COFs) typically require chiral precursors or catalysts to achieve asymmetry. Here, we report the enantioselective synthesis of chemically chiral COFs using circularly polarized light (CP-λ) as the sole chiral director. By exploiting the reversibility of imine condensation, a dynamic self-correction process amplifies the photonic chiral bias into long-range crystalline order without any chiral auxiliaries. Unlike conventional strategies that rely on localized chiral centers, our approach induces chirality directly within the emissive framework backbone. This structural integration results in a luminescence dissymmetry factor of 0.24, representing a substantial value for purely organic systems. Furthermore, we demonstrate spatially programmable encoding with sub-micrometer resolution, enabling the transcription of complex enantiomeric patterns into the frameworks. This methodology establishes a reagent-free platform for the manufacturing of chiral crystalline materials and advances the development of programmable photonic devices. Covalent organic frameworks (COFs) typically require chiral precursors or catalysts to achieve asymmetry. Here, the authors report the enantioselective synthesis of chemically chiral COFs using circularly polarized light as the sole chiral director.",
    "authors": [
     "Taewoong Kim",
     "Jaewon Kim",
@@ -172,8 +285,7 @@
     "circularly polarized"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Dimensional Reduction of Transition Metal Dichalcogenides by Oxide Insertion: Quasi‐1D Oxychalcogenide Semiconductors",
@@ -196,7 +308,7 @@
     "photoluminescence"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Bimetallic Coinage Metal Complexes of Tetradentate ortho ‐Ter‐arylene Ligands",
@@ -219,7 +331,7 @@
     "photoluminescence quantum yield"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Exciplex-Facilitated Charge Extraction and Defect Chelation to Improve Inorganic Perovskite Solar Cells",
@@ -254,7 +366,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Optoelectronic‐Driven Multi‐Functional MoS 2 :PVA Flexible Memristor for In‐Sensor Neuromorphic Computing",
@@ -413,7 +525,7 @@
     "x-ray detector"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -524,7 +636,7 @@
     "solar cell"
    ],
    "type": "review",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "review"
   },
   {
@@ -1299,7 +1411,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1337,7 +1449,7 @@
     "ferroelectric"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1398,7 +1510,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1423,7 +1535,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -2434,7 +2546,7 @@
     "circularly polarized luminescence"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -2523,7 +2635,7 @@
     "photoluminescence quantum yield"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -2555,7 +2667,7 @@
     "photodiode"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -2665,7 +2777,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -2706,7 +2818,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -3430,7 +3542,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -3466,7 +3578,7 @@
     "electroluminescent"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -3559,7 +3671,7 @@
     "wide band gap"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -3612,7 +3724,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -3649,7 +3761,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -30958,7 +31070,7 @@
   },
   {
    "title": "Synergistic Bimolecular Passivation Stabilizing Surface States for High Performance HTL‐Free Inverted Perovskite Solar Cells",
-   "link": "https://doi.org/10.1002/adfm.202532064",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.202532064?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-08",
@@ -31013,7 +31125,7 @@
   },
   {
    "title": "Star‐Shaped Oligomer Acceptors via Core Engineering for Ternary Organic Solar Cells With 20.8% Certified Efficiency",
-   "link": "https://doi.org/10.1002/adfm.78330",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78330?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-08",
@@ -31882,7 +31994,7 @@
   },
   {
    "title": "Stable Breakdown‐Resistant Molecular Antiferroelectric Triggered by Confinement‐Dependent Atomic Displacement",
-   "link": "https://doi.org/10.1002/anie.8019471",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.8019471?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-07",
@@ -31929,7 +32041,7 @@
   },
   {
    "title": "Pyridinium Cations Act as Charge Reservoirs in Expanded Halide Perovskite Analogs at High Pressure",
-   "link": "https://doi.org/10.1002/anie.2495859",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.2495859?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-07",
@@ -31955,7 +32067,7 @@
   },
   {
    "title": "Perovskite Microwire Crystals Encapsulated by Nano‐Grating Structured Small Molecular Film for Polarization‐Sensitive and Highly Stable Photodetectors",
-   "link": "https://doi.org/10.1002/adfm.78269",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78269?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-07",
@@ -32011,8 +32123,8 @@
    "oa_type": "article"
   },
   {
-   "title": "Atomically Thin 2D Perovskite/MoS 2 Heterojunctions With Programmable Twist Angle for High‐Performance Photodetection",
-   "link": "https://doi.org/10.1002/adfm.78158",
+   "title": "Atomically Thin 2D Perovskite/MoS2 Heterojunctions With Programmable Twist Angle for High‐Performance Photodetection",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78158?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-07",
@@ -32045,7 +32157,7 @@
   },
   {
    "title": "Phase‐Switchable 2D Single‐Crystalline Perovskite With Low‐Temperature Out‐of‐Plane Rashba Splitting and Room‐Temperature Out‐of‐Plane Ferroelectricity for Electrically Reconfigurable Spin‐Photonics",
-   "link": "https://doi.org/10.1002/adfm.78216",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78216?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-07",
@@ -32080,7 +32192,7 @@
   },
   {
    "title": "Synergistic Modulation of Molecular Orientation and Interfacial Compatibility via Pyrimidine‐Induced Weak Interactions for Efficient Organic Solar Cells",
-   "link": "https://doi.org/10.1002/adfm.78166",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78166?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-07",
@@ -32107,7 +32219,7 @@
   },
   {
    "title": "Reconfigurable In‐Sensor Processing Based on Photo‐Electric Tailored Photovoltaics",
-   "link": "https://doi.org/10.1002/adfm.78271",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78271?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-07",
@@ -32203,7 +32315,7 @@
   },
   {
    "title": "Extended Framework Semiconductors (EFSs): A Unique and Efficient Platform for Synergetic Piezo‐Photocatalysis",
-   "link": "https://doi.org/10.1002/adfm.78175",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78175?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-07",
@@ -33191,8 +33303,8 @@
    "oa_type": "article"
   },
   {
-   "title": "A‐Site Engineering of Aurivillius Bi 4 Ti 3 O 12 for Enhanced Ferroelectric Polarization and Photocatalytic Overall Water Splitting",
-   "link": "https://doi.org/10.1002/anie.3932816",
+   "title": "A‐Site Engineering of Aurivillius Bi4Ti3O12 for Enhanced Ferroelectric Polarization and Photocatalytic Overall Water Splitting",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.3932816?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-04",
@@ -33241,7 +33353,7 @@
   },
   {
    "title": "Linker‐Mediated Trade‐Off Between Acceptor Aggregation and Donor–Acceptor Mixing Enables Organic Solar Cells With Efficiencies Exceeding 20.5%",
-   "link": "https://doi.org/10.1002/anie.6595038",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.6595038?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-04",
@@ -33270,7 +33382,7 @@
   },
   {
    "title": "Regulating H‐Aggregation via a Thiazole‐Modified Acceptor‐Based Packing Reshaper Toward Highly Efficient and Stable Organic Solar Cells",
-   "link": "https://doi.org/10.1002/anie.7970747",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.7970747?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-04",
@@ -33306,7 +33418,7 @@
   },
   {
    "title": "Fusing Multi‐Resonance Framework with Platinum(II) Complex via Cyclometalation for Narrowband Blue TADF",
-   "link": "https://doi.org/10.1002/anie.6004957",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.6004957?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-04",
@@ -33335,7 +33447,7 @@
   },
   {
    "title": "Light‐Gated Chirality in a Supramolecular Cavitand",
-   "link": "https://doi.org/10.1002/anie.9254918",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.9254918?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-04",
@@ -33354,7 +33466,7 @@
   },
   {
    "title": "Symmetry Reconstruction Breaks the Trade‐Off Between Spectral Redshift and Broadening in Long‐Wavelength Multiple Resonance Emitters",
-   "link": "https://doi.org/10.1002/anie.2435246",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.2435246?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-04",
@@ -34375,7 +34487,7 @@
   },
   {
    "title": "Crystallization Manipulation Through Buried Pyridinium‐Induced Tunable Interactions in Perovskite Solar Cells",
-   "link": "https://doi.org/10.1002/anie.1360189",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.1360189?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-03",
@@ -34403,7 +34515,7 @@
   },
   {
    "title": "Stabilizing Perovskite/Electrode Interface With Tailored 2D/1D Stacking Layer",
-   "link": "https://doi.org/10.1002/anie.8387616",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.8387616?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-03",
@@ -34432,7 +34544,7 @@
   },
   {
    "title": "Achieve the Full‐Wavelength Photoexcited Pyroelectricity in Perovskite Ferroelectric for Long‐Wave Infrared Detection",
-   "link": "https://doi.org/10.1002/anie.1197888",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.1197888?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-03",
@@ -34459,7 +34571,7 @@
   },
   {
    "title": "Oxygen Serves as an Electron Acceptor for Efficient Photocatalytic Acetylene Hydrochlorination in Seawater",
-   "link": "https://doi.org/10.1002/anie.9030516",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.9030516?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-03",
@@ -35174,7 +35286,7 @@
   },
   {
    "title": "Transient Regulation of Crystallization via Volatile Additives to Obtain High‐Quality Perovskite Films",
-   "link": "https://doi.org/10.1002/anie.7089275",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.7089275?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-02",
@@ -35199,7 +35311,7 @@
   },
   {
    "title": "Cascaded Energy Transfer in Supramolecular Assemblies Enables Amplified and Photoswitchable Circularly Polarized Luminescence",
-   "link": "https://doi.org/10.1002/anie.1803367",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.1803367?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-02",
@@ -35220,7 +35332,7 @@
   },
   {
    "title": "2D Covalent Organic Frameworks as Robust n‐Type Organic Mixed Ionic‐Electronic Conductors for Electrochemical Transistors",
-   "link": "https://doi.org/10.1002/anie.5032409",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.5032409?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-02",
@@ -36562,7 +36674,7 @@
   },
   {
    "title": "Dithiafulvalene‐Based Hole Transport Materials Enabling Efficient and Stable n‑i‑p Perovskite Solar Cells via a Robust Doping‑Oxidation Mechanism",
-   "link": "https://doi.org/10.1002/anie.1115640",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.1115640?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-01",
@@ -36626,7 +36738,7 @@
   },
   {
    "title": "Chiral Trigonal Pyramidal Germanium Halides for Enhanced Second Harmonic Generation",
-   "link": "https://doi.org/10.1002/anie.8413238",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.8413238?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-01",
@@ -36657,7 +36769,7 @@
   },
   {
    "title": "Catalytic Enantioselective Synthesis of Upper‐rim‐Functionalized Inherently Chiral Calix[4]arenes Through Desymmetrizing Reductive Amination",
-   "link": "https://doi.org/10.1002/anie.7517064",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.7517064?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-01",
@@ -36680,7 +36792,7 @@
   },
   {
    "title": "Organic Metal Chalcogenide Films With Giant Birefringence",
-   "link": "https://doi.org/10.1002/anie.9163811",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.9163811?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-01",
@@ -37664,8 +37776,8 @@
    "oa_type": "article"
   },
   {
-   "title": "Na 2 Ti 3 O 7 ‐Assisted Grain‐Boundary Tailoring of NASICON Electrolytes for Room‐to‐Subzero‐Temperature All‐Solid‐State Sodium Metal Batteries",
-   "link": "https://doi.org/10.1002/anie.8268615",
+   "title": "Na2Ti3O7‐Assisted Grain‐Boundary Tailoring of NASICON Electrolytes for Room‐to‐Subzero‐Temperature All‐Solid‐State Sodium Metal Batteries",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.8268615?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-08-31",
@@ -38344,7 +38456,7 @@
   },
   {
    "title": "Pushing the Interconnection Limit in Perovskite‐Organic Tandem Solar Cells Through Recombination Channels Delocalization",
-   "link": "https://doi.org/10.1002/anie.6548693",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.6548693?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-08-30",
@@ -38375,7 +38487,7 @@
   },
   {
    "title": "Curved B,N‐Doped Nanographene Beyond Narrowband Emission",
-   "link": "https://doi.org/10.1002/anie.8498677",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.8498677?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-08-30",
@@ -38871,7 +38983,7 @@
   },
   {
    "title": "Conformation‐Locking in Thiazole‐Rich Mixed‐Linkage Covalent Organic Frameworks for Spontaneous Exciton Dissociation and Efficient Photocatalysis",
-   "link": "https://doi.org/10.1002/anie.4914496",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.4914496?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-08-29",
@@ -39526,7 +39638,7 @@
   },
   {
    "title": "Odd‐Even Alkyl Chain Effect of Aromatic Monoammoniums on the Interlayer Architecture and Stability of Ruddlesden–Popper 2D Perovskites",
-   "link": "https://doi.org/10.1002/anie.6772439",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.6772439?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-08-28",
@@ -39553,8 +39665,8 @@
    "oa_type": "article"
   },
   {
-   "title": "Orchestrating Anion–π + Interactions to Accelerate Metal‐Free Room‐Temperature Phosphorescence",
-   "link": "https://doi.org/10.1002/anie.4386683",
+   "title": "Orchestrating Anion–π+ Interactions to Accelerate Metal‐Free Room‐Temperature Phosphorescence",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.4386683?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-08-28",
@@ -40427,8 +40539,8 @@
    "oa_type": "article"
   },
   {
-   "title": "Kinetically Trapped High‐Density Interstitial Mn 2+ Enables Concentration‐Quenching‐Free Persistent Luminescence in CsCdCl 3 Perovskites",
-   "link": "https://doi.org/10.1002/anie.6735869",
+   "title": "Kinetically Trapped High‐Density Interstitial Mn2+ Enables Concentration‐Quenching‐Free Persistent Luminescence in CsCdCl3 Perovskites",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.6735869?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-08-27",
@@ -41157,7 +41269,7 @@
   },
   {
    "title": "An X‑Shaped Chiral Non‑Fullerene n‐Type Semiconductor: Application in Perovskite Solar Cells and Chirality‑Induced Spin Selectivity",
-   "link": "https://doi.org/10.1002/anie.9296585",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.9296585?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-08-26",
@@ -41217,7 +41329,7 @@
   },
   {
    "title": "Helically Chiral Tetradentate Pt(II) Emitters via Efficient Diastereoselective Synthesis for High‐Performance Deep‐Blue CP‐PhOLEDs",
-   "link": "https://doi.org/10.1002/anie.9624904",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.9624904?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-08-26",
