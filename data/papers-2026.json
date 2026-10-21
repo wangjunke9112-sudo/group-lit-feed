@@ -1,8 +1,259 @@
 {
  "year": "2026",
- "count": 7197,
- "generated": "2026-10-20 01:05 UTC",
+ "count": 7210,
+ "generated": "2026-10-21 00:37 UTC",
  "papers": [
+  {
+   "title": "Controlled Edge-Mediated Photoelectrochemical Thinning and Patterning of Transition Metal Dichalcogenides",
+   "link": "https://doi.org/10.1021/acsami.6c16021",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-10-21",
+   "abstract": "Abstract Transition metal dichalcogenides (TMDs) are widely investigated for electrochemical and photoelectrochemical energy conversion applications, yet the oxidation processes that govern their stability in reactive electrolytes remain poorly understood. Here, we systematically compare dark electrochemical and illuminated photoelectrochemical anodic etching and thinning of mechanically exfoliated MoS2, WS2, MoSe2, and WSe2 flakes as a function of applied potential, electrolyte pH, irradiance, and oxidation time. In the dark, oxidation initiates at defect-rich flake edges and produces lateral etching without appreciable basal-plane thinning. The oxidation peak potentials exhibit significantly different pH dependences for sulfide- and selenide-based TMDs, revealing chalcogen-dependent oxidation chemistry and kinetics. Under illumination, an additional oxidation regime emerges at lower anodic potentials, in which multilayer n-type MoS2, WS2, and MoSe2 undergo vertical thinning with minimal lateral etching, whereas no thinning is observed for p-type WSe2. This observation, together with strong suppression of thinning by sacrificial hole acceptors, indicates that photogenerated holes accumulated in the upper layers of n-type TMDs drive a photoelectrochemical self-oxidation process. Tuning the bias, irradiance, and oxidation time enables controlled conversion of initially nonuniform multilayer flakes into homogeneous few-layer structures, while focused laser excitation yields spatially localized thinning and patterning. In addition to elucidating stability windows and oxidation mechanisms of TMD photoelectrodes, these results provide a versatile strategy for controllably tuning the thickness and morphology of layered semiconductors.",
+   "authors": [
+    "Simon Wörle",
+    "Lukas M. Wolz",
+    "Sergej Levashov",
+    "Saerom Lim",
+    "Franz Gröbmeyer",
+    "Maximilian Christis",
+    "Claudia Paulus",
+    "Emiliano Cortés",
+    "Jonathan J. Finley",
+    "Johanna Eichhorn",
+    "Jeremy T. Robinson",
+    "Ian D. Sharp"
+   ],
+   "doi": "10.1021/acsami.6c16021",
+   "keywords": [
+    "photoelectrochemical"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Stacking-specific two-dimensional In 2 Se 3 for ferroelectric homojunctions",
+   "link": "https://www.nature.com/articles/s41565-026-02309-8",
+   "journal": "Nature Nanotechnology",
+   "publisher": "Nature",
+   "date": "2026-10-20",
+   "abstract": "Stacking-controllable 2D In2Se3 grown by chemical vapour deposition reveals a strong dependence of ferroelectricity on stacking order. A 2H/3R homojunction memristor achieves an on/off ratio one order of magnitude higher than that of pure-phase devices, offering opportunities for advanced ferroelectric memory applications.",
+   "authors": [
+    "Xiaodong Zheng",
+    "Tong Yang",
+    "Xiaoyu He",
+    "Wen Zhang",
+    "Chi Shing Tsang",
+    "Yuhuan Li",
+    "Lok Wing Wong",
+    "Zhangyuan Yan",
+    "Jiafeng Zhang",
+    "Tianren Chen",
+    "Honglin Chen",
+    "Runmeng Jia",
+    "Chun-Sing Lee",
+    "Shu Ping Lau",
+    "Shijian Zheng",
+    "Jiong Zhao",
+    "Ming Yang",
+    "Thuc Hue Ly"
+   ],
+   "doi": "10.1038/s41565-026-02309-8",
+   "keywords": [
+    "ferroelectric",
+    "memristor"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Directed assembly of cathode interlayers enables efficient binary organic solar cells",
+   "link": "https://doi.org/10.1038/s41560-026-02148-w",
+   "journal": "Nature Energy",
+   "publisher": "Nature",
+   "date": "2026-10-20",
+   "abstract": "Abstract Cathode interlayers create interfacial dipoles in organic solar cells to maximize device efficiency. However, the dipoles are highly dependent on the molecular orientation of the interlayers, which remain challenging to be controlled. Here, based on the amphiphilic nature of the interlayers, we show a stepwise film deposition approach using a polar solvent for active layer pretreatment and a bipolar solvent for subsequent interlayer self assembly. Sum-frequency generation vibrational spectroscopy reveals a preferred perpendicular orientation of the interlayer molecules, thereby enhancing the surface potential and reducing the charge transport resistance. As a result, we achieve a certified efficiency of 20.65% and fill factor of 82.7% in binary organic solar cells. This method is universally applicable to different cathode interlayers and active layers. Our work highlights the importance of controlling interlayer molecular orientation for unlocking significant performance gains, paving the way for further advancements in device optimization.",
+   "authors": [
+    "Jia Yao",
+    "Rui Zhang",
+    "Ming Zhang",
+    "Tonghui Wang",
+    "Nakul Jain",
+    "Yushan Liu",
+    "Caihe Liu",
+    "Xiaohan Liu",
+    "Zhen Zhang",
+    "Shixin Meng",
+    "Aonan Song",
+    "Qingyuan Wang",
+    "Qi Chen",
+    "Feng Gao",
+    "Zhi-Guo Zhang",
+    "Yongfang Li"
+   ],
+   "doi": "10.1038/s41560-026-02148-w",
+   "keywords": [
+    "charge transport",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Molecule-Driven Unusual Incommensurate Modulation in a 2D Hybrid Perovskite Ferroelectric",
+   "link": "https://doi.org/10.1021/jacs.6c17116",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2026-10-20",
+   "abstract": "Abstract Incommensurate modulation has been extensively investigated in inorganic oxides, representing an emerging frontier in aperiodic materials that enables the discovery of novel quantum phenomena and the manipulation of physical properties, whereas it remains largely unexplored in hybrid perovskites (HPs). Here, we present the driving of successive dynamic rotation of the interlayer dipoles in a two-dimensional HP ferroelectric (DFBZ)2(FA)Pb2I7 (DFBZ is 2,5-difluorobenzylammonium, FA is formamidinium), which enables an unusual incommensurate modulated structure between the paraelectric and ferroelectric phases. Specifically, (DFBZ)2(FA)Pb2I7 exhibits an incommensurate modulated state over a broad temperature range of 313–370 K, and transforms to commensurate modulation at 400–474 K. The incommensurate superstructure at 330 K is ∼6 times larger than its periodic prototype, and its structure can be solved using a (3 + 1)D superspace group with a modulation wavevector of q = (1, 0, 0.1578). The inorganic layers feature a pronounced undulation, while the interlayer organic cations are trapped in distinct rotational states. To the best of our knowledge, (DFBZ)2(FA)Pb2I7 is the first HP ferroelectric that exhibits such a long-range ordered incommensurate modulation. Moreover, its large spontaneous polarization (9.4 μC cm–2) and the near-room temperature ferroelectric-to-incommensurate phase transition result in a giant pyroelectric coefficient of 7.41 μC cm–2 K–1. This unusual incommensurate modulation in HP ferroelectrics offers new insights into the understanding of aperiodic materials and ferroelectric mechanisms.",
+   "authors": [
+    "Lijun Xu",
+    "Hongfei Ma",
+    "Ji Qi",
+    "Hang Li",
+    "Chengshu Zhang",
+    "Huang Ye",
+    "Haiqing Zhong",
+    "Yuan Yu",
+    "Chengmin Ji",
+    "Zhenyue Wu",
+    "Lina Li",
+    "Xiaobin Fu",
+    "Junliang Sun",
+    "Junhua Luo"
+   ],
+   "doi": "10.1021/jacs.6c17116",
+   "keywords": [
+    "ferroelectric",
+    "perovskite"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Negative energy-consuming thermal management guided by machine learning for year-round electricity generation",
+   "link": "https://doi.org/10.1039/d6ee05261d",
+   "journal": "Energy & Environmental Science",
+   "publisher": "RSC",
+   "date": "2026-10-20",
+   "abstract": "The urban heat island effect intensifies thermal stress in cities and increases electricity demand for cooling. Although rooftop photovoltaics play a key role in decarbonizing urban energy systems, conventional thermal...",
+   "authors": [
+    "Zhiwei Li",
+    "Yinghong Xu",
+    "Xi Wang",
+    "Xinglong Pan",
+    "Wei Li Ong",
+    "Peng Jin",
+    "Yi Zhou",
+    "Guo Tian",
+    "Wanheng Lu",
+    "Yi Hou",
+    "Ghim Wei Wei Ho"
+   ],
+   "doi": "10.1039/d6ee05261d",
+   "keywords": [
+    "photovoltaic"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Interface Engineering in Perovskite Light-Emitting Diodes: Fundamentals, Characterization, Strategies, and Applications",
+   "link": "https://doi.org/10.1021/acs.chemrev.6c00612",
+   "journal": "Chemical Reviews",
+   "publisher": "ACS",
+   "date": "2026-10-20",
+   "abstract": "Abstract Interface engineering has emerged as a critical strategy for advancing perovskite light-emitting diodes (PeLEDs), enabling remarkable improvements in the device efficiency, stability, and spectral purity. This Review provides a comprehensive overview of interface engineering in PeLEDs, beginning with the fundamental principles that govern carrier injection, transport, and recombination at heterojunctions between perovskite emitters and charge-transport layers. We then survey advanced characterization techniques, including photoelectron spectroscopy, scanning probe microscopy, and time-resolved optical methods, that elucidate interfacial energy-level alignment, defect states, charge dynamics, and degradation pathways. On the basis of these insights, we systematically discuss versatile engineering strategies, such as self-assembled monolayers, dipole interlayers, dimensional regulation, and passivation schemes, to mitigate non-radiative recombination, balance charge fluxes, and enhance operational stability. Finally, we highlight emerging applications spanning high-resolution displays, flexible lighting, and lasing while outlining key challenges and future directions toward commercial realization. This Review aims to offer a holistic framework linking interfacial design to device performance, guiding next-generation PeLED development.",
+   "authors": [
+    "Xiansheng Li",
+    "Zichen Zhang",
+    "Shuai Liu",
+    "Yuan Zhao",
+    "Weiling Lu",
+    "Xin Luo",
+    "Jing Huang",
+    "Xiaoke Liu",
+    "Feng Gao",
+    "Bo Xu"
+   ],
+   "doi": "10.1021/acs.chemrev.6c00612",
+   "keywords": [
+    "charge transport",
+    "energy level alignment",
+    "lasing",
+    "light-emitting diode",
+    "non-radiative recombination",
+    "operational stability",
+    "perovskite",
+    "radiative recombination"
+   ],
+   "type": "review",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Macroporous Interlayers Stabilize Long-Lived Hole Polarons in Organic Semiconductor Photoanodes",
+   "link": "https://doi.org/10.1021/acsenergylett.6c02492",
+   "journal": "ACS Energy Letters",
+   "publisher": "ACS",
+   "date": "2026-10-20",
+   "abstract": "Abstract Integrating alternative oxidation reactions (AORs) into photoelectrochemical (PEC) systems is promising for unassisted hydrogen production and value-added chemical synthesis, yet organic semiconductor (OS) photoanodes suffer from poor charge extraction and short carrier lifetimes. Here, we address this bottleneck by stabilizing long-lived hole polarons through macroporous tin oxide (mcSnO2) interlayers. Transient absorption spectroscopy reveals that accelerated electron extraction through mcSnO2 stabilizes hole polaron states, substantially prolonging carrier lifetimes. Consequently, the optimized organic photoanodes outperform bare counterparts by more than 5.5-fold, retaining 74% of their initial photocurrent over 15 h for iodide oxidation and 61% over 35 h for ascorbic acid oxidation. Furthermore, integrating this robust organic photoanode with an OS-based photocathode enables the first bias-free organic PEC tandem cell coupling hydrogen evolution with AORs, delivering a remarkable solar-to-hydrogen conversion efficiency of 1.4%. These findings establish interfacial carrier lifetime engineering as an effective strategy for realizing high-performance and durable organic PEC systems.",
+   "authors": [
+    "Eunsong Jeon",
+    "Gayoung Ham",
+    "Jin Su Park",
+    "Hoon Kim",
+    "Euimin Lee",
+    "Donghyun Lee",
+    "Hyuna Kim",
+    "Jun-Ho Yum",
+    "Kevin Sivula",
+    "Hyojung Cha",
+    "Han-Hee Cho"
+   ],
+   "doi": "10.1021/acsenergylett.6c02492",
+   "keywords": [
+    "carrier lifetime",
+    "organic semiconductor",
+    "photoelectrochemical",
+    "tandem"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Cavity-Selective Host–Guest Assembly for Modular Buried-Interface Engineering in Perovskite Solar Cells",
+   "link": "https://doi.org/10.1021/acsenergylett.6c02392",
+   "journal": "ACS Energy Letters",
+   "publisher": "ACS",
+   "date": "2026-10-20",
+   "abstract": "Abstract Buried-interface engineering is critical for inverted perovskite solar cells, yet integrating anchoring, charge transport, electrostatic regulation, and defect passivation within single molecular systems often creates intrinsic trade-offs. Here, we use cavity-selective host–guest recognition to construct a modular, recognition-directed interface. The cavity of dipolar 4-tert-butylsulfonylcalix[4]arene (tBSCA) selectively accommodates the terminal phenyl group of substrate-anchored Ph-4PACz. Comparisons with a structurally related calixarene analogue and competing inclusion orientations identify a thermodynamically preferred Ph-4PACz-tBSCA configuration, distinguishing cavity-selective association from nonspecific interactions. This preferred configuration underpins a preferentially organized dipolar interface that retains Ph-4PACz-mediated anchoring and charge transport while enabling tBSCA to regulate interfacial electrostatics, reduce interfacial defect sites, and suppress defect-assisted halide migration and interfacial accumulation. The resulting devices achieve a PCE of 27.36% (certified at 26.74%), and a 110 cm2 module delivers a certified efficiency of 22.61%. These results demonstrate configuration-selective molecular recognition as a strategy for the modular organization of complementary functions at buried perovskite interfaces.",
+   "authors": [
+    "Yunjia Wu",
+    "Sihao Huang",
+    "Yude Wei",
+    "Jiayan Wang",
+    "Qiuju Liu",
+    "Wenqi Ge",
+    "Zhiyang Yan",
+    "Yinping Zeng",
+    "Yang An",
+    "Chaocheng Zhou",
+    "Jie Bai",
+    "Weihai Sun",
+    "Hua Bai"
+   ],
+   "doi": "10.1021/acsenergylett.6c02392",
+   "keywords": [
+    "charge transport",
+    "defect passivation",
+    "perovskite",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
   {
    "title": "Transport Pathway Engineering in a Three-Terminal Diamond Schottky Photodiode for High-Temperature Dual-Mode Solar-Blind Ultraviolet Detection",
    "link": "https://doi.org/10.1021/acsami.6c14102",
@@ -31,7 +282,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "High-Mobility a-InZnO Thin-Film Transistors Incorporating an Oxygen-Related Defect Control Layer for Improved Illumination Stability and Environmental Reliability",
@@ -51,7 +302,7 @@
     "thin-film transistor"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Boosting Carrier Mobility and Restoring Ambipolarity in 2D TMD Transistors via Nano-spherical Probe Cleaning",
@@ -72,6 +323,128 @@
    "keywords": [
     "carrier mobility",
     "field-effect transistor"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Growth-Controlled Strain-Driven Epitaxial Spalling of Freestanding Oxide Membranes",
+   "link": "https://doi.org/10.1021/acsami.6c13136",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-10-20",
+   "abstract": "Abstract Freestanding complex-oxide membranes are promising platforms for heterogeneous integration, strain engineering, and device architectures on non-native substrates. Strain-driven epitaxial spalling offers a sacrificial-layer-free route to such membranes, but its use in complex oxides has so far been explored mainly under fixed growth conditions. Here we show that the formation of freestanding LaAlO3/SrTiO3 micromembranes can be systematically controlled by tuning the pulsed-laser-deposition (PLD) conditions of the LaAlO3 stressor layer. By mapping the membrane formation yield as a function of laser fluence and oxygen background pressure, we identify a process window for reproducible high-yield spalling and correlate it with cracking behavior, membrane release, and microstructural evolution. We show that efficient spalling requires both sufficient elastic-energy accumulation and preservation of a structurally coherent early interface. Low oxygen pressure conditions during the first unit cells as well as low laser fluence during growth promote premature strain relaxation and suppress membrane formation. We also show that, within the optimized growth window, additional perovskite layers can be integrated into the LaAlO3/SrTiO3 architecture while preserving the spalling process, enabling the design of functionalized spalled membranes. We further show that complete spalling, with high-yield membrane formation, is achieved for LaAlO3 thicknesses down to 53–55 nm, substantially reducing the total membrane thickness compared with previous implementations. Finally, we demonstrate that the spalling approach can be extended to selected alternative substrates, including Ca-doped SrTiO3 and Sr2RuO4. These results establish epitaxial spalling as a growth-controlled and interface-sensitive route to structurally complex freestanding oxide micro-membranes.",
+   "authors": [
+    "Anita Guarino",
+    "Mario Scuderi",
+    "Andrea Rubano",
+    "Yu Chen",
+    "Emiliano Di Gennaro",
+    "Rosalba Fittipaldi",
+    "Pinelopi Konstantinopoulou",
+    "Thomas S. Jespersen",
+    "Antonio Vecchione",
+    "Fabio Miletto Granozio",
+    "Alessia Sambri"
+   ],
+   "doi": "10.1021/acsami.6c13136",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "In Situ Tracking of Se Vacancy-Promoted Surface Reconstruction of NiCoSe2 into NiCoOOH during Alkaline Oxygen Evolution",
+   "link": "https://doi.org/10.1021/acsami.6c15313",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-10-20",
+   "abstract": "Abstract Understanding the dynamic surface reconstruction of precatalyst materials during the oxygen evolution reaction (OER) is a forefront area of research for designing and studying effective electrocatalysts. Here, we report the deliberate engineering of Se vacancies in NiCoSe2 via a facile NaBH4 reduction strategy and systematically investigate how anion vacancies govern surface reconstruction behavior under alkaline OER conditions. The presence of Se vacancies is confirmed via EPR spectroscopy and ICP-MS analysis. Cyclic voltammetry and in situ electrochemical impedance spectroscopy during the electrochemical activation process reveal that the vacancy-enriched NiCoSe2–x undergoes faster and more extensive structural reconstruction than pristine NiCoSe2. Quasi in situ ATR-FTIR and Raman spectroscopy track the dynamic evolution of NiCoOOH during anodic polarization, providing direct spectroscopic evidence for the Se vacancy-promoted NiCoOOH active phase generation with abundant Ni–O–Co synergy. Evaluation of electrochemical surface area and turnover frequency establishes that the generation of abundant Ni–O–Co synergy in NiCoSe2–x simultaneously increases the density of accessible active sites and enhances the intrinsic activity per site. Consequently, the NiCoSe2–x precatalyst delivers significantly improved OER performance relative to bare NiCoSe2, along with high Faradaic selectivity and long-term stability. Post-stability characterizations confirm bulk structural and morphological reconstruction driven by Se vacancies and thus highlight the complete utilization of the available catalytic sites. This work provides a fundamental mechanistic framework linking anion vacancy engineering, surface reconstruction kinetics/mechanism tracking, and intrinsic OER activity enhancement in bimetallic chalcogenide precatalysts, offering rationalized design principles for next-generation earth-abundant OER catalysts.",
+   "authors": [
+    "Suprobhat Singha Roy",
+    "Abhishek Muraleedharan",
+    "Vishesh Vishesh",
+    "Vidyoth Koka Ruparani",
+    "Fajar Dhanish C P",
+    "Subrata Kundu"
+   ],
+   "doi": "10.1021/acsami.6c15313",
+   "keywords": [
+    "chalcogenide"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Sn/Cl Co-Doped ZnO Cathode Interfacial Layer for High-Performance Organic Photodetectors",
+   "link": "https://doi.org/10.1021/acsami.6c15059",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-10-20",
+   "abstract": "Abstract Organic photodetectors (OPDs) hold significant promise for applications spanning medical monitoring, bioimaging and night vision due to their unique advantages, such as flexibility, light weight, and potential for large-area fabrication. Nevertheless, the dark current density (Jd) of OPDs exhibits a pronounced increase under applied reverse bias, which consequently degrades the specific detectivity (D*). To tackle this challenge, this work proposes an interface engineering strategy based on Sn/Cl co-doped ZnO (SCZO). The doping effectively reduces oxygen defects in ZnO, causing the valence band maximum (VBM) to shift downward, thereby suppressing hole injection under bias and reducing Jd. Experiments show that the SCZO-based device exhibits a Jd of 4.05 × 10–11 A cm–2 at –0.1 V, nearly one order of magnitude lower than that of the control device (4.07 × 10–10 A cm–2). Notably, the SCZO-based OPD enables real-time and accurate monitoring of human heart rate, demonstrating its considerable potential for health-monitoring applications. Furthermore, OPDs incorporating the SCZO interface exhibit excellent imaging performance under 820 nm illumination. These findings underscore the significant potential of SCZO-based OPDs for flexible, wearable health monitoring and near-infrared imaging applications.",
+   "authors": [
+    "Zhihuan Miao",
+    "Muyi Fu",
+    "Runze Zhou",
+    "Kaiming Zhu",
+    "Yao Xu",
+    "Zhikun Yu",
+    "Kai Zhang"
+   ],
+   "doi": "10.1021/acsami.6c15059",
+   "keywords": [
+    "photodetector"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Invisible Patterned Silver-Based Transparent Electrodes via Control of Light Scattering and Absorption",
+   "link": "https://doi.org/10.1021/acsami.6c09340",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-10-20",
+   "abstract": "Abstract The demand for transparent flexible electrodes (TFEs) with superior simultaneous optical, electrical, and mechanical performance beyond indium tin oxide (ITO) has driven the development of various nanostructured architectures. Metal-based patterned surfaces have become strong contenders in the TFEs field due to their significantly higher mechanical flexibility; however, their current use is, in part, limited by their scattering-induced visibility to the naked eye. Herein, we report polymeric web-assisted two-dimensional nanostructures, fabricated via electrospinning and integrated with gas-phase deposition methods such as magnetron sputtering, yielding thin film nanopatterning with ultra-high luminous transmittance (Tlum) of 98.1% and sheet resistance (Rs) of 17 Ω □–1. The addition of an antireflective coating enhances the Tlum to 99.7%. The designed trilayer, highly absorbing Fabry–Perot stack (Ag/ITO/NiCr) sputtered on patterned nanolines (NLs) leads to backward scattering suppression, rendering them significantly less visible than the “uncloaked” Ag-only NLs. Our findings are confirmed by finite-difference time-domain (FDTD) simulations. These high-performing, near-invisible electrodes allow for adjustable conductivity through thickness control without compromising transparency, while maintaining mechanical robustness under bending. They are also compatible with polymeric substrates, requiring only room-temperature polymer template dissolution, eliminating the need for high-temperature annealing and representing a promising route toward next-generation optoelectronic applications, including displays, photovoltaics, and wearable electronics.",
+   "authors": [
+    "Aleksandra Pająk",
+    "Pavel Pleskunov",
+    "Oleg Zabeida",
+    "Bill Baloukas",
+    "Jolanta Klemberg-Sapieha",
+    "Ludvik Martinu"
+   ],
+   "doi": "10.1021/acsami.6c09340",
+   "keywords": [
+    "photovoltaic"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Dual-Interface Engineering of Cs2CuBiBr6-Based Memristive Synaptic Devices for Neuromorphic Computing",
+   "link": "https://doi.org/10.1021/acsami.6c17793",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-10-20",
+   "abstract": "Abstract Pb-free double perovskite Cs2CuBiBr6 (CCBB)-based resistive random-access memory (ReRAM) synaptic devices are developed using a dual-interface engineering approach to achieve stable resistive switching and neuromorphic functionality. High-quality CCBB thin films are obtained via optimized antisolvent-assisted crystallization, enabling enhanced crystallinity and reduced defect-induced energetic disorder. Modification of the bottom interface with a poly(3,4-ethylenedioxythiophene) polystyrene sulfonate (PEDOT:PSS) interlayer improves CCBB film continuity and provides a more favorable environment for homogeneous charge injection. The introduction of an ultrathin bathocuproine (BCP) interlayer at the top interface regulates the spatial redistribution of Ag-related species. The cooperative regulation of charge injection and Ag-related electro-ionic processes promotes more reproducible formation and rupture of localized conductive pathways, resulting in improved switching stability and device-to-device reproducibility. The CCBB-based ReRAM exhibits reliable bipolar resistive switching over 600 cycles, an on/off current ratio of approximately 103, and stable data retention up to 104 s. Gradual and repeatable conductance modulation under electrical pulse stimulation further demonstrates synaptic potentiation and depression behaviors. MNIST-based neural network simulations reveal excellent neuromorphic performance, with up to 90% recognition accuracy. This work highlights cooperative dual-interface regulation of charge injection and Ag-related electro-ionic processes as an effective design strategy for achieving reliable Pb-free perovskite ReRAM and neuromorphic synaptic operation.",
+   "authors": [
+    "Chae-Eun Kim",
+    "Sungwon Cho",
+    "Yoon-Seo Choi",
+    "Jeong-Yeon Lee",
+    "Daeseok Lee",
+    "Jincheol Kim",
+    "Dong-Won Kang",
+    "Tae-Jun Ha"
+   ],
+   "doi": "10.1021/acsami.6c17793",
+   "keywords": [
+    "double perovskite",
+    "memristive",
+    "neuromorphic",
+    "perovskite",
+    "resistive switching"
    ],
    "type": "article",
    "oa_type_tried": 1
@@ -98,7 +471,7 @@
     "solar cell"
    ],
    "type": "review",
-   "oa_type_tried": 1
+   "oa_type": "review"
   },
   {
    "title": "Controlling the shell growth mechanism and interfacial oxidation of InAs/ZnSe quantum dots for shortwave infrared emission",
@@ -126,7 +499,7 @@
     "quantum dot"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Local Symmetry Breaking Facilitates Near-Infrared Circularly Polarized Lanthanide Emission in Perovskite Nanocrystals",
@@ -157,7 +530,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Zwitterion‐Regulated Carbazole Phosphonic Acid Self‐Assembled Monolayers via Proton Transfer and Electrostatic Interactions for 21% Organic Solar Cells",
@@ -182,7 +555,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Centrosymmetric Molecular Strategy With Quadruple Boron–Nitrogen Heteroarenes Enabling Efficient Ultra‐Narrowband Emission",
@@ -205,7 +578,7 @@
     "light-emitting diode"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Synchronic Multilevel Assembly Toward Mesoporous Nanosized Intercalation‐Type Framework Anodes for Fast‐Charging Sodium‐Ion Batteries",
@@ -359,7 +732,7 @@
     "wide bandgap"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Responsive Dielectric Polarization Regulates Nonradiative Losses in Perovskite Solar Cells",
@@ -392,7 +765,7 @@
     "wide bandgap"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Unlocking Near‐Unity Photoluminescence Quantum Yield for Cs 3 TbCl 6 Perovskite Nanocrystals Via Fluoroquinolone Surface Engineering",
@@ -425,7 +798,7 @@
     "radiative recombination"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Noise‐Driven Functionality in Neuromorphic Materials, Devices, and Systems",
@@ -448,7 +821,7 @@
     "neuromorphic"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Giant Atomic Displacement Driven Reconstructive Molecular Martensitic Structural Phase Transition in 1D Hybrid Metal Halide Actuator",
@@ -474,7 +847,7 @@
     "metal halide"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Cation‐Directed Solvent Inclusion in Zero‐Dimensional Indium Halides for Tunable and Stimuli‐Responsive Emission",
@@ -498,7 +871,7 @@
     "metal halide"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Suppression and Reemergence of Directional Transport across the Ferromagnetic Transition in SrRuO 3",
@@ -506,7 +879,7 @@
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-10-19",
-   "abstract": "ABSTRACT SrRuO 3 is a canonical itinerant ferromagnet that continues to serve as a fertile platform for exploring spin‐orbit coupled transport and topological responses in correlated oxide metals. Here, we investigate a (110)‐oriented epitaxial SrRuO 3 thin film on DyScO 3 , where crystallographic anisotropy allows for symmetry‐resolved charge transport along orthogonal in‐plane directions. We uncover two principal findings. First, the resistance above the Curie temperature T c ,on ≈ 165 K exhibits strong anisotropy, consistent with directionally dependent spin‐fluctuation scattering. Below T c ,on , this anisotropy nearly vanishes, despite persistent structural inequivalence, due to isotropic electron‐magnon and electron‐electron scattering processes. Second, the application of a magnetic field reveals a striking directional contrast in the linear magnetoresistance ( MR ): it remains negative and saturates along [001], but changes sign and becomes positive along below T 0 = 145 K. In contrast, the quadratic MR term is identical for both directions and peaks near , where the ordinary Hall coefficient crosses zero, consistent with carrier compensation under a two‐band scenario. A sign change in the anomalous Hall signal at is consistent with a temperature‐dependent redistribution of Berry‐curvature contributions near the Fermi level. These results establish ferromagnetic ordering as the primary driver of the observed directional magnetotransport in SrRuO 3 .",
+   "abstract": "SrRuO 3 is a canonical itinerant ferromagnet that continues to serve as a fertile platform for exploring spin-orbit coupled transport and topological responses in correlated oxide metals. Here, we investigate a (110)-oriented epitaxial SrRuO 3 thin film on DyScO 3 , where crystallographic anisotropy allows for symmetry-resolved charge transport along orthogonal in-plane directions. We uncover two principal findings. First, the resistance above the Curie temperature T c ,on ≈ 165 K exhibits strong anisotropy, consistent with directionally dependent spin-fluctuation scattering. Below T c ,on , this anisotropy nearly vanishes, despite persistent structural inequivalence, due to isotropic electron-magnon and electron-electron scattering processes. Second, the application of a magnetic field reveals a striking directional contrast in the linear magnetoresistance ( MR ): it remains negative and saturates along [001], but changes sign and becomes positive along [11¯0]$[ {1\\bar 10} ]$ below T 0 = 145 K. In contrast, the quadratic MR term is identical for both directions and peaks near TOHE∗=155K$T_{{\\mathrm{OHE}}}^* = 155\\,{\\mathrm{K}}$, where the ordinary Hall coefficient crosses zero, consistent with carrier compensation under a two-band scenario. A sign change in the anomalous Hall signal at TAHE∗=150K$T_{{\\mathrm{AHE}}}^* = 150\\,{\\mathrm{K}}$ is consistent with a temperature-dependent redistribution of Berry-curvature contributions near the Fermi level. These results establish ferromagnetic ordering as the primary driver of the observed directional magnetotransport in SrRuO 3 .",
    "authors": [
     "Smriti Bhatia",
     "Neha Sharma",
@@ -522,7 +895,7 @@
     "charge transport"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Synergizing Proton Transfer and Oxygen Activation via Brønsted/Lewis Acid‐Site Regulation in K‐Doped La 0.5 Sr 0.5‐x K x Mn 0.9 Co 0.1 O 3‐δ Air Electrode for Reversible Protonic Ceramic Electrochemical Cells",
@@ -549,7 +922,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Colloidal ALD Epitaxial Shelling Enhances Stability and Photoluminescence of Blue Perovskite Nanocrystals",
@@ -583,7 +956,7 @@
     "photoluminescence quantum yield"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Hydrogen-Bonding-Guided Molecular Pair Suppresses Self-Aggregation for Uniform Passivation of Efficient Inverted Perovskite Solar Cells",
@@ -753,7 +1126,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Impact of Gate-Induced Mobility Attenuation on Accurate Characterization of Perovskite Field Effect Transistors",
@@ -784,7 +1157,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "High‐Performance Nitrate Photoreduction to Ammonia on Organic Photovoltaic Heterojunction Nanoparticles",
@@ -1164,7 +1537,7 @@
     "x-ray detector"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -1275,7 +1648,7 @@
     "solar cell"
    ],
    "type": "review",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "review"
   },
   {
@@ -2050,7 +2423,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -2088,7 +2461,7 @@
     "ferroelectric"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -2149,7 +2522,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -2174,7 +2547,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -3420,7 +3793,7 @@
    "oa_type": "article"
   },
   {
-   "title": "Design Rules for Bifunctional Molecules as Perovskite/C 60 Interfacial Passivation: Linking Mechanisms, Efficiency, and Stability",
+   "title": "Design rules for bifunctional molecules as perovskite/C 60 interfacial passivation: linking mechanisms, efficiency, and stability",
    "link": "https://doi.org/10.1039/d6ee02985j",
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
@@ -3438,15 +3811,15 @@
     "Christoph Messmer",
     "Sithisak Chanthalavong",
     "Johanna Modes",
-    "Fabian Till Thome",
+    "Fabian T. Thome",
     "Oussama Er-raji",
     "Stefaan De Wolf",
-    "Udo Schwingenschlogl",
+    "Udo Schwingenschlögl",
     "Rebecca L. Milot",
-    "Adam D Wright",
-    "Patricia Samia Cerian Schulze",
+    "Adam D. Wright",
+    "Patricia S. C. Schulze",
     "Anna Fischer",
-    "Stefan W Glunz",
+    "Stefan W. Glunz",
     "Juliane Borchert"
    ],
    "doi": "10.1039/d6ee02985j",
@@ -12993,8 +13366,8 @@
    "oa_type": "article"
   },
   {
-   "title": "Ligand‐Engineered Ru(II) Complexes Direct 1D/2D Halide Perovskite Heterostructure Formation for Efficient CO 2 Reduction",
-   "link": "https://doi.org/10.1002/smtd.71074",
+   "title": "Ligand‐Engineered Ru(II) Complexes Direct 1D/2D Halide Perovskite Heterostructure Formation for Efficient CO2 Reduction",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/smtd.71074?af=R",
    "journal": "Small Methods",
    "publisher": "Wiley",
    "date": "2026-09-29",
@@ -13480,7 +13853,7 @@
   },
   {
    "title": "Identification and mitigation of errors in hole spin qubit readout",
-   "link": "https://doi.org/10.1038/s41928-026-01705-1",
+   "link": "https://www.nature.com/articles/s41928-026-01705-1",
    "journal": "Nature Electronics",
    "publisher": "Nature",
    "date": "2026-09-29",
