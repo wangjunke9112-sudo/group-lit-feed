@@ -1,7 +1,7 @@
 {
  "year": "2026",
- "count": 7331,
- "generated": "2026-10-25 00:13 UTC",
+ "count": 7334,
+ "generated": "2026-10-26 00:05 UTC",
  "papers": [
   {
    "title": "Improvement of Photocatalytic and Nanomechanical Properties of GaN Nanowires via Core-Shell Surface Modification",
@@ -59,6 +59,101 @@
     "neuromorphic"
    ],
    "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Alicyclic Lewis Bases Enable 100 °C-Processed α-FAPbI3 Inverted Perovskite Solar Cells",
+   "link": "https://doi.org/10.1021/acsenergylett.6c01229",
+   "journal": "ACS Energy Letters",
+   "publisher": "ACS",
+   "date": "2026-10-25",
+   "abstract": "Abstract Formamidinium lead iodide (α-FAPbI3) perovskite, despite its ideal bandgap, requires high-temperature (≥150 °C) annealing for the δ-to-α phase transformation, hindering its application in low-temperature processed inverted perovskite solar cells (PSCs), particularly on flexible substrates. Herein, we demonstrate that the alicyclic Lewis base caprolactam (CPL) effectively drives the complete δ-to-α phase transformation of FAPbI3 at a reduced temperature of 100 °C. Experiments and theoretical calculations reveal that CPL lowers the phase transition energy barrier and retards crystallization kinetics via strong Pb2+ coordination and controlled desorption. This strategy yields highly crystalline, fully phase-converted α-FAPbI3 films with improved morphology, reduced defect densities, and enhanced optoelectronic properties. Consequently, CPL-modified inverted PSCs achieve a champion power conversion efficiency (PCE) of 25.64% with good operational stability. The low-temperature processability also enables high-performance flexible PSCs with a PCE of 23.73%. This work presents an additive engineering approach for realizing efficient and stable α-FAPbI3 PSCs through low-temperature manufacturing.",
+   "authors": [
+    "Bo Xu",
+    "Zhangsheng Shi",
+    "Yu Chen",
+    "Fengwei Wang",
+    "Jiehui Li",
+    "Chenjie Hao",
+    "Dongmin Qian",
+    "Wenbo Liu",
+    "Renzhi Li",
+    "Wei Huang",
+    "Jianpu Wang"
+   ],
+   "doi": "10.1021/acsenergylett.6c01229",
+   "keywords": [
+    "operational stability",
+    "perovskite",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "rGO-MXene 2D Interfacial Engineering for Enhanced Efficiency and Stability of Perovskite Solar Cells and Modules",
+   "link": "https://doi.org/10.1021/acsenergylett.6c02638",
+   "journal": "ACS Energy Letters",
+   "publisher": "ACS",
+   "date": "2026-10-25",
+   "abstract": "Abstract In this work, we report an innovative interface engineering strategy combining bidirectional chemical anchoring and electronic bridging via a 2D reduced graphene oxide (rGO) and MXene conductive network. This hierarchical 2D structure suppresses the aggregation and stacking of single-layer MXene nanosheets while mutually compensating for individual charge transport limitations. Specifically, the abundant functional groups passivate interfacial defects (Pb2+ and I–) and bond with the PCBM layer via coordination, hydrogen bonding and π–π interactions. This synergistic architecture lowers the electron energy offset. Consequently, PSCs incorporating the rGO-MXene interlayer achieve a champion power conversion efficiency (PCE) of 25.96% (certified 25.05%) and retain 96.43% of initial efficiency after 1000 h in ambient air. Furthermore, 10 × 10 cm2 large-area PSM yields a high PCE of 20.25%, maintaining 96.05% of initial efficiency under maximum power point tracking for 963 h.",
+   "authors": [
+    "Zixun Wang",
+    "Yuxin Shi",
+    "Xuean Liu",
+    "Boyan Liu",
+    "Yudong Zuo",
+    "Bing Zhou",
+    "Shaozu Zhang",
+    "Yang Jiang",
+    "Guoqing Tong"
+   ],
+   "doi": "10.1021/acsenergylett.6c02638",
+   "keywords": [
+    "charge transport",
+    "perovskite",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Dual Functions of Halogen-Bonding Molecules for Stabilizing Ultra-wide Bandgap Perovskite Solar Cells",
+   "link": "https://doi.org/10.1021/acsenergylett.6c01702",
+   "journal": "ACS Energy Letters",
+   "publisher": "ACS",
+   "date": "2026-10-25",
+   "abstract": "Abstract Ultra-wide-bandgap (UWBG) metal halide perovskite solar cells are essential for multi-junction solar cells with higher power conversion efficiency (PCE) potentials. In this work, we report the dual functions of 5-iodoisophthalic acid (I-BDC) to suppress phase segregation and uncoordinated Pb2+ related defects to enhance UWBG perovskite cell performance and stability. An I-BDC incorporated 1.95 eV perovskite film exhibited stable photoluminescence after 120 min of illumination. The best I-BDC cell achieved a certified reverse scan PCE of 16.5%, the highest for 1.95 eV perovskite cells to date. These UWBG perovskite solar cells are the most stable reported to date, with one encapsulated device retaining 90% of its initial PCE after 500 h of maximum power point tracking at ∼40 °C and another retaining 95% of its initial PCE after 206 thermal cycles (–40 ↔ 85 °C), passing the International Electrotechnical Commission (IEC) 61215 testing protocols at the cell level.",
+   "authors": [
+    "Runmin Tao",
+    "Jiahui Qi",
+    "Guoliang Wang",
+    "Jueming Bing",
+    "Tik Lun Leung",
+    "Christopher Bailey",
+    "Zhihao Li",
+    "Alex-Anthony Cavallaro",
+    "Hanbo Jung",
+    "Zhanglin Guo",
+    "Drew Evans",
+    "Matthew Griffith",
+    "David R. McKenzie",
+    "Jianghui Zheng",
+    "Anita W. Y. Ho-Baillie"
+   ],
+   "doi": "10.1021/acsenergylett.6c01702",
+   "keywords": [
+    "halide perovskite",
+    "metal halide",
+    "metal halide perovskite",
+    "multi-junction",
+    "perovskite",
+    "phase segregation",
+    "photoluminescence",
+    "solar cell",
+    "wide bandgap"
+   ],
+   "type": "article",
    "oa_type_tried": 1
   },
   {
@@ -83,7 +178,7 @@
     "solar fuel"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Activating Electronic Functionality of Organic Sublattices in Hybrid Perovskites Through Electrostatically Buffered Radical Coupling",
@@ -105,7 +200,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Chiral Nanographene Imides: Balancing the Dissymmetry Factor‐Mobility Trade‐Off Towards Circularly Polarization‐Sensitive Photodetection",
@@ -139,7 +234,7 @@
     "organic semiconductor"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Constructing Stretchable Superhydrophobic Perovskite Quantum Dot Films via Dual‐Phase Synergistic Engineering",
@@ -163,7 +258,7 @@
     "quantum dot"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Cesium Tin Iodide Perovskites Engineer the Sn 4+ /Sn 2+ Redox Reaction in Aqueous Zinc‐Ion Batteries",
@@ -195,7 +290,7 @@
     "tin halide"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Synergistic Interaction Engineering Enables Homogeneous Mixed‐Cation Perovskite Single Crystals for High‐Performance X‐Ray Detection",
@@ -223,7 +318,7 @@
     "x-ray detector"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "High‐Entropy Platinum‐Group Metal Phosphide Atomic Layers With Controlled Phosphorization for Electrocatalytic Alkaline Hydrogen Evolution",
@@ -279,7 +374,7 @@
     "wide bandgap"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Photomultiplication‐Type Broadband Organic Photodetectors With an ON/OFF Current Ratio Exceeding 79 000 Enabled by Self‐Assembled Ultra‐Thin Layer",
@@ -309,7 +404,7 @@
     "wide bandgap"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Harnessing Synergistic Photophysical Processes in Phosphorescent Carbon Dots for Multifunctional Neuromorphic Vision",
@@ -339,7 +434,7 @@
     "neuromorphic"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Robust Full-Spectrum-Responsive Multi-junction Tandem Solar Cells via Enhanced Near-Infrared Photon Harvesting",
@@ -370,7 +465,7 @@
     "triple-junction"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Film‐State Low‐lying LUMO‐Derived Electronic Structure of Fusion‐Atom Boron‐Doped Polycyclic Aromatic Hydrocarbons",
@@ -521,7 +616,7 @@
     "wide bandgap"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -545,7 +640,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -885,7 +980,7 @@
   },
   {
    "title": "Bio‐Derived Polyelectrolyte Additive–Induced Interfacial Ion‐Diffusion Barriers for Nonvolatile Organic Artificial Synapses (Adv. Funct. Mater. 85/2026)",
-   "link": "https://doi.org/10.1002/adfm.78663",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78663?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-10-23",
@@ -977,7 +1072,7 @@
     "tin halide"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Defect and Ion-Migration Regulation in MAPbI3 Memristors via ZIF-67 Modification toward Stable Resistive Switching and Neuromorphic Computing",
@@ -1210,7 +1305,7 @@
     "solar cell"
    ],
    "type": "comment",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "erratum"
   },
   {
@@ -1371,7 +1466,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1405,7 +1500,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -2430,7 +2525,7 @@
     "quantum dot"
    ],
    "type": "review",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -2485,7 +2580,7 @@
     "scintillator"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -3425,7 +3520,7 @@
     "memristor"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -3517,7 +3612,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
