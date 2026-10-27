@@ -1,8 +1,259 @@
 {
  "year": "2026",
- "count": 7334,
- "generated": "2026-10-26 00:05 UTC",
+ "count": 7345,
+ "generated": "2026-10-27 01:29 UTC",
  "papers": [
+  {
+   "title": "Thermally Transformed ZnC8H4O4 Nanocrystals for Enhanced Sodium-Ion Storage",
+   "link": "https://doi.org/10.1021/acsami.6c16944",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-10-27",
+   "abstract": "Abstract Metal-organic terephthalates composed of earth-abundant elements are promising low-cost and structurally tuneable anodes for sodium-ion batteries, yet their electrochemical behavior, particularly in newly developed compounds, remains insufficiently understood. We report monoclinic nanocrystalline ZnC8H4O4 (ZnTP-2), prepared through the controlled thermal transformation of a hydrated zinc terephthalate precursor, ZnC8H6O5 (ZnTP-1), containing residual terephthalic acid (ZnTP-1@TPA). This transformation involves TPA sublimation and framework dehydration, producing ZnTP-2 with fine crystals of approximately 50–150 nm, increased surface area, and a higher concentration of oxygen-related defect sites compared with ZnTP-1@TPA. ZnTP-2 delivers a reversible Na-ion storage capacity of 222.7 mAh g–1 after 80 cycles at 50 mA g–1, approaching its theoretical capacity and indicating highly efficient utilization of the terephthalate redox framework. It also retains 110 mAh g–1 after 500 cycles at 1000 mA g–1, with a relatively low charge-transfer resistance of 11.5 Ω, demonstrating improved electrochemical stability and rate performance compared with conventional metal-organic terephthalate anodes. Electrochemical kinetic analyses reveal Na-ion diffusion coefficients between 10–14 and 10–12 cm2 s–1, with the differences discussed in terms of apparent, Warburg-related and bulk/chemical diffusion processes. UV–vis analysis reveals a lower optical band gap for ZnTP-2 (2.74 eV) than for ZnTP-1@TPA (3.36 eV), with DFT calculations on idealized molecular models of hydrated and dehydrated zinc terephthalates supporting a similar trend. Full-cell examination provides proof of concept for its applicability.",
+   "authors": [
+    "Yunan Liu",
+    "Ali Reza Kamali"
+   ],
+   "doi": "10.1021/acsami.6c16944",
+   "keywords": [
+    "nanocrystal"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Multilayer 3D/2D Perovskite Heterojunctions: Structural Engineering, Interfacial Modulation, and Photovoltaic Applications",
+   "link": "https://doi.org/10.1002/smtd.71152",
+   "journal": "Small Methods",
+   "publisher": "Wiley",
+   "date": "2026-10-26",
+   "abstract": "ABSTRACT Perovskite solar cells combine excellent optoelectronic properties with solution processability, but their long‐term performance remains limited by interfacial defects, ion migration and structural instability. Multilayer 3D/2D perovskite heterojunctions offer a promising route to address these limitations by integrating efficient light absorption and charge transport of three‐dimensional perovskites with defect passivation effect and high stability of two‐dimensional perovskites. However, poorly controlled formation of low‐dimensional phases usually introduce mixed dimensionalities, unfavorable orientations, excessive organic spacers and energetic barriers, thereby compromising charge extraction and long‐term stability. Here, we review the evolution of multilayer 3D/2D heterojunctions in terms of interface location, phase composition and crystallographic orientation, and compare solution, thermal evaporation, imprint‐transfer and vapor‐assisted fabrication strategies. We further discuss their roles in defect passivation, energy‐level regulation, charge transport, phase‐structure control and phase stabilization, and highlight their emerging applications in large‐area modules, tandem and flexible devices. Finally, we outline key opportunities in deterministic phase control, interface‐specific asymmetric design, operando characterization, and scalable fabrication to advance multilayer 3D/2D heterojunctions from empirical interface modification toward rationally engineered and manufacturable perovskite photovoltaics.",
+   "authors": [
+    "Long Luo",
+    "Ziyang Gao",
+    "Shuxin Qian",
+    "Yanpin Mo",
+    "Bairu Li",
+    "Chao Wang",
+    "Yaoguang Rong",
+    "Jianning Ding"
+   ],
+   "doi": "10.1002/smtd.71152",
+   "keywords": [
+    "2D perovskite",
+    "charge transport",
+    "defect passivation",
+    "ion migration",
+    "perovskite",
+    "photovoltaic",
+    "solar cell",
+    "tandem"
+   ],
+   "type": "review",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Synergistic Multi-Site Passivation with a CF3-Featuring Small-Molecule Additive for Efficient and Stable Perovskite Solar Cells",
+   "link": "https://doi.org/10.1039/d6ee04939g",
+   "journal": "Energy & Environmental Science",
+   "publisher": "RSC",
+   "date": "2026-10-26",
+   "abstract": "Defect passivation and crystallization regulation are critical for achieving efficient and stable perovskite solar cells (PSCs). However, developing a single additive capable of simultaneously optimizing energy-level alignment, suppressing ion migration,...",
+   "authors": [
+    "Zhiqing Xie",
+    "Hongkun Wei",
+    "Fuzhen Bi",
+    "Shaoyun Jia",
+    "Cheng Sun",
+    "Yonghai Li",
+    "Shuguang Wen",
+    "Dongmei Li",
+    "Xichang Bao",
+    "Qingbo Meng",
+    "Junhao Chu"
+   ],
+   "doi": "10.1039/d6ee04939g",
+   "keywords": [
+    "defect passivation",
+    "energy level alignment",
+    "ion migration",
+    "perovskite",
+    "solar cell"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Intermolecular Interaction Engineering for Efficient Large‐Area Tin‐based Perovskite Solar Cells",
+   "link": "https://doi.org/10.1002/adma.75429",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-26",
+   "abstract": "ABSTRACT Poly(3,4‐ethylenedioxythiophene):poly(styrenesulfonate) (PEDOT:PSS) has been widely used as a hole transport layer (HTL) in environmentally friendly tin‐based perovskite solar cells (TPSCs). However, its intrinsic weak acidity and strong tendency toward molecular aggregates hinder its performance in TPSCs. Here, we develop a molecular engineering strategy by introducing a p‐type small molecule, 4,4'‐(5,6‐bis(2‐methoxyethoxy)benzo[c][1,2,5]thiadiazole‐4,7‐diyl)bis(2,5‐difluoro‐N,N‐bis(4‐methoxyphenyl)aniline) (FEG), to modify PEDOT:PSS and, crucially, employ a comprehensive set of solid‐state nuclear magnetic resonance (NMR) techniques to directly elucidate the intermolecular interactions governing this modification. Magic‐angle spinning 1 H NMR, 1 H‐ 1 H double‐quantum‐single‐quantum correlation spectroscopy, and variable spinning‐rate measurements reveal strong interactions between FEG and PSS that redistribute the PEDOT:PSS microstructure and promote greater charge delocalization within the conductive polymer network. This interaction improves PEDOT:PSS dispersion, neutralizes residual acidity and enhances interfacial wettability, enabling the growth of high‐quality Sn‐based perovskite films with enlarged grains, reduced defect density and relieved residual stress. As a result, trap‐assisted recombination is suppressed and hole extraction is improved. Consequently, FEG‐PEDOT:PSS‐based TPSCs achieve a record efficiency of 14.92% for 1‐cm 2 devices and a champion efficiency of 17.02% for 0.04‐cm 2 devices, substantially outperforming their pristine PEDOT counterparts. Furthermore, these devices exhibit excellent operational stability, maintaining over 85% of their initial efficiency after 1100 h of storage under a N 2 atmosphere.",
+   "authors": [
+    "Wenqi Zhang",
+    "Tianpeng Li",
+    "Xiaozhen Huang",
+    "Duanfei Zhang",
+    "Zuoming Jin",
+    "Peilin Wang",
+    "Junyu Nie",
+    "Siyuan Lin",
+    "Wangqiang Cao",
+    "Yi Wang",
+    "Yang Wang",
+    "Zhi Li",
+    "Yao Fu",
+    "Mingwei An",
+    "Jia Liang"
+   ],
+   "doi": "10.1002/adma.75429",
+   "keywords": [
+    "operational stability",
+    "perovskite",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "A Monolithic Quantum‐Dot/AlGaN Phototransistor Breaking the UV–NIR Sensitivity Trade‐off for Ultrasensitive Dual‐Band Detection",
+   "link": "https://doi.org/10.1002/adfm.79283",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-26",
+   "abstract": "ABSTRACT Simultaneous detection of solar‐blind ultraviolet (UVC) and second near‐infrared (NIR‐II) light is highly desirable for advanced optoelectronic functions like all‐weather vision. However, monolithic integration of these two bands is hindered by a fundamental material incompatibility, imposing a fundamental trade‐off between UVC and NIR sensitivity. Here, a monolithic dual‐band phototransistor is demonstrated​ by integrating a PbS colloidal quantum dot (CQD) NIR‐II sensitizer with a polarization‐engineered AlGaN/AlN UVC channel. A built‐in virtual photogate, arising from strong polarization fields, enables ultrahigh photogating gain in both bands without compromising speed or spectral purity. The device achieves record room‐temperature performance: a responsivity of 7.9 × 10 6 A/W and a specific detectivity of 1.5 × 10 18 Jones at 260 nm, together with 1.1 × 10 3 A/W and 2.0 × 10 14 Jones at 1550 nm. An ultralow optical crosstalk below −30 dB and ambient stability exceeding 200 days are demonstrated. The detector successfully performs dual‐band imaging and optical communication under nanowatt‐level illumination. This work presents a versatile materials platform for high‐performance, multispectral optoelectronics.",
+   "authors": [
+    "Mengyao Song",
+    "Zesheng Lv",
+    "Zhuoya Peng",
+    "Hao Jiang"
+   ],
+   "doi": "10.1002/adfm.79283",
+   "keywords": [
+    "quantum dot"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Unlocking Thermoelectric Performance in Cu 2 SnSe 3 Through Controlled Structural Ordering",
+   "link": "https://doi.org/10.1002/adfm.79181",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-26",
+   "abstract": "ABSTRACT Diamond‐like semiconductors offer a versatile platform for the design of highly efficient energy‐converting materials, owing to their tunable electronic structures and high charge carrier mobility. A thorough understanding and precise control of their structural complexity and defect chemistry are, however, essential for optimizing their transport properties. Here, we demonstrate that both the spatial arrangement of tetrahedral motifs and the polymorphic landscape of the diamond‐like semiconductor Cu 2 SnSe 3 can be precisely controlled through post‐synthesis annealing. Electron diffraction combined with precession‐assisted electron diffraction tomography reveals that structural disorder at the sub‐µm length scale, arising from the coexistence of monoclinic and cubic structures, promotes charge carrier trapping within the induced localized states. The degree of localization plays a key role in shaping the temperature dependence of the electronic properties, which evolve from amorphous‐like hopping conduction to conventional valence‐band transport as the annealing temperature increases from 573 to 947 K. Optimum hole mobility and thermoelectric performance are achieved once a single crystallographic phase is obtained by annealing above 873 K. These findings showcase the detrimental influence of local structural disorder on charge carrier transport, providing an additional degree of freedom for tailoring functional properties in crystalline semiconductors.",
+   "authors": [
+    "Arthur Wieder",
+    "Petr Levinský",
+    "Gwladys Steciuk",
+    "Pierric Lemoine",
+    "Erik Elkaim",
+    "Jaafar Ghanbaja",
+    "Sylvie Migot",
+    "Christine Clément",
+    "Ghouti Medjahdi",
+    "Lionel Aranda",
+    "Bernard Malaman",
+    "Gérard Le Caër",
+    "Gaëlle Delaizir",
+    "Ilayda Terzi",
+    "Bertrand Lenoir",
+    "Soufiane El Oualid",
+    "Christophe Candolfi"
+   ],
+   "doi": "10.1002/adfm.79181",
+   "keywords": [
+    "carrier mobility"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Trash to Treasure: PFAS‐Functionalized MOFs for Boosted Piezocatalytic H 2 Production",
+   "link": "https://doi.org/10.1002/aenm.71737",
+   "journal": "Advanced Energy Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-26",
+   "abstract": "ABSTRACT Metal‐organic frameworks (MOFs) hold broad prospects in piezocatalysis because of their high surface area, porosity, and tunable structures, yet pristine MOFs frequently suffer from poor piezocatalytic response. Herein, this study pioneers a novel strategy using pollutant perfluorohexanoic acid (PFHxA) as a functional additive to post‐synthetically modify MOF‐808(Hf), fabricating MOF‐808(Hf)‐F for piezocatalytic hydrogen production. PFHxA modification remarkably enhances the polarity of MOF‐808(Hf) (dipole moment from 8.90 to 12.58 D) and piezoelectricity (d 33 from 63.70 to 234.30 pm V −1 ), boosting electron‐hole separation verified by electrochemical and in situ photoluminescence characterizations. Consequently, MOF‐808(Hf)‐F achieves an excellent piezocatalytic H 2 evolution rate of 2811.4 µmol g −1 h −1 , 10.5‐fold higher than the pristine counterpart and superior to that of numerous reported MOF‐based piezocatalysts. In addition, MOF‐808(Hf) achieves a PFHxA removal efficiency of approximately 40.1% from water. This work realizes simultaneous per‐ and polyfluoroalkyl substances (PFAS) removal and efficient energy production, with excellent universality for Hf‐based MOFs with unsaturated metal sites.",
+   "authors": [
+    "Haijun Hu",
+    "Xiaodong Sun",
+    "Yixuan Wang",
+    "Ge Yan",
+    "Shiyuan Liu",
+    "Lingfeng Zhu",
+    "Liqun Ye",
+    "Hongwei Huang",
+    "Zhen Zhao",
+    "Xinyi Yang",
+    "Bo Zou",
+    "Tianyi Ma"
+   ],
+   "doi": "10.1002/aenm.71737",
+   "keywords": [
+    "photoluminescence"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "16.52% Efficiency All‐Inorganic Perovskite Solar Cells via Al‐Doped ZnO/SnO 2 Electron Transport Bilayer for Improved Interfacial Energy‐Level Alignment",
+   "link": "https://doi.org/10.1002/aenm.71749",
+   "journal": "Advanced Energy Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-26",
+   "abstract": "ABSTRACT Interfacial energy‐level misalignment in all‐inorganic perovskite solar cells generally causes inefficient charge extraction. Here, we propose an Al‐doped ZnO (AZO)/SnO 2 electron transport bilayer to improve energy‐level alignment in CsPbI 2 Br‐based PSCs. By this approach, we achieved a champion efficiency of 16.52%, which is the highest reported value for all‐inorganic CsPbI 2 Br PSCs without doping or passivation of the perovskite, along with a high V OC of 1.33 V. AZO‐based devices substantially outperform ZnO‐based controls, delivering a PCE of 16.52% versus 15.21%, with suppressed dark current, reduced trap density, lower non‐radiative recombination, and smaller hysteresis. The AZO device retains 80% of its initial efficiency after 662 h of continuous illumination, compared with only 312 h for the ZnO counterpart. Al 3+ substitution for Zn 2+ elevates the ZnO conduction band minimum, establishing a favorable cascade alignment among SnO 2 /AZO/perovskite that lowers the electron extraction barrier and blocks hole backflow. Al doping also suppresses oxygen vacancies, reducing interfacial trap‐state density and enhancing perovskite crystallinity. Efficient charge extraction further suppresses Ag electrode degradation and corrosion, contributing to long‐term stability. This work establishes a rational interfacial engineering approach using an AZO/SnO 2 bilayer for efficient and stable all‐inorganic perovskite solar cells.",
+   "authors": [
+    "Haoxuan Guo",
+    "Zhiqiang Ming",
+    "Changqian Li",
+    "Xiangyang Yuan",
+    "Ruoyuan Xie",
+    "Junhui Ran",
+    "Xiao Wang",
+    "Yongbo Yuan",
+    "Bin Yang"
+   ],
+   "doi": "10.1002/aenm.71749",
+   "keywords": [
+    "energy level alignment",
+    "non-radiative recombination",
+    "perovskite",
+    "radiative recombination",
+    "solar cell",
+    "trap density"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Regioisomerism‐Guided Molecular Passivation for 26.05%‐Efficient Perovskite Solar Cells",
+   "link": "https://doi.org/10.1002/aenm.71751",
+   "journal": "Advanced Energy Materials",
+   "publisher": "Wiley",
+   "date": "2026-10-26",
+   "abstract": "ABSTRACT Defect‐mediated nonradiative recombination remains a major barrier to efficient and stable perovskite solar cells (PSCs). Although considerable advances have been made with molecular additives, how the spatial arrangement of functional groups affects device performance remains largely unexplored. Here, we present a regioisomerism‐guided molecular design strategy using fluorinated aniline as a well‐defined model system to incorporate into the lead iodide (PbI 2 ) precursor solution during two‐step sequential perovskite deposition. By systematically comparing ortho‐, meta‐, and para‐fluoroaniline, we demonstrate that the ortho isomer, 2‐fluoroaniline (2‐FA), affords the most effective regulation of defect states and device performance. This superiority arises from the formation of an intramolecular hydrogen bond, which redistributes the molecular electrostatic potential and confers stable bidentate coordination with the perovskite lattice. Additionally, 2‐FA facilitates high‐quality α‐FAPbI 3 films and aligns the energy level favorably with the hole transport layer, yielding a champion efficiency of 26.05% for the n‐i‐p PSCs. Moreover, the 2‐FA‐containing device exhibits superior operational stability. This regioisomerism‐guided design works universally across n‐i‐p and p‐i‐n architectures, irrespective of one‐step or two‐step fabrication. Our work establishes regioisomerism as a simple yet powerful molecular design principle for molecular engineering and provides new insight into the rational development of efficient and stable PSCs.",
+   "authors": [
+    "Xiaoyang Shen",
+    "Bao Xue",
+    "Yinhua Lv",
+    "Shifeng Ge",
+    "Weilin Ran",
+    "Zhaowei Xu",
+    "Rongmei Zhao",
+    "Wen‐Hua Zhang"
+   ],
+   "doi": "10.1002/aenm.71751",
+   "keywords": [
+    "operational stability",
+    "perovskite",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
   {
    "title": "Improvement of Photocatalytic and Nanomechanical Properties of GaN Nanowires via Core-Shell Surface Modification",
    "link": "https://doi.org/10.1021/acsami.6c09628",
@@ -62,6 +313,57 @@
    "oa_type": "article"
   },
   {
+   "title": "High- k Gate Dielectrics for Organic Field-Effect Transistors: Interfacial Engineering, Performance Optimization, and Scalable Flexible Electronics",
+   "link": "https://doi.org/10.1021/acsami.6c14631",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-10-26",
+   "abstract": "Abstract Organic field-effect transistors (OFETs) are promising platforms for flexible, wearable, biointegrated, and large-area electronics owing to their mechanical compliance, solution processability, low-temperature fabrication, and molecular tunability. However, their practical application requires low-voltage operation, low power consumption, high operational stability, and scalable manufacturing, which are strongly influenced by the gate dielectric and its interface with the organic semiconductor. High-k gate dielectrics can increase gate capacitance and enhance electrostatic control, enabling low-voltage operation. However, a higher dielectric constant does not necessarily lead to better device performance, as strong polarization, surface polarity, interfacial trapping, dipolardisorder, remote phonon scattering, leakage, ion migration, and dielectric–semiconductor incompatibility can impair charge transport and device reliability. This Review presents a performance-oriented and interface-centered overview of high-k gate dielectrics for OFETs. We first classify high-k dielectric systems into inorganic oxides, molecularly engineered polymers, organic–inorganic hybrids and composites, and all-organic composite/multilayer structures, highlighting their polarization mechanisms, advantages, limitations, and structure–property relationships. We then discuss how dielectric properties and interfaces affect carrier mobility, threshold voltage, switching characteristics, charge injection, leakage current, hysteresis, and operational stability. Particular attention is given to interface engineering strategies, including surface modification, buffer layers, multilayer architectures, molecular design, composite construction, and defect/passivation control. We further discuss long-term reliability under electrical, thermal, mechanical, and environmental stresses, as well as emerging dielectric systems, low-temperature and scalable fabrication, large-area uniformity, process integration, and commercialization challenges. Finally, we summarize key design considerations for balancing high capacitance, low leakage, interfacial compatibility, mechanical robustness, environmental stability, and scalable processability. By integrating dielectric design, interface engineering, device physics, reliability, and manufacturing, this Review provides guidelines for developing…",
+   "authors": [
+    "Yu Wang",
+    "Xi Li",
+    "Tianyu Yu",
+    "Fei Cheng",
+    "Ruotong Jin",
+    "Xianlian Lin",
+    "Xia Li",
+    "Heqing Ye",
+    "Zhenguo Liu"
+   ],
+   "doi": "10.1021/acsami.6c14631",
+   "keywords": [
+    "carrier mobility",
+    "charge transport",
+    "field-effect transistor",
+    "flexible electronic",
+    "ion migration",
+    "operational stability",
+    "organic semiconductor"
+   ],
+   "type": "review",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "An Organic–Inorganic Hybrid Memristor with Trap-Assisted Hopping for Synaptic Plasticity and Artificial Nociceptor",
+   "link": "https://doi.org/10.1021/acsami.6c16763",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-10-26",
+   "abstract": "Abstract Neuromorphic hardware demands artificial synaptic devices that mimic biological synapses. Achieving multifunctional emulation of synaptic plasticity and nociceptive behavior in a single, highly stable, low-power device remains a major challenge. In this report, zinc oxide nanoparticles (ZnONP) are synthesized via a surfactant-assisted sol–gel method. These are incorporated into an organic small-molecule matrix of 6,13-bis(triisopropylsilylethynyl)pentacene (TP) to fabricate a solution-processed organic–inorganic hybrid memristor. The as-fabricated hybrid memristor mimicked artificial synaptic behavior at a low operating voltage (<±1 V) while demonstrating high stability with retention exceeding 105 s in ambient atmosphere. The TP/ZnONP-based memristor has illustrated both short-term and long-term synaptic plasticity, facilitating the exemplification of learning and memory functions of biological synapses. The memristor has been found to exhibit pain-perception-related nociceptive behavior, including protective responses to excessive stimulation and self-recovery, closely resembling that of biological nociceptors. The device exhibits neurapraxia-like responses with a recovery time of only 40 s. The experimentally obtained synaptic characteristics are further employed in a device-aware fully connected artificial neural network, yielding a handwritten digit recognition accuracy of 97.9%. Various investigations on the dynamics of charge transport have revealed trap-assisted hopping through transient localization, which is induced by shallow and deep traps. The integration of artificial nociception and pattern recognition in a highly stable low-power synaptic device demonstrates the potential of the hybrid memristor for multifunctional neuromorphic hardware.",
+   "authors": [
+    "Nikhitha Rajan",
+    "Ayash Kanto Mukherjee"
+   ],
+   "doi": "10.1021/acsami.6c16763",
+   "keywords": [
+    "charge transport",
+    "memristor",
+    "neuromorphic"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
    "title": "Alicyclic Lewis Bases Enable 100 °C-Processed α-FAPbI3 Inverted Perovskite Solar Cells",
    "link": "https://doi.org/10.1021/acsenergylett.6c01229",
    "journal": "ACS Energy Letters",
@@ -88,7 +390,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "rGO-MXene 2D Interfacial Engineering for Enhanced Efficiency and Stability of Perovskite Solar Cells and Modules",
@@ -115,7 +417,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Dual Functions of Halogen-Bonding Molecules for Stabilizing Ultra-wide Bandgap Perovskite Solar Cells",
@@ -154,7 +456,7 @@
     "wide bandgap"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Titanium Oxide Thin Films With Metal Nanodisks as Plasmonic Metamaterial Photocatalyst Sheets for IPA‐Assisted CO 2 Reduction",
@@ -616,7 +918,7 @@
     "wide bandgap"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -640,7 +942,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1305,7 +1607,7 @@
     "solar cell"
    ],
    "type": "comment",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "erratum"
   },
   {
@@ -1466,7 +1768,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -1500,7 +1802,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -2525,7 +2827,7 @@
     "quantum dot"
    ],
    "type": "review",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -2580,7 +2882,7 @@
     "scintillator"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
