@@ -1,8 +1,615 @@
 {
  "year": "2026",
- "count": 7716,
- "generated": "2026-11-11 01:55 UTC",
+ "count": 7741,
+ "generated": "2026-11-12 02:51 UTC",
  "papers": [
+  {
+   "title": "Autapse-inspired neuromorphic hardware with synapse–neuron integration for bidirectional feedback control",
+   "link": "https://doi.org/10.1038/s41467-026-79401-z",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-11-12",
+   "abstract": "Abstract Establishing autonomous and energy-efficient feedback control at the hardware level remains challenging because conventional systems rely on centralized processing and continuous external computation, increasing energy consumption and system complexity. Here we show a neuromorphic autapse-inspired system that enables localized and bidirectional feedback control, using thermoregulation as a representative application. An autapse is a self-synaptic connection in which a neuron feeds its output back to its own synaptic input, enabling intrinsic feedback modulation. The system integrates a solid electrolyte-based synaptic transistor capable of multiplexing multiple inputs and a bidirectional leaky integrate-and-fire artificial neuron. By feeding the neuronal output back to an additional synaptic gate, excitatory and inhibitory feedback loops are realized within a compact architecture. Using an artificial thermoregulation platform, temperature-dependent inputs bidirectionally modulate neuronal firing frequency, demonstrating biologically inspired feedback control with a compact set of neuromorphic devices for autonomous and energy-efficient systems.",
+   "authors": [
+    "Chan Kim",
+    "Seonkwon Kim",
+    "Jeong Hwan Song",
+    "Jongyoung Lee",
+    "Leejae Kim",
+    "Seongil Im",
+    "Hyunsu Ju",
+    "Yoon Seok Jung",
+    "Gun Hwan Kim",
+    "Jeong Ho Cho"
+   ],
+   "doi": "10.1038/s41467-026-79401-z",
+   "keywords": [
+    "neuromorphic"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Photoelectrochemical CO2 Reduction to CO by a Molecular Catalyst Attached to Pyrene-Terminated Silicon through Noncovalent Interactions",
+   "link": "https://doi.org/10.1021/acsami.6c12581",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-11-12",
+   "abstract": "Abstract A ruthenium-based CO2 reduction catalyst immobilized on a Si photocathode through noncovalent π–π interactions is active for the photochemical conversion of CO2 to CO, with 34% ± 20% Faradaic efficiency with current densities of j = –(0.3 ± 0.1) mA cm–2 at –1.9 V vs Fc+/0 in an acetonitrile/water electrolyte solution under 1 sun illumination. Si photocathodes were functionalized with pyrene (p-Si–Py) using a Grignard methodology. A previously reported CO2 reduction catalyst, [Ru(tpy)(Mebim-py)(NCCH3)][PF6]2 (tpy = 2,2′:6′,2″-terpyridine, Mebim-py = 1-methylbenzimidazol-2-ylidene-3-(2′-pyridine)) was modified to include a pyrene moiety in the terpyridine backbone, enabling π–π stacking of the catalyst onto the Si surface to achieve a surface coverage of (1.85 ± 0.28) x 10–12 mol cm–2 (ca. 2% to 5% of a monolayer) as quantified via inductively coupled plasma mass spectroscopy (ICP-MS). A 420 mV photovoltage (Vph) was quantified for the p-Si–Py photocathode. Measurements of charge carrier recombination kinetics through time-resolved infrared spectroscopy indicate that surface attachment of pyrene moieties introduces defects at the Si interface, even without the presence of the catalyst. These defects provide competing kinetic pathways for photogenerated carriers, hypothesized to influence the selectivity of the hybrid photoelectrode, an important implication for future designs of hybrid photoelectrodes.",
+   "authors": [
+    "Rebecca E. Powers",
+    "Aldo M. Jordan",
+    "Eric A. Assaf",
+    "Genevieve A. Holliday",
+    "Xiaofan Jia",
+    "Benjamin D. Travis",
+    "Stephen J. Tereniak",
+    "John C. Dickenson",
+    "Pierpaolo Vecchi",
+    "Christian Y. Dones Lassalle",
+    "James D. Sappington",
+    "Carrie L. Donley",
+    "Brittany L. Huffman",
+    "Nilay Hazari",
+    "Renato N. Sampaio",
+    "Alexander J. M. Miller",
+    "Jillian L. Dempsey"
+   ],
+   "doi": "10.1021/acsami.6c12581",
+   "keywords": [
+    "co2 reduction",
+    "photoelectrochemical",
+    "photovoltage"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Crystallinity-Dependent Donor Activation in RF-Sputtered SnO2 Electron-Transport Layers and the Interface-Character Origin of Their Predicted Device-Level Consequences",
+   "link": "https://doi.org/10.1021/acsami.6c15785",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-11-12",
+   "abstract": "Abstract SnO2 is the electron-transport layer (ETL) in record n–i–p perovskite solar cells, grown by chemical bath deposition (CBD) without high-temperature crystallization; whether its crystallinity matters remains unresolved. Here, the same RF-sputtering process on fluorine-doped tin oxide (FTO), at room temperature or 300 °C, yields a predominantly amorphous or an FTO-templated polycrystalline rutile film. The measured film and interface properties anchor a calibrated TCAD model and a thirteen-parameter Sobol global sensitivity analysis (>33,000 simulations), which, unlike one-factor-at-a-time sweeps, resolves the interactions among parameters explicitly. At the film level, crystallinity governs donor activation: UPS, XPS, and STEM-EDS show that the amorphous film holds more fluorine yet has a Fermi level farther below the conduction band, so shallow donors attributed to substitutional fluorine exist in both films but are active only in the crystalline one. At the device level, however, the predicted gain arises from the crystalline film's interface rather than its doping. The Ag/SnO2 contact is rectifying on the amorphous film and ohmic on the crystalline one, through interface-state de-pinning rather than a band-offset shift. The Sobol analysis ranks the SnO2/perovskite interface trap density first (total-effect index ≈ 0.66). A degenerately doped film could screen such traps, but the amorphous film's rectification rules out that route; its deficit is interfacial. At its trap density (∼1013 cm–2), only deep acceptor-like states pin the Fermi level (acceptor-fraction index ≈ 0.83). The predicted crystallization gain is +5.6 pp (20.5 → 26.1%). FAPbI3 half-stack PL/TRPL supports this (1.35× longer lifetime on the crystalline ETL) and bounds that interface's trap density to ≲1012 cm–2. Crystalline growth is one route to the de-pinned interface that CBD ETLs reach chemically, provided that interface is preserved. The absolute efficiencies are calibrated predictions; the benefit's sign and the lever ranking are robust.",
+   "authors": [
+    "Ji-Seong Hwang",
+    "Soo Min Kim",
+    "Yoonmook Kang"
+   ],
+   "doi": "10.1021/acsami.6c15785",
+   "keywords": [
+    "perovskite",
+    "solar cell",
+    "trap density"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "n -Value-Tuned Quasi-2D Perovskites for Wavelength-Selective Optoelectronic Synapses",
+   "link": "https://doi.org/10.1021/acsami.6c18954",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-11-12",
+   "abstract": "Abstract Neuromorphic vision systems demand optoelectronic synapses that combine wavelength-selective sensing with gradual and linear synaptic weight updates. In two-dimensional (2D) halide perovskites, extending visible-light absorption can be accompanied by accelerating ion migration and premature current saturation. Here, we regulate the phase composition of quasi-two-dimensional (quasi-2D) BA2MA(n–1)PbnI(3n+1) perovskites by tuning the nominal n value. Incorporation of the n = 2 phase extends the absorption edge from 525 nm (green) to approximately 600 nm (red), enabling distinguishable responses under blue, green, and red illumination. The nominal n = 1.2 composition provides sufficient higher-n phase for red-light absorption while suppressing excessive ion migration, yielding highly linear photocurrent weight updates. Using these wavelength-, intensity-, and duration-dependent responses, we construct a light-history regression model that maps accumulated exposure to electrical blue-light-hazard warning and literature-derived phototoxicity thresholds under different color temperatures. This phase-engineering strategy provides a material-level route to integrate spectral selectivity and linear signal integration in neuromorphic vision systems.",
+   "authors": [
+    "Yichen Li",
+    "Jishan Shi",
+    "Yanfang Ding",
+    "Liming Du",
+    "Can Li",
+    "Zhen Li"
+   ],
+   "doi": "10.1021/acsami.6c18954",
+   "keywords": [
+    "2D perovskite",
+    "halide perovskite",
+    "ion migration",
+    "neuromorphic",
+    "perovskite",
+    "quasi-2D perovskite"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Rigid Bis‐Amidinium Anchoring Engineering Enables Synergistic Defect Suppression and Ion Stabilization for High‐Performance Flexible Perovskite X‐Ray Detectors and TFT‐Array Imaging",
+   "link": "https://doi.org/10.1002/smtd.71190",
+   "journal": "Small Methods",
+   "publisher": "Wiley",
+   "date": "2026-11-11",
+   "abstract": "ABSTRACT Flexible direct‐conversion X‐ray detectors based on halide perovskites hold great promise for mechanically compliant and array‐integrated imaging, yet their performance is limited by grain‐boundary defects and electrical instability in polycrystalline thick films. Here, we introduce 1,4‐benzenedicarboximidamide dihydrochloride (p‐BDAm) as an additive for regulating polycrystalline methylammonium lead iodide (MAPbI 3 ) detector layers. Spectroscopic measurements and density functional theory (DFT) calculations support multisite interactions between the bis‐amidinium framework and Pb–I‐containing species as a plausible contribution to the p‐BDAm‐mediated regulation of the local grain‐boundary environment and crystallization behavior. Overall, p‐BDAm incorporation suppresses nonradiative recombination, increases the resistivity and mobility–lifetime product, raises the apparent activation energy extracted from temperature‐dependent conductivity from 0.17 to 0.49 eV, and substantially improves dark‐current stability. The optimized flexible perovskite composite membrane detector achieves a sensitivity of 2165.5 µC Gy air −1 cm −2 at 10 V and an estimated detection limit of 15.0 nGy air s −1 . Moreover, the p‐BDAm‐regulated MAPbI 3 layer is compatible with thin‐film transistor (TFT)‐array integration, enabling parallel X‐ray imaging. A representative TFT image was obtained at an X‐ray dose rate of 12.3 µGy air s −1 with an exposure time of 0.5 s. These results demonstrate a transferable molecular‐regulation strategy for stabilizing polycrystalline perovskite X‐ray detectors across flexible and array‐integrated architectures.",
+   "authors": [
+    "Haojin Li",
+    "Danhong Cheng",
+    "Xinyue Ma",
+    "Xinmei Liu",
+    "Tinghuan Yang",
+    "Xinyi Geng",
+    "Ye Yang",
+    "Nan He",
+    "Pei Zhou",
+    "Kang Yang",
+    "Chuang Ma",
+    "Xin Song",
+    "Zhou Yang",
+    "Shengzhong (Frank) Liu",
+    "Kui Zhao"
+   ],
+   "doi": "10.1002/smtd.71190",
+   "keywords": [
+    "halide perovskite",
+    "perovskite",
+    "thin-film transistor",
+    "x-ray detector",
+    "x-ray imaging"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Boosting stability and charge transfer of conducting polymer poly(benzodifurandione) (PBFDO) through complementary topology",
+   "link": "https://doi.org/10.1126/sciadv.aej0737",
+   "journal": "Science Advances",
+   "publisher": "Science",
+   "date": "2026-11-11",
+   "abstract": "Abstract Poly(benzodifurandione) (PBFDO) is a benchmark n-type conjugated polymer known for its record-high electrical conductivity. Nevertheless, its thermal robustness and charge/ion transport characteristics remain insufficient. To address this issue, we report a hierarchical complementary topology strategy via doping PBFDO with choline chloride (ChCl). At the molecular scale, the cations Ch + selectively intercalate along the out-of-plane direction while simultaneously densifying the in-plane π-π stacking, accompanied by partial removal of H + . At the submicrometer scale, this induces distinct phase separation into high- and low-density stacking domains. As a result, the product PBFDO-ChCl exhibited a synergistic performance boost, with a 2.8-fold enhancement in high-temperature resilience, a 1.6-fold increase in sheet conductance, and a 15.9-fold reduction in ion diffusion resistance. Then, organic electrochemical transistors (OECTs) using PBFDO-ChCl as channel material further confirm these performance enhancements. As a whole, this work closes the performance gap between n-type PBFDO and state-of-the-art p-type conjugated polymers, potentially advancing its applications from energy storage to bioelectronics and neuromorphic computing.",
+   "authors": [
+    "Yuhao Geng",
+    "Bowen Yao",
+    "Yuyao Lu",
+    "Jingcheng Liu",
+    "Zimo Chen",
+    "Shangcheng Zou",
+    "Zhaoyang Yin",
+    "Xuesong Huang",
+    "Jianlong Xu",
+    "Jiajun Fu"
+   ],
+   "doi": "10.1126/sciadv.aej0737",
+   "keywords": [
+    "neuromorphic"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "An organic semiconductor-based photocatalyst sheet for overall solar-driven water splitting",
+   "link": "https://doi.org/10.1038/s41560-026-02160-0",
+   "journal": "Nature Energy",
+   "publisher": "Nature",
+   "date": "2026-11-11",
+   "abstract": "Abstract Splitting water into hydrogen and oxygen using sunlight offers a route to renewable fuel, but translating this reaction into systems suitable for industrial implementation remains difficult. Photocatalyst sheets can overcome key limitations of common direct water-splitting approaches (photoelectrochemical devices and photocatalyst dispersions), but existing photocatalyst sheets rely on inorganic semiconductor nanoparticles and processing techniques that can be difficult to scale. Here we show that solution-processed organic semiconductors can form water-splitting photocatalyst sheets by simply tailoring the charge extraction layer beneath the light-absorbing film. A single organic semiconductor active layer (deposited as a bulk heterojunction blend) drives either hydrogen or oxygen evolution depending on its underlying molecular contact, yielding photocathode and photoanode half-cells with well-matched photocurrents. Combining both reactions on one substrate using a microdomain-patterned molecular underlayer affords a photocatalyst sheet that achieves unassisted water splitting under simulated sunlight for over 2 h and generates hydrogen at a stabilized rate of 1.3 µmol h −1 cm −2 , which corresponds to a solar-to-hydrogen conversion efficiency of 0.1%.",
+   "authors": [
+    "Nicolas J. Diercks",
+    "Jin Su Park",
+    "Jun-Ho Yum",
+    "Yan Meng",
+    "Arthur E. Bouchez",
+    "Fabien Sorin",
+    "Han-Hee Cho",
+    "Kevin Sivula"
+   ],
+   "doi": "10.1038/s41560-026-02160-0",
+   "keywords": [
+    "organic semiconductor",
+    "photoelectrochemical",
+    "water splitting"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Designing additives for perovskite transistors using molecular polarity as a guide",
+   "link": "https://doi.org/10.1038/s41928-026-01733-x",
+   "journal": "Nature Electronics",
+   "publisher": "Nature",
+   "date": "2026-11-11",
+   "abstract": "Molecular polarity can be used as a predictive descriptor to screen potential additives for halide perovskite lattices, allowing robust and high-performance tin-based perovskite transistors to be created.",
+   "authors": [
+    "Tian Tian",
+    "Suidong Wang",
+    "Junhao Chu",
+    "Wenwu Li"
+   ],
+   "doi": "10.1038/s41928-026-01733-x",
+   "keywords": [
+    "halide perovskite",
+    "perovskite"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "A high-polarity molecular-anchor design for stable high-mobility perovskite transistors",
+   "link": "https://doi.org/10.1038/s41928-026-01732-y",
+   "journal": "Nature Electronics",
+   "publisher": "Nature",
+   "date": "2026-11-11",
+   "abstract": "Molecular polarity can be used to guide the rational and targeted design of additives that suppress ion migration in metal halide perovskite transistors, leading to mobilities of over 40 cm2 V−1 s−1 and stabilities of over 9,000 on/off cycles.",
+   "authors": [
+    "Xinjiang Wang",
+    "Xue Wang",
+    "Muchen Li",
+    "Kun Zhou",
+    "Xiaoyu Wang",
+    "Shulin Luo",
+    "Xueting Wang",
+    "Haibo Wang",
+    "Lijun Zhang"
+   ],
+   "doi": "10.1038/s41928-026-01732-y",
+   "keywords": [
+    "halide perovskite",
+    "ion migration",
+    "metal halide",
+    "metal halide perovskite",
+    "perovskite"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Single photon reflection from a quantum dot in a waveguide",
+   "link": "https://doi.org/10.1038/s41467-026-78984-x",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-11-11",
+   "abstract": "Abstract Single-atom waveguide-QED systems have emerged as a leading platform for demonstrating non-linear optics in the few-photon regime. Devices with such non-linear behavior are necessary for developing deterministic gates for photonic quantum computing. Artificial atoms coupled to nanophotonic or superconducting waveguides can be used to engineer highly efficient light-matter interfaces for such non-linear interactions, where every photon in the system interacts with the quantum emitter. However, it has been a challenge to access the reflection port of the waveguide due to the inability of rejecting stray electromagnetic fields that do not interact with the artificial atom. Here, we show coherent reflection of single photons from a semiconductor quantum dot strongly coupled to the fundamental waveguide mode of a nanowire. We utilize the tapered end of the nanowire for ideal mode-matching in a vertical geometry, enabled by the extinction technique developed. This mode-matching allows for efficient transfer of photons from the input to the reflection port while having all interacted with the quantum dot. Such a high-efficiency scalable photonic platform opens up applications in few-photon quantum nonlinear optics and has been proposed for creating key resource states for universal photon-based quantum computing.",
+   "authors": [
+    "Tarun Patel",
+    "Matteo Pennacchietti",
+    "Sayan Gangopadhyay",
+    "Dan Dalacu",
+    "Philip J. Poole",
+    "Stephen Hughes",
+    "Michael E. Reimer"
+   ],
+   "doi": "10.1038/s41467-026-78984-x",
+   "keywords": [
+    "quantum dot"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Low-thermal-budget solution-processed montmorillonite dielectric for low-voltage 2D electronics",
+   "link": "https://doi.org/10.1038/s41467-026-79139-8",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-11-11",
+   "abstract": "Abstract Low-voltage and high-performance electronic devices based on two-dimensional (2D) semiconductors demand high-quality dielectrics with efficient capacitive gating. However, it currently relies on specially engineered atomic layer deposition (ALD) of ultrathin high- k HfO 2 and ZrO 2 , or high-temperature vapor-phase growth of 2D dielectrics with post-growth transfer process. Here, we report a facile solution-processed 2D dielectric with an ultra-low thermal budget (i.e., at room temperature), while delivering competitive device metrics (e.g., low operating voltage and small hysteresis). This is enabled by an organic-free colloidal ink of montmorillonite (MTM) in environmentally friendly water solvent, eliminating the need for organic ligands or surfactants and thus the post-deposition high-temperature thermal annealing. Specifically, all-solution-processed MoS 2 field-effect transistors with MTM dielectric exhibit a low operating voltage of 1 V and small hysteresis (down to 1 mV). The solution process is generally compatible with diverse n-type and p-type 2D semiconductors such as MoS 2 , MoSe 2 and WSe 2 . Moreover, the robust and reproducible MTM dielectric enables scalable device integration into logic circuits, including inverters, AND, NOR, and NAND gates, as well as static random-access memory (SRAM). The scalable room-temperature solution-processed 2D dielectric offers a route to all-solution-processed and low-voltage 2D electronics.",
+   "authors": [
+    "Wenjie Li",
+    "Junying Xue",
+    "Peng Chen",
+    "Yongping Dai",
+    "Jing He",
+    "Ruihao Tan",
+    "Jifeng Ge",
+    "Tingyi Xia",
+    "Shengqi Wang",
+    "Zhaoyang Lin"
+   ],
+   "doi": "10.1038/s41467-026-79139-8",
+   "keywords": [
+    "field-effect transistor"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Hideki Shirakawa obituary: chemist who showed that plastics can conduct electricity",
+   "link": "https://www.nature.com/articles/d41586-026-03633-8",
+   "journal": "Nature",
+   "publisher": "Nature",
+   "date": "2026-11-11",
+   "abstract": "Nobel prizewinner’s accidental discovery led to new forms of materials, light-emitting diodes and solar cells.",
+   "authors": [
+    "Kazuo Akagi"
+   ],
+   "doi": "10.1038/d41586-026-03633-8",
+   "keywords": [
+    "light-emitting diode",
+    "solar cell"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Low-power 2D CFETs using single-crystal high-κ dielectrics",
+   "link": "https://doi.org/10.1038/s41586-026-11272-2",
+   "journal": "Nature",
+   "publisher": "Nature",
+   "date": "2026-11-11",
+   "abstract": "Abstract Aggressive scaling in silicon electronics—although essential for improving power, performance, area and cost—faces increasing challenges in further reducing power consumption due to electrostatic and leakage constraints 1,2 . Achieving efficient operation at low supply voltages therefore requires new materials and gate-stack engineering strategies. Two-dimensional (2D) semiconductors offer intrinsic advantages because their atomic thickness affords excellent gate control, and their sizable bandgaps suppress off-state current. However, a major obstacle is the imperfect interface between 2D channels and gate dielectrics, which degrades subthreshold swing, hysteresis and bias-temperature instability 3 . Here we demonstrate that a wafer-scale, transferable, single-crystal anatase titanium dioxide dielectric can be van der Waals integrated with 2D transition metal dichalcogenides. The obtained pristine 2D-dielectric interface enables subthreshold swing close to the thermal limit, record-low hysteresis and well-matched transfer characteristics for both n- and p-type enhancement-mode field-effect transistors. Building on this, we demonstrate complementary field-effect transistors, whose inverters achieve high voltage gain and large noise margins with subpicowatt static power consumption. These results highlight the promise of 2D semiconductors for ultra-low-power operation.",
+   "authors": [
+    "Ni Yang",
+    "Ji Zhang",
+    "Yu-Cheng Lu",
+    "Zeheng Wang",
+    "Yu-Ming Chang",
+    "Fangyuan Zheng",
+    "Zi-Liang Yang",
+    "Lingqi Li",
+    "Ang-Sheng Chou",
+    "Zongmeng Yang",
+    "Haomin Liu",
+    "Lin-Yun Huang",
+    "Chenyang Li",
+    "Chengdong Yao",
+    "Pengfei Yang",
+    "Wanying Li",
+    "Wanqing Meng",
+    "Ming-Yang Li",
+    "Chao-Ching Cheng",
+    "Dong-Keun Ki",
+    "Ya-Ping Chiu",
+    "Kah-Wee Ang",
+    "Geng-Chiau Liang",
+    "Yi Wan",
+    "Yee Sin Ang",
+    "Iuliana P. Radu",
+    "Vita Pi-Ho Hu",
+    "Sean Li",
+    "Jing-Kai Huang",
+    "Lain-Jong Li"
+   ],
+   "doi": "10.1038/s41586-026-11272-2",
+   "keywords": [
+    "field-effect transistor"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Optical Access to a Molecular Nuclear-Spin Register in Catalytically Relevant Palladium(I) Complexes",
+   "link": "https://doi.org/10.1021/jacs.6c15671",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2026-11-11",
+   "abstract": "Abstract Paramagnetic metal complexes are powerful tools in chemical catalysis and, increasingly, quantum information science, positioning them as ideal tools for quantum sensing within reactions themselves. However, this application requires an interface between spins and light in chemically relevant platforms. Here, we demonstrate that circularly polarized light can generate electron spin coherence in low-symmetry, catalytically relevant Pd(I) complexes. By measuring ultrafast changes in optical polarization with time-resolved Faraday rotation, we optically detect coherent superhyperfine interaction between the Pd(I)-centered electron spin and adjacent 31P nuclei from the ligand at ambient temperature in solution. The electronic origins of this behavior are attributed to excited-state orbital angular momentum through combined spectroscopic and computational analysis, and the optically measured coherence is benchmarked against pulsed electron paramagnetic resonance. Spin polarization is coherently exchanged between the electron spin and initially incoherent nuclear spins, constituting a rare example of optical access to a nuclear spin register in an ambient-temperature, solution-phase molecular system. Both reactivity and quantum spin function are mediated by the bisphosphine ligand; taken together with in situ detection of coherent Pd(I) spin dynamics directly in reaction mixtures, this work moves molecular qubits toward quantum sensing in chemical reactions.",
+   "authors": [
+    "Sojung F. Kim",
+    "Erica Sutcliffe",
+    "Ryan G. Hadt"
+   ],
+   "doi": "10.1021/jacs.6c15671",
+   "keywords": [
+    "circularly polarized"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Synergistic Interactions Enable Superior Oxygen Evolution Reaction Activity in Compositionally Complex Nanocrystal–Nanosheet Hybrids",
+   "link": "https://doi.org/10.1021/jacs.6c17829",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2026-11-11",
+   "abstract": "Abstract Thiospinel nanoparticles are promising catalytic materials due to their compositional tunability, electronic conductivity, and structural stability. While significant gains in catalysis have been made through material engineering, one continuously developing route is through the use of support materials to enhance performance. Here, we report a simple, scalable, low-temperature method to coproduce colloidal multimetal nanocrystals (<20 nm in diameter) and In2S3-based nanosheets (<1 nm thick), forming compositionally complex hybrid nanocrystal–nanosheet heterostructures in situ. The in situ-formed heterostructures demonstrate enhanced catalytic activity in the oxygen evolution reaction (OER) in alkaline conditions; peak performance was achieved in heterostructures formed between (Ni,Co,Fe)3S4 nanocrystals and (In,Fe,Mn)2S3 nanosheets with overpotentials as low as 283 mV at 10 mA/cm2. Heterostructures can also be produced ex situ by introducing nanosheets, postsynthetically, to the nanocrystals, reducing the overpotential of (Ni,Co,Fe)3S4 nanocrystals from 362 mV to 312 mV with only a 5 wt % addition. This improvement highlights synergistic interactions in the heterostructures. These results suggest that an optimum nanosheet loading that maximizes effective nanocrystal–nanosheet interfacial coupling while preserving access to the Ni/Co-rich catalytic domains is the relevant design parameter. Our findings provide a low-temperature, colloidal route for synthesizing compositionally complex and highly uniform (<15% dispersity) sulfide nanocrystals, nanosheets, or heterostructures of the two with tunable structures and enhanced electrocatalytic performance. To our knowledge, this is the first report of a compositionally complex hybrid material that is able to enhance performance when formed both in situ or ex situ and the use of In2S3 as a scaffold for a support material for enhancing OER performance.",
+   "authors": [
+    "Talisi E. Meyer",
+    "Cheng-Yin Lin",
+    "Andrew Zhao",
+    "Yiguo Ma",
+    "Zixiao Shi",
+    "Reilly P. Lynch",
+    "Ching Chun Peng",
+    "David A. Muller",
+    "Richard D. Robinson"
+   ],
+   "doi": "10.1021/jacs.6c17829",
+   "keywords": [
+    "nanocrystal"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Magneto-Optical Studies on the Orbital Angular Momenta and Spin–Orbit Coupling in the Excited Triplet States of Octahedral Mo6 Clusters: Magnetic Circular Dichroism and Magnetic Circularly Polarized Luminescence",
+   "link": "https://doi.org/10.1021/jacs.6c12735",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2026-11-11",
+   "abstract": "Abstract The magneto-optical properties─magnetic circular dichroism (MCD) and magnetic circularly polarized luminescence (MCPL)─of octahedral hexanuclear [Mo6I8Y6]2– clusters (1, 2, and 3, possessing OPOPh2, N3, and CF3COO as the terminal Y ligands, respectively) were studied. In their MCD spectra, negative Faraday A terms corresponding to the S0 → Sn transitions were observed at ∼400 nm, reflecting the orbital angular momentum (OAM) and high symmetry of the molecular orbitals (MOs). In their highly concentrated solutions, positive Faraday A terms corresponding to the spin-forbidden S0 → Tn transitions were observed at ∼600 nm due to large spin–orbit coupling (SOC). To the best of our knowledge, this is the first direct observation of the spin-forbidden S0 → Tn transition in metal clusters by MCD. In their MCPL spectra, negative, strong phosphorescent MCPL signals (g ≈ 1.0 × 10–2 at 1.6 T) were observed at ∼690 nm, indicating that these Mo clusters are promising candidates for novel CPL materials. Time-dependent density functional theory (TD-DFT) calculations performed for the model cluster [Mo6I8Cl6]2– could reproduce UV–vis absorption and MCD spectroscopic properties. Especially, the MCD signals were evaluated by analyzing the SOC and the Zeeman effects of the OAM and spin angular momentum in the excited triplet state. TD-DFT gradient calculations indicated the geometrical distortion and stabilization of the lowest excited triplet [Mo6I8Cl6]2– and the destabilization of its Franck–Condon ground state, which explain the large red shift of phosphorescence. These results open new possibilities for understanding and functionalizing metal clusters.",
+   "authors": [
+    "Hirohisa Yanagikawa",
+    "Toranosuke Tomikawa",
+    "Yuichi Kitagawa",
+    "Yasuchika Hasegawa",
+    "Kaplan Kirakci",
+    "Kamil Lang",
+    "Kazuyuki Ishii"
+   ],
+   "doi": "10.1021/jacs.6c12735",
+   "keywords": [
+    "circularly polarized",
+    "circularly polarized luminescence"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Constructing Oriented (110) Facet of Perovskite and Directionally Anchoring Y-Type Template Molecules for Organic–Perovskite Integrated Solar Cells",
+   "link": "https://doi.org/10.1039/d6ee06999a",
+   "journal": "Energy & Environmental Science",
+   "publisher": "RSC",
+   "date": "2026-11-11",
+   "abstract": "Interfacial charge accumulation, driven by energy misalignment and imbalanced transport, fundamentally limits the performance of organic-perovskite heterojunction solar cells (HSCs). In this work, we report a unified crystallographic and molecular...",
+   "authors": [
+    "Ben Fan",
+    "Qizhi Jiang",
+    "Yaoqi Huang",
+    "Runqi Zhang",
+    "Xinxin Xia",
+    "Xiaopeng Xu",
+    "Yihui Wu",
+    "Qiang Peng"
+   ],
+   "doi": "10.1039/d6ee06999a",
+   "keywords": [
+    "perovskite",
+    "solar cell"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Incorporating B–S Bonds Into Multi‐Resonance Frameworks for Narrowband Emitters With Fast Reverse Intersystem Crossing and Facile Synthesis",
+   "link": "https://doi.org/10.1002/anie.9776772",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2026-11-11",
+   "abstract": "ABSTRACT Boron/nitrogen‑embedded multi‑resonance thermally activated delayed fluorescence (MR‑TADF) emitters are highly attractive for developing wide‑color‑gamut and low‑power‑consumption organic light‑emitting diode (OLED) displays. However, their development and application face challenges of slow reverse intersystem crossing (RISC) and significant synthetic difficulties that arise from the borylation reaction. In this study, we introduce the incorporation of B–S bonds into the MR framework as a strategic design concept, achieved by designing molecules (O2S2‐B3N and MesO2S2‐B3N) that contain both B–S and B–O bonds within the same core. The introduction of B–S bonds promotes enhanced spin–orbit coupling relative to the control compound with only B–O bonds, enabling substantially faster RISC with rate constants exceeding 2.6 × 10 5 s −1 , while also facilitating streamlined borylation with yields reaching 85%. The B–S incorporation preserves narrowband emission, yielding full widths at half maximum (FWHMs) of 22–23 nm. In a non‑sensitized electroluminescent device, MesO2S2‐B3N retains a narrow emission profile (FWHM: 26 nm) and achieves a high external quantum efficiency of 30.2% with substantially improved efficiency roll‑off characteristics compared to the control compound. This B–S incorporation strategy provides a unified solution to both the slow RISC kinetics and the challenging synthesis in MR‑TADF materials, establishing a new route to high‑performance, readily accessible emitters.",
+   "authors": [
+    "Yashu Wang",
+    "Xing Wang",
+    "Yanan Cui",
+    "Ziping Chi",
+    "Xingyuan Song",
+    "Zuolun Zhang"
+   ],
+   "doi": "10.1002/anie.9776772",
+   "keywords": [
+    "electroluminescent",
+    "light-emitting diode"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Chemically Anchored Rebar Perovskites for Deterministic Layer‐by‐Layer Integration",
+   "link": "https://doi.org/10.1002/anie.1677300",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2026-11-11",
+   "abstract": "ABSTRACT The large‐area deterministic integration of distinct halide perovskites into designed heterostructures is essential for advanced optoelectronics, but remains challenging due to solvent incompatibility, lattice mismatch, interfacial instability, and mechanical fragility. Here, we report a scaffold‐guided, layer‐by‐layer integration strategy that overcomes these limitations through a synergistic mechanical‐reinforcement and chemical‐coordination paradigm. Using a porous electrospun polyacrylonitrile nanofiber network as an active, coordinating macromolecular scaffold, we fabricate freestanding, large‐area rebar perovskite films with high perovskite content (>99 wt%), thickness tunability across orders of magnitude (sub‐µm to mm), and exceptional mechanical robustness. Beyond its physical role as a support matrix for perovskite deposition, the nanofibrous scaffold functions as an active interface‐coordinating regulator, which passivates interfacial defects, suppresses non‐radiative recombination, and directs crystallization. This platform enables the deterministic layer‐by‐layer integration of various perovskites into sharp‐interfaced two‐dimensional (2D)/ three‐dimensional (3D) heterostructures and complex 3D architectures with programmable composition and geometry. As a functional demonstration, a 2D/3D (PEA) 2 PbI 4 /MAPbI 3 rebar perovskite heterostructure achieves high‐sensitivity x‐ray detection with ultralow dark‐current drift and a self‐powered detection limit surpassing medical standard.",
+   "authors": [
+    "Jie Meng",
+    "Qin Xiong",
+    "Wenbo Ma",
+    "Lijun Chai",
+    "Ming Xia",
+    "Sisi Wang",
+    "Xin Sheng",
+    "Hongzhi Shen",
+    "Zhihao Gong",
+    "Changle Mu",
+    "Lingyu Xiao",
+    "Zhongpu Wang",
+    "Yiling Zhang",
+    "Mengchen Li",
+    "Rui Wang",
+    "Yunfan Guo",
+    "Yang (Michael) Yang",
+    "Enzheng Shi"
+   ],
+   "doi": "10.1002/anie.1677300",
+   "keywords": [
+    "halide perovskite",
+    "non-radiative recombination",
+    "perovskite",
+    "radiative recombination",
+    "x-ray detection"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "In Situ Topological Dealloying Enables Atomically Coupled Metal‐Oxide Heterostructures",
+   "link": "https://doi.org/10.1002/adma.75678",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-11-11",
+   "abstract": "ABSTRACT Metal‐oxide heterostructures are central to energy conversion and electronic devices because interfaces can modulate the configuration coupling among charge, spin, and orbit. However, conventional synthesis routes suffer from structural incompatibility and weak coupling, which hinder the universal construction of atomically coupled metal‐oxide heterointerfaces. Here, we develop an in situ topological dealloying strategy to construct metal‐oxide heterostructures with atomically interconnected interfaces. This strategy can be broadly applied to perovskite, spinel, columbite, and vanadate oxides, which enables the spontaneous formation of high‐density magnetic nanoalloys embedded within dielectric oxide matrices. Direct nanoscale visualizations of electric and magnetic fields reveal the coexistence of interfacial charge polarization and vortex‐like spin textures. These emergent dielectric and magnetic behaviors arise from atomically interfacial hybridization that mediates strong charge–spin interactions. When integrated into flexible architectures, these heterostructures exhibit broadband GHz‐frequency absorption (effective absorption bandwidth up to 6.6 GHz at 3.0 mm), high efficiency, and rapid electromagnetic‐to‐thermal energy conversion under microwave irradiation. This work establishes a general route to engineer metal‐oxide heterostructures for functional applications.",
+   "authors": [
+    "Xuhui Xiong",
+    "Xinsong Xu",
+    "Zhengwang Liu",
+    "Liting Yang",
+    "Ke Pei",
+    "Han‐Wen Cheng",
+    "Renchao Che"
+   ],
+   "doi": "10.1002/adma.75678",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Chiral Metal–Coordination Polymers: Hierarchical Chirality, Synthesis, and Functional Applications",
+   "link": "https://doi.org/10.1002/adfm.79596",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-11-11",
+   "abstract": "ABSTRACT Chiral metal‐coordination polymers (MCPs), which integrate asymmetric molecular environments, tunable coordination architectures, and metal‐centered electronic states, provide a versatile platform for engineering stereochemical, optical, electronic, and spin‐dependent properties. This Review provides a hierarchical perspective on the design and functionality of chiral MCPs. We first examine the manifestation of chirality across molecular, extended coordination‐structural, and mesoscopic length scales, highlighting how local stereochemical information is encoded, propagated, or collectively generated within extended architectures and subsequently expressed through hierarchical structural organization. We then survey four principal strategies for constructing chiral MCPs: direct assembly from chiral precursors, chiral induction from achiral components, spontaneous resolution of achiral building units, and post‐synthetic modification. We further discuss emerging applications in enantioselective catalysis, chiral recognition, chiral‐induced spin selectivity (CISS), and circularly polarized luminescence (CPL), with emphasis on how structural chirality governs functional performance. Finally, we identify key challenges and opportunities in establishing mechanism‐resolved structure–function relationships, enabling predictive materials design, integrating multiple chirality‐dependent functions, and translating chiral MCPs into device‐compatible architectures. This Review establishes a conceptual framework for understanding and engineering chirality across multiple length scales, and aims to guide the rational development of next‐generation multifunctional chiral MCPs.",
+   "authors": [
+    "Xin Huang",
+    "Jingjing Wei",
+    "Zhijie Yang"
+   ],
+   "doi": "10.1002/adfm.79596",
+   "keywords": [
+    "circularly polarized",
+    "circularly polarized luminescence"
+   ],
+   "type": "review",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Molecular Tuning of Hole‐Selective Interfaces via Phosphonic Acid‐Functionalized Conjugated Polymers for Infrared Photodetectors",
+   "link": "https://doi.org/10.1002/adfm.79615",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-11-11",
+   "abstract": "ABSTRACT Conjugated polymers (CPs) are promising candidates for hole‐transporting layers (HTLs) in next‐generation optoelectronics. However, conventional CP‐based HTLs incorporating alkyl side chains suffer from insufficient interfacial interactions, leading to increased interfacial charge recombination. Here, we report the covalent incorporation of phosphonic groups into a CP‐based HTL through copolymerization with a phosphonate ester monomer, followed by post‐hydrolysis. In organic photodetectors (λ = 808 nm, near‐infrared) and lead sulfide colloidal quantum dot photodetectors (λ = 1550 nm, short‐wave infrared), the optimized devices achieved calculated specific detectivities ( D * white ) of 1.15 × 10 13 and 7.72 × 10 12 cm Hz 0.5 W −1 , respectively, with experimental specific detectivities ( D * exp ) of 1.71 × 10 12 and 1.91 × 10 11 cm Hz 0.5 W −1 . These values are orders of magnitude higher than those of control devices. Structural analysis revealed that the phosphonate ester functionality hindered the formation of face‐on stacking in the CP films, whereas this effect was minimized in the phosphonic acid–functionalized CP. Importantly, the phosphonic acid groups facilitated interlayer interactions through P─OH bonding and intermolecular O─H⋯π and O─H⋯S interactions with the conjugated backbone, enabling enhanced hole extraction and transport from the photoactive layer to the anode.",
+   "authors": [
+    "Ji Hyeon Lee",
+    "Byeong‐Chan Kim",
+    "Eun Soo Shim",
+    "Jong Chan Byun",
+    "Sung Been Seo",
+    "Hyungju Ahn",
+    "Seunghwan Bae",
+    "Se‐Woong Baek",
+    "Jea Woong Jo"
+   ],
+   "doi": "10.1002/adfm.79615",
+   "keywords": [
+    "photodetector",
+    "quantum dot"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Design and Fabrication of Ag Nanoparticles and Plasma Hybrid Polymer Thin Films for the New LSPR Sensor Application",
+   "link": "https://doi.org/10.1002/adfm.79580",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-11-11",
+   "abstract": "ABSTRACT Enabling detection of target molecules at low concentration is a key feature in localized surface plasmon resonance (LSPR) biosensors, which utilizes the remarkable optical properties of gold based metal nanoparticles (NPs). For a schematic studies, we here propose and demonstrate an approach on a low‐cost Ag‐based LSPR platform that combines a nanostructured Ag layer formed from spin‐coated Ag ink and a plasma‐polymer dielectric overlayer (Me‐cyclohexane or Me‐cyclohexane+TEOS) deposited by plasma‐enhanced chemical vapor deposition (PECVD) on glass (or flexible polymer) substrates with different thickness layer and particle size. Rather than assuming ideal, monodisperse nanoparticles, the Ag layer is treated as an island/clustered nanostructure whose thickness (32 vs 50 nm) and surface roughness govern the optical response. Using p‐polarized readout, we observe a steeper concentration‐dependent intensity change for the 50 nm Ag nanostructure compared with the 32 nm sample when probing aqueous thioglycolic acid (TGA) and representative organic dyes. In addition, a theoretical calculation utilizing our experimental data carry out for making up some weakpoint especially on refractive index sensitivity (RIS) and figure of merit.",
+   "authors": [
+    "Hyun‐Jin Seo",
+    "Julian Haas",
+    "Andreas Hartmann",
+    "Boris Mizaikoff",
+    "Jin‐Hyo Boo"
+   ],
+   "doi": "10.1002/adfm.79580",
+   "keywords": [
+    "biosensor"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
   {
    "title": "Non-local Molecular Engineering Modulates Aluminum-Induced Crystallization toward Transferable Polycrystalline Silicon",
    "link": "https://doi.org/10.1021/acsami.6c18763",
@@ -22,7 +629,7 @@
     "flexible electronic"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Alleviating Passivating Molecule Self‐Aggregation and Interfacial Non‐Radiative Recombination for High‐Performance Two‐Dimensional Metal Halide Solar Cells",
@@ -47,7 +654,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Cu‐N 4 Single‐Atom Nanozyme with Multi‐Enzyme Mimetic Activities Combined with In 2 O 3 /Bi 24 O 31 Br 10 Heterojunction: Toward Sensitive Triple‐Mode Detection and Photocatalytic Inactivation of Vibrio Alginolyticus",
@@ -73,7 +680,7 @@
     "photoelectrochemical"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Reconfigurable Bulk Photovoltaics via Strain‐Gradient‐Induced Polar Reconstruction in a van der Waals Antiferroelectric",
@@ -101,7 +708,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Author Correction: Heat treatment in an oxygen-rich environment to suppress deep-level traps in Cu2ZnSnS4 solar cell with 11.51% certified efficiency",
@@ -126,9 +733,29 @@
    "keywords": [
     "solar cell"
    ],
+   "type": "comment",
+   "ab_tried": 2,
+   "oa_type": "erratum"
+  },
+  {
+   "title": "Pico-X: a 24.9 nanowatt microcontroller for long-duration autonomous operation in flexible landing-pad sensor networks",
+   "link": "https://www.nature.com/articles/s41467-026-79332-9",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-11-10",
+   "abstract": "Abstract The flexible landing-pad arrays in low-altitude infrastructure are embodied by ordinary items, which desirably include sensors, actuators, displays and electronic interface devices in combination with silicon-based digital signal processing and communication technologies. However, autonomous operation in the flexible landing-pad sensor networks is partly hampered due to a lack of ultra-low power level MCU system, which should be responsible for intense communication and precise control among the embodied ordinary items in the landing-pad, as well as communications among the hundreds to thousands pads in the array. At the same time, the battery recharging time is expected to be year-scale. Here, we report Pico-X, ultra-low-power specific-designed processor, which is targeted as a local computer core for flexible sensor arrays on vertiport and landing-pad surfaces. Pico-X adopts specific event-driven operation model of local sampling and decision with exception-only reporting, combined with a power-management strategy employing light forward body bias (FBB) during active operation and zero body bias (ZBB) in sleep mode. The chip is implemented based on 28-nm FDSOI technology. Measurement results demonstrate a minimum power consumption of 24.9 nW at 25 kHz, @VDD = 0.4 V, while maintaining a compact 6.1-k-gate footprint. Pico-X thus provides a programmable and scalable nanowatt-class edge intelligence platform for flexible landing-pad arrays in low-altitude infrastructure.",
+   "authors": [
+    "Yuyang Xiong",
+    "Xinlong Mao",
+    "Yanfeng Jiang"
+   ],
+   "doi": "10.1038/s41467-026-79332-9",
+   "keywords": [
+    "flexible sensor",
+    "sensor array"
+   ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Programming golden triple helices",
@@ -146,7 +773,7 @@
     "circularly polarized luminescence"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "other"
   },
   {
    "title": "Efficient Long-Wavelength Through-Space Charge-Transfer Thermally Activated Delayed Fluorescence in Conformationally Adaptive Emitters without Conformational Locking",
@@ -175,7 +802,7 @@
     "photoluminescence"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Dynamic Acidic Adsorbates Govern Fast Oxygen Incorporation in Ceria through Interfacial Electrostatics",
@@ -199,7 +826,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Unlocking Intrinsic Chirality in Luminescent Copper Clusters via Intramolecular Spatial Confinement",
@@ -223,7 +850,7 @@
     "x-ray imaging"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Sensitive, Broadband, and Stable Short‐Wave Infrared Photodetection and Imaging in Mixed‐Dimensional Organic/Inorganic Heterostructures",
@@ -254,7 +881,7 @@
     "photodetector"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Preserving Polymorphic Crystalline Structures in Bulk Heterojunctions for Efficient Organic Solar Cells",
@@ -280,7 +907,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Fluoride‐Mediated Host‐Activator Engineering in Homogeneous Lithium Glass Scintillators for Thermal‐Neutron Detection and Imaging",
@@ -313,7 +940,7 @@
     "scintillator"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Liquid Luminescent Materials Based on 10 H ‐Pyrido[1,2‐ a ]‐5‐indolium Salts",
@@ -341,7 +968,7 @@
     "plqy"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Intrinsically Stretchable Fully π‐Conjugated Polymer Films Enabled by Supramolecular Plasticized Micro‐Crosslinking‐Network for Flexible Polymer Light‐Emitting Diodes",
@@ -377,7 +1004,7 @@
     "light-emitting diode"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Determining Composition–Structure–Property Relationships in Quaternary Perovskitoids Through Megalibraries",
@@ -403,7 +1030,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Polarization‐Sensitive Photodetectors Based on Biaxially Grown Two‐Dimensional Organic Charge‐Transfer Cocrystals",
@@ -428,7 +1055,7 @@
     "photodetector"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Wavelength‐Tailored Distributed Bragg Reflector Capping Layers for Highly Efficient and Color‐Pure RGB TEOLEDs",
@@ -456,7 +1083,7 @@
     "light-emitting diode"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Molecular Conformational Matching Enables Robust Buried Interfaces in Efficient and Temperature‐Cycling‐Resilient Inverted Perovskite Solar Cells",
@@ -486,7 +1113,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Photodetectors Based on Two‐Dimensional Materials: From Sensory Health Monitoring to Cognitive Neuromorphic Computing",
@@ -508,7 +1135,7 @@
     "photodetector"
    ],
    "type": "review",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Reconfigurable Neuromorphic Logic Circuits Driven by Ion‐Mediated Organic Electrochemical Diodes",
@@ -531,7 +1158,7 @@
     "neuromorphic"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Trap‐Mediated Photonic Synapses Based on Cs 2 AgBiBr 6 /ZnO x Heterojunctions for Audiovisual Physical Reservoir Computing",
@@ -555,7 +1182,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Crack–Defect Landscapes Enable Multimodal Memristive Switching in WS 2 Mono‐Bilayers",
@@ -582,7 +1209,7 @@
     "resistive switching"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Asymmetric π‐Extended B/N MR‐TADF Emitters Enabling Deep‐Blue OLEDs with Suppressed Efficiency Roll‐Off, Anti‐Quenching and High Horizontal Dipole Orientation",
@@ -608,7 +1235,7 @@
     "plqy"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Correction to “Machine Learning‐Driven Molecule Additives for High‐Performance Perovskite Solar Cells With Bandgap Universality and Scalability”",
@@ -616,16 +1243,15 @@
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-11-10",
-   "abstract": "",
+   "abstract": "H. Wang, B. Zhang, C. Zhang, et al., “Machine Learning-Driven Molecule Additives for High-Performance Perovskite Solar Cells With Bandgap Universality and Scalability,” Advanced Functional Materials 36, no. 12 (2026): e74914, https://doi.org/10.1002/adfm.74914. In the originally published article, Figure 2A–2C and related supplementary figures and Table S2 include machine-learning-related data and analysis results that are also presented in our prior work [8] (Joule, 2026, 10, 102264). Although the complete feature sets used in the two studies were different, both studies used the same feature-selection procedure to the inputs of the six machine-learning models, resulting in the same selected features and shared analytical results. To ensure appropriate attribution, the captions of the affected figures and the Table S2 note should be supplemented with the following statement: “These machine-learning-related data, results, and analyses were also presented in our prior work (Joule, 2026, 10, 102264) [8], as both studies used the same selected model-input data and machine-learning models.” These corrections do not affect the scientific results or main conclusions of the article. The authors apologize for this oversight.",
    "authors": [],
    "doi": "10.1002/adfm.79595",
    "keywords": [
     "perovskite",
     "solar cell"
    ],
-   "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "type": "comment",
+   "oa_type": "erratum"
   },
   {
    "title": "Hydroxyl‐Rich Sodium Gluconate Enables Dense SAM Assembly and Enhances Conductivity in NiO x ‐Based Inverted Perovskite Solar Cells",
@@ -656,7 +1282,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Highly Efficient and Stable Flexible Quantum‐Dot Light‐Emitting Diodes With Excellent Bending Resistance",
@@ -681,7 +1307,24 @@
     "quantum dot"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
+  },
+  {
+   "title": "Dual‐Dipole Synergy Breaks the Polarization‐Breakdown Trade‐Off for Ultrahigh Energy Density Flexible Capacitors (Adv. Funct. Mater. 90/2026)",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.79232?af=R",
+   "journal": "Advanced Functional Materials",
+   "publisher": "Wiley",
+   "date": "2026-11-10",
+   "abstract": "Flexible Capacitors Dual-dipole synergy breaks the polarization-breakdown trade-off in flexible layered perovskite capacitors. Pr doping drives site-selective migration, generating an interlayer dipole that couples with the intralayer dipole. This synergy delivers an ultrahigh energy density of 131.1 J·cm −3 with 70.5% efficiency and robust stability over 10 6 bending cycles, offering a generalizable design paradigm for high-performance dielectric energy storage. More details can be found in the Research Article by Yueshun Zhao and co-workers (DOI: 10.1002/adfm.78265 ).",
+   "authors": [
+    "Jingshun Liu, Wen Guo, Ze Li, Chao Yang, Wenjie Zhang, Yueshun Zhao"
+   ],
+   "doi": "10.1002/adfm.79232",
+   "keywords": [
+    "perovskite"
+   ],
+   "type": "article",
+   "oa_type": "article"
   },
   {
    "title": "Synergistic Surface‐Bulk Induction of Uniform Out‐of‐Plane (100) Orientation for High‐Efficiency Perovskite Solar Cells",
@@ -713,7 +1356,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Characterizing Fill Factor Limitations in Perovskite‐Silicon Tandem Solar Cells",
@@ -740,7 +1383,7 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Mesoscale Chiroptical Order in Achiral Metal-Halide Nanoplatelet Assemblies",
@@ -766,7 +1409,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Rational Selection of Hole Contacts with an Organic Light-Emitting Diode Industry p-Dopant for Fully Vacuum-Processed Perovskite/Silicon Tandems",
@@ -795,7 +1438,7 @@
     "wide bandgap"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Crystalline NiO:N Templating of Uniformly Anchored Self-Assembled Monolayers for Inverted Perovskite Solar Cells",
@@ -849,7 +1492,7 @@
     "field-effect transistor"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Reply to: Comment on “Self-organizing neuromorphic nanowire networks as stochastic dynamical systems”",
@@ -965,7 +1608,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -993,7 +1636,7 @@
     "quantum dot"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Enhanced Ferroelectric Performance of P(VDF-TrFE) Composites via MAPbI3-Mediated Crystallization for Flexible Memory Applications",
@@ -2027,7 +2670,7 @@
     "memristor"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -3192,12 +3835,12 @@
    "oa_type": "article"
   },
   {
-   "title": "Tailoring Aggregation Pathways to Narrow Excited-State Energetic Disorder in Ternary Organic Solar Cells",
+   "title": "Tailoring aggregation pathways to narrow excited-state energetic disorder in ternary organic solar cells",
    "link": "https://doi.org/10.1039/d6ee06636d",
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2026-11-05",
-   "abstract": "Extensive efforts in novel acceptor synthesis, alloying component selection, and energy-level alignment have optimized static bulk morphologies for ternary organic solar cells exceeding 21% efficiency. However, the dynamic acceptor aggregation...",
+   "abstract": "Introducing homologous acceptors into PM6:L8-BO tailors aggregation kinetics during film formation, extending the crystal-growth window to ∼100 ms and reducing excited-state energetic disorder, enabling ternary devices to achieve efficiencies >20%.",
    "authors": [
     "Anhai Liang",
     "Jiancheng Zhong",
@@ -3205,8 +3848,8 @@
     "Lixing Tan",
     "Wuning Wei",
     "Zhenmin Zhao",
-    "Hongxiang Li",
     "Guangye Zhang",
+    "Hongxiang Li",
     "Yongjoon Cho",
     "Kilwon Cho",
     "Zhipeng Kan"
@@ -26550,8 +27193,8 @@
    "oa_type": "article"
   },
   {
-   "title": "Boosting Photoelectrochemical Water Oxidation of BiVO 4 Photoanodes With an Iron‐Based Metal–Organic Framework as a Hole Transport Layer",
-   "link": "https://doi.org/10.1002/anie.4897216",
+   "title": "Boosting Photoelectrochemical Water Oxidation of BiVO4 Photoanodes With an Iron‐Based Metal–Organic Framework as a Hole Transport Layer",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.4897216?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-30",
@@ -26575,7 +27218,7 @@
   },
   {
    "title": "Solar‐Powered Redox Adsorption Method for Round‐the‐Clock Direct Lithium Extraction from Low‐Grade Brines",
-   "link": "https://doi.org/10.1002/anie.9127049",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.9127049?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-30",
@@ -26602,7 +27245,7 @@
   },
   {
    "title": "Mechanically Planar Chiral [2]Rotaxanes for Multistate Circularly Polarized Luminescence Switching",
-   "link": "https://doi.org/10.1002/anie.5185321",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.5185321?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-30",
@@ -26627,7 +27270,7 @@
   },
   {
    "title": "Chiroptical Switching by Stereoselective Photochemical Sigmatropic Rearrangements: Experimental Realization of Calderoselectivity",
-   "link": "https://doi.org/10.1002/anie.9477381",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.9477381?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-30",
@@ -26872,8 +27515,8 @@
    "oa_type": "article"
   },
   {
-   "title": "Interface and Strain Control of Emergent Weyl Semimetallic Phase in SrNbO 3 /LaFeO 3 Heterostructures",
-   "link": "https://doi.org/10.1002/adfm.78127",
+   "title": "Interface and Strain Control of Emergent Weyl Semimetallic Phase in SrNbO3/LaFeO3 Heterostructures",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78127?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-30",
@@ -26952,7 +27595,7 @@
   },
   {
    "title": "Polarization‐Driven Optoelectronic Synapse With Programmable Plasticity for Neuromorphic Visual System",
-   "link": "https://doi.org/10.1002/adfm.78812",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78812?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-30",
@@ -27903,7 +28546,7 @@
   },
   {
    "title": "A 3D Cycloparaphenylene‐Cored Trimeric Electron Acceptor Regulates Acceptor Fibril Morphology for 20.6%‐Efficient Ternary Organic Solar Cells",
-   "link": "https://doi.org/10.1002/anie.8288920",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.8288920?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-29",
@@ -27962,7 +28605,7 @@
   },
   {
    "title": "Dynamically Constructing Lanthanum Oxide on Ruthenium to Enhance Lithium‐Oxygen Interfacial Reactions",
-   "link": "https://doi.org/10.1002/anie.1656625",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.1656625?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-29",
@@ -28145,7 +28788,7 @@
   },
   {
    "title": "A High‐Performance Dibenzothiophene‐Terminated Self‐Assembled Hole Transport Monolayer for Perovskite Solar Cells",
-   "link": "https://doi.org/10.1002/adfm.78775",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78775?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-29",
@@ -28177,7 +28820,7 @@
   },
   {
    "title": "Low‐Melting and Configuration‐Tunable Copper Halide Scintillators via Steric Hindrance Optimization for Large‐Area Single‐Crystal X‐Ray Imaging",
-   "link": "https://doi.org/10.1002/adfm.78786",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78786?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-29",
@@ -28202,8 +28845,8 @@
    "oa_type": "article"
   },
   {
-   "title": "Light Polarization Sensitive Transistor Action in the van der Waals Ferroelectric 4H‐SnS 2",
-   "link": "https://doi.org/10.1002/adfm.78293",
+   "title": "Light Polarization Sensitive Transistor Action in the van der Waals Ferroelectric 4H‐SnS2",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78293?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-29",
@@ -28256,7 +28899,7 @@
   },
   {
    "title": "Halide Composition Controls Phase Morphology and Device Specific Performance in Perovskite Photovoltaics and Light Emitting Diodes",
-   "link": "https://doi.org/10.1002/adfm.78740",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78740?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-29",
@@ -28284,8 +28927,8 @@
    "oa_type": "article"
   },
   {
-   "title": "Phase‐Purified and Highly Textured 2D Perovskite ( n = 5) Photodetectors Grown via a Temperature‐Gradient‐Free Thermal‐Pressing‐Casting Strategy for Broadband Response and Weak‐Light Imaging",
-   "link": "https://doi.org/10.1002/adfm.78797",
+   "title": "Phase‐Purified and Highly Textured 2D Perovskite (n = 5) Photodetectors Grown via a Temperature‐Gradient‐Free Thermal‐Pressing‐Casting Strategy for Broadband Response and Weak‐Light Imaging",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78797?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-29",
@@ -28333,7 +28976,7 @@
   },
   {
    "title": "Multiscale Confinement and Facile Hierarchical Assembly Enable Full‐Color Circularly Polarized Room‐Temperature Phosphorescent Fibers",
-   "link": "https://doi.org/10.1002/adfm.78823",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78823?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-29",
@@ -28355,7 +28998,7 @@
   },
   {
    "title": "Bias‐Free Tactile Synaptic Ionogel With Viscoelastic Memory for Biomechanical Monitoring",
-   "link": "https://doi.org/10.1002/adfm.78811",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78811?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-29",
@@ -28383,8 +29026,8 @@
    "oa_type": "article"
   },
   {
-   "title": "Surface Oxidation Induced Ferroelectricity and Memristor Like Conductance in Bulk T d ‐WTe 2",
-   "link": "https://doi.org/10.1002/adfm.78617",
+   "title": "Surface Oxidation Induced Ferroelectricity and Memristor Like Conductance in Bulk Td‐WTe2",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78617?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-29",
@@ -28412,8 +29055,8 @@
    "oa_type": "article"
   },
   {
-   "title": "Pressure‐Induced Topochemical Reconstruction for Quenchable Metastable ZnIn 2 S 4 With Enhanced Photoelectric Effect for Artificial Synapses Application",
-   "link": "https://doi.org/10.1002/adfm.78755",
+   "title": "Pressure‐Induced Topochemical Reconstruction for Quenchable Metastable ZnIn2S4 With Enhanced Photoelectric Effect for Artificial Synapses Application",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78755?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-29",
@@ -28833,7 +29476,7 @@
   },
   {
    "title": "Metal‐Free One‐Pot Access to Benzofuran Building Blocks Toward Efficient Narrowband Blue–Cyan Emitters",
-   "link": "https://doi.org/10.1002/anie.2320378",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.2320378?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-28",
@@ -28926,8 +29569,8 @@
    "oa_type": "article"
   },
   {
-   "title": "Fully Reduced Core–Shell Organotin‐Polyoxometalate {Sn 12 Mo 19 }: A Synergistic Modulation Material for the Buried Interface of Inverted Perovskite Solar Cells",
-   "link": "https://doi.org/10.1002/anie.1019904",
+   "title": "Fully Reduced Core–Shell Organotin‐Polyoxometalate {Sn12Mo19}: A Synergistic Modulation Material for the Buried Interface of Inverted Perovskite Solar Cells",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.1019904?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-28",
@@ -29078,7 +29721,7 @@
   },
   {
    "title": "Dynamically Reconfigurable Ir(III) Complex‐Based Co‐Assemblies for Sequential Energy Transfer and Programmable Luminescence",
-   "link": "https://doi.org/10.1002/anie.8728174",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.8728174?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-28",
@@ -29245,8 +29888,8 @@
    "oa_type": "article"
   },
   {
-   "title": "Liquid‐Metal‐Printed Ga 2 O 3 Weaves a Spherical Self‐Driven Meta‐Array With Panoramic Solar‐Blind Polarization Compass Function",
-   "link": "https://doi.org/10.1002/adfm.78764",
+   "title": "Liquid‐Metal‐Printed Ga2O3 Weaves a Spherical Self‐Driven Meta‐Array With Panoramic Solar‐Blind Polarization Compass Function",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78764?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-28",
@@ -29268,7 +29911,7 @@
   },
   {
    "title": "Device–System Co‐Design of a Memristor‐Based 3D Convolutional Spiking Neural Network for Dynamic Vision Processing",
-   "link": "https://doi.org/10.1002/adfm.78728",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78728?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-28",
@@ -29292,7 +29935,7 @@
   },
   {
    "title": "A Dragon‐Fruit‐Like Nanoplatform Containing Polydopamine‐Wrapped Selenium Quantum Dots Boosts Synergistic Chemo‐Photothermal Therapy for Triple‐Negative Breast Cancer",
-   "link": "https://doi.org/10.1002/adfm.78713",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78713?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-28",
@@ -29316,7 +29959,7 @@
   },
   {
    "title": "Crystalline‐Amorphous Heterointerfaces Enable Elastic Peracetic Acid Activation for Resilient Remediation of Hypersaline Wastewater",
-   "link": "https://doi.org/10.1002/adfm.78746",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78746?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-28",
@@ -29342,7 +29985,7 @@
   },
   {
    "title": "Reconstructive Polarimetry With Scalable Graphene–Metal Infrared Photodetectors",
-   "link": "https://doi.org/10.1002/adfm.78696",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78696?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-28",
@@ -29401,7 +30044,7 @@
   },
   {
    "title": "Bioinspired Ultralow‐Power Flexible Electro‐Optically Configurable Synaptic Transistors: An Integrated Perception‐Processing‐Tracking Visual Chain",
-   "link": "https://doi.org/10.1002/adfm.78732",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78732?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-28",
@@ -29968,7 +30611,7 @@
   },
   {
    "title": "Catalytic Enantioselective Remote Transannular Desymmetrization of Calix[4]Arenes to Inherently Chiral Double‐Macrocycles",
-   "link": "https://doi.org/10.1002/anie.7110885",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.7110885?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-27",
@@ -31830,7 +32473,7 @@
   },
   {
    "title": "Regulating Surface Electron Dynamics Enables Selective C─N Coupling in Photoelectrochemical Oxime Synthesis",
-   "link": "https://doi.org/10.1002/anie.8769472",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.8769472?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-24",
@@ -31858,7 +32501,7 @@
   },
   {
    "title": "Spiro‐Linked Bisphosphonate Self‐Assembled Monolayers for Efficient and Stable Perovskite Solar Cells",
-   "link": "https://doi.org/10.1002/anie.3377029",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.3377029?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-24",
@@ -31888,7 +32531,7 @@
   },
   {
    "title": "Working Mechanism of Chlorine‐Containing Electrolyte in Conversion‐Type Cathode Materials for Rechargeable Magnesium‐Ion Batteries",
-   "link": "https://doi.org/10.1002/anie.2509086",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.2509086?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-24",
@@ -33085,7 +33728,7 @@
   },
   {
    "title": "Fluoroalcohol‐Mediated Solvation for Self‐Assembled Molecules Anchoring Optimization Toward High‐Performance Organic Solar Cells and Flexible Module",
-   "link": "https://doi.org/10.1002/anie.4528541",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.4528541?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-23",
@@ -33166,8 +33809,8 @@
    "oa_type": "article"
   },
   {
-   "title": "Extending El Sayed's Rule by 1 (n,π*)– 3 (n,π*) Rotation via Intramolecular Secondary Interaction Enables Room‐Temperature Circularly Polarized Phosphorescence in Solution",
-   "link": "https://doi.org/10.1002/anie.8360226",
+   "title": "Extending El Sayed's Rule by 1(n,π*)–3(n,π*) Rotation via Intramolecular Secondary Interaction Enables Room‐Temperature Circularly Polarized Phosphorescence in Solution",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.8360226?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-23",
@@ -45969,7 +46612,7 @@
   },
   {
    "title": "Dual‐Dipole Synergy Breaks the Polarization‐Breakdown Trade‐Off for Ultrahigh Energy Density Flexible Capacitors",
-   "link": "https://doi.org/10.1002/adfm.78265",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.78265?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-09-08",
@@ -51645,7 +52288,7 @@
   },
   {
    "title": "Space‐Confined Water Isotope Transport in Conductive MOF Thin Film",
-   "link": "https://doi.org/10.1002/anie.7017206",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.7017206?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-09-01",
@@ -58422,7 +59065,7 @@
   },
   {
    "title": "High‐Entropy Perovskites for Oxygen Evolution Reaction: Progress, Challenges, and Prospects",
-   "link": "https://doi.org/10.1002/adfm.77623",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.77623?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-08-24",
@@ -67682,7 +68325,7 @@
   },
   {
    "title": "Gold Clusters With Open‐Shell Ligands: Superatom Mediated Magnetic Interaction",
-   "link": "https://doi.org/10.1002/anie.3543072",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/anie.3543072?af=R",
    "journal": "Angewandte Chemie Int. Ed.",
    "publisher": "Wiley",
    "date": "2026-08-12",
