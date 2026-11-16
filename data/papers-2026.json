@@ -1,8 +1,70 @@
 {
  "year": "2026",
- "count": 7809,
- "generated": "2026-11-15 01:40 UTC",
+ "count": 7813,
+ "generated": "2026-11-16 01:44 UTC",
  "papers": [
+  {
+   "title": "Directly visualizing the energy level structure of quantum dot molecules",
+   "link": "https://doi.org/10.1038/s41467-026-79672-6",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-11-15",
+   "abstract": "Abstract The orbital, spin and valley degrees of freedom in silicon quantum dots (QDs) support many modes of spin qubit operation. However, it is generally challenging to probe the energy level spectrum over a large parameter space. We demonstrate a spectroscopic technique capable of mapping the energy level structure of a double quantum dot as a function of level detuning, interdot tunnel coupling, and magnetic field. In the one-electron regime, we directly observe the transition from the atom-like energy levels of isolated QDs to molecular-like bonding and anti-bonding states with increasing interdot tunnel coupling. We also resolve the Zeeman splitting of ground and excited valley states in a magnetic field. In the two-electron regime, we gain access to the detuning dependent singlet-triplet splitting. Our work may be extended to a broader class of systems, such as strong spin-orbit materials or proximitized QDs, allowing the direct extraction of various energy gaps.",
+   "authors": [
+    "Heun Mo Yoo",
+    "Tanner M. Janda",
+    "Connor Nasseraddin",
+    "Jason R. Petta"
+   ],
+   "doi": "10.1038/s41467-026-79672-6",
+   "keywords": [
+    "quantum dot"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Colloidally Prepared Homogeneous Wide-Bandgap Perovskites for Efficient Tandem Solar Cells with Industrial Silicon",
+   "link": "https://doi.org/10.1021/jacs.6c10873",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2026-11-15",
+   "abstract": "Abstract Wide-bandgap (WBG) perovskites, based on mixed halide-cation compositions, are widely employed as top cells in perovskite/silicon tandem solar cells to overcome the theoretical limitations of single-junction devices and exploit the full potential of crystalline silicon photovoltaics. However, uncontrolled nucleation rates and disordered crystallization kinetics in WBG perovskites pose a grave challenge to the preparation of phase-homogeneous perovskite films. Herein, we identify the undesirable precursor suspension as the main underlying reason for the compositional inhomogeneity and propose a colloidal engineering strategy to reconstruct the perovskite intermediate complex. According to classical colloidal theory and theoretical calculations, long-chain alkylphosphonic acid molecules are selected to precisely regulate colloidal structures and properties via their specific coordination strengths, leading to colloid-guided rapid nucleation and slow crystallization processes. Assisted by the uniform colloidal nucleation template, the prepared WBG perovskite films with compositional homogenization and reduced trap density enable tandem devices based on industrial silicon heterojunction cells to yield a champion power conversion efficiency of 34.01% (a certified reverse-scan PCE of 33.65%) for a 1 cm2 active area. The resultant encapsulated tandem device maintains 93% and 88% of its initial efficiency after 1211 h and 1000 h of one-sun operation at 25 and 65 °C, respectively, under their maximum power points.",
+   "authors": [
+    "Wentao Liu",
+    "Shaofei Yang",
+    "Long Jiang",
+    "Minglong Liu",
+    "Zhiliang Liu",
+    "Jun Fang",
+    "Lianzheng Hao",
+    "Lei Wang",
+    "Zhijun Xiong",
+    "Yuanbo Yang",
+    "Francis R. Lin",
+    "Changxin Tang",
+    "Cao Yu",
+    "Longbin Qiu",
+    "Songhua Cai",
+    "Yang Bai",
+    "Hong Zhang",
+    "Alex K.-Y. Jen",
+    "Kai Yao",
+    "Yiwang Chen"
+   ],
+   "doi": "10.1021/jacs.6c10873",
+   "keywords": [
+    "perovskite",
+    "photovoltaic",
+    "single-junction",
+    "solar cell",
+    "tandem",
+    "trap density",
+    "wide bandgap"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
   {
    "title": "A Photo‐Charging Time Regulation Strategy for Enhancing the Solar‐to‐Electrochemical Energy Efficiency of Photo‐Rechargeable Devices",
    "link": "https://doi.org/10.1002/smll.76755",
@@ -29,7 +91,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Secondary Nucleation‐Driven Evolution of Circularly Polarized Luminescent Nucleobase‐Decorated Tubular Nanobrooms in Aqueous Media",
@@ -54,7 +116,7 @@
     "circularly polarized"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Bicyclic 3‐Methyladenine‐Mediated Multifunctional Passivation for High‐Performance Flexible Perovskite Photovoltaics",
@@ -83,7 +145,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Dual‐Mode MoS 2 /PdSe 2 /WS 2 Van Der Waals Heterostructure for Self‐Powered Polarization Sensing and Neuromorphic Processing",
@@ -106,7 +168,7 @@
     "neuromorphic"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Gluconic Acid Ligand Enables Rapid Chemical Bath Deposition of SnO 2 for High‐Efficiency Perovskite Solar Cells",
@@ -133,7 +195,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Benzodithiophene‐Based Bolaamphiphiles With Highly Coordinated Cubic Network Structures for Efficient and Stable Perovskite Solar Cells",
@@ -162,7 +224,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Dual‐Phase Perovskite Oxide as a Bifunctional Air Electrode for Reversible Ceramic Electrochemical Cells",
@@ -184,7 +246,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Surface Hydroxylation‐Regulated Self‐Assembled Molecular Extrusion Enables Efficient Inverted Perovskite Solar Cells Without a Pre‐Deposited Hole‐Transport Layer",
@@ -211,7 +273,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Sulfur‐Regulated Atomically Dispersed Fe Sites in Interconnected Hollow Tubular Carbon for Efficient Oxygen Reduction",
@@ -232,7 +294,7 @@
     "nanocrystal"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Positioning Ion‐Exchange Reaction Onsets Inside Nanocrystals Through Embedded Heterointerfaces",
@@ -263,7 +325,7 @@
     "nanocrystal"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Turning on Circularly Polarized Afterglow via Coordination Assembly",
@@ -285,7 +347,7 @@
     "circularly polarized"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "One‐Pot CVD Growth of WS 2 /MoS 2 Vertical Heterobilayers With Twist‐Angle‐Dependent Optoelectronic Characteristics",
@@ -308,7 +370,7 @@
     "photoluminescence"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Chirality-locked low-dimensional bound states in the continuum lasers",
@@ -329,7 +391,7 @@
     "lasing"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Bright and stable near-infrared tin-perovskite LEDs enabled by efficient optical and thermal management",
@@ -358,8 +420,8 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type": "article"
   },
   {
    "title": "Built-in electric field driven MXene/perovskite Schottky heterojunction for photo-electro-thermal energy redistribution in thermochromic smart windows",
@@ -367,7 +429,7 @@
    "journal": "Nature Communications",
    "publisher": "Nature",
    "date": "2026-11-14",
-   "abstract": "",
+   "abstract": "Perovskite-based thermochromic smart windows offer a sustainable solution for energy-efficient building technologies. However, existing strategies to reconcile the transition temperature of thermochromic perovskites with practical application temperatures primarily rely on extrinsic composite engineering, often neglecting the intrinsic multi-energy field conversion and photo-electro-thermal coupling effects of perovskites. Here, we introduce a band structure engineering strategy by constructing a MXene/perovskite Schottky heterojunction, leveraging an interfacial built-in electric field to induce photon energy redistribution. The Fermi level alignment between Ti3C2Tx and MAPbI3-xClx facilitates light-activated band bending, which enhances ultraviolet/visible photon harvesting for charge generation (photoelectric channel), complementing the inherent broadband photothermal effect of MXene (photothermal channel). This dual-energy utilization pathway, integrated within a MXene-enhanced perovskite architecture, significantly enhances the photo-electro-thermal performance. The fabricated multilayer Cl-doped perovskite smart window demonstrates a self-induced room-temperature thermochromic transition with a narrow thermal hysteresis of 5.2 °C and a 55% enhancement in photocurrent density. It also exhibits scalable manufacturability, competitive stability, extensive energy-saving performance, and multi-band communication compatibility. This work establishes a universal design paradigm for thermally responsive materials, and the multi-channel photon energy utilization strategy can be extended to other energy-efficient phase-transition systems, with promising implications for global carbon neutrality efforts. A MXene and chloride-doped perovskite Schottky junction uses a built-in electric field to route ultraviolet and visible light into charge separation and interfacial heating, enabling room-temperature switching with 5.2 degrees Celsius hysteresis, 20.5% solar modulation, and 55% higher photocurrent.",
    "authors": [
     "Xin Li",
     "Xiaoke Lu",
@@ -391,8 +453,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Kinetic balancing for near-equilibrium growth of defect-suppressed lead bromide perovskite single crystals",
@@ -400,7 +461,7 @@
    "journal": "Nature Communications",
    "publisher": "Nature",
    "date": "2026-11-14",
-   "abstract": "",
+   "abstract": "Controlling crystallization pathways for solution-grown lead-bromide perovskites remains a major unresolved challenge. Herein, we present a ligand-regulated crystallization strategy that achieves near-equilibrium growth for lead-bromide perovskite single crystals. Such regulation mitigates kinetic imbalance during crystal growth, thereby suppressing non-equilibrium defect incorporation, improving lattice coherence, and facilitating spatially uniform crystal growth. This strategy is applicable to a representative set of lead-bromide perovskites. Specifically, the resulting CsPbBr3 single crystals exhibit a high resistivity of 5.1 × 1010 Ω·cm and carrier mobility up to 93.95 cm2·V−1·s−1. Reduced electron-phonon coupling weakens optical-phonon scattering and raises the effective thermally activated conduction barrier from 0.43 to 0.71 eV, extending stable bias operation from 40 to 200 V·mm−1. These advances enable sensitive and stable ionizing-radiation detection under both photon-counting and charge-integrating modes. Overall, this work establishes a general kinetic-design principle for defect-suppressed, near-equilibrium crystallization of lead-bromide perovskites, enabling reliable high-field operation for ionizing-radiation detectors. A ligand-regulated crystallization strategy achieves near-equilibrium growth of lead bromide perovskite single crystals, suppressing defects and improving quality. The resulting CsPbBr3 crystals enable stable, sensitive ionizing-radiation detection.",
    "authors": [
     "Xiao Zhao",
     "Ziqing Li",
@@ -416,8 +477,34 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "oa_type": "article"
+  },
+  {
+   "title": "Taming crystallization to achieve superior soft magnetic performance via fine nanocrystallines",
+   "link": "https://doi.org/10.1038/s41467-026-79233-x",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-11-14",
+   "abstract": "The increasing demand for high-efficiency power electronics in emerging technologies such as 5 G and artificial intelligence is limited by the intrinsic trade-off between high saturation magnetic flux density (Bs) and low coercivity (Hc) in soft magnetic materials. Here, we report a rotational magnetic field annealing strategy for Fe-(Co)-Si-B-Cu-Nb and Fe-Co-B-P alloys that enables precise control of crystallization kinetics. The applied rotational magnetic field promotes dynamic structural fluctuations in amorphous precursors, enhancing nucleation while suppressing grain growth. Consequently, fine nanocrystalline structures with grain sizes of 1–5 nm are obtained, achieving a high Bs of 1.94 T and a low Hc of ~0.8 A m−1. Molecular dynamics simulations reveal that rotational magnetic fields generate spatially heterogeneous fluctuations, facilitating dense and uniform nucleation. This work provides a pathway for designing fine nanocomposite soft magnetic materials through external-field-controlled crystallization. Researchers demonstrate that rotational magnetic field annealing controls crystallization to produce ultrafine nanocrystals, enabling soft magnetic alloys with both high magnetic flux density and low coercivity for next-generation energy-efficient power electronics.",
+   "authors": [
+    "R. C. Sun",
+    "X. S. Li",
+    "J. Zhou",
+    "Y. Q. Yan",
+    "S. Y. Di",
+    "J. H. Luan",
+    "H. L. Peng",
+    "B. A. Sun",
+    "H. B. Ke",
+    "W. H. Wang",
+    "H. Y. Bai"
+   ],
+   "doi": "10.1038/s41467-026-79233-x",
+   "keywords": [
+    "nanocrystal"
+   ],
+   "type": "article",
+   "oa_type": "article"
   },
   {
    "title": "Enantioselective Access to Bis‐U‐Shaped Hexapyrrolic Expanded Porphyrinoids via a BINAM‐Directed Axial‐to‐Helical Chirality Transfer Strategy",
@@ -441,7 +528,7 @@
     "chiroptical"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Highly Efficient Organic Scintillators With Low Detection Limits via Cascade Energy Transfer in TADF‐Sensitized Fluorescence",
@@ -463,7 +550,7 @@
     "scintillator"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Cyclic Dimer Acceptor towards 20.9% Efficient Organic Solar Cells by Suppressing Electron‐Phonon Coupling",
@@ -501,7 +588,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Reconstructing Colloidal NiO x Contacts for Efficient and Lamination‐Resilient Perovskite Photovoltaics",
@@ -665,7 +752,7 @@
     "wide bandgap"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Local Configurational Metastability Accelerates Oxygen Exchange in High‐Entropy Perovskites",
@@ -695,7 +782,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Diatom‐Inspired Hierarchical Macro‐Mesoporous AuPd/ZnO with Topology‑Induced Metal‐Support Interactions for Ultrasensitive Monitoring of Bacterial Volatile Biomarkers",
@@ -724,7 +811,7 @@
     "sensing platform"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Photochromic Artificial Synapses for Neuromorphic Electronics: Mechanisms, Device Architectures, and Emerging Applications",
@@ -748,7 +835,7 @@
     "neuromorphic"
    ],
    "type": "review",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Perovskite Bandgap‐Driven SAM Engineering for Hole‐Selective Contacts",
@@ -779,7 +866,7 @@
     "wide bandgap"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Determining Excited‐State Properties of Fused‐Ring Electron Acceptors via Temperature‐Dependent Spectroscopy and Bayesian Inference",
@@ -804,7 +891,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Spiro-OMeTAD-Inspired Molecular Design: Electron Tunneling Meets Halogen Bonding for Robust Buried Interfaces",
@@ -832,7 +919,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Eliminating Ion Migration by Intrinsic‐Stable Interstitial Doping for Efficient and Stable Perovskite Solar Cells",
@@ -908,7 +995,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -932,6 +1019,32 @@
    "keywords": [
     "lasing",
     "optical gain"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Chirality inversion in DNA-assembled nanorod superlattices via site-specific asymmetric anchoring of single nanospheres",
+   "link": "https://doi.org/10.1038/s41467-026-79608-0",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-11-13",
+   "abstract": "Two-dimensional (2D) chiral superlattices of plasmonic nanoparticles have attracted considerable interest due to their broad potential across various fields. However, achieving facile control over their handedness without compromising structural integrity remains a persistent challenge. Here, we report a distinct class of 2D superlattices, 4-arm pinwheel arrays with tunable configurations, through defined patch size mismatch in DNA origami-templated assembly. A superlattice framework possessing preconfigured mirror-image units is created and utilized as a platform for DNA programming of chirality. We demonstrate a single-degree-of-freedom strategy that controls the handedness of the entire superlattice through DNA-enabled site-selective and asymmetric binding of a single gold nanoparticle into the mirror-image units. These local minimal perturbations preserve long-range crystalline order while generating opposite chiroptical responses via altered plasmonic near-field coupling. Our work expands the design scope of programmable materials toward chiral functional metasurfaces, and establishes a chirality-engineering approach that circumvents global structural reconstruction. Chiral 2D plasmonic superlattices are hard to tune without global redesign. Here, the authors use DNA-origami-templated 4-arm pinwheel lattices of gold nanorods to demonstrate that site-specifically adding one gold nanosphere per unit inverts handedness while preserving long-range order.",
+   "authors": [
+    "Xin Xu",
+    "Jun Song",
+    "Meng Deng",
+    "Bingqian Dong",
+    "Huatian Hu",
+    "Yuang Wang",
+    "Xiaomei Mo",
+    "Shuoxing Jiang",
+    "Zhaochuan Fan",
+    "Xiang Lan"
+   ],
+   "doi": "10.1038/s41467-026-79608-0",
+   "keywords": [
+    "chiroptical"
    ],
    "type": "article",
    "oa_type": "article"
@@ -1012,7 +1125,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1579,7 +1692,7 @@
     "memristor"
    ],
    "type": "review",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1604,7 +1717,7 @@
     "memristor"
    ],
    "type": "review",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "review"
   },
   {
@@ -2086,7 +2199,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "other"
   },
   {
@@ -2116,7 +2229,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -2184,7 +2297,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "other"
   },
   {
@@ -2324,7 +2437,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -2619,7 +2732,7 @@
     "solar cell"
    ],
    "type": "comment",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "erratum"
   },
   {
