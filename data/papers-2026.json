@@ -1,8 +1,518 @@
 {
  "year": "2026",
- "count": 7965,
- "generated": "2026-11-23 02:29 UTC",
+ "count": 7986,
+ "generated": "2026-11-24 05:52 UTC",
  "papers": [
+  {
+   "title": "Promoted phase transition in perovskite heterojunctions via in-situ regulated 2D intermediates enables stable solar cells",
+   "link": "https://doi.org/10.1038/s41467-026-79294-y",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-11-24",
+   "abstract": "Efficient perovskite solar cells require graded layered junctions, yet spacer-driven ion exchange offers poor control. Yue et al. added a preformed layered perovskite to direct vertical phase growth at the buried interface, improving efficiency, stability, and module scalability.",
+   "authors": [
+    "Shengli Yue",
+    "Guanghan Zhao",
+    "Weichuan Zhang",
+    "Shuai You",
+    "Wanfei Shi",
+    "Rongshen Yang",
+    "Weichao Zhang",
+    "Tinghuan Yang",
+    "Shilin Li",
+    "Hong Zhang",
+    "Yu Chen",
+    "Chenglin Yang",
+    "Xiaopeng Zheng",
+    "Kui Zhao",
+    "Huiying Hao",
+    "Haibo Mao",
+    "Changli Ma",
+    "He Cheng",
+    "Nam-Gyu Park",
+    "Yuan Zhang",
+    "Huiqiong Zhou"
+   ],
+   "doi": "10.1038/s41467-026-79294-y",
+   "keywords": [
+    "perovskite",
+    "solar cell"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Light‐Mediated Electrification in Interface‐Engineered Quasi‐2D Perovskite Triboelectric Nanogenerators for Self‐Powered Data Encoding",
+   "link": "https://doi.org/10.1002/smll.76816",
+   "journal": "Small",
+   "publisher": "Wiley",
+   "date": "2026-11-23",
+   "abstract": "ABSTRACT Light‐mediated electrification enables triboelectric nanogenerators (TENGs) to respond to both mechanical and optical stimuli, offering opportunities for self‐powered optical sensing and information encoding. However, achieving stable and distinguishable electrical contrast between dark and illuminated states remains challenging due to inefficient carrier separation, interfacial recombination, and unstable surface‐charge accumulation. Here, we demonstrate an interface‐engineered quasi‐2D perovskite‐based TENG for enhanced light‐mediated electrification and self‐powered data encoding. A self‐assembled monolayer is introduced on the hole transport layer to regulate interfacial energetics and improve perovskite film quality. The resulting interfacial modification facilitates hole extraction, reduces trap‐state density, suppresses charge recombination, and promotes photogenerated electron accumulation near the triboelectric surface. Consequently, the modified TENG exhibits significantly enhanced light‐mediated output, with peak‐to‐peak voltage and current increases of 142.55% and 145.62%, respectively. The amplified dark/light contrast enables direct binary discrimination without external amplification. By converting light‐modulated voltage waveforms into binary sequences, self‐powered ASCII encoding is demonstrated for uppercase letters, numerical digits, and selected symbols. This work establishes interface engineering as an effective strategy for enhancing photo‐triboelectric coupling and advancing light‐controlled, self‐powered information encoding.",
+   "authors": [
+    "Jinyi Xu",
+    "Zhangsiyuan Jin",
+    "Hening Xing",
+    "Yian Hu",
+    "Yujian Du",
+    "Rusen Yang",
+    "Yuljae Cho"
+   ],
+   "doi": "10.1002/smll.76816",
+   "keywords": [
+    "2D perovskite",
+    "perovskite",
+    "quasi-2D perovskite"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Designing solar panels for realistic end-of-life scenarios",
+   "link": "https://www.nature.com/articles/s41578-026-00989-1",
+   "journal": "Nature Reviews Materials",
+   "publisher": "Nature",
+   "date": "2026-11-23",
+   "abstract": "The rapid growth of photovoltaics is generating vast waste streams, a portion of which flows to regions where recycling is unregulated. Solar panel design criteria do not account for these end-of-life realities, creating global asymmetry in environmental burdens. This Comment proposes research directions beyond material substitution to address these design gaps.",
+   "authors": [
+    "Bo Niu",
+    "Ruitong Gao",
+    "Zhenming Xu",
+    "Jujun Ruan"
+   ],
+   "doi": "10.1038/s41578-026-00989-1",
+   "keywords": [
+    "photovoltaic"
+   ],
+   "type": "review",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Photocatalytic control of diamond color center charge states via laser-induced surface oxidation",
+   "link": "https://doi.org/10.1038/s41467-026-79211-3",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-11-23",
+   "abstract": "Abstract Color center spins in diamond nanostructures are a key resource for emerging quantum technologies. Their innate surface proximity makes precise control of diamond surface chemistry essential for optimizing their functionality and charge states. However, conventional surface functionalization methods provide limited control over the resulting surface termination and color-center charge state. Here, we demonstrate nonvolatile tuning of diamond’s surface termination through laser-induced oxidation of H-terminated diamond nanopillars. By tracking negatively charged silicon-vacancy (SiV − ) photoluminescence as a charge-state proxy, we elucidate the carrier-assisted nature of this photocatalytic process through systematic photon-flux and photon-energy analyses, identifying defect charge cycling as a source of photogenerated carriers that drive the interfacial redox chemistry responsible for surface oxidation. Our results suggest that this approach may be applicable to other color centers and host materials for charge-state control and surface engineering in solid-state quantum devices.",
+   "authors": [
+    "Minghao Li",
+    "Josh A. Zuber",
+    "Marina Obramenko",
+    "Patrik Tognina",
+    "Andrea Corazza",
+    "Marietta Batzer",
+    "Marcel.li Grimau Puigibert",
+    "Jodok Happacher",
+    "Patrick Maletinsky"
+   ],
+   "doi": "10.1038/s41467-026-79211-3",
+   "keywords": [
+    "photoluminescence"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Charge-Transfer Dynamics in Ternary Organic Photovoltaic Materials Containing Nonfullerene Acceptors: Role of Reaction Temperature",
+   "link": "https://doi.org/10.1021/jacs.6c16222",
+   "journal": "Journal of the American Chemical Society",
+   "publisher": "ACS",
+   "date": "2026-11-23",
+   "abstract": "Abstract Ternary organic photovoltaic devices incorporating A-D-A type nonfullerene acceptors offer promising enhancements in power conversion efficiency. However, fabrication conditions can introduce impurities that disrupt molecular packing and the charge-transfer (CT) dynamics, thereby reducing performance and stability. This study investigates ultrafast CT dynamics in ternary organic photovoltaics prepared at room temperature (25 °C, ″cold″) and elevated temperature (65 °C, ″hot″) using two-dimensional electronic spectroscopy in combination with computational spectral analysis to elucidate the underlying photophysical processes. While the cold ternary blend preserves chemical purity, enabling efficient CT, the hot blend exhibits a higher level of impurities, resulting in population trapping in intramolecular CT-type/dark states. This impurity-induced trapping promotes nonradiative recombination and suppresses electron transfer pathways. These findings underscore the critical role of controlled fabrication in mitigating energy losses and optimizing ternary organic photovoltaic performance and reliability.",
+   "authors": [
+    "Yogita Silori",
+    "Yongxi Li",
+    "Aswathy Jayachandran",
+    "Barry D. Dunietz",
+    "Stephen R. Forrest",
+    "Jennifer P. Ogilvie"
+   ],
+   "doi": "10.1021/jacs.6c16222",
+   "keywords": [
+    "photovoltaic"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Interfacial redox mediation enables efficient, stable wide-bandgap perovskites for perovskite-organic tandem solar cells",
+   "link": "https://doi.org/10.1016/j.joule.2026.102714",
+   "journal": "Joule",
+   "publisher": "Cell",
+   "date": "2026-11-23",
+   "abstract": "",
+   "authors": [
+    "Fanbo Feng",
+    "Lingchen Kong",
+    "Yiming Yang",
+    "Xiaofeng Huang",
+    "Kai-Kai Liu",
+    "Mingqian Chen",
+    "Alex K.-Y. Jen"
+   ],
+   "doi": "10.1016/j.joule.2026.102714",
+   "keywords": [
+    "perovskite",
+    "solar cell",
+    "tandem",
+    "wide bandgap"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Fully π‐Conjugated Nonvolatile n‐Type Additives Toward 21% Efficiency in Organic Solar Cells",
+   "link": "https://doi.org/10.1002/anie.6786566",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2026-11-23",
+   "abstract": "ABSTRACT Solid additive engineering represents a key strategy to modulate the morphology of organic solar cells via intermolecular interactions (van der Waals forces, hydrogen bonds, and dipole interaction) with photoactive materials. However, these weak interactions lack sufficient capacity to control the crystallization and phase separation of active layer. Here, we developed a conjugated electrostatic coupling strategy to strengthen the intermolecular forces between solid additives and donor/acceptor. The solid additive we designed possesses a fully conjugated structure that can generate strong electrostatic potential interaction, therefore a small amount of solid additive (3 wt%) facilitate ordered crystalline fibril growth of polymer donor and dense molecular packing of acceptor. In addition, the n‐type nature and nonvolatile feature of solid additive promotes the electron transport capacity and stability of the active layer. As a result, the optimal device achieved a state‐of‐the‐art efficiency of 21.02% (certificated to 20.55%), due to the prolonged exciton lifetime, suppressed charge recombination, and enhanced charge collection efficiency. This work establishes a new paradigm for solid additive engineering in organic photovoltaics.",
+   "authors": [
+    "Nian Zhang",
+    "Longjun Fu",
+    "Chengcheng Xie",
+    "Ya Li",
+    "Hui Zhang",
+    "Dianyong Tang",
+    "Yuanpeng Xie",
+    "Liming Ding",
+    "Menglan Lv"
+   ],
+   "doi": "10.1002/anie.6786566",
+   "keywords": [
+    "photovoltaic",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Single Chiroptical Pulse in Non‐Equilibrium Supramolecular Systems via Inter‐Macrocyclic Crosstalk",
+   "link": "https://doi.org/10.1002/anie.4320069",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2026-11-23",
+   "abstract": "ABSTRACT Can an autonomous triphasic temporal pulse emerge in supramolecular architectures without relying on chemical transformations or external chemical fuel? Here, we demonstrate sequential chiroptical sign reversals in a time‐dependent, aperiodic circular dichroism waveform excursion governed purely by non‐covalent binding kinetics in a dual‐receptor network of pillar[5]arene and prism[5]arene. Challenging an established chiral equilibrium with an antipodal alanine derivative induces an out‐of‐equilibrium optical pulse that inverts the chiroptical sign before settling into a persistent state. This transient behavior originates from the synergy between mismatched macrocyclic binding/unbinding rates and ultra‐fast racemization of planar chirality during competitive ligand exchange, as verified by time‐resolved spectroscopy and kinetic modeling. Tailoring receptor substituents and component ratios enables straightforward regulation over both duration and amplitude of the transient response. By establishing indirect intermolecular signal relays through shared effectors, this work provides a transformative blueprint for engineering dissipative systems‐level dynamics in non‐reactive, life‐like materials.",
+   "authors": [
+    "Xiaotong Liang",
+    "Dejun Zhang",
+    "Wanhua Wu",
+    "Long Chen",
+    "Hao Tang",
+    "Cheng Yang"
+   ],
+   "doi": "10.1002/anie.4320069",
+   "keywords": [
+    "chiroptical"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Aqueous π‐Hole Interactions Enabled by Chiral Perfluoroarene Amphiphiles",
+   "link": "https://doi.org/10.1002/anie.3302343",
+   "journal": "Angewandte Chemie Int. Ed.",
+   "publisher": "Wiley",
+   "date": "2026-11-23",
+   "abstract": "ABSTRACT Arene‐perfluoroarene (AP) interactions, as a representative class of π‐hole‐driven noncovalent interactions, have demonstrated unique advantages in molecular recognition and supramolecular assembly. However, the precise regulation of hydrophobic aromatic molecules in aqueous environments through AP interactions remains challenging. Herein, we designed and constructed a series of chiral perfluoroarene amphiphiles based on an octafluoronaphthalene scaffold, in which the amphiphilicity, self‐assembly behavior, and confined microenvironment were regulated through end‐group engineering, enabling selective recognition and photophysical modulation of polycyclic aromatic hydrocarbons (PAHs). These perfluoroarene amphiphiles readily formed stable lamellar vesicular assemblies in aqueous solution. The π‐hole region of the perfluoroarene moiety interacted with PAHs through AP interactions, facilitating the incorporation of guest molecules into the confined lamellar domains. Consequently, a variety of hydrophobic PAHs were successfully encapsulated in aqueous media, accompanied by effective modulation of their excited‐state behaviors. Moreover, the chiral confined microenvironment induced chiroptical responses from achiral PAHs, enabling efficient chirality transfer. This work provides a new design strategy for aqueous supramolecular recognition, aromatic guest aggregation regulation, and the construction of chiral photofunctional materials based on AP interactions.",
+   "authors": [
+    "Weilong Ma",
+    "Aiyou Hao",
+    "Pengyao Xing"
+   ],
+   "doi": "10.1002/anie.3302343",
+   "keywords": [
+    "chiroptical"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "High‐Efficiency Solution‐Processed Sensitized OLEDs With Low Roll‐Off Enabled by Near‐Ultraviolet Emissive Thermally Activated Delayed Fluorescent Polysiloxanes",
+   "link": "https://doi.org/10.1002/adma.75836",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-11-23",
+   "abstract": "ABSTRACT Achieving solution‐processed high‐efficiency blue OLEDs with low efficiency roll‐off remains a challenge. In this study, a siloxane‐backbone engineering strategy is proposed to develop near‐ultraviolet emissive thermally activated delayed fluorescence (TADF) polymers that can multifunctionally serve as emitter/host/sensitizer for solution‐processed blue OLEDs. Benefiting from good film‐forming ability, balanced carrier transport and efficient exciton utilization, the non‐doped OLEDs based on the prepared TADF polysiloxane, PSiCzBN 1 mCP 9 , achieves a maximum external quantum efficiency (EQE max ) of 8.2% with an electroluminescence peak at 394 nm. Notably, two TADF polysiloxanes are further used as host or sensitizer in hyperfluorescence and phosphor‐assisted TADF‐sensitized fluorescence (pTSF) devices. The solution‐processed blue pTSF device exhibits a high EQE max of 35.7%, placing it among the one of the best‐performing TADF polymeric OLEDs reported to date. This work demonstrates that siloxane‐backbone engineering is an effective design strategy for achieving high‐efficiency solution‐processed blue OLEDs by regulating film morphology and excited‐state energy level, simultaneously.",
+   "authors": [
+    "Guanyu Jiang",
+    "Haisong Zhao",
+    "Maoqiu Li",
+    "Lei Hua",
+    "Yuchao Liu",
+    "Zhongjie Ren"
+   ],
+   "doi": "10.1002/adma.75836",
+   "keywords": [
+    "electroluminescence",
+    "phosphor"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Understanding Activation Energies of Dark Currents in Shortwave Infrared Organic Photodiodes",
+   "link": "https://doi.org/10.1002/adma.75809",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-11-23",
+   "abstract": "The advancement of near-infrared (NIR) and shortwave-infrared (SWIR) organic photodetectors (OPDs) has been fundamentally hindered by high dark current, which is often considered an intrinsic limitation. This stems from the prevailing model where trap-assisted thermal generation caps the dark current activation energy ( E a ) at half the material's effective bandgap (Egeff/2$E_{\\mathrm{g}}^{{\\mathrm{eff}}}/2$). Here, we demonstrate that this perceived limit is not fundamental and can be surpassed. By systematically engineering thick-film devices to suppress trap-mediated recombination and shunt pathways, we demonstrate a transition to a bulk-limited, band-to-band-like thermal generation regime. This allows the activation energy to approach the effective bandgap ( E a ≈ Egeff$E_{\\mathrm{g}}^{{\\mathrm{eff}}}$), far above the Egeff/2$E_{\\mathrm{g}}^{{\\mathrm{eff}}}/2$ limit of trap-assisted generation. Our findings provide a direct design principle for fabricating NIR and SWIR OPDs with substantially lower dark currents.",
+   "authors": [
+    "Hoang Mai Luong",
+    "Sang Do",
+    "Vivian Worthington",
+    "Zhong‐Ze Qu",
+    "Sangmin Chae",
+    "Ahra Yi",
+    "Hiba Wakidi",
+    "Emmanuel Lanuza",
+    "Qiaonan Chen",
+    "Ergang Wang",
+    "Jong‐Woon Ha",
+    "Seo‐Jin Ko",
+    "Kazuhiro Mouri",
+    "Yasuo Miyata",
+    "Oskar J. Sandberg",
+    "Thuc‐Quyen Nguyen"
+   ],
+   "doi": "10.1002/adma.75809",
+   "keywords": [
+    "photodetector",
+    "photodiode"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Gradient‐Engineered Hole‐Selective Contact Layers via Spatially Confined Annealing for Efficient Tin–Lead and All‐Perovskite Tandem Solar Cells",
+   "link": "https://doi.org/10.1002/adma.75813",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-11-23",
+   "abstract": "ABSTRACT Hole‐selective contact layers (HSLs) govern charge extraction and interfacial energetics in perovskite solar cells, yet conventional designs are largely limited to planar architectures with homogeneous electronic properties. Such planar HSLs are insufficient for mixed tin–lead (Sn–Pb) perovskites, where short carrier diffusion lengths require efficient three‐dimensional charge‐collection pathways. Here, a spatially confined molecular‐gradient engineering strategy is introduced to construct energetic‐cascade HSLs within mesoporous frameworks. A screened and optimized phosphonic‐acid self‐assembled monolayer, [2‐(7H‐dibenzo[c,e]carbazol‐7‐yl)ethyl] phosphate, is incorporated into a mesoporous indium tin oxide nanocrystal matrix. Spatially confined annealing drives directional molecular redistribution, generating a controllable bottom‐to‐surface concentration gradient. This gradient establishes continuous energy cascades and graded hole‐transport channels, while simultaneously modulating the crystallization of the overlying Sn–Pb perovskite to suppress nonradiative recombination. Single‐junction Sn–Pb perovskite solar cells achieve a power conversion efficiency of 24.14%, and monolithic two‐terminal all‐perovskite tandem solar cells reach 29.56% efficiency with substantially improved operational stability. More broadly, this work establishes molecular‐gradient engineering in porous matrices as a versatile strategy for programming charge transport and interfacial chemistry in solution‐processed optoelectronic devices.",
+   "authors": [
+    "Shun Zhou",
+    "Shining Zhang",
+    "Dexin Pu",
+    "Shengjie Du",
+    "Qingxian Lin",
+    "Guang Li",
+    "Hongyi Fang",
+    "Wenbo Li",
+    "Kailian Dong",
+    "Hongsen Cui",
+    "Shuxin Wang",
+    "Ti Wang",
+    "Guojia Fang",
+    "Weijun Ke"
+   ],
+   "doi": "10.1002/adma.75813",
+   "keywords": [
+    "charge transport",
+    "nanocrystal",
+    "operational stability",
+    "perovskite",
+    "single-junction",
+    "solar cell",
+    "tandem"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "A Spin‐Crossover Neutral‐Site Perovskite Ferroelectric",
+   "link": "https://doi.org/10.1002/adma.75814",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-11-23",
+   "abstract": "ABSTRACT Perovskites have emerged as a globally researched family of multifunctional materials, benefiting from their rich physical properties. However, despite extensive investigations into their ferroelectric and magnetic properties, the coexistence of ferroelectricity and spin crossover (SCO) within perovskites remains largely unexplored. Herein, by combining perovskites and coordination polymers (CPs), we designed the first perovskite SCO ferroelectric, [Fe(4‐ATA) 3 ]SiF 6 (4‐ATA = 4‐amino‐1,2,4‐triazole), which adopts an uncommon neutral site (4‐ATA). The order‐disorder transition of 4‐ATA ligands induces a 6/ m F6‐type ferroelectric phase transition at 331 K, with a spontaneous polarization of 4.0 µC/cm 2 . Notably, [Fe(4‐ATA) 3 ]SiF 6 exhibits a SCO transition at 253 K within the ferroelectric phase, accompanied by distortion of the FeN 6 octahedron. Moreover, we observed a switchable magnetic circular dichroism (MCD) signal during the SCO transition. Our discovery opens a new avenue for the design of SCO ferroelectrics and sheds light on the further exploration of CP perovskite SCO ferroelectrics.",
+   "authors": [
+    "Hui‐Peng Lv",
+    "Yong Ai",
+    "Zikang Li",
+    "Xiao‐Gang Chen",
+    "Yan Qin",
+    "Xian‐Jiang Song",
+    "Wei Hu",
+    "Baian Chen",
+    "Mingzi Sun",
+    "Bolong Huang",
+    "Wei‐Qiang Liao",
+    "Ren‐Gen Xiong"
+   ],
+   "doi": "10.1002/adma.75814",
+   "keywords": [
+    "ferroelectric",
+    "perovskite"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Metal‐Chelating Molecule‐Enabled Multidentate Molecular Bridge Engineering of the Buried Interface for High‐Performance Fully Printed Carbon‐Based Perovskite Solar Modules",
+   "link": "https://doi.org/10.1002/adma.75783",
+   "journal": "Advanced Materials",
+   "publisher": "Wiley",
+   "date": "2026-11-23",
+   "abstract": "ABSTRACT Carbon‐based perovskite solar modules (C‐PSMs) provide a scalable and metal‐electrode‐free platform for stable perovskite photovoltaics, yet their efficiencies remain constrained by defective and mechanically fragile buried SnO 2 /perovskite interfaces. Conventional interfacial modifiers generally rely on limited coordination, making it difficult to simultaneously achieve robust passivation and strong interfacial adhesion. Here, we introduce two metal‐chelating molecules to construct multidentate molecular bridges at the buried interface in C‐PSMs. Diglycine disodium (DDS), although capable of coordinating with both SnO 2 and perovskite, exhibits weak configurational selectivity because multiple interfacial coordination modes are energetically accessible, preventing stable bilateral bridge formation. In contrast, tetrasodium iminodisuccinate (IDS) coordinates with both SnO 2 and perovskite, constructing a robust bilateral molecular bridge, suppressing interfacial defects, enhancing charge transfer, and interfacial adhesion. Consequently, the fully printed 30 × 30 cm 2 IDS C‐PSMs achieve a record efficiency of 19.26% with an active area of 563.78 cm 2 (certified 18.04%, with a mask‐defined area of 487.6 cm 2 ), which represents the highest reported PCE for a device of this size and architecture. The unencapsulated IDS C‐PSM retains over 90% of its initial efficiency after 1130 h of maximum‐power‐point tracking at 65°C and over 85% after 2184 h under damp‐heat conditions (85°C and 85% RH).",
+   "authors": [
+    "Chunyu Lv",
+    "Changqing Lin",
+    "Kai Zhang",
+    "Gaofeng Li",
+    "Azhu Wang",
+    "Xiaozhen Wei",
+    "Weibiao Zhong",
+    "Qifeng Lin",
+    "Xing Tang",
+    "Xianzhen Huang",
+    "Zhihao Lei",
+    "Huicong Liu",
+    "Weiping Li",
+    "Haining Chen",
+    "Shihe Yang"
+   ],
+   "doi": "10.1002/adma.75783",
+   "keywords": [
+    "perovskite",
+    "photovoltaic",
+    "solar module"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Interface‐to‐Bulk Grain Regulation Enables Sb 2 (S,Se) 3 Solar Cells Exceeding 11% Efficiency",
+   "link": "https://doi.org/10.1002/aenm.71850",
+   "journal": "Advanced Energy Materials",
+   "publisher": "Wiley",
+   "date": "2026-11-23",
+   "abstract": "ABSTRACT Antimony selenosulfide (Sb 2 (S,Se) 3 ) represents an emerging thin‐film photovoltaic absorber owing to the excellent stability, tunable bandgap (1.1–1.7 eV), and high light absorption coefficient (> 10 5 cm −1 ). Hydrothermally deposited Sb 2 (S,Se) 3 solar cells have broken the 10% efficiency bottleneck, yet as‐prepared Sb 2 (S,Se) 3 films suffer from small grains (typically ∼400 nm) with abundant grain boundaries (GBs) that introduce dense defect states, inducing severe non‐radiative recombination and hindering further efficiency enhancement. Here we develop an interface‐to‐bulk grain regulation strategy to achieve ultra‐large (exceeding 3 µm) columnar grains spanning the entire absorber. This strategy combines buried‐interface Sb pre‐deposition to tailor initial hydrothermal deposition and rear‐interface Se‐mediated two‐step post‐annealing to drive grain coalescence and growth through a sequential infiltration‐reaction‐coalescence mechanism. We also found that this grain engineering also leads to the passivation of bulk deep‐level and interfacial defects, and optimized heterojunction band alignment, which collectively suppresses non‐radiative recombination and in turn delivers an ultralow open‐circuit voltage deficit of 0.483 V. Consequently, the ultra‐large‐grain Sb 2 (S,Se) 3 solar cell delivers a champion power conversion efficiency of 11.04%, which is the highest efficiency ever reported for antimony chalcogenide‐based solar cells. This study establishes an integrated strategy for regulating grain growth in Sb 2 (S,Se) 3 films toward efficient devices.",
+   "authors": [
+    "Hao Mei",
+    "Chaozhe Zhang",
+    "Xiaoqi Peng",
+    "Ruoxuan Zhu",
+    "Lijia Tao",
+    "Qianqian Gao",
+    "Yi Zhang",
+    "Shangfeng Yang",
+    "Tao Chen"
+   ],
+   "doi": "10.1002/aenm.71850",
+   "keywords": [
+    "band alignment",
+    "chalcogenide",
+    "non-radiative recombination",
+    "open-circuit voltage",
+    "photovoltaic",
+    "radiative recombination",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Direct Solar Storage and On‐Demand Power via Threshold‐Matched Silicon Photovoltaics and Dual‐Ion Batteries",
+   "link": "https://doi.org/10.1002/aenm.71866",
+   "journal": "Advanced Energy Materials",
+   "publisher": "Wiley",
+   "date": "2026-11-23",
+   "abstract": "ABSTRACT Direct integration of photovoltaics with batteries is attractive for energy‐autonomous mobile platforms, but mismatched photovoltaic output and battery charging requirements, limited high‐rate capability, and low‐temperature degradation can necessitate intermediate power electronics and restrict burst‐power delivery. Here, a threshold‐matched silicon photovoltaic–dual‐ion battery (PV–DIB) architecture is demonstrated by directly coupling a voltage‐ and current‐tailored crystalline‐silicon photovoltaic module with a high‐voltage dual‐ion battery pouch cell. Under one‐sun illumination, the photovoltaic module supplies ≈72 mA at the battery charging threshold, enabling direct charging without intermediate power‐conversion hardware. This matching establishes two complementary operating regimes: solar‐sustained operation when photovoltaic current meets the load demand and on‐demand battery assistance when the load exceeds the photovoltaic input. The integrated system delivers a maximum power density of 11,430 W kg −1 at 40.83 mA cm −2 , maintains stable operation under drone‐relevant dynamic load profiles, and the DIB retains 5,088 W kg −1 at −10°C. Indoor and outdoor flight demonstrations validate direct solar energy storage and burst‐power delivery, establishing threshold matching as a practical design strategy for power‐electronics‐minimized, energy‐autonomous mobile systems.",
+   "authors": [
+    "Sungho Kim",
+    "Jeonghwan Park",
+    "Jieun Kang",
+    "Dawon Kim",
+    "Changmin Kim",
+    "Yunah Ji",
+    "Yongjun Kwon",
+    "Kwanyong Seo",
+    "Soojin Park"
+   ],
+   "doi": "10.1002/aenm.71866",
+   "keywords": [
+    "photovoltaic"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Directed Perovskite‐to‐Fullerene Electron Shuttle for 27.2% Inverted Solar Cells",
+   "link": "https://doi.org/10.1002/aenm.71475",
+   "journal": "Advanced Energy Materials",
+   "publisher": "Wiley",
+   "date": "2026-11-23",
+   "abstract": "ABSTRACT Although C 60 is almost exclusively used in the electron transport layers of high‐performance inverted perovskite solar cells (PSCs), its weak affinity and unfavorable energy level alignment with perovskite lead to weak contact and mismatch in the conduction band level at the perovskite/C 60 interface, thereby limiting further improvement of device efficiency as well as compromising device long‐term operational stability. We synthesized an n ‐type Pyridinium molecule, 2,7‐di(pyridin‐4‐yl)benzo[lmn][3,8]phenanthroline‐1,3,6,8(2H,7H)‐tetraone dihydroiodide (PPTHI), and used it as the interfacial electron‐selective contact in inverted PSCs. The pyridinium iodide head unit in the PPTHI anchored to the halide vacancies and coordinated with the exposed lead. Moreover, the π‐conjugated core renders desirable electron‐transport capability, and the n ‐type interfacial modulator can also serve as an electron shuttle between perovskite and the C 60 electron transport layer. The improved electron extraction, optimized energetic, and passivated top surface translated to reduced V OC losses, leading to a certified stabilized power output efficiency of 26.54% and a champion device with an efficiency of 27.2% and a fill factor of 87.17%. Moreover, inverted PSCs incorporating the electron shuttle maintained over 80% of their initial efficiency after 2000 h of maximum power point tracking.",
+   "authors": [
+    "Long Jiang",
+    "Chunxiang Lan",
+    "Bitao Dong",
+    "Meijie Cui",
+    "Ye Ding",
+    "Jingwei Xue",
+    "Ziwei Zheng",
+    "Ling Zeng",
+    "Yanbiao Ran",
+    "Tian Zhang",
+    "Yuanbo Yang",
+    "Tiantian Li",
+    "Xinyu Liu",
+    "Guangyu Qi",
+    "Tengfei Li",
+    "Dan He",
+    "Nan Li",
+    "Wanchun Xiang",
+    "Qunping Fan",
+    "Jie Kong",
+    "Xiong Li",
+    "Yingguo Yang",
+    "Yuhang Liu"
+   ],
+   "doi": "10.1002/aenm.71475",
+   "keywords": [
+    "energy level alignment",
+    "operational stability",
+    "perovskite",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Dipolar Heterointerface Enabled by Molecular Zwitterionicity for Rigid and Flexible Perovskite Solar Cells",
+   "link": "https://doi.org/10.1021/acsenergylett.6c02537",
+   "journal": "ACS Energy Letters",
+   "publisher": "ACS",
+   "date": "2026-11-23",
+   "abstract": "Abstract Poor interfacial compatibility at the interface between the electron transport layer (ETL) and the perovskite gives rise to defect-rich interfaces with weak adhesion, representing a major critical limitation that hinders the efficiency, operational stability, and mechanical robustness of perovskite solar cells (PSCs). Herein, a zwitterionic molecule, 3-(1-pyridinio)-1-propanesulfonate (Pyps), is introduced at the ETL/perovskite interface to construct a dipolar heterointerface, where the sulfonate (–SO3–) and pyridinium moieties synergistically reinforce interfacial bonding, passivate buried interfacial defects, and enhance the conductivity of the SnO2 ETL, while its large intrinsic dipole moment tailors the interfacial energy-level alignment to both improve charge extraction and suppress recombination. As a result, the dipolar heterointerface enables champion efficiencies of 26.86% and 25.50% for rigid and flexible PSCs, respectively. The unencapsulated PSCs retain over 93.2% of their initial performance under continuous operation after 1300 h, demonstrating the promise of dipolar heterointerface engineering for high-performance PSCs.",
+   "authors": [
+    "Hongbo Xue",
+    "Bingyao Shao",
+    "Bo Li",
+    "Miao Li",
+    "Yuanyuan Zhou",
+    "Mutalifu Abulikemu",
+    "Yaru Du",
+    "Zhiyong Liu",
+    "Yi Zhang",
+    "Ruiyuan Hu",
+    "Xingao Li",
+    "Jianxing Xia",
+    "Osman M. Bakr",
+    "Xiaodan Tang"
+   ],
+   "doi": "10.1021/acsenergylett.6c02537",
+   "keywords": [
+    "energy level alignment",
+    "operational stability",
+    "perovskite",
+    "solar cell"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
   {
    "title": "Covalent Interfacial Engineering for Suppressing Defect and Phonon-Mediated Losses in Perovskite Quantum Dots/Polymer Composites",
    "link": "https://doi.org/10.1021/acsami.6c20967",
@@ -22,6 +532,56 @@
     "photoluminescence",
     "photoluminescence quantum yield",
     "quantum dot"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "In Situ Growth and High Performance of Tightly Coupled Lead-Free Perovskite-Based Type-II Heterojunctions for CO2 Reduction",
+   "link": "https://doi.org/10.1021/acsami.6c18781",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-11-23",
+   "abstract": "Abstract Rational construction of environmentally friendly heterojunctions with a type-II band alignment is an effective strategy for reducing photogenerated charge recombination and enhancing photocatalytic activity, whereas the carrier migration efficiency strongly depends on the interfacial contact quality. Herein, a lead-free perovskite-based heterojunction, Bi2O3/Cs3Bi2Br9 (BO/CBB), is synthesized through the in situ growth of Cs3Bi2Br9 (CBB) particles on Bi2O3 (BO) flakes. The optimized BO/CBB sample exhibits the highest CO production rate of 42.3 μmol g–1 h–1 among the compared photocatalysts, which is 3.2 and 10.8 times higher than those of pristine BO and CBB, respectively. Notably, the CO yield of in situ-grown BO/CBB is 7.4 times higher than that of the electrostatically self-assembled sample, highlighting the advantage of the in situ growth strategy. Experimental results and first-principles calculations reveal that the tightly coupled interface facilitates interfacial charge migration, enabling efficient type-II charge transfer and thereby promoting the spatial separation of photogenerated electron–hole pairs. Analysis of the reaction intermediates indicates that BO/CBB effectively reduces the reaction energy barriers of the first two elementary steps in CO2 reduction. This work provides a feasible strategy for constructing high-quality type-II lead-free perovskite heterojunctions for efficient photocatalytic CO2 reduction.",
+   "authors": [
+    "Hongyu Zhu",
+    "Xi Zhang",
+    "Han Wang",
+    "Feng Tang",
+    "Ya Nie",
+    "Gang Xiang"
+   ],
+   "doi": "10.1021/acsami.6c18781",
+   "keywords": [
+    "band alignment",
+    "co2 reduction",
+    "perovskite"
+   ],
+   "type": "article",
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Defect Passivation and Electric Field Homogenization at the Buried SnO2/Perovskite Interface via SIP-Na Modification",
+   "link": "https://doi.org/10.1021/acsami.6c20085",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-11-23",
+   "abstract": "Abstract The nonideality of the buried SnO2/perovskite interface is a key bottleneck restricting the performance of perovskite solar cells. However, there is still a lack of in-depth understanding of the morphological characteristics and physical mechanisms of this interface. This study systematically investigated the multifunctional optimization effect of sodium 5-sulfoisophthalic acid (SIP-Na) as an interface modifier between SnO2 and perovskite. With the help of mechanical interface exposure technology, intuitive evidence has been provided for the control manipulation of buried interfaces. The scanning electron microscopy results show that SIP-Na can effectively eliminate interface voids and guide the formation of high-quality crystals with larger grain size and lower stress in the perovskite. In addition, COMSOL simulation analysis reveals that SIP-Na treatment can significantly homogenize the interface electric field distribution. Under the joint promotion of the multiple optimization mechanisms mentioned above, the final device achieved a champion efficiency of 25.36% and a high open-circuit voltage of 1.265 V. This study combines direct interface characterization and physical simulation to deeply reveal the synergistic enhancement mechanism of molecular modifiers at the buried interface, providing a new perspective and theoretical support for interface engineering research.",
+   "authors": [
+    "Yanbo Gao",
+    "Bojian Shi",
+    "Shuhang Bian",
+    "Wenjie He",
+    "Yibing Yu",
+    "Long Shao",
+    "Yanju Ji"
+   ],
+   "doi": "10.1021/acsami.6c20085",
+   "keywords": [
+    "defect passivation",
+    "open-circuit voltage",
+    "perovskite",
+    "solar cell"
    ],
    "type": "article",
    "oa_type_tried": 1
@@ -51,7 +611,7 @@
     "plqy"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Cryptochiral Circularly Polarized Luminescence Emerges From Cosolvent‐Regulated Pathway Complexity in Amyloidogenic Peptide Self‐Assembly",
@@ -74,7 +634,7 @@
     "circularly polarized luminescence"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Coupling Iodine Regulation With Hole‐Selective Interfaces for Efficient and Stable Perovskite Solar Cells",
@@ -102,7 +662,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type": "article"
   },
   {
    "title": "Deep ultraviolet gallium-oxide avalanche photodiodes reaching an impulse-response-derived gain-bandwidth record of 152 GHz",
@@ -133,6 +693,39 @@
    "keywords": [
     "photodetector",
     "photodiode"
+   ],
+   "type": "article",
+   "oa_type": "article"
+  },
+  {
+   "title": "Localized strain-engineered 1D electron guides in 2D MoS2 devices with synaptic memory and high-mobility transistor functionalities",
+   "link": "https://doi.org/10.1038/s41467-026-79577-4",
+   "journal": "Nature Communications",
+   "publisher": "Nature",
+   "date": "2026-11-21",
+   "abstract": "Local strain engineering has been studied as an effective strategy to modify the electronic band structure of two-dimensional (2D) semiconductors. However, using precisely controlled localized strain as a scalable tool for directing and controlling charge dynamics in 2D electronics remains largely underexplored. Here, we introduce wafer-scale localized strain engineering that applies periodically localized one-dimensional (1D) uniaxial strain to monolayer MoS 2 -based dual-functional electronics. By transferring MoS 2 onto a line-patterned HfO 2 substrate, we can deterministically generate a periodic localized 1D potential well. This approach creates a well-defined 1D potential landscape that facilitates dual functionality within a single material platform, depending on the alignment between the potential well orientation and the direction of carrier transport. Charge transport perpendicular to the 1D potential wells results in controlled charge trapping, thereby yielding a multibit synaptic memory device, whereas transport parallel to the potential wells experiences reduced lattice scattering and an effective mass with trap-free carrier conduction, leading to a high-mobility field-effect transistor. Systematic transport analyses elucidate how localized uniaxial strain modulates charge-trap density, lattice scattering, and effective mass, giving rise to direction-dependent charge transport. These findings highlight localized 1D strain as an effective design parameter for high-performance, scalable multifunctional 2D electronics.",
+   "authors": [
+    "Junsung Byeon",
+    "Onesik Harm",
+    "Jinhyeok Pyo",
+    "Sohyeon Park",
+    "Byeongchan Kim",
+    "Eunhee Cho",
+    "Jungmoon Lim",
+    "Taehun Kim",
+    "Byeongseong Yoo",
+    "Seokjin Oh",
+    "Chaewon Song",
+    "Hyungchang Jeong",
+    "Kyung-Ho Park",
+    "Sangyeon Pak",
+    "SeungNam Cha"
+   ],
+   "doi": "10.1038/s41467-026-79577-4",
+   "keywords": [
+    "charge transport",
+    "field-effect transistor",
+    "trap density"
    ],
    "type": "article",
    "oa_type": "article"
@@ -1073,7 +1666,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1102,7 +1695,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1137,7 +1730,7 @@
     "wide bandgap"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1636,7 +2229,7 @@
     "light-emitting diode"
    ],
    "type": "review",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -1655,7 +2248,7 @@
     "light-emitting diode"
    ],
    "type": "review",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "review"
   },
   {
@@ -1673,7 +2266,7 @@
     "nanocrystal"
    ],
    "type": "review",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1760,7 +2353,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -2157,7 +2750,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -2241,7 +2834,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -3145,7 +3738,7 @@
   },
   {
    "title": "Climate-dependent trade-offs between direct and indirect coupling in photovoltaic hydrogen production",
-   "link": "https://doi.org/10.1039/d6ee05382c",
+   "link": "https://pubs.rsc.org/ee/article/doi/10.1039/d6ee05382c/1382118/Climate-dependent-trade-offs-between-direct-and",
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2026-11-17",
@@ -3164,7 +3757,7 @@
   },
   {
    "title": "Octahedral connectivity as a design principle in perovskite oxides for catalytic applications",
-   "link": "https://doi.org/10.1039/d6ee04177a",
+   "link": "https://pubs.rsc.org/ee/article/doi/10.1039/d6ee04177a/1381916/Octahedral-connectivity-as-a-design-principle-in",
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2026-11-17",
@@ -3189,7 +3782,7 @@
   },
   {
    "title": "Dynamic hydration-driven self-activation of a perovskite cathode for protonic ceramic fuel cells",
-   "link": "https://doi.org/10.1039/d6ee04970b",
+   "link": "https://pubs.rsc.org/ee/article/doi/10.1039/d6ee04970b/1381912/Dynamic-hydration-driven-self-activation-of-a",
    "journal": "Energy & Environmental Science",
    "publisher": "RSC",
    "date": "2026-11-17",
@@ -3253,7 +3846,7 @@
     "wide band gap"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -3276,7 +3869,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -5190,7 +5783,7 @@
   },
   {
    "title": "Synthetic interfaces in perovskite photovoltaics",
-   "link": "https://www.nature.com/articles/s44160-026-01202-5",
+   "link": "https://doi.org/10.1038/s44160-026-01202-5",
    "journal": "Nature Synthesis",
    "publisher": "Nature",
    "date": "2026-11-13",
@@ -12467,7 +13060,7 @@
   },
   {
    "title": "Construction of Near‐Infrared Organic Long‐Afterglow Materials via Efficient Cascaded Förster Resonance Energy Transfer",
-   "link": "https://doi.org/10.1002/smtd.71178",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/smtd.71178?af=R",
    "journal": "Small Methods",
    "publisher": "Wiley",
    "date": "2026-11-02",
@@ -12494,7 +13087,7 @@
   },
   {
    "title": "Bias Polarity Switching (BiPS): A Transient Method for Probing Interfacial Carrier Dynamics",
-   "link": "https://doi.org/10.1002/smtd.71171",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/smtd.71171?af=R",
    "journal": "Small Methods",
    "publisher": "Wiley",
    "date": "2026-11-02",
