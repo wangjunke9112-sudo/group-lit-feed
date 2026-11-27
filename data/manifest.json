@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-27 04:05 UTC",
- "count": 67996,
+ "generated": "2026-11-27 17:22 UTC",
+ "count": 68021,
  "years": [
   "2026",
   "2025",
@@ -22,7 +22,7 @@
   "2009"
  ],
  "year_counts": {
-  "2026": 8082,
+  "2026": 8107,
   "2025": 8036,
   "2024": 7234,
   "2023": 5978,
@@ -52,7 +52,7 @@
   {
    "journal": "Nature Energy",
    "found": 8,
-   "kept": 2,
+   "kept": 1,
    "error": null,
    "note": null
   },
@@ -66,7 +66,7 @@
   {
    "journal": "Nature Chemistry",
    "found": 8,
-   "kept": 0,
+   "kept": 1,
    "error": null,
    "note": null
   },
@@ -87,7 +87,7 @@
   {
    "journal": "Nature Photonics",
    "found": 8,
-   "kept": 3,
+   "kept": 4,
    "error": null,
    "note": null
   },
@@ -101,7 +101,7 @@
   {
    "journal": "Nature Communications",
    "found": 8,
-   "kept": 0,
+   "kept": 1,
    "error": null,
    "note": null
   },
@@ -177,17 +177,17 @@
   },
   {
    "journal": "ACS Energy Letters",
+   "found": 25,
+   "kept": 25,
+   "error": null,
+   "note": "RSS failed; Crossref fallback recovered 25 relevant paper(s)"
+  },
+  {
+   "journal": "ACS Applied Materials & Interfaces",
    "found": 24,
    "kept": 24,
    "error": null,
    "note": "RSS failed; Crossref fallback recovered 24 relevant paper(s)"
-  },
-  {
-   "journal": "ACS Applied Materials & Interfaces",
-   "found": 26,
-   "kept": 26,
-   "error": null,
-   "note": "RSS failed; Crossref fallback recovered 26 relevant paper(s)"
   },
   {
    "journal": "Chemical Society Reviews",
@@ -213,7 +213,7 @@
   {
    "journal": "Advanced Materials",
    "found": 549,
-   "kept": 131,
+   "kept": 133,
    "error": null,
    "note": null
   },
@@ -226,8 +226,8 @@
   },
   {
    "journal": "Advanced Functional Materials",
-   "found": 539,
-   "kept": 149,
+   "found": 619,
+   "kept": 165,
    "error": null,
    "note": null
   },
@@ -241,14 +241,14 @@
   {
    "journal": "Small",
    "found": 580,
-   "kept": 108,
+   "kept": 109,
    "error": null,
    "note": null
   },
   {
    "journal": "Small Methods",
    "found": 141,
-   "kept": 20,
+   "kept": 21,
    "error": null,
    "note": null
   },
