@@ -1,0 +1,64 @@
+{
+  "_how_to": [
+    "Each entry below becomes a page at https://lens-laboratory.com/group-lit-feed/plain-b-<slug>.html after the next daily run.",
+    "slug: lowercase letters, digits and hyphens only. This is the link, so keep it once shared.",
+    "slices: any slice codes' slugs from plain.html (e.g. wbg-voc, icl). The bundle starts from these papers.",
+    "any: plain phrases; a paper must mention at least one (title or its own contribution). Spaces/hyphens and plurals are forgiving.",
+    "all: plain phrases; a paper must mention every one.",
+    "exclude: plain phrases; papers with these in the TITLE are dropped.",
+    "since: first year to include (optional).",
+    "class: PV (default), LED, DET, or any.",
+    "Leave out slices to search the whole halide-perovskite archive by phrases only.",
+    "If this file has a mistake, the daily run still works: plain.html shows the problem at the top and uses built-in defaults."
+  ],
+  "bundles": [
+    {
+      "slug": "nsfc-wbg-loss",
+      "title": "NSFC 面上 · Wide-bandgap losses: processing-induced or intrinsic?",
+      "purpose": "Context for a 面上 built on the extrinsic-versus-intrinsic question in wide-bandgap absorbers.",
+      "slices": ["wbg-processing", "wbg-intrinsic", "wbg-voc", "wbg-heterogeneity", "wbg-segregation"],
+      "since": 2018
+    },
+    {
+      "slug": "nsfc-tandem-stability",
+      "title": "NSFC 面上 · Which interface limits an integrated tandem?",
+      "purpose": "Context for a 面上 built on attributing tandem degradation to a specific layer or sub-cell.",
+      "slices": ["tandem-interface-limit", "subcell-selective", "icl", "nbg-stability", "tandem-coupling", "stability-mechanism"],
+      "since": 2018
+    },
+    {
+      "slug": "intl-characterisation",
+      "title": "International cooperation · Operando and sub-cell resolved characterisation",
+      "purpose": "Methods-led context for a joint project with a characterisation or synchrotron partner.",
+      "slices": ["operando", "subcell-selective", "ion-dynamics", "wbg-heterogeneity"],
+      "since": 2020
+    },
+    {
+      "slug": "industry-reliability",
+      "title": "Industry · Modules, reliability, encapsulation and lead management",
+      "purpose": "The language of company partners: scale-up, certification-style testing, degradation pathways, lead and recycling.",
+      "slices": ["app-scaleup", "app-reliability", "stability-mechanism", "lead-sustainability"],
+      "since": 2021
+    },
+    {
+      "slug": "indoor-iot",
+      "title": "Applied · Indoor photovoltaics and self-powered IoT",
+      "purpose": "Wide-bandgap absorbers as indoor harvesters, and cells as components of self-powered systems.",
+      "slices": ["app-indoor", "integration"]
+    },
+    {
+      "slug": "solar-fuels",
+      "title": "Long-term · Perovskite PV-driven solar fuels",
+      "purpose": "Perovskite PV and photoelectrodes for water splitting and CO2 reduction.",
+      "slices": ["solar-fuels"],
+      "class": "any"
+    },
+    {
+      "slug": "sam-hole-contacts",
+      "title": "Example of a phrase bundle · Self-assembled monolayer hole contacts",
+      "purpose": "Built from phrases only, to show how a custom topic is defined without slices.",
+      "any": ["self-assembled monolayer", "2PACz", "Me-4PACz", "MeO-2PACz", "SAM"],
+      "since": 2020
+    }
+  ]
+}
