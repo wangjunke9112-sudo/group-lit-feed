@@ -1,7 +1,7 @@
 {
  "year": "2026",
- "count": 8107,
- "generated": "2026-11-27 17:22 UTC",
+ "count": 8111,
+ "generated": "2026-11-28 03:52 UTC",
  "papers": [
   {
    "title": "Recent Progress in Vanadium Dioxide Polymorphs: Structures, Properties, Phase Stabilization Technologies and Phase Transition Route Devices",
@@ -27,7 +27,7 @@
     "resistive switching"
    ],
    "type": "review",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Side‐Chain Asymmetry Enables Dual‐Interface Regulation in Naphthalene Diimide Cathode Interlayers for High‐Performance Organic Solar Cells",
@@ -49,7 +49,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Self‐Rectifying ZnO/PZT Ferroelectric Synapses With Polarization‐Modulated Transport for Read–Penalty‐Resilient Neuromorphic Computing",
@@ -68,6 +68,26 @@
    "keywords": [
     "ferroelectric",
     "memristive",
+    "neuromorphic"
+   ],
+   "type": "article",
+   "oa_type_tried": 2
+  },
+  {
+   "title": "Spectral dynamics reservoir computing: High-performance neuromorphic computation from coarse spectra",
+   "link": "https://doi.org/10.1126/sciadv.aei3204",
+   "journal": "Science Advances",
+   "publisher": "Science",
+   "date": "2026-11-27",
+   "abstract": "Physical reservoir computing (PRC) uses material dynamics to perform non–von Neumann neuromorphic computation, yet how to exploit information in the materials remains critical for advancing real-time practical applications. Although many physical materials intrinsically exhibit nonlinear oscillatory dynamics whose frequency-domain features have been shown to support powerful neuromorphic computation, accessing this information at high processing speeds yields only coarse spectra due to the time-frequency trade-off. Here, we present spectral dynamics reservoir computing (SDRC), a framework based on selective filtering and envelope detection, which leverages coarse spectra of material responses to achieve high-speed, high-performance computation with hardware-efficient implementation. We experimentally demonstrate SDRC applied to spin waves using passive analog filters and diodes. Our system achieves strong benchmark performance and 98.0% accuracy in real-world speech recognition without cochleagram preprocessing, substantially reducing the required number of readout channels while outperforming conventional time-multiplexing approaches. Our work establishes a hardware-efficient framework for harnessing high-speed spectral dynamics in computation, paving the way for real-time neuromorphic processors.",
+   "authors": [
+    "Jiaxuan Chen",
+    "Ryo Iguchi",
+    "Sota Hikasa",
+    "Takashi Tsuchiya"
+   ],
+   "doi": "10.1126/sciadv.aei3204",
+   "keywords": [
     "neuromorphic"
    ],
    "type": "article",
@@ -93,8 +113,8 @@
     "quantum dot"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Molecular locking of lithium ions for improved efficiency and stability of perovskite solar cells",
@@ -123,8 +143,8 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Rigidity-driven molecular assembly for high-efficiency flexible perovskite/CIGS tandems",
@@ -159,8 +179,8 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Room-temperature continuous-wave mid-infrared microdisk laser on InP enabled by InAs quantum dots",
@@ -195,7 +215,7 @@
     "quantum dot"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Magnetic proximity effect in nanoparticle–molecule hybrids enables room-temperature circularly polarized luminescence",
@@ -223,6 +243,73 @@
     "circularly polarized luminescence"
    ],
    "type": "article",
+   "oa_type_tried": 2
+  },
+  {
+   "title": "Reconciling the surface and bulk oxygen vacancies in ITO for efficient inverted perovskite solar cells",
+   "link": "https://doi.org/10.1016/j.joule.2026.102749",
+   "journal": "Joule",
+   "publisher": "Cell",
+   "date": "2026-11-27",
+   "abstract": "",
+   "authors": [
+    "Dongbo Zhang",
+    "Keonwoo Park",
+    "Seung-Gu Choi",
+    "Dong-Jun Lee",
+    "Jiaming Miao",
+    "Peide Zhu",
+    "Peiyan Zhang",
+    "Yuanming Peng",
+    "Xinyi Fan",
+    "Yuqi Bao",
+    "Wenting Zheng",
+    "Jae-Hwan Kim",
+    "Seo-Ryoung Lee",
+    "Carolin M. Sutter-Fella",
+    "Ying Zhou",
+    "Yong Zhang",
+    "Jin-Wook Lee"
+   ],
+   "doi": "10.1016/j.joule.2026.102749",
+   "keywords": [
+    "perovskite",
+    "solar cell"
+   ],
+   "type": "article",
+   "ab_tried": 1,
+   "oa_type_tried": 1
+  },
+  {
+   "title": "Dynamic stress release via a mechano-photoisomerizable molecule for robust flexible perovskite/organic tandem solar cells",
+   "link": "https://doi.org/10.1016/j.joule.2026.102752",
+   "journal": "Joule",
+   "publisher": "Cell",
+   "date": "2026-11-27",
+   "abstract": "",
+   "authors": [
+    "Chenli Zhao",
+    "Tianyi Zhu",
+    "Weijie Chen",
+    "Denghui Ma",
+    "Gaoyin Wang",
+    "Jialei Zheng",
+    "Zhao Qi",
+    "Pengpeng Dong",
+    "Ziyue Wang",
+    "Haiyang Chen",
+    "Yunxiu Shen",
+    "Jianlin Yao",
+    "Yaowen Li"
+   ],
+   "doi": "10.1016/j.joule.2026.102752",
+   "keywords": [
+    "perovskite",
+    "solar cell",
+    "tandem"
+   ],
+   "type": "article",
+   "ab_tried": 1,
    "oa_type_tried": 1
   },
   {
@@ -259,8 +346,8 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Polarity‐Directed Assembly of in‐Plane Oriented Covalent Organic Framework Films on Substrates",
@@ -293,7 +380,7 @@
     "radiative recombination"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Biomimetic Reversible Phase Transition in Scandium‐Based Metal Halides for Environment‐Interactive Information Security",
@@ -317,7 +404,7 @@
     "upconversion"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Halide‐Based Mixed Ionic‐Electronic Conductors Deliver High‐Rate and Long‐Life All‐Solid‐State Lithium Batteries",
@@ -339,7 +426,7 @@
     "charge transport"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Chloride‐Induced Microstructure–Covalency Coupling Enables Ultrafine Nanoparticle Exsolution for High‐Performance CO 2 Electrolysis",
@@ -364,7 +451,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Dual Charge Extraction Pathways at Perovskite/Organic Hetero‐Contacts for Optoelectronics",
@@ -396,7 +483,7 @@
     "perovskite"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Hierarchical Chiral Spindle Microbeads for Full‐Color Circularly Polarized Luminescence",
@@ -419,7 +506,7 @@
     "circularly polarized luminescence"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "High Optical Contrast Spectral Feedback in Magnetic Soft Robots Utilizing Magnetic Chain‐Quantum Dot Composites (Adv. Funct. Mater. 95/2026)",
@@ -442,8 +529,8 @@
     "quantum dot"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Electrically Induced Phase Transition and Synaptic Functionality in MoTe 2 /Graphene Memristors (Adv. Funct. Mater. 95/2026)",
@@ -467,8 +554,8 @@
     "memristor"
    ],
    "type": "article",
-   "ab_tried": 1,
-   "oa_type_tried": 1
+   "ab_tried": 2,
+   "oa_type_tried": 2
   },
   {
    "title": "Multi‐Node Reservoir Computing With a 2D Ferroelectric‐Integrated Photonic Chip",
@@ -499,7 +586,7 @@
     "ferroelectric"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Halide‐Polyoxometalate Sub‐1 nm Nanowires: Kinetic‐Controlled Microfluidic Synthesis, Chiroptical and Spin Polarization Properties",
@@ -526,7 +613,7 @@
     "photodetector"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Luminescent Silk Composites: From Biological Incorporation to Engineered Functional Coatings",
@@ -546,7 +633,7 @@
     "upconversion"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Tandem Solar Cells Based on Si and Stable Cu(In,Ga)S 2 With Efficiency Beyond the Bottom Cell",
@@ -584,7 +671,7 @@
     "tandem"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Multimodal Microscopy-Guided Charge Dynamics Modulation via Perovskite Heterointerface Design for Efficient Printable Mesoscopic Solar Cells",
@@ -612,7 +699,7 @@
     "solar cell"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Phase-Engineered Cobalt Molybdate for Highly Selective Visible-Light Photocatalytic Oxidation of Glycerol",
@@ -634,7 +721,7 @@
     "nanocrystal"
    ],
    "type": "article",
-   "oa_type_tried": 1
+   "oa_type_tried": 2
   },
   {
    "title": "Selective Recovery of Gallium, Copper, and Indium from Spent Copper Indium Gallium Selenide Thin-Film Solar Cells Using Thermo-Responsive Multi-template Ion-Imprinted Polymers",
@@ -660,6 +747,28 @@
    "keywords": [
     "photovoltaic",
     "solar cell"
+   ],
+   "type": "article",
+   "oa_type_tried": 2
+  },
+  {
+   "title": "Wavelength-Switchable Bidirectional Photoelectric Plasticity in In2Se3 Nanoparticle-Modified In2O3 Nanowires for Neuromorphic Vision",
+   "link": "https://doi.org/10.1021/acsami.6c14022",
+   "journal": "ACS Applied Materials & Interfaces",
+   "publisher": "ACS",
+   "date": "2026-11-27",
+   "abstract": "Abstract Neuromorphic vision systems require dynamic and multispectral visual processing capabilities to operate in complex environments. However, most optoelectronic synapses still exhibit either a fixed-polarity photoresponse or weak wavelength selectivity, which limits their potential for advanced neuromorphic vision. Here, we report a wavelength-dependent bidirectional optoelectronic synapse based on In2Se3 nanoparticle-modified In2O3 nanowires. We introduce In2Se3 nanoparticles, which are prepared through a facile and scalable liquid-phase exfoliation method, and first employ them to modulate the photoresponse in synaptic devices. The resulting heterostructure broadens the UV spectral response into the visible region and enables bidirectional photocurrents. Positive photocurrents are observed under 365, 455, and 520 nm illumination, whereas a negative photocurrent appears under 640 nm excitation. The measurements are consistent with a qualitative picture in which conductance-enhancing photocarrier processes compete with trapping-related changes in effective channel transport or contact resistance, with their relative contributions depending on the excitation wavelength. In addition to typical synaptic behaviors, the device combines temporal memory and a wavelength-dependent bidirectional response to enable the accumulation of information across sequential optical inputs, which is used in a proof-of-concept simulation of temporal visual preprocessing for varying camouflage scenes. This work provides a materials strategy for wavelength-selective bidirectional optoelectronic synapses and illustrates their potential for temporal visual preprocessing through proof-of-concept simulations.",
+   "authors": [
+    "Jiaxin Chen",
+    "Wenbo Wang",
+    "Yanhui Li",
+    "Jie Wang",
+    "Qingshan Zhu",
+    "Wentao Xu"
+   ],
+   "doi": "10.1021/acsami.6c14022",
+   "keywords": [
+    "neuromorphic"
    ],
    "type": "article",
    "oa_type_tried": 1
@@ -816,7 +925,7 @@
     "neuromorphic"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -1070,7 +1179,7 @@
   },
   {
    "title": "Reconfigurable Noise‐Spectroscopy Physical Unclonable Function in Floating‐Body Charge‐Trap‐Flash Transistors (Adv. Funct. Mater. 94/2026)",
-   "link": "https://doi.org/10.1002/adfm.79585",
+   "link": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adfm.79585?af=R",
    "journal": "Advanced Functional Materials",
    "publisher": "Wiley",
    "date": "2026-11-26",
@@ -1497,7 +1606,7 @@
     "nanocrystal"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1544,7 +1653,7 @@
     "solar cell"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1609,7 +1718,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 3,
+   "ab_tried": 4,
    "oa_type": "article"
   },
   {
@@ -1815,7 +1924,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type_tried": 2
   },
   {
@@ -1840,7 +1949,7 @@
     "perovskite"
    ],
    "type": "article",
-   "ab_tried": 2,
+   "ab_tried": 3,
    "oa_type": "article"
   },
   {
@@ -2603,7 +2712,7 @@
     "tandem"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -2632,7 +2741,7 @@
     "photovoltaic"
    ],
    "type": "article",
-   "ab_tried": 4,
+   "ab_tried": 5,
    "oa_type": "article"
   },
   {
@@ -3504,7 +3613,7 @@
     "wide bandgap"
    ],
    "type": "article",
-   "ab_tried": 5,
+   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -5050,14 +5159,14 @@
    "journal": "EES Solar",
    "publisher": "RSC",
    "date": "2026-11-20",
-   "abstract": "The remarkable progress of perovskite solar cells (PSCs) over the past decade has been largely driven by advances in bulk and interfacial defect passivation strategies. Nevertheless, wide-bandgap (WBG) perovskites (~1.75...",
+   "abstract": "The remarkable progress of perovskite solar cells (PSCs) over the past decade has been largely driven by advances in bulk and interfacial defect passivation strategies. Nevertheless, wide-bandgap (WBG) perovskites (∼1.75 eV), which are essential for tandem and semitransparent photovoltaic applications, continue to suffer from defect induced non-radiative recombination and stability limitations. Herein, we introduce a multifunctional additive, 4-(trifluoromethyl)salicylic acid (TFMSA), into a methylammonium-free (MA-free) wide-bandgap perovskite system to simultaneously regulate crystallization and passivate defects. TFMSA interacts strongly with undercoordinated Pb 2+ sites and forms hydrogen-bonding interactions (O–H···I), thereby suppressing trap states and stabilizing the perovskite lattice, as further confirmed by density functional theory (DFT) calculations. As a result, the modified films exhibit enhanced radiative recombination efficiency, prolonged carrier lifetime, and improved spatial homogeneity, evidencing comprehensive mitigation of defect-mediated non-radiative pathways. The optimized opaque cell delivers a power conversion efficiency (PCE) of 21.09%, representing one of the highest efficiencies reported for ∼1.75 eV MA-free WBG PSCs. Furthermore, by thickness modulation of the same stabilized composition, semitransparent perovskite solar cells (ST-PSCs) achieve a record light utilization efficiency (LUE) of 5.43%, with a PCE of 12.50% and an average visible transmittance (AVT) of 43.45% over a 1 cm 2 active area for p–i–n type configuration, highlighting their strong potential for building integrated photovoltaic (BIPV) applications.",
    "authors": [
     "Suryakanta Tanty",
     "Jeonggeun Lee",
     "Aidana Azamat",
     "Seokyoung Lee",
     "Vishal Gupta",
-    "Songmin Han",
+    "Seongmin Han",
     "Peddaboodi Gopikrishna",
     "Vijay Gupta",
     "Anirban Kundu",
@@ -5070,13 +5179,17 @@
    ],
    "doi": "10.1039/d6el00207b",
    "keywords": [
+    "carrier lifetime",
     "defect passivation",
+    "non-radiative recombination",
     "perovskite",
+    "photovoltaic",
+    "radiative recombination",
     "solar cell",
+    "tandem",
     "wide bandgap"
    ],
    "type": "article",
-   "ab_tried": 6,
    "oa_type": "article"
   },
   {
@@ -5679,7 +5792,7 @@
   },
   {
    "title": "Advances in scalable processing of Sn–Pb halide perovskites for photovoltaic applications",
-   "link": "https://pubs.rsc.org/el/article/doi/10.1039/d6el00143b/1385891/Advances-in-scalable-processing-of-Sn-Pb-halide",
+   "link": "https://doi.org/10.1039/d6el00143b",
    "journal": "EES Solar",
    "publisher": "RSC",
    "date": "2026-11-19",
@@ -6208,7 +6321,7 @@
   },
   {
    "title": "Selective washing for reproducible 2D/3D perovskite interfaces",
-   "link": "https://www.cell.com/joule/fulltext/S2542-4351(26)00422-8?rss=yes",
+   "link": "https://doi.org/10.1016/j.joule.2026.102738",
    "journal": "Joule",
    "publisher": "Cell",
    "date": "2026-11-18",
@@ -12508,7 +12621,7 @@
   },
   {
    "title": "Photolithography Patternable and Mechanically Robust Silver Nanowire Films for High‐Resolution Flexible Light‐Emitting Devices",
-   "link": "https://doi.org/10.1002/smtd.71193",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/smtd.71193?af=R",
    "journal": "Small Methods",
    "publisher": "Wiley",
    "date": "2026-11-06",
@@ -12536,7 +12649,7 @@
   },
   {
    "title": "A High‐Speed Dielectric Approach to Track Domain Structure Evolution in Operating Ferroelectric Devices",
-   "link": "https://doi.org/10.1002/smtd.71182",
+   "link": "https://onlinelibrary.wiley.com/doi/10.1002/smtd.71182?af=R",
    "journal": "Small Methods",
    "publisher": "Wiley",
    "date": "2026-11-06",
@@ -12820,7 +12933,7 @@
   },
   {
    "title": "All-optical thin-film lithium niobate memristor",
-   "link": "https://doi.org/10.1038/s41566-026-02048-1",
+   "link": "https://www.nature.com/articles/s41566-026-02048-1",
    "journal": "Nature Photonics",
    "publisher": "Nature",
    "date": "2026-11-06",
